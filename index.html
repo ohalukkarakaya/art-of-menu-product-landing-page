@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ArtOfMenu: Daha çok kazandıran menü</title>
+  <meta name="description" content="Kafe, restoran, bar ve pastaneler için QR menü, masadan sipariş, stok ve günlük akıllı fiyat tek yerde.">
+  <meta name="theme-color" content="#FBFBFD">
+  <meta property="og:title" content="ArtOfMenu: Daha çok kazandıran menü">
+  <meta property="og:description" content="QR menü, masadan sipariş ve günlük akıllı fiyat tek yerde.">
+  <meta property="og:image" content="assets/web/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/web/hero-phone.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css?v=6">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+
+<a class="skip" href="#main" data-i18n="nav.skip">İçeriğe geç</a>
+
+
+<main id="main">
+
+  <!-- ================= Hero ================= -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="glow" aria-hidden="true"><span class="g1"></span><span class="g2"></span><span class="g3"></span></div>
+    <a class="hero-logo wrap rise" href="#top" aria-label="ArtOfMenu" style="--d:0s"><span class="logo-face"><img src="assets/web/mino-wave.webp" alt="" width="520" height="622"></span><span class="logo-word">artofmenu</span></a>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <h1 id="hero-title">
+          <span class="line"><span data-i18n="hero.t1">Daha çok</span></span>
+          <span class="line"><span data-i18n="hero.t2">kazandıran</span></span>
+          <span class="line"><span class="hl" data-i18n="hero.t3">menü.</span></span>
+        </h1>
+        <p class="hero-lead rise" style="--d:.55s" data-i18n="hero.lead">QR menüyle başlayın. ArtOfMenu yarının talebini tahmin eder, fiyatı sizin sınırlarınız içinde ayarlar ve misafire doğru anda doğru ürünü önerir.</p>
+        <div class="hero-actions rise" style="--d:.7s">
+          <a class="btn btn-ink btn-lg" href="#join" data-i18n="hero.cta">7 gün ücretsiz dene</a>
+          <a class="btn btn-glass btn-lg" href="#story" data-i18n="hero.cta2">Nasıl çalıştığını gör</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+                <div class="float f-main" data-k="0.35"><div class="pop" style="--d:.1s"><img class="bob" src="assets/web/hero-phone.webp" alt="" width="1100" height="846" style="--bt:7s"></div></div>
+        <div class="float f-latte" data-k="1.2"><div class="pop" style="--d:.45s"><img class="bob" src="assets/web/p-latte.webp" alt="" width="420" height="327" style="--bt:5.4s"></div></div>
+        <div class="float f-croissant" data-k="1.6"><div class="pop" style="--d:.55s"><img class="bob" src="assets/web/p-croissant.webp" alt="" width="420" height="324" style="--bt:6.2s; --bd:-1.5s"></div></div>
+        <div class="float f-cake" data-k="1.0"><div class="pop" style="--d:.65s"><img class="bob" src="assets/web/p-cheesecake.webp" alt="" width="420" height="308" style="--bt:5.8s; --bd:-2.5s"></div></div>
+        <div class="float f-coins" data-k="1.9"><div class="pop" style="--d:.75s"><img class="bob" src="assets/web/p-coins.webp" alt="" width="306" height="331" style="--bt:4.6s; --bd:-1s"></div></div>
+        <div class="float f-lemon" data-k="1.4"><div class="pop" style="--d:.85s"><img class="bob" src="assets/web/p-lemonade.webp" alt="" width="290" height="450" style="--bt:6.6s; --bd:-3s"></div></div>
+        <div class="float f-basil" data-k="2.2"><div class="pop" style="--d:.95s"><img class="bob" src="assets/web/p-basil.webp" alt="" width="369" height="339" style="--bt:5s; --bd:-.5s"></div></div>
+      </div>
+    </div>
+
+    <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+  </section>
+
+  <!-- ================= Pinned story ================= -->
+  <section class="story" id="story" aria-label="Nasıl çalışır" data-i18n-attr="aria-label:nav.how">
+    <div class="story-stage" id="story-stage" data-ch="0">
+      <div class="wrap story-grid">
+        <div class="story-copy">
+          <ol class="chapters">
+            <li class="chapter">
+              <p class="ch-meta"><span class="ch-no">01</span><span class="ch-pkg" data-i18n="c1.pkg">Tüm paketlerde</span></p>
+              <h2 data-i18n="c1.t">Misafir okutur, menü kendi dilinde açılır.</h2>
+              <p data-i18n="c1.d">Masadaki QR hep aynı kalır, menüyü siz güncellersiniz. Fotoğraflar, alerjenler ve ülkenizin para birimi hazır.</p>
+            </li>
+            <li class="chapter">
+              <p class="ch-meta"><span class="ch-no">02</span><span class="ch-pkg">Order</span></p>
+              <h2 data-i18n="c2.t">Sipariş masadan, garsonun cebine.</h2>
+              <p data-i18n="c2.d">Misafir sepeti gönderir, garson telefonunda anında görür. Garson, su ya da hesap çağrısı tüm garsonların ekranına düşer.</p>
+            </li>
+            <li class="chapter">
+              <p class="ch-meta"><span class="ch-no">03</span><span class="ch-pkg">Smart</span></p>
+              <h2 data-i18n="c3.t">Hava döner, menü de döner.</h2>
+              <p data-i18n="c3.d">Soğukta sıcak içecekler yukarı çıkar, tükenmek üzere olan ürün aşağı iner. Gün içinde fiyat değil, yalnızca sıra değişir.</p>
+            </li>
+            <li class="chapter">
+              <p class="ch-meta"><span class="ch-no">04</span><span class="ch-pkg">Smart</span></p>
+              <h2 data-i18n="c4.t">Latte'nin yanına bir dilim cheesecake.</h2>
+              <p data-i18n="c4.d">Misafir latte eklediğinde, o şubede latteyle en çok alınan tatlı önerilir. Sepet büyür, misafir rahatsız olmaz.</p>
+            </li>
+          </ol>
+          <div class="dots" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        </div>
+
+        <div class="story-visual" aria-hidden="true">
+          <div class="blob"></div>
+          <div class="blob-ring"></div>
+          <img class="scene" src="assets/web/story-scan.webp" alt="" width="1100" height="838" loading="lazy">
+          <img class="scene" src="assets/web/story-order.webp" alt="" width="1100" height="722" loading="lazy">
+          <img class="scene" src="assets/web/story-weather.webp" alt="" width="1100" height="711" loading="lazy">
+          <img class="scene" src="assets/web/story-pair.webp" alt="" width="1100" height="618" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Smart ================= -->
+  <section class="smart" id="smart" aria-labelledby="smart-title">
+    <div class="glow glow-dark" aria-hidden="true"><span class="g1"></span></div>
+    <div class="wrap smart-grid">
+      <div class="smart-copy">
+        <img class="smart-art" src="assets/web/smart-night.webp" alt="" width="1100" height="762" loading="lazy" aria-hidden="true" data-reveal="pop">
+        <p class="eyebrow" data-reveal><span class="eyebrow-dot"></span><span data-i18n="smart.k">Smart paketi</span></p>
+        <h2 id="smart-title" data-reveal data-i18n="smart.title">Yarının fiyatı bu akşam hazır.</h2>
+        <p class="smart-lead" data-reveal data-i18n="smart.lead2">Her akşam hava tahminine, tatillere ve beklenen talebe bakar; ertesi günün fiyatlarını sizin belirlediğiniz aralıkta hazırlar. Fiyat günde en fazla bir kez değişir.</p>
+        <ul class="chips" data-reveal>
+          <li data-i18n="chip.1">Özel günler</li>
+          <li data-i18n="chip.2">Hava tahmini</li>
+          <li data-i18n="chip.3">Min–maks sınırı</li>
+          <li data-i18n="chip.4">Kendi verinizden öğrenir</li>
+        </ul>
+      </div>
+
+      <div class="tomorrow" id="tomorrow" data-mode="approve" data-reveal="pop">
+        <div class="tm-head">
+          <span class="tm-day" data-i18n="tm.day">Cumartesi, 14 Şubat</span>
+          <span class="tm-tags"><span class="tm-tag tm-tag-pink" data-i18n="tm.event">Sevgililer Günü</span><span class="tm-tag" data-i18n="tm.weather">8°, yağmurlu</span></span>
+        </div>
+        <p class="tm-reason" data-i18n="tm.reason">Soğuk ve kalabalık bir gün bekleniyor: sıcak içecekler çok satacak.</p>
+        <div class="tm-mode" role="radiogroup" aria-label="Fiyat modu" data-i18n-attr="aria-label:tm.modeLabel">
+          <span class="tm-mode-bg" aria-hidden="true"></span>
+          <button type="button" role="radio" data-mode="approve" aria-checked="true" data-i18n="tm.mode.approve">Onaylı</button>
+          <button type="button" role="radio" data-mode="auto" aria-checked="false" data-i18n="tm.mode.auto">Otomatik</button>
+          <button type="button" role="radio" data-mode="off" aria-checked="false" data-i18n="tm.mode.off">Kapalı</button>
+        </div>
+        <ul class="tm-rows" id="tm-rows"></ul>
+        <p class="tm-foot" id="tm-foot" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Features ================= -->
+  <section class="features" aria-labelledby="features-title">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="features-title" data-reveal data-i18n="more.title">Masada başka neler var.</h2>
+        <p data-reveal data-i18n="more.lead">Menünün arkasındaki işler de aynı panelde.</p>
+      </div>
+      <ul class="cards">
+        <li class="card" data-reveal="pop" style="--tint:#FFB4C2">
+          <img src="assets/web/f-pdf.webp" alt="" width="450" height="400" loading="lazy">
+          <h3 data-i18n="f.pdf.t">PDF'ten dakikalar içinde menü</h3>
+          <p data-i18n="f.pdf.d">Elinizdeki PDF menüyü yükleyin, aynı gün yayında olsun.</p>
+          <span class="pkg">Menu</span>
+        </li>
+        <li class="card" data-reveal="pop" style="--tint:#7FDCC0">
+          <img src="assets/web/f-stock.webp" alt="" width="321" height="387" loading="lazy">
+          <h3 data-i18n="f.stock.t">Reçeteli stok</h3>
+          <p data-i18n="f.stock.d">Bir malzeme biterse, onunla yapılan ürün menüde kendiliğinden tükendi olur.</p>
+          <span class="pkg pkg-smart">Smart</span>
+        </li>
+        <li class="card" data-reveal="pop" style="--tint:#FFC83D">
+          <img src="assets/web/f-reports.webp" alt="" width="415" height="369" loading="lazy">
+          <h3 data-i18n="f.reports.t">Menü raporları</h3>
+          <p data-i18n="f.reports.d">Çok görülüp az açılan, açılıp sipariş edilmeyen ürünler için panel sizi uyarır.</p>
+          <span class="pkg">Menu</span>
+        </li>
+        <li class="card" data-reveal="pop" style="--tint:#3D5AFE">
+          <img src="assets/web/f-screens.webp" alt="" width="520" height="296" loading="lazy">
+          <h3 data-i18n="f.screens.t">Tezgâh ekranları</h3>
+          <p data-i18n="f.screens.d">Menü tezgâh arkasındaki monitörlerde; birden fazla ekran sayfayı birlikte çevirir.</p>
+          <span class="pkg">Smart</span>
+        </li>
+        <li class="card" data-reveal="pop" style="--tint:#FF5A3C">
+          <img src="assets/web/f-theme.webp" alt="" width="420" height="385" loading="lazy">
+          <h3 data-i18n="f.theme.t">Temanız, alan adınız</h3>
+          <p data-i18n="f.theme.d">Hazır temalar ve kendi alan adınız. Order ve Smart'ta kendi HTML/CSS temanızı da yükleyin.</p>
+          <span class="pkg">Menu</span>
+        </li>
+        <li class="card" data-reveal="pop" style="--tint:#C9B8FF">
+          <img src="assets/web/f-design.webp" alt="" width="479" height="424" loading="lazy">
+          <h3 data-i18n="f.design.t">Menünüzü tasarımcılarımız çizer</h3>
+          <p data-i18n="f.design.d">Smart'ta şube başına bir kez, menünüz profesyonel bir tasarımcının elinden çıkar.</p>
+          <span class="pkg pkg-smart">Smart</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= Plans ================= -->
+  <section class="plans" id="plans" aria-labelledby="plans-title">
+    <div class="wrap">
+      <div class="sec-head sec-head-center">
+        <h2 id="plans-title" data-reveal data-i18n="plans.title">Üç paket, tek menü.</h2>
+        <p data-reveal data-i18n="plans.lead">Abonelik şube başına. İşletmeniz büyüdükçe bir üst pakete geçin; paket düşürseniz de verileriniz silinmez.</p>
+      </div>
+      <div class="plan-grid">
+        <article class="plan" data-reveal="pop">
+          <h3>Menu</h3>
+          <p class="plan-tag" data-i18n="p.menu.tag">Dijital menünüz, dakikalar içinde</p>
+          <ul>
+            <li data-i18n="p.menu.1">QR menü, fotoğraflar, alerjenler, çoklu dil</li>
+            <li data-i18n="p.menu.2">Hazır temalar ve kendi alan adınız</li>
+            <li data-i18n="p.menu.3">PDF menünüzü yükleyip hemen yayına alma</li>
+            <li data-i18n="p.menu.4">Anonim menü istatistikleri</li>
+          </ul>
+        </article>
+        <article class="plan" data-reveal="pop">
+          <h3>Order</h3>
+          <p class="plan-tag" data-i18n="p.order.tag">Masadan sipariş, garsonun cebinde</p>
+          <ul>
+            <li data-i18n="p.order.1">QR menünün tamamı (PDF menü hariç)</li>
+            <li data-i18n="p.order.2">Masadan sipariş, canlı garson ekranı ve bildirim</li>
+            <li data-i18n="p.order.3">Basit stok ve sipariş raporları</li>
+            <li data-i18n="p.order.4">Kendi HTML/CSS temanızı yükleme</li>
+          </ul>
+        </article>
+        <article class="plan plan-smart" data-reveal="pop">
+          <img class="plan-mino" src="assets/web/mino-point.webp" alt="" width="520" height="610" loading="lazy" aria-hidden="true">
+          <span class="trial" data-i18n="p.smart.trial">7 gün ücretsiz</span>
+          <h3>Smart</h3>
+          <p class="plan-tag" data-i18n="p.smart.tag">İşletmenizi büyüten zekâ</p>
+          <ul>
+            <li data-i18n="p.smart.1">Order'daki her şey</li>
+            <li data-i18n="p.smart.2">Günlük akıllı fiyat ve özel gün takvimi</li>
+            <li data-i18n="p.smart.3">Canlı menü sıralaması ve "bununla iyi gider" önerileri</li>
+            <li data-i18n="p.smart.4">Masadan çağırma, reçeteli stok, tezgâh ekranları</li>
+            <li data-i18n="p.smart.5">Şube başına bir kez profesyonel menü tasarımı</li>
+          </ul>
+          <a class="btn btn-light" href="#join" data-i18n="hero.cta">7 gün ücretsiz dene</a>
+        </article>
+      </div>
+      <p class="plans-note" data-reveal data-i18n="plans.note">Fiyatlar lansmanda açıklanacak. Para birimi, vergi gösterimi ve fiyat yuvarlaması ülkenize göre ayarlı.</p>
+    </div>
+  </section>
+
+  <!-- ================= Trust ================= -->
+  <section class="trust" aria-labelledby="trust-title">
+    <div class="wrap">
+      <div class="trust-top">
+        <h2 id="trust-title" class="manifesto" data-i18n="trust.manifesto">Misafirinizi izlemeyiz. Fiyatlarınızı kimseyle paylaşmayız. Hesabınız da verileriniz de sizin.</h2>
+        <img class="trust-mino" src="assets/web/mino-proud.webp" alt="" width="520" height="724" loading="lazy" aria-hidden="true" data-reveal="pop">
+      </div>
+      <dl class="trust-list">
+        <div data-reveal><dt data-i18n="tr.1.t">Şeffaf deneme</dt><dd data-i18n="tr.1.d">Deneme bitmeden 3 gün ve 1 gün önce panelden, bildirimle ve e-postayla hatırlatırız. İptal tek adım; deneme bitene kadar ücret alınmaz.</dd></div>
+        <div data-reveal><dt data-i18n="tr.2.t">Çerez yok, iz yok</dt><dd data-i18n="tr.2.d">Misafirden çerez, kalıcı kimlik ya da IP saklamıyoruz. İstatistikler anonim.</dd></div>
+        <div data-reveal><dt data-i18n="tr.3.t">Fiyatınız sizde kalır</dt><dd data-i18n="tr.3.d">İşletmeler arasında yalnızca davranış katsayıları paylaşılır, fiyatlar asla. İstemezseniz katılmazsınız.</dd></div>
+        <div data-reveal><dt data-i18n="tr.4.t">Hesap sizin</dt><dd data-i18n="tr.4.d">Hesabınızı kapatıp 30 gün içinde geri açabilirsiniz. Destek ekibimiz yalnızca sizin verdiğiniz, süreli ve salt okunur erişimle bakar.</dd></div>
+        <div data-reveal><dt data-i18n="tr.5.t">Yasal uyum</dt><dd data-i18n="tr.5.d">İçerik bildirimleri ve kaldırma süreçleri DSA ve 5651'e göre hazır.</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ================= Join ================= -->
+  <section class="join" id="join" aria-labelledby="join-title">
+    <div class="wrap join-grid">
+      <div class="join-copy">
+        <h2 id="join-title" data-reveal data-i18n="join.title">Daha çok kazanmaya bu akşam başlayın.</h2>
+        <p data-reveal data-i18n="join.lead">Erken erişim listesine katılın; açıldığımızda ilk siz haberdar olun ve Smart'ı 7 gün ücretsiz deneyin.</p>
+        <form class="join-form" id="join-form" novalidate data-endpoint="" data-reveal>
+          <label class="sr-only" for="join-email" data-i18n="join.label">E-posta adresiniz</label>
+          <input id="join-email" name="email" type="email" autocomplete="email" required placeholder="E-posta adresiniz" data-i18n-attr="placeholder:join.label">
+          <button class="btn btn-ink" type="submit" data-i18n="join.button">Listeye katıl</button>
+        </form>
+        <p class="join-status" id="join-status" aria-live="polite"></p>
+      </div>
+      <div class="join-art" aria-hidden="true">
+        <img class="join-mino" src="assets/web/join-celebrate.webp" alt="" width="1100" height="1035" loading="lazy">
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-row">
+    <p>© 2026 ArtOfMenu</p>
+  </div>
+  <p class="wordmark" aria-hidden="true">artofmenu</p>
+</footer>
+
+<script src="i18n.js?v=6"></script>
+<script src="main.js?v=6"></script>
+</body>
+</html>
