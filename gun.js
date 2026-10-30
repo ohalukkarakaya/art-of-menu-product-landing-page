@@ -12,6 +12,7 @@
   var worlds = Array.prototype.slice.call(stage.querySelectorAll(".world"));
   var chapters = Array.prototype.slice.call(stage.querySelectorAll(".chapter"));
   var LAST = worlds.length - 1;
+  var finalAda = document.getElementById("ada-final");
 
   /* Light for each hour: sky top, sky bottom, orb (sun or moon), whether text turns white */
   var SCENES = [
@@ -73,11 +74,21 @@
       rows[id].classList.toggle("is-low", s.low === id);
     });
   }
-  function setWeather(next) {
-    if (next === weather) return;
+  // The phone leans in toward the viewer for a moment, then settles back.
+  var handZoom = document.getElementById("hand-zoom");
+  function zoomPhone() {
+    if (reduceMQ.matches) return;
+    var near = "translate3d(-16%, -9%, 0) scale(1.24)";
+    handZoom.animate([
+      { transform: "none", easing: "cubic-bezier(.22, 1, .36, 1)" },
+      { transform: near, offset: .3 },
+      { transform: near, offset: .7, easing: "cubic-bezier(.6, 0, .3, 1)" },
+      { transform: "none" }
+    ], { duration: 2800 });
+  }
+  function reorder() {
     var first = {};
     Object.keys(rows).forEach(function (id) { first[id] = rows[id].getBoundingClientRect().top; });
-    weather = next;
     paintWeather();
     if (reduceMQ.matches) return;
     var scale = list.getBoundingClientRect().height / (list.offsetHeight || 1) || 1;
@@ -88,6 +99,19 @@
           { duration: 850, easing: "cubic-bezier(.16, 1, .3, 1)" });
       }
     });
+  }
+  var reorderTimer = 0;
+  function setWeather(next) {
+    if (next === weather) return;
+    weather = next;
+    clearTimeout(reorderTimer);
+    if (next === "rain" && !reduceMQ.matches) {
+      // lean in first, then let the menu rearrange while it is close
+      zoomPhone();
+      reorderTimer = setTimeout(reorder, 500);
+    } else {
+      reorder();
+    }
   }
   paintWeather();
 
@@ -134,7 +158,7 @@
      Scroll timeline
      ===================================================== */
 
-  var target = 0, smooth = 0, inited = false, pending = false;
+  var target = 0, smooth = 0, inited = false, pending = false, sheetOpen = false;
   var mx = 0, my = 0, tmx = 0, tmy = 0;
 
   // Hold each world in place for a while, then move on: d in [-1, 1] -> eased travel.
@@ -183,11 +207,9 @@
       // a small steady push-in so every bit of scroll shows movement, even while an hour holds
       var s = (t < 0 ? 1 + t * 0.15 : 1 + t * 0.6) * (1 + d * 0.05);
       var o = t < 0 ? 1 + t * 1.4 : 1 - t * 1.6;
-      var px = mx * -40, py = my * -24;
+      var px = mx * -70, py = my * -40;
       w.style.opacity = clamp(o).toFixed(3);
-      w.style.transform = "translate3d(" + px.toFixed(1) + "px, calc(" + y.toFixed(2) + "svh + " + py.toFixed(1) + "px), 0) scale(" + s.toFixed(3) + ")";
-      var ada = w.querySelector(".ada");
-      if (ada) ada.style.transform = "translate3d(" + (mx * -36 + t * -40).toFixed(1) + "px," + (my * -14).toFixed(1) + "px,0)";
+      w.style.transform = "translate3d(" + px.toFixed(1) + "px, calc(" + y.toFixed(2) + "svh + " + py.toFixed(1) + "px), 0) rotate(" + (mx * 1.2).toFixed(2) + "deg) scale(" + s.toFixed(3) + ")";
     });
 
     // Copy for the current hour
@@ -197,7 +219,7 @@
       c.style.opacity = o.toFixed(3);
       c.style.transform = mobile
         ? "translate3d(0," + (t * -40).toFixed(1) + "px,0)"
-        : "translate3d(0, calc(-50% + " + (t * -60).toFixed(1) + "px), 0)";
+        : "translate3d(" + (mx * 14).toFixed(1) + "px, calc(-50% + " + (t * -60 + my * 8).toFixed(1) + "px), 0)";
       c.style.visibility = o > 0.01 ? "visible" : "hidden";
     });
 
@@ -205,12 +227,26 @@
     var hand = 1 - smoothstep(0.55, 0.95, p) * (1 - smoothstep(4.25, 4.7, p));
     set("--hand", hand.toFixed(3));
     // depth layers answer the pointer: hand in front moves most, clouds far back move least
-    set("--hx", (mx * 50).toFixed(1)); set("--hy", (my * 30).toFixed(1));
-    set("--cpx", (mx * -14).toFixed(1)); set("--cpy", (my * -8).toFixed(1));
+    var dl = p - Math.round(p);   // -0.5..0.5 inside the current hour, for scroll parallax
+    // Ada stands a little in front of her island: a light extra drift, never a big one.
+    // The jumping Ada at the end is mid-air, so she gets a bit more.
+    worlds.forEach(function (w, i) {
+      var ada = w.querySelector(".ada");
+      if (!ada) return;
+      var k = ada === finalAda ? 2.2 : 1, d = p - i;
+      ada.style.setProperty("--ax", (mx * -16 * k).toFixed(1) + "px");
+      ada.style.setProperty("--ay", (my * -10 * k + d * -24 * k).toFixed(1) + "px");
+    });
+    set("--hx", (mx * 90).toFixed(1)); set("--hy", Math.max(0, 28 + my * 40 + Math.abs(dl) * 70).toFixed(1));
+    set("--cpx", (mx * -30 + p * -60).toFixed(1)); set("--cpy", (my * -16 + dl * 50).toFixed(1));
+    set("--ox", (mx * -20).toFixed(1)); set("--oy", (my * -12 + dl * 60).toFixed(1));
     var screen = document.getElementById("screen");
     screen.style.setProperty("--cart", (smoothstep(1.6, 1.85, p) * (1 - smoothstep(2.3, 2.5, p))).toFixed(3));
     stage.style.setProperty("--ping", (smoothstep(1.75, 1.95, p) * (1 - smoothstep(2.3, 2.5, p))).toFixed(3));
-    screen.style.setProperty("--sheet", (smoothstep(3.7, 3.95, p) * (1 - smoothstep(4.4, 4.6, p))).toFixed(3));
+    var sheet = smoothstep(3.7, 3.95, p) * (1 - smoothstep(4.4, 4.6, p));
+    screen.style.setProperty("--sheet", sheet.toFixed(3));
+    if (sheet > 0.5 && !sheetOpen) { sheetOpen = true; zoomPhone(); }
+    if (sheet < 0.2) sheetOpen = false;
     setWeather(p > 2.65 ? "rain" : "sun");
 
     // Rain around 18:00

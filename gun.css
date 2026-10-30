@@ -57,7 +57,7 @@ ol { margin: 0; padding: 0; list-style: none; }
   background: var(--orb-c, #FFF4C8);
   box-shadow: 0 0 80px 20px var(--orb-glow, rgba(255, 236, 170, .55));
   opacity: var(--orb-o, 1);
-  transform: translate(-50%, -50%);
+  transform: translate(calc(-50% + var(--ox, 0) * 1px), calc(-50% + var(--oy, 0) * 1px));
 }
 
 /* Clouds drift slowly; they darken with the rain */
@@ -92,9 +92,15 @@ ol { margin: 0; padding: 0; list-style: none; }
 /* Planets only rock gently, never turn upside down */
 .rock { animation: rock 14s ease-in-out infinite alternate; }
 @keyframes rock { from { rotate: -3deg; } to { rotate: 3deg; } }
+/* Ada gets her own light depth: a little extra pointer/scroll drift and a slow idle sway */
+.ada { translate: var(--ax, 0px) var(--ay, 0px); transform-origin: 50% 100%; animation: idle 4.2s ease-in-out infinite alternate; }
+@keyframes idle { from { transform: translateY(0) rotate(-.8deg); } to { transform: translateY(-5px) rotate(.8deg); } }
 .ada { position: absolute; left: 6%; bottom: 33%; height: 36%; width: auto; filter: drop-shadow(0 20px 22px rgba(20, 30, 80, .3)); }
 .ada-wide { height: auto; width: 40%; left: 2%; bottom: 31%; }
 .ada-final { left: auto; right: 6%; bottom: 50%; height: 26%; }
+/* the celebrating Ada is mid-jump, so she hangs in the air on her own */
+.ada-final { animation: hop 2.6s ease-in-out infinite alternate; }
+@keyframes hop { from { transform: translateY(0) rotate(-3deg); } to { transform: translateY(-22px) rotate(3deg); } }
 .tags { position: absolute; right: 6%; top: 8%; display: grid; gap: 10px; z-index: 2; }
 .tag {
   display: inline-flex; gap: 8px; align-items: center; justify-self: end;
@@ -123,6 +129,8 @@ ol { margin: 0; padding: 0; list-style: none; }
   transform-origin: 50% 100%;
   will-change: transform;
 }
+/* the inner box lets the phone lean in toward the viewer without fighting the scroll transform */
+.hand-zoom { position: absolute; inset: 0; transform-origin: 63% 32%; will-change: transform; }
 .hand-img { position: relative; z-index: 2; width: 100%; height: 100%; filter: drop-shadow(0 30px 40px rgba(20, 30, 80, .25)); }
 /* The live menu sits behind the keyed-out screen of the hand image */
 .screen {
@@ -261,5 +269,5 @@ ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Reduced motion: keep the scroll story, drop the autonomous motion ---------- */
 @media (prefers-reduced-motion: reduce) {
-  .rock, .worlds, .cloud, .hint span::after { animation: none; }
+  .rock, .worlds, .cloud, .ada, .hint span::after { animation: none; }
 }
