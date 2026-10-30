@@ -22,7 +22,7 @@
     { top: "#4E5F86", bottom: "#9EABC6", orb: [70, 18, "#E9ECF5", 0], dark: 1, cloud: [.9, 1] },
     { top: "#2E3279", bottom: "#B49AD6", orb: [78, 22, "#FFE7C2", .7], dark: 1, cloud: [1.1, .5] },
     { top: "#0A1140", bottom: "#28235F", orb: [74, 16, "#EEF0FF", 1], dark: 1, cloud: [.7, .25] },
-    { top: "#070B2A", bottom: "#1C1F55", orb: [88, 13, "#EEF0FF", 1], dark: 1, cloud: [.6, .15] }
+    { top: "#070B2A", bottom: "#1C1F55", orb: [78, 18, "#EEF0FF", 1], dark: 1, cloud: [.6, .15] }
   ];
 
   function hexToRgb(h) { return [parseInt(h.slice(1, 3), 16), parseInt(h.slice(3, 5), 16), parseInt(h.slice(5, 7), 16)]; }
@@ -49,7 +49,8 @@
     }
     return "en";
   })();
-  var T = I18N[lang];
+  var MAIN = (window.AOM_I18N && window.AOM_I18N[lang]) || {};
+  var T = new Proxy(I18N[lang], { get: function (o, k) { return k in o ? o[k] : MAIN[k]; } });
   document.documentElement.lang = lang;
   document.title = T["meta.title"];
   document.getElementById("meta-desc").setAttribute("content", T["meta.desc"]);
@@ -248,6 +249,8 @@
     // The guest's hand is in the shot from 08:00 to 20:00
     var hand = 1 - smoothstep(0.55, 0.95, p) * (1 - smoothstep(4.25, 4.7, p));
     set("--hand", hand.toFixed(3));
+    // fully parked below the stage: hide it, or it would show under the stage once it unpins
+    stage.querySelector(".hand").style.visibility = hand > 0.995 ? "hidden" : "visible";
     // depth layers answer the pointer: hand in front moves most, clouds far back move least
     var dl = p - Math.round(p);   // -0.5..0.5 inside the current hour, for scroll parallax
     // Ada stands a little in front of her island: a light extra drift, never a big one.

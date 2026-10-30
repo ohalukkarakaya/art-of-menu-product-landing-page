@@ -29,7 +29,7 @@ ol { margin: 0; padding: 0; list-style: none; }
 .stage {
   position: sticky; top: 0;
   height: 100svh; min-height: 600px;
-  overflow: hidden; isolation: isolate;
+  overflow: hidden; overflow-x: clip; overflow-y: visible; isolation: isolate;
   --fg: #1D1D1F; --fg-2: rgba(29, 29, 31, .62);
   --sky-top: #DCE6FF; --sky-bottom: #F7F8FF;
   --stars: 0; --rain: 0; --mx: 0; --my: 0;
@@ -82,12 +82,12 @@ ol { margin: 0; padding: 0; list-style: none; }
   left: 64%; bottom: 0;
   width: min(58vw, 104svh, 920px);
   aspect-ratio: 1;
-  translate: -50% 24%;
-  transform-origin: 50% 70%;
+  translate: -50% 34%;
+  transform-origin: 50% 66%;
   opacity: 0;
   will-change: transform, opacity;
 }
-.w-planet { left: 69%; width: min(66vw, 124svh, 1080px); translate: -50% 44%; transform-origin: 50% 56%; }
+.w-planet { left: 69%; width: min(66vw, 124svh, 1080px); translate: -50% 53%; transform-origin: 50% 47%; }
 .island { width: 100%; filter: drop-shadow(0 40px 50px rgba(20, 30, 80, .25)); }
 /* Planets only rock gently, never turn upside down */
 .rock { animation: rock 14s ease-in-out infinite alternate; }
@@ -95,9 +95,9 @@ ol { margin: 0; padding: 0; list-style: none; }
 /* Ada gets her own light depth: a little extra pointer/scroll drift and a slow idle sway */
 .ada { translate: var(--ax, 0px) var(--ay, 0px); transform-origin: 50% 100%; animation: idle 4.2s ease-in-out infinite alternate; }
 @keyframes idle { from { transform: translateY(0) rotate(-.8deg); } to { transform: translateY(-5px) rotate(.8deg); } }
-.ada { position: absolute; left: 6%; bottom: 33%; height: 36%; width: auto; filter: drop-shadow(0 20px 22px rgba(20, 30, 80, .3)); }
-.ada-wide { height: auto; width: 40%; left: 2%; bottom: 31%; }
-.ada-final { left: auto; right: 6%; bottom: 50%; height: 26%; }
+.ada { position: absolute; left: 6%; bottom: 38%; height: 36%; width: auto; filter: drop-shadow(0 20px 22px rgba(20, 30, 80, .3)); }
+.ada-wide { height: auto; width: 40%; left: 2%; bottom: 36%; }
+.ada-final { left: auto; right: 6%; bottom: 58%; height: 26%; }
 /* the celebrating Ada is mid-jump, so she hangs in the air on her own */
 .ada-final { animation: hop 2.6s ease-in-out infinite alternate; }
 @keyframes hop { from { transform: translateY(0) rotate(-3deg); } to { transform: translateY(-22px) rotate(3deg); } }
@@ -246,15 +246,69 @@ ol { margin: 0; padding: 0; list-style: none; }
 .hint span::after { content: ""; position: absolute; inset: 0 0 60%; background: var(--fg); animation: hint 1.8s var(--ease) infinite; }
 @keyframes hint { from { transform: translateY(-100%); } to { transform: translateY(260%); } }
 
+/* ---------- Plans (after the night scene) ---------- */
+main { background: #1C1F55; }
+/* The plans sit on top of the final planet; their background stays clear at the top so the
+   whole planet shows behind the heading, then darkens behind the cards. */
+.plans {
+  position: relative; z-index: 2;
+  padding: 140px 24px 120px;
+  background: linear-gradient(180deg, rgba(28, 31, 85, 0) 0%, rgba(20, 23, 70, .35) 30%, #0E1240 62%, #0B0F33 100%);
+  color: #F5F5F7;
+}
+.plans-in { max-width: 1120px; margin: 0 auto; }
+.plans h2 { text-align: center; font-size: clamp(36px, 4.6vw, 60px); line-height: 1.04; letter-spacing: -.04em; }
+.plans-lead { margin: 18px auto 0; max-width: 34rem; text-align: center; font-size: 18px; line-height: 1.5; color: rgba(245,245,247,.86); }
+/* the heading sits over the planet now, so give it a soft shadow instead of a box */
+.plans h2, .plans-lead { text-shadow: 0 2px 18px rgba(8, 10, 40, .85), 0 1px 3px rgba(8, 10, 40, .6); }
+.plan-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; margin-top: 64px; align-items: stretch; }
+.plan {
+  display: flex; flex-direction: column;
+  padding: 30px 26px;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, .06);
+  -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.12), inset 0 0 0 1px rgba(255,255,255,.08);
+}
+.plan h3 { margin: 0; font-size: 30px; font-weight: 700; letter-spacing: -.04em; }
+.plan-tag { margin-top: 6px; font-size: 15px; color: rgba(245,245,247,.62); }
+.plan ul { margin: 22px 0 0; padding: 20px 0 0; list-style: none; border-top: 1px solid rgba(255,255,255,.1); display: grid; gap: 11px; }
+.plan li { position: relative; padding-left: 24px; font-size: 15px; line-height: 1.45; color: rgba(245,245,247,.86); }
+.plan li::before { content: ""; position: absolute; left: 2px; top: .4em; width: 10px; height: 5px; border-left: 2px solid #8EA2FF; border-bottom: 2px solid #8EA2FF; rotate: -45deg; }
+.plan-smart { background: #FFFFFF; color: var(--ink); box-shadow: 0 30px 70px -30px rgba(0, 0, 0, .7); }
+.plan-smart .plan-tag { color: #6E6E73; }
+.plan-smart ul { border-color: rgba(0,0,0,.08); margin-bottom: 26px; }
+.plan-smart li { color: #424245; }
+.plan-smart li::before { border-color: var(--brand); }
+.trial { align-self: flex-start; margin-bottom: 12px; font-size: 12.5px; font-weight: 600; color: #fff; background: var(--brand); padding: 6px 12px; border-radius: 99px; }
+.plan-btn { margin-top: auto; align-self: flex-start; display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 99px; background: var(--ink); color: #fff; text-decoration: none; font-weight: 600; font-size: 15px; transition: transform .35s var(--spring); }
+.plan-btn:hover { transform: translateY(-2px); }
+.plans-note { margin-top: 36px; text-align: center; font-size: 14px; color: rgba(245,245,247,.55); }
+
+/* A small glass tab that jumps to the plans */
+.tab {
+  position: fixed; z-index: 20; top: 18px; right: 18px;
+  display: inline-flex; align-items: center; min-height: 40px; padding: 0 18px;
+  border-radius: 99px; text-decoration: none; font-size: 14px; font-weight: 600;
+  color: var(--ink);
+  background: rgba(255, 255, 255, .72);
+  -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.8), 0 10px 30px -14px rgba(0,0,0,.35);
+  transition: transform .35s var(--spring), background-color .2s;
+}
+.tab:hover { transform: translateY(-1px); background: rgba(255,255,255,.9); }
+.tab:focus-visible, .plan-btn:focus-visible { outline: 3px solid #8EA2FF; outline-offset: 3px; }
+html { scroll-behavior: smooth; }
+
 /* ---------- Phone ---------- */
 @media (max-width: 860px) {
-  .world { left: 50%; width: min(120vw, 80svh); translate: -50% 26%; }
+  .world { left: 50%; width: min(120vw, 80svh); translate: -50% 34%; }
   .ada { left: 12%; }
   .ada-wide { left: 8%; }
   /* on phones the copy sits at the top, so the sun and moon move down between text and world */
   .orb { top: 44% !important; left: 80% !important; width: 18vmin; }
-  .w-planet { width: min(170vw, 104svh); translate: -50% 44%; }
-  .chapter { left: 20px; right: 20px; width: auto; top: 64px; bottom: auto; transform: none; }
+  .w-planet { width: min(170vw, 104svh); translate: -50% 53%; }
+  .chapter { left: 20px; right: 20px; width: auto; bottom: auto; transform: none; }
   .chapter h1 { font-size: clamp(44px, 12vw, 60px); }
   .chapter h2 { font-size: 28px; }
   .chapter h2.final { font-size: 40px; }
@@ -265,7 +319,11 @@ ol { margin: 0; padding: 0; list-style: none; }
   .tags { top: -8%; right: auto; left: 40%; gap: 6px; justify-items: start; }
   .tag { justify-self: start; }
   .tag { font-size: 12px; padding: 7px 11px; }
-  .clock { bottom: auto; top: 18px; }
+  .clock { bottom: auto; top: 70px; }
+  .chapter { top: 120px; }
+  .tab { top: 14px; right: 14px; }
+  .plan-grid { grid-template-columns: 1fr; margin-top: 44px; }
+  .plans { padding: 100px 18px 90px; }
   .hint { bottom: auto; top: 40%; }
   .clock ol { font-size: 11px; }
 }

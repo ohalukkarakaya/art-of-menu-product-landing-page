@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/web/diorama/planet.webp" type="image/webp">
-  <link rel="stylesheet" href="gun.css?v=15">
+  <link rel="stylesheet" href="gun.css?v=18">
   <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
@@ -135,9 +135,46 @@
       <div class="hint" aria-hidden="true"><span></span><b data-t="hint">Kaydırın</b></div>
     </div>
   </section>
+
+  <!-- Plans: no prices yet, they are announced at launch -->
+  <section class="plans" id="plans" aria-labelledby="plans-title">
+    <div class="plans-in">
+      <h2 id="plans-title" data-t="plans.title">Üç paket, tek menü.</h2>
+      <p class="plans-lead" data-t="plans.lead"></p>
+      <div class="plan-grid">
+        <article class="plan">
+          <h3>Menu</h3>
+          <p class="plan-tag" data-t="p.menu.tag"></p>
+          <ul>
+            <li data-t="p.menu.1"></li><li data-t="p.menu.2"></li><li data-t="p.menu.3"></li><li data-t="p.menu.4"></li>
+          </ul>
+        </article>
+        <article class="plan">
+          <h3>Order</h3>
+          <p class="plan-tag" data-t="p.order.tag"></p>
+          <ul>
+            <li data-t="p.order.1"></li><li data-t="p.order.2"></li><li data-t="p.order.3"></li><li data-t="p.order.4"></li>
+          </ul>
+        </article>
+        <article class="plan plan-smart">
+          <span class="trial" data-t="p.smart.trial"></span>
+          <h3>Smart</h3>
+          <p class="plan-tag" data-t="p.smart.tag"></p>
+          <ul>
+            <li data-t="p.smart.1"></li><li data-t="p.smart.2"></li><li data-t="p.smart.3"></li><li data-t="p.smart.4"></li><li data-t="p.smart.5"></li>
+          </ul>
+          <a class="plan-btn" href="index.html#join" data-t="s6.btn"></a>
+        </article>
+      </div>
+      <p class="plans-note" data-t="plans.note"></p>
+    </div>
+  </section>
 </main>
 
+<a class="tab" href="#plans" data-t="nav.plans">Paketler</a>
+
+<script src="i18n.js?v=12"></script>
 <script src="gun-i18n.js?v=1"></script>
-<script src="gun.js?v=11"></script>
+<script src="gun.js?v=14"></script>
 </body>
 </html>
