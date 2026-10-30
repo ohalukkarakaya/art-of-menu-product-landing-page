@@ -168,13 +168,14 @@
   var joinMino = document.querySelector(".join-mino");
   function updateScrollLinked() {
     var vh = window.innerHeight;
-    if (reduceMQ.matches) return;
+    // The word highlight follows the reader's own scroll, so it stays on with reduced motion too.
     var r = manifesto.getBoundingClientRect();
     var p = clamp((vh * 0.9 - r.top) / (r.height + vh * 0.45));
     var n = words.length;
     words.forEach(function (w, i) {
       w.style.setProperty("--wo", (0.14 + 0.86 * clamp(p * n * 1.15 - i)).toFixed(3));
     });
+    if (reduceMQ.matches) return;
     var jr = joinMino.getBoundingClientRect();
     var j = clamp((vh - jr.top) / (vh * 0.9));
     var e = 1 - Math.pow(1 - j, 3);
@@ -343,13 +344,18 @@
      Start
      ===================================================== */
 
-  renderTomorrow();
-  applyLang(browserLang());
-  setMode("approve");
-  setupReveals();
-  updateStory();
-  updateHero();
-  updateScrollLinked();
+  // Each part starts on its own, so one failing feature can't switch off the others.
+  function safe(fn) {
+    return function () {
+      try { fn.apply(null, arguments); } catch (err) { console.error("[artofmenu]", err); }
+    };
+  }
+  safe(renderTomorrow)();
+  safe(function () { applyLang(browserLang()); })();
+  safe(function () { setMode("approve"); })();
+  safe(setupReveals)();
+  var storySafe = safe(updateStory), heroSafe = safe(updateHero), linkedSafe = safe(updateScrollLinked);
+  storySafe(); heroSafe(); linkedSafe();
 
   var tick = false;
   window.addEventListener("scroll", function () {
@@ -357,10 +363,10 @@
     requestHero();
     if (!tick) {
       tick = true;
-      requestAnimationFrame(function () { tick = false; updateScrollLinked(); });
+      requestAnimationFrame(function () { tick = false; linkedSafe(); });
     }
   }, { passive: true });
-  window.addEventListener("resize", function () { requestStory(); updateScrollLinked(); });
+  window.addEventListener("resize", function () { requestStory(); linkedSafe(); });
 
   // Entrance choreography. The timeout makes sure nothing stays hidden if frames are throttled.
   function loaded() { document.body.classList.add("is-loaded"); }

@@ -1,55 +1,64 @@
-# ArtOfMenu görsel promptları (ChatGPT)
+# ArtOfMenu görsel promptları (ChatGPT) · v2
 
 ## Görsel dil
 
-**Pixar tarzı 3D, renkli ve enerjik.** Sayfanın yüzü bir maskot: **Mino**. Mino canlı bir menü kitapçığı;
-iri gözlü, sevimli ve hep işletmenin yanında koşturan bir yardımcı. Sitedeki her bölümü o anlatıyor.
-Nesneler (latte, kruvasan, zil, QR standı) aynı 3D dünyadan geliyor ve kaydırdıkça sahnede süzülüyor.
+**Tasarımcı oyuncak (art toy) kalitesinde, stilize 3D karakter.** Gönderdiğin referanslardaki gibi:
+- Büyük kafa, kompakt beden (yaklaşık 3–3,5 kafa boyu), biraz iri eller ve kalın tabanlı ayakkabılar.
+- Parlak ve iri gözler, hafif çiller ve yanak kızarıklığı.
+- Kalın, pürüzsüz bukleler halinde yontulmuş saçlar.
+- Mat vinil ve kumaş dokusu, yumuşak stüdyo ışığı.
+- Kıyafetler moda ve sokak stiline yakın: katlar, dikişler ve kumaş kalınlığı gerçekçi.
+- Karakterin bir tavrı var: kendinden emin, hafif gülümseyen, bazen yan bakan.
 
-Zeminleri görsele gömmüyoruz: **her şey şeffaf PNG**. Renkli zeminleri, kaydırma animasyonlarını
-ve yazıları sitede ben veriyorum. Böylece aynı görsel masaüstünde de telefonda da doğru oturuyor.
+**Karakterimiz: Ada, genç bir barista.** Menü kitapçığı değil, işin içindeki bir insan. Bütün sahnelerde o var.
+
+**Renkler:**
+- **Kurumsal renkler:** tükenmez kalem mavisi `#1F3A9E` ve beyaz.
+- **Yardımcı renkler:** siyah, kömür grisi, lacivert `#0F1B4D` ve az miktarda mor `#6B5BD6`.
+- **Turuncu ve kırmızı yok.** Tek istisna yiyeceklerin kendi doğal renkleri; kruvasanın altın rengi gibi.
+
+**Arka plan:** Her şey **şeffaf PNG**. Zeminleri ve ışıkları sitede ben veriyorum.
 
 ## Nasıl üreteceksin
 
-1. **Önce 01 numaralı Mino karakter sayfasını üret.** Beğenmediysen beğenene kadar tekrar üret.
-   Bütün görseller bu karaktere bağlı.
-2. Mino'nun geçtiği her promptta **01 görselini ChatGPT'ye ekle** ve promptun başına şunu yaz:
-   `Use the attached image as the character reference for Mino. Keep his design exactly the same.`
-3. Her promptun sonuna **Ortak stil** bloğunu ekle (aşağıda, kopyala-yapıştır).
-4. Boyutu promptta yazdığım gibi seç. Arka plan şeffaf gelmezse şunu yaz:
-   `Make the background fully transparent and export as PNG.`
-5. Dosyaları tam bu isimlerle `assets/img/` klasörüne koy. Sayfayı bu isimlere göre kuracağım.
+1. **Önce 01 numaralı Ada karakter sayfasını üret.** Beğenene kadar tekrarla; bütün görseller bu karaktere bağlı.
+2. Ada'nın geçtiği her promptta **01 görselini ChatGPT'ye ekle**. Promptların ilk satırı zaten bunu söylüyor.
+3. Her promptun sonuna aşağıdaki **Ortak stil** bloğunu yapıştır.
+4. Boyutu promptta yazdığı gibi seç.
+5. Arka plan şeffaf gelmezse şunu yaz: `Make the background fully transparent and export as PNG.`
+6. Dosyaları **tam bu isimlerle** `assets/img/` klasörüne koy; eskilerin üstüne yaz. Sitedeki bağlantılar bu isimlere bağlı.
 
-Görselde **yazı istemiyoruz** (telefon ekranı dahil). Yazıları sitede ben koyacağım; yapay zekâ yazıyı
-bozuk çizebiliyor.
+Görsellerde yazı istemiyoruz; yazıları sitede ben koyacağım.
 
 ---
 
 ## Ortak stil (her promptun sonuna ekle)
 
 ```
-Style: Pixar-style 3D animated film render. Soft, rounded, stylized shapes with appealing proportions. Materials are smooth and slightly glossy, like high-end clay and ceramic, with subtle subsurface scattering. Warm cinematic studio lighting: soft key light from the upper left, gentle rim light from behind, soft contact shadows directly under objects only. Vibrant, harmonious color palette: tomato red #FF5A3C, sunflower yellow #FFC83D, mint #7FDCC0, cobalt blue #3D5AFE, blush pink #FFB4C2, warm cream #FFF4E6, deep plum #2A1B3D. Crisp edges, high detail, clean composition. No text, no letters, no numbers, no logos, no watermark. Fully transparent background, PNG.
+Style: stylized 3D character render in the look of premium designer art toys and modern 3D animated feature films. Big head and compact body, about 3 to 3.5 heads tall, slightly oversized hands and chunky shoes. Large, glossy, expressive eyes with clear catchlights, small soft nose, light freckles and a gentle blush on the cheeks. Hair is sculpted in large, smooth, chunky clumps with soft highlights. Materials look like soft matte vinyl and real fabric with subtle subsurface scattering; clothes have believable folds, seams, stitching and thickness. Soft diffused studio lighting from the upper left, a gentle cool rim light from behind, smooth ambient occlusion, no harsh shadows. Calm, premium color palette: ballpoint-pen blue #1F3A9E as the hero color, white and off-white, black, charcoal, navy #0F1B4D and a touch of violet #6B5BD6. No orange and no red anywhere, except the natural colors of food. Crisp, high detail, centered with comfortable empty space around the subject. No text, no letters, no numbers, no logos, no watermark. Fully transparent background, PNG.
 ```
 
 ---
 
-## 01 · Mino karakter sayfası
+## 01 · Ada karakter sayfası
 
 Dosya: `assets/img/mino-sheet.png` · Boyut: **1536×1024 (yatay)**
 
+(Dosya adı eski kalsın, sitedeki bağlantı bu isimde.)
+
 ```
-A character design sheet for a Pixar-style 3D mascot named Mino. Mino is a living restaurant menu booklet, about the proportions of a small hardcover book standing upright. His front cover is warm cream with a rounded tomato red spine and a thin sunflower yellow ribbon bookmark hanging from the top like a little antenna. His face is on the cover: big, glossy, expressive dark eyes with bright catchlights, soft rounded eyebrows, rosy blush pink cheeks and a wide friendly smile. He has short, bendy cartoon arms and legs in deep plum with small white gloves and tiny tomato red sneakers. When he opens slightly you can see cream pages inside with colorful abstract food photo shapes, no readable text. Show Mino three times side by side, evenly spaced and not overlapping: on the left waving hello, in the middle standing proudly with hands on hips, on the right pointing up and to the side with an excited expression. Same size, same lighting, front three-quarter view.
+A character turnaround sheet of one stylized 3D character named Ada, a young barista in her early twenties. She has a confident, warm half-smile and one eyebrow slightly raised. Dark espresso-brown hair sculpted in chunky waves, tied in a loose low bun with two face-framing strands. Large dark brown eyes, light freckles across the nose, soft blush. Outfit: a crisp white oversized shirt with the sleeves rolled up to the elbow, a ballpoint-blue #1F3A9E heavy canvas barista apron with tan leather neck strap and a small white embroidered coffee-cup icon on the chest pocket (no text), black wide-leg cropped trousers, white socks, chunky white sneakers with navy #0F1B4D details, a slim black watch, and a pencil tucked behind her ear. Show Ada three times side by side, full body, same size and lighting, evenly spaced and not overlapping: on the left waving hello with a friendly smile, in the middle standing relaxed with one hand in her apron pocket and a confident look, on the right pointing up and to the side with an excited expression.
 ```
 
 ---
 
-## 02 · Hero: telefon ve Mino
+## 02 · Hero: Ada ve telefon
 
-Dosya: `assets/img/hero-phone.png` · Boyut: **1024×1536 (dikey)**
+Dosya: `assets/img/hero-phone.png` · Boyut: **1536×1024 (yatay)**
 
 ```
-Use the attached image as the character reference for Mino. Keep his design exactly the same.
-A large modern smartphone standing upright, slightly tilted back and turned a little to the left, with rounded edges and a deep plum frame. Its screen glows and shows a cheerful, colorful restaurant menu app made only of abstract shapes: a row of rounded pill tabs at the top, then five stacked rounded cards, each with a small circular food thumbnail on the left (coffee, croissant, lemonade, cheesecake, salad), colored bars in place of text, and a tomato red pill button at the bottom. No readable text. Mino leans casually against the right side of the phone with one elbow on its frame, waving at the viewer with a big smile. The phone fills about 80 percent of the image height, centered.
+Use the attached image as the character reference for Ada. Keep her face, hair, outfit and colors exactly the same.
+Ada stands next to a giant smartphone that is about one and a half times her height. The phone stands upright, slightly turned toward the viewer, with a slim black frame. Its screen shows a clean, modern restaurant menu app in white and ballpoint blue made only of shapes: a row of rounded pill tabs at the top, then five stacked white cards, each with a small round food photo on the left (latte, croissant, lemonade, cheesecake, salad), soft grey bars in place of text, and a ballpoint-blue pill button at the bottom. No readable text. Ada leans one shoulder against the phone, holding a white ceramic latte cup in one hand and giving a small wave with the other, looking at the viewer with a confident smile. Phone on the left, Ada on the right, both fully in frame.
 ```
 
 ---
@@ -59,14 +68,14 @@ A large modern smartphone standing upright, slightly tilted back and turned a li
 Dosya: `assets/img/props-sheet.png` · Boyut: **1536×1024 (yatay)**
 
 ```
-Eight separate Pixar-style 3D café objects arranged in a neat 4 by 2 grid with generous empty space between them, none touching or overlapping, each floating and shown from a slightly elevated three-quarter angle:
-1. A wide latte cup on a saucer, cream foam with a heart latte art, tomato red cup.
-2. A plump golden croissant with flaky layers.
-3. A slice of Basque burnt cheesecake with a caramelized dark top and creamy inside, on a small mint plate.
-4. A tall glass of lemonade with ice cubes, a lemon wheel on the rim and a striped straw.
-5. A small stack of three shiny golden coins, slightly tilted.
-6. A cute table stand card in cobalt blue holding a white square with an abstract QR-like pattern of blocks.
-7. A shiny chrome and tomato red service desk bell.
+Eight separate stylized 3D café objects in the same art-toy style, arranged in a neat 4 by 2 grid with generous empty space between them, none touching or overlapping, each floating and shown from a slightly elevated three-quarter angle, all at a similar visual size:
+1. A wide latte cup on a saucer in glossy ballpoint-blue #1F3A9E ceramic with a white rim, creamy foam with heart latte art.
+2. A plump, flaky golden croissant.
+3. A slice of Basque burnt cheesecake with a dark caramelized top and creamy inside, on a small matte navy plate.
+4. A tall clear glass of lemonade with ice cubes, a lemon wheel on the rim and a white straw with thin blue stripes.
+5. A small stack of three coins in brushed silver with a subtle blue tint, slightly tilted.
+6. A table stand card in ballpoint blue holding a white square with an abstract QR-like pattern of navy blocks.
+7. A service desk bell with a polished chrome dome on a matte navy base.
 8. A fresh green basil sprig with three leaves.
 ```
 
@@ -77,8 +86,8 @@ Eight separate Pixar-style 3D café objects arranged in a neat 4 by 2 grid with 
 Dosya: `assets/img/story-scan.png` · Boyut: **1024×1024**
 
 ```
-Use the attached image as the character reference for Mino. Keep his design exactly the same.
-Mino holds a smartphone up with both hands, scanning a cobalt blue QR table stand in front of him. A soft beam of light goes from the phone to the QR stand. Little sparkles pop above the phone. Mino looks delighted and surprised, eyes wide. Small floating speech-bubble icons in sunflower yellow, mint and blush pink around the phone suggest different languages, with no letters inside, only simple dots.
+Use the attached image as the character reference for Ada. Keep her face, hair, outfit and colors exactly the same.
+Ada holds a smartphone at chest height with both hands, scanning a ballpoint-blue QR table stand placed on a small round white café table in front of her. A soft, light-blue beam of light connects the phone to the QR stand. Three small floating speech-bubble shapes in white, light blue and violet float above the phone, with only dots inside, suggesting different languages. Ada looks pleasantly surprised, eyebrows raised, a small smile. Full body, three-quarter view.
 ```
 
 ---
@@ -88,8 +97,8 @@ Mino holds a smartphone up with both hands, scanning a cobalt blue QR table stan
 Dosya: `assets/img/story-order.png` · Boyut: **1024×1024**
 
 ```
-Use the attached image as the character reference for Mino. Keep his design exactly the same.
-Mino runs energetically from left to right carrying a round silver tray balanced on one hand, with a latte cup and a slice of cheesecake on it. Behind him, a floating smartphone shows a big tomato red notification bubble with a bell icon and motion lines, as if it just buzzed. Dynamic pose, small dust puffs behind his sneakers.
+Use the attached image as the character reference for Ada. Keep her face, hair, outfit and colors exactly the same.
+Ada walks briskly from left to right, balancing a round silver tray on one hand with a ballpoint-blue latte cup and a slice of Basque cheesecake on it. With her other hand she glances at a smartphone that shows a large ballpoint-blue notification bubble with a small white bell icon, the phone vibrating with soft motion lines. Her apron swings slightly from the movement. Confident, focused expression. Full body, dynamic but elegant pose.
 ```
 
 ---
@@ -99,8 +108,8 @@ Mino runs energetically from left to right carrying a round silver tray balanced
 Dosya: `assets/img/story-weather.png` · Boyut: **1024×1024**
 
 ```
-Use the attached image as the character reference for Mino. Keep his design exactly the same.
-Split mood scene. On the left half a smiling cartoon sun with soft rays and a glass of lemonade with ice; on the right half a fluffy rain cloud with little raindrops and a steaming cup of hot chocolate with a wisp of steam. In the middle Mino stands under a small tomato red umbrella, holding it toward the rainy side, and with his other hand he lifts the hot chocolate up higher than the lemonade, as if rearranging them. Playful and clear.
+Use the attached image as the character reference for Ada. Keep her face, hair, outfit and colors exactly the same.
+Ada stands in the middle holding a white umbrella with a thin ballpoint-blue edge over her shoulder. Above her right side floats a small, soft, stylized grey-blue rain cloud with gentle raindrops; above her left side, a small stylized pale-yellow sun, fading away. In her free hand she lifts a ballpoint-blue mug of hot chocolate with a little curl of steam higher, while a glass of iced lemonade sits lower on a floating shelf beside her, as if she is rearranging them. Calm, clever smile. Full body.
 ```
 
 ---
@@ -110,7 +119,8 @@ Split mood scene. On the left half a smiling cartoon sun with soft rays and a gl
 Dosya: `assets/img/story-pair.png` · Boyut: **1024×1024**
 
 ```
-A latte cup on a saucer and a slice of Basque cheesecake on a small mint plate sit side by side like best friends. Both have small cute faces with happy closed-eye smiles and rosy cheeks. A small blush pink heart floats above them. A tiny tomato red pill-shaped tag with a plus sign hovers next to the cheesecake, as if it is being added to an order.
+Use the attached image as the character reference for Ada. Keep her face, hair, outfit and colors exactly the same.
+Ada stands behind a small white café counter and, with a friendly knowing smile, slides a slice of Basque cheesecake on a matte navy plate next to a ballpoint-blue latte cup that is already on the counter, as if suggesting the perfect pairing. A small floating pill-shaped tag in ballpoint blue with a white plus sign hovers above the cheesecake. Upper body and counter visible, three-quarter view.
 ```
 
 ---
@@ -120,8 +130,8 @@ A latte cup on a saucer and a slice of Basque cheesecake on a small mint plate s
 Dosya: `assets/img/smart-night.png` · Boyut: **1024×1024**
 
 ```
-Use the attached image as the character reference for Mino. Keep his design exactly the same.
-Night-time scene without a background. Mino sits on a crescent moon in sunflower yellow, wearing a tiny sleeping cap, holding a big tear-off calendar page in front of him. The calendar page shows only a big blush pink heart symbol, no numbers. Next to him float a small rain cloud, three tiny stars and two rounded price tags in mint and tomato red, one with a small up arrow and one with a small down arrow, no numbers. Calm, clever, cozy mood.
+Use the attached image as the character reference for Ada. Keep her face, hair, outfit and colors exactly the same.
+Evening scene with no background. Ada sits cross-legged on a tall stool with a tablet on her knees, planning tomorrow. Above her floats a large tear-off calendar page in white with a small violet heart, no numbers. Around her float a soft navy crescent moon, three small white stars, a small grey-blue rain cloud and two rounded price tags, one ballpoint blue with a small up arrow and one violet with a small down arrow, no numbers. Calm, focused, cozy mood with a cool blue rim light.
 ```
 
 ---
@@ -131,13 +141,13 @@ Night-time scene without a background. Mino sits on a crescent moon in sunflower
 Dosya: `assets/img/features-sheet.png` · Boyut: **1536×1024 (yatay)**
 
 ```
-Six separate Pixar-style 3D objects arranged in a neat 3 by 2 grid with generous empty space between them, none touching or overlapping, each shown from a slightly elevated three-quarter angle, all at similar size:
-1. A glass ingredient jar with a mint lid, half full of coffee beans, with a small round gauge stuck on the front whose needle points low into a tomato red zone.
-2. Two small flat-screen TV monitors side by side on a counter, both showing the same colorful abstract menu layout made of shapes, no text.
-3. A rounded 3D bar chart with four bars in plum, plum, tomato red and plum, and a chunky magnifying glass leaning on it.
-4. A paper sheet with a tomato red folded corner and abstract colored lines, flying into a smartphone with a curved dotted motion trail, magic sparkles.
-5. A painter's palette in cream with blobs of tomato red, sunflower yellow, mint and cobalt paint, with a chunky brush resting on it.
-6. A fat pencil in deep plum with a tomato red eraser, drawing a little star on a menu card.
+Six separate stylized 3D objects in the same art-toy style, arranged in a neat 3 by 2 grid with generous empty space between them, none touching or overlapping, each shown from a slightly elevated three-quarter angle, all at a similar visual size:
+1. A glass ingredient jar with a ballpoint-blue lid, half full of coffee beans, with a small round white gauge on the front whose needle points low.
+2. Two slim black monitors side by side on a light wooden counter, both showing the same clean white and blue menu layout made of shapes, no text.
+3. A rounded 3D bar chart with four bars in navy, navy, ballpoint blue and navy, with a chunky magnifying glass leaning on it.
+4. A white paper sheet with a folded corner and soft blue lines flying into a smartphone along a curved dotted trail, with small sparkles.
+5. A set of four rounded color swatch cards fanned out in ballpoint blue, white, navy and violet, with a chunky paintbrush resting on them.
+6. A fat pencil in ballpoint blue with a white eraser, drawing a small star on a white menu card.
 ```
 
 ---
@@ -147,36 +157,39 @@ Six separate Pixar-style 3D objects arranged in a neat 3 by 2 grid with generous
 Dosya: `assets/img/join-celebrate.png` · Boyut: **1024×1024**
 
 ```
-Use the attached image as the character reference for Mino. Keep his design exactly the same.
-Mino jumps in the air with both arms raised in celebration, huge happy open-mouth smile. Around him burst colorful confetti pieces, a few shiny golden coins and two small hearts, all flying outward. Joyful, high energy, peak of the jump.
+Use the attached image as the character reference for Ada. Keep her face, hair, outfit and colors exactly the same.
+Ada jumps in the air with both arms raised in celebration, a big joyful open-mouth smile, the pencil still behind her ear. Around her burst confetti pieces in ballpoint blue, white, navy and violet, a few small silver coins and two small white hearts, all flying outward. Peak of the jump, full body.
 ```
 
 ---
 
 ## 11 · Paylaşım görseli (isteğe bağlı)
 
-Dosya: `assets/img/og.png` · Boyut: **1536×1024**. Bunda arka plan ve yazı istiyoruz, ortak stil bloğunun
-son cümlesini (`No text...` ve `transparent`) çıkar.
+Dosya: `assets/img/og.png` · Boyut: **1536×1024**. Bunda arka plan ve yazı istiyoruz; ortak stil bloğunun son
+iki cümlesini (`No text...` ve `Fully transparent...`) çıkar.
 
 ```
-Use the attached image as the character reference for Mino. Keep his design exactly the same.
-A bold social share banner on a solid cobalt blue #3D5AFE background. On the right, Mino waves next to a floating latte cup and a croissant. On the left, large rounded bold white text reads 'ArtOfMenu' and below it, smaller cream text reads 'Daha çok kazandıran menü'. Text is perfectly spelled.
+Use the attached image as the character reference for Ada. Keep her face, hair, outfit and colors exactly the same.
+A clean social share banner on a solid ballpoint-blue #1F3A9E background with a very subtle lighter glow behind the character. On the right, Ada stands holding a white latte cup and smiling at the viewer. On the left, large bold white text reads 'ArtOfMenu' and below it, smaller white text at 80 percent opacity reads 'Daha çok kazandıran menü'. Text is perfectly spelled, set in a clean modern sans-serif.
 ```
 
 ---
 
 ## Kontrol listesi
 
-| # | Dosya | Boyut | Mino referansı |
+| # | Dosya | Boyut | Ada referansı |
 |---|---|---|---|
 | 01 | `mino-sheet.png` | 1536×1024 | kendisi |
-| 02 | `hero-phone.png` | 1024×1536 | evet |
+| 02 | `hero-phone.png` | 1536×1024 | evet |
 | 03 | `props-sheet.png` | 1536×1024 | hayır |
 | 04 | `story-scan.png` | 1024×1024 | evet |
 | 05 | `story-order.png` | 1024×1024 | evet |
 | 06 | `story-weather.png` | 1024×1024 | evet |
-| 07 | `story-pair.png` | 1024×1024 | hayır |
+| 07 | `story-pair.png` | 1024×1024 | evet |
 | 08 | `smart-night.png` | 1024×1024 | evet |
 | 09 | `features-sheet.png` | 1536×1024 | hayır |
 | 10 | `join-celebrate.png` | 1024×1024 | evet |
 | 11 | `og.png` | 1536×1024 | evet (isteğe bağlı) |
+
+Görseller gelince kesip küçültme adımını yeniden çalıştıracağım; site aynı dosya isimlerini kullandığı için
+başka bir şey değiştirmen gerekmiyor.
