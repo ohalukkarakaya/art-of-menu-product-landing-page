@@ -1,0 +1,265 @@
+html, body { background: #DCE6FF; }
+
+:root {
+  --brand: #1F3A9E;
+  --brand-2: #4A63D8;
+  --ink: #1D1D1F;
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Inter", "Segoe UI", system-ui, sans-serif;
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --spring: cubic-bezier(.34, 1.4, .64, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--ink);
+  letter-spacing: -.011em;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  overflow-x: clip;
+}
+img { display: block; max-width: 100%; height: auto; }
+h1, h2 { margin: 0; font-weight: 700; }
+p { margin: 0; }
+ol { margin: 0; padding: 0; list-style: none; }
+
+/* ---------- Runway and pinned stage ---------- */
+.day { position: relative; height: calc(100svh + 560svh); }
+.stage {
+  position: sticky; top: 0;
+  height: 100svh; min-height: 600px;
+  overflow: hidden; isolation: isolate;
+  --fg: #1D1D1F; --fg-2: rgba(29, 29, 31, .62);
+  --sky-top: #DCE6FF; --sky-bottom: #F7F8FF;
+  --stars: 0; --rain: 0; --mx: 0; --my: 0;
+  color: var(--fg);
+}
+.sky { position: absolute; inset: 0; z-index: -3; background: linear-gradient(180deg, var(--sky-top), var(--sky-bottom)); }
+.stars {
+  position: absolute; inset: 0; z-index: -2; opacity: var(--stars);
+  background-image:
+    radial-gradient(1.6px 1.6px at 8% 14%, #fff 50%, transparent 52%),
+    radial-gradient(1.2px 1.2px at 22% 32%, #fff 50%, transparent 52%),
+    radial-gradient(1.8px 1.8px at 36% 9%, #fff 50%, transparent 52%),
+    radial-gradient(1.2px 1.2px at 47% 24%, #CFC6FF 50%, transparent 52%),
+    radial-gradient(1.6px 1.6px at 61% 6%, #fff 50%, transparent 52%),
+    radial-gradient(1.2px 1.2px at 72% 18%, #fff 50%, transparent 52%),
+    radial-gradient(1.8px 1.8px at 86% 11%, #fff 50%, transparent 52%),
+    radial-gradient(1.2px 1.2px at 93% 34%, #CFC6FF 50%, transparent 52%),
+    radial-gradient(1.4px 1.4px at 15% 58%, #fff 50%, transparent 52%),
+    radial-gradient(1.2px 1.2px at 90% 64%, #fff 50%, transparent 52%);
+}
+.orb {
+  position: absolute; z-index: -2;
+  width: 22vmin; aspect-ratio: 1; border-radius: 50%;
+  left: var(--orb-x, 70%); top: var(--orb-y, 14%);
+  background: var(--orb-c, #FFF4C8);
+  box-shadow: 0 0 80px 20px var(--orb-glow, rgba(255, 236, 170, .55));
+  opacity: var(--orb-o, 1);
+  transform: translate(-50%, -50%);
+}
+
+/* Clouds drift slowly; they darken with the rain */
+.clouds { position: absolute; inset: 0; z-index: -1; pointer-events: none; transform: translate3d(calc(var(--cpx, 0) * 1px), calc(var(--cpy, 0) * 1px), 0); }
+.cloud { position: absolute; width: 26vw; max-width: 380px; opacity: var(--cloud-o, .9); filter: brightness(var(--cloud-b, 1.5)) saturate(.8); animation: drift 60s linear infinite; }
+.c1 { top: 8%; left: -10%; animation-duration: 70s; }
+.c2 { top: 20%; left: 40%; width: 18vw; animation-duration: 90s; animation-delay: -30s; }
+.c3 { top: 4%; left: 70%; width: 22vw; animation-duration: 80s; animation-delay: -50s; }
+@keyframes drift { from { transform: translateX(-20vw); } to { transform: translateX(110vw); } }
+
+/* ---------- Worlds ---------- */
+/* Idle camera: a slow, small handheld sway */
+.worlds { position: absolute; inset: 0; z-index: 1; transform-origin: 64% 100%; animation: sway 9s ease-in-out infinite alternate; }
+@keyframes sway {
+  0%   { transform: translate3d(-6px, 0, 0) rotate(-.45deg); }
+  50%  { transform: translate3d(3px, -7px, 0) rotate(.15deg); }
+  100% { transform: translate3d(7px, 2px, 0) rotate(.5deg); }
+}
+/* Islands sit on the bottom edge: their soil runs off-screen, as if we were standing on them */
+.world {
+  position: absolute;
+  left: 64%; bottom: 0;
+  width: min(58vw, 104svh, 920px);
+  aspect-ratio: 1;
+  translate: -50% 24%;
+  transform-origin: 50% 70%;
+  opacity: 0;
+  will-change: transform, opacity;
+}
+.w-planet { width: min(72vw, 130svh, 1150px); translate: -50% 44%; transform-origin: 50% 56%; }
+.island { width: 100%; filter: drop-shadow(0 40px 50px rgba(20, 30, 80, .25)); }
+/* Planets only rock gently, never turn upside down */
+.rock { animation: rock 14s ease-in-out infinite alternate; }
+@keyframes rock { from { rotate: -3deg; } to { rotate: 3deg; } }
+.ada { position: absolute; left: 6%; bottom: 33%; height: 36%; width: auto; filter: drop-shadow(0 20px 22px rgba(20, 30, 80, .3)); }
+.ada-wide { height: auto; width: 40%; left: 2%; bottom: 31%; }
+.ada-final { left: auto; right: 6%; bottom: 50%; height: 26%; }
+.tags { position: absolute; right: 6%; top: 8%; display: grid; gap: 10px; z-index: 2; }
+.tag {
+  display: inline-flex; gap: 8px; align-items: center; justify-self: end;
+  padding: 9px 14px; border-radius: 99px;
+  font-size: 14px; color: #F5F5F7;
+  background: rgba(255, 255, 255, .1);
+  -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.18), inset 0 0 0 1px rgba(255,255,255,.12);
+}
+.tag b { font-weight: 600; }
+.tag::after { content: ""; width: 0; height: 0; border-left: 5px solid transparent; border-right: 5px solid transparent; }
+.tag.up::after { border-bottom: 7px solid #8EA2FF; }
+.tag.down::after { border-top: 7px solid #30D158; }
+
+/* ---------- Rain ---------- */
+.rain { position: absolute; inset: 0; z-index: 2; pointer-events: none; width: 100%; height: 100%; opacity: var(--rain); }
+
+/* ---------- Hand and phone ---------- */
+.hand {
+  position: absolute; z-index: 3;
+  right: max(12px, calc(50% - 660px));
+  bottom: 0;
+  height: min(78svh, 760px);
+  aspect-ratio: 631 / 1000;
+  transform: translate3d(calc(var(--hx, 0) * 1px), calc(var(--hand, 1) * 115svh + var(--hy, 0) * 1px), 0) rotate(calc(var(--hand, 1) * 8deg));
+  transform-origin: 50% 100%;
+  will-change: transform;
+}
+.hand-img { position: relative; z-index: 2; width: 100%; height: 100%; filter: drop-shadow(0 30px 40px rgba(20, 30, 80, .25)); }
+/* The live menu sits behind the keyed-out screen of the hand image */
+.screen {
+  position: absolute; z-index: 1;
+  left: 39.7%; top: 2.2%; width: 46.8%; height: 61%;
+  border-radius: 9% / 4.5%;
+  overflow: hidden;
+  background: #FBFBFD;
+  color: #1D1D1F;            /* the phone keeps its own light UI at night */
+  container-type: inline-size;
+}
+.sc-in { position: absolute; inset: 0; font-size: 5.4cqw; line-height: 1.3; padding: 3.4em 1em 1em; }
+.sc-top { display: flex; justify-content: space-between; align-items: baseline; }
+.sc-venue { font-weight: 700; font-size: 1.35em; letter-spacing: -.03em; }
+.sc-table { font-size: .8em; color: #6E6E73; }
+.sc-langs { display: flex; gap: .35em; margin: .8em 0 .6em; font-size: .72em; font-weight: 600; }
+.sc-langs span { padding: .4em .7em; border-radius: 99px; background: #EEF0F6; color: #6E6E73; }
+.sc-langs .on { background: var(--brand); color: #fff; }
+.sc-weather { display: flex; align-items: center; gap: .5em; padding: .5em .7em; border-radius: .8em; background: #EEF2FF; font-size: .8em; font-weight: 600; margin-bottom: .7em; transition: background-color .5s; }
+.sc-weather.is-rain { background: #E4E8F2; }
+.sc-weather svg { width: 1.5em; height: 1.5em; display: block; }
+.sc-list { display: grid; gap: .45em; }
+.sc-item { display: grid; grid-template-columns: 2.4em 1fr auto; align-items: center; gap: .6em; padding: .4em .55em .4em .4em; border-radius: .9em; background: #fff; box-shadow: 0 0 0 1px #EEF0F6, 0 .3em .8em -.6em rgba(20, 30, 80, .35); }
+.sc-item img { width: 2.4em; height: 2.4em; object-fit: contain; }
+.sc-name { display: block; font-weight: 600; font-size: .9em; line-height: 1.15; }
+.sc-flag { display: block; font-size: .68em; font-weight: 600; color: var(--brand); }
+.sc-flag:empty { display: none; }
+.sc-price { font-weight: 600; font-size: .88em; font-variant-numeric: tabular-nums; }
+.sc-item.is-low { opacity: .45; }
+.sc-cart {
+  position: absolute; left: .7em; right: .7em; bottom: .7em;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: .5em .5em .5em 1em; border-radius: 99px;
+  background: var(--ink); color: #fff; font-size: .85em;
+  transform: translateY(calc((1 - var(--cart, 0)) * 180%));
+  transition: transform .6s var(--spring);
+}
+.sc-send { background: var(--brand); padding: .65em 1em; border-radius: 99px; font-weight: 600; }
+.sc-sheet {
+  position: absolute; left: 0; right: 0; bottom: 0;
+  padding: .6em 1em 1.3em; border-radius: 1.5em 1.5em 0 0;
+  background: #fff; box-shadow: 0 -1em 2em -1em rgba(20, 30, 80, .35);
+  transform: translateY(calc((1 - var(--sheet, 0)) * 110%));
+  transition: transform .7s var(--spring);
+}
+.sc-grab { display: block; width: 2.4em; height: .28em; margin: 0 auto .8em; border-radius: 99px; background: #E3E5EC; }
+.sc-sheet-k { font-weight: 700; font-size: 1.05em; margin-bottom: .6em; letter-spacing: -.02em; }
+.sc-pair { display: grid; grid-template-columns: 2.8em 1fr auto; gap: .6em; align-items: center; padding: .5em; border-radius: 1em; background: #F2F4FF; }
+.sc-pair img { width: 2.8em; height: 2.8em; object-fit: contain; }
+.sc-pair b { display: block; font-size: .9em; }
+.sc-pair small { display: block; font-size: .68em; color: #6E6E73; line-height: 1.25; }
+.sc-add { padding: .6em .9em; border-radius: 99px; background: var(--brand); color: #fff; font-weight: 600; font-size: .8em; }
+
+.ping {
+  position: absolute; z-index: 3; right: 72%; top: 10%;
+  display: flex; gap: 10px; align-items: center; white-space: nowrap;
+  padding: 12px 16px; border-radius: 18px;
+  background: rgba(255, 255, 255, .78);
+  -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 20px 40px -20px rgba(20, 30, 80, .4);
+  font-size: 14px; color: var(--ink);
+  opacity: var(--ping, 0);
+  transform: translate3d(calc((1 - var(--ping, 0)) * 40px), 0, 0) scale(calc(.9 + var(--ping, 0) * .1));
+  transition: opacity .4s, transform .6s var(--spring);
+}
+.ping b { display: block; font-weight: 600; }
+.ping small { color: #6E6E73; }
+.ping-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--brand); box-shadow: 0 0 0 5px rgba(31, 58, 158, .16); }
+
+/* ---------- Copy ---------- */
+.copy { position: absolute; inset: 0; z-index: 4; pointer-events: none; }
+.chapter {
+  position: absolute;
+  left: max(28px, calc(50% - 620px));
+  top: 50%;
+  width: min(400px, 30vw);
+  opacity: 0;
+  transform: translate3d(0, -50%, 0);
+}
+.chapter h1 { font-size: clamp(52px, 6.4vw, 96px); line-height: .96; letter-spacing: -.05em; }
+.chapter h2 { font-size: clamp(32px, 3.6vw, 52px); line-height: 1.05; letter-spacing: -.035em; }
+.chapter h2.final { font-size: clamp(44px, 5.4vw, 80px); line-height: .98; letter-spacing: -.05em; }
+.chapter p { margin-top: 18px; font-size: 18px; line-height: 1.5; color: var(--fg-2); max-width: 26rem; }
+.time {
+  display: inline-block; margin-bottom: 18px;
+  font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums;
+  padding: 8px 14px; border-radius: 99px;
+  color: var(--fg);
+  background: rgba(255, 255, 255, .22);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .35);
+}
+.btn {
+  pointer-events: auto;
+  display: inline-flex; align-items: center; margin-top: 30px;
+  min-height: 54px; padding: 0 28px; border-radius: 99px;
+  background: #fff; color: var(--ink); text-decoration: none; font-weight: 600; font-size: 16px;
+  transition: transform .35s var(--spring);
+}
+.btn:hover { transform: translateY(-2px); }
+.btn:focus-visible { outline: 3px solid #8EA2FF; outline-offset: 3px; }
+
+/* ---------- Clock ---------- */
+.clock { position: absolute; z-index: 4; left: 50%; bottom: 26px; translate: -50% 0; width: min(560px, 80vw); opacity: var(--clock-o, 0); transition: opacity .4s; }
+.clock-track { height: 3px; border-radius: 2px; background: color-mix(in srgb, var(--fg) 18%, transparent); overflow: hidden; }
+.clock-fill { display: block; height: 100%; width: calc(var(--clock, 0) * 100%); background: var(--fg); }
+.clock ol { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; font-weight: 600; color: var(--fg-2); font-variant-numeric: tabular-nums; }
+
+.hint { position: absolute; z-index: 4; left: 50%; bottom: 30px; translate: -50% 0; display: flex; flex-direction: column; align-items: center; gap: 10px; font-size: 13px; font-weight: 500; color: var(--fg-2); opacity: var(--hint-o, 1); }
+.hint span { width: 1.5px; height: 34px; background: color-mix(in srgb, var(--fg) 20%, transparent); position: relative; overflow: hidden; }
+.hint span::after { content: ""; position: absolute; inset: 0 0 60%; background: var(--fg); animation: hint 1.8s var(--ease) infinite; }
+@keyframes hint { from { transform: translateY(-100%); } to { transform: translateY(260%); } }
+
+/* ---------- Phone ---------- */
+@media (max-width: 860px) {
+  .world { left: 50%; width: min(120vw, 80svh); translate: -50% 26%; }
+  .ada { left: 12%; }
+  .ada-wide { left: 8%; }
+  /* on phones the copy sits at the top, so the sun and moon move down between text and world */
+  .orb { top: 44% !important; left: 80% !important; width: 18vmin; }
+  .w-planet { width: min(170vw, 104svh); translate: -50% 44%; }
+  .chapter { left: 20px; right: 20px; width: auto; top: 64px; bottom: auto; transform: none; }
+  .chapter h1 { font-size: clamp(44px, 12vw, 60px); }
+  .chapter h2 { font-size: 28px; }
+  .chapter h2.final { font-size: 40px; }
+  .chapter p { font-size: 15.5px; margin-top: 10px; }
+  .time { margin-bottom: 10px; }
+  .hand { height: min(40svh, 92vw); right: -2vw; }
+  .ping { display: none; }
+  .tags { top: -8%; right: 2%; gap: 6px; }
+  .tag { font-size: 12px; padding: 7px 11px; }
+  .clock { bottom: auto; top: 18px; }
+  .hint { bottom: auto; top: 40%; }
+  .clock ol { font-size: 11px; }
+}
+
+/* ---------- Reduced motion: keep the scroll story, drop the autonomous motion ---------- */
+@media (prefers-reduced-motion: reduce) {
+  .rock, .worlds, .cloud, .hint span::after { animation: none; }
+}
