@@ -6,6 +6,7 @@ window.GUN_I18N = {
     "meta.desc": "ArtOfMenu ile QR menünüzü, siparişleri ve stoğu yönetin, akıllı ürün önerileri ve günlük fiyatlandırma özelliklerini keşfedin.",
     "aria.day": "Bir günün menüsü",
     "hint": "Kaydırın",
+    "tab.pricing": "Fiyatlar",
 
     "s0.t": "QR menüden çok daha fazlası",
     "s0.d": "ArtOfMenu, QR menüyü, siparişleri, stok yönetimini ve akıllı fiyatlandırmayı bir araya getirir. Nasıl çalıştığını görmek için aşağı kaydırın.",
@@ -46,6 +47,7 @@ window.GUN_I18N = {
     "meta.desc": "Manage QR menus, orders and inventory with ArtOfMenu, discover smart product recommendations and daily pricing.",
     "aria.day": "A day on the menu",
     "hint": "Scroll",
+    "tab.pricing": "Pricing",
 
     "s0.t": "More than a QR menu",
     "s0.d": "ArtOfMenu brings QR menus, ordering, inventory and smart pricing together. Scroll down to see how it works throughout the day.",
@@ -86,6 +88,7 @@ window.GUN_I18N = {
     "meta.desc": "Verwalten Sie QR-Menüs, Bestellungen und Warenbestand mit ArtOfMenu und entdecken Sie intelligente Produktempfehlungen und tägliche Preise.",
     "aria.day": "Ein Tag auf der Speisekarte",
     "hint": "Scrollen",
+    "tab.pricing": "Preise",
 
     "s0.t": "Mehr als eine QR-Speisekarte",
     "s0.d": "ArtOfMenu vereint QR-Menü, Bestellungen, Warenbestand und intelligente Preisgestaltung. Scrollen Sie weiter und entdecken Sie den Tagesablauf.",
