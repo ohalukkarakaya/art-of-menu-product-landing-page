@@ -87,7 +87,7 @@ ol { margin: 0; padding: 0; list-style: none; }
   opacity: 0;
   will-change: transform, opacity;
 }
-.w-planet { width: min(72vw, 130svh, 1150px); translate: -50% 44%; transform-origin: 50% 56%; }
+.w-planet { left: 69%; width: min(66vw, 124svh, 1080px); translate: -50% 44%; transform-origin: 50% 56%; }
 .island { width: 100%; filter: drop-shadow(0 40px 50px rgba(20, 30, 80, .25)); }
 /* Planets only rock gently, never turn upside down */
 .rock { animation: rock 14s ease-in-out infinite alternate; }
@@ -149,6 +149,7 @@ ol { margin: 0; padding: 0; list-style: none; }
 .sc-langs { display: flex; gap: .35em; margin: .8em 0 .6em; font-size: .72em; font-weight: 600; }
 .sc-langs span { padding: .4em .7em; border-radius: 99px; background: #EEF0F6; color: #6E6E73; }
 .sc-langs .on { background: var(--brand); color: #fff; }
+.chapter h1, .chapter h2 { text-wrap: balance; }
 .sc-weather { display: flex; align-items: center; gap: .5em; padding: .5em .7em; border-radius: .8em; background: #EEF2FF; font-size: .8em; font-weight: 600; margin-bottom: .7em; transition: background-color .5s; }
 .sc-weather.is-rain { background: #E4E8F2; }
 .sc-weather svg { width: 1.5em; height: 1.5em; display: block; }
@@ -210,9 +211,9 @@ ol { margin: 0; padding: 0; list-style: none; }
   opacity: 0;
   transform: translate3d(0, -50%, 0);
 }
-.chapter h1 { font-size: clamp(52px, 6.4vw, 96px); line-height: .96; letter-spacing: -.05em; }
+.chapter h1 { font-size: clamp(42px, 4.6vw, 70px); line-height: 1; letter-spacing: -.045em; }
 .chapter h2 { font-size: clamp(32px, 3.6vw, 52px); line-height: 1.05; letter-spacing: -.035em; }
-.chapter h2.final { font-size: clamp(44px, 5.4vw, 80px); line-height: .98; letter-spacing: -.05em; }
+.chapter h2.final { font-size: clamp(40px, 4.6vw, 70px); line-height: 1; letter-spacing: -.045em; }
 .chapter p { margin-top: 18px; font-size: 18px; line-height: 1.5; color: var(--fg-2); max-width: 26rem; }
 .time {
   display: inline-block; margin-bottom: 18px;
@@ -240,6 +241,7 @@ ol { margin: 0; padding: 0; list-style: none; }
 .clock ol { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; font-weight: 600; color: var(--fg-2); font-variant-numeric: tabular-nums; }
 
 .hint { position: absolute; z-index: 4; left: 50%; bottom: 30px; translate: -50% 0; display: flex; flex-direction: column; align-items: center; gap: 10px; font-size: 13px; font-weight: 500; color: var(--fg-2); opacity: var(--hint-o, 1); }
+.hint b { font-weight: 500; }
 .hint span { width: 1.5px; height: 34px; background: color-mix(in srgb, var(--fg) 20%, transparent); position: relative; overflow: hidden; }
 .hint span::after { content: ""; position: absolute; inset: 0 0 60%; background: var(--fg); animation: hint 1.8s var(--ease) infinite; }
 @keyframes hint { from { transform: translateY(-100%); } to { transform: translateY(260%); } }
@@ -260,7 +262,8 @@ ol { margin: 0; padding: 0; list-style: none; }
   .time { margin-bottom: 10px; }
   .hand { height: min(40svh, 92vw); right: -2vw; }
   .ping { display: none; }
-  .tags { top: -8%; right: 2%; gap: 6px; }
+  .tags { top: -8%; right: auto; left: 40%; gap: 6px; justify-items: start; }
+  .tag { justify-self: start; }
   .tag { font-size: 12px; padding: 7px 11px; }
   .clock { bottom: auto; top: 18px; }
   .hint { bottom: auto; top: 40%; }

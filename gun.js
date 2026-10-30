@@ -36,16 +36,38 @@
      Phone screen: the live menu changes with the hour
      ===================================================== */
 
-  var ITEMS = {
-    salep:      { name: "Salep",              img: "p-latte",      price: "₺110" },
-    latte:      { name: "Latte",              img: "p-latte",      price: "₺100" },
-    croissant:  { name: "Kruvasan",           img: "p-croissant",  price: "₺85" },
-    lemonade:   { name: "Ev yapımı limonata", img: "p-lemonade",   price: "₺90" },
-    cheesecake: { name: "San Sebastian",      img: "p-cheesecake", price: "₺180" }
-  };
+  /* Language: the first supported one in the browser's list, otherwise English */
+  var I18N = window.GUN_I18N;
+  var lang = (function () {
+    // ?lang=en|de|tr previews another language without changing the browser
+    var forced = new URLSearchParams(location.search).get("lang");
+    if (forced && I18N[forced]) return forced;
+    var list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
+    for (var i = 0; i < list.length; i++) {
+      var c = String(list[i]).slice(0, 2).toLowerCase();
+      if (I18N[c]) return c;
+    }
+    return "en";
+  })();
+  var T = I18N[lang];
+  document.documentElement.lang = lang;
+  document.title = T["meta.title"];
+  document.getElementById("meta-desc").setAttribute("content", T["meta.desc"]);
+  document.querySelectorAll("[data-t]").forEach(function (el) { el.textContent = T[el.dataset.t]; });
+  document.querySelectorAll("[data-t-aria]").forEach(function (el) { el.setAttribute("aria-label", T[el.dataset.tAria]); });
+  document.getElementById("sc-items").textContent = T["ph.items"].replace("{n}", "2");
+  document.querySelectorAll("#sc-langs [data-l]").forEach(function (el) { el.classList.toggle("on", el.dataset.l === lang); });
+  document.querySelectorAll(".tags .tag").forEach(function (el, i) {
+    el.querySelector("span").textContent = T.tags[i][0];
+    el.querySelector("b").textContent = T.tags[i][1];
+  });
+
+  var IMG = { salep: "p-latte", latte: "p-latte", croissant: "p-croissant", lemonade: "p-lemonade", cheesecake: "p-cheesecake" };
+  var ITEMS = {};
+  Object.keys(IMG).forEach(function (id) { ITEMS[id] = { name: T.items[id][0], img: IMG[id], price: T.items[id][1] }; });
   var STATES = {
-    sun:  { text: "Güneşli, 22°", order: ["lemonade", "latte", "croissant", "cheesecake", "salep"], flag: { lemonade: "Sıcakta öne çıktı" } },
-    rain: { text: "Yağmurlu, 11°", order: ["salep", "latte", "croissant", "cheesecake", "lemonade"], flag: { salep: "Soğukta öne çıktı" }, low: "lemonade" }
+    sun:  { text: T["ph.sunny"], order: ["lemonade", "latte", "croissant", "cheesecake", "salep"], flag: { lemonade: T["ph.flag.cold"] } },
+    rain: { text: T["ph.rainy"], order: ["salep", "latte", "croissant", "cheesecake", "lemonade"], flag: { salep: T["ph.flag.hot"] }, low: "lemonade" }
   };
   var ICON = {
     sun: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="5" fill="#F3B941"/><g stroke="#F3B941" stroke-width="2" stroke-linecap="round"><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></g></svg>',
