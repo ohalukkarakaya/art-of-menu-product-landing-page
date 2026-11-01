@@ -149,10 +149,12 @@
     });
   }
   var reorderTimer = 0;
-  function setWeather(next) {
+  function setWeather(next, forward) {
     if (next === weather) return;
     weather = next;
     clearTimeout(reorderTimer);
+    // going back up the day the menu simply returns to how it was; the show only plays forward
+    if (!forward) { paintWeather(); return; }
     if (next === "rain" && !reduceMQ.matches) {
       // lean in first, then let the menu rearrange while it is close
       zoomPhone();
@@ -264,7 +266,8 @@
         var t = travel(d);
         var y = t < 0 ? -t * 70 : t * 8;
         // a small steady push-in so every bit of scroll shows movement, even while an hour holds
-        var s = (t < 0 ? 1 + t * 0.15 : 1 + t * 0.6) * (1 + d * 0.05);
+        // (the leaving world grows to 1.35x, not 1.6x: an animated layer is drawn at its largest size)
+        var s = (t < 0 ? 1 + t * 0.15 : 1 + t * 0.32) * (1 + d * 0.05);
         var o = t < 0 ? 1 + t * 1.4 : 1 - t * 1.6;
         // the first planet waits below the hero copy and rises into place as the copy leaves
         var sink = i === 0 ? heroSink * (1 - smoothstep(0, 0.6, p)) : 0;
@@ -365,7 +368,7 @@
      Scroll timeline
      ===================================================== */
 
-  var target = 0, pending = false, sheetOpen = false, lastFrame = 0;
+  var target = 0, pending = false, sheetOpen = false, lastFrame = 0, lastP = 0;
   var mx = 0, my = 0, tmx = 0, tmy = 0;
 
   // Hold each world in place for a while, then move on: d in [-1, 1] -> eased travel.
@@ -412,9 +415,13 @@
     setOn(pingEl, "--ping", n(smoothstep(1.75, 1.95, p) * (1 - smoothstep(2.3, 2.5, p))));
     var sheet = smoothstep(3.7, 3.95, p) * (1 - smoothstep(4.4, 4.6, p));
     setOn(screenEl, "--sheet", n(sheet));
-    if (sheet > 0.5 && !sheetOpen) { sheetOpen = true; zoomPhone(); }
+    // timed moments (the phone leaning in, the menu reshuffling) play only while scrolling down,
+    // so scrolling back up never sets anything moving on its own
+    var forward = p >= lastP;
+    lastP = p;
+    if (sheet > 0.5 && !sheetOpen) { sheetOpen = true; if (forward) zoomPhone(); }
     if (sheet < 0.2) sheetOpen = false;
-    setWeather(p > 2.65 ? "rain" : "sun");
+    setWeather(p > 2.65 ? "rain" : "sun", forward);
 
     // Rain around 18:00
     rainLevel = lite ? 0 : clamp(1 - Math.abs(p - 3) * 1.7);

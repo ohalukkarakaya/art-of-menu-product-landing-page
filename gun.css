@@ -1,4 +1,6 @@
 html, body { background: #DCE6FF; }
+/* nothing on this page is inserted above the reader, so the browser never needs to shift the scroll */
+html { overflow-anchor: none; }
 
 :root {
   --edge: max(28px, calc(50% - 620px));   /* left/right edge of the 1240px grid */
