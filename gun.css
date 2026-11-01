@@ -32,11 +32,8 @@ ol { margin: 0; padding: 0; list-style: none; }
 .stage {
   position: sticky; top: 0;
   height: 100vh; height: 100lvh; min-height: 600px;
-  /* how much of the stage the browser's toolbars may cover (0 on desktop) */
-  --bars: calc(100lvh - 100svh);
   overflow: hidden; overflow-x: clip; overflow-y: visible; isolation: isolate;
   --fg: #1D1D1F; --fg-2: rgba(29, 29, 31, .62);
-  --stars: 0; --rain: 0; --mx: 0; --my: 0;
   color: var(--fg);
 }
 .sky, .stars { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
@@ -49,14 +46,14 @@ ol { margin: 0; padding: 0; list-style: none; }
   background: var(--orb-c, #FFF4C8);
   box-shadow: 0 0 80px 20px var(--orb-glow, rgba(255, 236, 170, .55));
   opacity: var(--orb-o, 1);
-  transform: translate(calc(var(--opx, 70vw) - 50% + var(--ox, 0) * 1px), calc(var(--opy, 14vh) - 50% + var(--oy, 0) * 1px));
+  transform: translate(calc(72vw - 50%), calc(16vh - 50%));
   will-change: transform;
 }
 
 /* Clouds drift slowly; they darken with the rain */
 /* the container is not a layer of its own (it would be a full-screen texture); each cloud is */
 .clouds { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
-.cloud { position: absolute; width: 26vw; max-width: 380px; translate: calc(var(--cpx, 0) * 1px) calc(var(--cpy, 0) * 1px); will-change: transform, filter; opacity: var(--cloud-o, .9); filter: brightness(var(--cloud-b, 1.5)) saturate(.8); animation: drift 60s linear infinite; }
+.cloud { position: absolute; width: 26vw; max-width: 380px; will-change: transform, filter; opacity: var(--cloud-o, .9); filter: brightness(var(--cloud-b, 1.5)) saturate(.8); animation: drift 60s linear infinite; }
 .c1 { top: 8%; left: -10%; animation-duration: 70s; }
 .c2 { top: 20%; left: 40%; width: 18vw; animation-duration: 90s; animation-delay: -30s; }
 .c3 { top: 4%; left: 70%; width: 22vw; animation-duration: 80s; animation-delay: -50s; }
@@ -64,7 +61,7 @@ ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Worlds ---------- */
 /* Idle camera: a slow, small handheld sway */
-.worlds { position: absolute; inset: 0; z-index: 1; transform-origin: 64% 100%; animation: sway 9s ease-in-out infinite alternate; }
+.worlds { position: absolute; inset: 0; z-index: 1; transform-origin: 64% 100%; translate: 0 calc(var(--dock, 0px) * -1); transition: translate .35s var(--ease); animation: sway 9s ease-in-out infinite alternate; }
 @keyframes sway {
   0%   { transform: translate3d(-6px, 0, 0) rotate(-.45deg); }
   50%  { transform: translate3d(3px, -7px, 0) rotate(.15deg); }
@@ -76,19 +73,19 @@ ol { margin: 0; padding: 0; list-style: none; }
   left: 64%; bottom: 0;
   width: min(58vw, 104svh, 920px);
   aspect-ratio: 1;
-  translate: -50% 34%;
+  transform: translate(-50%, 34%);
   transform-origin: 50% 66%;
   opacity: 0;
   /* will-change is set from JS only on the worlds near the current hour: seven big
      retina layers at once ran the GPU out of memory and made scrolling stall */
 }
-.w-planet { left: 69%; width: min(66vw, 124svh, 1080px); translate: -50% 53%; transform-origin: 50% 47%; }
+.w-planet { left: 69%; width: min(66vw, 124svh, 1080px); transform: translate(-50%, 53%); transform-origin: 50% 47%; }
 .island { width: 100%; }
 /* Planets only rock gently, never turn upside down */
 .rock { animation: rock 14s ease-in-out infinite alternate; }
 @keyframes rock { from { rotate: -3deg; } to { rotate: 3deg; } }
 /* Ada gets her own light depth: a little extra pointer/scroll drift and a slow idle sway */
-.ada { translate: var(--ax, 0px) var(--ay, 0px); transform-origin: 50% 100%; will-change: transform; animation: idle 4.2s ease-in-out infinite alternate; }
+.ada { transform-origin: 50% 100%; will-change: transform; animation: idle 4.2s ease-in-out infinite alternate; }
 @keyframes idle { from { transform: translateY(0) rotate(-.8deg); } to { transform: translateY(-5px) rotate(.8deg); } }
 .ada { position: absolute; left: 6%; bottom: 38%; height: 36%; width: auto; filter: drop-shadow(0 20px 22px rgba(20, 30, 80, .3)); }
 .ada-wide { height: auto; width: 40%; left: 2%; bottom: 36%; }
@@ -147,7 +144,9 @@ ol { margin: 0; padding: 0; list-style: none; }
   bottom: 0;
   height: min(78svh, 760px);
   aspect-ratio: 631 / 1000;
-  transform: translate3d(calc(var(--hx, 0) * 1px), calc(var(--hand, 1) * 115svh + var(--hy, 0) * 1px), 0) rotate(calc(var(--hand, 1) * 8deg));
+  transform: translate3d(0, 115svh, 0) rotate(8deg);
+  /* rides above the phone browser's bottom bar while it is showing (see dock() in gun.js) */
+  margin-bottom: var(--dock, 0px); transition: margin-bottom .35s var(--ease);
   transform-origin: 50% 100%;
   will-change: transform;
 }
@@ -279,7 +278,7 @@ ol { margin: 0; padding: 0; list-style: none; }
 .clock ol { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; font-weight: 600; color: var(--fg-2); font-variant-numeric: tabular-nums; }
 
 .hint {
-  position: absolute; z-index: 5; left: 50%; bottom: calc(28px + var(--bars, 0px) + env(safe-area-inset-bottom)); translate: -50% 0;
+  position: absolute; z-index: 5; left: 50%; bottom: calc(28px + var(--dock, 0px) + env(safe-area-inset-bottom)); transition: bottom .35s var(--ease); translate: -50% 0;
   display: flex; align-items: center; gap: 10px; padding: 10px 16px 10px 14px; border-radius: 99px;
   font-size: 13px; font-weight: 600; color: var(--ink);
   background: rgba(255, 255, 255, .9);
@@ -384,14 +383,14 @@ main { background: #1C1F55; }
 
 /* ---------- Phone ---------- */
 @media (max-width: 860px) {
-  .world { left: 50%; width: min(120vw, 80svh); translate: -50% 34%; }
+  .world { left: 50%; width: min(120vw, 80svh); }
   .ada { left: 12%; }
   .ada-wide { left: 8%; }
   /* the planet is wider than a phone; keep the celebrating Ada inside the screen, right of centre */
   .ada-final { left: 58%; right: auto; bottom: 60%; height: 21%; }
   /* on phones the copy sits at the top, so the sun and moon move down between text and world */
   .orb { width: 18vmin; }
-  .w-planet { width: min(170vw, 104svh); translate: -50% 53%; }
+  .w-planet { width: min(170vw, 104svh); }
   .chapter { left: 20px; right: 20px; width: auto; bottom: auto; transform: none; }
   .chapter h1 { font-size: clamp(44px, 12vw, 60px); }
   .chapter h2 { font-size: 28px; }

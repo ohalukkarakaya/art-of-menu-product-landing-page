@@ -12,12 +12,12 @@
      ?lite=1 / ?lite=0 force it for testing. */
   var root = document.documentElement;
   var liteParam = new URLSearchParams(location.search).get("lite");
-  var lite = liteParam === "1" || (liteParam !== "0" && (function () { try { return sessionStorage.getItem("aom-lite") === "1"; } catch (e) { return false; } })());
+  var lite = liteParam === "1" || (liteParam !== "0" && (function () { try { return sessionStorage.getItem("aom-lite2") === "1"; } catch (e) { return false; } })());
   function setLite() {
     if (lite) return;
     lite = true;
     root.classList.add("lite");
-    try { sessionStorage.setItem("aom-lite", "1"); } catch (e) {}
+    try { sessionStorage.setItem("aom-lite2", "1"); } catch (e) {}
   }
   if (lite) root.classList.add("lite");
 
@@ -56,7 +56,8 @@
   function showIf(el, on) { setOn(el, "visibility", on ? "visible" : "hidden"); }
   var skyCanvas = document.getElementById("sky"), skyCtx = skyCanvas.getContext("2d");
   var starsCanvas = document.getElementById("stars");
-  var orbEl = stage.querySelector(".orb"), cloudsEl = stage.querySelector(".clouds"), starsEl = starsCanvas;
+  var orbEl = stage.querySelector(".orb"), cloudsEl = stage.querySelector(".clouds");
+  var cloudEls = Array.prototype.slice.call(stage.querySelectorAll(".cloud"));
   var handBox = stage.querySelector(".hand"), clockEl = stage.querySelector(".clock"), hintEl = stage.querySelector(".hint");
   var copyEl = stage.querySelector(".copy"), chartEl = stage.querySelector(".chart"), rainEl = document.getElementById("rain");
   var pingEl = stage.querySelector(".ping"), screenEl = document.getElementById("screen");
@@ -237,10 +238,141 @@
   }
 
   /* =====================================================
+     Scroll tracks: every scroll-linked style written as a function of the hour p (0..6).
+     Where the browser has scroll-driven animations (Chrome, Edge, Safari 26+) the tracks are
+     handed over as keyframes on a view timeline, so the compositor moves them in step with the
+     finger, with no script in between. Elsewhere update() writes the same values every frame.
+     The pointer (or finger) parallax rides on top through the separate `translate` property.
+     ===================================================== */
+
+  var SDA = typeof window.ViewTimeline === "function" && new URLSearchParams(location.search).get("sda") !== "0";
+  var tracks = [], running = [], built = { w: 0, h: 0 };
+  var chartClip = stage.querySelector(".chart-clip"), chartInner = stage.querySelector(".chart-inner");
+  var clockFill = stage.querySelector(".clock-fill");
+  function n(v, d) { return v.toFixed(d === undefined ? 3 : d); }
+  function track(el, a, b, fn, pseudo) { if (el) tracks.push({ el: el, a: a, b: b, fn: fn, pseudo: pseudo }); }
+  function fadeTrack(el, a, b, fn) { track(el, a, b, function (p) { var o = fn(p); return { opacity: n(o), visibility: o > 0.01 ? "visible" : "hidden" }; }); }
+
+  function scene(p) {
+    var i0 = Math.min(LAST - 1, Math.floor(p)), f = smoothstep(0.45, 0.85, p - i0);
+    return { A: SCENES[i0], B: SCENES[i0 + 1], f: f };
+  }
+
+  function buildTracks() {
+    tracks = [];
+    var mobile = window.innerWidth <= 860, W = stage.clientWidth, H = stage.clientHeight;
+
+    // Worlds: rise from below the screen edge, then the camera walks into them
+    worlds.forEach(function (w, i) {
+      var anchor = w.classList.contains("w-planet") ? "translate(-50%, 53%) " : "translate(-50%, 34%) ";
+      track(w, Math.max(0, i - 1), Math.min(LAST, i + 1), function (p) {
+        var d = p - i;
+        if (Math.abs(d) >= 1) return { opacity: "0", visibility: "hidden", transform: anchor + "translate3d(0, 0px, 0) scale(1)" };
+        var t = travel(d);
+        var y = t < 0 ? -t * 70 : t * 8;
+        // a small steady push-in so every bit of scroll shows movement, even while an hour holds
+        var s = (t < 0 ? 1 + t * 0.15 : 1 + t * 0.6) * (1 + d * 0.05);
+        var o = t < 0 ? 1 + t * 1.4 : 1 - t * 1.6;
+        // the first planet waits below the hero copy and rises into place as the copy leaves
+        var sink = i === 0 ? heroSink * (1 - smoothstep(0, 0.6, p)) : 0;
+        return { opacity: n(clamp(o)), visibility: "visible", transform: anchor + "translate3d(0, calc(" + n(y, 2) + "svh + " + n(sink, 1) + "px), 0) scale(" + n(s) + ")" };
+      });
+      // Ada stands a little in front of her island and drifts a bit on her own; the jumping Ada
+      // at the end is mid-air, so she gets more
+      var ada = w.querySelector(".ada"), k = ada === finalAda ? 2.2 : 1;
+      track(ada, Math.max(0, i - 1), Math.min(LAST, i + 1), function (p) { return { translate: "0px " + n((p - i) * -24 * k, 1) + "px" }; });
+    });
+
+    // Copy for the current hour
+    chapters.forEach(function (c, i) {
+      track(c, Math.max(0, i - 1), Math.min(LAST, i + 1), function (p) {
+        var t = travel(p - i), o = clamp(1 - Math.abs(t) * 2.2);
+        return { opacity: n(o), visibility: o > 0.01 ? "visible" : "hidden",
+          transform: mobile ? "translate3d(0, " + n(t * -40, 1) + "px, 0)" : "translate3d(0, calc(-50% + " + n(t * -60, 1) + "px), 0)" };
+      });
+    });
+
+    // The guest's hand is in the shot from 08:00 to 20:00, and dips a little between hours
+    track(handBox, 0, LAST, function (p) {
+      var hand = 1 - smoothstep(0.55, 0.95, p) * (1 - smoothstep(4.25, 4.7, p));
+      var dip = 28 + Math.abs(p - Math.round(p)) * 70;
+      return { transform: "translate3d(0, calc(" + n(hand * 115, 2) + "svh + " + n(dip, 1) + "px), 0) rotate(" + n(hand * 8, 2) + "deg)",
+        visibility: hand > 0.995 ? "hidden" : "visible" };
+    });
+
+    // Sun and moon: place and brightness (colour is painted from update())
+    track(orbEl, 0, LAST, function (p) {
+      // a gentle bob with the scroll (a smooth wave: the old sawtooth snapped back 60px mid-hour)
+      var s = scene(p), dl = Math.sin(p * Math.PI * 2) * 0.25;
+      // on phones the copy sits on top, so the sun and moon move down between text and world
+      var x = (mobile ? 80 : lerp(s.A.orb[0], s.B.orb[0], s.f)) * W / 100;
+      var y = (mobile ? 44 : lerp(s.A.orb[1], s.B.orb[1], s.f)) * H / 100 + dl * 60;
+      return { opacity: n(lerp(s.A.orb[3], s.B.orb[3], s.f)), transform: "translate(calc(" + n(x, 1) + "px - 50%), calc(" + n(y, 1) + "px - 50%))" };
+    });
+
+    // Clouds slide back as the day goes on
+    cloudEls.forEach(function (c) {
+      track(c, 0, LAST, function (p) { return { translate: n(p * -60, 1) + "px " + n(Math.sin(p * Math.PI * 2) * 12.5, 1) + "px" }; });
+    });
+
+    fadeTrack(starsCanvas, 4, LAST, function (p) { return smoothstep(4.2, 5.2, p); });
+    fadeTrack(clockEl, 0, LAST, function (p) { return smoothstep(0.5, 0.9, p) * (1 - smoothstep(5.3, 5.7, p)); });
+    track(clockFill, 1, 5, function (p) { return { transform: "scaleX(" + n(clamp((p - 1) / 4), 4) + ")" }; });
+    fadeTrack(hintEl, 0, 0.3, function (p) { return 1 - smoothstep(0.05, 0.3, p); });
+    fadeTrack(brandEl, 0, 0.7, function (p) { return smoothstep(0.35, 0.7, p); });
+    fadeTrack(tabEl, 0, 0.7, function (p) { return smoothstep(0.35, 0.7, p); });
+    // the sky wash behind the hero copy
+    track(copyEl, 0, 0.8, function (p) { return { opacity: n(1 - smoothstep(0.3, 0.8, p)) }; }, "::before");
+
+    // 23:00: daily revenue climbs as the visitor scrolls through the smart pricing scene
+    fadeTrack(chartEl, 4.3, 5.8, function (p) { return smoothstep(4.35, 4.7, p) * (1 - smoothstep(5.45, 5.75, p)); });
+    var cw = chartEl.offsetWidth, ch = chartEl.offsetHeight;
+    track(chartClip, 4.45, 5.4, function (p) { return { transform: "translate3d(" + n((smoothstep(4.45, 5.4, p) - 1) * 100, 2) + "%, 0, 0)" }; });
+    track(chartInner, 4.45, 5.4, function (p) { return { transform: "translate3d(" + n((1 - smoothstep(4.45, 5.4, p)) * 100, 2) + "%, 0, 0)" }; });
+    track(chartDot, 4.45, 5.4, function (p) {
+      var g = smoothstep(4.45, 5.4, p);
+      return { transform: "translate3d(" + n(g * cw, 1) + "px, " + n(chartY(g * 1200) / 600 * ch, 1) + "px, 0)" };
+    });
+
+    if (SDA) startTracks();
+  }
+
+  // Hand the tracks to the browser as scroll-driven animations on the day's view timeline
+  function startTracks() {
+    running.forEach(function (a) { a.cancel(); });
+    running = [];
+    var timeline = new ViewTimeline({ subject: day, axis: "block" });
+    tracks.forEach(function (tr) {
+      var steps = Math.max(2, Math.ceil((tr.b - tr.a) / 0.04)), frames = [];
+      for (var k = 0; k <= steps; k++) {
+        var fr = tr.fn(tr.a + (tr.b - tr.a) * k / steps);
+        fr.offset = k / steps;
+        frames.push(fr);
+      }
+      var opts = { timeline: timeline, fill: "both", easing: "linear",
+        rangeStart: "contain " + n(tr.a / LAST * 100, 4) + "%", rangeEnd: "contain " + n(tr.b / LAST * 100, 4) + "%" };
+      if (tr.pseudo) opts.pseudoElement = tr.pseudo;
+      try { running.push(tr.el.animate(frames, opts)); } catch (e) { SDA = false; }
+    });
+    if (!SDA) { running.forEach(function (a) { a.cancel(); }); running = []; }
+  }
+
+  // Without scroll-driven animations: write the same values from script
+  function applyTracks(p) {
+    tracks.forEach(function (tr) {
+      var v = tr.fn(clamp(p, tr.a, tr.b));
+      Object.keys(v).forEach(function (k) {
+        if (tr.pseudo) setOn(tr.el, "--scrim", v[k]);
+        else setOn(tr.el, k, v[k]);
+      });
+    });
+  }
+
+  /* =====================================================
      Scroll timeline
      ===================================================== */
 
-  var target = 0, smooth = 0, inited = false, pending = false, sheetOpen = false, lastFrame = 0;
+  var target = 0, pending = false, sheetOpen = false, lastFrame = 0;
   var mx = 0, my = 0, tmx = 0, tmy = 0;
 
   // Hold each world in place for a while, then move on: d in [-1, 1] -> eased travel.
@@ -253,134 +385,59 @@
     pending = false;
     var rm = reduceMQ.matches;
     var runway = day.offsetHeight - stage.offsetHeight;   // the stage stays pinned for exactly this distance
-    target = clamp(-day.getBoundingClientRect().top / runway) * LAST;
-    // The scene is pinned to the scroll position itself: no easing of our own on top of the
-    // browser's, so it can never lag behind, catch up with a jump, or move after the hand stops
+    var p = target = clamp(-day.getBoundingClientRect().top / runway) * LAST;
     var now = performance.now(), frames = Math.min(4, (now - lastFrame) / 16.7 || 1);
     lastFrame = now;
-    smooth = target;
-    inited = true;
-    mx = rm || lite ? 0 : lerp(mx, tmx, 1 - Math.pow(0.92, frames));
-    my = rm || lite ? 0 : lerp(my, tmy, 1 - Math.pow(0.92, frames));
+    mx = rm || lite ? 0 : lerp(mx, tmx, 1 - Math.pow(0.9, frames));
+    my = rm || lite ? 0 : lerp(my, tmy, 1 - Math.pow(0.9, frames));
     watchFrames(now);
-    var p = smooth;
     var mobile = window.innerWidth <= 860;
 
-    // Sky and light blend between neighbouring hours
-    var i0 = Math.floor(p), i1 = Math.min(LAST, i0 + 1), f = smoothstep(0.45, 0.85, p - i0);
-    var A = SCENES[i0], B = SCENES[i1];
+    if (!SDA) applyTracks(p);
+
+    // Colours blend between neighbouring hours (paint, so it stays in script)
+    var s = scene(p), A = s.A, B = s.B, f = s.f;
     paintSky(mixHex(A.top, B.top, f), mixHex(A.bottom, B.bottom, f));
-    // on phones the copy sits on top, so the sun and moon move down between text and world
-    var ox = mobile ? 80 : lerp(A.orb[0], B.orb[0], f), oy = mobile ? 44 : lerp(A.orb[1], B.orb[1], f);
-    setOn(orbEl, "--opx", (ox * rainW / 100).toFixed(1) + "px");
-    setOn(orbEl, "--opy", (oy * rainH / 100).toFixed(1) + "px");
     setOn(orbEl, "--orb-c", mixHex(A.orb[2], B.orb[2], f));
-    setOn(orbEl, "--orb-o", lerp(A.orb[3], B.orb[3], f).toFixed(3));
-    setOn(orbEl, "--orb-glow", "rgba(255, 240, 200," + (0.55 * (1 - smoothstep(3.6, 4.6, p))).toFixed(3) + ")");
-    setOn(cloudsEl, "--cloud-b", lerp(A.cloud[0], B.cloud[0], f).toFixed(3));
-    setOn(cloudsEl, "--cloud-o", lerp(A.cloud[1], B.cloud[1], f).toFixed(3));
-    var stars = smoothstep(4.2, 5.2, p);
-    setOn(starsEl, "--stars", stars.toFixed(3));
-    showIf(starsEl, stars > 0.001);
+    setOn(orbEl, "--orb-glow", "rgba(255, 240, 200," + n(0.55 * (1 - smoothstep(3.6, 4.6, p))) + ")");
+    setOn(cloudsEl, "--cloud-b", n(lerp(A.cloud[0], B.cloud[0], f)));
+    setOn(cloudsEl, "--cloud-o", n(lerp(A.cloud[1], B.cloud[1], f)));
     var dark = lerp(A.dark, B.dark, f);
     set("--fg", dark > .5 ? "#F5F5F7" : "#1D1D1F");
     set("--fg-2", dark > .5 ? "rgba(245,245,247,.72)" : "rgba(29,29,31,.62)");
     set("--halo", dark > .5 ? "rgba(10, 14, 50, .7)" : "rgba(220, 230, 255, .8)");
 
-    // Worlds: rise from below the screen edge, then the camera walks into them
-    worlds.forEach(function (w, i) {
-      var d = p - i;
-      // keep a GPU layer only for the worlds next to the current hour
-      setOn(w, "will-change", Math.abs(d) < 1.6 ? "transform, opacity" : "auto");
-      if (Math.abs(d) >= 1) { setOn(w, "opacity", "0"); setOn(w, "visibility", "hidden"); return; }
-      setOn(w, "visibility", "visible");
-      var t = travel(d);
-      var y = t < 0 ? -t * 70 : t * 8;
-      // a small steady push-in so every bit of scroll shows movement, even while an hour holds
-      var s = (t < 0 ? 1 + t * 0.15 : 1 + t * 0.6) * (1 + d * 0.05);
-      var o = t < 0 ? 1 + t * 1.4 : 1 - t * 1.6;
-      var px = mx * -70, py = my * -40;
-      // the first planet waits below the hero copy and rises into place as the copy leaves
-      if (i === 0) py += heroSink * (1 - smoothstep(0, 0.6, p));
-      setOn(w, "opacity", clamp(o).toFixed(3));
-      setOn(w, "transform", "translate3d(" + px.toFixed(1) + "px, calc(" + y.toFixed(2) + "svh + " + py.toFixed(1) + "px), 0) rotate(" + (mx * 1.2).toFixed(2) + "deg) scale(" + s.toFixed(3) + ")");
-    });
+    // Pointer (or finger) parallax: the hand in front moves most, the clouds far back least
+    var px = n(mx * -70, 1) + "px " + n(my * -40, 1) + "px", rot = n(mx * 1.2, 2) + "deg";
+    worlds.forEach(function (w) { setOn(w, "translate", px); setOn(w, "rotate", rot); });
+    chapters.forEach(function (c) { setOn(c, "translate", mobile ? "0px 0px" : n(mx * 14, 1) + "px " + n(my * 8, 1) + "px"); });
+    setOn(handBox, "translate", n(Math.min(mx * (mobile ? 30 : 90), handMaxX), 1) + "px " + n(my * 40, 1) + "px");
+    setOn(orbEl, "translate", n(mx * -20, 1) + "px " + n(my * -12, 1) + "px");
+    setOn(cloudsEl, "translate", n(mx * -30, 1) + "px " + n(my * -16, 1) + "px");
 
-    // Copy for the current hour
-    chapters.forEach(function (c, i) {
-      var t = travel(p - i);
-      var o = clamp(1 - Math.abs(t) * 2.2);
-      setOn(c, "opacity", o.toFixed(3));
-      setOn(c, "transform", mobile
-        ? "translate3d(0," + (t * -40).toFixed(1) + "px,0)"
-        : "translate3d(" + (mx * 14).toFixed(1) + "px, calc(-50% + " + (t * -60 + my * 8).toFixed(1) + "px), 0)");
-      setOn(c, "visibility", o > 0.01 ? "visible" : "hidden");
-    });
-
-    // The guest's hand is in the shot from 08:00 to 20:00
-    var hand = 1 - smoothstep(0.55, 0.95, p) * (1 - smoothstep(4.25, 4.7, p));
-    setOn(handBox, "--hand", hand.toFixed(3));
-    // fully parked below the stage: hide it, or it would show under the stage once it unpins
-    setOn(handBox, "visibility", hand > 0.995 ? "hidden" : "visible");
-    // depth layers answer the pointer: hand in front moves most, clouds far back move least
-    var dl = p - Math.round(p);   // -0.5..0.5 inside the current hour, for scroll parallax
-    // Ada stands a little in front of her island: a light extra drift, never a big one.
-    // The jumping Ada at the end is mid-air, so she gets a bit more.
-    worlds.forEach(function (w, i) {
-      var ada = w.querySelector(".ada");
-      if (!ada) return;
-      var k = ada === finalAda ? 2.2 : 1, d = p - i;
-      setOn(ada, "--ax", (mx * -16 * k).toFixed(1) + "px");
-      setOn(ada, "--ay", (my * -10 * k + d * -24 * k).toFixed(1) + "px");
-    });
-    setOn(handBox, "--hx", Math.min(mx * (mobile ? 30 : 90), handMaxX).toFixed(1)); setOn(handBox, "--hy", Math.max(0, 28 + my * 40 + Math.abs(dl) * 70).toFixed(1));
-    setOn(cloudsEl, "--cpx", (mx * -30 + p * -60).toFixed(1)); setOn(cloudsEl, "--cpy", (my * -16 + dl * 50).toFixed(1));
-    setOn(orbEl, "--ox", (mx * -20).toFixed(1)); setOn(orbEl, "--oy", (my * -12 + dl * 60).toFixed(1));
-    setOn(screenEl, "--cart", (smoothstep(1.6, 1.85, p) * (1 - smoothstep(2.3, 2.5, p))).toFixed(3));
-    setOn(pingEl, "--ping", (smoothstep(1.75, 1.95, p) * (1 - smoothstep(2.3, 2.5, p))).toFixed(3));
+    // The live menu on the phone
+    setOn(screenEl, "--cart", n(smoothstep(1.6, 1.85, p) * (1 - smoothstep(2.3, 2.5, p))));
+    setOn(pingEl, "--ping", n(smoothstep(1.75, 1.95, p) * (1 - smoothstep(2.3, 2.5, p))));
     var sheet = smoothstep(3.7, 3.95, p) * (1 - smoothstep(4.4, 4.6, p));
-    setOn(screenEl, "--sheet", sheet.toFixed(3));
+    setOn(screenEl, "--sheet", n(sheet));
     if (sheet > 0.5 && !sheetOpen) { sheetOpen = true; zoomPhone(); }
     if (sheet < 0.2) sheetOpen = false;
     setWeather(p > 2.65 ? "rain" : "sun");
 
     // Rain around 18:00
     rainLevel = lite ? 0 : clamp(1 - Math.abs(p - 3) * 1.7);
-    setOn(rainEl, "--rain", rainLevel.toFixed(3));
+    setOn(rainEl, "--rain", n(rainLevel));
     showIf(rainEl, rainLevel > 0.001);
     if (rainLevel > 0.01) startRain();
 
-    // Clock and scroll hint
-    setOn(clockEl, "--clock", clamp((p - 1) / 4).toFixed(4));
-    var clockO = smoothstep(0.5, 0.9, p) * (1 - smoothstep(5.3, 5.7, p)), hintO = 1 - smoothstep(0.05, 0.3, p);
-    setOn(clockEl, "--clock-o", clockO.toFixed(3)); showIf(clockEl, clockO > 0.001);
-    setOn(hintEl, "--hint-o", hintO.toFixed(3)); showIf(hintEl, hintO > 0.001);
-    // 23:00: daily revenue climbs as the visitor scrolls through the smart pricing scene
-    var grow = smoothstep(4.45, 5.4, p);
-    setOn(chartEl, "--chart", grow.toFixed(4));
-    var chartO = smoothstep(4.35, 4.7, p) * (1 - smoothstep(5.45, 5.75, p));
-    setOn(chartEl, "--chart-o", chartO.toFixed(3)); showIf(chartEl, chartO > 0.001);
-    if (chartO > 0.001) {
-      setOn(chartDot, "--dx", (grow * chartW).toFixed(1) + "px");
-      setOn(chartDot, "--dy", (chartY(grow * 1200) / 600 * chartH).toFixed(1) + "px");
-    }
-
-    // the sky wash behind the copy, only over the first planet
-    setOn(copyEl, "--scrim", (1 - smoothstep(0.3, 0.8, p)).toFixed(3));
-    var brandO = smoothstep(0.35, 0.7, p);
-    [brandEl, tabEl].forEach(function (el) {
-      setOn(el, "--brand-o", brandO.toFixed(3));
-      setOn(el, "--brand-v", brandO > 0.01 ? "visible" : "hidden");
-    });
-
-    var settling = Math.abs(smooth - target) > 0.0005 || Math.abs(mx - tmx) > 0.001 || Math.abs(my - tmy) > 0.001;
+    var settling = Math.abs(mx - tmx) > 0.001 || Math.abs(my - tmy) > 0.001;
     if (settling) request();
   }
   function request() { if (!pending) { pending = true; requestAnimationFrame(update); } }
 
-  // Watch real frame times while the story moves. If the slower quarter of 45 frames in a row
-  // takes longer than 26ms (under ~38fps), this machine gets lite mode for the rest of the visit.
-  var frameTimes = [], lastTick = 0;
+  // Watch real frame times while the story moves. Only a machine that stays under ~25fps for two
+  // stretches of 45 frames gets lite mode for the rest of the visit.
+  var frameTimes = [], lastTick = 0, slowRuns = 0;
   function watchFrames(now) {
     if (lite || liteParam === "0") return;
     var dtf = now - lastTick;
@@ -390,7 +447,8 @@
     if (frameTimes.length < 45) return;
     var sorted = frameTimes.slice().sort(function (a, b) { return a - b; });
     frameTimes = [];
-    if (sorted[Math.floor(sorted.length * 0.75)] > 26) setLite();
+    slowRuns = sorted[Math.floor(sorted.length * 0.75)] > 40 ? slowRuns + 1 : 0;
+    if (slowRuns >= 2) setLite();
   }
 
   // The phone may only drift right until its edge meets the screen edge (the wrist may run off)
@@ -406,8 +464,6 @@
     var overlapX = Math.min(c.offsetLeft + c.offsetWidth, planetRight) - Math.max(c.offsetLeft, planetLeft);
     heroSink = overlapX > 0 ? Math.min(Math.max(0, copyBottom - planetTop), h * 0.3) : 0;
   }
-  var chartW = 0, chartH = 0;
-  function measureChart() { chartW = chartEl.offsetWidth; chartH = chartEl.offsetHeight; }
   function measureHand() { var w = handEl.offsetWidth; handMaxX = parseFloat(getComputedStyle(handEl).right) + w * 0.135 - 12; }
 
   // Revenue chart: sample the curve once, then look up the height for any x
@@ -433,19 +489,53 @@
     request();
   }
   window.addEventListener("scroll", onScroll, { passive: true });
-  window.addEventListener("resize", function () { sizeCanvas(); paintStars(); measureHand(); measureHero(); measureChart(); request(); });
-  measureHand(); measureHero(); measureChart();
-  if (document.fonts) document.fonts.ready.then(function () { measureHero(); request(); });
+
+  // Phones: while the browser's bottom bar is showing, lift the islands, the hand and the hint
+  // above it; when it slides away they settle back onto the screen edge
+  function dock() {
+    var cover = Math.max(0, Math.round(stage.offsetHeight - window.innerHeight));
+    set("--dock", (cover < 200 ? cover : 0) + "px");
+  }
+  function onResize() {
+    dock();
+    sizeCanvas(); paintStars(); measureHand(); measureHero();
+    // the bar coming and going changes only the height of the visible area, not the stage
+    if (stage.clientWidth !== built.w || stage.clientHeight !== built.h) {
+      built = { w: stage.clientWidth, h: stage.clientHeight };
+      buildTracks();
+    }
+    request();
+  }
+  window.addEventListener("resize", onResize);
+  if (window.visualViewport) window.visualViewport.addEventListener("resize", dock);
+  if (document.fonts) document.fonts.ready.then(function () { measureHero(); buildTracks(); request(); });
+
   if (finePointer.matches) {
     window.addEventListener("pointermove", function (e) {
       tmx = e.clientX / window.innerWidth - 0.5;
       tmy = e.clientY / window.innerHeight - 0.5;
       request();
     }, { passive: true });
+  } else {
+    // Touch: the scene leans toward the finger while it is on the glass, and settles when it lifts
+    var onTouch = function (e) {
+      var t = e.touches[0];
+      if (!t) return;
+      tmx = (t.clientX / window.innerWidth - 0.5) * 0.8;
+      tmy = (t.clientY / window.innerHeight - 0.5) * 0.8;
+      request();
+    };
+    window.addEventListener("touchstart", onTouch, { passive: true });
+    window.addEventListener("touchmove", onTouch, { passive: true });
+    window.addEventListener("touchend", function () { tmx = 0; tmy = 0; request(); }, { passive: true });
   }
 
   sizeCanvas();
   paintStars();
+  measureHand(); measureHero();
+  built = { w: stage.clientWidth, h: stage.clientHeight };
+  buildTracks();
+  dock();
   update();
 
   // Decode every world up front, so a new hour never stalls the scroll while its image unpacks
