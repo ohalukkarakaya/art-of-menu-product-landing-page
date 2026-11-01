@@ -1,4 +1,4 @@
-// Copy for "Bir günün menüsü" (gun.html). Keys match data-t attributes in the page.
+// Copy for "Bir günün menüsü" (index.html). Keys match data-t attributes in the page.
 // The page picks the first supported language from the browser, otherwise English.
 window.GUN_I18N = {
   tr: {

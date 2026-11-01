@@ -3,283 +3,206 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>ArtOfMenu: Daha çok kazandıran menü</title>
-  <meta name="description" content="Kafe, restoran, bar ve pastaneler için QR menü, masadan sipariş, stok ve günlük akıllı fiyat tek yerde.">
-  <meta name="theme-color" content="#FBFBFD">
-  <meta property="og:title" content="ArtOfMenu: Daha çok kazandıran menü">
-  <meta property="og:description" content="QR menü, masadan sipariş ve günlük akıllı fiyat tek yerde.">
+  <title>ArtOfMenu | Daha çok kazandıran menü</title>
+  <meta name="description" id="meta-desc" content="ArtOfMenu ile QR menünüzü, siparişleri ve stoğu yönetin, akıllı ürün önerileri ve günlük fiyatlandırma özelliklerini keşfedin.">
+  <meta name="theme-color" content="#DCE6FF">
+  <meta property="og:title" content="ArtOfMenu | Daha çok kazandıran menü">
+  <meta property="og:description" content="QR menü, masadan sipariş, stok ve günlük akıllı fiyat tek yerde.">
   <meta property="og:image" content="assets/web/og.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="48x48">
+  <link rel="icon" href="assets/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="assets/web/hero-phone.webp" type="image/webp">
-  <link rel="stylesheet" href="styles.css?v=13">
+  <link rel="preload" as="image" href="assets/web/diorama/planet.webp" type="image/webp">
+  <link rel="stylesheet" href="gun.css?v=22">
   <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
 
-<a class="skip" href="#main" data-i18n="nav.skip">İçeriğe geç</a>
+<main>
+  <section class="day" id="day" aria-label="Bir günün menüsü" data-t-aria="aria.day">
+    <div class="stage" id="stage">
+      <div class="sky" aria-hidden="true"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <div class="orb" aria-hidden="true"></div>
 
+      <div class="clouds" aria-hidden="true">
+        <img class="cloud c1" src="assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+        <img class="cloud c2" src="assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+        <img class="cloud c3" src="assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+      </div>
 
-<main id="main">
-
-  <!-- ================= Hero ================= -->
-  <section class="hero" id="top" aria-labelledby="hero-title">
-    <div class="glow" aria-hidden="true"><span class="g1"></span><span class="g2"></span><span class="g3"></span></div>
-    <a class="hero-logo wrap rise" href="#top" aria-label="ArtOfMenu" style="--d:0s"><span class="logo-face"><img src="assets/web/mino-wave.webp" alt="" width="367" height="760"></span><span class="logo-word">artofmenu</span></a>
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <h1 id="hero-title">
-          <span class="line"><span data-i18n="hero.t1">Daha çok</span></span>
-          <span class="line"><span data-i18n="hero.t2">kazandıran</span></span>
-          <span class="line"><span class="hl" data-i18n="hero.t3">menü.</span></span>
-        </h1>
-        <p class="hero-lead rise" style="--d:.55s" data-i18n="hero.lead">QR menüyle başlayın. ArtOfMenu yarının talebini tahmin eder, fiyatı sizin sınırlarınız içinde ayarlar ve misafire doğru anda doğru ürünü önerir.</p>
-        <div class="hero-actions rise" style="--d:.7s">
-          <a class="btn btn-ink btn-lg" href="#join" data-i18n="hero.cta">Erken erişime katıl</a>
-          <a class="btn btn-glass btn-lg" href="#story" data-i18n="hero.cta2">Nasıl çalıştığını gör</a>
+      <!-- One world per hour of the day -->
+      <div class="worlds" aria-hidden="true">
+        <div class="world w-planet rock" data-i="0">
+          <img class="island" src="assets/web/diorama/planet.webp" alt="" width="1100" height="1072">
+        </div>
+        <div class="world" data-i="1">
+          <img class="island" src="assets/web/diorama/morning-cafe.webp" alt="" width="1100" height="1092" loading="lazy">
+          <img class="ada" src="assets/web/story-scan.webp" alt="" width="782" height="1200" loading="lazy">
+        </div>
+        <div class="world" data-i="2">
+          <img class="island" src="assets/web/diorama/lunch-restaurant.webp" alt="" width="1100" height="1088" loading="lazy">
+          <img class="ada" src="assets/web/story-order.webp" alt="" width="820" height="1200" loading="lazy">
+        </div>
+        <div class="world" data-i="3">
+          <img class="island" src="assets/web/diorama/rain-evening.webp" alt="" width="1100" height="1096" loading="lazy">
+          <img class="ada" src="assets/web/story-weather.webp" alt="" width="797" height="1200" loading="lazy">
+        </div>
+        <div class="world" data-i="4">
+          <img class="island" src="assets/web/diorama/bakery.webp" alt="" width="1100" height="1090" loading="lazy">
+          <img class="ada ada-wide" src="assets/web/story-pair.webp?v=2" alt="" width="1200" height="896" loading="lazy">
+        </div>
+        <div class="world" data-i="5">
+          <img class="island" src="assets/web/diorama/night-close.webp" alt="" width="1100" height="1082" loading="lazy">
+          <img class="ada" src="assets/web/smart-night.webp" alt="" width="787" height="1200" loading="lazy">
+          <div class="tags">
+            <span class="tag up"><span></span> <b></b></span>
+            <span class="tag up"><span></span> <b></b></span>
+            <span class="tag down"><span></span> <b></b></span>
+          </div>
+        </div>
+        <div class="world w-planet" data-i="6">
+          <img class="island rock" src="assets/web/diorama/planet-night.webp" alt="" width="1100" height="1081" loading="lazy">
+          <img class="ada ada-final" id="ada-final" src="assets/web/join-celebrate.webp" alt="" width="756" height="1200" loading="lazy">
         </div>
       </div>
 
-      <div class="hero-art" aria-hidden="true">
-                <div class="float f-main" data-k="0.35"><div class="pop" style="--d:.1s"><img class="bob" src="assets/web/hero-phone.webp" alt="" width="984" height="1200" style="--bt:7s"></div></div>
-        <div class="float f-latte" data-k="1.2"><div class="pop" style="--d:.45s"><img class="bob" src="assets/web/p-latte.webp" alt="" width="420" height="327" style="--bt:5.4s"></div></div>
-        <div class="float f-croissant" data-k="1.6"><div class="pop" style="--d:.55s"><img class="bob" src="assets/web/p-croissant.webp" alt="" width="420" height="324" style="--bt:6.2s; --bd:-1.5s"></div></div>
-        <div class="float f-cake" data-k="1.0"><div class="pop" style="--d:.65s"><img class="bob" src="assets/web/p-cheesecake.webp" alt="" width="420" height="308" style="--bt:5.8s; --bd:-2.5s"></div></div>
-        <div class="float f-coins" data-k="1.9"><div class="pop" style="--d:.75s"><img class="bob" src="assets/web/p-coins.webp" alt="" width="306" height="331" style="--bt:4.6s; --bd:-1s"></div></div>
-        <div class="float f-lemon" data-k="1.4"><div class="pop" style="--d:.85s"><img class="bob" src="assets/web/p-lemonade.webp" alt="" width="290" height="450" style="--bt:6.6s; --bd:-3s"></div></div>
-        <div class="float f-basil" data-k="2.2"><div class="pop" style="--d:.95s"><img class="bob" src="assets/web/p-basil.webp" alt="" width="369" height="339" style="--bt:5s; --bd:-.5s"></div></div>
-      </div>
-    </div>
+      <canvas class="rain" id="rain" aria-hidden="true"></canvas>
 
-    <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
-  </section>
-
-  <!-- ================= Pinned story ================= -->
-  <section class="story" id="story" aria-label="Nasıl çalışır" data-i18n-attr="aria-label:nav.how">
-    <div class="story-stage" id="story-stage" data-ch="0">
-      <div class="wrap story-grid">
-        <div class="story-copy">
-          <ol class="chapters">
-            <li class="chapter">
-              <p class="ch-meta"><span class="ch-no">01</span><span class="ch-pkg" data-i18n="c1.pkg">Tüm paketlerde</span></p>
-              <h2 data-i18n="c1.t">Misafir okutur, menü kendi dilinde açılır.</h2>
-              <p data-i18n="c1.d">Masadaki QR hep aynı kalır, menüyü siz güncellersiniz. Fotoğraflar, alerjenler ve ülkenizin para birimi hazır.</p>
-            </li>
-            <li class="chapter">
-              <p class="ch-meta"><span class="ch-no">02</span><span class="ch-pkg">Order</span></p>
-              <h2 data-i18n="c2.t">Sipariş masadan, garsonun cebine.</h2>
-              <p data-i18n="c2.d">Misafir sepeti gönderir, garson telefonunda anında görür. Garson, su ya da hesap çağrısı tüm garsonların ekranına düşer.</p>
-            </li>
-            <li class="chapter">
-              <p class="ch-meta"><span class="ch-no">03</span><span class="ch-pkg">Smart</span></p>
-              <h2 data-i18n="c3.t">Hava döner, menü de döner.</h2>
-              <p data-i18n="c3.d">Soğukta sıcak içecekler yukarı çıkar, tükenmek üzere olan ürün aşağı iner. Gün içinde fiyat değil, yalnızca sıra değişir.</p>
-            </li>
-            <li class="chapter">
-              <p class="ch-meta"><span class="ch-no">04</span><span class="ch-pkg">Smart</span></p>
-              <h2 data-i18n="c4.t">Latte'nin yanına bir dilim cheesecake.</h2>
-              <p data-i18n="c4.d">Misafir latte eklediğinde, o şubede latteyle en çok alınan tatlı önerilir. Sepet büyür, misafir rahatsız olmaz.</p>
-            </li>
-          </ol>
-          <div class="dots" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-        </div>
-
-        <div class="story-visual" aria-hidden="true">
-          <div class="blob"></div>
-          <div class="blob-ring"></div>
-          <img class="scene" src="assets/web/story-scan.webp" alt="" width="782" height="1200" loading="lazy">
-          <img class="scene" src="assets/web/story-order.webp" alt="" width="820" height="1200" loading="lazy">
-          <img class="scene" src="assets/web/story-weather.webp" alt="" width="797" height="1200" loading="lazy">
-          <img class="scene" src="assets/web/story-pair.webp?v=2" alt="" width="1200" height="896" loading="lazy">
+      <!-- The guest's hand with the live menu on the phone -->
+      <div class="hand" aria-hidden="true">
+        <div class="hand-zoom" id="hand-zoom">
+        <div class="screen" id="screen"><div class="sc-in">
+          <div class="sc-top"><span class="sc-venue">Lale Kahve</span><span class="sc-table" data-t="ph.table">Masa 4</span></div>
+          <div class="sc-langs" id="sc-langs"><span data-l="tr">Türkçe</span><span data-l="en">English</span><span data-l="de">Deutsch</span></div>
+          <div class="sc-weather" id="sc-weather"><span id="sc-wicon"></span><span id="sc-wtext"></span></div>
+          <ol class="sc-list" id="sc-list"></ol>
+          <div class="sc-cart"><span id="sc-items">2 ürün</span><span class="sc-send" data-t="ph.send">Siparişi gönder</span></div>
+          <div class="sc-sheet">
+            <span class="sc-grab"></span>
+            <p class="sc-sheet-k" data-t="ph.pair">Bununla iyi gider</p>
+            <div class="sc-pair"><img src="assets/web/p-cheesecake.webp" alt="" width="458" height="344"><span><b data-t="ph.pair.item">San Sebastian Cheesecake</b><small data-t="ph.pair.why">Bu ürünle birlikte sıkça sipariş ediliyor</small></span><span class="sc-add" data-t="ph.add">Ekle</span></div>
+          </div>
+        </div></div>
+        <img class="hand-img" src="assets/web/diorama/hand-phone.webp" alt="" width="631" height="1000">
+        <div class="ping"><span class="ping-dot"></span><span><b data-t="ph.ping.t">Masa 4 · Yeni sipariş</b><small data-t="ph.ping.d">Yeni sipariş alındı</small></span></div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!-- ================= Smart ================= -->
-  <section class="smart" id="smart" aria-labelledby="smart-title">
-    <div class="glow glow-dark" aria-hidden="true"><span class="g1"></span></div>
-    <div class="wrap smart-grid">
-      <div class="smart-copy">
-        <img class="smart-art" src="assets/web/smart-night.webp" alt="" width="787" height="1200" loading="lazy" aria-hidden="true" data-reveal="pop">
-        <p class="eyebrow" data-reveal><span class="eyebrow-dot"></span><span data-i18n="smart.k">Smart paketi</span></p>
-        <h2 id="smart-title" data-reveal data-i18n="smart.title">Yarının fiyatı bu akşam hazır.</h2>
-        <p class="smart-lead" data-reveal data-i18n="smart.lead2">Her akşam hava tahminine, tatillere ve beklenen talebe bakar; ertesi günün fiyatlarını sizin belirlediğiniz aralıkta hazırlar. Fiyat günde en fazla bir kez değişir.</p>
-        <ul class="chips" data-reveal>
-          <li data-i18n="chip.1">Özel günler</li>
-          <li data-i18n="chip.2">Hava tahmini</li>
-          <li data-i18n="chip.3">Min–maks sınırı</li>
-          <li data-i18n="chip.4">Kendi verinizden öğrenir</li>
-        </ul>
+      <!-- Copy for each hour -->
+      <div class="copy">
+        <article class="chapter" data-i="0">
+          <img class="chapter-logo" src="assets/brand/logo.webp" alt="ArtOfMenu" width="900" height="682">
+          <h1 data-t="s0.t">QR menüden çok daha fazlası</h1>
+          <p data-t="s0.d"></p>
+        </article>
+        <article class="chapter" data-i="1">
+          <span class="time">08:00</span>
+          <h2 data-t="s1.t"></h2>
+          <p data-t="s1.d"></p>
+        </article>
+        <article class="chapter" data-i="2">
+          <span class="time">13:00</span>
+          <h2 data-t="s2.t"></h2>
+          <p data-t="s2.d"></p>
+        </article>
+        <article class="chapter" data-i="3">
+          <span class="time">18:00</span>
+          <h2 data-t="s3.t"></h2>
+          <p data-t="s3.d"></p>
+        </article>
+        <article class="chapter" data-i="4">
+          <span class="time">20:00</span>
+          <h2 data-t="s4.t"></h2>
+          <p data-t="s4.d"></p>
+        </article>
+        <article class="chapter" data-i="5">
+          <span class="time">23:00</span>
+          <h2 data-t="s5.t"></h2>
+          <p data-t="s5.d"></p>
+        </article>
+        <article class="chapter" data-i="6">
+          <h2 class="final" data-t="s6.t"></h2>
+          <p data-t="s6.d"></p>
+          <a class="btn" href="classic.html#join" data-t="s6.btn"></a>
+        </article>
       </div>
 
-      <div class="tomorrow" id="tomorrow" data-mode="approve" data-reveal="pop">
-        <div class="tm-head">
-          <span class="tm-day" data-i18n="tm.day">Cumartesi, 14 Şubat</span>
-          <span class="tm-tags"><span class="tm-tag tm-tag-pink" data-i18n="tm.event">Sevgililer Günü</span><span class="tm-tag" data-i18n="tm.weather">8°, yağmurlu</span></span>
-        </div>
-        <p class="tm-reason" data-i18n="tm.reason">Soğuk ve kalabalık bir gün bekleniyor: sıcak içecekler çok satacak.</p>
-        <div class="tm-mode" role="radiogroup" aria-label="Fiyat modu" data-i18n-attr="aria-label:tm.modeLabel">
-          <span class="tm-mode-bg" aria-hidden="true"></span>
-          <button type="button" role="radio" data-mode="approve" aria-checked="true" data-i18n="tm.mode.approve">Onaylı</button>
-          <button type="button" role="radio" data-mode="auto" aria-checked="false" data-i18n="tm.mode.auto">Otomatik</button>
-          <button type="button" role="radio" data-mode="off" aria-checked="false" data-i18n="tm.mode.off">Kapalı</button>
-        </div>
-        <ul class="tm-rows" id="tm-rows"></ul>
-        <p class="tm-foot" id="tm-foot" aria-live="polite"></p>
+      <div class="clock" aria-hidden="true">
+        <div class="clock-track"><span class="clock-fill"></span></div>
+        <ol>
+          <li>08:00</li><li>13:00</li><li>18:00</li><li>20:00</li><li>23:00</li>
+        </ol>
       </div>
-    </div>
-  </section>
 
-  <!-- ================= Features ================= -->
-  <section class="features" aria-labelledby="features-title">
-    <div class="wrap">
-      <div class="sec-head">
-        <h2 id="features-title" data-reveal data-i18n="more.title">Masada başka neler var.</h2>
-        <p data-reveal data-i18n="more.lead">Menünün arkasındaki işler de aynı panelde.</p>
-      </div>
-      <ul class="cards">
-        <li class="card" data-reveal="pop" style="--tint:#9DB0FF">
-          <img src="assets/web/f-pdf.webp" alt="" width="450" height="400" loading="lazy">
-          <h3 data-i18n="f.pdf.t">PDF'ten dakikalar içinde menü</h3>
-          <p data-i18n="f.pdf.d">Elinizdeki PDF menüyü yükleyin, aynı gün yayında olsun.</p>
-          <span class="pkg">Menu</span>
-        </li>
-        <li class="card" data-reveal="pop" style="--tint:#B9C6FF">
-          <img src="assets/web/f-stock.webp" alt="" width="321" height="387" loading="lazy">
-          <h3 data-i18n="f.stock.t">Reçeteli stok</h3>
-          <p data-i18n="f.stock.d">Bir malzeme biterse, onunla yapılan ürün menüde kendiliğinden tükendi olur.</p>
-          <span class="pkg pkg-smart">Smart</span>
-        </li>
-        <li class="card" data-reveal="pop" style="--tint:#D4CCFF">
-          <img src="assets/web/f-reports.webp" alt="" width="415" height="369" loading="lazy">
-          <h3 data-i18n="f.reports.t">Menü raporları</h3>
-          <p data-i18n="f.reports.d">Çok görülüp az açılan, açılıp sipariş edilmeyen ürünler için panel sizi uyarır.</p>
-          <span class="pkg">Menu</span>
-        </li>
-        <li class="card" data-reveal="pop" style="--tint:#7F95F0">
-          <img src="assets/web/f-screens.webp" alt="" width="520" height="296" loading="lazy">
-          <h3 data-i18n="f.screens.t">Tezgâh ekranları</h3>
-          <p data-i18n="f.screens.d">Menü tezgâh arkasındaki monitörlerde; birden fazla ekran sayfayı birlikte çevirir.</p>
-          <span class="pkg">Smart</span>
-        </li>
-        <li class="card" data-reveal="pop" style="--tint:#A9B7FF">
-          <img src="assets/web/p-qr.webp" alt="" width="357" height="355" loading="lazy">
-          <h3 data-i18n="f.domain.t">Kendi alan adınız</h3>
-          <p data-i18n="f.domain.d">Menünüz kendi alan adınızda açılır; masadaki QR hiç değişmez.</p>
-          <span class="pkg">Menu</span>
-        </li>
-        <li class="card" data-reveal="pop" style="--tint:#D4CCFF">
-          <img src="assets/web/p-coins.webp" alt="" width="316" height="303" loading="lazy">
-          <h3 data-i18n="f.global.t">216 ülkede, kendi para biriminizle</h3>
-          <p data-i18n="f.global.d">Para birimi, vergi gösterimi ve fiyat yuvarlaması ülkenize göre hazır.</p>
-          <span class="pkg">Menu</span>
-        </li>
-      </ul>
+      <div class="hint" aria-hidden="true"><span></span><b data-t="hint">Kaydırın</b></div>
     </div>
   </section>
 
-  <!-- ================= Plans ================= -->
+  <!-- Plans: no prices yet, they are announced at launch -->
   <section class="plans" id="plans" aria-labelledby="plans-title">
-    <div class="wrap">
-      <div class="sec-head sec-head-center">
-        <h2 id="plans-title" data-reveal data-i18n="plans.title">Üç paket, tek menü.</h2>
-        <p data-reveal data-i18n="plans.lead">Abonelik şube başına. İşletmeniz büyüdükçe bir üst pakete geçin; paket düşürseniz de verileriniz silinmez.</p>
-        <div class="billing" role="radiogroup" aria-label="Ödeme dönemi" data-i18n-attr="aria-label:price.label" data-reveal>
-          <span class="billing-bg" aria-hidden="true"></span>
-          <button type="button" role="radio" data-billing="monthly" aria-checked="true" data-i18n="price.monthly">Aylık</button>
-          <button type="button" role="radio" data-billing="yearly" aria-checked="false"><span data-i18n="price.yearly">Yıllık</span> <span class="billing-save" data-i18n="price.save">2 ay bedava</span></button>
-        </div>
+    <div class="plans-in">
+      <h2 id="plans-title" data-t="plans.title">Üç paket, tek menü.</h2>
+      <p class="plans-lead" data-t="plans.lead"></p>
+      <div class="billing" role="radiogroup" aria-label="Ödeme dönemi" data-t-aria="price.label">
+        <span class="billing-bg" aria-hidden="true"></span>
+        <button type="button" role="radio" data-billing="monthly" aria-checked="true" data-t="price.monthly">Aylık</button>
+        <button type="button" role="radio" data-billing="yearly" aria-checked="false"><span data-t="price.yearly">Yıllık</span> <span class="billing-save" data-t="price.save">2 ay bedava</span></button>
       </div>
       <div class="plan-grid">
-        <article class="plan" data-reveal="pop">
+        <article class="plan">
           <h3>Menu</h3>
-          <p class="plan-tag" data-i18n="p.menu.tag">Dijital menünüz, dakikalar içinde</p>
+          <p class="plan-tag" data-t="p.menu.tag"></p>
           <p class="price" data-price="menu"><span class="price-amount"></span><span class="price-per"></span></p>
           <ul>
-            <li data-i18n="p.menu.1">QR menü, fotoğraflar, alerjenler, çoklu dil</li>
-            <li data-i18n="p.menu.2">Kendi alan adınız</li>
-            <li data-i18n="p.menu.3">PDF menünüzü yükleyip hemen yayına alma</li>
-            <li data-i18n="p.menu.4">Anonim menü istatistikleri</li>
+            <li data-t="p.menu.1"></li><li data-t="p.menu.2"></li><li data-t="p.menu.3"></li><li data-t="p.menu.4"></li>
           </ul>
         </article>
-        <article class="plan" data-reveal="pop">
+        <article class="plan">
           <h3>Order</h3>
-          <p class="plan-tag" data-i18n="p.order.tag">Masadan sipariş, garsonun cebinde</p>
+          <p class="plan-tag" data-t="p.order.tag"></p>
           <p class="price" data-price="order"><span class="price-amount"></span><span class="price-per"></span></p>
           <ul>
-            <li data-i18n="p.order.1">Menu'deki her şey</li>
-            <li data-i18n="p.order.2">Masadan sipariş, canlı garson ekranı ve bildirim</li>
-            <li data-i18n="p.order.3">Basit stok ve sipariş raporları</li>
+            <li data-t="p.order.1"></li><li data-t="p.order.2"></li><li data-t="p.order.3"></li>
           </ul>
         </article>
-        <article class="plan plan-smart" data-reveal="pop">
-          <img class="plan-mino" src="assets/web/mino-point.webp" alt="" width="337" height="760" loading="lazy" aria-hidden="true">
+        <article class="plan plan-smart">
           <h3>Smart</h3>
-          <p class="plan-tag" data-i18n="p.smart.tag">İşletmenizi büyüten zekâ</p>
+          <p class="plan-tag" data-t="p.smart.tag"></p>
           <p class="price" data-price="smart"><span class="price-amount"></span><span class="price-per"></span></p>
           <ul>
-            <li data-i18n="p.smart.1">Order'daki her şey</li>
-            <li data-i18n="p.smart.2">Günlük akıllı fiyat ve özel gün takvimi</li>
-            <li data-i18n="p.smart.3">Canlı menü sıralaması ve "bununla iyi gider" önerileri</li>
-            <li data-i18n="p.smart.4">Masadan çağırma, reçeteli stok, tezgâh ekranları</li>
+            <li data-t="p.smart.1"></li><li data-t="p.smart.2"></li><li data-t="p.smart.3"></li><li data-t="p.smart.4"></li>
           </ul>
-          <a class="btn btn-light" href="#join" data-i18n="hero.cta">Erken erişime katıl</a>
+          <a class="plan-btn" href="classic.html#join" data-t="s6.btn"></a>
         </article>
       </div>
-      <p class="plans-note" data-reveal data-i18n="plans.note">Fiyatlar şube başınadır. Yıllık ödemede 12 ay, 10 ay fiyatına.</p>
-    </div>
-  </section>
-
-  <!-- ================= Trust ================= -->
-  <section class="trust" aria-labelledby="trust-title">
-    <div class="wrap">
-      <div class="trust-top">
-        <h2 id="trust-title" class="manifesto" data-i18n="trust.manifesto">Misafirinizi izlemeyiz. Fiyatlarınızı kimseyle paylaşmayız. Hesabınız da verileriniz de sizin.</h2>
-        <img class="trust-mino" src="assets/web/mino-proud.webp" alt="" width="311" height="760" loading="lazy" aria-hidden="true" data-reveal="pop">
-      </div>
-      <dl class="trust-list">
-        <div data-reveal><dt data-i18n="tr.1.t">Kolay iptal</dt><dd data-i18n="tr.1.d">Aboneliğinizi tek adımda iptal edersiniz; ödediğiniz dönemin sonuna kadar kullanmaya devam edersiniz.</dd></div>
-        <div data-reveal><dt data-i18n="tr.2.t">Çerez yok, iz yok</dt><dd data-i18n="tr.2.d">Misafirden çerez, kalıcı kimlik ya da IP saklamıyoruz. İstatistikler anonim.</dd></div>
-        <div data-reveal><dt data-i18n="tr.3.t">Fiyatınız sizde kalır</dt><dd data-i18n="tr.3.d">İşletmeler arasında yalnızca davranış katsayıları paylaşılır, fiyatlar asla. İstemezseniz katılmazsınız.</dd></div>
-        <div data-reveal><dt data-i18n="tr.4.t">Hesap sizin</dt><dd data-i18n="tr.4.d">Hesabınızı kapatıp 30 gün içinde geri açabilirsiniz. Destek ekibimiz yalnızca sizin verdiğiniz, süreli ve salt okunur erişimle bakar.</dd></div>
-        <div data-reveal><dt data-i18n="tr.5.t">Yasal uyum</dt><dd data-i18n="tr.5.d">İçerik bildirimleri ve kaldırma süreçleri DSA ve 5651'e göre hazır.</dd></div>
-      </dl>
-    </div>
-  </section>
-
-  <!-- ================= Join ================= -->
-  <section class="join" id="join" aria-labelledby="join-title">
-    <div class="wrap join-grid">
-      <div class="join-copy">
-        <h2 id="join-title" data-reveal data-i18n="join.title">Daha çok kazanmaya bu akşam başlayın.</h2>
-        <p data-reveal data-i18n="join.lead">Erken erişim listesine katılın; açıldığımızda ilk siz haberdar olun.</p>
-        <form class="join-form" id="join-form" novalidate data-endpoint="" data-reveal>
-          <label class="sr-only" for="join-email" data-i18n="join.label">E-posta adresiniz</label>
-          <input id="join-email" name="email" type="email" autocomplete="email" required placeholder="E-posta adresiniz" data-i18n-attr="placeholder:join.label">
-          <button class="btn btn-ink" type="submit" data-i18n="join.button">Listeye katıl</button>
-        </form>
-        <p class="join-status" id="join-status" aria-live="polite"></p>
-      </div>
-      <div class="join-art" aria-hidden="true">
-        <img class="join-mino" src="assets/web/join-celebrate.webp" alt="" width="756" height="1200" loading="lazy">
-      </div>
+      <p class="plans-note" data-t="plans.note"></p>
     </div>
   </section>
 </main>
 
 <footer class="footer">
-  <div class="wrap footer-row">
-    <p>© 2026 ArtOfMenu</p>
+  <div class="footer-in">
+    <a class="footer-logo" href="#day" aria-label="ArtOfMenu"><img src="assets/brand/logo-white.webp" alt="" width="900" height="682" loading="lazy"></a>
+    <nav class="footer-links" aria-label="ArtOfMenu">
+      <a href="#plans" data-t="tab.pricing">Fiyatlar</a>
+      <a href="classic.html#join" data-t="s6.btn">Erken erişime katılın</a>
+    </nav>
+    <p class="footer-copy">© 2026 ArtOfMenu</p>
   </div>
-  <p class="wordmark" aria-hidden="true">artofmenu</p>
+  <span class="footer-mark" aria-hidden="true"></span>
 </footer>
 
+<a class="brand" href="#day" aria-label="ArtOfMenu"><img src="assets/brand/logo-aom.webp" alt="" width="900" height="391"></a>
+<a class="tab" href="#plans" data-t="tab.pricing">Fiyatlar</a>
+
 <script src="i18n.js?v=14"></script>
+<script src="gun-i18n.js?v=3"></script>
 <script src="pricing.js?v=1"></script>
-<script src="main.js?v=13"></script>
+<script src="gun.js?v=16"></script>
 </body>
 </html>

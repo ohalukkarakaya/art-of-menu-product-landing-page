@@ -1,4 +1,4 @@
-// Page copy per language. Keys match data-i18n attributes in index.html.
+// Page copy per language. Keys match data-i18n attributes in classic.html; index.html also reads the plan copy.
 // Adding a language: copy one block, translate it, add a button in .lang and a row in AOM_MONEY.
 window.AOM_I18N = {
   tr: {

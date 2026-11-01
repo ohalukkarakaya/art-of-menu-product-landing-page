@@ -1,4 +1,4 @@
-// Plan prices, shared by index.html and gun.html.
+// Plan prices, shared by index.html (the 3D day) and classic.html.
 // Turkey pays in lira, Europe in euro, every other country in US dollars (per branch).
 // [monthly, yearly]; yearly is 12 months for the price of 10.
 (function () {

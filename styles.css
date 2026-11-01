@@ -91,10 +91,8 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Static logo (no bar) ---------- */
 .hero-logo { position: absolute; inset: 28px 0 auto; margin-inline: auto; display: flex; align-items: center; gap: 9px; text-decoration: none; z-index: 5; }
-.logo-face { width: 34px; height: 34px; border-radius: 50%; background: linear-gradient(160deg, #E4EAFF, #C7D2FF); overflow: hidden; display: grid; place-items: center; }
-.logo-face { position: relative; }
-.logo-face img { position: absolute; width: 58px; max-width: none; left: 50%; top: -3px; translate: -50% 0; }
-.logo-word { font: 600 19px/1 var(--font); letter-spacing: -.035em; color: var(--ink); }
+.hero-logo picture { display: block; }
+.logo-img { width: auto; height: 58px; }
 
 /* ---------- Ambient light (gives the glass something to refract) ---------- */
 .glow { position: absolute; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; }
@@ -371,7 +369,8 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
 /* ---------- Footer ---------- */
 .footer { background: var(--bg); color: var(--muted); padding-top: 56px; overflow: clip; font-size: 13px; }
 .footer-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
-.wordmark { margin: 28px 0 -.16em; text-align: center; font: 700 clamp(80px, 19vw, 300px)/.9 var(--font); letter-spacing: -.07em; color: #EDEDF0; white-space: nowrap; user-select: none; }
+/* the short AoM logo, tinted pale and cut by the page bottom */
+.wordmark { display: block; width: min(86vw, 1100px); aspect-ratio: 900 / 391; margin: 36px auto -6%; background: #EDEDF0; -webkit-mask: url(assets/brand/logo-aom.webp) center / contain no-repeat; mask: url(assets/brand/logo-aom.webp) center / contain no-repeat; }
 
 /* =========================================================
    Tablet
@@ -394,6 +393,7 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
 
   .hero { padding: 96px 0 56px; }
   .hero-logo { top: 22px; width: calc(100% - 40px); }
+  .logo-img { height: 30px; }
   .hero h1 { font-size: clamp(50px, 14vw, 72px); }
   .hero-lead { font-size: 17px; }
   .hero-actions .btn-lg { min-height: 50px; padding: 0 22px; font-size: 16px; }
