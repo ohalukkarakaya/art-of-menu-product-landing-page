@@ -271,6 +271,8 @@
     lang = I18N[next] ? next : "en";
     document.documentElement.lang = lang;
     document.title = t("meta.title");
+    var desc = document.getElementById("meta-desc");
+    if (desc) desc.setAttribute("content", t("meta.desc"));
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
       if (el === manifesto) return;
       el.textContent = t(el.dataset.i18n);

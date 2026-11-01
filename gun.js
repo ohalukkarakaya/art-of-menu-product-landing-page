@@ -30,7 +30,20 @@
     var x = hexToRgb(a), y = hexToRgb(b);
     return "rgb(" + Math.round(lerp(x[0], y[0], t)) + "," + Math.round(lerp(x[1], y[1], t)) + "," + Math.round(lerp(x[2], y[2], t)) + ")";
   }
-  var set = function (k, v) { stage.style.setProperty(k, v); };
+  // Write a style only when it changes. A custom property written on the stage restyles
+  // everything inside it, so per-frame values go on the one element that uses them.
+  function setOn(el, k, v) {
+    var c = el.__style || (el.__style = {});
+    if (c[k] === v) return;
+    c[k] = v;
+    el.style.setProperty(k, v);
+  }
+  var set = function (k, v) { setOn(stage, k, v); };
+  var orbEl = stage.querySelector(".orb"), cloudsEl = stage.querySelector(".clouds"), starsEl = stage.querySelector(".stars");
+  var handBox = stage.querySelector(".hand"), clockEl = stage.querySelector(".clock"), hintEl = stage.querySelector(".hint");
+  var copyEl = stage.querySelector(".copy"), chartEl = stage.querySelector(".chart"), rainEl = document.getElementById("rain");
+  var pingEl = stage.querySelector(".ping"), screenEl = document.getElementById("screen");
+  var brandEl = document.querySelector(".brand"), tabEl = document.querySelector(".tab");
 
   /* =====================================================
      Phone screen: the live menu changes with the hour
@@ -145,31 +158,38 @@
 
   var canvas = document.getElementById("rain");
   var ctx = canvas.getContext("2d");
-  var drops = [], rainLevel = 0, rainRunning = false, lastT = 0;
+  var drops = [], rainLevel = 0, rainRunning = false, lastT = 0, rainW = 0, rainH = 0;
+  // Three opacity groups, one path each: a handful of draw calls instead of one per drop
+  var RAIN_ALPHA = [.3, .45, .65];
   function sizeCanvas() {
-    var dpr = Math.min(window.devicePixelRatio || 1, 2);
-    canvas.width = stage.clientWidth * dpr;
-    canvas.height = stage.clientHeight * dpr;
-    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    // soft streaks do not need retina pixels; a 1x canvas is a quarter of the work on a 2x screen
+    rainW = stage.clientWidth; rainH = stage.clientHeight;
+    canvas.width = rainW;
+    canvas.height = rainH;
     drops = [];
-    var n = Math.round(stage.clientWidth * stage.clientHeight / 5200);
+    var n = Math.round(rainW * rainH / 5200);
     for (var i = 0; i < n; i++) {
-      drops.push({ x: Math.random() * stage.clientWidth, y: Math.random() * stage.clientHeight, l: 10 + Math.random() * 16, v: 700 + Math.random() * 500, o: .25 + Math.random() * .45 });
+      drops.push({ x: Math.random() * rainW, y: Math.random() * rainH, l: 10 + Math.random() * 16, v: 700 + Math.random() * 500, g: i % 3 });
     }
   }
   function rainFrame(t) {
     var dt = Math.min(.05, (t - lastT) / 1000 || 0);
     lastT = t;
-    var w = stage.clientWidth, h = stage.clientHeight;
+    var w = rainW, h = rainH;
     ctx.clearRect(0, 0, w, h);
     ctx.lineCap = "round";
     ctx.lineWidth = 1.3;
-    drops.forEach(function (d) {
-      d.y += d.v * dt; d.x -= d.v * dt * .18;
-      if (d.y > h) { d.y = -d.l; d.x = Math.random() * w * 1.2; }
-      ctx.strokeStyle = "rgba(220, 230, 255," + d.o + ")";
-      ctx.beginPath(); ctx.moveTo(d.x, d.y); ctx.lineTo(d.x + d.l * .18, d.y - d.l); ctx.stroke();
-    });
+    for (var g = 0; g < 3; g++) {
+      ctx.strokeStyle = "rgba(220, 230, 255," + RAIN_ALPHA[g] + ")";
+      ctx.beginPath();
+      for (var i = g; i < drops.length; i += 3) {
+        var d = drops[i];
+        d.y += d.v * dt; d.x -= d.v * dt * .18;
+        if (d.y > h) { d.y = -d.l; d.x = Math.random() * w * 1.2; }
+        ctx.moveTo(d.x, d.y); ctx.lineTo(d.x + d.l * .18, d.y - d.l);
+      }
+      ctx.stroke();
+    }
     if (rainLevel > 0.01 && !reduceMQ.matches) requestAnimationFrame(rainFrame);
     else { rainRunning = false; ctx.clearRect(0, 0, w, h); }
   }
@@ -182,7 +202,7 @@
      Scroll timeline
      ===================================================== */
 
-  var target = 0, smooth = 0, inited = false, pending = false, sheetOpen = false;
+  var target = 0, smooth = 0, inited = false, pending = false, sheetOpen = false, lastFrame = 0;
   var mx = 0, my = 0, tmx = 0, tmy = 0;
 
   // Hold each world in place for a while, then move on: d in [-1, 1] -> eased travel.
@@ -196,11 +216,14 @@
     var rm = reduceMQ.matches;
     var runway = day.offsetHeight - window.innerHeight;
     target = clamp(-day.getBoundingClientRect().top / runway) * LAST;
-    smooth = (!inited || rm) ? target : lerp(smooth, target, 0.2);
+    // same easing per second at any frame rate: a slow frame catches up instead of lagging and then jumping
+    var now = performance.now(), frames = Math.min(4, (now - lastFrame) / 16.7 || 1);
+    lastFrame = now;
+    smooth = (!inited || rm) ? target : lerp(smooth, target, 1 - Math.pow(0.8, frames));
     if (Math.abs(smooth - target) < 0.0005) smooth = target;
     inited = true;
-    mx = rm ? 0 : lerp(mx, tmx, 0.08);
-    my = rm ? 0 : lerp(my, tmy, 0.08);
+    mx = rm ? 0 : lerp(mx, tmx, 1 - Math.pow(0.92, frames));
+    my = rm ? 0 : lerp(my, tmy, 1 - Math.pow(0.92, frames));
     var p = smooth;
     var mobile = window.innerWidth <= 860;
 
@@ -209,14 +232,14 @@
     var A = SCENES[i0], B = SCENES[i1];
     set("--sky-top", mixHex(A.top, B.top, f));
     set("--sky-bottom", mixHex(A.bottom, B.bottom, f));
-    set("--orb-x", lerp(A.orb[0], B.orb[0], f) + "%");
-    set("--orb-y", lerp(A.orb[1], B.orb[1], f) + "%");
-    set("--orb-c", mixHex(A.orb[2], B.orb[2], f));
-    set("--orb-o", lerp(A.orb[3], B.orb[3], f).toFixed(3));
-    set("--orb-glow", "rgba(255, 240, 200," + (0.55 * (1 - smoothstep(3.6, 4.6, p))).toFixed(3) + ")");
-    set("--cloud-b", lerp(A.cloud[0], B.cloud[0], f).toFixed(3));
-    set("--cloud-o", lerp(A.cloud[1], B.cloud[1], f).toFixed(3));
-    set("--stars", smoothstep(4.2, 5.2, p).toFixed(3));
+    setOn(orbEl, "--orb-x", lerp(A.orb[0], B.orb[0], f) + "%");
+    setOn(orbEl, "--orb-y", lerp(A.orb[1], B.orb[1], f) + "%");
+    setOn(orbEl, "--orb-c", mixHex(A.orb[2], B.orb[2], f));
+    setOn(orbEl, "--orb-o", lerp(A.orb[3], B.orb[3], f).toFixed(3));
+    setOn(orbEl, "--orb-glow", "rgba(255, 240, 200," + (0.55 * (1 - smoothstep(3.6, 4.6, p))).toFixed(3) + ")");
+    setOn(cloudsEl, "--cloud-b", lerp(A.cloud[0], B.cloud[0], f).toFixed(3));
+    setOn(cloudsEl, "--cloud-o", lerp(A.cloud[1], B.cloud[1], f).toFixed(3));
+    setOn(starsEl, "--stars", smoothstep(4.2, 5.2, p).toFixed(3));
     var dark = lerp(A.dark, B.dark, f);
     set("--fg", dark > .5 ? "#F5F5F7" : "#1D1D1F");
     set("--fg-2", dark > .5 ? "rgba(245,245,247,.72)" : "rgba(29,29,31,.62)");
@@ -224,34 +247,38 @@
     // Worlds: rise from below the screen edge, then the camera walks into them
     worlds.forEach(function (w, i) {
       var d = p - i;
-      if (Math.abs(d) >= 1) { w.style.opacity = 0; w.style.visibility = "hidden"; return; }
-      w.style.visibility = "visible";
+      // keep a GPU layer only for the worlds next to the current hour
+      setOn(w, "will-change", Math.abs(d) < 1.6 ? "transform, opacity" : "auto");
+      if (Math.abs(d) >= 1) { setOn(w, "opacity", "0"); setOn(w, "visibility", "hidden"); return; }
+      setOn(w, "visibility", "visible");
       var t = travel(d);
       var y = t < 0 ? -t * 70 : t * 8;
       // a small steady push-in so every bit of scroll shows movement, even while an hour holds
       var s = (t < 0 ? 1 + t * 0.15 : 1 + t * 0.6) * (1 + d * 0.05);
       var o = t < 0 ? 1 + t * 1.4 : 1 - t * 1.6;
       var px = mx * -70, py = my * -40;
-      w.style.opacity = clamp(o).toFixed(3);
-      w.style.transform = "translate3d(" + px.toFixed(1) + "px, calc(" + y.toFixed(2) + "svh + " + py.toFixed(1) + "px), 0) rotate(" + (mx * 1.2).toFixed(2) + "deg) scale(" + s.toFixed(3) + ")";
+      // the first planet waits below the hero copy and rises into place as the copy leaves
+      if (i === 0) py += heroSink * (1 - smoothstep(0, 0.6, p));
+      setOn(w, "opacity", clamp(o).toFixed(3));
+      setOn(w, "transform", "translate3d(" + px.toFixed(1) + "px, calc(" + y.toFixed(2) + "svh + " + py.toFixed(1) + "px), 0) rotate(" + (mx * 1.2).toFixed(2) + "deg) scale(" + s.toFixed(3) + ")");
     });
 
     // Copy for the current hour
     chapters.forEach(function (c, i) {
       var t = travel(p - i);
       var o = clamp(1 - Math.abs(t) * 2.2);
-      c.style.opacity = o.toFixed(3);
-      c.style.transform = mobile
+      setOn(c, "opacity", o.toFixed(3));
+      setOn(c, "transform", mobile
         ? "translate3d(0," + (t * -40).toFixed(1) + "px,0)"
-        : "translate3d(" + (mx * 14).toFixed(1) + "px, calc(-50% + " + (t * -60 + my * 8).toFixed(1) + "px), 0)";
-      c.style.visibility = o > 0.01 ? "visible" : "hidden";
+        : "translate3d(" + (mx * 14).toFixed(1) + "px, calc(-50% + " + (t * -60 + my * 8).toFixed(1) + "px), 0)");
+      setOn(c, "visibility", o > 0.01 ? "visible" : "hidden");
     });
 
     // The guest's hand is in the shot from 08:00 to 20:00
     var hand = 1 - smoothstep(0.55, 0.95, p) * (1 - smoothstep(4.25, 4.7, p));
-    set("--hand", hand.toFixed(3));
+    setOn(handBox, "--hand", hand.toFixed(3));
     // fully parked below the stage: hide it, or it would show under the stage once it unpins
-    stage.querySelector(".hand").style.visibility = hand > 0.995 ? "hidden" : "visible";
+    setOn(handBox, "visibility", hand > 0.995 ? "hidden" : "visible");
     // depth layers answer the pointer: hand in front moves most, clouds far back move least
     var dl = p - Math.round(p);   // -0.5..0.5 inside the current hour, for scroll parallax
     // Ada stands a little in front of her island: a light extra drift, never a big one.
@@ -260,42 +287,43 @@
       var ada = w.querySelector(".ada");
       if (!ada) return;
       var k = ada === finalAda ? 2.2 : 1, d = p - i;
-      ada.style.setProperty("--ax", (mx * -16 * k).toFixed(1) + "px");
-      ada.style.setProperty("--ay", (my * -10 * k + d * -24 * k).toFixed(1) + "px");
+      setOn(ada, "--ax", (mx * -16 * k).toFixed(1) + "px");
+      setOn(ada, "--ay", (my * -10 * k + d * -24 * k).toFixed(1) + "px");
     });
-    set("--hx", Math.min(mx * (mobile ? 30 : 90), handMaxX).toFixed(1)); set("--hy", Math.max(0, 28 + my * 40 + Math.abs(dl) * 70).toFixed(1));
-    set("--cpx", (mx * -30 + p * -60).toFixed(1)); set("--cpy", (my * -16 + dl * 50).toFixed(1));
-    set("--ox", (mx * -20).toFixed(1)); set("--oy", (my * -12 + dl * 60).toFixed(1));
-    var screen = document.getElementById("screen");
-    screen.style.setProperty("--cart", (smoothstep(1.6, 1.85, p) * (1 - smoothstep(2.3, 2.5, p))).toFixed(3));
-    stage.style.setProperty("--ping", (smoothstep(1.75, 1.95, p) * (1 - smoothstep(2.3, 2.5, p))).toFixed(3));
+    setOn(handBox, "--hx", Math.min(mx * (mobile ? 30 : 90), handMaxX).toFixed(1)); setOn(handBox, "--hy", Math.max(0, 28 + my * 40 + Math.abs(dl) * 70).toFixed(1));
+    setOn(cloudsEl, "--cpx", (mx * -30 + p * -60).toFixed(1)); setOn(cloudsEl, "--cpy", (my * -16 + dl * 50).toFixed(1));
+    setOn(orbEl, "--ox", (mx * -20).toFixed(1)); setOn(orbEl, "--oy", (my * -12 + dl * 60).toFixed(1));
+    setOn(screenEl, "--cart", (smoothstep(1.6, 1.85, p) * (1 - smoothstep(2.3, 2.5, p))).toFixed(3));
+    setOn(pingEl, "--ping", (smoothstep(1.75, 1.95, p) * (1 - smoothstep(2.3, 2.5, p))).toFixed(3));
     var sheet = smoothstep(3.7, 3.95, p) * (1 - smoothstep(4.4, 4.6, p));
-    screen.style.setProperty("--sheet", sheet.toFixed(3));
+    setOn(screenEl, "--sheet", sheet.toFixed(3));
     if (sheet > 0.5 && !sheetOpen) { sheetOpen = true; zoomPhone(); }
     if (sheet < 0.2) sheetOpen = false;
     setWeather(p > 2.65 ? "rain" : "sun");
 
     // Rain around 18:00
     rainLevel = clamp(1 - Math.abs(p - 3) * 1.7);
-    set("--rain", rainLevel.toFixed(3));
+    setOn(rainEl, "--rain", rainLevel.toFixed(3));
     if (rainLevel > 0.01) startRain();
 
     // Clock and scroll hint
-    set("--clock", clamp((p - 1) / 4).toFixed(4));
-    set("--clock-o", (smoothstep(0.5, 0.9, p) * (1 - smoothstep(5.3, 5.7, p))).toFixed(3));
-    set("--hint-o", (1 - smoothstep(0.05, 0.3, p)).toFixed(3));
+    setOn(clockEl, "--clock", clamp((p - 1) / 4).toFixed(4));
+    setOn(clockEl, "--clock-o", (smoothstep(0.5, 0.9, p) * (1 - smoothstep(5.3, 5.7, p))).toFixed(3));
+    setOn(hintEl, "--hint-o", (1 - smoothstep(0.05, 0.3, p)).toFixed(3));
     // 23:00: daily revenue climbs as the visitor scrolls through the smart pricing scene
     var grow = smoothstep(4.45, 5.4, p);
-    set("--chart", grow.toFixed(4));
-    set("--chart-o", (smoothstep(4.35, 4.7, p) * (1 - smoothstep(5.45, 5.75, p))).toFixed(3));
-    chartDot.style.setProperty("--dx", (grow * 100).toFixed(2) + "%");
-    chartDot.style.setProperty("--dy", (chartY(grow * 1200) / 6).toFixed(2) + "%");
+    setOn(chartEl, "--chart", grow.toFixed(4));
+    setOn(chartEl, "--chart-o", (smoothstep(4.35, 4.7, p) * (1 - smoothstep(5.45, 5.75, p))).toFixed(3));
+    setOn(chartDot, "--dx", (grow * 100).toFixed(2) + "%");
+    setOn(chartDot, "--dy", (chartY(grow * 1200) / 6).toFixed(2) + "%");
 
     // the sky wash behind the copy: always on phones, only over the first planet on wide screens
-    set("--scrim", (mobile ? 1 : 1 - smoothstep(0.3, 0.8, p)).toFixed(3));
+    setOn(copyEl, "--scrim", (mobile ? 1 : 1 - smoothstep(0.3, 0.8, p)).toFixed(3));
     var brandO = smoothstep(0.35, 0.7, p);
-    document.documentElement.style.setProperty("--brand-o", brandO.toFixed(3));
-    document.documentElement.style.setProperty("--brand-v", brandO > 0.01 ? "visible" : "hidden");
+    [brandEl, tabEl].forEach(function (el) {
+      setOn(el, "--brand-o", brandO.toFixed(3));
+      setOn(el, "--brand-v", brandO > 0.01 ? "visible" : "hidden");
+    });
 
     var settling = Math.abs(smooth - target) > 0.0005 || Math.abs(mx - tmx) > 0.001 || Math.abs(my - tmy) > 0.001;
     if (settling) request();
@@ -304,6 +332,17 @@
 
   // The phone may only drift right until its edge meets the screen edge (the wrist may run off)
   var handEl = stage.querySelector(".hand"), handMaxX = 0;
+  // How far the first planet must sink so its top clears the hero copy (only where they overlap)
+  var heroSink = 0;
+  function measureHero() {
+    var c = chapters[0], w = worlds[0], h = w.offsetHeight, ww = w.offsetWidth;
+    // on wide screens the copy is centred on its top edge (translateY(-50%))
+    var copyBottom = c.offsetTop + c.offsetHeight * (window.innerWidth <= 860 ? 1 : 0.5) + 24;
+    var planetTop = w.offsetTop + h * 0.53;
+    var planetLeft = w.offsetLeft - ww / 2, planetRight = planetLeft + ww;
+    var overlapX = Math.min(c.offsetLeft + c.offsetWidth, planetRight) - Math.max(c.offsetLeft, planetLeft);
+    heroSink = overlapX > 0 ? Math.min(Math.max(0, copyBottom - planetTop), h * 0.3) : 0;
+  }
   function measureHand() { var w = handEl.offsetWidth; handMaxX = parseFloat(getComputedStyle(handEl).right) + w * 0.135 - 12; }
 
   // Revenue chart: sample the curve once, then look up the height for any x
@@ -319,9 +358,19 @@
     return chartPts[chartPts.length - 1][1];
   }
 
-  window.addEventListener("scroll", request, { passive: true });
-  window.addEventListener("resize", function () { sizeCanvas(); measureHand(); request(); });
-  measureHand();
+  // While the visitor scrolls the scene is moving anyway, so the idle loops (sway, rocking,
+  // Ada's bob, drifting clouds) pause and hand their frame budget to the scroll
+  var scrollIdle = 0;
+  function onScroll() {
+    if (!scrollIdle) stage.classList.add("is-scrolling");
+    clearTimeout(scrollIdle);
+    scrollIdle = setTimeout(function () { scrollIdle = 0; stage.classList.remove("is-scrolling"); }, 180);
+    request();
+  }
+  window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", function () { sizeCanvas(); measureHand(); measureHero(); request(); });
+  measureHand(); measureHero();
+  if (document.fonts) document.fonts.ready.then(function () { measureHero(); request(); });
   if (finePointer.matches) {
     window.addEventListener("pointermove", function (e) {
       tmx = e.clientX / window.innerWidth - 0.5;
@@ -332,4 +381,9 @@
 
   sizeCanvas();
   update();
+
+  // Decode every world up front, so a new hour never stalls the scroll while its image unpacks
+  window.addEventListener("load", function () {
+    stage.querySelectorAll("img").forEach(function (img) { if (img.decode) img.decode().catch(function () {}); });
+  });
 })();

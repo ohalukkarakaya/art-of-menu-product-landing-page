@@ -59,10 +59,11 @@ ol { margin: 0; padding: 0; list-style: none; }
   box-shadow: 0 0 80px 20px var(--orb-glow, rgba(255, 236, 170, .55));
   opacity: var(--orb-o, 1);
   transform: translate(calc(-50% + var(--ox, 0) * 1px), calc(-50% + var(--oy, 0) * 1px));
+  will-change: transform;
 }
 
 /* Clouds drift slowly; they darken with the rain */
-.clouds { position: absolute; inset: 0; z-index: -1; pointer-events: none; transform: translate3d(calc(var(--cpx, 0) * 1px), calc(var(--cpy, 0) * 1px), 0); }
+.clouds { position: absolute; inset: 0; z-index: -1; pointer-events: none; will-change: transform; transform: translate3d(calc(var(--cpx, 0) * 1px), calc(var(--cpy, 0) * 1px), 0); }
 .cloud { position: absolute; width: 26vw; max-width: 380px; opacity: var(--cloud-o, .9); filter: brightness(var(--cloud-b, 1.5)) saturate(.8); animation: drift 60s linear infinite; }
 .c1 { top: 8%; left: -10%; animation-duration: 70s; }
 .c2 { top: 20%; left: 40%; width: 18vw; animation-duration: 90s; animation-delay: -30s; }
@@ -86,10 +87,11 @@ ol { margin: 0; padding: 0; list-style: none; }
   translate: -50% 34%;
   transform-origin: 50% 66%;
   opacity: 0;
-  will-change: transform, opacity;
+  /* will-change is set from JS only on the worlds near the current hour: seven big
+     retina layers at once ran the GPU out of memory and made scrolling stall */
 }
 .w-planet { left: 69%; width: min(66vw, 124svh, 1080px); translate: -50% 53%; transform-origin: 50% 47%; }
-.island { width: 100%; filter: drop-shadow(0 40px 50px rgba(20, 30, 80, .25)); }
+.island { width: 100%; }
 /* Planets only rock gently, never turn upside down */
 .rock { animation: rock 14s ease-in-out infinite alternate; }
 @keyframes rock { from { rotate: -3deg; } to { rotate: 3deg; } }
@@ -107,8 +109,7 @@ ol { margin: 0; padding: 0; list-style: none; }
   display: inline-flex; gap: 8px; align-items: center; justify-self: end;
   padding: 9px 14px; border-radius: 99px;
   font-size: 14px; color: #F5F5F7;
-  background: rgba(255, 255, 255, .1);
-  -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px);
+  background: rgba(20, 24, 70, .55);
   box-shadow: inset 0 1px 0 rgba(255,255,255,.18), inset 0 0 0 1px rgba(255,255,255,.12);
 }
 .tag b { font-weight: 600; }
@@ -125,7 +126,8 @@ ol { margin: 0; padding: 0; list-style: none; }
 .chart-grid path { fill: none; stroke: rgba(255,255,255,.08); stroke-width: 1; stroke-dasharray: 4 8; vector-effect: non-scaling-stroke; }
 /* the line and its fill are revealed left to right as the visitor scrolls */
 .chart-draw { clip-path: inset(0 calc((1 - var(--chart, 0)) * 100%) 0 0); }
-.chart-line { fill: none; stroke: #34C759; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; filter: drop-shadow(0 0 8px rgba(52, 199, 89, .75)); }
+.chart-line, .chart-glow { fill: none; stroke: #34C759; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.chart-glow { stroke: rgba(52, 199, 89, .28); stroke-width: 14; }
 .chart-dot {
   position: absolute; left: var(--dx, 0%); top: var(--dy, 86%);
   width: 16px; height: 16px; margin: -8px 0 0 -8px; border-radius: 50%;
@@ -137,8 +139,7 @@ ol { margin: 0; padding: 0; list-style: none; }
   position: absolute; right: calc(100% + 14px); bottom: calc(100% + 6px);
   display: inline-flex; align-items: center; gap: 6px; padding: 7px 12px; border-radius: 99px; white-space: nowrap;
   font-size: 13px; font-weight: 600; color: #fff;
-  background: rgba(52, 199, 89, .22); box-shadow: inset 0 0 0 1px rgba(52, 199, 89, .5);
-  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+  background: rgba(14, 40, 40, .7); box-shadow: inset 0 0 0 1px rgba(52, 199, 89, .5);
 }
 .chart-label::before { content: "↑"; color: #34C759; font-weight: 700; }
 
@@ -213,8 +214,7 @@ ol { margin: 0; padding: 0; list-style: none; }
   position: absolute; z-index: 3; right: 72%; top: 10%;
   display: flex; gap: 10px; align-items: center; white-space: nowrap;
   padding: 12px 16px; border-radius: 18px;
-  background: rgba(255, 255, 255, .78);
-  -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
+  background: rgba(255, 255, 255, .95);
   box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 20px 40px -20px rgba(20, 30, 80, .4);
   font-size: 14px; color: var(--ink);
   opacity: var(--ping, 0);
@@ -240,6 +240,7 @@ ol { margin: 0; padding: 0; list-style: none; }
   width: min(400px, 30vw);
   opacity: 0;
   transform: translate3d(0, -50%, 0);
+  will-change: transform, opacity;
 }
 .chapter h1 { font-size: clamp(42px, 4.6vw, 70px); line-height: 1; letter-spacing: -.045em; }
 .chapter h2 { font-size: clamp(32px, 3.6vw, 52px); line-height: 1.05; letter-spacing: -.035em; }
@@ -250,9 +251,8 @@ ol { margin: 0; padding: 0; list-style: none; }
   font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums;
   padding: 8px 14px; border-radius: 99px;
   color: var(--fg);
-  background: rgba(255, 255, 255, .22);
-  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .35);
+  background: rgba(255, 255, 255, .28);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .4);
 }
 .btn {
   pointer-events: auto;
@@ -278,15 +278,14 @@ ol { margin: 0; padding: 0; list-style: none; }
 /* ---------- Clock ---------- */
 .clock { position: absolute; z-index: 4; left: 50%; bottom: 26px; translate: -50% 0; width: min(560px, 80vw); opacity: var(--clock-o, 0); transition: opacity .4s; }
 .clock-track { height: 3px; border-radius: 2px; background: color-mix(in srgb, var(--fg) 18%, transparent); overflow: hidden; }
-.clock-fill { display: block; height: 100%; width: calc(var(--clock, 0) * 100%); background: var(--fg); }
+.clock-fill { display: block; height: 100%; transform: scaleX(var(--clock, 0)); transform-origin: 0 50%; background: var(--fg); }
 .clock ol { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; font-weight: 600; color: var(--fg-2); font-variant-numeric: tabular-nums; }
 
 .hint {
   position: absolute; z-index: 5; left: 50%; bottom: calc(28px + env(safe-area-inset-bottom)); translate: -50% 0;
   display: flex; align-items: center; gap: 10px; padding: 10px 16px 10px 14px; border-radius: 99px;
   font-size: 13px; font-weight: 600; color: var(--ink);
-  background: rgba(255, 255, 255, .72);
-  -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
+  background: rgba(255, 255, 255, .9);
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.8), 0 10px 30px -14px rgba(0,0,0,.35);
   opacity: var(--hint-o, 1); pointer-events: none; white-space: nowrap;
 }
@@ -365,26 +364,24 @@ main { background: #1C1F55; }
   display: inline-flex; align-items: center; min-height: 40px; padding: 0 18px;
   border-radius: 99px; text-decoration: none; font-size: 14px; font-weight: 600;
   color: var(--ink);
-  background: rgba(255, 255, 255, .72);
-  -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
+  background: rgba(255, 255, 255, .92);
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.8), 0 10px 30px -14px rgba(0,0,0,.35);
   opacity: var(--brand-o, 1); visibility: var(--brand-v, visible);
   transition: transform .35s var(--spring), background-color .2s;
 }
-.tab:hover { transform: translateY(-1px); background: rgba(255,255,255,.9); }
+.tab:hover { transform: translateY(-1px); background: #fff; }
 /* The short logo in the same glass as the tab; both show once the first scene has gone */
 .brand {
   position: fixed; z-index: 20; top: 18px; left: var(--edge);
   display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px;
   border-radius: 99px;
-  background: rgba(255, 255, 255, .72);
-  -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
+  background: rgba(255, 255, 255, .92);
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.8), 0 10px 30px -14px rgba(0,0,0,.35);
   opacity: var(--brand-o, 1); visibility: var(--brand-v, visible);
   transition: transform .35s var(--spring), background-color .2s;
 }
 .brand img { width: auto; height: 19px; }
-.brand:hover { transform: translateY(-1px); background: rgba(255,255,255,.9); }
+.brand:hover { transform: translateY(-1px); background: #fff; }
 .brand:focus-visible, .tab:focus-visible, .plan-btn:focus-visible { outline: 3px solid #8EA2FF; outline-offset: 3px; }
 html { scroll-behavior: smooth; }
 
@@ -421,6 +418,10 @@ html { scroll-behavior: smooth; }
   .plans { padding: 100px 18px 64px; }
   .clock ol { font-size: 11px; }
 }
+
+/* Idle loops pause while scrolling, and in worlds that are off screen */
+.is-scrolling .worlds, .is-scrolling .rock, .is-scrolling .ada, .is-scrolling .cloud { animation-play-state: paused; }
+.world[style*="hidden"] .ada, .world.rock[style*="hidden"], .world[style*="hidden"] .rock { animation-name: none; }
 
 /* ---------- Reduced motion: keep the scroll story, drop the autonomous motion ---------- */
 /* Narrow windows and tablets: the copy sits on top, so the hand can take most of the lower half */

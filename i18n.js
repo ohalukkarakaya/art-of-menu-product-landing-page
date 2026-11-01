@@ -3,6 +3,7 @@
 window.AOM_I18N = {
   tr: {
     "meta.title": "ArtOfMenu: Daha çok kazandıran menü",
+    "meta.desc": "Kafe, restoran, bar ve pastaneler için QR menü, masadan sipariş, stok ve günlük akıllı fiyat tek yerde.",
     "nav.label": "Ana menü",
     "nav.skip": "İçeriğe geç",
     "nav.how": "Nasıl çalışır",
@@ -97,6 +98,7 @@ window.AOM_I18N = {
     "tm.status.auto": "Gün başında uygulanır",
     "tm.status.off": "Taban fiyat",
     "tm.foot.approve": "Gün başlamadan onaylamadığınız fiyat yerine taban fiyat geçerli olur.",
+    "tm.foot.approveDone": "Hepsi onaylandı. Yarın sabah 05:00'te menüde.",
         "tm.foot.auto": "Fiyatlar yarın gün başında kendiliğinden uygulanır; o zamana kadar dilediğinizi reddedebilirsiniz.",
     "tm.foot.off": "Motor kapalı. Menünüz taban fiyatlarla çalışır; canlı sıralama devam eder.",
     "tm.p.latte": "Latte",
@@ -169,6 +171,7 @@ window.AOM_I18N = {
 
   en: {
     "meta.title": "ArtOfMenu: The menu that earns you more",
+    "meta.desc": "QR menus, table ordering, inventory and smart daily pricing in one place for cafés, restaurants, bars and bakeries.",
     "nav.label": "Main menu",
     "nav.skip": "Skip to content",
     "nav.how": "How it works",
@@ -336,6 +339,7 @@ window.AOM_I18N = {
 
   de: {
     "meta.title": "ArtOfMenu: Die Speisekarte, die mehr verdient",
+    "meta.desc": "QR-Menü, Bestellen am Tisch, Warenbestand und intelligente Tagespreise an einem Ort für Cafés, Restaurants, Bars und Bäckereien.",
     "nav.label": "Hauptmenü",
     "nav.skip": "Zum Inhalt",
     "nav.how": "So funktioniert's",
