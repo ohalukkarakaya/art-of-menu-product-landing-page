@@ -12,7 +12,8 @@ Sonra http://localhost:5173 adresini açın.
 
 - `index.html`: ana sayfa, 3D "Bir günün menüsü" hikâyesi ve fiyatlar. Stili `gun.css`, davranışı `gun.js`, metinleri `gun-i18n.js`
   (paket metinleri `i18n.js`'ten gelir).
-- `classic.html`: eski Apple tarzı sayfa. Erken erişim formu şimdilik burada; ana sayfadaki butonlar `classic.html#join`'e gider.
+- `classic.html`: eski Apple tarzı sayfa.
+- `notify.js`: ana sayfadaki "Çıkınca haber verelim" formu (ad soyad, e-posta, Google Haritalar bağlantısı, paket). Kaydı `waitlist-worker/` içindeki Cloudflare Worker'a gönderir; kurulum adımları `waitlist-worker/README.md` içinde.
 - `styles.css`: classic sayfanın stili, renkler en üstteki `:root` değişkenlerinde
 - `i18n.js`: classic sayfanın tüm metinleri (TR, EN, DE) ve demo fiyatlarının para birimleri
 - `main.js`: classic sayfanın dil seçimi, hero parallax'ı, sabitlenen hikâye bölümü, "yarının fiyatı" kartı, form

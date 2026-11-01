@@ -383,6 +383,56 @@ main { background: #1C1F55; }
 .brand:focus-visible, .tab:focus-visible, .plan-btn:focus-visible { outline: 3px solid #8EA2FF; outline-offset: 3px; }
 
 
+/* ---------- "Notify me at launch" dialog ---------- */
+.notify {
+  width: min(460px, calc(100% - 24px)); max-height: calc(100dvh - 24px); overflow: auto;
+  margin: auto; padding: 0; border: 0; border-radius: 28px;
+  background: #fff; color: var(--ink);
+  box-shadow: 0 40px 90px -30px rgba(10, 14, 50, .6);
+}
+.notify::backdrop { background: rgba(10, 14, 50, .55); }
+.notify[open] { animation: nf-in .45s var(--ease); }
+@keyframes nf-in { from { opacity: 0; transform: translateY(16px) scale(.97); } }
+.nf-form, .nf-done { position: relative; display: grid; gap: 16px; padding: 30px 28px 28px; }
+.notify [hidden] { display: none; }
+.nf-done { text-align: center; justify-items: center; padding: 44px 28px 32px; }
+.nf-mark { width: auto; height: 22px; }
+.notify h2 { font-size: 28px; line-height: 1.1; letter-spacing: -.035em; }
+.nf-lead { margin-top: -6px; font-size: 15px; line-height: 1.5; color: #6E6E73; }
+.nf-close {
+  position: absolute; top: 16px; right: 16px; width: 36px; height: 36px; border: 0; border-radius: 50%;
+  display: grid; place-items: center; background: #F2F3F8; color: var(--ink); cursor: pointer;
+}
+.nf-close:hover { background: #E7E9F2; }
+.nf-field { display: grid; gap: 7px; font-size: 14px; font-weight: 600; }
+.nf-field input {
+  min-height: 52px; padding: 0 16px; border-radius: 14px; border: 1px solid #DADFEE; background: #F8F9FD;
+  font: 500 16px/1.2 var(--font); color: var(--ink); transition: border-color .2s, box-shadow .2s, background-color .2s;
+}
+.nf-field input:focus { outline: none; border-color: var(--brand); background: #fff; box-shadow: 0 0 0 4px rgba(31, 58, 158, .14); }
+.nf-field input[aria-invalid="true"] { border-color: var(--brand); box-shadow: 0 0 0 4px rgba(31, 58, 158, .14); }
+.nf-field small { font-weight: 400; font-size: 12.5px; line-height: 1.4; color: #6E6E73; }
+.nf-plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 0; padding: 0; border: 0; }
+.nf-plans legend { margin-bottom: 7px; padding: 0; font-size: 14px; font-weight: 600; }
+.nf-plans label:last-child { grid-column: 1 / -1; }
+.nf-plans input { position: absolute; opacity: 0; pointer-events: none; }
+.nf-plans span {
+  display: grid; place-items: center; min-height: 44px; padding: 0 12px; border-radius: 99px;
+  border: 1px solid #DADFEE; font-size: 14px; font-weight: 600; cursor: pointer; transition: background-color .2s, color .2s, border-color .2s;
+}
+.nf-plans input:checked + span { background: var(--brand); border-color: var(--brand); color: #fff; }
+.nf-plans input:focus-visible + span { outline: 3px solid #8EA2FF; outline-offset: 2px; }
+.nf-consent { display: grid; grid-template-columns: 20px 1fr; gap: 10px; align-items: start; font-size: 12.5px; line-height: 1.45; color: #6E6E73; cursor: pointer; }
+.nf-consent input { width: 18px; height: 18px; margin: 1px 0 0; accent-color: var(--brand); }
+.nf-hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.nf-check:empty { display: none; }
+.nf-status { min-height: 1em; font-size: 13.5px; color: #6E6E73; }
+.nf-status:empty { display: none; }
+.nf-status.is-error { color: var(--ink); font-weight: 600; }
+.notify .btn { margin-top: 2px; justify-self: start; }
+.nf-done .btn { justify-self: center; padding: 0 28px; }
+.nf-submit:disabled { opacity: .6; cursor: progress; }
+
 /* ---------- Phone ---------- */
 @media (max-width: 860px) {
   .world { left: 50%; width: min(120vw, 80svh); }

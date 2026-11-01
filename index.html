@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/web/diorama/planet.webp" type="image/webp">
-  <link rel="stylesheet" href="gun.css?v=43">
+  <link rel="stylesheet" href="gun.css?v=45">
   <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
@@ -124,7 +124,7 @@
           <img class="chapter-logo" src="assets/brand/logo.webp" alt="ArtOfMenu" width="900" height="682">
           <h1 data-t="s0.t">QR menüden çok daha fazlası</h1>
           <p data-t="s0.d"></p>
-          <a class="btn btn-primary" href="classic.html#join"><span data-t="s6.btn">Erken erişime katılın</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+          <a class="btn btn-primary" href="#notify" data-notify><span data-t="s6.btn">Çıkınca haber verelim</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
         </article>
         <article class="chapter" data-i="1">
           <span class="time">08:00</span>
@@ -154,7 +154,7 @@
         <article class="chapter" data-i="6">
           <h2 class="final" data-t="s6.t"></h2>
           <p data-t="s6.d"></p>
-          <a class="btn" href="classic.html#join" data-t="s6.btn"></a>
+          <a class="btn" href="#notify" data-notify data-t="s6.btn"></a>
         </article>
       </div>
 
@@ -205,7 +205,7 @@
           <ul>
             <li data-t="p.smart.1"></li><li data-t="p.smart.2"></li><li data-t="p.smart.3"></li><li data-t="p.smart.4"></li>
           </ul>
-          <a class="plan-btn" href="classic.html#join" data-t="s6.btn"></a>
+          <a class="plan-btn" href="#notify" data-notify="smart" data-t="s6.btn"></a>
         </article>
       </div>
       <p class="plans-note" data-t="plans.note"></p>
@@ -216,7 +216,7 @@
       <a class="footer-logo" href="#day" aria-label="ArtOfMenu"><img src="assets/brand/logo-white.webp" alt="" width="900" height="682" loading="lazy"></a>
       <nav class="footer-links" aria-label="ArtOfMenu">
         <a href="#plans" data-t="tab.pricing">Fiyatlar</a>
-        <a href="classic.html#join" data-t="s6.btn">Erken erişime katılın</a>
+        <a href="#notify" data-notify data-t="s6.btn">Çıkınca haber verelim</a>
       </nav>
       <p class="footer-copy">© 2026 <a href="https://goktigin.com" target="_blank" rel="noopener">Göktigin</a></p>
     </div>
@@ -227,9 +227,53 @@
 <a class="brand" href="#day" aria-label="ArtOfMenu"><img src="assets/brand/logo-aom.webp" alt="" width="900" height="391"></a>
 <a class="tab" href="#plans" data-t="tab.pricing">Fiyatlar</a>
 
+<!-- "Notify me at launch": email, the business on Google Maps and the plan of interest.
+     data-endpoint: the Cloudflare Worker's address; data-sitekey: the Turnstile site key (see waitlist-worker/README.md) -->
+<dialog class="notify" id="notify" aria-labelledby="nf-title">
+  <form class="nf-form" id="nf-form" novalidate data-endpoint="https://aom-waitlist.ozgurhaluk-krky.workers.dev" data-sitekey="0x4AAAAAAFv0fEhL9ghMmw3a">
+    <button type="button" class="nf-close" data-nf-close aria-label="Kapat" data-t-aria="nf.close"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+    <img class="nf-mark" src="assets/brand/logo-aom.webp" alt="" width="900" height="391">
+    <h2 id="nf-title" data-t="nf.title">Çıktığında ilk siz duyun</h2>
+    <p class="nf-lead" data-t="nf.lead"></p>
+    <label class="nf-field">
+      <span data-t="nf.name">Adınız soyadınız</span>
+      <input type="text" name="fullname" autocomplete="name" maxlength="120" required>
+    </label>
+    <label class="nf-field">
+      <span data-t="nf.email">E-posta adresiniz</span>
+      <input type="email" name="email" autocomplete="email" inputmode="email" maxlength="254" required>
+    </label>
+    <label class="nf-field">
+      <span data-t="nf.maps">İşletmenizin Google Haritalar bağlantısı</span>
+      <input type="url" name="maps" inputmode="url" maxlength="500" placeholder="https://maps.app.goo.gl/…" required>
+      <small data-t="nf.maps.hint"></small>
+    </label>
+    <fieldset class="nf-plans">
+      <legend data-t="nf.plan">İlgilendiğiniz paket</legend>
+      <label><input type="radio" name="plan" value="menu"><span>Menu</span></label>
+      <label><input type="radio" name="plan" value="order"><span>Order</span></label>
+      <label><input type="radio" name="plan" value="smart"><span>Smart</span></label>
+      <label><input type="radio" name="plan" value="undecided" checked><span data-t="nf.undecided">Henüz karar vermedim</span></label>
+    </fieldset>
+    <label class="nf-consent"><input type="checkbox" name="consent" required><span data-t="nf.consent"></span></label>
+    <!-- left empty by people; bots that fill every field give themselves away -->
+    <input class="nf-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="nf-check" id="nf-check"></div>
+    <p class="nf-status" id="nf-status" role="status" aria-live="polite"></p>
+    <button type="submit" class="btn btn-primary nf-submit"><span data-t="nf.submit">Haber ver</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+  </form>
+  <div class="nf-done" id="nf-done" hidden>
+    <img class="nf-mark" src="assets/brand/logo-aom.webp" alt="" width="900" height="391">
+    <h2 data-t="nf.done.t">Listedesiniz</h2>
+    <p class="nf-lead" data-t="nf.done.d"></p>
+    <button type="button" class="btn btn-primary" data-nf-close><span data-t="nf.close">Kapat</span></button>
+  </div>
+</dialog>
+
 <script src="i18n.js?v=16"></script>
-<script src="gun-i18n.js?v=4"></script>
+<script src="gun-i18n.js?v=6"></script>
 <script src="pricing.js?v=1"></script>
 <script src="gun.js?v=36"></script>
+<script src="notify.js?v=2"></script>
 </body>
 </html>

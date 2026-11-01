@@ -1,0 +1,17 @@
+name = "aom-waitlist"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+# the only addresses whose pages may send the form (comma separated)
+ALLOWED_ORIGINS = "https://artofmenu.com,https://www.artofmenu.com,http://localhost:5173"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "aom-waitlist"
+# replace with the id printed by: npx wrangler d1 create aom-waitlist
+database_id = "832b2161-deb0-48e7-abcc-8187b3431c75"
+
+# Secrets (not in this file), set with:
+#   npx wrangler secret put TURNSTILE_SECRET
+#   npx wrangler secret put IP_SALT
