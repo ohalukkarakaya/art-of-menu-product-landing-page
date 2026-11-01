@@ -27,32 +27,21 @@ ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Runway and pinned stage ---------- */
 /* 55svh of scroll per hour: one flick moves on to the next hour */
-.day { position: relative; height: calc(100svh + 330svh); }
+.day { position: relative; height: calc(100svh + 330svh); height: calc(100lvh + 330svh); }
 
 .stage {
   position: sticky; top: 0;
-  height: 100svh; min-height: 600px;
+  height: 100vh; height: 100lvh; min-height: 600px;
+  /* how much of the stage the browser's toolbars may cover (0 on desktop) */
+  --bars: calc(100lvh - 100svh);
   overflow: hidden; overflow-x: clip; overflow-y: visible; isolation: isolate;
   --fg: #1D1D1F; --fg-2: rgba(29, 29, 31, .62);
   --stars: 0; --rain: 0; --mx: 0; --my: 0;
   color: var(--fg);
 }
-.sky, .sky-next { position: absolute; inset: 0; z-index: -3; background: linear-gradient(180deg, #DCE6FF, #F7F8FF); }
-.sky-next { opacity: 0; will-change: opacity; }
-.stars {
-  position: absolute; inset: 0; z-index: -2; opacity: var(--stars); will-change: opacity;
-  background-image:
-    radial-gradient(1.6px 1.6px at 8% 14%, #fff 50%, transparent 52%),
-    radial-gradient(1.2px 1.2px at 22% 32%, #fff 50%, transparent 52%),
-    radial-gradient(1.8px 1.8px at 36% 9%, #fff 50%, transparent 52%),
-    radial-gradient(1.2px 1.2px at 47% 24%, #CFC6FF 50%, transparent 52%),
-    radial-gradient(1.6px 1.6px at 61% 6%, #fff 50%, transparent 52%),
-    radial-gradient(1.2px 1.2px at 72% 18%, #fff 50%, transparent 52%),
-    radial-gradient(1.8px 1.8px at 86% 11%, #fff 50%, transparent 52%),
-    radial-gradient(1.2px 1.2px at 93% 34%, #CFC6FF 50%, transparent 52%),
-    radial-gradient(1.4px 1.4px at 15% 58%, #fff 50%, transparent 52%),
-    radial-gradient(1.2px 1.2px at 90% 64%, #fff 50%, transparent 52%);
-}
+.sky, .stars { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.sky { z-index: -3; background: #DCE6FF; }
+.stars { z-index: -2; opacity: var(--stars, 0); visibility: hidden; }
 .orb {
   position: absolute; z-index: -2;
   width: 22vmin; aspect-ratio: 1; border-radius: 50%;
@@ -65,8 +54,9 @@ ol { margin: 0; padding: 0; list-style: none; }
 }
 
 /* Clouds drift slowly; they darken with the rain */
-.clouds { position: absolute; inset: 0; z-index: -1; pointer-events: none; will-change: transform; transform: translate3d(calc(var(--cpx, 0) * 1px), calc(var(--cpy, 0) * 1px), 0); }
-.cloud { position: absolute; width: 26vw; max-width: 380px; will-change: transform, filter; opacity: var(--cloud-o, .9); filter: brightness(var(--cloud-b, 1.5)) saturate(.8); animation: drift 60s linear infinite; }
+/* the container is not a layer of its own (it would be a full-screen texture); each cloud is */
+.clouds { position: absolute; inset: 0; z-index: -1; pointer-events: none; }
+.cloud { position: absolute; width: 26vw; max-width: 380px; translate: calc(var(--cpx, 0) * 1px) calc(var(--cpy, 0) * 1px); will-change: transform, filter; opacity: var(--cloud-o, .9); filter: brightness(var(--cloud-b, 1.5)) saturate(.8); animation: drift 60s linear infinite; }
 .c1 { top: 8%; left: -10%; animation-duration: 70s; }
 .c2 { top: 20%; left: 40%; width: 18vw; animation-duration: 90s; animation-delay: -30s; }
 .c3 { top: 4%; left: 70%; width: 22vw; animation-duration: 80s; animation-delay: -50s; }
@@ -289,7 +279,7 @@ ol { margin: 0; padding: 0; list-style: none; }
 .clock ol { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; font-weight: 600; color: var(--fg-2); font-variant-numeric: tabular-nums; }
 
 .hint {
-  position: absolute; z-index: 5; left: 50%; bottom: calc(28px + env(safe-area-inset-bottom)); translate: -50% 0;
+  position: absolute; z-index: 5; left: 50%; bottom: calc(28px + var(--bars, 0px) + env(safe-area-inset-bottom)); translate: -50% 0;
   display: flex; align-items: center; gap: 10px; padding: 10px 16px 10px 14px; border-radius: 99px;
   font-size: 13px; font-weight: 600; color: var(--ink);
   background: rgba(255, 255, 255, .9);
@@ -397,6 +387,8 @@ main { background: #1C1F55; }
   .world { left: 50%; width: min(120vw, 80svh); translate: -50% 34%; }
   .ada { left: 12%; }
   .ada-wide { left: 8%; }
+  /* the planet is wider than a phone; keep the celebrating Ada inside the screen, right of centre */
+  .ada-final { left: 58%; right: auto; bottom: 60%; height: 21%; }
   /* on phones the copy sits at the top, so the sun and moon move down between text and world */
   .orb { width: 18vmin; }
   .w-planet { width: min(170vw, 104svh); translate: -50% 53%; }
@@ -429,6 +421,11 @@ main { background: #1C1F55; }
 /* Idle loops pause while scrolling, and in worlds that are off screen */
 .is-scrolling .worlds, .is-scrolling .rock, .is-scrolling .ada, .is-scrolling .cloud { animation-play-state: paused; }
 .world[style*="hidden"] .ada, .world.rock[style*="hidden"], .world[style*="hidden"] .rock { animation-name: none; }
+
+/* Lite mode (set by gun.js on slow GPUs): the same story without the decorative motion and the
+   soft shadows that are expensive to keep on screen */
+.lite .worlds, .lite .rock, .lite .ada, .lite .cloud, .lite .hint span::after, .lite .chart-dot::after { animation: none; }
+.lite .ada, .lite .hand-img { filter: none; }
 
 /* ---------- Reduced motion: keep the scroll story, drop the autonomous motion ---------- */
 /* Narrow windows and tablets: the copy sits on top, so the hand can take most of the lower half */

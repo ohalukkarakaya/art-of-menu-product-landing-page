@@ -7,6 +7,20 @@
   var smoothstep = function (e0, e1, v) { var x = clamp((v - e0) / (e1 - e0)); return x * x * (3 - 2 * x); };
   var lerp = function (a, b, k) { return a + (b - a) * k; };
 
+  /* Lite mode: on a GPU that cannot keep up (an integrated chip driving a big retina screen),
+     the decorative motion goes and the story stays. Measured, not guessed: see watchFrames().
+     ?lite=1 / ?lite=0 force it for testing. */
+  var root = document.documentElement;
+  var liteParam = new URLSearchParams(location.search).get("lite");
+  var lite = liteParam === "1" || (liteParam !== "0" && (function () { try { return sessionStorage.getItem("aom-lite") === "1"; } catch (e) { return false; } })());
+  function setLite() {
+    if (lite) return;
+    lite = true;
+    root.classList.add("lite");
+    try { sessionStorage.setItem("aom-lite", "1"); } catch (e) {}
+  }
+  if (lite) root.classList.add("lite");
+
   var day = document.getElementById("day");
   var stage = document.getElementById("stage");
   var worlds = Array.prototype.slice.call(stage.querySelectorAll(".world"));
@@ -40,8 +54,9 @@
   }
   var set = function (k, v) { setOn(stage, k, v); };
   function showIf(el, on) { setOn(el, "visibility", on ? "visible" : "hidden"); }
-  var skyEl = stage.querySelector(".sky"), skyNext = stage.querySelector(".sky-next");
-  var orbEl = stage.querySelector(".orb"), cloudsEl = stage.querySelector(".clouds"), starsEl = stage.querySelector(".stars");
+  var skyCanvas = document.getElementById("sky"), skyCtx = skyCanvas.getContext("2d");
+  var starsCanvas = document.getElementById("stars");
+  var orbEl = stage.querySelector(".orb"), cloudsEl = stage.querySelector(".clouds"), starsEl = starsCanvas;
   var handBox = stage.querySelector(".hand"), clockEl = stage.querySelector(".clock"), hintEl = stage.querySelector(".hint");
   var copyEl = stage.querySelector(".copy"), chartEl = stage.querySelector(".chart"), rainEl = document.getElementById("rain");
   var pingEl = stage.querySelector(".ping"), screenEl = document.getElementById("screen");
@@ -201,6 +216,27 @@
   }
 
   /* =====================================================
+     Sky and stars: tiny canvases the GPU stretches to the screen
+     ===================================================== */
+
+  var skyKey = "";
+  function paintSky(top, bottom) {
+    if (top + bottom === skyKey) return;
+    skyKey = top + bottom;
+    var g = skyCtx.createLinearGradient(0, 0, 0, 16);
+    g.addColorStop(0, top); g.addColorStop(1, bottom);
+    skyCtx.fillStyle = g; skyCtx.fillRect(0, 0, 1, 16);
+  }
+  var STARS = [[8, 14, 1.6, "#fff"], [22, 32, 1.2, "#fff"], [36, 9, 1.8, "#fff"], [47, 24, 1.2, "#CFC6FF"], [61, 6, 1.6, "#fff"],
+    [72, 18, 1.2, "#fff"], [86, 11, 1.8, "#fff"], [93, 34, 1.2, "#CFC6FF"], [15, 58, 1.4, "#fff"], [90, 64, 1.2, "#fff"]];
+  function paintStars() {
+    var w = Math.max(1, Math.round(stage.clientWidth / 2)), h = Math.max(1, Math.round(stage.clientHeight / 2));
+    starsCanvas.width = w; starsCanvas.height = h;
+    var c = starsCanvas.getContext("2d");
+    STARS.forEach(function (s) { c.fillStyle = s[3]; c.beginPath(); c.arc(s[0] / 100 * w, s[1] / 100 * h, Math.max(.6, s[2] / 3), 0, 6.2832); c.fill(); });
+  }
+
+  /* =====================================================
      Scroll timeline
      ===================================================== */
 
@@ -216,7 +252,7 @@
   function update() {
     pending = false;
     var rm = reduceMQ.matches;
-    var runway = day.offsetHeight - window.innerHeight;
+    var runway = day.offsetHeight - stage.offsetHeight;   // the stage stays pinned for exactly this distance
     target = clamp(-day.getBoundingClientRect().top / runway) * LAST;
     // The scene is pinned to the scroll position itself: no easing of our own on top of the
     // browser's, so it can never lag behind, catch up with a jump, or move after the hand stops
@@ -224,20 +260,16 @@
     lastFrame = now;
     smooth = target;
     inited = true;
-    mx = rm ? 0 : lerp(mx, tmx, 1 - Math.pow(0.92, frames));
-    my = rm ? 0 : lerp(my, tmy, 1 - Math.pow(0.92, frames));
+    mx = rm || lite ? 0 : lerp(mx, tmx, 1 - Math.pow(0.92, frames));
+    my = rm || lite ? 0 : lerp(my, tmy, 1 - Math.pow(0.92, frames));
+    watchFrames(now);
     var p = smooth;
     var mobile = window.innerWidth <= 860;
 
     // Sky and light blend between neighbouring hours
     var i0 = Math.floor(p), i1 = Math.min(LAST, i0 + 1), f = smoothstep(0.45, 0.85, p - i0);
     var A = SCENES[i0], B = SCENES[i1];
-    // two fixed gradients crossfade: only opacity changes per frame, nothing repaints
-    setOn(skyEl, "background", "linear-gradient(180deg, " + A.top + ", " + A.bottom + ")");
-    setOn(skyNext, "background", "linear-gradient(180deg, " + B.top + ", " + B.bottom + ")");
-    setOn(skyNext, "opacity", f.toFixed(3));
-    // a layer at zero opacity still costs a full-screen pass on the GPU; hide it outright
-    showIf(skyNext, f > 0.001);
+    paintSky(mixHex(A.top, B.top, f), mixHex(A.bottom, B.bottom, f));
     // on phones the copy sits on top, so the sun and moon move down between text and world
     var ox = mobile ? 80 : lerp(A.orb[0], B.orb[0], f), oy = mobile ? 44 : lerp(A.orb[1], B.orb[1], f);
     setOn(orbEl, "--opx", (ox * rainW / 100).toFixed(1) + "px");
@@ -313,7 +345,7 @@
     setWeather(p > 2.65 ? "rain" : "sun");
 
     // Rain around 18:00
-    rainLevel = clamp(1 - Math.abs(p - 3) * 1.7);
+    rainLevel = lite ? 0 : clamp(1 - Math.abs(p - 3) * 1.7);
     setOn(rainEl, "--rain", rainLevel.toFixed(3));
     showIf(rainEl, rainLevel > 0.001);
     if (rainLevel > 0.01) startRain();
@@ -345,6 +377,21 @@
     if (settling) request();
   }
   function request() { if (!pending) { pending = true; requestAnimationFrame(update); } }
+
+  // Watch real frame times while the story moves. If the slower quarter of 45 frames in a row
+  // takes longer than 26ms (under ~38fps), this machine gets lite mode for the rest of the visit.
+  var frameTimes = [], lastTick = 0;
+  function watchFrames(now) {
+    if (lite || liteParam === "0") return;
+    var dtf = now - lastTick;
+    lastTick = now;
+    if (dtf <= 0 || dtf > 250) return;   // first frame after a pause, or a background tab
+    frameTimes.push(dtf);
+    if (frameTimes.length < 45) return;
+    var sorted = frameTimes.slice().sort(function (a, b) { return a - b; });
+    frameTimes = [];
+    if (sorted[Math.floor(sorted.length * 0.75)] > 26) setLite();
+  }
 
   // The phone may only drift right until its edge meets the screen edge (the wrist may run off)
   var handEl = stage.querySelector(".hand"), handMaxX = 0;
@@ -386,7 +433,7 @@
     request();
   }
   window.addEventListener("scroll", onScroll, { passive: true });
-  window.addEventListener("resize", function () { sizeCanvas(); measureHand(); measureHero(); measureChart(); request(); });
+  window.addEventListener("resize", function () { sizeCanvas(); paintStars(); measureHand(); measureHero(); measureChart(); request(); });
   measureHand(); measureHero(); measureChart();
   if (document.fonts) document.fonts.ready.then(function () { measureHero(); request(); });
   if (finePointer.matches) {
@@ -398,6 +445,7 @@
   }
 
   sizeCanvas();
+  paintStars();
   update();
 
   // Decode every world up front, so a new hour never stalls the scroll while its image unpacks
