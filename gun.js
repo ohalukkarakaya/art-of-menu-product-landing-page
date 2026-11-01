@@ -263,7 +263,7 @@
       ada.style.setProperty("--ax", (mx * -16 * k).toFixed(1) + "px");
       ada.style.setProperty("--ay", (my * -10 * k + d * -24 * k).toFixed(1) + "px");
     });
-    set("--hx", (mx * 90).toFixed(1)); set("--hy", Math.max(0, 28 + my * 40 + Math.abs(dl) * 70).toFixed(1));
+    set("--hx", Math.min(mx * (mobile ? 30 : 90), handMaxX).toFixed(1)); set("--hy", Math.max(0, 28 + my * 40 + Math.abs(dl) * 70).toFixed(1));
     set("--cpx", (mx * -30 + p * -60).toFixed(1)); set("--cpy", (my * -16 + dl * 50).toFixed(1));
     set("--ox", (mx * -20).toFixed(1)); set("--oy", (my * -12 + dl * 60).toFixed(1));
     var screen = document.getElementById("screen");
@@ -284,6 +284,13 @@
     set("--clock", clamp((p - 1) / 4).toFixed(4));
     set("--clock-o", (smoothstep(0.5, 0.9, p) * (1 - smoothstep(5.3, 5.7, p))).toFixed(3));
     set("--hint-o", (1 - smoothstep(0.05, 0.3, p)).toFixed(3));
+    // 23:00: daily revenue climbs as the visitor scrolls through the smart pricing scene
+    var grow = smoothstep(4.45, 5.4, p);
+    set("--chart", grow.toFixed(4));
+    set("--chart-o", (smoothstep(4.35, 4.7, p) * (1 - smoothstep(5.45, 5.75, p))).toFixed(3));
+    chartDot.style.setProperty("--dx", (grow * 100).toFixed(2) + "%");
+    chartDot.style.setProperty("--dy", (chartY(grow * 1200) / 6).toFixed(2) + "%");
+
     // the sky wash behind the copy: always on phones, only over the first planet on wide screens
     set("--scrim", (mobile ? 1 : 1 - smoothstep(0.3, 0.8, p)).toFixed(3));
     var brandO = smoothstep(0.35, 0.7, p);
@@ -295,8 +302,26 @@
   }
   function request() { if (!pending) { pending = true; requestAnimationFrame(update); } }
 
+  // The phone may only drift right until its edge meets the screen edge (the wrist may run off)
+  var handEl = stage.querySelector(".hand"), handMaxX = 0;
+  function measureHand() { var w = handEl.offsetWidth; handMaxX = parseFloat(getComputedStyle(handEl).right) + w * 0.135 - 12; }
+
+  // Revenue chart: sample the curve once, then look up the height for any x
+  var chartLine = document.getElementById("chart-line"), chartDot = document.getElementById("chart-dot"), chartPts = [];
+  (function () {
+    var len = chartLine.getTotalLength();
+    for (var i = 0; i <= 120; i++) { var pt = chartLine.getPointAtLength(len * i / 120); chartPts.push([pt.x, pt.y]); }
+  })();
+  function chartY(x) {
+    for (var i = 1; i < chartPts.length; i++) {
+      if (chartPts[i][0] >= x) { var a = chartPts[i - 1], b = chartPts[i]; return lerp(a[1], b[1], (x - a[0]) / ((b[0] - a[0]) || 1)); }
+    }
+    return chartPts[chartPts.length - 1][1];
+  }
+
   window.addEventListener("scroll", request, { passive: true });
-  window.addEventListener("resize", function () { sizeCanvas(); request(); });
+  window.addEventListener("resize", function () { sizeCanvas(); measureHand(); request(); });
+  measureHand();
   if (finePointer.matches) {
     window.addEventListener("pointermove", function (e) {
       tmx = e.clientX / window.innerWidth - 0.5;

@@ -119,8 +119,8 @@ window.AOM_I18N = {
     "f.global.t": "216 ülkede, kendi para biriminizle",
     "f.global.d": "Para birimi, vergi gösterimi ve fiyat yuvarlaması ülkenize göre hazır.",
 
-    "plans.title": "Üç paket, tek menü.",
-    "plans.lead": "Abonelik şube başına. İşletmeniz büyüdükçe bir üst pakete geçin; paket düşürseniz de verileriniz silinmez.",
+    "plans.title": "İhtiyacınıza uygun paketi seçin.",
+    "plans.lead": "Her paket QR menüyle başlar. Masadan sipariş, stok ve günlük akıllı fiyatlandırma ihtiyacınıza göre eklenir. Daha küçük bir pakete geçseniz de verileriniz silinmez.",
     "p.menu.tag": "Dijital menünüz, dakikalar içinde",
     "p.menu.1": "QR menü, fotoğraflar, alerjenler, çoklu dil",
     "p.menu.2": "Kendi alan adınız",
@@ -286,8 +286,8 @@ window.AOM_I18N = {
     "f.global.t": "216 countries, your own currency",
     "f.global.d": "Currency, tax display and price rounding are set up for your country.",
 
-    "plans.title": "Three plans, one menu.",
-    "plans.lead": "Billed per branch. Move up as you grow; if you move down, your data stays.",
+    "plans.title": "Pick the plan that fits your business.",
+    "plans.lead": "Every plan starts with the QR menu. Add table ordering, inventory and smart daily pricing as you need them. If you switch to a smaller plan, your data stays.",
     "p.menu.tag": "Your digital menu in minutes",
     "p.menu.1": "QR menu, photos, allergens, multiple languages",
     "p.menu.2": "Your own domain",
@@ -453,8 +453,8 @@ window.AOM_I18N = {
     "f.global.t": "216 Länder, Ihre eigene Währung",
     "f.global.d": "Währung, Steuerangabe und Preisrundung sind für Ihr Land eingerichtet.",
 
-    "plans.title": "Drei Pakete, eine Karte.",
-    "plans.lead": "Abgerechnet pro Filiale. Steigen Sie auf, wenn Sie wachsen; beim Wechsel nach unten bleiben Ihre Daten erhalten.",
+    "plans.title": "Wählen Sie das passende Paket.",
+    "plans.lead": "Jedes Paket beginnt mit dem QR-Menü. Bestellen am Tisch, Warenbestand und intelligente Tagespreise kommen nach Bedarf dazu. Bei einem Wechsel in ein kleineres Paket bleiben Ihre Daten erhalten.",
     "p.menu.tag": "Ihre digitale Karte in Minuten",
     "p.menu.1": "QR-Speisekarte, Fotos, Allergene, mehrsprachig",
     "p.menu.2": "Eigene Domain",

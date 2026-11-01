@@ -7,6 +7,7 @@ window.GUN_I18N = {
     "aria.day": "Bir günün menüsü",
     "hint": "Kaydırın",
     "tab.pricing": "Fiyatlar",
+    "chart.label": "Ciro",
 
     "s0.t": "QR menüden çok daha fazlası",
     "s0.d": "ArtOfMenu, QR menüyü, siparişleri, stok yönetimini ve akıllı fiyatlandırmayı bir araya getirir. Nasıl çalıştığını görmek için aşağı kaydırın.",
@@ -48,6 +49,7 @@ window.GUN_I18N = {
     "aria.day": "A day on the menu",
     "hint": "Scroll",
     "tab.pricing": "Pricing",
+    "chart.label": "Revenue",
 
     "s0.t": "More than a QR menu",
     "s0.d": "ArtOfMenu brings QR menus, ordering, inventory and smart pricing together. Scroll down to see how it works throughout the day.",
@@ -89,6 +91,7 @@ window.GUN_I18N = {
     "aria.day": "Ein Tag auf der Speisekarte",
     "hint": "Scrollen",
     "tab.pricing": "Preise",
+    "chart.label": "Umsatz",
 
     "s0.t": "Mehr als eine QR-Speisekarte",
     "s0.d": "ArtOfMenu vereint QR-Menü, Bestellungen, Warenbestand und intelligente Preisgestaltung. Scrollen Sie weiter und entdecken Sie den Tagesablauf.",

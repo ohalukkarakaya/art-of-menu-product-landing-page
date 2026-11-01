@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/web/diorama/planet.webp" type="image/webp">
-  <link rel="stylesheet" href="gun.css?v=26">
+  <link rel="stylesheet" href="gun.css?v=30">
   <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
@@ -33,6 +33,24 @@
         <img class="cloud c1" src="assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
         <img class="cloud c2" src="assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
         <img class="cloud c3" src="assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+      </div>
+
+      <!-- 23:00 smart pricing: daily revenue drawn as you scroll, behind the world -->
+      <div class="chart" aria-hidden="true">
+        <svg viewBox="0 0 1200 600" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="chart-fill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#34C759" stop-opacity=".34"/>
+              <stop offset="1" stop-color="#34C759" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <g class="chart-grid"><path d="M0 150H1200M0 300H1200M0 450H1200"/></g>
+          <g class="chart-draw">
+            <path class="chart-area" d="M0 520 C8 520 33 525 50 523 C67 521 83 515 100 506 C117 497 133 470 150 468 C167 467 183 493 200 496 C217 499 233 495 250 485 C267 475 283 445 300 437 C317 429 333 437 350 437 C367 437 383 438 400 436 C417 434 433 435 450 424 C467 414 483 383 500 374 C517 366 533 371 550 373 C567 375 583 389 600 387 C617 385 633 374 650 361 C667 348 683 316 700 308 C717 301 733 315 750 317 C767 319 783 325 800 320 C817 314 833 295 850 283 C867 272 883 256 900 251 C917 246 933 255 950 254 C967 253 983 259 1000 246 C1017 232 1033 183 1050 174 C1067 164 1083 187 1100 187 C1117 187 1133 181 1150 173 C1167 165 1192 146 1200 140 L1200 600 L0 600 Z" fill="url(#chart-fill)"/>
+            <path class="chart-line" id="chart-line" d="M0 520 C8 520 33 525 50 523 C67 521 83 515 100 506 C117 497 133 470 150 468 C167 467 183 493 200 496 C217 499 233 495 250 485 C267 475 283 445 300 437 C317 429 333 437 350 437 C367 437 383 438 400 436 C417 434 433 435 450 424 C467 414 483 383 500 374 C517 366 533 371 550 373 C567 375 583 389 600 387 C617 385 633 374 650 361 C667 348 683 316 700 308 C717 301 733 315 750 317 C767 319 783 325 800 320 C817 314 833 295 850 283 C867 272 883 256 900 251 C917 246 933 255 950 254 C967 253 983 259 1000 246 C1017 232 1033 183 1050 174 C1067 164 1083 187 1100 187 C1117 187 1133 181 1150 173 C1167 165 1192 146 1200 140"/>
+          </g>
+        </svg>
+        <span class="chart-dot" id="chart-dot"><span class="chart-label" data-t="chart.label">Ciro</span></span>
       </div>
 
       <!-- One world per hour of the day -->
@@ -149,7 +167,7 @@
   <span class="footer-mark" aria-hidden="true"></span>
   <section class="plans" id="plans" aria-labelledby="plans-title">
     <div class="plans-in">
-      <h2 id="plans-title" data-t="plans.title">Üç paket, tek menü.</h2>
+      <h2 id="plans-title" data-t="plans.title">İhtiyacınıza uygun paketi seçin.</h2>
       <p class="plans-lead" data-t="plans.lead"></p>
       <div class="billing" role="radiogroup" aria-label="Ödeme dönemi" data-t-aria="price.label">
         <span class="billing-bg" aria-hidden="true"></span>
@@ -202,9 +220,9 @@
 <a class="brand" href="#day" aria-label="ArtOfMenu"><img src="assets/brand/logo-aom.webp" alt="" width="900" height="391"></a>
 <a class="tab" href="#plans" data-t="tab.pricing">Fiyatlar</a>
 
-<script src="i18n.js?v=14"></script>
-<script src="gun-i18n.js?v=3"></script>
+<script src="i18n.js?v=15"></script>
+<script src="gun-i18n.js?v=4"></script>
 <script src="pricing.js?v=1"></script>
-<script src="gun.js?v=17"></script>
+<script src="gun.js?v=18"></script>
 </body>
 </html>
