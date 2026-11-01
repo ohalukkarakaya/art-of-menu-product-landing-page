@@ -39,6 +39,7 @@
     el.style.setProperty(k, v);
   }
   var set = function (k, v) { setOn(stage, k, v); };
+  function showIf(el, on) { setOn(el, "visibility", on ? "visible" : "hidden"); }
   var skyEl = stage.querySelector(".sky"), skyNext = stage.querySelector(".sky-next");
   var orbEl = stage.querySelector(".orb"), cloudsEl = stage.querySelector(".clouds"), starsEl = stage.querySelector(".stars");
   var handBox = stage.querySelector(".hand"), clockEl = stage.querySelector(".clock"), hintEl = stage.querySelector(".hint");
@@ -217,11 +218,11 @@
     var rm = reduceMQ.matches;
     var runway = day.offsetHeight - window.innerHeight;
     target = clamp(-day.getBoundingClientRect().top / runway) * LAST;
-    // same easing per second at any frame rate: a slow frame catches up instead of lagging and then jumping
+    // The scene is pinned to the scroll position itself: no easing of our own on top of the
+    // browser's, so it can never lag behind, catch up with a jump, or move after the hand stops
     var now = performance.now(), frames = Math.min(4, (now - lastFrame) / 16.7 || 1);
     lastFrame = now;
-    smooth = (!inited || rm) ? target : lerp(smooth, target, 1 - Math.pow(0.68, frames));
-    if (Math.abs(smooth - target) < 0.0005) smooth = target;
+    smooth = target;
     inited = true;
     mx = rm ? 0 : lerp(mx, tmx, 1 - Math.pow(0.92, frames));
     my = rm ? 0 : lerp(my, tmy, 1 - Math.pow(0.92, frames));
@@ -235,6 +236,8 @@
     setOn(skyEl, "background", "linear-gradient(180deg, " + A.top + ", " + A.bottom + ")");
     setOn(skyNext, "background", "linear-gradient(180deg, " + B.top + ", " + B.bottom + ")");
     setOn(skyNext, "opacity", f.toFixed(3));
+    // a layer at zero opacity still costs a full-screen pass on the GPU; hide it outright
+    showIf(skyNext, f > 0.001);
     // on phones the copy sits on top, so the sun and moon move down between text and world
     var ox = mobile ? 80 : lerp(A.orb[0], B.orb[0], f), oy = mobile ? 44 : lerp(A.orb[1], B.orb[1], f);
     setOn(orbEl, "--opx", (ox * rainW / 100).toFixed(1) + "px");
@@ -244,7 +247,9 @@
     setOn(orbEl, "--orb-glow", "rgba(255, 240, 200," + (0.55 * (1 - smoothstep(3.6, 4.6, p))).toFixed(3) + ")");
     setOn(cloudsEl, "--cloud-b", lerp(A.cloud[0], B.cloud[0], f).toFixed(3));
     setOn(cloudsEl, "--cloud-o", lerp(A.cloud[1], B.cloud[1], f).toFixed(3));
-    setOn(starsEl, "--stars", smoothstep(4.2, 5.2, p).toFixed(3));
+    var stars = smoothstep(4.2, 5.2, p);
+    setOn(starsEl, "--stars", stars.toFixed(3));
+    showIf(starsEl, stars > 0.001);
     var dark = lerp(A.dark, B.dark, f);
     set("--fg", dark > .5 ? "#F5F5F7" : "#1D1D1F");
     set("--fg-2", dark > .5 ? "rgba(245,245,247,.72)" : "rgba(29,29,31,.62)");
@@ -310,18 +315,23 @@
     // Rain around 18:00
     rainLevel = clamp(1 - Math.abs(p - 3) * 1.7);
     setOn(rainEl, "--rain", rainLevel.toFixed(3));
+    showIf(rainEl, rainLevel > 0.001);
     if (rainLevel > 0.01) startRain();
 
     // Clock and scroll hint
     setOn(clockEl, "--clock", clamp((p - 1) / 4).toFixed(4));
-    setOn(clockEl, "--clock-o", (smoothstep(0.5, 0.9, p) * (1 - smoothstep(5.3, 5.7, p))).toFixed(3));
-    setOn(hintEl, "--hint-o", (1 - smoothstep(0.05, 0.3, p)).toFixed(3));
+    var clockO = smoothstep(0.5, 0.9, p) * (1 - smoothstep(5.3, 5.7, p)), hintO = 1 - smoothstep(0.05, 0.3, p);
+    setOn(clockEl, "--clock-o", clockO.toFixed(3)); showIf(clockEl, clockO > 0.001);
+    setOn(hintEl, "--hint-o", hintO.toFixed(3)); showIf(hintEl, hintO > 0.001);
     // 23:00: daily revenue climbs as the visitor scrolls through the smart pricing scene
     var grow = smoothstep(4.45, 5.4, p);
     setOn(chartEl, "--chart", grow.toFixed(4));
-    setOn(chartEl, "--chart-o", (smoothstep(4.35, 4.7, p) * (1 - smoothstep(5.45, 5.75, p))).toFixed(3));
-    setOn(chartDot, "--dx", (grow * 100).toFixed(2) + "%");
-    setOn(chartDot, "--dy", (chartY(grow * 1200) / 6).toFixed(2) + "%");
+    var chartO = smoothstep(4.35, 4.7, p) * (1 - smoothstep(5.45, 5.75, p));
+    setOn(chartEl, "--chart-o", chartO.toFixed(3)); showIf(chartEl, chartO > 0.001);
+    if (chartO > 0.001) {
+      setOn(chartDot, "--dx", (grow * chartW).toFixed(1) + "px");
+      setOn(chartDot, "--dy", (chartY(grow * 1200) / 600 * chartH).toFixed(1) + "px");
+    }
 
     // the sky wash behind the copy, only over the first planet
     setOn(copyEl, "--scrim", (1 - smoothstep(0.3, 0.8, p)).toFixed(3));
@@ -349,6 +359,8 @@
     var overlapX = Math.min(c.offsetLeft + c.offsetWidth, planetRight) - Math.max(c.offsetLeft, planetLeft);
     heroSink = overlapX > 0 ? Math.min(Math.max(0, copyBottom - planetTop), h * 0.3) : 0;
   }
+  var chartW = 0, chartH = 0;
+  function measureChart() { chartW = chartEl.offsetWidth; chartH = chartEl.offsetHeight; }
   function measureHand() { var w = handEl.offsetWidth; handMaxX = parseFloat(getComputedStyle(handEl).right) + w * 0.135 - 12; }
 
   // Revenue chart: sample the curve once, then look up the height for any x
@@ -366,31 +378,16 @@
 
   // While the visitor scrolls the scene is moving anyway, so the idle loops (sway, rocking,
   // Ada's bob, drifting clouds) pause and hand their frame budget to the scroll
-  var scrollIdle = 0, lastY = window.scrollY, dir = 1;
+  var scrollIdle = 0;
   function onScroll() {
     if (!scrollIdle) stage.classList.add("is-scrolling");
-    var y = window.scrollY;
-    if (y !== lastY) dir = y > lastY ? 1 : -1;
-    lastY = y;
     clearTimeout(scrollIdle);
-    scrollIdle = setTimeout(function () { scrollIdle = 0; stage.classList.remove("is-scrolling"); settle(); }, 140);
+    scrollIdle = setTimeout(function () { scrollIdle = 0; stage.classList.remove("is-scrolling"); }, 140);
     request();
   }
-  // When a scroll stops between two hours, finish the move in the direction the visitor was going:
-  // a small nudge is enough to reach the next hour, nobody has to push through
-  function settle() {
-    if (reduceMQ.matches) return;
-    var runway = day.offsetHeight - window.innerHeight, top = day.offsetTop;
-    var p = (window.scrollY - top) / runway * LAST;
-    if (p <= 0 || p >= LAST) return;
-    var frac = p - Math.floor(p);
-    if (frac < 0.02 || frac > 0.98) return;
-    var to = dir > 0 ? (frac > 0.12 ? Math.ceil(p) : Math.floor(p)) : (frac < 0.88 ? Math.floor(p) : Math.ceil(p));
-    window.scrollTo({ top: top + to / LAST * runway, behavior: "smooth" });
-  }
   window.addEventListener("scroll", onScroll, { passive: true });
-  window.addEventListener("resize", function () { sizeCanvas(); measureHand(); measureHero(); request(); });
-  measureHand(); measureHero();
+  window.addEventListener("resize", function () { sizeCanvas(); measureHand(); measureHero(); measureChart(); request(); });
+  measureHand(); measureHero(); measureChart();
   if (document.fonts) document.fonts.ready.then(function () { measureHero(); request(); });
   if (finePointer.matches) {
     window.addEventListener("pointermove", function (e) {

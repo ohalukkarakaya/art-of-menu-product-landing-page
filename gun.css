@@ -66,7 +66,7 @@ ol { margin: 0; padding: 0; list-style: none; }
 
 /* Clouds drift slowly; they darken with the rain */
 .clouds { position: absolute; inset: 0; z-index: -1; pointer-events: none; will-change: transform; transform: translate3d(calc(var(--cpx, 0) * 1px), calc(var(--cpy, 0) * 1px), 0); }
-.cloud { position: absolute; width: 26vw; max-width: 380px; opacity: var(--cloud-o, .9); filter: brightness(var(--cloud-b, 1.5)) saturate(.8); animation: drift 60s linear infinite; }
+.cloud { position: absolute; width: 26vw; max-width: 380px; will-change: transform, filter; opacity: var(--cloud-o, .9); filter: brightness(var(--cloud-b, 1.5)) saturate(.8); animation: drift 60s linear infinite; }
 .c1 { top: 8%; left: -10%; animation-duration: 70s; }
 .c2 { top: 20%; left: 40%; width: 18vw; animation-duration: 90s; animation-delay: -30s; }
 .c3 { top: 4%; left: 70%; width: 22vw; animation-duration: 80s; animation-delay: -50s; }
@@ -98,7 +98,7 @@ ol { margin: 0; padding: 0; list-style: none; }
 .rock { animation: rock 14s ease-in-out infinite alternate; }
 @keyframes rock { from { rotate: -3deg; } to { rotate: 3deg; } }
 /* Ada gets her own light depth: a little extra pointer/scroll drift and a slow idle sway */
-.ada { translate: var(--ax, 0px) var(--ay, 0px); transform-origin: 50% 100%; animation: idle 4.2s ease-in-out infinite alternate; }
+.ada { translate: var(--ax, 0px) var(--ay, 0px); transform-origin: 50% 100%; will-change: transform; animation: idle 4.2s ease-in-out infinite alternate; }
 @keyframes idle { from { transform: translateY(0) rotate(-.8deg); } to { transform: translateY(-5px) rotate(.8deg); } }
 .ada { position: absolute; left: 6%; bottom: 38%; height: 36%; width: auto; filter: drop-shadow(0 20px 22px rgba(20, 30, 80, .3)); }
 .ada-wide { height: auto; width: 40%; left: 2%; bottom: 36%; }
@@ -126,13 +126,18 @@ ol { margin: 0; padding: 0; list-style: none; }
 .chart { position: absolute; inset: 12% 7% 38% 0; z-index: -1; opacity: var(--chart-o, 0); pointer-events: none; }
 .chart svg { width: 100%; height: 100%; overflow: visible; }
 .chart-grid path { fill: none; stroke: rgba(255,255,255,.08); stroke-width: 1; stroke-dasharray: 4 8; vector-effect: non-scaling-stroke; }
-/* the line and its fill are revealed left to right as the visitor scrolls */
-.chart-draw { clip-path: inset(0 calc((1 - var(--chart, 0)) * 100%) 0 0); }
+/* The line and its fill are revealed left to right as the visitor scrolls: the clip slides right
+   while its content slides back left by the same amount, both by transform, so nothing repaints */
+.chart-clip, .chart-inner { position: absolute; inset: 0; will-change: transform; }
+.chart-clip { overflow: hidden; transform: translate3d(calc((var(--chart, 0) - 1) * 100%), 0, 0); }
+.chart-inner { transform: translate3d(calc((1 - var(--chart, 0)) * 100%), 0, 0); }
+.chart-clip svg { width: 100%; height: 100%; overflow: visible; }
 .chart-line, .chart-glow { fill: none; stroke: #34C759; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
 .chart-glow { stroke: rgba(52, 199, 89, .28); stroke-width: 14; }
 .chart-dot {
-  position: absolute; left: var(--dx, 0%); top: var(--dy, 86%);
+  position: absolute; left: 0; top: 0;
   width: 16px; height: 16px; margin: -8px 0 0 -8px; border-radius: 50%;
+  transform: translate3d(var(--dx, 0px), var(--dy, 0px), 0); will-change: transform;
   background: #34C759; box-shadow: 0 0 0 4px rgba(255,255,255,.9), 0 0 24px 6px rgba(52, 199, 89, .7);
 }
 .chart-dot::after { content: ""; position: absolute; inset: -4px; border-radius: 50%; border: 2px solid rgba(52, 199, 89, .7); animation: chart-ping 1.8s var(--ease) infinite; }
