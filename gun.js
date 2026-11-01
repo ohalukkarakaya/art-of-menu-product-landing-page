@@ -7,18 +7,11 @@
   var smoothstep = function (e0, e1, v) { var x = clamp((v - e0) / (e1 - e0)); return x * x * (3 - 2 * x); };
   var lerp = function (a, b, k) { return a + (b - a) * k; };
 
-  /* Lite mode: on a GPU that cannot keep up (an integrated chip driving a big retina screen),
-     the decorative motion goes and the story stays. Measured, not guessed: see watchFrames().
-     ?lite=1 / ?lite=0 force it for testing. */
+  /* Lite mode, only on request (?lite=1): the story without the decorative motion. It used to
+     switch on by itself on slow frames, but with the scene on the compositor the motion is cheap
+     and the page looked flat without it. */
   var root = document.documentElement;
-  var liteParam = new URLSearchParams(location.search).get("lite");
-  var lite = liteParam === "1" || (liteParam !== "0" && (function () { try { return sessionStorage.getItem("aom-lite2") === "1"; } catch (e) { return false; } })());
-  function setLite() {
-    if (lite) return;
-    lite = true;
-    root.classList.add("lite");
-    try { sessionStorage.setItem("aom-lite2", "1"); } catch (e) {}
-  }
+  var lite = new URLSearchParams(location.search).get("lite") === "1";
   if (lite) root.classList.add("lite");
 
   var day = document.getElementById("day");
@@ -390,7 +383,6 @@
     lastFrame = now;
     mx = rm || lite ? 0 : lerp(mx, tmx, 1 - Math.pow(0.9, frames));
     my = rm || lite ? 0 : lerp(my, tmy, 1 - Math.pow(0.9, frames));
-    watchFrames(now);
     var mobile = window.innerWidth <= 860;
 
     if (!SDA) applyTracks(p);
@@ -434,22 +426,6 @@
     if (settling) request();
   }
   function request() { if (!pending) { pending = true; requestAnimationFrame(update); } }
-
-  // Watch real frame times while the story moves. Only a machine that stays under ~25fps for two
-  // stretches of 45 frames gets lite mode for the rest of the visit.
-  var frameTimes = [], lastTick = 0, slowRuns = 0;
-  function watchFrames(now) {
-    if (lite || liteParam === "0") return;
-    var dtf = now - lastTick;
-    lastTick = now;
-    if (dtf <= 0 || dtf > 250) return;   // first frame after a pause, or a background tab
-    frameTimes.push(dtf);
-    if (frameTimes.length < 45) return;
-    var sorted = frameTimes.slice().sort(function (a, b) { return a - b; });
-    frameTimes = [];
-    slowRuns = sorted[Math.floor(sorted.length * 0.75)] > 40 ? slowRuns + 1 : 0;
-    if (slowRuns >= 2) setLite();
-  }
 
   // The phone may only drift right until its edge meets the screen edge (the wrist may run off)
   var handEl = stage.querySelector(".hand"), handMaxX = 0;
