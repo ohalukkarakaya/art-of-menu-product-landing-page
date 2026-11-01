@@ -284,6 +284,8 @@
     set("--clock", clamp((p - 1) / 4).toFixed(4));
     set("--clock-o", (smoothstep(0.5, 0.9, p) * (1 - smoothstep(5.3, 5.7, p))).toFixed(3));
     set("--hint-o", (1 - smoothstep(0.05, 0.3, p)).toFixed(3));
+    // the sky wash behind the copy: always on phones, only over the first planet on wide screens
+    set("--scrim", (mobile ? 1 : 1 - smoothstep(0.3, 0.8, p)).toFixed(3));
     var brandO = smoothstep(0.35, 0.7, p);
     document.documentElement.style.setProperty("--brand-o", brandO.toFixed(3));
     document.documentElement.style.setProperty("--brand-v", brandO > 0.01 ? "visible" : "hidden");

@@ -204,6 +204,12 @@ ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Copy ---------- */
 .copy { position: absolute; inset: 0; z-index: 4; pointer-events: none; }
+/* A soft wash of the current sky behind the copy, so the text stays readable over the worlds */
+.copy::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; opacity: var(--scrim, 0);
+  background: linear-gradient(90deg, color-mix(in srgb, var(--sky-top) 88%, transparent) 0, color-mix(in srgb, var(--sky-top) 70%, transparent) calc(var(--edge) + 360px), transparent calc(var(--edge) + 640px));
+}
+.chapter p { text-shadow: 0 0 14px color-mix(in srgb, var(--sky-top) 80%, transparent); }
 .chapter {
   position: absolute;
   left: var(--edge);
@@ -234,6 +240,16 @@ ol { margin: 0; padding: 0; list-style: none; }
 }
 .btn:hover { transform: translateY(-2px); }
 .btn:focus-visible { outline: 3px solid #8EA2FF; outline-offset: 3px; }
+/* Brand-blue call to action with a small arrow chip */
+.btn-primary {
+  gap: 14px; padding: 0 8px 0 26px;
+  color: #fff;
+  background: linear-gradient(180deg, #2C49BF 0%, var(--brand) 100%);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.28), inset 0 0 0 1px rgba(255,255,255,.06), 0 16px 34px -14px rgba(31, 58, 158, .75);
+}
+.btn-arrow { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: rgba(255,255,255,.16); transition: transform .35s var(--spring), background-color .2s; }
+.btn-primary:hover .btn-arrow { transform: translateX(3px); background: rgba(255,255,255,.24); }
+.btn-primary:active { transform: scale(.98); }
 .chapter-logo { width: auto; height: clamp(76px, 7.4vw, 112px); margin-bottom: 26px; }
 
 /* ---------- Clock ---------- */
@@ -242,11 +258,19 @@ ol { margin: 0; padding: 0; list-style: none; }
 .clock-fill { display: block; height: 100%; width: calc(var(--clock, 0) * 100%); background: var(--fg); }
 .clock ol { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; font-weight: 600; color: var(--fg-2); font-variant-numeric: tabular-nums; }
 
-.hint { position: absolute; z-index: 4; left: 50%; bottom: 30px; translate: -50% 0; display: flex; flex-direction: column; align-items: center; gap: 10px; font-size: 13px; font-weight: 500; color: var(--fg-2); opacity: var(--hint-o, 1); }
-.hint b { font-weight: 500; }
-.hint span { width: 1.5px; height: 34px; background: color-mix(in srgb, var(--fg) 20%, transparent); position: relative; overflow: hidden; }
-.hint span::after { content: ""; position: absolute; inset: 0 0 60%; background: var(--fg); animation: hint 1.8s var(--ease) infinite; }
-@keyframes hint { from { transform: translateY(-100%); } to { transform: translateY(260%); } }
+.hint {
+  position: absolute; z-index: 5; left: 50%; bottom: calc(28px + env(safe-area-inset-bottom)); translate: -50% 0;
+  display: flex; align-items: center; gap: 10px; padding: 10px 16px 10px 14px; border-radius: 99px;
+  font-size: 13px; font-weight: 600; color: var(--ink);
+  background: rgba(255, 255, 255, .72);
+  -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.8), 0 10px 30px -14px rgba(0,0,0,.35);
+  opacity: var(--hint-o, 1); pointer-events: none; white-space: nowrap;
+}
+.hint b { font-weight: 600; }
+.hint span { width: 14px; height: 20px; border-radius: 8px; box-shadow: inset 0 0 0 1.5px rgba(29,29,31,.55); position: relative; overflow: hidden; }
+.hint span::after { content: ""; position: absolute; left: 50%; top: 4px; width: 2px; height: 5px; margin-left: -1px; border-radius: 1px; background: var(--ink); animation: hint 1.8s var(--ease) infinite; }
+@keyframes hint { 0% { transform: translateY(0); opacity: 1; } 70% { transform: translateY(7px); opacity: 0; } 100% { transform: translateY(0); opacity: 0; } }
 
 /* ---------- Plans (after the night scene) ---------- */
 main { background: #1C1F55; }
@@ -322,10 +346,11 @@ main { background: #1C1F55; }
   background: rgba(255, 255, 255, .72);
   -webkit-backdrop-filter: blur(20px) saturate(180%); backdrop-filter: blur(20px) saturate(180%);
   box-shadow: inset 0 0 0 1px rgba(255,255,255,.8), 0 10px 30px -14px rgba(0,0,0,.35);
+  opacity: var(--brand-o, 1); visibility: var(--brand-v, visible);
   transition: transform .35s var(--spring), background-color .2s;
 }
 .tab:hover { transform: translateY(-1px); background: rgba(255,255,255,.9); }
-/* The short logo in the same glass as the tab; it shows once the big logo of the first scene has gone */
+/* The short logo in the same glass as the tab; both show once the first scene has gone */
 .brand {
   position: fixed; z-index: 20; top: 18px; left: var(--edge);
   display: inline-flex; align-items: center; min-height: 40px; padding: 0 16px;
@@ -362,13 +387,14 @@ html { scroll-behavior: smooth; }
   .tag { font-size: 12px; padding: 7px 11px; }
   .clock { bottom: auto; top: 70px; }
   .chapter { top: 120px; }
+  .copy::before { background: linear-gradient(180deg, color-mix(in srgb, var(--sky-top) 85%, transparent) 0, color-mix(in srgb, var(--sky-top) 60%, transparent) 38%, transparent 56%); }
+  .btn { margin-top: 20px; min-height: 50px; }
   :root { --edge: 20px; }
   .tab, .brand { top: 14px; }
   .chapter-logo { height: 64px; margin-bottom: 16px; }
   .footer-logo img { height: 64px; }
   .plan-grid { grid-template-columns: 1fr; margin-top: 44px; }
   .plans { padding: 100px 18px 64px; }
-  .hint { bottom: auto; top: 40%; }
   .clock ol { font-size: 11px; }
 }
 
