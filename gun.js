@@ -39,6 +39,7 @@
     el.style.setProperty(k, v);
   }
   var set = function (k, v) { setOn(stage, k, v); };
+  var skyEl = stage.querySelector(".sky"), skyNext = stage.querySelector(".sky-next");
   var orbEl = stage.querySelector(".orb"), cloudsEl = stage.querySelector(".clouds"), starsEl = stage.querySelector(".stars");
   var handBox = stage.querySelector(".hand"), clockEl = stage.querySelector(".clock"), hintEl = stage.querySelector(".hint");
   var copyEl = stage.querySelector(".copy"), chartEl = stage.querySelector(".chart"), rainEl = document.getElementById("rain");
@@ -219,7 +220,7 @@
     // same easing per second at any frame rate: a slow frame catches up instead of lagging and then jumping
     var now = performance.now(), frames = Math.min(4, (now - lastFrame) / 16.7 || 1);
     lastFrame = now;
-    smooth = (!inited || rm) ? target : lerp(smooth, target, 1 - Math.pow(0.8, frames));
+    smooth = (!inited || rm) ? target : lerp(smooth, target, 1 - Math.pow(0.68, frames));
     if (Math.abs(smooth - target) < 0.0005) smooth = target;
     inited = true;
     mx = rm ? 0 : lerp(mx, tmx, 1 - Math.pow(0.92, frames));
@@ -230,10 +231,14 @@
     // Sky and light blend between neighbouring hours
     var i0 = Math.floor(p), i1 = Math.min(LAST, i0 + 1), f = smoothstep(0.45, 0.85, p - i0);
     var A = SCENES[i0], B = SCENES[i1];
-    set("--sky-top", mixHex(A.top, B.top, f));
-    set("--sky-bottom", mixHex(A.bottom, B.bottom, f));
-    setOn(orbEl, "--orb-x", lerp(A.orb[0], B.orb[0], f) + "%");
-    setOn(orbEl, "--orb-y", lerp(A.orb[1], B.orb[1], f) + "%");
+    // two fixed gradients crossfade: only opacity changes per frame, nothing repaints
+    setOn(skyEl, "background", "linear-gradient(180deg, " + A.top + ", " + A.bottom + ")");
+    setOn(skyNext, "background", "linear-gradient(180deg, " + B.top + ", " + B.bottom + ")");
+    setOn(skyNext, "opacity", f.toFixed(3));
+    // on phones the copy sits on top, so the sun and moon move down between text and world
+    var ox = mobile ? 80 : lerp(A.orb[0], B.orb[0], f), oy = mobile ? 44 : lerp(A.orb[1], B.orb[1], f);
+    setOn(orbEl, "--opx", (ox * rainW / 100).toFixed(1) + "px");
+    setOn(orbEl, "--opy", (oy * rainH / 100).toFixed(1) + "px");
     setOn(orbEl, "--orb-c", mixHex(A.orb[2], B.orb[2], f));
     setOn(orbEl, "--orb-o", lerp(A.orb[3], B.orb[3], f).toFixed(3));
     setOn(orbEl, "--orb-glow", "rgba(255, 240, 200," + (0.55 * (1 - smoothstep(3.6, 4.6, p))).toFixed(3) + ")");
@@ -243,6 +248,7 @@
     var dark = lerp(A.dark, B.dark, f);
     set("--fg", dark > .5 ? "#F5F5F7" : "#1D1D1F");
     set("--fg-2", dark > .5 ? "rgba(245,245,247,.72)" : "rgba(29,29,31,.62)");
+    set("--halo", dark > .5 ? "rgba(10, 14, 50, .7)" : "rgba(220, 230, 255, .8)");
 
     // Worlds: rise from below the screen edge, then the camera walks into them
     worlds.forEach(function (w, i) {
@@ -317,8 +323,8 @@
     setOn(chartDot, "--dx", (grow * 100).toFixed(2) + "%");
     setOn(chartDot, "--dy", (chartY(grow * 1200) / 6).toFixed(2) + "%");
 
-    // the sky wash behind the copy: always on phones, only over the first planet on wide screens
-    setOn(copyEl, "--scrim", (mobile ? 1 : 1 - smoothstep(0.3, 0.8, p)).toFixed(3));
+    // the sky wash behind the copy, only over the first planet
+    setOn(copyEl, "--scrim", (1 - smoothstep(0.3, 0.8, p)).toFixed(3));
     var brandO = smoothstep(0.35, 0.7, p);
     [brandEl, tabEl].forEach(function (el) {
       setOn(el, "--brand-o", brandO.toFixed(3));
@@ -360,12 +366,27 @@
 
   // While the visitor scrolls the scene is moving anyway, so the idle loops (sway, rocking,
   // Ada's bob, drifting clouds) pause and hand their frame budget to the scroll
-  var scrollIdle = 0;
+  var scrollIdle = 0, lastY = window.scrollY, dir = 1;
   function onScroll() {
     if (!scrollIdle) stage.classList.add("is-scrolling");
+    var y = window.scrollY;
+    if (y !== lastY) dir = y > lastY ? 1 : -1;
+    lastY = y;
     clearTimeout(scrollIdle);
-    scrollIdle = setTimeout(function () { scrollIdle = 0; stage.classList.remove("is-scrolling"); }, 180);
+    scrollIdle = setTimeout(function () { scrollIdle = 0; stage.classList.remove("is-scrolling"); settle(); }, 140);
     request();
+  }
+  // When a scroll stops between two hours, finish the move in the direction the visitor was going:
+  // a small nudge is enough to reach the next hour, nobody has to push through
+  function settle() {
+    if (reduceMQ.matches) return;
+    var runway = day.offsetHeight - window.innerHeight, top = day.offsetTop;
+    var p = (window.scrollY - top) / runway * LAST;
+    if (p <= 0 || p >= LAST) return;
+    var frac = p - Math.floor(p);
+    if (frac < 0.02 || frac > 0.98) return;
+    var to = dir > 0 ? (frac > 0.12 ? Math.ceil(p) : Math.floor(p)) : (frac < 0.88 ? Math.floor(p) : Math.ceil(p));
+    window.scrollTo({ top: top + to / LAST * runway, behavior: "smooth" });
   }
   window.addEventListener("scroll", onScroll, { passive: true });
   window.addEventListener("resize", function () { sizeCanvas(); measureHand(); measureHero(); request(); });

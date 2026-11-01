@@ -26,19 +26,21 @@ p { margin: 0; }
 ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Runway and pinned stage ---------- */
-.day { position: relative; height: calc(100svh + 560svh); }
+/* 55svh of scroll per hour: one flick moves on to the next hour */
+.day { position: relative; height: calc(100svh + 330svh); }
+
 .stage {
   position: sticky; top: 0;
   height: 100svh; min-height: 600px;
   overflow: hidden; overflow-x: clip; overflow-y: visible; isolation: isolate;
   --fg: #1D1D1F; --fg-2: rgba(29, 29, 31, .62);
-  --sky-top: #DCE6FF; --sky-bottom: #F7F8FF;
   --stars: 0; --rain: 0; --mx: 0; --my: 0;
   color: var(--fg);
 }
-.sky { position: absolute; inset: 0; z-index: -3; background: linear-gradient(180deg, var(--sky-top), var(--sky-bottom)); }
+.sky, .sky-next { position: absolute; inset: 0; z-index: -3; background: linear-gradient(180deg, #DCE6FF, #F7F8FF); }
+.sky-next { opacity: 0; will-change: opacity; }
 .stars {
-  position: absolute; inset: 0; z-index: -2; opacity: var(--stars);
+  position: absolute; inset: 0; z-index: -2; opacity: var(--stars); will-change: opacity;
   background-image:
     radial-gradient(1.6px 1.6px at 8% 14%, #fff 50%, transparent 52%),
     radial-gradient(1.2px 1.2px at 22% 32%, #fff 50%, transparent 52%),
@@ -54,11 +56,11 @@ ol { margin: 0; padding: 0; list-style: none; }
 .orb {
   position: absolute; z-index: -2;
   width: 22vmin; aspect-ratio: 1; border-radius: 50%;
-  left: var(--orb-x, 70%); top: var(--orb-y, 14%);
+  left: 0; top: 0;
   background: var(--orb-c, #FFF4C8);
   box-shadow: 0 0 80px 20px var(--orb-glow, rgba(255, 236, 170, .55));
   opacity: var(--orb-o, 1);
-  transform: translate(calc(-50% + var(--ox, 0) * 1px), calc(-50% + var(--oy, 0) * 1px));
+  transform: translate(calc(var(--opx, 70vw) - 50% + var(--ox, 0) * 1px), calc(var(--opy, 14vh) - 50% + var(--oy, 0) * 1px));
   will-change: transform;
 }
 
@@ -230,9 +232,9 @@ ol { margin: 0; padding: 0; list-style: none; }
 /* A soft wash of the current sky behind the copy, so the text stays readable over the worlds */
 .copy::before {
   content: ""; position: absolute; inset: 0; z-index: -1; opacity: var(--scrim, 0);
-  background: linear-gradient(90deg, color-mix(in srgb, var(--sky-top) 88%, transparent) 0, color-mix(in srgb, var(--sky-top) 70%, transparent) calc(var(--edge) + 360px), transparent calc(var(--edge) + 640px));
+  background: linear-gradient(90deg, rgba(220, 230, 255, .88) 0, rgba(220, 230, 255, .7) calc(var(--edge) + 360px), transparent calc(var(--edge) + 640px));
 }
-.chapter p { text-shadow: 0 0 14px color-mix(in srgb, var(--sky-top) 80%, transparent); }
+.chapter p { text-shadow: 0 0 14px var(--halo, rgba(220, 230, 255, .8)); }
 .chapter {
   position: absolute;
   left: var(--edge);
@@ -383,7 +385,7 @@ main { background: #1C1F55; }
 .brand img { width: auto; height: 19px; }
 .brand:hover { transform: translateY(-1px); background: #fff; }
 .brand:focus-visible, .tab:focus-visible, .plan-btn:focus-visible { outline: 3px solid #8EA2FF; outline-offset: 3px; }
-html { scroll-behavior: smooth; }
+
 
 /* ---------- Phone ---------- */
 @media (max-width: 860px) {
@@ -391,7 +393,7 @@ html { scroll-behavior: smooth; }
   .ada { left: 12%; }
   .ada-wide { left: 8%; }
   /* on phones the copy sits at the top, so the sun and moon move down between text and world */
-  .orb { top: 44% !important; left: 80% !important; width: 18vmin; }
+  .orb { width: 18vmin; }
   .w-planet { width: min(170vw, 104svh); translate: -50% 53%; }
   .chapter { left: 20px; right: 20px; width: auto; bottom: auto; transform: none; }
   .chapter h1 { font-size: clamp(44px, 12vw, 60px); }
@@ -408,7 +410,7 @@ html { scroll-behavior: smooth; }
   .chapter { top: 120px; }
   /* phones: the chart climbs in the gap between the copy and the world */
   .chart { inset: 34% 8% 40% 0; }
-  .copy::before { background: linear-gradient(180deg, color-mix(in srgb, var(--sky-top) 85%, transparent) 0, color-mix(in srgb, var(--sky-top) 60%, transparent) 38%, transparent 56%); }
+  .copy::before { background: linear-gradient(180deg, rgba(220, 230, 255, .85) 0, rgba(220, 230, 255, .6) 38%, transparent 56%); }
   .btn { margin-top: 20px; min-height: 50px; }
   :root { --edge: 20px; }
   .tab, .brand { top: 14px; }
