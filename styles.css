@@ -369,6 +369,8 @@ ol, ul { margin: 0; padding: 0; list-style: none; }
 /* ---------- Footer ---------- */
 .footer { background: var(--bg); color: var(--muted); padding-top: 56px; overflow: clip; font-size: 13px; }
 .footer-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 32px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+.footer-row a { color: var(--ink); font-weight: 500; text-decoration: none; }
+.footer-row a:hover { text-decoration: underline; text-underline-offset: 3px; }
 /* the short AoM logo, tinted pale and cut by the page bottom */
 .wordmark { display: block; width: min(86vw, 1100px); aspect-ratio: 900 / 391; margin: 36px auto -6%; background: #EDEDF0; -webkit-mask: url(assets/brand/logo-aom.webp) center / contain no-repeat; mask: url(assets/brand/logo-aom.webp) center / contain no-repeat; }
 

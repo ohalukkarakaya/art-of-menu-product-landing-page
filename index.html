@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/web/diorama/planet.webp" type="image/webp">
-  <link rel="stylesheet" href="gun.css?v=22">
+  <link rel="stylesheet" href="gun.css?v=24">
   <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
@@ -144,6 +144,8 @@
   </section>
 
   <!-- Plans: no prices yet, they are announced at launch -->
+  <div class="finale">
+  <span class="footer-mark" aria-hidden="true"></span>
   <section class="plans" id="plans" aria-labelledby="plans-title">
     <div class="plans-in">
       <h2 id="plans-title" data-t="plans.title">Üç paket, tek menü.</h2>
@@ -183,19 +185,18 @@
       <p class="plans-note" data-t="plans.note"></p>
     </div>
   </section>
-</main>
-
-<footer class="footer">
-  <div class="footer-in">
-    <a class="footer-logo" href="#day" aria-label="ArtOfMenu"><img src="assets/brand/logo-white.webp" alt="" width="900" height="682" loading="lazy"></a>
-    <nav class="footer-links" aria-label="ArtOfMenu">
-      <a href="#plans" data-t="tab.pricing">Fiyatlar</a>
-      <a href="classic.html#join" data-t="s6.btn">Erken erişime katılın</a>
-    </nav>
-    <p class="footer-copy">© 2026 ArtOfMenu</p>
+  <footer class="footer" role="contentinfo">
+    <div class="footer-in">
+      <a class="footer-logo" href="#day" aria-label="ArtOfMenu"><img src="assets/brand/logo-white.webp" alt="" width="900" height="682" loading="lazy"></a>
+      <nav class="footer-links" aria-label="ArtOfMenu">
+        <a href="#plans" data-t="tab.pricing">Fiyatlar</a>
+        <a href="classic.html#join" data-t="s6.btn">Erken erişime katılın</a>
+      </nav>
+      <p class="footer-copy">© 2026 <a href="https://goktigin.com" target="_blank" rel="noopener">Göktigin</a></p>
+    </div>
+  </footer>
   </div>
-  <span class="footer-mark" aria-hidden="true"></span>
-</footer>
+</main>
 
 <a class="brand" href="#day" aria-label="ArtOfMenu"><img src="assets/brand/logo-aom.webp" alt="" width="900" height="391"></a>
 <a class="tab" href="#plans" data-t="tab.pricing">Fiyatlar</a>
