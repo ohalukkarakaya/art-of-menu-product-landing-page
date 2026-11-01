@@ -21,8 +21,8 @@ window.GUN_I18N = {
     "s5.t": "Günlük akıllı fiyatlandırma",
     "s5.d": "Fiyat aralığını siz belirlersiniz. Sistem hava tahmini, özel günler ve benzer işletmelerin geçmiş satışlarıyla talebi öngörüp fiyatı ayarlar.",
     "s6.t": "Menünüz daha çok kazandırsın",
-    "s6.d": "ArtOfMenu ile QR menüyü, siparişleri ve stoğu tek yerden yönetin, akıllı özellikleri 7 gün ücretsiz deneyin.",
-    "s6.btn": "7 gün ücretsiz deneyin",
+    "s6.d": "ArtOfMenu ile QR menüyü, siparişleri ve stoğu tek yerden yönetin.",
+    "s6.btn": "Erken erişime katılın",
 
     "ph.table": "Masa 4",
     "ph.items": "{n} ürün",
@@ -62,8 +62,8 @@ window.GUN_I18N = {
     "s5.t": "Smart daily pricing",
     "s5.d": "Set your price limits and let the system forecast demand using weather, special dates and historical sales from similar businesses.",
     "s6.t": "Make more from your menu",
-    "s6.d": "Manage QR menus, orders and inventory with ArtOfMenu and try all Smart features free for 7 days.",
-    "s6.btn": "Try free for 7 days",
+    "s6.d": "Manage QR menus, orders and inventory in one place with ArtOfMenu.",
+    "s6.btn": "Join early access",
 
     "ph.table": "Table 4",
     "ph.items": "{n} items",
@@ -103,8 +103,8 @@ window.GUN_I18N = {
     "s5.t": "Intelligente tägliche Preisgestaltung",
     "s5.d": "Sie legen Preisgrenzen fest, das System schätzt den Bedarf anhand von Wetter, Feiertagen und früheren Verkäufen ähnlicher Betriebe.",
     "s6.t": "Mehr Umsatz mit Ihrer Speisekarte",
-    "s6.d": "Verwalten Sie QR-Menüs, Bestellungen und Warenbestand mit ArtOfMenu und testen Sie alle Smart-Funktionen 7 Tage kostenlos.",
-    "s6.btn": "7 Tage gratis testen",
+    "s6.d": "Verwalten Sie QR-Menüs, Bestellungen und Warenbestand an einem Ort mit ArtOfMenu.",
+    "s6.btn": "Früher Zugang",
 
     "ph.table": "Tisch 4",
     "ph.items": "{n} Artikel",

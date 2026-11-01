@@ -27,4 +27,6 @@ Sonra http://localhost:5173 adresini açın.
 - Erken erişim formu: `#join-form` üzerindeki `data-endpoint` boş. Boşken form ziyaretçinin e-posta
   uygulamasını `support@artofmenu.com` adresine açıyor. Kayıt servisi hazır olunca adresi buraya yazın;
   form `{ email, lang }` gövdesiyle JSON POST atar.
-- Fiyatlar sayfada yok ("lansmanda açıklanacak"). Kesinleşince Paketler bölümüne eklenebilir.
+- Fiyatlar `pricing.js` içinde (aylık / yıllık, şube başına). Para birimi tarayıcının bölgesine göre seçiliyor:
+  Türkiye ₺, Avrupa €, diğer ülkeler $. Denemek için adrese `?cur=TRY`, `?cur=EUR` ya da `?cur=USD` ekleyin.
+- Fiyatlarda KDV'nin dahil mi hariç mi olduğu sayfada yazmıyor; muhasebeci onayından sonra not eklenmeli.

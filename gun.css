@@ -283,6 +283,17 @@ main { background: #1C1F55; }
 .trial { align-self: flex-start; margin-bottom: 12px; font-size: 12.5px; font-weight: 600; color: #fff; background: var(--brand); padding: 6px 12px; border-radius: 99px; }
 .plan-btn { margin-top: auto; align-self: flex-start; display: inline-flex; align-items: center; min-height: 48px; padding: 0 22px; border-radius: 99px; background: var(--ink); color: #fff; text-decoration: none; font-weight: 600; font-size: 15px; transition: transform .35s var(--spring); }
 .plan-btn:hover { transform: translateY(-2px); }
+.billing { position: relative; display: grid; grid-template-columns: 1fr 1fr; width: max-content; margin: 28px auto 0; padding: 4px; border-radius: 99px; background: rgba(255, 255, 255, .08); box-shadow: inset 0 0 0 1px rgba(255,255,255,.1); --bi: 0; }
+.billing-bg { position: absolute; top: 4px; bottom: 4px; left: 4px; width: calc(50% - 4px); border-radius: 99px; background: #F5F5F7; transform: translateX(calc(var(--bi) * 100%)); transition: transform .45s var(--spring); }
+.billing button { position: relative; display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 42px; padding: 0 20px; border: 0; background: transparent; border-radius: 99px; font: 500 15px/1 var(--font); color: rgba(245,245,247,.75); cursor: pointer; transition: color .25s; }
+.billing button[aria-checked="true"] { color: var(--ink); }
+.billing button:focus-visible { outline: 3px solid #8EA2FF; outline-offset: 2px; }
+.billing-save { font-size: 12px; font-weight: 600; color: #8EA2FF; background: rgba(142, 162, 255, .16); padding: 4px 8px; border-radius: 99px; }
+.billing button[aria-checked="true"] .billing-save { color: var(--brand); background: rgba(31, 58, 158, .1); }
+.price { display: flex; align-items: baseline; gap: 4px; margin-top: 16px; }
+.price-amount { font-size: 38px; font-weight: 700; letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+.price-per { font-size: 15px; color: rgba(245,245,247,.6); }
+.plan-smart .price-per { color: #6E6E73; }
 .plans-note { margin-top: 36px; text-align: center; font-size: 14px; color: rgba(245,245,247,.55); }
 
 /* A small glass tab that jumps to the plans */

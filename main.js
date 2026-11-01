@@ -266,6 +266,7 @@
      Language
      ===================================================== */
 
+  var updatePricing = null;
   function applyLang(next) {
     lang = I18N[next] ? next : "en";
     document.documentElement.lang = lang;
@@ -283,6 +284,10 @@
     buildMarquee();
     paintTomorrow();
     splitManifesto();
+    if (window.AOM_PRICING) {
+      if (!updatePricing) updatePricing = window.AOM_PRICING.init(document.getElementById("plans"), lang, t);
+      else updatePricing(lang, t);
+    }
     updateScrollLinked();
     var status = document.getElementById("join-status");
     status.textContent = "";
