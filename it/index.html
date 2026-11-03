@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="it" data-lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Menu QR, ordini al tavolo e prezzi smart | ArtOfMenu</title>
+  <meta name="description" id="meta-desc" content="Gestisci menù QR, ordini e magazzino con ArtOfMenu e scopri i suggerimenti intelligenti di prodotto e i prezzi giornalieri.">
+  <meta name="theme-color" content="#DCE6FF">
+  <meta property="og:title" content="Menu QR, ordini al tavolo e prezzi smart | ArtOfMenu">
+  <meta property="og:description" content="Gestisci menù QR, ordini e magazzino con ArtOfMenu e scopri i suggerimenti intelligenti di prodotto e i prezzi giornalieri.">
+  <meta property="og:image" content="https://artofmenu.com/assets/web/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="/assets/web/diorama/planet.webp" type="image/webp">
+  <link rel="stylesheet" href="/gun.css?v=9db4767c">
+  <script>document.documentElement.classList.add("js");</script>
+  <!-- filled by tools/build.mjs: canonical, hreflang and structured data -->
+  <!--seo:head-->
+  <link rel="canonical" href="https://artofmenu.com/it/">
+  <link rel="alternate" hreflang="tr" href="https://artofmenu.com/tr/">
+  <link rel="alternate" hreflang="en" href="https://artofmenu.com/en/">
+  <link rel="alternate" hreflang="de" href="https://artofmenu.com/de/">
+  <link rel="alternate" hreflang="es" href="https://artofmenu.com/es/">
+  <link rel="alternate" hreflang="it" href="https://artofmenu.com/it/">
+  <link rel="alternate" hreflang="fr" href="https://artofmenu.com/fr/">
+  <link rel="alternate" hreflang="x-default" href="https://artofmenu.com/">
+  <meta property="og:url" content="https://artofmenu.com/it/">
+  <meta property="og:site_name" content="ArtOfMenu">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://artofmenu.com/#org","name":"ArtOfMenu","alternateName":"Art of Menu","url":"https://artofmenu.com/","description":"ArtOfMenu makes QR menu, table ordering and smart daily pricing software for cafés, restaurants, bars and bakeries. A product of Göktigin.","logo":"https://artofmenu.com/assets/brand/icon-512.png","parentOrganization":{"@type":"Organization","name":"Göktigin","url":"https://goktigin.com"}},{"@type":"SoftwareApplication","@id":"https://artofmenu.com/#app","name":"ArtOfMenu","url":"https://artofmenu.com/it/","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":"it","description":"Gestisci menù QR, ordini e magazzino con ArtOfMenu e scopri i suggerimenti intelligenti di prodotto e i prezzi giornalieri.","publisher":{"@id":"https://artofmenu.com/#org"},"offers":[{"@type":"Offer","name":"Menu","price":"9","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","description":"Il tuo menù digitale in pochi minuti","priceSpecification":{"@type":"UnitPriceSpecification","price":"9","priceCurrency":"EUR","billingDuration":"P1M","unitText":"per branch per month"}},{"@type":"Offer","name":"Order","price":"29","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","description":"Ordini dal tavolo, in tasca al cameriere","priceSpecification":{"@type":"UnitPriceSpecification","price":"29","priceCurrency":"EUR","billingDuration":"P1M","unitText":"per branch per month"}},{"@type":"Offer","name":"Smart","price":"59","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","description":"L'intelligenza che fa crescere la tua attività","priceSpecification":{"@type":"UnitPriceSpecification","price":"59","priceCurrency":"EUR","billingDuration":"P1M","unitText":"per branch per month"}}]},{"@type":"WebSite","@id":"https://artofmenu.com/#site","url":"https://artofmenu.com/","name":"ArtOfMenu","publisher":{"@id":"https://artofmenu.com/#org"},"inLanguage":["tr","en","de","es","it","fr"]}]}</script>
+  <!--/seo:head-->
+</head>
+<body>
+
+<main>
+  <section class="day" id="day" aria-label="Una giornata nel menù" data-t-aria="aria.day">
+    <div class="stage" id="stage">
+      <!-- The sky is a 1x16 canvas stretched over the screen and the stars a half-resolution one:
+           full-screen layers at retina size were filling the GPU's memory -->
+      <canvas class="sky" id="sky" width="1" height="16" aria-hidden="true"></canvas>
+      <canvas class="stars" id="stars" aria-hidden="true"></canvas>
+      <div class="orb" aria-hidden="true"></div>
+
+      <div class="clouds" aria-hidden="true">
+        <img class="cloud c1" src="/assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+        <img class="cloud c2" src="/assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+        <img class="cloud c3" src="/assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+      </div>
+
+      <!-- 23:00 smart pricing: daily revenue drawn as you scroll, behind the world -->
+      <div class="chart" aria-hidden="true">
+        <svg viewBox="0 0 1200 600" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="chart-fill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#34C759" stop-opacity=".34"/>
+              <stop offset="1" stop-color="#34C759" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <g class="chart-grid"><path d="M0 150H1200M0 300H1200M0 450H1200"/></g>
+        </svg>
+        <div class="chart-clip"><div class="chart-inner">
+          <svg viewBox="0 0 1200 600" preserveAspectRatio="none">
+          <g>
+            <path class="chart-area" d="M0 520 C8 520 33 525 50 523 C67 521 83 515 100 506 C117 497 133 470 150 468 C167 467 183 493 200 496 C217 499 233 495 250 485 C267 475 283 445 300 437 C317 429 333 437 350 437 C367 437 383 438 400 436 C417 434 433 435 450 424 C467 414 483 383 500 374 C517 366 533 371 550 373 C567 375 583 389 600 387 C617 385 633 374 650 361 C667 348 683 316 700 308 C717 301 733 315 750 317 C767 319 783 325 800 320 C817 314 833 295 850 283 C867 272 883 256 900 251 C917 246 933 255 950 254 C967 253 983 259 1000 246 C1017 232 1033 183 1050 174 C1067 164 1083 187 1100 187 C1117 187 1133 181 1150 173 C1167 165 1192 146 1200 140 L1200 600 L0 600 Z" fill="url(#chart-fill)"/>
+            <path class="chart-glow" d="M0 520 C8 520 33 525 50 523 C67 521 83 515 100 506 C117 497 133 470 150 468 C167 467 183 493 200 496 C217 499 233 495 250 485 C267 475 283 445 300 437 C317 429 333 437 350 437 C367 437 383 438 400 436 C417 434 433 435 450 424 C467 414 483 383 500 374 C517 366 533 371 550 373 C567 375 583 389 600 387 C617 385 633 374 650 361 C667 348 683 316 700 308 C717 301 733 315 750 317 C767 319 783 325 800 320 C817 314 833 295 850 283 C867 272 883 256 900 251 C917 246 933 255 950 254 C967 253 983 259 1000 246 C1017 232 1033 183 1050 174 C1067 164 1083 187 1100 187 C1117 187 1133 181 1150 173 C1167 165 1192 146 1200 140"/>
+            <path class="chart-line" id="chart-line" d="M0 520 C8 520 33 525 50 523 C67 521 83 515 100 506 C117 497 133 470 150 468 C167 467 183 493 200 496 C217 499 233 495 250 485 C267 475 283 445 300 437 C317 429 333 437 350 437 C367 437 383 438 400 436 C417 434 433 435 450 424 C467 414 483 383 500 374 C517 366 533 371 550 373 C567 375 583 389 600 387 C617 385 633 374 650 361 C667 348 683 316 700 308 C717 301 733 315 750 317 C767 319 783 325 800 320 C817 314 833 295 850 283 C867 272 883 256 900 251 C917 246 933 255 950 254 C967 253 983 259 1000 246 C1017 232 1033 183 1050 174 C1067 164 1083 187 1100 187 C1117 187 1133 181 1150 173 C1167 165 1192 146 1200 140"/>
+          </g>
+          </svg>
+        </div></div>
+        <span class="chart-dot" id="chart-dot"><span class="chart-label" data-t="chart.label">Incassi</span></span>
+      </div>
+
+      <!-- One world per hour of the day -->
+      <div class="worlds" aria-hidden="true">
+        <div class="world w-planet rock" data-i="0">
+          <img class="island" src="/assets/web/diorama/planet.webp" alt="" width="1100" height="1072">
+        </div>
+        <div class="world" data-i="1">
+          <img class="island" src="/assets/web/diorama/morning-cafe.webp" alt="" width="1100" height="1092" decoding="async">
+          <img class="ada" src="/assets/web/story-scan.webp" alt="" width="782" height="1200" decoding="async">
+        </div>
+        <div class="world" data-i="2">
+          <img class="island" src="/assets/web/diorama/lunch-restaurant.webp" alt="" width="1100" height="1088" decoding="async">
+          <img class="ada" src="/assets/web/story-order.webp" alt="" width="820" height="1200" decoding="async">
+        </div>
+        <div class="world" data-i="3">
+          <img class="island" src="/assets/web/diorama/rain-evening.webp" alt="" width="1100" height="1096" decoding="async">
+          <img class="ada" src="/assets/web/story-weather.webp" alt="" width="797" height="1200" decoding="async">
+        </div>
+        <div class="world" data-i="4">
+          <img class="island" src="/assets/web/diorama/bakery.webp" alt="" width="1100" height="1090" decoding="async">
+          <img class="ada ada-wide" src="/assets/web/story-pair.webp?v=2" alt="" width="1200" height="896" decoding="async">
+        </div>
+        <div class="world" data-i="5">
+          <img class="island" src="/assets/web/diorama/night-close.webp" alt="" width="1100" height="1082" decoding="async">
+          <img class="ada" src="/assets/web/smart-night.webp" alt="" width="787" height="1200" decoding="async">
+          <div class="tags">
+            <span class="tag up"><span></span> <b></b></span>
+            <span class="tag up"><span></span> <b></b></span>
+            <span class="tag down"><span></span> <b></b></span>
+          </div>
+        </div>
+        <div class="world w-planet" data-i="6">
+          <img class="island rock" src="/assets/web/diorama/planet-night.webp" alt="" width="1100" height="1081" decoding="async">
+          <img class="ada ada-final" id="ada-final" src="/assets/web/join-celebrate.webp" alt="" width="756" height="1200" decoding="async">
+        </div>
+      </div>
+
+      <canvas class="rain" id="rain" aria-hidden="true"></canvas>
+
+      <!-- The guest's hand with the live menu on the phone -->
+      <div class="hand" aria-hidden="true">
+        <div class="hand-zoom" id="hand-zoom">
+        <div class="screen" id="screen"><div class="sc-in">
+          <div class="sc-top"><span class="sc-venue">Lale Kahve</span><span class="sc-table" data-t="ph.table">Tavolo 4</span></div>
+          <div class="sc-langs" id="sc-langs"><span data-l="tr">Türkçe</span><span data-l="en">English</span><span data-l="de">Deutsch</span></div>
+          <div class="sc-weather" id="sc-weather"><span id="sc-wicon"></span><span id="sc-wtext"></span></div>
+          <ol class="sc-list" id="sc-list"></ol>
+          <div class="sc-cart"><span id="sc-items">2 ürün</span><span class="sc-send" data-t="ph.send">Invia ordine</span></div>
+          <div class="sc-sheet">
+            <span class="sc-grab"></span>
+            <p class="sc-sheet-k" data-t="ph.pair">Si abbina bene con</p>
+            <div class="sc-pair"><img src="/assets/web/p-cheesecake.webp" alt="" width="458" height="344"><span><b data-t="ph.pair.item">Cheesecake San Sebastián</b><small data-t="ph.pair.why">Spesso ordinati insieme</small></span><span class="sc-add" data-t="ph.add">Aggiungi</span></div>
+          </div>
+        </div></div>
+        <img class="hand-img" src="/assets/web/diorama/hand-phone.webp" alt="" width="631" height="1000">
+        <div class="ping"><span class="ping-dot"></span><span><b data-t="ph.ping.t">Tavolo 4 · Nuovo ordine</b><small data-t="ph.ping.d">Nuovo ordine ricevuto</small></span></div>
+        </div>
+      </div>
+
+      <!-- Copy for each hour -->
+      <div class="copy">
+        <article class="chapter" data-i="0">
+          <img class="chapter-logo" src="/assets/brand/logo.webp" alt="ArtOfMenu" width="900" height="682">
+          <h1 data-t="s0.t">Molto più di un menù QR</h1>
+          <p data-t="s0.d">ArtOfMenu riunisce menù QR, ordini, magazzino e prezzi intelligenti. Scorri verso il basso per vedere come funziona durante la giornata.</p>
+          <a class="btn btn-primary" href="#notify" data-notify><span data-t="s6.btn">Avvisami al lancio</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        </article>
+        <article class="chapter" data-i="1">
+          <span class="time">08:00</span>
+          <h2 data-t="s1.t">Menù multilingue automatico</h2>
+          <p data-t="s1.d">Quando il cliente inquadra il QR code, il menù si apre automaticamente nella sua lingua, con le foto dei prodotti e le informazioni sugli allergeni.</p>
+        </article>
+        <article class="chapter" data-i="2">
+          <span class="time">13:00</span>
+          <h2 data-t="s2.t">Ordini dal tavolo e chiamata al cameriere</h2>
+          <p data-t="s2.d">I clienti inviano l'ordine dal menù direttamente al telefono del cameriere e possono chiamarlo dalla stessa schermata.</p>
+        </article>
+        <article class="chapter" data-i="3">
+          <span class="time">18:00</span>
+          <h2 data-t="s3.t">Menù ordinato in base al meteo</h2>
+          <p data-t="s3.d">Quando fa freddo, le bevande calde salgono nel menù, mentre le bevande fredde e i prodotti in esaurimento scendono più in basso.</p>
+        </article>
+        <article class="chapter" data-i="4">
+          <span class="time">20:00</span>
+          <h2 data-t="s4.t">Suggerimenti intelligenti di prodotto</h2>
+          <p data-t="s4.d">Quando il cliente sceglie un prodotto, il menù suggerisce gli altri prodotti acquistati più spesso insieme a quello in quel locale.</p>
+        </article>
+        <article class="chapter" data-i="5">
+          <span class="time">23:00</span>
+          <h2 data-t="s5.t">Prezzi giornalieri intelligenti</h2>
+          <p data-t="s5.d">Tu fissi i limiti di prezzo e il sistema prevede la domanda in base al meteo, alle date speciali e a modelli di domanda anonimi di attività simili, mai i loro prezzi.</p>
+        </article>
+        <article class="chapter" data-i="6">
+          <h2 class="final" data-t="s6.t">Fai rendere di più il tuo menù</h2>
+          <p data-t="s6.d">Gestisci menù QR, ordini e magazzino in un unico posto con ArtOfMenu.</p>
+          <a class="btn" href="#notify" data-notify data-t="s6.btn">Avvisami al lancio</a>
+        </article>
+      </div>
+
+      <div class="clock" aria-hidden="true">
+        <div class="clock-track"><span class="clock-fill"></span></div>
+        <ol>
+          <li>08:00</li><li>13:00</li><li>18:00</li><li>20:00</li><li>23:00</li>
+        </ol>
+      </div>
+
+      <div class="hint" aria-hidden="true"><span></span><b data-t="hint">Scorri</b></div>
+    </div>
+  </section>
+
+  <!-- Plans: prices are written in by tools/build.mjs, then pricing.js shows the visitor's currency -->
+  <div class="finale">
+  <span class="footer-mark" aria-hidden="true"></span>
+  <section class="plans" id="plans" aria-labelledby="plans-title">
+    <div class="plans-in">
+      <h2 id="plans-title" data-t="plans.title">Scegli il piano adatto alla tua attività.</h2>
+      <p class="plans-lead" data-t="plans.lead">Ogni piano parte dal menù QR. Aggiungi ordini dal tavolo, magazzino e prezzi giornalieri intelligenti quando ti servono. Se passi a un piano più piccolo, i tuoi dati restano.</p>
+      <div class="billing" role="radiogroup" aria-label="Periodo di fatturazione" data-t-aria="price.label">
+        <span class="billing-bg" aria-hidden="true"></span>
+        <button type="button" role="radio" data-billing="monthly" aria-checked="true" data-t="price.monthly">Mensile</button>
+        <button type="button" role="radio" data-billing="yearly" aria-checked="false"><span data-t="price.yearly">Annuale</span> <span class="billing-save" data-t="price.save">2 mesi gratis</span></button>
+      </div>
+      <div class="plan-grid">
+        <article class="plan">
+          <h3>Menu</h3>
+          <p class="plan-tag" data-t="p.menu.tag">Il tuo menù digitale in pochi minuti</p>
+          <p class="price" data-price="menu"><span class="price-amount">9 €</span><span class="price-per">/mese</span></p>
+          <ul>
+            <li data-t="p.menu.1">Menù QR, foto, allergeni, più lingue</li><li data-t="p.menu.2">Il tuo dominio personale</li><li data-t="p.menu.3">Carica il menù in PDF e pubblicalo</li><li data-t="p.menu.4">Statistiche anonime del menù</li>
+          </ul>
+        </article>
+        <article class="plan">
+          <h3>Order</h3>
+          <p class="plan-tag" data-t="p.order.tag">Ordini dal tavolo, in tasca al cameriere</p>
+          <p class="price" data-price="order"><span class="price-amount">29 €</span><span class="price-per">/mese</span></p>
+          <ul>
+            <li data-t="p.order.1">Tutto di Menu</li><li data-t="p.order.2">Ordini dal tavolo, schermata di sala in tempo reale e notifiche</li><li data-t="p.order.3">Report semplici su magazzino e ordini</li>
+          </ul>
+        </article>
+        <article class="plan plan-smart">
+          <h3>Smart</h3>
+          <p class="plan-tag" data-t="p.smart.tag">L'intelligenza che fa crescere la tua attività</p>
+          <p class="price" data-price="smart"><span class="price-amount">59 €</span><span class="price-per">/mese</span></p>
+          <ul>
+            <li data-t="p.smart.1">Tutto di Order</li><li data-t="p.smart.2">Prezzi giornalieri intelligenti e calendario delle date speciali</li><li data-t="p.smart.3">Ordine del menù in tempo reale e suggerimenti &quot;si abbina bene con&quot;</li><li data-t="p.smart.4">Chiamata dal tavolo, magazzino per ricetta, schermi per il banco</li>
+          </ul>
+          <a class="plan-btn" href="#notify" data-notify="smart" data-t="s6.btn">Avvisami al lancio</a>
+        </article>
+      </div>
+      <p class="plans-note" data-t="plans.note">Prezzi per sede. Con il pagamento annuale, 12 mesi al prezzo di 10.</p>
+    </div>
+  </section>
+  <footer class="footer" role="contentinfo">
+    <div class="footer-in">
+      <a class="footer-logo" href="#day" aria-label="ArtOfMenu"><img src="/assets/brand/logo-white.webp" alt="" width="900" height="682" loading="lazy"></a>
+      <nav class="footer-links" aria-label="ArtOfMenu">
+        <a href="#plans" data-t="tab.pricing">Prezzi</a>
+        <a href="#notify" data-notify data-t="s6.btn">Avvisami al lancio</a>
+      </nav>
+      <!-- filled by tools/build.mjs: the topic pages in this language -->
+      <nav class="footer-seo" aria-label="ArtOfMenu"><!--seo:links--><a href="/it/menu-qr-code/">Menu QR code per bar e ristoranti</a><a href="/it/menu-qr-code-prezzi/">Menu QR code prezzi: quanto costa</a><a href="/it/menu-qr-code-ristorante/">Menu QR code per ristorante e trattoria</a><a href="/it/menu-digitale-bar-caffetteria/">Menu digitale per bar e caffetteria</a><a href="/it/menu-qr-cocktail-bar-pub/">Menu QR per cocktail bar, pub e wine bar</a><a href="/it/menu-qr-code-design/">Menu QR code design: elegante e leggibile</a><a href="/it/menu-digitale-intelligente/">Menu digitale intelligente: cosa fa davvero</a><a href="/it/ordinazioni-al-tavolo/">Ordinazioni al tavolo con menu QR</a><a href="/it/menu-multilingua/">Menu multilingua per ristoranti e bar</a><a href="/it/aumentare-fatturato-ristorante/">Come aumentare il fatturato di un ristorante</a><a href="/it/aumentare-incassi-cocktail-bar/">Come aumentare gli incassi di un cocktail bar</a><a href="/it/aumentare-incassi-bar/">Come aumentare gli incassi di un bar</a><a href="/it/menu-engineering/">Menu engineering: guida pratica con esempi</a><a href="/it/gestione-magazzino-ristorante/">Gestione magazzino ristorante: guida pratica</a><a href="/it/creare-menu-qr-code/">Come creare un menu QR code per il locale</a><!--/seo:links--></nav>
+      <p class="footer-copy">© 2026 <a href="https://goktigin.com" target="_blank" rel="noopener">Göktigin</a></p>
+    </div>
+  </footer>
+  </div>
+</main>
+
+<a class="brand" href="#day" aria-label="ArtOfMenu"><img src="/assets/brand/logo-aom.webp" alt="" width="900" height="391"></a>
+<a class="tab" href="#plans" data-t="tab.pricing">Prezzi</a>
+
+<!-- "Notify me at launch": email, the business on Google Maps and the plan of interest.
+     data-endpoint: the Cloudflare Worker's address; data-sitekey: the Turnstile site key (see waitlist-worker/README.md) -->
+<dialog class="notify" id="notify" aria-labelledby="nf-title">
+  <form class="nf-form" id="nf-form" novalidate data-endpoint="https://aom-waitlist.ozgurhaluk-krky.workers.dev" data-sitekey="0x4AAAAAAFv0fEhL9ghMmw3a">
+    <button type="button" class="nf-close" data-nf-close aria-label="Chiudi" data-t-aria="nf.close"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+    <img class="nf-mark" src="/assets/brand/logo-aom.webp" alt="" width="900" height="391">
+    <h2 id="nf-title" data-t="nf.title">Sii tra i primi a saperlo</h2>
+    <p class="nf-lead" data-t="nf.lead">Ti scriveremo quando ArtOfMenu sarà disponibile. Condividi il link Google Maps della tua attività, così possiamo conoscerti.</p>
+    <label class="nf-field">
+      <span data-t="nf.name">Nome e cognome</span>
+      <input type="text" name="fullname" autocomplete="name" maxlength="120" required>
+    </label>
+    <label class="nf-field">
+      <span data-t="nf.email">La tua email</span>
+      <input type="email" name="email" autocomplete="email" inputmode="email" maxlength="254" required>
+    </label>
+    <label class="nf-field">
+      <span data-t="nf.maps">La tua attività su Google Maps (link)</span>
+      <input type="url" name="maps" inputmode="url" maxlength="500" placeholder="https://maps.app.goo.gl/…" required>
+      <small data-t="nf.maps.hint">Apri la tua attività su Google Maps, tocca Condividi e copia il link.</small>
+    </label>
+    <fieldset class="nf-plans">
+      <legend data-t="nf.plan">Il piano che ti interessa</legend>
+      <label><input type="radio" name="plan" value="menu"><span>Menu</span></label>
+      <label><input type="radio" name="plan" value="order"><span>Order</span></label>
+      <label><input type="radio" name="plan" value="smart"><span>Smart</span></label>
+      <label><input type="radio" name="plan" value="undecided" checked><span data-t="nf.undecided">Non ho ancora deciso</span></label>
+    </fieldset>
+    <label class="nf-consent"><input type="checkbox" name="consent" required><span data-t="nf.consent">Acconsento alla conservazione del mio nome, della mia email e del link che condivido per ricevere informazioni sul lancio e sui piani. Posso chiederne la cancellazione in qualsiasi momento.</span></label>
+    <!-- left empty by people; bots that fill every field give themselves away -->
+    <input class="nf-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="nf-check" id="nf-check"></div>
+    <p class="nf-status" id="nf-status" role="status" aria-live="polite"></p>
+    <button type="submit" class="btn btn-primary nf-submit"><span data-t="nf.submit">Avvisami</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+  </form>
+  <div class="nf-done" id="nf-done" hidden>
+    <img class="nf-mark" src="/assets/brand/logo-aom.webp" alt="" width="900" height="391">
+    <h2 data-t="nf.done.t">Sei nella lista</h2>
+    <p class="nf-lead" data-t="nf.done.d">Sarai tra i primi a sapere quando ArtOfMenu sarà disponibile.</p>
+    <button type="button" class="btn btn-primary" data-nf-close><span data-t="nf.close">Chiudi</span></button>
+  </div>
+</dialog>
+
+<script src="/i18n.js?v=c1f95530"></script>
+<script src="/gun-i18n.js?v=fe044374"></script>
+<script src="/pricing.js?v=c1342e40"></script>
+<script src="/gun.js?v=f2400743"></script>
+<script src="/notify.js?v=3af369f0"></script>
+</body>
+</html>

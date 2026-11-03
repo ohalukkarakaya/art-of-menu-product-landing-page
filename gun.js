@@ -64,7 +64,8 @@
   var I18N = window.GUN_I18N;
   var lang = (function () {
     // ?lang=en|de|tr previews another language without changing the browser
-    var forced = new URLSearchParams(location.search).get("lang");
+    // a language page (/tr/, /en/, …) fixes its language in <html data-lang>
+    var forced = new URLSearchParams(location.search).get("lang") || document.documentElement.getAttribute("data-lang");
     if (forced && I18N[forced]) return forced;
     var list = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || "en"];
     for (var i = 0; i < list.length; i++) {
@@ -82,7 +83,12 @@
   document.querySelectorAll("[data-t-aria]").forEach(function (el) { el.setAttribute("aria-label", T[el.dataset.tAria]); });
   if (window.AOM_PRICING) window.AOM_PRICING.init(document.getElementById("plans"), lang, function (k) { return T[k]; });
   document.getElementById("sc-items").textContent = T["ph.items"].replace("{n}", "2");
-  document.querySelectorAll("#sc-langs [data-l]").forEach(function (el) { el.classList.toggle("on", el.dataset.l === lang); });
+  // the phone's language chips: the guest's own language first, then the two most common others
+  var LANG_NAMES = { tr: "Türkçe", en: "English", de: "Deutsch", es: "Español", it: "Italiano", fr: "Français" };
+  var chips = [lang].concat(["en", "tr", "de", "es", "fr", "it"].filter(function (l) { return l !== lang; })).slice(0, 3);
+  document.querySelectorAll("#sc-langs [data-l]").forEach(function (el, i) {
+    el.dataset.l = chips[i]; el.textContent = LANG_NAMES[chips[i]]; el.classList.toggle("on", i === 0);
+  });
   document.querySelectorAll(".tags .tag").forEach(function (el, i) {
     el.querySelector("span").textContent = T.tags[i][0];
     el.querySelector("b").textContent = T.tags[i][1];
@@ -106,7 +112,7 @@
   Object.keys(ITEMS).forEach(function (id) {
     var li = document.createElement("li");
     li.className = "sc-item";
-    li.innerHTML = '<img src="assets/web/' + ITEMS[id].img + '.webp" alt="" width="60" height="60">' +
+    li.innerHTML = '<img src="/assets/web/' + ITEMS[id].img + '.webp" alt="" width="60" height="60">' +
       '<span><span class="sc-name">' + ITEMS[id].name + '</span><span class="sc-flag"></span></span>' +
       '<span class="sc-price">' + ITEMS[id].price + "</span>";
     rows[id] = li;
@@ -371,10 +377,10 @@
   var target = 0, pending = false, sheetOpen = false, lastFrame = 0, lastP = 0;
   var mx = 0, my = 0, tmx = 0, tmy = 0;
 
-  // Hold each world in place for a while, then move on: d in [-1, 1] -> eased travel.
+  // Hold each world in place for a while (the middle 44% of its hour), then move on: d in [-1, 1] -> eased travel.
   function travel(d) {
     var a = Math.abs(d), s = d < 0 ? -1 : 1;
-    return s * smoothstep(0.12, 1, a);
+    return s * smoothstep(0.22, 1, a);
   }
 
   function update() {

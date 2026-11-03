@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="tr" data-lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>QR Menü, Masadan Sipariş ve Akıllı Fiyat | ArtOfMenu</title>
+  <meta name="description" id="meta-desc" content="ArtOfMenu ile QR menünüzü, siparişleri ve stoğu yönetin, akıllı ürün önerileri ve günlük fiyatlandırma özelliklerini keşfedin.">
+  <meta name="theme-color" content="#DCE6FF">
+  <meta property="og:title" content="QR Menü, Masadan Sipariş ve Akıllı Fiyat | ArtOfMenu">
+  <meta property="og:description" content="ArtOfMenu ile QR menünüzü, siparişleri ve stoğu yönetin, akıllı ürün önerileri ve günlük fiyatlandırma özelliklerini keşfedin.">
+  <meta property="og:image" content="https://artofmenu.com/assets/web/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="/assets/web/diorama/planet.webp" type="image/webp">
+  <link rel="stylesheet" href="/gun.css?v=9db4767c">
+  <script>document.documentElement.classList.add("js");</script>
+  <!-- filled by tools/build.mjs: canonical, hreflang and structured data -->
+  <!--seo:head-->
+  <link rel="canonical" href="https://artofmenu.com/tr/">
+  <link rel="alternate" hreflang="tr" href="https://artofmenu.com/tr/">
+  <link rel="alternate" hreflang="en" href="https://artofmenu.com/en/">
+  <link rel="alternate" hreflang="de" href="https://artofmenu.com/de/">
+  <link rel="alternate" hreflang="es" href="https://artofmenu.com/es/">
+  <link rel="alternate" hreflang="it" href="https://artofmenu.com/it/">
+  <link rel="alternate" hreflang="fr" href="https://artofmenu.com/fr/">
+  <link rel="alternate" hreflang="x-default" href="https://artofmenu.com/">
+  <meta property="og:url" content="https://artofmenu.com/tr/">
+  <meta property="og:site_name" content="ArtOfMenu">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://artofmenu.com/#org","name":"ArtOfMenu","alternateName":"Art of Menu","url":"https://artofmenu.com/","description":"ArtOfMenu makes QR menu, table ordering and smart daily pricing software for cafés, restaurants, bars and bakeries. A product of Göktigin.","logo":"https://artofmenu.com/assets/brand/icon-512.png","parentOrganization":{"@type":"Organization","name":"Göktigin","url":"https://goktigin.com"}},{"@type":"SoftwareApplication","@id":"https://artofmenu.com/#app","name":"ArtOfMenu","url":"https://artofmenu.com/tr/","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":"tr","description":"ArtOfMenu ile QR menünüzü, siparişleri ve stoğu yönetin, akıllı ürün önerileri ve günlük fiyatlandırma özelliklerini keşfedin.","publisher":{"@id":"https://artofmenu.com/#org"},"offers":[{"@type":"Offer","name":"Menu","price":"399","priceCurrency":"TRY","availability":"https://schema.org/PreOrder","description":"Dijital menünüz, dakikalar içinde","priceSpecification":{"@type":"UnitPriceSpecification","price":"399","priceCurrency":"TRY","billingDuration":"P1M","unitText":"per branch per month"}},{"@type":"Offer","name":"Order","price":"999","priceCurrency":"TRY","availability":"https://schema.org/PreOrder","description":"Masadan sipariş, garsonun cebinde","priceSpecification":{"@type":"UnitPriceSpecification","price":"999","priceCurrency":"TRY","billingDuration":"P1M","unitText":"per branch per month"}},{"@type":"Offer","name":"Smart","price":"1999","priceCurrency":"TRY","availability":"https://schema.org/PreOrder","description":"İşletmenizi büyüten zekâ","priceSpecification":{"@type":"UnitPriceSpecification","price":"1999","priceCurrency":"TRY","billingDuration":"P1M","unitText":"per branch per month"}}]},{"@type":"WebSite","@id":"https://artofmenu.com/#site","url":"https://artofmenu.com/","name":"ArtOfMenu","publisher":{"@id":"https://artofmenu.com/#org"},"inLanguage":["tr","en","de","es","it","fr"]}]}</script>
+  <!--/seo:head-->
+</head>
+<body>
+
+<main>
+  <section class="day" id="day" aria-label="Bir günün menüsü" data-t-aria="aria.day">
+    <div class="stage" id="stage">
+      <!-- The sky is a 1x16 canvas stretched over the screen and the stars a half-resolution one:
+           full-screen layers at retina size were filling the GPU's memory -->
+      <canvas class="sky" id="sky" width="1" height="16" aria-hidden="true"></canvas>
+      <canvas class="stars" id="stars" aria-hidden="true"></canvas>
+      <div class="orb" aria-hidden="true"></div>
+
+      <div class="clouds" aria-hidden="true">
+        <img class="cloud c1" src="/assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+        <img class="cloud c2" src="/assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+        <img class="cloud c3" src="/assets/web/diorama/rain-cloud.webp" alt="" width="900" height="476">
+      </div>
+
+      <!-- 23:00 smart pricing: daily revenue drawn as you scroll, behind the world -->
+      <div class="chart" aria-hidden="true">
+        <svg viewBox="0 0 1200 600" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="chart-fill" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#34C759" stop-opacity=".34"/>
+              <stop offset="1" stop-color="#34C759" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <g class="chart-grid"><path d="M0 150H1200M0 300H1200M0 450H1200"/></g>
+        </svg>
+        <div class="chart-clip"><div class="chart-inner">
+          <svg viewBox="0 0 1200 600" preserveAspectRatio="none">
+          <g>
+            <path class="chart-area" d="M0 520 C8 520 33 525 50 523 C67 521 83 515 100 506 C117 497 133 470 150 468 C167 467 183 493 200 496 C217 499 233 495 250 485 C267 475 283 445 300 437 C317 429 333 437 350 437 C367 437 383 438 400 436 C417 434 433 435 450 424 C467 414 483 383 500 374 C517 366 533 371 550 373 C567 375 583 389 600 387 C617 385 633 374 650 361 C667 348 683 316 700 308 C717 301 733 315 750 317 C767 319 783 325 800 320 C817 314 833 295 850 283 C867 272 883 256 900 251 C917 246 933 255 950 254 C967 253 983 259 1000 246 C1017 232 1033 183 1050 174 C1067 164 1083 187 1100 187 C1117 187 1133 181 1150 173 C1167 165 1192 146 1200 140 L1200 600 L0 600 Z" fill="url(#chart-fill)"/>
+            <path class="chart-glow" d="M0 520 C8 520 33 525 50 523 C67 521 83 515 100 506 C117 497 133 470 150 468 C167 467 183 493 200 496 C217 499 233 495 250 485 C267 475 283 445 300 437 C317 429 333 437 350 437 C367 437 383 438 400 436 C417 434 433 435 450 424 C467 414 483 383 500 374 C517 366 533 371 550 373 C567 375 583 389 600 387 C617 385 633 374 650 361 C667 348 683 316 700 308 C717 301 733 315 750 317 C767 319 783 325 800 320 C817 314 833 295 850 283 C867 272 883 256 900 251 C917 246 933 255 950 254 C967 253 983 259 1000 246 C1017 232 1033 183 1050 174 C1067 164 1083 187 1100 187 C1117 187 1133 181 1150 173 C1167 165 1192 146 1200 140"/>
+            <path class="chart-line" id="chart-line" d="M0 520 C8 520 33 525 50 523 C67 521 83 515 100 506 C117 497 133 470 150 468 C167 467 183 493 200 496 C217 499 233 495 250 485 C267 475 283 445 300 437 C317 429 333 437 350 437 C367 437 383 438 400 436 C417 434 433 435 450 424 C467 414 483 383 500 374 C517 366 533 371 550 373 C567 375 583 389 600 387 C617 385 633 374 650 361 C667 348 683 316 700 308 C717 301 733 315 750 317 C767 319 783 325 800 320 C817 314 833 295 850 283 C867 272 883 256 900 251 C917 246 933 255 950 254 C967 253 983 259 1000 246 C1017 232 1033 183 1050 174 C1067 164 1083 187 1100 187 C1117 187 1133 181 1150 173 C1167 165 1192 146 1200 140"/>
+          </g>
+          </svg>
+        </div></div>
+        <span class="chart-dot" id="chart-dot"><span class="chart-label" data-t="chart.label">Ciro</span></span>
+      </div>
+
+      <!-- One world per hour of the day -->
+      <div class="worlds" aria-hidden="true">
+        <div class="world w-planet rock" data-i="0">
+          <img class="island" src="/assets/web/diorama/planet.webp" alt="" width="1100" height="1072">
+        </div>
+        <div class="world" data-i="1">
+          <img class="island" src="/assets/web/diorama/morning-cafe.webp" alt="" width="1100" height="1092" decoding="async">
+          <img class="ada" src="/assets/web/story-scan.webp" alt="" width="782" height="1200" decoding="async">
+        </div>
+        <div class="world" data-i="2">
+          <img class="island" src="/assets/web/diorama/lunch-restaurant.webp" alt="" width="1100" height="1088" decoding="async">
+          <img class="ada" src="/assets/web/story-order.webp" alt="" width="820" height="1200" decoding="async">
+        </div>
+        <div class="world" data-i="3">
+          <img class="island" src="/assets/web/diorama/rain-evening.webp" alt="" width="1100" height="1096" decoding="async">
+          <img class="ada" src="/assets/web/story-weather.webp" alt="" width="797" height="1200" decoding="async">
+        </div>
+        <div class="world" data-i="4">
+          <img class="island" src="/assets/web/diorama/bakery.webp" alt="" width="1100" height="1090" decoding="async">
+          <img class="ada ada-wide" src="/assets/web/story-pair.webp?v=2" alt="" width="1200" height="896" decoding="async">
+        </div>
+        <div class="world" data-i="5">
+          <img class="island" src="/assets/web/diorama/night-close.webp" alt="" width="1100" height="1082" decoding="async">
+          <img class="ada" src="/assets/web/smart-night.webp" alt="" width="787" height="1200" decoding="async">
+          <div class="tags">
+            <span class="tag up"><span></span> <b></b></span>
+            <span class="tag up"><span></span> <b></b></span>
+            <span class="tag down"><span></span> <b></b></span>
+          </div>
+        </div>
+        <div class="world w-planet" data-i="6">
+          <img class="island rock" src="/assets/web/diorama/planet-night.webp" alt="" width="1100" height="1081" decoding="async">
+          <img class="ada ada-final" id="ada-final" src="/assets/web/join-celebrate.webp" alt="" width="756" height="1200" decoding="async">
+        </div>
+      </div>
+
+      <canvas class="rain" id="rain" aria-hidden="true"></canvas>
+
+      <!-- The guest's hand with the live menu on the phone -->
+      <div class="hand" aria-hidden="true">
+        <div class="hand-zoom" id="hand-zoom">
+        <div class="screen" id="screen"><div class="sc-in">
+          <div class="sc-top"><span class="sc-venue">Lale Kahve</span><span class="sc-table" data-t="ph.table">Masa 4</span></div>
+          <div class="sc-langs" id="sc-langs"><span data-l="tr">Türkçe</span><span data-l="en">English</span><span data-l="de">Deutsch</span></div>
+          <div class="sc-weather" id="sc-weather"><span id="sc-wicon"></span><span id="sc-wtext"></span></div>
+          <ol class="sc-list" id="sc-list"></ol>
+          <div class="sc-cart"><span id="sc-items">2 ürün</span><span class="sc-send" data-t="ph.send">Siparişi gönder</span></div>
+          <div class="sc-sheet">
+            <span class="sc-grab"></span>
+            <p class="sc-sheet-k" data-t="ph.pair">Bununla iyi gider</p>
+            <div class="sc-pair"><img src="/assets/web/p-cheesecake.webp" alt="" width="458" height="344"><span><b data-t="ph.pair.item">San Sebastian Cheesecake</b><small data-t="ph.pair.why">Bu ürünle birlikte sıkça sipariş ediliyor</small></span><span class="sc-add" data-t="ph.add">Ekle</span></div>
+          </div>
+        </div></div>
+        <img class="hand-img" src="/assets/web/diorama/hand-phone.webp" alt="" width="631" height="1000">
+        <div class="ping"><span class="ping-dot"></span><span><b data-t="ph.ping.t">Masa 4 · Yeni sipariş</b><small data-t="ph.ping.d">Yeni sipariş alındı</small></span></div>
+        </div>
+      </div>
+
+      <!-- Copy for each hour -->
+      <div class="copy">
+        <article class="chapter" data-i="0">
+          <img class="chapter-logo" src="/assets/brand/logo.webp" alt="ArtOfMenu" width="900" height="682">
+          <h1 data-t="s0.t">QR menüden çok daha fazlası</h1>
+          <p data-t="s0.d">ArtOfMenu, QR menüyü, siparişleri, stok yönetimini ve akıllı fiyatlandırmayı bir araya getirir. Nasıl çalıştığını görmek için aşağı kaydırın.</p>
+          <a class="btn btn-primary" href="#notify" data-notify><span data-t="s6.btn">Çıkınca haber verelim</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        </article>
+        <article class="chapter" data-i="1">
+          <span class="time">08:00</span>
+          <h2 data-t="s1.t">Otomatik çoklu dil desteği</h2>
+          <p data-t="s1.d">Misafir QR kodu okuttuğunda menü otomatik olarak konuştuğu dilde açılır, ürün fotoğrafları görüntülenir.</p>
+        </article>
+        <article class="chapter" data-i="2">
+          <span class="time">13:00</span>
+          <h2 data-t="s2.t">Masadan sipariş ve garson çağırma</h2>
+          <p data-t="s2.d">Misafir menüden siparişini doğrudan garsona iletir, garson siparişi telefonunda görür. Misafir aynı ekrandan garson da çağırabilir.</p>
+        </article>
+        <article class="chapter" data-i="3">
+          <span class="time">18:00</span>
+          <h2 data-t="s3.t">Hava durumuna göre menü sıralaması</h2>
+          <p data-t="s3.d">Hava soğuduğunda sıcak içecekler menüde öne çıkar, soğuk içecekler ve stoğu azalan ürünler alt sıralara taşınır.</p>
+        </article>
+        <article class="chapter" data-i="4">
+          <span class="time">20:00</span>
+          <h2 data-t="s4.t">Akıllı ürün önerileri</h2>
+          <p data-t="s4.d">Misafir bir ürün seçtiğinde o şubede bu ürünle birlikte en çok satılan diğer ürünler önerilir, böylece ek satış fırsatı oluşur.</p>
+        </article>
+        <article class="chapter" data-i="5">
+          <span class="time">23:00</span>
+          <h2 data-t="s5.t">Günlük akıllı fiyatlandırma</h2>
+          <p data-t="s5.d">Fiyat aralığını siz belirlersiniz. Sistem hava tahmini, özel günler ve benzer işletmelerin anonim talep örüntüleriyle (fiyatları değil) talebi öngörüp fiyatı ayarlar.</p>
+        </article>
+        <article class="chapter" data-i="6">
+          <h2 class="final" data-t="s6.t">Menünüz daha çok kazandırsın</h2>
+          <p data-t="s6.d">ArtOfMenu ile QR menüyü, siparişleri ve stoğu tek yerden yönetin.</p>
+          <a class="btn" href="#notify" data-notify data-t="s6.btn">Çıkınca haber verelim</a>
+        </article>
+      </div>
+
+      <div class="clock" aria-hidden="true">
+        <div class="clock-track"><span class="clock-fill"></span></div>
+        <ol>
+          <li>08:00</li><li>13:00</li><li>18:00</li><li>20:00</li><li>23:00</li>
+        </ol>
+      </div>
+
+      <div class="hint" aria-hidden="true"><span></span><b data-t="hint">Kaydırın</b></div>
+    </div>
+  </section>
+
+  <!-- Plans: prices are written in by tools/build.mjs, then pricing.js shows the visitor's currency -->
+  <div class="finale">
+  <span class="footer-mark" aria-hidden="true"></span>
+  <section class="plans" id="plans" aria-labelledby="plans-title">
+    <div class="plans-in">
+      <h2 id="plans-title" data-t="plans.title">İhtiyacınıza uygun paketi seçin.</h2>
+      <p class="plans-lead" data-t="plans.lead">Her paket QR menüyle başlar. Masadan sipariş, stok ve günlük akıllı fiyatlandırma ihtiyacınıza göre eklenir. Daha küçük bir pakete geçseniz de verileriniz silinmez.</p>
+      <div class="billing" role="radiogroup" aria-label="Ödeme dönemi" data-t-aria="price.label">
+        <span class="billing-bg" aria-hidden="true"></span>
+        <button type="button" role="radio" data-billing="monthly" aria-checked="true" data-t="price.monthly">Aylık</button>
+        <button type="button" role="radio" data-billing="yearly" aria-checked="false"><span data-t="price.yearly">Yıllık</span> <span class="billing-save" data-t="price.save">2 ay bedava</span></button>
+      </div>
+      <div class="plan-grid">
+        <article class="plan">
+          <h3>Menu</h3>
+          <p class="plan-tag" data-t="p.menu.tag">Dijital menünüz, dakikalar içinde</p>
+          <p class="price" data-price="menu"><span class="price-amount">399 ₺</span><span class="price-per">/ay</span></p>
+          <ul>
+            <li data-t="p.menu.1">QR menü, fotoğraflar, alerjenler, çoklu dil</li><li data-t="p.menu.2">Kendi alan adınız</li><li data-t="p.menu.3">PDF menünüzü yükleyip hemen yayına alma</li><li data-t="p.menu.4">Anonim menü istatistikleri</li>
+          </ul>
+        </article>
+        <article class="plan">
+          <h3>Order</h3>
+          <p class="plan-tag" data-t="p.order.tag">Masadan sipariş, garsonun cebinde</p>
+          <p class="price" data-price="order"><span class="price-amount">999 ₺</span><span class="price-per">/ay</span></p>
+          <ul>
+            <li data-t="p.order.1">Menu'deki her şey</li><li data-t="p.order.2">Masadan sipariş, canlı garson ekranı ve bildirim</li><li data-t="p.order.3">Basit stok ve sipariş raporları</li>
+          </ul>
+        </article>
+        <article class="plan plan-smart">
+          <h3>Smart</h3>
+          <p class="plan-tag" data-t="p.smart.tag">İşletmenizi büyüten zekâ</p>
+          <p class="price" data-price="smart"><span class="price-amount">1.999 ₺</span><span class="price-per">/ay</span></p>
+          <ul>
+            <li data-t="p.smart.1">Order'daki her şey</li><li data-t="p.smart.2">Günlük akıllı fiyat ve özel gün takvimi</li><li data-t="p.smart.3">Canlı menü sıralaması ve &quot;bununla iyi gider&quot; önerileri</li><li data-t="p.smart.4">Masadan çağırma, reçeteli stok, tezgâh ekranları</li>
+          </ul>
+          <a class="plan-btn" href="#notify" data-notify="smart" data-t="s6.btn">Çıkınca haber verelim</a>
+        </article>
+      </div>
+      <p class="plans-note" data-t="plans.note">Fiyatlar şube başınadır. Yıllık ödemede 12 ay, 10 ay fiyatına.</p>
+    </div>
+  </section>
+  <footer class="footer" role="contentinfo">
+    <div class="footer-in">
+      <a class="footer-logo" href="#day" aria-label="ArtOfMenu"><img src="/assets/brand/logo-white.webp" alt="" width="900" height="682" loading="lazy"></a>
+      <nav class="footer-links" aria-label="ArtOfMenu">
+        <a href="#plans" data-t="tab.pricing">Fiyatlar</a>
+        <a href="#notify" data-notify data-t="s6.btn">Çıkınca haber verelim</a>
+      </nav>
+      <!-- filled by tools/build.mjs: the topic pages in this language -->
+      <nav class="footer-seo" aria-label="ArtOfMenu"><!--seo:links--><a href="/tr/qr-menu/">QR Menü: Misafirin Dilinde Açılan Menü</a><a href="/tr/qr-menu-fiyatlari/">QR Menü Fiyatları: Uygun Fiyatlı Paketler</a><a href="/tr/restoran-qr-menu/">Restoran QR Menü: Kalabalık Servise Uygun</a><a href="/tr/kafe-qr-menu/">Kafe QR Menü: Sabah Yoğunluğuna Hazır</a><a href="/tr/bar-qr-menu/">Bar QR Menü: Gece Servisi İçin İçki Menüsü</a><a href="/tr/qr-menu-tasarimi/">Şık ve Havalı QR Menü Tasarımı</a><a href="/tr/akilli-qr-menu/">Akıllı QR Menü: Havaya ve Talebe Göre Menü</a><a href="/tr/masadan-siparis-sistemi/">Masadan Sipariş Sistemi: QR ile Sipariş</a><a href="/tr/cok-dilli-menu/">Çok Dilli Menü: Turist İçin QR Menü</a><a href="/tr/restoran-ciro-artirma/">Restoranım Nasıl Daha Çok Kazanır? Ciro Rehberi</a><a href="/tr/bar-ciro-artirma/">Bar Ciro Nasıl Artırılır? Bar Satış Rehberi</a><a href="/tr/kafe-ciro-artirma/">Kafe Ciro Artırma Yolları: Pratik Rehber</a><a href="/tr/menu-muhendisligi/">Menü Mühendisliği Nedir? Adım Adım Rehber</a><a href="/tr/restoran-stok-takibi/">Restoran Stok Takibi Nasıl Yapılır?</a><a href="/tr/qr-menu-nasil-yapilir/">QR Menü Nasıl Yapılır? Hızlı QR Menü Rehberi</a><!--/seo:links--></nav>
+      <p class="footer-copy">© 2026 <a href="https://goktigin.com" target="_blank" rel="noopener">Göktigin</a></p>
+    </div>
+  </footer>
+  </div>
+</main>
+
+<a class="brand" href="#day" aria-label="ArtOfMenu"><img src="/assets/brand/logo-aom.webp" alt="" width="900" height="391"></a>
+<a class="tab" href="#plans" data-t="tab.pricing">Fiyatlar</a>
+
+<!-- "Notify me at launch": email, the business on Google Maps and the plan of interest.
+     data-endpoint: the Cloudflare Worker's address; data-sitekey: the Turnstile site key (see waitlist-worker/README.md) -->
+<dialog class="notify" id="notify" aria-labelledby="nf-title">
+  <form class="nf-form" id="nf-form" novalidate data-endpoint="https://aom-waitlist.ozgurhaluk-krky.workers.dev" data-sitekey="0x4AAAAAAFv0fEhL9ghMmw3a">
+    <button type="button" class="nf-close" data-nf-close aria-label="Kapat" data-t-aria="nf.close"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+    <img class="nf-mark" src="/assets/brand/logo-aom.webp" alt="" width="900" height="391">
+    <h2 id="nf-title" data-t="nf.title">Çıktığında ilk siz duyun</h2>
+    <p class="nf-lead" data-t="nf.lead">ArtOfMenu yayına girdiğinde size e-posta göndereceğiz. İşletmenizi tanıyabilmemiz için Google Haritalar bağlantısını da paylaşın.</p>
+    <label class="nf-field">
+      <span data-t="nf.name">Adınız soyadınız</span>
+      <input type="text" name="fullname" autocomplete="name" maxlength="120" required>
+    </label>
+    <label class="nf-field">
+      <span data-t="nf.email">E-posta adresiniz</span>
+      <input type="email" name="email" autocomplete="email" inputmode="email" maxlength="254" required>
+    </label>
+    <label class="nf-field">
+      <span data-t="nf.maps">İşletmenizin Google Haritalar bağlantısı</span>
+      <input type="url" name="maps" inputmode="url" maxlength="500" placeholder="https://maps.app.goo.gl/…" required>
+      <small data-t="nf.maps.hint">Google Haritalar'da işletmenizi açın, Paylaş'a dokunun ve bağlantıyı kopyalayın.</small>
+    </label>
+    <fieldset class="nf-plans">
+      <legend data-t="nf.plan">İlgilendiğiniz paket</legend>
+      <label><input type="radio" name="plan" value="menu"><span>Menu</span></label>
+      <label><input type="radio" name="plan" value="order"><span>Order</span></label>
+      <label><input type="radio" name="plan" value="smart"><span>Smart</span></label>
+      <label><input type="radio" name="plan" value="undecided" checked><span data-t="nf.undecided">Henüz karar vermedim</span></label>
+    </fieldset>
+    <label class="nf-consent"><input type="checkbox" name="consent" required><span data-t="nf.consent">Lansman ve paketler hakkında bilgi almak için adımın, e-posta adresimin ve paylaştığım bağlantının saklanmasını kabul ediyorum. Dilediğim zaman silinmesini isteyebilirim.</span></label>
+    <!-- left empty by people; bots that fill every field give themselves away -->
+    <input class="nf-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="nf-check" id="nf-check"></div>
+    <p class="nf-status" id="nf-status" role="status" aria-live="polite"></p>
+    <button type="submit" class="btn btn-primary nf-submit"><span data-t="nf.submit">Haber ver</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+  </form>
+  <div class="nf-done" id="nf-done" hidden>
+    <img class="nf-mark" src="/assets/brand/logo-aom.webp" alt="" width="900" height="391">
+    <h2 data-t="nf.done.t">Listedesiniz</h2>
+    <p class="nf-lead" data-t="nf.done.d">ArtOfMenu yayına girdiğinde ilk size yazacağız.</p>
+    <button type="button" class="btn btn-primary" data-nf-close><span data-t="nf.close">Kapat</span></button>
+  </div>
+</dialog>
+
+<script src="/i18n.js?v=c1f95530"></script>
+<script src="/gun-i18n.js?v=fe044374"></script>
+<script src="/pricing.js?v=c1342e40"></script>
+<script src="/gun.js?v=f2400743"></script>
+<script src="/notify.js?v=3af369f0"></script>
+</body>
+</html>

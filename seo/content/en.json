@@ -1,0 +1,1105 @@
+{
+  "lang": "en",
+  "ui": {
+    "langName": "English",
+    "home": "Home",
+    "notify": "Notify me at launch",
+    "pricing": "Pricing",
+    "soon": "Coming soon",
+    "answerLabel": "In short",
+    "featuresTitle": "Related ArtOfMenu features",
+    "faqTitle": "Frequently asked questions",
+    "relatedTitle": "Related pages",
+    "allPages": "All pages",
+    "plansTitle": "Plans",
+    "plansLead": "Prices are per branch, per month. Pay yearly and you get 12 months for the price of 10.",
+    "perBranch": "per branch",
+    "from": "from",
+    "footerTagline": "QR menu, table ordering and smart pricing for cafés, restaurants, bars and bakeries.",
+    "languages": "Languages",
+    "skip": "Skip to content",
+    "features": {
+      "multilingual": { "t": "Opens in the guest's language", "d": "The menu reads the guest's phone language and opens in it, so a visitor from Lyon sees French right away." },
+      "ordering": { "t": "Ordering from the table", "d": "Guests send orders from the menu, and the waiter sees them instantly on their phone." },
+      "weather": { "t": "Menu order that follows the weather", "d": "When it turns cold, hot drinks move up and items about to run out move down, while prices stay put." },
+      "pairing": { "t": "“Goes well with” suggestions", "d": "When a guest adds an item, the menu shows what is most often ordered with it at that branch." },
+      "pricing": { "t": "Daily smart pricing", "d": "Each evening it sets tomorrow's prices inside the minimum and maximum you choose, with approve, automatic or off modes." },
+      "pdf": { "t": "Start from your PDF", "d": "Upload the PDF menu you already have and go live the same day, on every plan." },
+      "stock": { "t": "Stock that marks sold out", "d": "When an ingredient runs out, every item made with it shows as sold out on its own." },
+      "reports": { "t": "Menu reports", "d": "See which items guests see but rarely open, and which they open but never order." },
+      "screens": { "t": "Counter screens", "d": "Show the menu on monitors behind the counter, with several screens turning pages together." },
+      "domain": { "t": "Your own domain", "d": "The menu opens on your business's own web address, so guests see your name when they scan." },
+      "global": { "t": "216 countries, your currency", "d": "Currency, tax display and price rounding are set up for the country you operate in." }
+    },
+    "plans": {
+      "menu": {
+        "tag": "A clear digital menu",
+        "items": ["QR menu with photos and allergens", "Opens in the guest's language", "Your own domain", "PDF upload", "Anonymous menu statistics"]
+      },
+      "order": {
+        "tag": "Orders from the table",
+        "items": ["Everything in Menu", "Table ordering", "Live waiter screen and notifications", "Simple stock and order reports"]
+      },
+      "smart": {
+        "tag": "A menu that adjusts itself",
+        "items": ["Everything in Order", "Daily smart pricing and special-days calendar", "Live menu order and “goes well with”", "Call a waiter from the table", "Recipe-based stock", "Counter screens"]
+      }
+    }
+  },
+  "pages": {
+    "qr-menu": {
+      "slug": "qr-code-menu",
+      "title": "QR Code Menu for Cafés, Restaurants & Bars | ArtOfMenu",
+      "description": "A QR code menu that opens in each guest's language, with photos and allergens. Start from your PDF menu. Plans from $12 per branch a month.",
+      "eyebrow": "QR code menu",
+      "h1": "A QR code menu that speaks your guest's language.",
+      "lead": "A QR code menu is a digital menu guests open by scanning a code on the table with their phone camera. ArtOfMenu turns the menu you already have into one.",
+      "answer": "A QR code menu is a digital version of your menu that guests open by scanning a code on the table, without downloading an app. ArtOfMenu builds one from the PDF you already have, opens it in each guest's phone language with photos and allergen details, and lets you change items and prices at any time while the printed code stays the same.",
+      "sections": [
+        {
+          "h2": "How a contactless menu works at the table",
+          "body": [
+            "A guest sits down at table 4, points the phone camera at the code on the stand and taps the link. The menu opens in the browser, in the language the phone is set to. They look at the photos, check the allergens and decide.",
+            "You keep the printed code. When the price of a flat white goes up or the soup of the day sells out, you edit the menu, and the next guest who scans sees the new version. The code on the table never needs reprinting."
+          ]
+        },
+        {
+          "h2": "What ArtOfMenu's QR menu includes",
+          "body": [
+            "Every plan starts with the same core: a digital menu with product photos, allergen information and automatic language. It opens on your own domain, so guests see your name in the address bar. Currency, tax display and price rounding follow the rules of your country, and ArtOfMenu can be set up for 216 countries."
+          ],
+          "bullets": [
+            "Upload your existing PDF menu and go live the same day",
+            "A photo and allergen details for each item",
+            "Opens in the guest's phone language",
+            "Anonymous statistics on how guests use the menu"
+          ]
+        },
+        {
+          "h2": "Who it is for",
+          "body": [
+            "ArtOfMenu is made for cafés, restaurants, bars and bakeries, from a single counter to a group of branches. A bakery can use it to show this morning's bread with allergens. A restaurant near the old town can use it so tourists read the menu without a translation app."
+          ]
+        },
+        {
+          "h2": "Beyond the menu: ordering and smart features",
+          "body": [
+            "When you want more than a menu, the Order plan lets guests send orders from the table straight to the waiter's phone. The Smart plan goes further. It moves hot drinks up when the weather turns cold, suggests what goes well with each item and sets tomorrow's prices inside limits you choose.",
+            "If you later move to a smaller plan, your data stays."
+          ]
+        },
+        {
+          "h2": "Privacy guests can trust",
+          "body": [
+            "The menu does not use cookies, persistent IDs or stored IP addresses for guests, and the statistics you see are anonymous. Your prices are never shared with other businesses. If you decide to stop, you cancel in one step and keep using the menu until the paid period ends."
+          ]
+        },
+        {
+          "h2": "Guides for a menu that earns more",
+          "body": [
+            "Alongside the product pages you will find practical guides on increasing restaurant, bar and café sales, on menu engineering and on restaurant inventory. Each one is useful whether or not you use ArtOfMenu."
+          ]
+        }
+      ],
+      "features": ["multilingual", "pdf", "domain", "ordering", "global"],
+      "faq": [
+        { "q": "What is a QR code menu?", "a": "It is a menu guests open on their own phone by scanning a printed code at the table. The code links to a web page with your items, prices, photos and allergens. Because the page is online, you can change it at any time without reprinting anything." },
+        { "q": "Do guests need to download an app?", "a": "No. The phone camera reads the code and opens the menu in the browser. ArtOfMenu then shows it in the language the phone is set to, so most guests never need to look for a language option." },
+        { "q": "Are QR code menus still worth it?", "a": "Some guests prefer paper, and keeping a few printed copies at the counter is a fair courtesy. A QR menu earns its place when you change prices or dishes often, serve visitors who read other languages or want guests to order from the table without waiting." },
+        { "q": "Can I use my current PDF menu?", "a": "Yes. On every ArtOfMenu plan you can upload the PDF menu you already have and go live the same day. You can add photos and allergen details item by item afterwards, while the menu is already working." },
+        { "q": "When does ArtOfMenu launch?", "a": "ArtOfMenu has not launched yet. Leave your name, email, your business's Google Maps link and the plan you are interested in, and we will tell you as soon as it opens." }
+      ],
+      "cta": { "h2": "Be first when it opens.", "lead": "Leave your details and we will let you know the day ArtOfMenu launches." },
+      "related": ["pricing", "how-to", "restaurant", "ordering", "multilingual"]
+    },
+
+    "pricing": {
+      "slug": "qr-menu-pricing",
+      "title": "QR Menu Pricing: Plans from $12 a Month | ArtOfMenu",
+      "description": "What a QR menu costs and why. Menu $12, Order $35, Smart $69 per branch per month, and yearly billing costs 10 months. Compared with reprinting.",
+      "eyebrow": "Pricing",
+      "h1": "QR menu pricing, plainly explained.",
+      "lead": "A QR menu from ArtOfMenu costs $12, $35 or $69 per branch per month, depending on how much it does. Pay yearly and you pay for 10 months instead of 12.",
+      "answer": "QR menu pricing usually depends on features rather than menu size: a menu that only displays items costs less than one that takes orders or adjusts prices. ArtOfMenu has three plans, priced per branch: Menu at $12 a month, Order at $35 and Smart at $69. Yearly billing costs 10 months' price. In Europe the plans cost €9, €29 and €59.",
+      "sections": [
+        {
+          "h2": "What drives the price of a QR menu",
+          "body": [
+            "Most QR menu tools charge for what happens after the scan. Showing a menu is the simple part. Taking orders needs a live connection to staff phones and notifications that arrive the moment a guest taps send. Setting prices from weather and demand needs forecasting work every night. That is why plans step up in price as they step up in what they do.",
+            "The number of locations is the other factor. Each branch has its own tables, staff and guests, so ArtOfMenu prices each branch separately."
+          ]
+        },
+        {
+          "h2": "The three plans",
+          "body": [
+            "All prices below are per branch, per month, in US dollars."
+          ],
+          "bullets": [
+            "Menu, $12: QR menu with photos, allergens, automatic language, your own domain, PDF upload and anonymous statistics.",
+            "Order, $35: everything in Menu, plus table ordering, a live waiter screen with notifications and simple stock and order reports.",
+            "Smart, $69: everything in Order, plus daily smart pricing with a special-days calendar, live menu order, “goes well with” suggestions, calling a waiter from the table, recipe-based stock and counter screens."
+          ]
+        },
+        {
+          "h2": "Yearly billing: 12 months for the price of 10",
+          "body": [
+            "Paying yearly costs ten times the monthly price. For each branch, Menu comes to $120 a year, Order to $350 and Smart to $690."
+          ]
+        },
+        {
+          "h2": "Software or printing: an honest comparison",
+          "body": [
+            "A printed menu has a cost per run, and every price change, new dish or typo means another run. Laminated menus wear, crack and get sticky. Count how many times you reprinted last year, add what each run cost and you have the figure to compare against.",
+            "A QR menu has a fixed monthly cost and no reprints. It will not replace every paper copy, and some guests will still ask for one. It pays off most in places that change prices often, run daily specials or serve guests who read other languages."
+          ]
+        },
+        {
+          "h2": "An affordable QR menu for a small café",
+          "body": [
+            "The Menu plan is meant for exactly that: one branch, a clear menu with photos and automatic language, at $12 a month. Start there, and move to Order or Smart when table ordering or smart pricing would earn back its cost. If you later move down to a smaller plan, your data stays where it is."
+          ]
+        },
+        {
+          "h2": "Prices in your region",
+          "body": [
+            "US dollar prices apply outside Europe and Turkey. In Europe the plans cost €9, €29 and €59 per branch per month. In Turkey they cost 399 ₺, 999 ₺ and 1.999 ₺.",
+            "Cancelling takes one step, and you keep using the menu until the end of the period you have paid for."
+          ]
+        }
+      ],
+      "features": ["pdf", "ordering", "pricing", "global", "domain"],
+      "faq": [
+        { "q": "How much does a QR code menu cost?", "a": "With ArtOfMenu, a QR code menu costs $12 per branch per month on the Menu plan. Table ordering is on the Order plan at $35, and smart pricing with recipe-based stock is on the Smart plan at $69. Yearly billing costs 10 months' price." },
+        { "q": "Is there a trial or a plan with no monthly fee?", "a": "No. ArtOfMenu has no trial and no unpaid plan. The lowest plan is Menu at $12 per branch per month. You can cancel in one step and keep using it until the end of the period you paid for." },
+        { "q": "Do I pay per branch or per business?", "a": "Per branch. Each location has its own plan price. Two cafés on the Menu plan cost $12 each per month, or $120 each per year with yearly billing. In Europe each would cost €9 a month." },
+        { "q": "Can I change plans later?", "a": "Yes, you can move between plans as your needs change. If you move to a smaller plan, your menu and data stay in place, so nothing has to be rebuilt." },
+        { "q": "What happens if I cancel?", "a": "Cancelling takes one step. Your menu keeps working for guests until the paid period ends, so you are never cut off halfway through a month or year you have already paid for." }
+      ],
+      "cta": { "h2": "Hear the moment plans open.", "lead": "Tell us which plan interests you and we will email you at launch." },
+      "related": ["qr-menu", "how-to", "ordering", "smart"]
+    },
+
+    "restaurant": {
+      "slug": "qr-menu-for-restaurants",
+      "title": "QR Menu for Restaurants with Table Ordering | ArtOfMenu",
+      "description": "A QR menu for restaurants with courses, photos, allergens and automatic language. Add table ordering for the lunch rush. From $12 per branch.",
+      "eyebrow": "For restaurants",
+      "h1": "A QR menu for restaurants that handles the whole service.",
+      "lead": "A QR menu for restaurants has to carry a long menu clearly, from starters to desserts, with allergens on every dish. ArtOfMenu does that and, on the Order plan, lets guests order from the table.",
+      "answer": "A QR menu for restaurants is a digital menu guests open by scanning a code at their table, organized by course with photos, prices and allergens. ArtOfMenu adds automatic language for visitors, your own domain and, on the Order plan, table ordering that sends each order straight to the waiter's phone during busy service.",
+      "sections": [
+        {
+          "h2": "A long menu, easy to read on a phone",
+          "body": [
+            "Restaurant menus are long. Starters, mains, sides, desserts, a wine list and a weekend brunch section all compete for attention. On a phone, a menu split into clear sections lets guests jump straight to what they are deciding on and come back without losing their place.",
+            "Photos matter most for dishes guests cannot picture from the name. A photo of the house ragù or the sharing platter answers “how big is it?” before anyone has to ask the waiter."
+          ]
+        },
+        {
+          "h2": "Allergens on every dish",
+          "body": [
+            "Each item carries its allergen information, shown in the guest's own language. A guest with a nut allergy can check the dessert list before calling anyone over, and your staff make fewer trips to the kitchen to ask.",
+            "Keep the data accurate. When a recipe or a supplier changes, update the item that day. Because the menu is live, the change reaches the next table at once."
+          ]
+        },
+        {
+          "h2": "Tourists read your menu in their language",
+          "body": [
+            "Near a station, a museum or the old town, many lunch tables are visitors. The menu opens in the language the guest's phone uses, while prices stay in your local currency with your country's tax display. A family from Lisbon can order the regional dish instead of the one they happen to recognize."
+          ]
+        },
+        {
+          "h2": "Table ordering for the lunch rush",
+          "body": [
+            "At 12:30 every table wants to order at once. On the Order plan, guests send their order from the menu and the waiter sees it instantly on their phone, with a notification. Staff spend their time carrying plates and checking on tables instead of standing at each one with a notepad.",
+            "Table ordering works alongside your kitchen routine and checkout. ArtOfMenu does not replace your POS or payment terminal."
+          ]
+        },
+        {
+          "h2": "Smart features for busy kitchens",
+          "body": [
+            "On the Smart plan, recipe-based stock marks a dish sold out as soon as an ingredient runs out, so nobody orders the last sea bass twice. Menu reports show which dishes guests look at but rarely open, and which they open but never order, which is a good starting point for your next menu change.",
+            "Smart also suggests the item most often ordered with each dish at your branch, and it can set tomorrow's prices each evening inside the minimum and maximum you choose."
+          ]
+        }
+      ],
+      "features": ["ordering", "multilingual", "stock", "reports", "global"],
+      "faq": [
+        { "q": "What should a restaurant look for in a QR menu?", "a": "Clear sections for each course, a photo and allergens for each dish, quick loading on mobile data and a way to change prices instantly. If you serve tourists, automatic language matters. If service gets busy, table ordering takes pressure off the floor team." },
+        { "q": "Can guests order and pay through the QR menu?", "a": "On the Order plan, guests send orders from the menu to the waiter's phone. Payment stays with your existing terminal or POS, since ArtOfMenu is not a payment system. Your team takes payment exactly as it does today." },
+        { "q": "How do I show allergens on a digital menu?", "a": "Add allergen details to each item in ArtOfMenu. Guests see them next to the dish, in their own language. Review them whenever a recipe or supplier changes, because the menu is only as accurate as the details behind it." },
+        { "q": "Will the QR code change when I update the menu?", "a": "No. The QR code on the table stays the same. You update dishes, prices and photos in the menu itself, and every new scan shows the latest version, so you never pay to reprint table stands." },
+        { "q": "How much does a restaurant QR menu cost?", "a": "$12 per branch per month on the Menu plan, $35 on Order with table ordering and $69 on Smart. Yearly billing costs 10 months' price. In Europe the plans cost €9, €29 and €59." }
+      ],
+      "cta": { "h2": "Ready for your next lunch rush?", "lead": "Get a note from us the day ArtOfMenu launches." },
+      "related": ["ordering", "multilingual", "restaurant-sales", "pricing"]
+    },
+
+    "cafe": {
+      "slug": "qr-menu-for-cafes",
+      "title": "QR Menu for Cafés and Coffee Shops | ArtOfMenu",
+      "description": "A café QR menu for the morning rush, seasonal drinks and cold, rainy days, with photos, allergens and automatic language. Plans from $12.",
+      "eyebrow": "For cafés",
+      "h1": "A QR menu for cafés and coffee shops.",
+      "lead": "A café QR menu lets regulars and newcomers see every drink, size and pastry on their phone while they queue or sit down. ArtOfMenu keeps it current as your specials change with the seasons.",
+      "answer": "A QR menu for a café is a digital drinks and food menu that guests open by scanning a code at the counter or table. ArtOfMenu shows photos and allergens and opens in the guest's language. On the Smart plan, it also moves hot drinks up when the weather turns cold and suggests the pastry most often ordered with a coffee.",
+      "sections": [
+        {
+          "h2": "Built for the morning rush",
+          "body": [
+            "Between 8 and 9, the queue sets the pace of your day. If people can read the menu on their phone while they wait, they reach the counter knowing what they want, and the barista spends less time explaining the difference between a cortado and a flat white.",
+            "Place one code by the queue and one on each table. Both open the same menu, so the guest who sits down after ordering can look up the pastries for a second round."
+          ]
+        },
+        {
+          "h2": "Seasonal drinks without reprinting",
+          "body": [
+            "Pumpkin spice in October, iced matcha in June, a chestnut latte for six weeks in winter. Cafés change their drinks list more often than most businesses. With a QR menu you add the new drink with a photo, set its price and take it off when the season ends. The code on the table stays where it is.",
+            "Allergens matter here too: oat, soy and almond milk, nuts in the granola, gluten in the banana bread. Each item shows its allergen details in the guest's language."
+          ]
+        },
+        {
+          "h2": "When it gets cold, the menu follows",
+          "body": [
+            "On a cold, rainy Tuesday, hot chocolate should be the first thing guests see. ArtOfMenu's weather-aware order handles this on its own. When it gets cold, hot drinks move up, and cold drinks and items about to run out move down.",
+            "Only the order changes during the day. Prices stay where you set them."
+          ]
+        },
+        {
+          "h2": "Pairing coffee with something sweet",
+          "body": [
+            "A latte on its own is a small ticket. On the Smart plan, when a guest adds a drink, the menu shows the item most often ordered with it at your branch. If your regulars take an almond croissant with their cappuccino, the next guest sees that suggestion too."
+          ]
+        },
+        {
+          "h2": "Bakeries and cafés with a counter",
+          "body": [
+            "If you sell over a counter, the Smart plan can show the menu on monitors behind it, with several screens turning pages together. Recipe-based stock helps on busy mornings: when you run out of oat milk, every drink made with it shows as sold out on its own, so nobody pays for a drink you cannot make."
+          ]
+        }
+      ],
+      "features": ["weather", "pairing", "multilingual", "screens", "stock"],
+      "faq": [
+        { "q": "Do cafés really need a QR menu?", "a": "Not every café does. It helps most when your drinks list changes with the seasons, when queues build up in the morning or when many guests are visitors. A small, fixed menu on a chalkboard may be all a tiny espresso bar needs." },
+        { "q": "Can I put the QR code on the counter instead of tables?", "a": "Yes. The code simply opens the menu, so it works on a counter sign, a window sticker or each table. You can use both: one near the queue and one on every table." },
+        { "q": "How do I add a seasonal drink to a QR menu for a cafe?", "a": "Add it to the menu with a photo, price and allergens, and it appears on the next scan. When the season ends, remove it. You never reprint the QR code." },
+        { "q": "What does weather-aware menu order do?", "a": "When it gets cold, hot drinks move up the menu, and cold drinks and items about to run out move down. During the day only the order of items changes, never the price." },
+        { "q": "Is there an affordable QR menu for small coffee shops?", "a": "ArtOfMenu's Menu plan costs $12 per branch per month, or $120 a year. It includes photos, allergens, automatic language, your own domain and PDF upload. In Europe it costs €9 a month." }
+      ],
+      "cta": { "h2": "Your next season starts on the menu.", "lead": "We will let you know as soon as ArtOfMenu opens." },
+      "related": ["cafe-sales", "smart", "design", "pricing"]
+    },
+
+    "bar": {
+      "slug": "qr-menu-for-bars",
+      "title": "QR Menu for Bars and Pubs | ArtOfMenu",
+      "description": "A QR menu for bars and pubs: guests order the next round from the table, and drinks you run out of show as sold out. Plans from $12 per branch.",
+      "eyebrow": "For bars and pubs",
+      "h1": "A QR menu for bars that keeps the rounds coming.",
+      "lead": "A bar QR menu puts your cocktails, beers and bar snacks on every guest's phone. With ArtOfMenu's Order plan, the next round can be ordered from the table without anyone waving for attention.",
+      "answer": "A QR menu for a bar is a drinks and food menu that guests open by scanning a code at their table or on the bar. ArtOfMenu shows photos and allergens in the guest's language. On the Order plan, guests send rounds straight to staff phones. On Smart, recipe-based stock marks a cocktail sold out when one of its ingredients runs out.",
+      "sections": [
+        {
+          "h2": "Ordering the next round",
+          "body": [
+            "At 11 pm on a Friday, the hardest part of buying a drink is getting someone's attention. With table ordering, a group picks the next round from the menu and sends it. The order reaches the waiter's phone instantly, with a notification, so it no longer depends on eye contact across a crowded room.",
+            "On the Smart plan, guests can also call a waiter, ask for water or ask for the bill from the table."
+          ]
+        },
+        {
+          "h2": "A drinks menu worth scrolling",
+          "body": [
+            "Cocktail names rarely explain themselves. A photo and one line of ingredients help a guest choose between a mezcal sour and a paloma. List beers by style, show which are on draft and give spirit flights their own section.",
+            "Because the menu is live, a new guest tap or a one-night special goes on in a minute and comes off just as quickly."
+          ]
+        },
+        {
+          "h2": "When a drink runs out",
+          "body": [
+            "Running out of fresh lime at midnight can knock half your cocktails off the list. With recipe-based stock on the Smart plan, each drink is linked to its ingredients. When one runs out, every drink made with it shows as sold out on its own, and guests stop ordering margaritas you cannot make.",
+            "On the Order plan, simple stock and order reports show what moved each night, which makes the next delivery order easier to get right."
+          ]
+        },
+        {
+          "h2": "Visitors and late-night crowds",
+          "body": [
+            "Bars near hotels and nightlife streets serve guests from everywhere. The menu opens in the language of each guest's phone, with prices in your local currency, so a group of visitors can order without passing a translation app around the table."
+          ]
+        },
+        {
+          "h2": "Behind the bar",
+          "body": [
+            "On the Smart plan, counter screens put the menu on monitors behind the bar. Several screens turn pages together, which keeps a long cocktail list readable for the people standing at the bar waiting to order."
+          ]
+        }
+      ],
+      "features": ["ordering", "stock", "multilingual", "screens", "reports"],
+      "faq": [
+        { "q": "Can bar guests order drinks from their table with a QR code?", "a": "Yes, on ArtOfMenu's Order plan. Guests choose drinks in the menu and send the order, and the waiter sees it instantly on their phone. Payment still happens through your own terminal or POS." },
+        { "q": "Can guests run a tab through the QR menu?", "a": "No. ArtOfMenu does not handle tabs or payments. Guests send orders from the menu, and you keep running tabs and taking payment in your existing POS, the same way you do today." },
+        { "q": "How do I stop guests ordering drinks we have run out of?", "a": "Use recipe-based stock on the Smart plan. Link each drink to its ingredients. When one runs out, every drink that uses it shows as sold out automatically, so nobody orders a mojito after the mint is gone." },
+        { "q": "Does a QR menu work for a pub?", "a": "Yes. Pubs with table service can use it for ordering rounds and food. If guests order at the bar, a QR menu still lets them read the full list of beers and food while they wait their turn." },
+        { "q": "How much does a QR menu for a bar cost?", "a": "The Menu plan is $12 per branch per month. Table ordering is on Order at $35. Recipe-based stock, calling a waiter from the table and counter screens are on Smart at $69." }
+      ],
+      "cta": { "h2": "Keep the next round moving.", "lead": "Leave your details and hear from us at launch." },
+      "related": ["bar-sales", "ordering", "inventory", "pricing"]
+    },
+
+    "design": {
+      "slug": "qr-menu-design",
+      "title": "QR Menu Design: Stylish, Clear and Yours | ArtOfMenu",
+      "description": "How to get a stylish, beautiful QR menu: photos, readable text, your brand and your own domain. What ArtOfMenu's layout does, and what it does not.",
+      "eyebrow": "Menu design",
+      "h1": "A stylish QR menu design starts with your photos.",
+      "lead": "A beautiful QR menu comes from three things: good photos, readable text and a layout that stays out of the way. ArtOfMenu provides the clean layout, and your photos and words do the rest.",
+      "answer": "Good QR menu design means guests can read the menu on a small screen, see what each dish looks like and recognize your business. ArtOfMenu uses one clean, consistent layout for every menu, filled with your product photos, item descriptions and allergen details, on your own domain. It has no ready-made themes or custom code uploads.",
+      "sections": [
+        {
+          "h2": "Why design affects what guests order",
+          "body": [
+            "On a phone, guests skim. They look at photos first, then names, then prices. A clear layout makes it easy to compare two dishes. A cluttered one makes guests settle for the first familiar thing. Items that never get noticed never get ordered.",
+            "ArtOfMenu's menu reports show where this happens. They flag items guests see but rarely open, and items they open but never order. Both are design questions as much as kitchen questions."
+          ]
+        },
+        {
+          "h2": "Photos do most of the work",
+          "body": [
+            "You do not need a professional shoot. A recent phone, a clean table near a window and a few minutes before service is enough for most dishes."
+          ],
+          "bullets": [
+            "Shoot in daylight rather than under warm kitchen lights",
+            "Use the same angle and background within a section so the list looks calm",
+            "Show the real portion on the plate you actually serve it on",
+            "Leave an item without a photo rather than using a stock image"
+          ]
+        },
+        {
+          "h2": "Text that reads well on a phone",
+          "body": [
+            "Keep item names short and descriptions to one line. Say what is in the dish and how it is cooked. “Charred leeks, hazelnut, brown butter” tells a guest more than a paragraph about the chef's inspiration.",
+            "Put allergen information on the item itself, where guests expect to find it. Group sections the way people order: drinks, small plates, mains, desserts."
+          ]
+        },
+        {
+          "h2": "Your brand, on your own domain",
+          "body": [
+            "When a guest scans, the menu opens on your business's own domain. The address bar shows your name, which matters to guests who hesitate before tapping an unfamiliar link. Beyond that, your brand lives in your photos, your item names and the way you write about your food."
+          ]
+        },
+        {
+          "h2": "What ArtOfMenu does not do",
+          "body": [
+            "To set expectations clearly: ArtOfMenu does not offer a theme gallery or a design service, and you cannot upload your own HTML or CSS. Every menu uses the same clean layout, built for reading on a phone. If you want a fully custom look, a bespoke website is the better route."
+          ]
+        },
+        {
+          "h2": "Design that adapts during the day",
+          "body": [
+            "On the Smart plan, the order of the menu responds to the weather. When it gets cold, hot drinks move up, while cold drinks and items about to run out move down. The layout guests know stays the same, and the most fitting items rise to the top."
+          ]
+        }
+      ],
+      "features": ["domain", "reports", "multilingual", "weather"],
+      "faq": [
+        { "q": "Can I customize the design of my QR menu?", "a": "You control the content that shapes the look: photos, item names, descriptions and sections. The layout itself is the same clean design for every ArtOfMenu menu. There are no themes to choose from and no custom HTML or CSS." },
+        { "q": "What makes a good QR code menu design?", "a": "Readable text at phone size, photos for the dishes that need them, one-line descriptions, allergens on each item and sections that match how guests order. A shorter list of strong items usually looks better than a long one." },
+        { "q": "Do I need a designer to make a beautiful digital menu?", "a": "Not with ArtOfMenu. The layout is already designed. What makes the difference is the quality of your photos and how clearly you describe each item. An afternoon with a phone camera before service is a good place to start." },
+        { "q": "How should the printed QR code look on the table?", "a": "Keep the code large and high-contrast so it scans in low light, add a short line such as “Scan for the menu” and put your colors around the code rather than on it. Test it with a few phones before printing a batch." },
+        { "q": "Does the menu show my business name?", "a": "Yes. It opens on your own domain, so your name is in the address bar from the moment the menu loads. Guests who hesitate before tapping an unfamiliar link can see at a glance that the menu is yours." }
+      ],
+      "cta": { "h2": "Make the menu look like you.", "lead": "Hear from us the day ArtOfMenu launches." },
+      "related": ["how-to", "menu-engineering", "qr-menu", "cafe"]
+    },
+
+    "smart": {
+      "slug": "smart-qr-menu",
+      "title": "Smart QR Menu: Weather, Pairings, Daily Prices | ArtOfMenu",
+      "description": "What makes a QR menu smart: an order that follows the weather, “goes well with” suggestions and daily prices inside limits you set. $69 per branch.",
+      "eyebrow": "Smart plan",
+      "h1": "A smart QR menu, explained without the buzzwords.",
+      "lead": "A smart QR menu changes what guests see based on things you would otherwise watch yourself: the weather, what sells together and tomorrow's expected demand. In ArtOfMenu, that comes down to three concrete features.",
+      "answer": "A smart QR menu adjusts itself using information about the day. ArtOfMenu's Smart plan does three things: it reorders the menu when the weather turns cold, suggests the item most often ordered with what a guest just added, and sets tomorrow's prices each evening inside a minimum and maximum the owner chooses. It costs $69 per branch per month.",
+      "sections": [
+        {
+          "h2": "Menu order that follows the weather",
+          "body": [
+            "When the temperature drops, hot drinks move up the menu. Cold drinks and items about to run out move down. A guest scanning on a cold morning sees the hot chocolate first, and a guest ordering late in the day is not steered toward a dish with two portions left.",
+            "During the day, only the order changes. Prices stay fixed until the next day."
+          ]
+        },
+        {
+          "h2": "“Goes well with” suggestions",
+          "body": [
+            "When a guest adds an item, the menu shows the item most often ordered with it at that branch. It learns from your own orders, so it suggests what your guests actually pair: fries with the burger, or the cheesecake your regulars take with an espresso.",
+            "It is the suggestion a good waiter makes, offered at every table at the same moment."
+          ]
+        },
+        {
+          "h2": "Daily smart pricing",
+          "body": [
+            "Every evening, ArtOfMenu reads the branch location, the weather forecast, holidays and special days, and each item's expected demand. It then sets tomorrow's prices inside the minimum and maximum you have set for each item. Prices change at most once a day, before the day starts.",
+            "It also learns from anonymized behavior coefficients of similar businesses. It never uses their prices, and your prices are never shared with anyone."
+          ],
+          "bullets": [
+            "Approve: you see tomorrow's prices and confirm each one",
+            "Automatic: prices update inside your limits without a step from you",
+            "Off: the menu uses your base prices",
+            "Any price you do not approve falls back to the base price"
+          ]
+        },
+        {
+          "h2": "Why the limits matter",
+          "body": [
+            "Guests notice when a coffee costs far more than it did yesterday. That is why every price stays between a minimum and maximum you choose, and why nothing changes during service. You might let a sandwich move between $9 and $10.50, and keep the house coffee fixed by setting both limits to the same price."
+          ]
+        },
+        {
+          "h2": "What else the Smart plan includes",
+          "body": [
+            "Smart includes everything in the Order plan, plus a special-days calendar for pricing, calling a waiter from the table, recipe-based stock that marks items sold out when an ingredient runs out and counter screens that turn pages together. In Europe it costs €59 per branch per month, and yearly billing costs 10 months' price."
+          ]
+        }
+      ],
+      "features": ["weather", "pairing", "pricing", "stock", "screens"],
+      "faq": [
+        { "q": "What is a smart QR menu?", "a": "It is a digital menu that adapts using information about the day instead of staying fixed. In ArtOfMenu it reorders items when the weather turns cold, suggests pairings based on your branch's orders and can set daily prices within limits you choose." },
+        { "q": "Will prices change while guests are in the restaurant?", "a": "No. Prices change at most once a day, before the day starts. During service only the order of items can change, so the price a guest sees at lunch is the price for the whole day." },
+        { "q": "Is dynamic pricing in restaurants fair to guests?", "a": "It depends on how it is done. ArtOfMenu keeps every price inside limits you set and changes prices at most once a day, never during service. You can approve each price yourself, or switch it off and keep your base prices." },
+        { "q": "Does smart pricing use other restaurants' prices?", "a": "No. It learns from anonymized behavior coefficients of similar businesses, never from their prices. Your prices are never shared with other businesses, and theirs are never used to set yours." },
+        { "q": "Can I turn smart pricing off?", "a": "Yes. Choose off and the menu uses your base prices. You can also approve every price by hand, and any price you do not approve falls back to the base price." }
+      ],
+      "cta": { "h2": "Let the menu do the watching.", "lead": "We will tell you when ArtOfMenu launches." },
+      "related": ["menu-engineering", "pricing", "ordering", "cafe-sales"]
+    },
+
+    "ordering": {
+      "slug": "table-ordering-system",
+      "title": "Table Ordering System for Restaurants & Cafés | ArtOfMenu",
+      "description": "QR table ordering: guests order from the menu and the waiter sees it instantly on their phone. What it suits, what it does not replace, and the price.",
+      "eyebrow": "Table ordering",
+      "h1": "A table ordering system that keeps staff on the floor.",
+      "lead": "A table ordering system lets guests send their order from a QR menu on their phone, so staff receive it without walking over to take it. ArtOfMenu's Order plan sends each order straight to the waiter's phone.",
+      "answer": "A QR table ordering system lets guests scan the code on their table, choose items in the digital menu and send the order. With ArtOfMenu's Order plan, the waiter sees it instantly on a live waiter screen on their phone, with a notification. It works alongside your POS and payment terminal and does not replace them. It costs $35 per branch per month.",
+      "steps": {
+        "h2": "From scan to plate",
+        "items": [
+          { "t": "Scan", "d": "The guest at table 7 scans the code, and the menu opens in their phone's language." },
+          { "t": "Choose", "d": "They add a pasta and two glasses of house red, checking the allergens before they decide." },
+          { "t": "Send", "d": "They send the order, and it appears on the waiter's phone instantly, with a notification." },
+          { "t": "Serve", "d": "The waiter passes it to the kitchen the way your team already works, then brings the food." }
+        ]
+      },
+      "sections": [
+        {
+          "h2": "What the waiter sees",
+          "body": [
+            "Orders appear on a live waiter screen on the waiter's phone as they arrive, and notifications mean nobody has to keep checking. The slow part of each visit, waiting to be noticed and then waiting to dictate an order, gets much shorter. A small team can keep up with more tables during the rush."
+          ]
+        },
+        {
+          "h2": "Calls for a waiter, water or the bill",
+          "body": [
+            "Some requests are not orders. On the Smart plan, guests can call a waiter, ask for water or ask for the bill from the menu, and the request reaches staff on their phones. The table that wants to leave no longer has to wait for someone to walk past."
+          ]
+        },
+        {
+          "h2": "Who table ordering suits",
+          "body": [
+            "It fits places where ordering is a bottleneck. It fits less well where ordering is part of the experience, such as a tasting menu a server explains course by course."
+          ],
+          "bullets": [
+            "Lunch spots where every table orders in the same 20 minutes",
+            "Bars and pubs where getting attention for the next round takes too long",
+            "Cafés with table service and a small team",
+            "Places with many visitors who prefer to read and order in their own language"
+          ]
+        },
+        {
+          "h2": "What it does not replace",
+          "body": [
+            "ArtOfMenu is not a POS and not a payment terminal. Guests send orders; you keep taking payment, printing receipts and running the kitchen the way you do now. If you need card payment at the table, plan for it with your payment provider."
+          ]
+        },
+        {
+          "h2": "Stock and order reports",
+          "body": [
+            "The Order plan includes simple stock and order reports, so you can see what was ordered and plan your next purchase. On Smart, recipe-based stock marks items sold out when an ingredient runs out, which stops guests ordering something the kitchen cannot make."
+          ]
+        }
+      ],
+      "features": ["ordering", "multilingual", "stock", "reports"],
+      "faq": [
+        { "q": "What is a table ordering system?", "a": "It is a way for guests to order from their table using a digital menu, usually opened with a QR code. Orders go directly to staff, so the guest does not wait for a waiter to come over and write them down." },
+        { "q": "Do guests need an app to order from the table?", "a": "No. They scan the QR code with the phone camera and order in the browser. The menu opens in the language their phone uses, so visitors can order as easily as your regulars." },
+        { "q": "Does it replace my POS?", "a": "No. ArtOfMenu is not a POS and does not take payments. Orders arrive on the waiter's phone, and your team handles billing, receipts and card payments in the system you already use." },
+        { "q": "Can guests call a waiter or ask for the bill?", "a": "Yes, on the Smart plan. Guests can call a waiter, ask for water or ask for the bill from the menu, and staff are notified on their phones. The Order plan covers ordering itself." },
+        { "q": "How much does a table ordering system cost?", "a": "Table ordering is part of ArtOfMenu's Order plan at $35 per branch per month, or $350 a year with yearly billing. In Europe it costs €29 a month. Smart, at $69, adds calling a waiter from the table." }
+      ],
+      "cta": { "h2": "Spend service on the floor, not at the notepad.", "lead": "Get an email the day ArtOfMenu launches." },
+      "related": ["restaurant", "bar", "smart", "pricing"]
+    },
+
+    "multilingual": {
+      "slug": "multilingual-restaurant-menu",
+      "title": "Multilingual Restaurant Menu for Tourists | ArtOfMenu",
+      "description": "A multilingual menu that opens in each guest's phone language, with allergens and prices in your local currency. Made for tourist areas. From $12.",
+      "eyebrow": "Multilingual menu",
+      "h1": "A multilingual restaurant menu that opens in the guest's language.",
+      "lead": "A multilingual restaurant menu shows each guest the same dishes and prices in their own language. With ArtOfMenu, the QR menu reads the language of the guest's phone and opens in it automatically.",
+      "answer": "A multilingual restaurant menu presents your dishes in several languages so visitors can order without guessing. ArtOfMenu's QR menu detects the language set on the guest's phone and opens in it, with allergen information shown in that language and prices in your local currency. It is included on every plan, from $12 per branch per month.",
+      "sections": [
+        {
+          "h2": "Why language changes what tourists order",
+          "body": [
+            "A visitor who cannot read the menu orders the one dish they recognize, or points at the next table. When the menu is in their language, they can try the regional dish, ask fewer questions and add the dessert they would otherwise have skipped. Your staff spend less time translating at the table during a full service."
+          ]
+        },
+        {
+          "h2": "Language picked from the phone",
+          "body": [
+            "The guest does not have to look for a language option. The menu opens in the language the phone already uses. A German couple sees German, a family from Madrid sees Spanish, and your regulars see the menu as they always do.",
+            "The printed code is the same for everyone, so one table stand serves every guest."
+          ]
+        },
+        {
+          "h2": "Allergens guests can actually read",
+          "body": [
+            "Allergens are where language matters most. A guest with a sesame allergy needs to understand the warning exactly. With ArtOfMenu, allergen information appears with each item in the language the menu opens in."
+          ]
+        },
+        {
+          "h2": "Prices in your currency, set up for your country",
+          "body": [
+            "ArtOfMenu can be set up for 216 countries. Currency, tax display and price rounding are set up per country, so prices look the way they should where you operate, whatever language the menu opens in."
+          ]
+        },
+        {
+          "h2": "Where it matters most",
+          "body": [
+            "Old towns, beach strips, ski villages, streets around stations and museums, and any neighborhood where hotels outnumber offices. Restaurants in Spain, Italy, France, Germany and Turkey see this every summer. In the US and UK, it is often the downtown places near the sights, plus anywhere with international students or business travelers."
+          ]
+        },
+        {
+          "h2": "Tips for a menu that works in any language",
+          "body": ["Automatic language gives guests a clearer menu when the original is written simply."],
+          "bullets": [
+            "Keep dish names short and describe ingredients plainly",
+            "Keep the local name of a signature dish and explain it in one line",
+            "Skip puns and wordplay in descriptions, since they rarely make sense in another language",
+            "Check allergen details every time a recipe changes"
+          ]
+        }
+      ],
+      "features": ["multilingual", "global", "domain", "pdf"],
+      "faq": [
+        { "q": "How does a multilingual QR menu know the guest's language?", "a": "It reads the language setting of the guest's phone. When the guest scans the code, ArtOfMenu opens the menu in that language, so the guest does not have to choose anything first." },
+        { "q": "Is the multilingual menu included in every plan?", "a": "Yes. Automatic language is part of the Menu plan, so it is in Menu, Order and Smart. The Menu plan costs $12 per branch per month, or €9 in Europe." },
+        { "q": "Are allergens shown in the guest's language?", "a": "Yes. Allergen information is part of each item and appears in the language the menu opens in. Keep it up to date when recipes or suppliers change, because the menu is only as reliable as the details you enter." },
+        { "q": "Which currency do guests see?", "a": "Your local currency. ArtOfMenu sets currency, tax display and price rounding per country, across 216 countries, so a tourist sees the same price your regulars see. The language changes with each guest, while the prices stay those of your business." },
+        { "q": "Is a multilingual menu useful outside tourist areas?", "a": "Yes, in any city with international students, business travelers or communities that prefer another language. If even a few tables a night struggle with your menu, automatic language helps them order with confidence." }
+      ],
+      "cta": { "h2": "Welcome every guest in their language.", "lead": "Leave your details and we will write to you at launch." },
+      "related": ["restaurant", "qr-menu", "design", "how-to"]
+    },
+
+    "how-to": {
+      "slug": "how-to-make-a-qr-menu",
+      "title": "How to Make a QR Menu Fast, from Your PDF | ArtOfMenu",
+      "description": "Make a QR code menu step by step: upload your PDF, check prices and allergens, print the code, place table stands and update prices any time.",
+      "eyebrow": "How to",
+      "h1": "How to make a QR menu, fast.",
+      "lead": "To make a QR menu, put your menu online, link a QR code to it and place that code on your tables. With ArtOfMenu you start by uploading the PDF menu you already have.",
+      "answer": "Making a QR code menu takes four basic steps: put the menu online, check prices and allergens, print a QR code that links to it and place the code where guests sit. With ArtOfMenu you upload your existing PDF menu on any plan and go live the same day. The printed code never changes; you update the menu behind it.",
+      "steps": {
+        "h2": "Make your QR menu in six steps",
+        "items": [
+          { "t": "Gather your current menu", "d": "Find the latest PDF, the one with this month's prices. If you only have a design file, export it to PDF first." },
+          { "t": "Upload the PDF", "d": "Upload it to ArtOfMenu. This works on every plan, and the menu can be live the same day." },
+          { "t": "Check prices and allergens", "d": "Go through each item, confirm the price, add allergen information and fix anything that changed since the PDF was made." },
+          { "t": "Add photos where they help", "d": "Start with your top sellers and the dishes guests cannot picture from the name." },
+          { "t": "Print the QR code", "d": "Print it large enough to scan from a seat, in dark ink on a light background, with a short line like “Scan for the menu”." },
+          { "t": "Place it on every table", "d": "Use table stands, stickers or tent cards. Put one near the entrance or queue too, so guests can read the menu before they sit." }
+        ]
+      },
+      "sections": [
+        {
+          "h2": "Before you start: what you need",
+          "body": ["Four things are enough to go live."],
+          "bullets": [
+            "Your current menu as a PDF",
+            "A list of allergens for each item",
+            "A few phone photos of your dishes, if you have them",
+            "Your business's own domain, if you want the menu to open on it"
+          ]
+        },
+        {
+          "h2": "QR menu maker or QR code generator?",
+          "body": [
+            "A QR code generator only makes the code: a square that points to a link. If that link is a PDF file, guests get a document they have to pinch and zoom, and every change means uploading a new file.",
+            "A QR menu maker builds the menu itself, with items, photos, allergens and languages, and you edit it online behind a code that stays the same. ArtOfMenu works this way, starting from your PDF."
+          ]
+        },
+        {
+          "h2": "Printing and placing the code",
+          "body": [
+            "Test the code before you print a batch. Scan it with two or three different phones, in the lighting of your own dining room at night. Avoid glossy laminate that reflects ceiling lights, and on outdoor tables use weatherproof stickers or stands that will not blow over."
+          ]
+        },
+        {
+          "h2": "Updating prices and dishes",
+          "body": [
+            "When a price changes, edit it in the menu, and the next scan shows it. When a dish comes off the menu, remove it. On the Smart plan, recipe-based stock marks items sold out on their own when an ingredient runs out, so you do not have to remember mid-service."
+          ]
+        }
+      ],
+      "features": ["pdf", "domain", "multilingual", "global"],
+      "faq": [
+        { "q": "How do I create a QR code for my menu?", "a": "Put your menu online first, then create a QR code that points to it. With ArtOfMenu, you upload your PDF menu, it goes live on your own domain and you print the code for your tables." },
+        { "q": "Can I just link a QR code to my PDF menu?", "a": "You can, but guests then have to zoom into a document on a small screen, and every change means replacing the file. A QR menu built from your PDF reads properly on phones and lets you edit items one at a time." },
+        { "q": "How long does it take to make a QR menu?", "a": "With ArtOfMenu, you can upload your existing PDF and go live the same day. Adding photos and checking allergens for every item takes longer, but you can do that while the menu is already in use." },
+        { "q": "What size should a QR code be on a table?", "a": "Print a test sheet at a few sizes and scan each one from a seat in your dining room's evening light. Choose the smallest size that scans on the first try with every phone you test, then go a little bigger." },
+        { "q": "Do I need to reprint the QR code when the menu changes?", "a": "No. The QR code on the table stays the same. You change items, prices and photos in ArtOfMenu, and the next guest who scans sees the update. Stands and stickers you print once can stay on the tables." }
+      ],
+      "cta": { "h2": "Your PDF is already half the work.", "lead": "Get notified at launch and put your menu live the same day." },
+      "related": ["qr-menu", "pricing", "design", "multilingual"]
+    },
+
+    "restaurant-sales": {
+      "slug": "how-to-increase-restaurant-sales",
+      "title": "How to Increase Restaurant Sales | ArtOfMenu Guide",
+      "description": "Practical ways to increase restaurant sales without more advertising: menu layout, pricing, average check, table turns, waste and staff.",
+      "eyebrow": "Guide",
+      "h1": "How to increase restaurant sales with what you already have.",
+      "lead": "The most reliable ways to increase restaurant sales come from inside the restaurant: a clearer menu, deliberate prices, a higher average check, faster table turns and less waste. Marketing brings guests in, and these levers decide what each visit is worth.",
+      "answer": "To increase restaurant sales, work on five levers: how many guests you serve, how often tables turn at peak, how much each guest spends, how much food you waste and how well your staff sell. Much of the gain comes from menu layout, pricing and service speed rather than advertising. ArtOfMenu's menu reports and table ordering help with some of these, but the method works on paper too.",
+      "sections": [
+        {
+          "h2": "Know your numbers first",
+          "body": [
+            "Sales are covers multiplied by average check. Before changing anything, write down three figures for a normal week: covers per service, average spend per guest and how many tables you turn more than once at peak. Do this separately for lunch and dinner, and for weekdays and weekends, because they often behave like different businesses.",
+            "Then change one lever at a time and give it two or three weeks. If you change the menu, the prices and the staff rota in the same month, you will not know which change worked."
+          ]
+        },
+        {
+          "h2": "Fix the menu layout",
+          "body": [
+            "Guests read menus quickly. They notice the first items in each section, anything with a photo and anything set apart from the list. Put your most profitable dishes in those spots, and keep the cheapest filler items out of them.",
+            "Cut what does not sell. A long list of mains takes longer to read and longer to cook, and it ties up more stock. A shorter menu of dishes that sell or earn well makes each choice easier.",
+            "On a digital menu you can test this. Move a dish to the top of its section for two weeks and compare the orders. ArtOfMenu's menu reports flag items guests see but rarely open, and items they open but never order, which tells you whether the problem is visibility or the dish itself."
+          ]
+        },
+        {
+          "h2": "Price with intent",
+          "body": [
+            "Look at the contribution margin of each dish: the price minus the cost of its ingredients. A $24 pasta with $5 of ingredients earns $19 a plate, more than a $32 steak with $15 of ingredients. That is why the cheaper dish may deserve the better spot on the menu.",
+            "Raise prices first on dishes guests love and cannot easily compare elsewhere, such as your house specialties. Be careful with items that have an obvious market price, like a well-known bottled beer. Make small changes, a few dishes at a time, and watch orders for several weeks.",
+            "If your demand swings with the weather or special days, ArtOfMenu's Smart plan can set tomorrow's prices each evening inside a minimum and maximum you choose. Prices never change during service."
+          ]
+        },
+        {
+          "h2": "Raise the average check",
+          "body": [
+            "Upselling works when it is specific. “Would you like anything else?” invites a no. “The burrata goes well with that tomato salad” gives the guest something concrete to say yes to."
+          ],
+          "bullets": [
+            "Choose one add-on for each main: a side, a sauce or a glass of wine that suits it",
+            "Make starters and sharing plates easy to add for groups",
+            "Offer dessert and coffee at the right moment, as the main plates are cleared",
+            "Offer a premium version of a top seller, such as a larger cut or an extra topping"
+          ]
+        },
+        {
+          "h2": "Turn tables faster at peak without rushing guests",
+          "body": [
+            "At peak, the slow moments are rarely the meal itself. They are waiting to order, waiting for the check and waiting for the table to be reset. Time each step on a busy night and the gaps usually become obvious.",
+            "Let guests read the menu before they sit. Take drink orders straight away. Bring the check when the dessert plates go. With table ordering, guests send orders when they are ready instead of waiting to catch a server, and on ArtOfMenu's Smart plan they can also ask for the bill from the table.",
+            "Keep peak tactics for peak hours. At 3 pm, a guest who stays for another coffee is adding to the check."
+          ]
+        },
+        {
+          "h2": "Cut waste and protect the margin",
+          "body": [
+            "Every portion you throw away is food you paid for and never sold. Track waste for two weeks: what was thrown away, why and what it cost. Over-prepping, over-ordering and dishes nobody orders are the usual causes.",
+            "Standardize portions with recipe cards and scales, count stock regularly and drop dishes whose ingredients you buy for that dish alone. Our restaurant inventory guide walks through the method step by step."
+          ]
+        },
+        {
+          "h2": "Train staff to sell",
+          "body": [
+            "Your team shapes much of the average check. Let every server taste the menu, give them two dishes to recommend each shift and explain why those dishes matter. A ten-minute briefing before service on what is fresh, what is running low and what to suggest sets the tone for the whole night. Recognize the people who sell well, and pair new staff with them."
+          ]
+        },
+        {
+          "h2": "Bring guests back",
+          "body": [
+            "A returning guest needs no ad to find you. Remember regulars by name, collect email addresses from guests who agree to it and tell them when the seasonal menu changes. Reply to reviews politely and fix what they point to. Steady repeat visits do more for weekly sales than a one-off promotion."
+          ]
+        }
+      ],
+      "features": ["reports", "pairing", "ordering", "pricing", "stock"],
+      "faq": [
+        { "q": "How can I increase restaurant sales without advertising?", "a": "Work on what each visit is worth. Clean up the menu layout, raise prices on dishes guests love, suggest specific add-ons, speed up ordering and payment at peak and cut waste. None of this needs an ad budget, and it affects every guest you already serve." },
+        { "q": "What is the quickest way to raise the average check?", "a": "Specific suggestions. Pair each main with one side or drink and have staff recommend it by name. On a digital menu, show a pairing when a guest adds an item. Dessert and coffee prompts as plates are cleared also help." },
+        { "q": "Should I raise my menu prices?", "a": "Raise them selectively. Start with popular dishes that guests do not easily compare elsewhere, change a few at a time and watch orders for several weeks. Avoid big jumps on items with obvious market prices, such as well-known bottled drinks." },
+        { "q": "How do I know which dishes to remove?", "a": "Compare each dish's popularity with its contribution margin. Dishes that sell little and earn little are the first candidates. Our menu engineering guide explains the full method, including the stars, plowhorses, puzzles and dogs matrix." },
+        { "q": "Does a QR menu increase restaurant sales?", "a": "A QR menu on its own guarantees nothing. It helps when you use it well: putting profitable dishes where guests look, showing photos, suggesting pairings and letting guests order without waiting. ArtOfMenu adds reports that show which items guests ignore." }
+      ],
+      "cta": { "h2": "Put these levers on your menu.", "lead": "Leave your details and we will tell you when ArtOfMenu launches." },
+      "related": ["menu-engineering", "inventory", "ordering", "smart", "restaurant"]
+    },
+
+    "bar-sales": {
+      "slug": "how-to-increase-bar-sales",
+      "title": "How to Increase Bar Sales: A Practical Guide | ArtOfMenu",
+      "description": "Ways to increase bar and pub sales: a sharper drinks menu, a happy hour that pays, faster rounds, premium spirits, food pairing and tighter stock.",
+      "eyebrow": "Guide",
+      "h1": "How to increase bar sales, one round at a time.",
+      "lead": "To increase bar sales, speed up service, build a drinks menu that steers guests toward better-margin drinks and control stock so pour costs stay honest. Each of these can be measured on a normal Friday night.",
+      "answer": "Bar sales grow when guests order more rounds, trade up to better drinks and stay a little longer, while pour costs stay under control. The main levers are a focused drinks menu, faster service, a happy hour that fills quiet hours, premium suggestions, food that suits drinks and accurate stock. ArtOfMenu's table ordering and recipe-based stock help with speed and sold-out drinks.",
+      "sections": [
+        {
+          "h2": "Measure the night before changing it",
+          "body": [
+            "Track three figures for each type of night: guests, average spend per guest and pour cost. Pour cost is the cost of what you poured divided by drink sales, and it tells you whether a busy night actually made money.",
+            "Work it out by category. Draft beer, wine, cocktails and spirits each have their own normal range, and the gap between what your count says you used and what you sold is where money leaks."
+          ]
+        },
+        {
+          "h2": "Build a drinks menu that sells",
+          "body": [
+            "Listing every spirit you stock makes for a long read and a slow decision. Guests choose faster when the menu has a clear structure: signature cocktails, classics, beer by style, wine by the glass and a short spirits section.",
+            "Put your signatures first and give each one a line of ingredients. Signatures are where you set the price, because nobody can compare them with the bar next door. Keep the list short enough that every drink can be made well at speed, and review it each season. Retire drinks that sell slowly and need ingredients nothing else uses."
+          ]
+        },
+        {
+          "h2": "Speed up every round",
+          "body": [
+            "On a busy night, sales are limited by how fast you take orders and pour. Every minute a group waits to order is a minute without the next round."
+          ],
+          "bullets": [
+            "Batch the prep for your top cocktails before service",
+            "Set up stations so the most-ordered bottles are within reach",
+            "Let table guests order without having to wave for attention",
+            "Clear empty glasses quickly and ask about the next round as you do"
+          ]
+        },
+        {
+          "h2": "Run a happy hour that pays",
+          "body": [
+            "Happy hour should fill hours that would otherwise be quiet. If 6 pm is already busy, a discount there only gives margin away. Choose drinks that still earn a healthy margin at the lower price, keep the offer simple and end it before your natural peak.",
+            "Pair it with food. A plate of something salty gives a table a reason to stay for a second drink. Check the rules where you operate first, since some areas restrict drink promotions."
+          ]
+        },
+        {
+          "h2": "Suggest premium spirits naturally",
+          "body": [
+            "When a guest orders a gin and tonic, a server who asks “our house gin, or the one from the local distillery?” turns a basic drink into a premium one with a single question. Train staff on two or three premium options per category and let them taste each one, so the suggestion sounds like advice rather than a script."
+          ]
+        },
+        {
+          "h2": "Sell food that keeps people at the table",
+          "body": [
+            "Salty, shareable food keeps a table ordering: fries, nuts, flatbreads, sliders. It also slows the drinking down, which keeps the evening pleasant for everyone in the room. Put two or three bar snacks right next to the drinks rather than on a separate page.",
+            "On ArtOfMenu's Smart plan, when a guest adds a drink, the menu suggests the item most often ordered with it at your bar."
+          ]
+        },
+        {
+          "h2": "Control stock and pour cost",
+          "body": [
+            "Count spirits weekly, by bottle and estimated fraction, and compare usage with sales. Use jiggers or measured pourers for every drink, including the ones your bartender has made a thousand times.",
+            "Watch the drinks that depend on fresh ingredients. When limes or mint run out mid-service, guests keep ordering what you cannot make. With recipe-based stock on ArtOfMenu's Smart plan, one ingredient running out marks every drink made with it as sold out on its own. On the Order plan, simple stock and order reports show what each night used."
+          ]
+        },
+        {
+          "h2": "Give people a reason to come on a Tuesday",
+          "body": [
+            "Quiet nights need their own plan: a quiz, a local band, a tasting night with a nearby brewery or a weekly food special. Pick one, run it on the same night every week for long enough to build a habit and tell your regulars about it in person."
+          ]
+        }
+      ],
+      "features": ["ordering", "stock", "pairing", "reports", "screens"],
+      "faq": [
+        { "q": "How do I increase beer sales in a bar?", "a": "Keep draft lines clean and beer fresh, describe each beer by style on the menu, offer a tasting flight for undecided guests and rotate one guest tap so regulars have something new. Pair beers with salty snacks and offer a second pint when you clear the first glass." },
+        { "q": "How can I increase liquor sales in a restaurant?", "a": "Suggest a drink with every food order, by name. Train servers on a few wine and cocktail pairings, show drinks next to dishes on the menu and offer a premium spirit when a guest orders a mixed drink." },
+        { "q": "Does happy hour actually increase bar sales?", "a": "It can, if it fills quiet hours and the discounted drinks still earn a margin. It loses money when it discounts hours that would be busy anyway. Check local rules too, since some areas restrict drink promotions." },
+        { "q": "How can I serve drinks faster on busy nights?", "a": "Batch cocktail prep before service, set up stations around your top sellers, keep glassware stocked and let table guests order from their phones. On ArtOfMenu's Order plan, those orders reach staff phones instantly." },
+        { "q": "How often should I count bar inventory?", "a": "Weekly for spirits and wine, plus a full count at the end of every month. Compare what you used with what you sold. Large gaps point to over-pouring, unrecorded comps or breakage." }
+      ],
+      "cta": { "h2": "Keep the bar moving.", "lead": "We will email you when ArtOfMenu launches." },
+      "related": ["bar", "inventory", "ordering", "menu-engineering"]
+    },
+
+    "cafe-sales": {
+      "slug": "how-to-increase-cafe-sales",
+      "title": "How to Increase Cafe Sales and Profit | ArtOfMenu Guide",
+      "description": "How to increase café revenue: a faster morning rush, add-ons, food pairing, weather-ready menus, loyalty and less waste. Practical steps for owners.",
+      "eyebrow": "Guide",
+      "h1": "How to increase cafe sales from the first coffee of the day.",
+      "lead": "To increase café sales, serve the morning rush faster, sell one more item with each coffee and match the menu to the weather and the season. Small changes to the average ticket add up quickly when most tickets are a single drink.",
+      "answer": "Café revenue grows through more tickets at peak times and a higher value per ticket. The practical levers are a faster morning rush, add-ons like extra shots and milk options, food paired with drinks, a menu that follows weather and season, loyalty for regulars and less pastry and milk waste. ArtOfMenu supports some of these with weather-aware menu order and pairing suggestions.",
+      "sections": [
+        {
+          "h2": "Find your real peak",
+          "body": [
+            "In many cafés, a few short windows carry much of the day's takings. Pull your sales in 15-minute blocks for a few weeks and see whether that is true for you. Those windows decide your staffing, your prep and which drinks belong at the top of the menu.",
+            "Compare weekdays with weekends as well. A café near offices and a café near a park can have opposite weeks."
+          ]
+        },
+        {
+          "h2": "Make the morning rush faster",
+          "body": [
+            "In the morning, speed is revenue. A person who sees a queue out the door often walks on to the next café."
+          ],
+          "bullets": [
+            "Put the menu where people can read it while they queue, including a QR code by the line",
+            "Keep the most-ordered drinks at the top and the board short",
+            "Bake and bag the top pastries before opening",
+            "Split roles at peak: one person on orders and payment, one on shots, one on milk and finishing"
+          ]
+        },
+        {
+          "h2": "Sell one more item per ticket",
+          "body": [
+            "A coffee-only ticket is small. A pastry, a second shot or a larger size changes the day's total. Train baristas to suggest one specific item. “Our banana bread is still warm” gives a guest something to say yes to in a way “Anything else?” does not.",
+            "ArtOfMenu's Smart plan does this on the menu itself: when a guest adds a drink, it shows the item most often ordered with it at your branch."
+          ],
+          "bullets": [
+            "Price sizes so the larger one feels like the better deal",
+            "Charge clearly for extras such as oat milk, syrups and extra shots",
+            "Offer a morning drink-and-pastry pairing at a modest saving",
+            "Put food next to the drinks it suits instead of on a separate list"
+          ]
+        },
+        {
+          "h2": "Let the weather set the menu",
+          "body": [
+            "Cafés feel the weather quickly. A cold, wet morning sells hot chocolate, soup and porridge, and a heatwave sells iced drinks. Check the forecast the night before and adjust prep: fewer iced items before a rainy Tuesday, more milk and pastries before a cold weekend.",
+            "On a digital menu, the order can change too. ArtOfMenu's weather-aware order moves hot drinks up when it gets cold, and moves cold drinks and items about to run out down. Prices stay the same throughout the day."
+          ]
+        },
+        {
+          "h2": "Plan seasonal drinks like small launches",
+          "body": [
+            "Seasonal drinks give regulars a reason to try something new, and they carry a price that nobody compares with a standard latte. Plan each one: cost the recipe, set the price, train the team, photograph the drink and decide in advance when it ends. A clear end date gives guests a reason to try it this week."
+          ]
+        },
+        {
+          "h2": "Reward regulars without giving margin away",
+          "body": [
+            "Regulars are the base of a café's income. A stamp card works, and so does remembering a name and an order. If you run a loyalty card, make the reward a visit at a quieter hour or a food item, rather than another drink at the morning peak when you are already full."
+          ]
+        },
+        {
+          "h2": "Cut pastry and milk waste",
+          "body": [
+            "Unsold pastries at closing and milk poured down the drain are two familiar café losses. Track what you throw away each day for two weeks. Bake to your real sales by weekday instead of a fixed number, offer a late-day bundle and use milk pitchers sized to the drink.",
+            "Recipe-based stock on ArtOfMenu's Smart plan marks drinks as sold out when an ingredient such as oat milk runs out, so guests do not order something you cannot make."
+          ]
+        },
+        {
+          "h2": "Use the afternoon",
+          "body": [
+            "Afternoons are often quiet. Think about what your neighborhood wants after 2 pm: a calm place to work, cake and a pot of tea for two, or an early-evening drink if your license allows it. Give that one clear line on the menu and one sign in the window."
+          ]
+        }
+      ],
+      "features": ["weather", "pairing", "stock", "screens", "multilingual"],
+      "faq": [
+        { "q": "How can I increase sales in my cafe?", "a": "Serve the peak faster, suggest one specific item with every drink, match the menu and prep to the weather, plan seasonal drinks with clear end dates and reward regulars at quieter hours. Track waste so the extra sales are not lost to unsold pastries." },
+        { "q": "How do I increase cafe profit, not just revenue?", "a": "Check the margin of every item, since some drinks and foods earn far more than others. Price extras clearly, drop slow items, bake to real demand and check portion sizes, so more of each sale stays with you." },
+        { "q": "Can a small cafe be profitable?", "a": "Yes, when rent, staffing and waste fit the volume you can realistically serve. Small cafés that do well tend to know their peak hours, keep a focused menu, control waste and get regulars to add food to their coffee." },
+        { "q": "Do seasonal drinks increase cafe revenue?", "a": "They can. A seasonal drink gives regulars something new and carries a price that is not compared with a standard latte. Cost it properly, promote it from the first day and set an end date." },
+        { "q": "What should I put next to coffee on the menu?", "a": "Items guests naturally pair: a croissant or banana bread with a latte, a cookie with a cold brew, a sandwich at lunch. Place them beside the drinks, and on a digital menu show the pairing when a guest adds a coffee." }
+      ],
+      "cta": { "h2": "Turn one coffee into a bigger ticket.", "lead": "Leave your details and hear from us at launch." },
+      "related": ["cafe", "smart", "inventory", "menu-engineering"]
+    },
+
+    "menu-engineering": {
+      "slug": "menu-engineering",
+      "title": "Menu Engineering: Matrix, Formula and Steps | ArtOfMenu",
+      "description": "Menu engineering explained: contribution margin, popularity, the stars, plowhorses, puzzles and dogs matrix, plus a worked step-by-step method.",
+      "eyebrow": "Guide",
+      "h1": "Menu engineering, explained step by step.",
+      "lead": "Menu engineering is a method for deciding what to keep, reprice, reposition or remove on your menu by comparing each item's popularity with its contribution margin. You can do it with a spreadsheet and last month's sales.",
+      "answer": "Menu engineering analyzes each menu item on two measures: how popular it is and how much it earns per sale after food cost, known as contribution margin. Items fall into four groups, stars, plowhorses, puzzles and dogs, from the matrix Michael Kasavana and Donald Smith published in 1982. Each group calls for a different action. ArtOfMenu's menu reports add what guests look at but skip.",
+      "sections": [
+        {
+          "h2": "The two numbers that matter",
+          "body": [
+            "Contribution margin is the selling price minus the food cost of one portion. If a risotto sells for $22 and its ingredients cost $6, its contribution margin is $16. Use the price before sales tax or VAT.",
+            "Popularity is the item's share of sales within its category. Compare mains with mains and desserts with desserts, never across categories, because a guest who orders a main is choosing among mains."
+          ]
+        },
+        {
+          "h2": "The menu engineering formula",
+          "body": [
+            "In the original method, an item counts as popular if its share of sales in its category is at least 70% of an equal share. With 10 mains, an equal share is 10%, so a main is popular if it accounts for 7% or more of main-course sales. The 70% line stops items from being labeled unpopular just for being slightly below average.",
+            "For margin, compare each item's contribution margin with the weighted average for its category: the total contribution margin of the category divided by the total number of items sold in it."
+          ]
+        },
+        {
+          "h2": "The menu engineering matrix: four quadrants",
+          "body": [
+            "The labels sound blunt, but they make menu meetings faster, because each one comes with a clear default action."
+          ],
+          "bullets": [
+            "Stars: high popularity, high margin. Keep them visible, keep quality consistent and test small price rises.",
+            "Plowhorses: high popularity, low margin. Raise the price a little, trim the portion cost or pair them with a high-margin side.",
+            "Puzzles: low popularity, high margin. Move them to better spots, rename them, add a photo or have staff recommend them.",
+            "Dogs: low popularity, low margin. Remove them, unless they serve a clear purpose, such as a children's dish or the vegetarian option a group needs."
+          ]
+        },
+        {
+          "h2": "A quick worked example",
+          "body": [
+            "Say your dessert section sold 400 portions last month across five desserts. An equal share is 20%, so the popularity line is 14%, or 56 portions. The tiramisu sold 120 at a $7 margin. The lemon tart sold 40 at a $9 margin. The weighted average margin across all five desserts comes to $6.50.",
+            "The tiramisu is a star: popular and above the average margin. The lemon tart is a puzzle: it earns well but sits below the popularity line, so it needs better placement, a photo or a server's recommendation before you consider removing it."
+          ]
+        },
+        {
+          "h2": "Where layout comes in",
+          "body": [
+            "The spreadsheet tells you what to change, and the layout is where much of the change happens. Puzzles in particular are often a visibility problem. Guests tend to notice the first and last items in a section, items with a photo and items set apart with a box or extra space.",
+            "Describe dishes in concrete terms, and avoid lining prices up in a neat column, which invites guests to scan for the cheapest. On a QR menu, the top of each section is the spot to give your stars and puzzles."
+          ]
+        },
+        {
+          "h2": "What digital menu data adds",
+          "body": [
+            "Classic menu engineering only sees what was sold. A digital menu can also show what guests looked at. ArtOfMenu's menu reports flag two patterns: items that are seen but rarely opened, and items that are opened but never ordered.",
+            "The first usually points to a name, photo or position problem. The second points to what guests see after opening the item: the price, the description or the portion in the photo. For a puzzle, that tells you which fix to try first."
+          ]
+        },
+        {
+          "h2": "Menu engineering and pricing",
+          "body": [
+            "Repricing is one of the main actions the matrix suggests, especially for plowhorses. Make changes in small steps and watch whether popularity holds.",
+            "ArtOfMenu's Smart plan adds daily pricing: each evening it sets tomorrow's prices from the branch location, weather, special days and expected demand, inside the minimum and maximum you set per item. Menu engineering helps you choose those limits. A star can often carry a wider range, while a plowhorse that guests compare with other places may need a narrow one."
+          ]
+        },
+        {
+          "h2": "Common mistakes",
+          "body": ["Most menu engineering errors come from the data that goes into the matrix."],
+          "bullets": [
+            "Using last year's recipe costs after supplier prices have moved",
+            "Comparing items across categories",
+            "Analyzing a period with a holiday or closure that distorts sales",
+            "Changing price, position and description at once, so you cannot tell what worked",
+            "Removing a dog that a regular group orders every week without asking why"
+          ]
+        }
+      ],
+      "steps": {
+        "h2": "How to do menu engineering in seven steps",
+        "items": [
+          { "t": "Pick a period", "d": "Use four to eight normal weeks of sales. Leave out holidays and closures, or analyze them separately." },
+          { "t": "Cost every recipe", "d": "Work out the food cost of one portion of each item, including garnishes and included sides, at current supplier prices." },
+          { "t": "Count items sold", "d": "Pull the number sold for each item from your POS, grouped by category." },
+          { "t": "Calculate contribution margin", "d": "For each item, subtract the portion cost from the price before tax, then multiply by items sold for its total contribution." },
+          { "t": "Set the two thresholds", "d": "Popularity: 70% of an equal share in the category. Margin: total category contribution divided by total items sold." },
+          { "t": "Sort into four groups", "d": "Mark each item as a star, plowhorse, puzzle or dog, and choose one action for each." },
+          { "t": "Change, then measure again", "d": "Make the changes, leave them for at least a month and repeat the analysis with the new sales." }
+        ]
+      },
+      "features": ["reports", "pricing", "pairing", "weather"],
+      "faq": [
+        { "q": "What is menu engineering?", "a": "It is a way of analyzing a menu by each item's popularity and contribution margin, then deciding what to promote, reprice, reposition or remove. Michael Kasavana and Donald Smith set it out in 1982, and it is still widely taught in hospitality courses." },
+        { "q": "What is the menu engineering formula?", "a": "Contribution margin equals selling price minus food cost per portion. An item is popular if its sales share in its category is at least 70% of an equal share. It is high-margin if its contribution margin is above the category's weighted average." },
+        { "q": "What are stars, plowhorses, puzzles and dogs?", "a": "Stars are popular and profitable. Plowhorses are popular but earn little. Puzzles earn well but sell little. Dogs sell little and earn little. Each needs a different action: protect, reprice, reposition or remove." },
+        { "q": "How often should I do menu engineering?", "a": "Every quarter is a practical rhythm, plus after any major supplier price change or menu update. If you run seasonal menus, analyze each one at the end of its season." },
+        { "q": "Can I do a menu engineering worksheet in Excel?", "a": "Yes. A spreadsheet with item, category, items sold, price, portion cost and contribution margin is enough. Add two formulas for the thresholds and one column for the quadrant, then refresh it each quarter with new sales and costs." }
+      ],
+      "cta": { "h2": "See what your menu is telling you.", "lead": "Hear from us the day ArtOfMenu launches." },
+      "related": ["restaurant-sales", "smart", "design", "inventory"]
+    },
+
+    "inventory": {
+      "slug": "restaurant-inventory-management",
+      "title": "Restaurant Inventory Management: Step by Step | ArtOfMenu",
+      "description": "A practical guide to restaurant inventory: counting, recipe costing, par levels, FIFO and waste tracking, plus recipe stock that marks items sold out.",
+      "eyebrow": "Guide",
+      "h1": "Restaurant inventory management, done properly.",
+      "lead": "Restaurant inventory management means knowing what you have, what you should have used and what you actually used, then closing the gap between the last two. It rests on regular counts, costed recipes, par levels and first-in, first-out storage.",
+      "answer": "Restaurant inventory management is the routine of counting stock, costing recipes, setting par levels and rotating stock first in, first out, so food cost matches sales. The core check compares what your recipes say you used with what the count shows. ArtOfMenu's Order plan includes simple stock reports, and its Smart plan uses recipe-based stock to mark items sold out when an ingredient runs out.",
+      "sections": [
+        {
+          "h2": "Why inventory decides your food cost",
+          "body": [
+            "Food cost percentage is the cost of food used divided by food sales. The cost of food used is opening stock plus purchases minus closing stock. Without an accurate count at both ends, that number is a guess, and every pricing decision built on it carries the same error."
+          ]
+        },
+        {
+          "h2": "Set up for counting",
+          "body": [
+            "A count is only quick if the storeroom is arranged for it. Lay out the count sheet in the same order as the shelves, from the walk-in to dry storage to the bar. Use one unit per item and stick to it: count olive oil by the bottle every time, never by the case one week and the bottle the next.",
+            "Count high-value and fast-moving items, such as proteins, dairy and spirits, every week. Count everything once a month. Have the same two people count, on the same day and at the same time, before deliveries arrive."
+          ]
+        },
+        {
+          "h2": "Cost every recipe",
+          "body": [
+            "A recipe card lists every ingredient in a dish with its quantity and cost. Use the usable yield, not the purchase weight. A case of whole fish or a bunch of herbs loses weight in trimming, so the real cost per ounce is higher than the invoice suggests.",
+            "Recheck the cards whenever an invoice price moves noticeably. A recipe card is only useful while its prices are current."
+          ]
+        },
+        {
+          "h2": "Set par levels",
+          "body": [
+            "A par level is the amount of an item you want on hand to last until the next delivery, plus a safety buffer. A simple formula: average daily usage × days between deliveries + safety stock.",
+            "If you use 12 lb of chicken thighs a day, get deliveries every 3 days and want one day of buffer, your par is 12 × 3 + 12 = 48 lb. When you order, order up to par: with 18 lb on the shelf, order 30. Review pars monthly and before the season turns, because opening the terrace in May changes your usage."
+          ]
+        },
+        {
+          "h2": "Store first in, first out",
+          "body": [
+            "FIFO means the oldest stock is used first. Put new deliveries behind existing stock, label every container with the date it arrived or was prepped and check dates on every shift. It reduces spoilage and keeps food safe, and it makes the walk-in easier to count."
+          ]
+        },
+        {
+          "h2": "Track waste and variance",
+          "body": [
+            "Keep a waste sheet in the kitchen with the item, quantity, reason (spoiled, over-prepped, dropped, sent back) and who logged it. Two weeks of honest entries show patterns nobody notices day to day.",
+            "Then compare theoretical usage with actual usage. Theoretical usage is items sold multiplied by recipe quantities. Actual usage is opening stock plus purchases minus closing stock. The difference, called variance, comes from portioning, waste, theft or counting errors. Investigate the largest variances by value first."
+          ]
+        },
+        {
+          "h2": "Keep the menu in step with stock",
+          "body": [
+            "A guest who orders a dish and hears ten minutes later that it is gone has a worse evening, and the server has an awkward conversation. When an ingredient runs out, every dish that uses it should come off the menu at once.",
+            "ArtOfMenu's Smart plan does this with recipe-based stock: link each item to its ingredients, and when one runs out, every item made with it shows as sold out on its own. Its weather-aware order also moves items that are about to run out further down the menu. On the Order plan, simple stock and order reports help you see what moved and plan purchases."
+          ]
+        },
+        {
+          "h2": "Spreadsheet or software?",
+          "body": [
+            "A spreadsheet works for one location with a stable menu: one tab for the count, one for recipe costs and one for par levels. Software starts to earn its cost when you run several branches, change the menu often or want the team to count on a phone. Either way, the weekly routine is what keeps the numbers right."
+          ]
+        }
+      ],
+      "steps": {
+        "h2": "Set up inventory control in seven steps",
+        "items": [
+          { "t": "List every item", "d": "Write down everything you buy, grouped by storage area, with one counting unit for each." },
+          { "t": "Do a full opening count", "d": "Count everything before service on a fixed day and record the value at current invoice prices." },
+          { "t": "Cost your recipes", "d": "Build a recipe card for each dish with quantities, yields and ingredient costs." },
+          { "t": "Set par levels", "d": "Use daily usage × days between deliveries + safety stock, and always order up to par." },
+          { "t": "Label and rotate", "d": "Date every delivery and prep container, and store new stock behind old." },
+          { "t": "Log waste daily", "d": "Record what is thrown away and why, on a sheet kept where the waste happens." },
+          { "t": "Compare and correct", "d": "Each week, compare theoretical with actual usage and act on the largest gaps first." }
+        ]
+      },
+      "features": ["stock", "reports", "weather", "ordering"],
+      "faq": [
+        { "q": "What is restaurant inventory management?", "a": "It is the process of tracking the food and drink you buy, store and use, so you order the right amounts, waste less and know your real food cost. It covers counting, recipe costing, par levels, stock rotation and waste tracking." },
+        { "q": "How often should a restaurant do inventory?", "a": "Count high-value and fast-moving items, such as proteins, dairy and spirits, weekly. Do a full count of everything at least monthly, on the same day and at the same time, before deliveries arrive." },
+        { "q": "How do I calculate par levels?", "a": "Multiply average daily usage by the number of days between deliveries, then add safety stock. When ordering, order the difference between your par level and what you have on hand." },
+        { "q": "What is the FIFO method in a restaurant?", "a": "First in, first out: older stock is used before newer stock. Store new deliveries behind existing ones and label everything with a date. It reduces spoilage and keeps food safe." },
+        { "q": "Can I manage restaurant inventory in Excel?", "a": "Yes, for a single location with a stable menu. Use one sheet for counts, one for recipe costs and one for par levels. Software becomes more useful with several branches or a menu that changes often." },
+        { "q": "Can stock levels update my menu automatically?", "a": "With ArtOfMenu's Smart plan, yes. Recipe-based stock links each item to its ingredients. When an ingredient runs out, every item made with it shows as sold out on the menu on its own." }
+      ],
+      "cta": { "h2": "Stop selling what the kitchen has run out of.", "lead": "We will let you know when ArtOfMenu launches." },
+      "related": ["menu-engineering", "restaurant-sales", "bar-sales", "ordering"]
+    }
+  }
+}

@@ -28,8 +28,8 @@ p { margin: 0; }
 ol { margin: 0; padding: 0; list-style: none; }
 
 /* ---------- Runway and pinned stage ---------- */
-/* 55svh of scroll per hour: one flick moves on to the next hour */
-.day { position: relative; height: calc(100svh + 330svh); height: calc(100lvh + 330svh); }
+/* 85svh of scroll per hour: each hour holds still for a while, then moves on at an easy pace */
+.day { position: relative; height: calc(100svh + 510svh); height: calc(100lvh + 510svh); }
 
 .stage {
   position: sticky; top: 0;
@@ -354,6 +354,9 @@ main { background: #1C1F55; }
 .footer-links a, .footer-copy a { color: #F5F5F7; text-decoration: none; font-weight: 500; }
 .footer-links a:hover, .footer-copy a:hover { text-decoration: underline; text-underline-offset: 4px; }
 .footer-links a:focus-visible, .footer-copy a:focus-visible, .footer-logo:focus-visible { outline: 3px solid #8EA2FF; outline-offset: 4px; border-radius: 6px; }
+.footer-seo { width: 100%; display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 13.5px; }
+.footer-seo a { color: rgba(245,245,247,.72); text-decoration: none; }
+.footer-seo a:hover { color: #F5F5F7; text-decoration: underline; text-underline-offset: 3px; }
 .footer-copy { width: 100%; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.08); font-size: 13px; }
 
 /* A small glass tab that jumps to the plans */

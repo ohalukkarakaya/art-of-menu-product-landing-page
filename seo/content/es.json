@@ -1,0 +1,1660 @@
+{
+  "lang": "es",
+  "ui": {
+    "langName": "Español",
+    "home": "Inicio",
+    "notify": "Avísame cuando salga",
+    "pricing": "Precios",
+    "soon": "Próximamente",
+    "answerLabel": "En resumen",
+    "featuresTitle": "Lo que ArtOfMenu aporta aquí",
+    "faqTitle": "Preguntas frecuentes",
+    "relatedTitle": "Páginas relacionadas",
+    "allPages": "Todas las páginas",
+    "plansTitle": "Planes",
+    "plansLead": "Precio por local y mes. Con el pago anual pagas 10 meses y usas 12.",
+    "perBranch": "por local",
+    "from": "desde",
+    "footerTagline": "Carta QR, pedidos desde la mesa y precios inteligentes para cafeterías, restaurantes, bares y pastelerías.",
+    "languages": "Idiomas",
+    "skip": "Saltar al contenido",
+    "features": {
+      "multilingual": {
+        "t": "La carta en su idioma",
+        "d": "La carta se abre en el idioma del móvil de cada cliente, con fotos y alérgenos."
+      },
+      "ordering": {
+        "t": "Pedidos desde la mesa",
+        "d": "El cliente pide desde la carta y el camarero ve el pedido al instante en su móvil."
+      },
+      "weather": {
+        "t": "Orden según el tiempo",
+        "d": "Si refresca, las bebidas calientes suben y lo frío baja. Durante el día solo cambia el orden."
+      },
+      "pairing": {
+        "t": "Sugerencias “Va bien con”",
+        "d": "Al añadir un plato, la carta muestra lo que más se pide con él en ese local."
+      },
+      "pricing": {
+        "t": "Precios inteligentes diarios",
+        "d": "Cada noche fija los precios de mañana dentro del mínimo y el máximo que tú decides."
+      },
+      "pdf": {
+        "t": "Sube tu carta en PDF",
+        "d": "Sube el PDF que ya tienes y publica la carta el mismo día."
+      },
+      "stock": {
+        "t": "Stock por receta",
+        "d": "Si se acaba un ingrediente, todos los platos que lo llevan aparecen como agotados."
+      },
+      "reports": {
+        "t": "Informes de la carta",
+        "d": "Señala los platos que se ven pero casi no se abren y los que se abren pero nunca se piden."
+      },
+      "screens": {
+        "t": "Pantallas en la barra",
+        "d": "La carta en monitores detrás de la barra; varias pantallas pasan página a la vez."
+      },
+      "domain": {
+        "t": "Tu propio dominio",
+        "d": "La carta se abre en el dominio de tu local, con tu nombre en la dirección."
+      },
+      "global": {
+        "t": "216 países, tu moneda",
+        "d": "Moneda, impuestos y redondeo de precios ajustados al país de cada local."
+      }
+    },
+    "plans": {
+      "menu": {
+        "tag": "La carta QR completa",
+        "items": [
+          "Carta QR con fotos y alérgenos",
+          "Idioma automático según el móvil",
+          "Tu propio dominio",
+          "Subida de carta en PDF",
+          "Estadísticas anónimas"
+        ]
+      },
+      "order": {
+        "tag": "Para pedir desde la mesa",
+        "items": [
+          "Todo lo del plan Menu",
+          "Pedidos desde la mesa",
+          "Pantalla y avisos para camareros",
+          "Informes sencillos de stock y pedidos"
+        ]
+      },
+      "smart": {
+        "tag": "Para vender con datos",
+        "items": [
+          "Todo lo del plan Order",
+          "Precios inteligentes diarios y calendario de fechas especiales",
+          "Pedidos en directo y “Va bien con”",
+          "Llamada desde la mesa",
+          "Stock por receta",
+          "Pantallas de barra"
+        ]
+      }
+    }
+  },
+  "pages": {
+    "qr-menu": {
+      "slug": "carta-qr",
+      "title": "Carta QR y menú QR para tu local | ArtOfMenu",
+      "description": "Qué es una carta QR, qué hace la de ArtOfMenu y para qué locales sirve: idiomas, alérgenos, pedidos desde la mesa y precio por local.",
+      "eyebrow": "Carta QR",
+      "h1": "Carta QR para restaurantes, bares y cafeterías",
+      "lead": "Una carta QR es la carta de tu local en el móvil del cliente: escanea el código de la mesa y la ve al momento, con fotos, precios y alérgenos. ArtOfMenu le suma el idioma automático, los pedidos desde la mesa y una carta que se ordena sola según el día.",
+      "answer": "Una carta QR, o menú QR, es una carta digital que el cliente abre escaneando con el móvil un código impreso en la mesa. ArtOfMenu es un servicio de carta QR para cafeterías, restaurantes, bares y pastelerías: muestra cada plato con foto y alérgenos en el idioma del teléfono del cliente, y el dueño cambia la carta cuando quiere sin reimprimir el código.",
+      "sections": [
+        {
+          "h2": "Qué es una carta QR y cómo la usa el cliente",
+          "body": [
+            "El cliente se sienta, apunta la cámara al código de la mesa y la carta se abre en su pantalla. Ve las secciones, toca un plato y aparecen la foto, la descripción, el precio y los alérgenos. Si viene de Lyon, la lee en francés.",
+            "Para ti, lo que cambia es la gestión. El código impreso no cambia nunca. Cambias la carta que hay detrás, sea un precio o el plato del día, y todas las mesas lo ven."
+          ]
+        },
+        {
+          "h2": "Qué hace la carta QR de ArtOfMenu",
+          "body": [
+            "El plan Menu cubre lo básico; Order y Smart añaden pedidos, stock y precios diarios."
+          ],
+          "bullets": [
+            "Fotos de producto e información de alérgenos en cada plato.",
+            "La carta se abre en el idioma del móvil del cliente.",
+            "Subes la carta en PDF que ya tienes y la publicas el mismo día.",
+            "La carta se abre en el dominio propio de tu local.",
+            "Moneda, impuestos y redondeo de precios configurados para 216 países.",
+            "Estadísticas anónimas e informes que señalan los platos que se ven pero casi no se abren, y los que se abren pero nunca se piden.",
+            "Con el plan Order, el cliente pide desde la mesa y el camarero lo recibe en su móvil."
+          ]
+        },
+        {
+          "h2": "Para qué tipo de local sirve",
+          "body": [
+            "En un restaurante con entrantes, principales y postres, la carta QR ordena muchos platos sin que nadie tenga que pasar páginas plastificadas. En un bar de tapas o de copas, el cliente pide otra ronda o llama al camarero desde la mesa. En una cafetería, la carta sube los cafés calientes cuando refresca y sugiere el dulce que más se pide con cada bebida."
+          ]
+        },
+        {
+          "h2": "Menú QR y carta impresa: cómo conviven",
+          "body": [
+            "Hay clientes que no quieren sacar el móvil o que se han quedado sin batería. Conviene tener siempre una carta impresa, con precios y alérgenos, para quien la pida. La carta QR lleva el peso del servicio diario y la impresa queda como respaldo.",
+            "Al cambiar un precio, reimprimes esa copia cuando te venga bien, no todas las cartas de la sala."
+          ]
+        },
+        {
+          "h2": "Lo que ArtOfMenu no hace",
+          "body": [
+            "La carta usa un diseño limpio con tus fotos y tu marca; ArtOfMenu no ofrece plantillas de temas ni servicio de diseño, y tampoco admite tu propio HTML o CSS. ArtOfMenu no es un TPV ni un datáfono, así que el cobro sigue en tu caja. Y no hay plan gratuito ni periodo de prueba."
+          ]
+        }
+      ],
+      "features": [
+        "multilingual",
+        "pdf",
+        "domain",
+        "ordering",
+        "reports",
+        "global"
+      ],
+      "faq": [
+        {
+          "q": "¿Qué es un menú QR?",
+          "a": "Es la carta de un local en formato digital, a la que el cliente entra escaneando con el móvil un código QR impreso en la mesa o en un expositor. En España se dice más a menudo carta QR; en Latinoamérica, menú QR. Es lo mismo."
+        },
+        {
+          "q": "¿Puedo cambiar precios sin imprimir un QR nuevo?",
+          "a": "Sí. El código de la mesa no cambia nunca. Cambias la carta en ArtOfMenu y en el siguiente escaneo el cliente ya ve el precio nuevo, el plato del día o el postre que has quitado."
+        },
+        {
+          "q": "¿Una carta QR sirve para informar de los alérgenos?",
+          "a": "ArtOfMenu muestra la información de alérgenos en cada plato. Mantenerla correcta es responsabilidad del local, y conviene ofrecer también la información en papel o de palabra a quien no use el móvil."
+        },
+        {
+          "q": "¿Qué datos guarda de mis clientes?",
+          "a": "Ninguno que los identifique. ArtOfMenu no usa cookies ni identificadores persistentes para los clientes y no guarda su dirección IP. Las estadísticas que ves de tu carta son anónimas: te dicen qué platos se miran y se piden, no quién lo hace."
+        },
+        {
+          "q": "¿Cuándo sale ArtOfMenu?",
+          "a": "Todavía no está disponible y no hay fecha cerrada. Si dejas tu nombre, tu correo, el enlace de Google Maps de tu local y el plan que te interesa, te escribimos en cuanto salga para que puedas empezar."
+        }
+      ],
+      "cta": {
+        "h2": "Tu carta QR, lista el día que salga",
+        "lead": "Déjanos tu correo y el enlace de Google Maps de tu local, y te avisamos en cuanto ArtOfMenu esté disponible."
+      },
+      "related": [
+        "restaurant",
+        "cafe",
+        "bar",
+        "pricing",
+        "how-to"
+      ]
+    },
+    "pricing": {
+      "slug": "precio-menu-qr",
+      "title": "Precio de un menú QR: planes desde 9 € | ArtOfMenu",
+      "description": "Cuánto cuesta una carta QR: qué incluye cada plan de ArtOfMenu, por qué se paga por local y cuánto ahorras con el pago anual.",
+      "eyebrow": "Precios",
+      "h1": "¿Cuánto cuesta un menú QR?",
+      "lead": "Con ArtOfMenu, un menú QR cuesta 9 € al mes por local con el plan Menu, 29 € con Order y 59 € con Smart. Si pagas el año entero, pagas 10 meses y usas 12.",
+      "answer": "El precio de un menú QR depende de lo que haga además de mostrar la carta: pedidos desde la mesa, control de stock o precios que se ajustan cada día suben el coste. ArtOfMenu cobra por local y mes: 9 € el plan Menu, 29 € el plan Order y 59 € el plan Smart. El pago anual equivale a 10 meses por 12.",
+      "sections": [
+        {
+          "h2": "Qué hace que una carta QR cueste más o menos",
+          "body": [
+            "La diferencia de precio viene de lo que pasa después de que el cliente abre la carta."
+          ],
+          "bullets": [
+            "Si el cliente solo consulta o también pide desde la mesa.",
+            "Si el camarero recibe los pedidos en su móvil.",
+            "Si hay control de stock, sencillo o por receta.",
+            "Si los precios son fijos o se ajustan cada día dentro de tus límites.",
+            "Cuántos locales tienes, porque el precio es por local."
+          ]
+        },
+        {
+          "h2": "Qué incluye cada plan",
+          "body": [
+            "Menu (9 € al mes) es la carta QR completa: fotos, alérgenos, idioma automático, tu propio dominio, subida de carta en PDF y estadísticas anónimas. Es suficiente si tus camareros toman nota como siempre y solo quieres dejar de reimprimir cartas.",
+            "Order (29 € al mes) añade pedidos desde la mesa, la pantalla y los avisos del camarero en su móvil, e informes sencillos de stock y pedidos. Tiene sentido cuando la sala se llena y los camareros no llegan a todas las mesas.",
+            "Smart (59 € al mes) suma los precios inteligentes diarios con calendario de fechas especiales, los pedidos en directo con la sugerencia “Va bien con”, la llamada desde la mesa, el stock por receta y las pantallas detrás de la barra."
+          ]
+        },
+        {
+          "h2": "Pago anual: cuánto ahorras",
+          "body": [
+            "Con el pago anual, el año te cuesta lo mismo que 10 meses. En números: Menu pasa de 108 € a 90 € al año, Order de 348 € a 290 € y Smart de 708 € a 590 €, siempre por local.",
+            "Si tienes una terraza de temporada que abre solo en verano, quizá te compense el pago mensual. Si abres todo el año, el anual te ahorra dos meses."
+          ]
+        },
+        {
+          "h2": "Imprimir cartas o pagar un software: haz tus cuentas",
+          "body": [
+            "La comparación honesta depende de tu local. Apunta cuántas veces reimprimiste la carta el último año: por una subida de precios, por los platos de temporada, por una errata o porque las cartas se estropean con el uso. Multiplica por lo que te cobra tu imprenta y compáralo con 108 € al año del plan Menu.",
+            "Si tu carta casi no cambia y apenas recibes turistas, una carta impresa puede bastarte. Si cambias precios a menudo, tienes clientes de otros países o quieres saber qué platos se miran y no se piden, la carta QR te da cosas que el papel no puede dar."
+          ]
+        },
+        {
+          "h2": "Cancelar, cambiar de plan y tus datos",
+          "body": [
+            "Cancelas en un solo paso y sigues usando el servicio hasta que termine el periodo que has pagado. Si pasas a un plan más pequeño, tus datos se quedan donde estaban. Y los precios de tu local nunca se comparten con otros negocios."
+          ]
+        }
+      ],
+      "features": [
+        "pdf",
+        "ordering",
+        "pricing",
+        "stock",
+        "domain"
+      ],
+      "faq": [
+        {
+          "q": "¿Hay un plan gratuito o un periodo de prueba?",
+          "a": "No. ArtOfMenu no tiene plan gratuito ni periodo de prueba. El plan más sencillo, Menu, cuesta 9 € al mes por local, o 90 € al año con el pago anual, e incluye ya la carta QR completa con fotos, alérgenos e idiomas."
+        },
+        {
+          "q": "¿El precio es por local o por cuenta?",
+          "a": "Por local. Si tienes dos cafeterías, cada una tiene su propio plan, y cada local puede tener un plan distinto según lo que necesite: por ejemplo, Menu en la pequeña y Order en la que tiene terraza."
+        },
+        {
+          "q": "¿Hay permanencia?",
+          "a": "No hay que esperar a ninguna fecha para irte. Cancelas en un solo paso y sigues usando ArtOfMenu hasta el final del periodo que ya has pagado, sea un mes o un año completo."
+        },
+        {
+          "q": "¿Qué plan me conviene si solo quiero la carta?",
+          "a": "El plan Menu. Tiene la carta QR con fotos y alérgenos, idioma automático, dominio propio, subida de PDF y estadísticas anónimas. Los pedidos desde la mesa empiezan en el plan Order."
+        },
+        {
+          "q": "¿Qué pasa con mis datos si bajo de plan?",
+          "a": "Se mantienen. Al pasar a un plan más pequeño dejas de usar las funciones que solo tiene el plan anterior, pero tu carta, tus platos y tus datos siguen ahí, sin que tengas que volver a subirlos."
+        }
+      ],
+      "cta": {
+        "h2": "Elige plan y te avisamos al salir",
+        "lead": "Dinos qué plan te interesa y te escribimos cuando ArtOfMenu esté disponible para tu local."
+      },
+      "related": [
+        "qr-menu",
+        "how-to",
+        "ordering",
+        "smart"
+      ]
+    },
+    "restaurant": {
+      "slug": "menu-qr-restaurante",
+      "title": "Menú QR para restaurantes | ArtOfMenu",
+      "description": "Una carta QR pensada para restaurantes: muchos platos bien ordenados, alérgenos claros, clientes extranjeros y pedidos desde la mesa al mediodía.",
+      "eyebrow": "Restaurantes",
+      "h1": "Menú QR para restaurantes",
+      "lead": "Un menú QR para restaurantes tiene que ordenar muchos platos por secciones, mostrar los alérgenos con claridad y aguantar el servicio de mediodía con la sala llena. ArtOfMenu está pensado para esas tres cosas.",
+      "answer": "Un menú QR para restaurantes es una carta digital que el cliente abre desde la mesa con el móvil y que organiza entrantes, principales, postres y bebidas con foto, precio y alérgenos. ArtOfMenu añade el idioma automático para clientes extranjeros, los pedidos desde la mesa con aviso al camarero y unos informes que muestran qué platos se miran y no se piden.",
+      "sections": [
+        {
+          "h2": "Una carta larga que se lee bien en el móvil",
+          "body": [
+            "Una carta de restaurante puede tener cuarenta o cincuenta referencias. En papel, eso son varias páginas. En el móvil, el cliente va por secciones: entrantes, arroces, carnes, pescados, postres, vinos. Toca un plato y ve la foto y la descripción completa, sin que la página se llene de texto.",
+            "Cuando cambias la carta por temporada, quitas los platos de verano y subes los de invierno. El QR de la mesa sigue siendo el mismo."
+          ]
+        },
+        {
+          "h2": "Alérgenos a la vista en cada plato",
+          "body": [
+            "En la Unión Europea, los restaurantes deben informar de los 14 alérgenos de declaración obligatoria. Con ArtOfMenu, cada plato muestra su información de alérgenos junto a la foto, así que la persona con intolerancia al gluten lo ve antes de preguntar.",
+            "El camarero sigue siendo quien confirma con cocina si hay dudas. La carta le ahorra explicar lo mismo en cada mesa y deja tiempo para lo que de verdad requiere atención."
+          ]
+        },
+        {
+          "h2": "Mesas con clientes de otros países",
+          "body": [
+            "Una pareja alemana en la mesa 6 abre la carta y la lee en alemán, porque la carta toma el idioma de su teléfono. No hace falta una carta en inglés para cada mesa ni que el camarero traduzca la diferencia entre secreto y presa.",
+            "Los precios salen en la moneda de tu local, con el formato de impuestos y el redondeo de tu país."
+          ]
+        },
+        {
+          "h2": "Pedidos desde la mesa en el menú del día",
+          "body": [
+            "A las dos y media, con la sala llena, cada minuto que una mesa espera para pedir es un minuto que la mesa siguiente espera para sentarse. Con el plan Order, el cliente elige y envía el pedido desde la carta. El camarero lo ve al momento en su móvil y lo pasa a cocina.",
+            "Desde la mesa también se puede llamar al camarero, pedir agua o pedir la cuenta. El camarero sigue en la sala; lo que desaparece es la espera para que te vean levantar la mano."
+          ]
+        },
+        {
+          "h2": "Saber qué platos funcionan",
+          "body": [
+            "Las estadísticas anónimas y los informes de la carta señalan dos cosas útiles. Los platos que se ven pero casi nadie abre, que quizá necesitan otra foto o un sitio mejor en la carta. Y los que se abren pero nunca se piden, donde el precio o la descripción frenan al cliente."
+          ]
+        }
+      ],
+      "features": [
+        "multilingual",
+        "ordering",
+        "reports",
+        "global",
+        "pdf"
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo poner el menú del día en la carta QR?",
+          "a": "Sí. Actualizas la carta cada vez que cambias los platos del día y el cliente los ve en el siguiente escaneo. El código de la mesa no cambia, así que no hay que imprimir nada nuevo cada mañana."
+        },
+        {
+          "q": "¿Cómo se muestran los alérgenos?",
+          "a": "Cada plato lleva su información de alérgenos junto a la foto y la descripción. La carta se abre en el idioma del cliente, así que un turista también la entiende."
+        },
+        {
+          "q": "¿Sustituye al TPV del restaurante?",
+          "a": "No. ArtOfMenu recibe los pedidos de las mesas y avisa al camarero, pero no es un TPV ni un datáfono y no cobra. La cuenta se sigue cobrando en tu caja, con tu sistema de siempre."
+        },
+        {
+          "q": "¿Sirve si tengo varios restaurantes?",
+          "a": "Sí. El precio es por local y cada restaurante tiene su propia carta, su moneda y su configuración de impuestos y redondeo, también si están en países distintos. Cada uno puede tener el plan que le encaje."
+        },
+        {
+          "q": "¿Mis clientes tienen que dar sus datos?",
+          "a": "No. Escanean el código y ven la carta. ArtOfMenu no usa cookies ni identificadores persistentes para los clientes y no guarda su IP. Las estadísticas que ves de tu carta son anónimas."
+        }
+      ],
+      "cta": {
+        "h2": "La carta de tu restaurante, en cada móvil",
+        "lead": "Déjanos el enlace de Google Maps de tu restaurante y te avisamos cuando ArtOfMenu salga."
+      },
+      "related": [
+        "ordering",
+        "multilingual",
+        "restaurant-sales",
+        "menu-engineering"
+      ]
+    },
+    "cafe": {
+      "slug": "carta-qr-cafeteria",
+      "title": "Carta QR para cafeterías | ArtOfMenu",
+      "description": "Carta QR para cafeterías y pastelerías: desayunos rápidos, bebidas de temporada, el dulce que va con cada café y una carta que se ordena con el tiempo.",
+      "eyebrow": "Cafeterías",
+      "h1": "Carta QR para cafeterías y coffee shops",
+      "lead": "Una carta QR para cafeterías tiene que funcionar a las nueve de la mañana, cuando todo el mundo quiere su café ya. ArtOfMenu además pone arriba lo que apetece según el tiempo y propone el dulce que mejor acompaña a cada bebida.",
+      "answer": "Una carta QR para cafeterías es una carta digital que el cliente abre desde la mesa o la barra con el móvil, con cafés, desayunos y bollería con foto y alérgenos. ArtOfMenu la ordena según el tiempo, sube los cafés calientes cuando refresca, y en el plan Smart sugiere el producto que más se pide con cada bebida en ese local.",
+      "sections": [
+        {
+          "h2": "La hora del desayuno sin colas en la barra",
+          "body": [
+            "Entre las ocho y las diez, la barra decide cuánto vendes. Si el cliente de la mesa tiene que esperar a que alguien le tome nota, se toma el café y se va sin la tostada. Con el plan Order, pide desde la carta y el pedido llega al móvil del camarero en ese mismo momento.",
+            "Quien prefiere pedir en la barra lo sigue haciendo. Lo que cambia es que las mesas dejan de competir con la cola."
+          ]
+        },
+        {
+          "h2": "Bebidas de temporada sin reimprimir",
+          "body": [
+            "La horchata en julio, el chocolate a la taza en enero, el café con hielo cuando aprieta el calor. En papel, cada cambio de temporada es una carta nueva. En la carta QR, añades la bebida, le pones foto y la quitas cuando acaba la temporada.",
+            "Lo mismo pasa con un bizcocho que solo haces los fines de semana o con la nueva leche vegetal que acabas de incorporar."
+          ]
+        },
+        {
+          "h2": "El tiempo decide qué sale arriba",
+          "body": [
+            "Un martes de lluvia en noviembre nadie busca un granizado. Cuando hace frío, ArtOfMenu sube las bebidas calientes en la carta y baja las frías, igual que los productos que están a punto de acabarse. Durante el día solo cambia el orden. El precio sigue igual."
+          ]
+        },
+        {
+          "h2": "Un dulce con el café",
+          "body": [
+            "Con el plan Smart, cuando el cliente añade un capuchino, la carta le muestra el producto que más se pide con el capuchino en tu cafetería. Puede ser el croissant o puede ser la tarta de queso. Lo decide lo que se pide en tu local.",
+            "Es la pregunta que haría un buen camarero, “¿te pongo algo para acompañar?”, en el momento justo y sin insistir."
+          ]
+        },
+        {
+          "h2": "Pantallas detrás de la barra",
+          "body": [
+            "Si tienes clientes que piden para llevar, la carta puede verse en monitores detrás de la barra. Con varias pantallas, pasan de página a la vez. Es la misma carta que ven las mesas, así que un cambio de precio aparece en todas partes."
+          ]
+        }
+      ],
+      "features": [
+        "weather",
+        "pairing",
+        "ordering",
+        "screens",
+        "stock"
+      ],
+      "faq": [
+        {
+          "q": "¿Sirve para una cafetería pequeña con barra y pocas mesas?",
+          "a": "Sí. El plan Menu, a 9 € al mes, cubre la carta QR con fotos, alérgenos e idiomas. Si no necesitas pedidos desde la mesa, no tienes por qué pagarlos."
+        },
+        {
+          "q": "¿Cambian los precios cuando hace frío?",
+          "a": "No. Durante el día el tiempo solo cambia el orden de la carta. Con el plan Smart, los precios del día siguiente se fijan por la noche, dentro del mínimo y el máximo que tú decides."
+        },
+        {
+          "q": "¿Qué pasa cuando se me acaba la leche de avena?",
+          "a": "Con el stock por receta del plan Smart, cuando un ingrediente se agota, todos los productos que lo llevan aparecen como agotados por sí solos. El cliente no pide algo que no puedes servir."
+        },
+        {
+          "q": "¿Vale también para una pastelería?",
+          "a": "Sí. ArtOfMenu está pensado para cafeterías, restaurantes, bares y pastelerías. Puedes mostrar tartas y bollería con foto y alérgenos en las mesas y, con el plan Smart, también en pantallas detrás del mostrador."
+        }
+      ],
+      "cta": {
+        "h2": "Una carta que sabe qué tiempo hace",
+        "lead": "Te avisamos en cuanto ArtOfMenu esté listo para tu cafetería."
+      },
+      "related": [
+        "cafe-sales",
+        "smart",
+        "design",
+        "pricing"
+      ]
+    },
+    "bar": {
+      "slug": "carta-qr-bar",
+      "title": "Carta QR para bares de tapas y de copas | ArtOfMenu",
+      "description": "Carta QR para bares: tapas y raciones con foto, otra ronda sin esperar, llamar al camarero desde la mesa y copas que se marcan agotadas solas.",
+      "eyebrow": "Bares",
+      "h1": "Carta QR para bares de tapas y bares de copas",
+      "lead": "En un bar, la carta QR sirve para que la siguiente ronda llegue antes y para que nadie pida la ginebra que se acabó hace una hora. ArtOfMenu une la carta, los pedidos desde la mesa y el stock.",
+      "answer": "Una carta QR para bares es una carta digital de tapas, raciones y bebidas que el cliente abre con el móvil desde la mesa o la terraza. Con ArtOfMenu puede pedir otra ronda, llamar al camarero o pedir la cuenta desde la carta, y con el stock por receta las copas que llevan una botella agotada se marcan como agotadas.",
+      "sections": [
+        {
+          "h2": "Tapas y raciones con foto",
+          "body": [
+            "En un bar de tapas, la pizarra cambia cada día y no todo el mundo sabe qué es un zarangollo o una gilda. En la carta QR, cada tapa lleva su foto, su descripción y sus alérgenos. El cliente de fuera la lee en su idioma y el de siempre ve de un vistazo qué hay hoy.",
+            "Cuando cambias la tapa del día, la cambias en la carta. El QR de la barra y de las mesas sigue igual."
+          ]
+        },
+        {
+          "h2": "Otra ronda sin levantar la mano",
+          "body": [
+            "La segunda ronda se pierde cuando el grupo de la terraza no consigue que nadie le vea. Con el plan Order, piden otra ronda de cañas desde la carta y el camarero la ve en su móvil al instante. No tiene que cruzar el local para tomar nota, solo para servir.",
+            "En noches de mucho movimiento, eso es lo que separa una mesa que se toma dos rondas de una que se toma tres."
+          ]
+        },
+        {
+          "h2": "Llamar al camarero desde la mesa",
+          "body": [
+            "No todo es pedir. Desde la carta, el cliente puede llamar al camarero, pedir agua o pedir la cuenta. El aviso llega al móvil del camarero con el número de mesa, así que sabe a dónde ir antes de salir de la barra."
+          ]
+        },
+        {
+          "h2": "Cuando se acaba una ginebra",
+          "body": [
+            "Con el stock por receta del plan Smart, cuando una botella se termina, todas las copas que la llevan aparecen como agotadas en la carta. Nadie pide un gin tonic que no puedes servir y el camarero no tiene que volver a la mesa a decir que no queda.",
+            "Además, los productos que están a punto de acabarse bajan en la carta para que no sean lo primero que se ve."
+          ]
+        },
+        {
+          "h2": "La carta de copas en la pantalla de la barra",
+          "body": [
+            "En un bar de copas, la gente que espera en la barra también mira la carta. Con el plan Smart, la carta se puede mostrar en monitores detrás de la barra, y varias pantallas pasan página a la vez. Es la misma carta que ven las mesas, siempre con los mismos precios."
+          ]
+        }
+      ],
+      "features": [
+        "ordering",
+        "stock",
+        "screens",
+        "multilingual",
+        "pairing"
+      ],
+      "faq": [
+        {
+          "q": "¿Los camareros necesitan algún aparato especial?",
+          "a": "No. Los pedidos y los avisos de las mesas llegan a la pantalla del camarero en su propio móvil, con notificaciones y el número de mesa. No hace falta comprar terminales ni instalar nada en la barra."
+        },
+        {
+          "q": "¿Se puede cobrar con ArtOfMenu?",
+          "a": "No. ArtOfMenu no es un TPV ni un datáfono. El cliente puede pedir la cuenta desde la carta y el aviso llega al camarero, pero el cobro sigue haciéndose en tu caja, como hasta ahora."
+        },
+        {
+          "q": "¿Suben los precios de las copas por la noche?",
+          "a": "No. Con el plan Smart, los precios cambian como mucho una vez al día, antes de abrir, y siempre dentro del mínimo y el máximo que tú pones. Durante la noche el precio no se mueve."
+        },
+        {
+          "q": "¿Funciona en la terraza?",
+          "a": "Sí. Cada mesa de la terraza tiene su propio QR, y los pedidos y avisos llegan al camarero con el número de mesa, igual que en el interior. Es justo donde más se nota, porque la terraza es lo que más lejos queda de la barra."
+        },
+        {
+          "q": "¿Qué plan necesito para que los clientes pidan desde la mesa?",
+          "a": "El plan Order, a 29 € al mes por local, incluye los pedidos desde la mesa y los avisos al camarero. El stock por receta y las pantallas de barra están en el plan Smart, a 59 € al mes."
+        }
+      ],
+      "cta": {
+        "h2": "Que la próxima ronda llegue antes",
+        "lead": "Déjanos el enlace de Google Maps de tu bar y te avisamos cuando ArtOfMenu salga."
+      },
+      "related": [
+        "bar-sales",
+        "ordering",
+        "inventory",
+        "pricing"
+      ]
+    },
+    "design": {
+      "slug": "diseno-carta-qr",
+      "title": "Diseño de carta QR elegante y con tu marca | ArtOfMenu",
+      "description": "Cómo se ve una carta QR bien hecha: fotos, tipografía, orden y tu propio dominio. Y lo que ArtOfMenu no ofrece: plantillas ni servicio de diseño.",
+      "eyebrow": "Diseño",
+      "h1": "Diseño de carta QR: limpia, elegante y con tu marca",
+      "lead": "Una carta QR bonita se reconoce por tres cosas: buenas fotos, letra fácil de leer y un orden que lleva al cliente hasta el plato sin perderse. En ArtOfMenu el diseño es un formato limpio y único, al que tú pones tus fotos y tu marca.",
+      "answer": "El diseño de una carta QR es la forma en que se presentan los platos en el móvil: fotos, tipografía, espacios y orden de las secciones. ArtOfMenu usa un único diseño limpio, pensado para leerse bien en cualquier teléfono, que se completa con las fotos y la marca de cada local. No ofrece plantillas, temas ni servicio de diseño.",
+      "sections": [
+        {
+          "h2": "Qué hace que una carta digital se vea bien",
+          "body": [
+            "En una pantalla de seis pulgadas no cabe todo, así que una carta elegante es sobre todo una carta que elige bien qué enseñar primero. Secciones cortas, nombres claros, el precio en el mismo sitio en todos los platos y espacio para respirar entre uno y otro.",
+            "La letra tiene que leerse en una terraza a pleno sol y en un bar con poca luz. Por eso ArtOfMenu no deja cambiar tipografías ni colores sin límite: así la carta sigue legible en cualquier móvil."
+          ]
+        },
+        {
+          "h2": "Tus fotos hacen la mitad del trabajo",
+          "body": [
+            "La foto es lo primero que mira el cliente. No hace falta un fotógrafo profesional, pero sí cierta constancia."
+          ],
+          "bullets": [
+            "Usa luz natural, de lado, cerca de una ventana.",
+            "Haz todas las fotos desde el mismo ángulo y con el mismo tipo de fondo.",
+            "Fotografía el plato como lo sirves, con su vajilla y su ración real.",
+            "Mejor una foto buena que tres regulares del mismo plato.",
+            "Repite la foto cuando cambies la presentación."
+          ]
+        },
+        {
+          "h2": "Tu marca y tu propio dominio",
+          "body": [
+            "La carta se abre en el dominio de tu local, así que el cliente ve tu nombre en la dirección y no el de una plataforma. Junto con tus fotos y tu marca, eso hace que la carta se sienta tuya.",
+            "Si ya tienes una carta en PDF con un diseño que te gusta, puedes subirla y publicarla el mismo día."
+          ]
+        },
+        {
+          "h2": "Por qué el diseño influye en lo que se pide",
+          "body": [
+            "Un cliente decide entre lo que ve con claridad. Si un plato está escondido al final de una lista larga o no tiene foto, pasa desapercibido aunque sea de los platos que más te gustan. Si la descripción explica qué lleva y cómo se hace, el cliente se anima a probar algo que no conoce.",
+            "Los informes de ArtOfMenu te ayudan a ver esto con datos de tu local: qué platos se ven pero casi no se abren, y cuáles se abren pero nunca se piden. Lo primero suele ser un problema de foto o de posición. Lo segundo, de precio o de descripción."
+          ]
+        },
+        {
+          "h2": "Lo que no vas a encontrar",
+          "body": [
+            "En ArtOfMenu no hay plantillas ni temas para elegir, ni servicio de diseño, ni opción de subir tu propio HTML o CSS. Lo hemos decidido así a propósito: un solo diseño cuidado, igual de legible en todos los locales, en el que lo que cambia es tu comida, tus fotos y tu nombre."
+          ]
+        }
+      ],
+      "features": [
+        "domain",
+        "pdf",
+        "reports",
+        "multilingual"
+      ],
+      "faq": [
+        {
+          "q": "¿Hay plantillas o ejemplos de carta QR para elegir?",
+          "a": "No. ArtOfMenu usa un único diseño limpio para todas las cartas. Lo que hace que cada una sea distinta son las fotos, los textos y la marca de cada local."
+        },
+        {
+          "q": "¿Me diseñáis la carta?",
+          "a": "No ofrecemos servicio de diseño. Tú subes tus platos con sus fotos, o el PDF de tu carta actual, y la carta se presenta con el diseño limpio de ArtOfMenu, pensado para leerse bien en cualquier móvil."
+        },
+        {
+          "q": "¿Puedo usar mi propio HTML o CSS?",
+          "a": "No. El diseño es el mismo para todos los locales para que la carta se lea bien en cualquier móvil, con poca luz o a pleno sol, y en cualquier idioma. Lo que personalizas son las fotos, los textos y la marca."
+        },
+        {
+          "q": "¿La carta aparece con el nombre de mi local en la dirección?",
+          "a": "Sí. La carta se abre en el dominio propio de tu local, también en el plan Menu, así que el cliente ve tu nombre en la barra de direcciones del móvil y no el de una plataforma."
+        },
+        {
+          "q": "¿Qué hago para que las fotos se vean bien?",
+          "a": "Luz natural de lado, el mismo ángulo y el mismo fondo en todos los platos, y la ración real como la sirves. La coherencia entre fotos pesa más que una cámara cara."
+        }
+      ],
+      "cta": {
+        "h2": "Tus platos, bien presentados",
+        "lead": "Te avisamos cuando ArtOfMenu salga para que subas tus fotos y tu carta."
+      },
+      "related": [
+        "qr-menu",
+        "how-to",
+        "menu-engineering",
+        "cafe"
+      ]
+    },
+    "smart": {
+      "slug": "menu-qr-inteligente",
+      "title": "Menú QR inteligente | ArtOfMenu",
+      "description": "Qué hace un menú QR inteligente: orden según el tiempo, la sugerencia “Va bien con” y precios diarios dentro de tus límites. Explicado sin humo.",
+      "eyebrow": "Smart",
+      "h1": "Menú QR inteligente: qué significa en la práctica",
+      "lead": "Un menú QR inteligente cambia lo que enseña según el día: el orden con el tiempo, la sugerencia según lo que pide cada cliente y, si tú quieres, el precio de mañana dentro de los límites que pones. En ArtOfMenu son tres funciones concretas.",
+      "answer": "Un menú QR inteligente es una carta digital que se adapta al contexto del local. En ArtOfMenu eso significa tres cosas: reordena la carta según el tiempo, sugiere el producto que más se pide con cada plato en ese local y, en el plan Smart, fija cada noche los precios del día siguiente dentro del mínimo y el máximo que decide el dueño.",
+      "sections": [
+        {
+          "h2": "Qué significa “inteligente” en una carta",
+          "body": [
+            "La palabra se usa mucho y suele decir poco. En ArtOfMenu, inteligente quiere decir que la carta toma algunas decisiones pequeñas que antes no tomaba nadie, porque nadie tenía tiempo de reordenar la carta cada vez que empezaba a llover.",
+            "Tú decides los límites. La carta trabaja dentro de ellos."
+          ]
+        },
+        {
+          "h2": "La carta se reordena con el tiempo",
+          "body": [
+            "Cuando hace frío, las bebidas calientes suben en la carta y las frías bajan. Los productos que están a punto de acabarse también bajan, para que no sean lo primero que pide la gente. Durante el día cambia el orden y nada más: el precio de cada producto sigue siendo el mismo."
+          ]
+        },
+        {
+          "h2": "“Va bien con”: la sugerencia de un buen camarero",
+          "body": [
+            "Cuando un cliente añade un plato, la carta le muestra el producto que más se pide junto a ese plato en tu local. En un restaurante puede ser el vino que suele acompañar al arroz. En una cafetería, la tostada que se pide con el café con leche.",
+            "La sugerencia sale de lo que pasa en ese local concreto. Si tienes dos locales, cada uno tiene sus propias combinaciones."
+          ]
+        },
+        {
+          "h2": "Precios del día, dentro de tus límites",
+          "body": [
+            "Cada noche, ArtOfMenu mira la ubicación del local, la previsión del tiempo, los festivos y fechas especiales y la demanda esperada de cada producto. También aprende de coeficientes de comportamiento anonimizados de negocios parecidos, nunca de sus precios. Con eso fija los precios de mañana, siempre entre el mínimo y el máximo que has puesto tú para cada producto.",
+            "Eliges cómo funciona: apruebas cada precio, lo dejas en automático o lo apagas y trabajas con tus precios base. Si un precio no se aprueba, se usa el precio base."
+          ],
+          "bullets": [
+            "Los precios cambian como mucho una vez al día, antes de abrir.",
+            "Nunca cambian durante el servicio.",
+            "Tus precios no se comparten con ningún otro negocio."
+          ]
+        },
+        {
+          "h2": "Stock que se actualiza solo",
+          "body": [
+            "El plan Smart incluye el stock por receta. Cada producto sabe qué ingredientes lleva, así que cuando se acaba uno, todos los platos que lo usan se marcan como agotados en la carta sin que nadie tenga que acordarse de hacerlo."
+          ]
+        }
+      ],
+      "features": [
+        "weather",
+        "pairing",
+        "pricing",
+        "stock",
+        "reports"
+      ],
+      "faq": [
+        {
+          "q": "¿Cambian los precios mientras el cliente está en la mesa?",
+          "a": "No. Los precios se fijan como mucho una vez al día, antes de que empiece el día, y no se tocan durante el servicio. Lo único que cambia a lo largo del día es el orden de la carta según el tiempo."
+        },
+        {
+          "q": "¿Puedo aprobar cada precio antes de que se aplique?",
+          "a": "Sí. Hay tres modos: aprobar cada precio uno a uno, dejarlo en automático o apagarlo y trabajar con tus precios base. Si un precio propuesto no se aprueba, ese día se usa el precio base del producto."
+        },
+        {
+          "q": "¿De dónde salen los datos para fijar los precios?",
+          "a": "De la ubicación del local, la previsión del tiempo, los festivos y fechas especiales y la demanda esperada de cada producto, más coeficientes anonimizados de negocios parecidos. Nunca se usan sus precios."
+        },
+        {
+          "q": "¿Ven otros negocios mis precios?",
+          "a": "No. Los precios nunca se comparten entre negocios. Lo único que se aprende de otros locales parecidos son coeficientes de comportamiento anonimizados, que ayudan a estimar la demanda sin revelar lo que cobra nadie."
+        },
+        {
+          "q": "¿Qué plan incluye todo esto?",
+          "a": "Los precios inteligentes diarios, la sugerencia “Va bien con” y el stock por receta están en el plan Smart, a 59 € al mes por local, o 590 € al año con el pago anual. El orden de la carta según el tiempo forma parte de la carta de ArtOfMenu."
+        }
+      ],
+      "cta": {
+        "h2": "Una carta que piensa un poco por ti",
+        "lead": "Dinos que te interesa el plan Smart y te avisamos cuando salga."
+      },
+      "related": [
+        "pricing",
+        "menu-engineering",
+        "cafe",
+        "restaurant-sales"
+      ]
+    },
+    "ordering": {
+      "slug": "pedidos-desde-la-mesa",
+      "title": "Pedidos desde la mesa con carta QR | ArtOfMenu",
+      "description": "Cómo funciona un sistema de pedidos desde la mesa: el cliente pide en la carta QR, el camarero lo ve en su móvil. Qué incluye y qué no sustituye.",
+      "eyebrow": "Pedidos",
+      "h1": "Sistema de pedidos desde la mesa",
+      "lead": "Con un sistema de pedidos desde la mesa, el cliente elige en la carta QR, envía el pedido y el camarero lo recibe al instante en su móvil. En ArtOfMenu viene en el plan Order, a 29 € al mes por local.",
+      "answer": "Un sistema de pedidos desde la mesa permite al cliente pedir desde la carta digital que abre con el QR de su mesa, sin esperar a que le tomen nota. En ArtOfMenu el pedido llega al momento a la pantalla del camarero en su móvil, con aviso, y el cliente también puede llamarle, pedir agua o pedir la cuenta. No sustituye al TPV ni cobra.",
+      "sections": [
+        {
+          "h2": "Quién gana con los pedidos desde la mesa",
+          "body": [
+            "El cliente, porque pide cuando está listo y no cuando el camarero puede. El camarero, porque deja de ir a las mesas a apuntar y va a servir. Y tú, porque en las horas punta una mesa que pide antes también termina antes.",
+            "Funciona especialmente bien en terrazas grandes, en bares con mucha rotación y en restaurantes con menú del día, donde la espera para pedir es lo que más se nota."
+          ]
+        },
+        {
+          "h2": "La pantalla del camarero",
+          "body": [
+            "Cada pedido aparece en la pantalla del camarero en su propio móvil, con el número de mesa y lo que se ha pedido, y una notificación para que no se le pase. No hace falta comprar terminales ni instalar pantallas en la sala.",
+            "Si una mesa pide en dos tandas, cada pedido llega por separado, en el orden en que se envió."
+          ]
+        },
+        {
+          "h2": "Llamar, pedir agua o la cuenta",
+          "body": [
+            "No todo lo que necesita una mesa es un plato. Desde la carta, el cliente puede llamar al camarero, pedir agua o pedir la cuenta. Son avisos pequeños que, en un servicio lleno, ahorran muchos viajes a ciegas por la sala."
+          ]
+        },
+        {
+          "h2": "Lo que no sustituye",
+          "body": [
+            "ArtOfMenu no es un TPV ni un datáfono. Recibe pedidos y avisos, pero el cobro, la factura y la caja siguen en tu sistema de siempre. Tampoco sustituye a tu equipo: los camareros siguen sirviendo, recomendando y atendiendo a quien prefiere pedir de palabra, que siempre habrá."
+          ]
+        },
+        {
+          "h2": "Stock y pedidos en un mismo sitio",
+          "body": [
+            "El plan Order incluye informes sencillos de stock y de pedidos para ver qué se ha vendido y qué queda. Con el plan Smart, el stock va por receta: si se acaba un ingrediente, los platos que lo llevan se marcan como agotados en la carta y nadie los puede pedir."
+          ]
+        }
+      ],
+      "steps": {
+        "h2": "Cómo funciona un pedido, paso a paso",
+        "items": [
+          {
+            "t": "El cliente escanea el QR",
+            "d": "La carta de tu local se abre en su móvil, en su idioma."
+          },
+          {
+            "t": "Elige y envía",
+            "d": "Añade platos o bebidas y envía el pedido desde la carta."
+          },
+          {
+            "t": "El camarero recibe el aviso",
+            "d": "El pedido aparece al instante en la pantalla de su móvil, con el número de mesa."
+          },
+          {
+            "t": "Se sirve y se cobra como siempre",
+            "d": "El camarero lleva el pedido a la mesa y la cuenta se cobra en tu caja."
+          }
+        ]
+      },
+      "features": [
+        "ordering",
+        "stock",
+        "pairing",
+        "multilingual"
+      ],
+      "faq": [
+        {
+          "q": "¿Necesito cambiar mi TPV?",
+          "a": "No. ArtOfMenu no es un TPV y funciona al margen del tuyo. Recibe los pedidos de las mesas y avisa a los camareros en su móvil; el cobro, la factura y la caja siguen como siempre."
+        },
+        {
+          "q": "¿El cliente paga desde el móvil?",
+          "a": "No. Desde la carta puede pedir la cuenta, y el aviso llega al camarero con el número de mesa. El pago se hace como siempre en tu local, con tu caja o tu datáfono."
+        },
+        {
+          "q": "¿Qué necesita el camarero para recibir los pedidos?",
+          "a": "Solo su móvil. Los pedidos y las llamadas de las mesas llegan a la pantalla del camarero con una notificación y el número de mesa, sin terminales ni aparatos adicionales en la sala."
+        },
+        {
+          "q": "¿Qué plan incluye los pedidos desde la mesa?",
+          "a": "El plan Order, a 29 € al mes por local, o 290 € al año. El plan Smart, a 59 €, los incluye también junto a los precios inteligentes y el stock por receta."
+        },
+        {
+          "q": "¿Y si el cliente prefiere pedir al camarero?",
+          "a": "Lo hace como siempre. Pedir desde la mesa es una opción más para quien la quiera; los clientes que prefieren hablar con alguien, preguntar o pedir una recomendación siguen teniendo a tu equipo."
+        }
+      ],
+      "cta": {
+        "h2": "Menos esperas para pedir",
+        "lead": "Déjanos tus datos y te avisamos cuando los pedidos desde la mesa de ArtOfMenu estén disponibles."
+      },
+      "related": [
+        "restaurant",
+        "bar",
+        "pricing",
+        "restaurant-sales"
+      ]
+    },
+    "multilingual": {
+      "slug": "carta-multilingue",
+      "title": "Carta multilingüe para turistas | ArtOfMenu",
+      "description": "Una carta QR que se abre en el idioma del móvil de cada turista, con fotos, alérgenos y precios en tu moneda. Para la costa, las islas y el centro.",
+      "eyebrow": "Idiomas",
+      "h1": "Carta multilingüe para clientes de cualquier país",
+      "lead": "Una carta multilingüe con QR se abre directamente en el idioma del móvil de cada cliente, sin que tenga que buscar una bandera ni pedir la carta en inglés. Así funciona ArtOfMenu.",
+      "answer": "Una carta multilingüe es una carta que el cliente puede leer en su propio idioma. Con ArtOfMenu, la carta QR detecta el idioma del teléfono del cliente y se abre en él, con fotos de los platos e información de alérgenos, mientras los precios se muestran en la moneda del local y con el formato de impuestos de su país.",
+      "sections": [
+        {
+          "h2": "El idioma lo elige el móvil del cliente",
+          "body": [
+            "Una familia sueca se sienta en una terraza de Málaga, escanea el código y la carta aparece en sueco. Nadie ha tenido que elegir un idioma ni preguntar si hay carta en inglés. La mesa de al lado, con un grupo de Valencia, la ve en español.",
+            "Para tu equipo, eso significa menos tiempo explicando platos y más tiempo sirviéndolos."
+          ]
+        },
+        {
+          "h2": "Alérgenos que un turista entiende",
+          "body": [
+            "Para una persona con alergia, leer los alérgenos en un idioma que no domina es un riesgo. La carta muestra la información de alérgenos de cada plato y la presenta en el idioma del cliente, así que la turista celíaca sabe qué puede pedir antes de llamar al camarero.",
+            "Aun así, conviene que el equipo sepa confirmar con cocina cualquier duda. La carta ayuda, la responsabilidad sigue siendo del local."
+          ]
+        },
+        {
+          "h2": "Precios en la moneda del local",
+          "body": [
+            "El turista ve los precios en euros si tu local está en España, con el formato y el redondeo habituales aquí. ArtOfMenu configura moneda, forma de mostrar los impuestos y redondeo para cada uno de los 216 países para los que está preparado, así que un local en Cancún o en Lisboa sigue sus propias reglas."
+          ]
+        },
+        {
+          "h2": "Dónde más se nota",
+          "body": [
+            "En la costa en verano, en las islas casi todo el año, en los centros históricos de las ciudades con muchas visitas y en los alrededores de estaciones y aeropuertos. También en barrios con clientela internacional que vive aquí y prefiere leer la carta en su idioma.",
+            "Si tu sala tiene a menudo tres o cuatro idiomas distintos a la vez, una carta impresa en cada idioma deja de ser práctica muy pronto."
+          ]
+        },
+        {
+          "h2": "Cómo escribir una carta que se entienda en otros idiomas",
+          "body": [
+            "Una carta clara en español funciona mejor en cualquier idioma. Unos consejos que sirven con o sin ArtOfMenu."
+          ],
+          "bullets": [
+            "Mantén el nombre del plato y añade una descripción sencilla de qué lleva.",
+            "Evita juegos de palabras y nombres que solo se entienden en tu barrio.",
+            "Indica cómo se cocina: a la plancha, frito, al horno, crudo.",
+            "Añade una foto a los platos que un visitante no conoce.",
+            "Revisa los alérgenos cada vez que cambies una receta."
+          ]
+        }
+      ],
+      "features": [
+        "multilingual",
+        "global",
+        "domain",
+        "pdf"
+      ],
+      "faq": [
+        {
+          "q": "¿El cliente tiene que elegir el idioma?",
+          "a": "No. La carta se abre en el idioma del teléfono del cliente nada más escanear el QR. No tiene que buscar una bandera ni un menú de idiomas, y la mesa de al lado puede verla en otro idioma a la vez."
+        },
+        {
+          "q": "¿Los alérgenos también aparecen en el idioma del cliente?",
+          "a": "La carta se abre en el idioma del cliente con la información de alérgenos de cada plato. Mantener esa información correcta y al día sigue siendo tarea del local, igual que con una carta impresa."
+        },
+        {
+          "q": "¿Un turista británico ve los precios en libras?",
+          "a": "No. Los precios se muestran en la moneda de tu local, en euros si estás en España, con el formato de impuestos y el redondeo de tu país. Es el mismo precio que pagará en caja."
+        },
+        {
+          "q": "¿Sirve para restaurantes en Latinoamérica?",
+          "a": "Sí. ArtOfMenu configura la moneda, los impuestos y el redondeo de precios para 216 países, así que un local en México, Colombia o Argentina muestra la carta con su propia moneda y sus reglas."
+        },
+        {
+          "q": "¿Necesito tener varias cartas en PDF, una por idioma?",
+          "a": "Puedes empezar subiendo la carta en PDF que ya tienes y publicarla el mismo día. Al cliente, la carta se le abre en el idioma de su teléfono, sin que tengas que preparar un archivo distinto para cada mesa."
+        }
+      ],
+      "cta": {
+        "h2": "Tu carta, en el idioma de cada mesa",
+        "lead": "Te avisamos cuando ArtOfMenu salga, a tiempo para la próxima temporada."
+      },
+      "related": [
+        "restaurant",
+        "qr-menu",
+        "bar",
+        "cafe"
+      ]
+    },
+    "restaurant-sales": {
+      "slug": "aumentar-ventas-restaurante",
+      "title": "Cómo aumentar las ventas de un restaurante | ArtOfMenu",
+      "description": "Guía práctica para que tu restaurante gane más: carta, precios, ticket medio, rotación de mesas, merma y equipo. Ideas que funcionan con o sin software.",
+      "eyebrow": "Guía",
+      "h1": "Cómo aumentar las ventas de un restaurante",
+      "lead": "Para aumentar las ventas de un restaurante tienes tres palancas: más comensales, más gasto por comensal y más servicios por mesa en las horas punta. Y, para que esas ventas se conviertan en beneficio, menos merma. Esta guía repasa cada una con medidas concretas.",
+      "answer": "Las ventas de un restaurante crecen cuando sube el número de comensales, el ticket medio o la rotación de mesas, y el beneficio crece cuando además baja la merma. Las medidas que más influyen son una carta corta y bien ordenada, precios revisados por margen, sugerencias en el momento adecuado y un servicio rápido. Herramientas como ArtOfMenu ayudan a medir qué platos se miran y no se piden.",
+      "sections": [
+        {
+          "h2": "Antes de cambiar nada: de dónde salen tus ventas",
+          "body": [
+            "Las ventas de un mes son el número de comensales multiplicado por lo que gasta cada uno. Si quieres vender más, solo puedes atender a más gente o conseguir que cada persona gaste un poco más. Todo lo demás son formas de mover esas dos cifras.",
+            "Antes de tocar la carta, saca tres números de tu caja del último mes: comensales por servicio, ticket medio (ventas entre comensales) y los diez platos más vendidos. Apúntalos. Sin un punto de partida, no sabrás si lo que cambias funciona.",
+            "Separa comidas y cenas, y días laborables y fines de semana. Un restaurante que llena los sábados y está a medias los martes tiene un problema distinto al de uno que se llena todos los días pero con un ticket bajo."
+          ]
+        },
+        {
+          "h2": "Una carta corta, ordenada para lo que te conviene",
+          "body": [
+            "Una carta con muchos platos obliga a tener muchos ingredientes, alarga la decisión del cliente y complica la cocina en las horas punta. Si un plato apenas se vende, ocupa espacio en la carta y en la cámara sin aportar nada.",
+            "Dentro de cada sección, coloca primero los platos que más margen te dejan y que mejor salen de cocina. Dales una buena descripción y, si puedes, una foto. Los platos de poco margen pueden seguir en la carta, pero no necesitan estar arriba.",
+            "Revisa la carta al menos dos veces al año, con el cambio de temporada. Es el momento natural para quitar lo que no funciona sin que los clientes lo echen de menos."
+          ]
+        },
+        {
+          "h2": "Precios: mira el margen, no solo el coste",
+          "body": [
+            "Muchos restaurantes ponen precio multiplicando el coste de la materia prima por una cifra fija. Es un punto de partida, pero deja fuera lo importante: cuánto dinero deja cada plato en caja. Un plato con un coste del 35 % que se vende a 24 € puede dejar más euros que uno con un coste del 25 % que se vende a 12 €.",
+            "Calcula el margen de contribución de cada plato (precio sin IVA menos coste de ingredientes) y fíjate en los que más venden. Si un plato muy pedido deja poco margen, a menudo basta con ajustar la ración, cambiar la guarnición o subir el precio poco a poco.",
+            "Revisa también lo que cuesta el pan, el agua, el café y el vino por copa. Son cosas que casi todos piden y en las que un pequeño ajuste se nota a final de mes."
+          ]
+        },
+        {
+          "h2": "Sube el ticket medio sin presionar al cliente",
+          "body": [
+            "El cliente gasta más cuando alguien le propone algo que le apetece, no cuando se siente empujado. La diferencia está en el momento y en la naturalidad."
+          ],
+          "bullets": [
+            "Propón un entrante para compartir mientras la mesa decide.",
+            "Recomienda un vino por copa concreto con cada principal.",
+            "Saca la carta de postres sin esperar a que la pidan.",
+            "Ofrece el café con un dulce pequeño de la casa a un precio cerrado.",
+            "Ten medias raciones para que el cliente pruebe más platos."
+          ]
+        },
+        {
+          "h2": "Rotación de mesas en las horas punta",
+          "body": [
+            "En un servicio de mediodía, una mesa que tarda diez minutos en pedir y diez en recibir la cuenta pierde veinte minutos que podría usar otra mesa. La rotación se gana recortando las esperas que nadie disfruta: esperar para pedir, esperar el primer plato y esperar para pagar.",
+            "Organiza el menú del día para que los primeros salgan rápido. Prepara la cuenta en cuanto la mesa pide el café. Si la sala es grande, los pedidos desde la mesa quitan la primera espera de raíz: el cliente pide cuando ya ha decidido y el camarero lo recibe en el móvil."
+          ]
+        },
+        {
+          "h2": "Menos merma, más beneficio",
+          "body": [
+            "La comida que se tira la has pagado igual. Para reducirla, empieza por saber qué se tira y por qué: apunta durante dos semanas cada cosa que acaba en la basura, con la cantidad y el motivo.",
+            "Con esa lista verás patrones. Ingredientes que solo usa un plato, raciones demasiado grandes que vuelven a medias, compras que se hacen por costumbre y no por consumo. Usa los ingredientes en varios platos, ajusta las raciones que vuelven y convierte lo que sobra en el plato del día cuando sea posible."
+          ]
+        },
+        {
+          "h2": "El equipo también vende",
+          "body": [
+            "Un camarero que ha probado los platos los recomienda con convicción. Haz que el equipo pruebe las novedades antes de que salgan a la carta y cuéntales qué platos quieres que recomienden y por qué.",
+            "Comparte con ellos los números básicos, como el ticket medio del día, y celebra cuando sube. Cuando el equipo entiende qué se busca, deja de vender por inercia."
+          ]
+        },
+        {
+          "h2": "Llena las horas flojas",
+          "body": [
+            "Muchos restaurantes tienen servicios que casi no cubren costes. En lugar de bajar precios en todo, crea motivos para venir en esas horas concretas: un menú de noche entre semana, una cena temática al mes, un horario de picoteo por la tarde o un acuerdo con oficinas cercanas.",
+            "Mide cada idea durante unas semanas antes de decidir si se queda."
+          ]
+        },
+        {
+          "h2": "Dónde ayuda ArtOfMenu",
+          "body": [
+            "ArtOfMenu no hace que un restaurante venda más por sí solo, pero da datos que una carta impresa no puede darte. Los informes de la carta señalan los platos que se ven pero casi nadie abre y los que se abren pero nunca se piden. Con el plan Order, los clientes piden desde la mesa. Con el plan Smart, la carta sugiere el producto que más se pide con cada plato y fija los precios del día siguiente dentro de los límites que tú pones."
+          ]
+        }
+      ],
+      "features": [
+        "reports",
+        "pairing",
+        "ordering",
+        "pricing",
+        "stock"
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo calculo el ticket medio de mi restaurante?",
+          "a": "Divide las ventas de un periodo entre el número de comensales de ese mismo periodo. Hazlo por separado para comidas y cenas, porque suelen ser muy distintos y mezclarlos esconde el problema."
+        },
+        {
+          "q": "¿Subir precios hace que pierda clientes?",
+          "a": "Depende de cómo se haga. Subidas pequeñas en los platos más pedidos y en extras como el pan o el café se notan menos que una subida general. Revisa también raciones y guarniciones antes de tocar el precio."
+        },
+        {
+          "q": "¿Cómo aumentar las ventas en un restaurante de comida rápida?",
+          "a": "En comida rápida pesa sobre todo la velocidad y el gasto por pedido. Una carta corta, combinaciones de plato con bebida y extras ofrecidos en el momento de pedir suelen dar más resultado que añadir productos nuevos."
+        },
+        {
+          "q": "¿Qué platos debo quitar de la carta?",
+          "a": "Los que se venden poco y dejan poco margen. Para encontrarlos de forma ordenada, usa la ingeniería de menú: clasifica cada plato por popularidad y margen y decide qué hacer con cada grupo."
+        },
+        {
+          "q": "¿Una carta QR ayuda a vender más?",
+          "a": "Ayuda en cosas concretas: fotos que animan a pedir, la carta en el idioma del cliente, pedidos sin esperas y datos de qué platos se miran. No garantiza ventas por sí sola; el plato y el servicio siguen mandando."
+        }
+      ],
+      "cta": {
+        "h2": "Datos de tu carta para decidir mejor",
+        "lead": "Te avisamos cuando ArtOfMenu salga para que veas qué platos se miran y cuáles se piden."
+      },
+      "related": [
+        "menu-engineering",
+        "inventory",
+        "smart",
+        "restaurant"
+      ]
+    },
+    "bar-sales": {
+      "slug": "aumentar-ventas-bar",
+      "title": "Cómo aumentar las ventas de un bar | ArtOfMenu",
+      "description": "Guía para bares de tapas y de copas: margen por copa, happy hour, la segunda ronda, destilados premium, tapas que acompañan y control de botellas.",
+      "eyebrow": "Guía",
+      "h1": "Cómo aumentar las ventas de un bar",
+      "lead": "Para aumentar las ventas de un bar, céntrate en que cada mesa pida una ronda más, en que cada copa deje el margen que debe y en no perder dinero detrás de la barra. Esta guía sirve para bares de tapas, bares de copas y cervecerías.",
+      "answer": "Un bar aumenta sus ventas sirviendo más rápido para que llegue la siguiente ronda, ofreciendo un paso de calidad en las bebidas, acompañando la bebida con comida y controlando el stock de botellas y barriles. Conocer el coste real de cada copa es el primer paso. ArtOfMenu ayuda con los pedidos desde la mesa y el stock por receta.",
+      "sections": [
+        {
+          "h2": "Conoce el margen de cada copa",
+          "body": [
+            "Antes de cambiar precios o lanzar promociones, calcula lo que te cuesta servir cada bebida. Para una copa: precio de la botella dividido entre las copas que salen de ella, más el refresco, el hielo y la guarnición. Para la cerveza de barril, divide el coste del barril entre las cañas que realmente sacas, no las teóricas, porque la espuma y las primeras tiradas también cuentan.",
+            "Con esa lista verás que algunas bebidas te dejan mucho y otras casi nada. Un vermut de grifo y un combinado con una ginebra cara pueden tener márgenes muy distintos aunque cuesten parecido al cliente.",
+            "Revisa la medida que sirve cada camarero. Si cada uno sirve a ojo, el coste de una misma copa cambia según quién esté en la barra."
+          ]
+        },
+        {
+          "h2": "Una carta de bebidas corta y clara",
+          "body": [
+            "Una carta con setenta ginebras impresiona, pero obliga a tener mucho dinero parado en la estantería y hace que el cliente pida lo de siempre porque no sabe elegir. Selecciona unas pocas referencias por categoría, explica en una línea qué tiene de especial cada una y deja claro el precio.",
+            "Agrupa por estilo, no por marca: refrescantes, secas, aromáticas. El cliente que no conoce las marcas también puede decidir."
+          ]
+        },
+        {
+          "h2": "Happy hour con un objetivo",
+          "body": [
+            "Un happy hour tiene sentido para llenar horas que hoy están vacías, no para bajar el precio en las horas que ya se llenan solas. Elige la franja con menos movimiento, limita la oferta a dos o tres bebidas con buen margen y pon una hora de fin clara.",
+            "En los bares de tapas, la versión clásica es la tapa incluida con la consumición. Funciona si la tapa está calculada: una tapa pequeña, de un ingrediente que ya tienes, que da sed y anima a pedir la segunda.",
+            "Mide la caja de esa franja antes y después durante unas semanas. Si no se llena más, el happy hour solo te está costando dinero."
+          ]
+        },
+        {
+          "h2": "La segunda ronda es la que más cuenta",
+          "body": [
+            "Un grupo que ha disfrutado la primera ronda suele querer otra. Lo que la frena casi siempre es la espera: no hay nadie a la vista, la barra está llena, el camarero está en la otra punta de la terraza.",
+            "Enseña al equipo a mirar los vasos: cuando quedan dos dedos, es el momento de pasar por la mesa. Con los pedidos desde la mesa de ArtOfMenu, el grupo pide la ronda desde la carta y el camarero la recibe en su móvil, así que no hace falta esperar a cruzar miradas."
+          ]
+        },
+        {
+          "h2": "Un paso de calidad en los destilados",
+          "body": [
+            "Muchos clientes aceptan pagar un poco más por una copa mejor si alguien se la presenta. En lugar de preguntar “¿qué ginebra?”, el camarero puede proponer dos: la de la casa y una mejor, con una frase sobre por qué merece la pena.",
+            "Haz lo mismo con el vino por copa y con el vermut. Una opción superior bien explicada sube el ticket sin que nadie se sienta empujado."
+          ]
+        },
+        {
+          "h2": "Comida que acompaña a la bebida",
+          "body": [
+            "La comida alarga la estancia y la estancia trae más rondas. Unas aceitunas, unas patatas bravas o una tabla de embutido hacen que el grupo se quede una hora más. Elige platos que salgan rápido de cocina y que vayan bien con lo que más vendes.",
+            "En la carta, coloca la comida junto a las bebidas que acompaña. Con el plan Smart, la sugerencia “Va bien con” muestra al cliente lo que más se pide con su bebida en tu bar."
+          ]
+        },
+        {
+          "h2": "Controla las botellas y los barriles",
+          "body": [
+            "En la barra, el dinero se pierde en pequeñas cantidades: copas servidas de más, invitaciones sin apuntar, botellas rotas, barriles que se cambian antes de tiempo. Haz un recuento semanal de las botellas abiertas y cerradas de las referencias más caras y compáralo con lo vendido.",
+            "Si la diferencia es grande, revisa la medida que se sirve antes de sospechar de nadie. Un dosificador o un medidor resuelve muchos casos. Con el stock por receta de ArtOfMenu, cuando una botella se acaba, las copas que la llevan aparecen como agotadas en la carta."
+          ]
+        },
+        {
+          "h2": "Motivos para venir un martes",
+          "body": [
+            "Los fines de semana se llenan solos; el resto de la semana necesita una razón. Un partido en pantalla grande, una noche de música en directo, una cata de vermut o una noche de concurso pueden convertir un martes flojo en una noche con caja.",
+            "Elige algo que encaje con tu bar y repítelo el mismo día cada semana. La regularidad hace más que la novedad."
+          ]
+        }
+      ],
+      "features": [
+        "ordering",
+        "stock",
+        "pairing",
+        "screens",
+        "reports"
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo calculo el coste de un gin tonic?",
+          "a": "Divide el precio de la botella entre las copas que sacas de ella según tu medida y súmale el tónico, el hielo y la guarnición. Repite el cálculo cuando cambie el precio de la botella o la medida."
+        },
+        {
+          "q": "¿Merece la pena hacer happy hour?",
+          "a": "Si llena una franja que hoy está vacía y la oferta se limita a bebidas con buen margen, sí. Si lo aplicas en horas que ya se llenan, solo bajas el ingreso. Compara la caja de esa franja antes y después."
+        },
+        {
+          "q": "¿Cómo consigo que los clientes pidan otra ronda?",
+          "a": "Reduciendo la espera. Pasa por la mesa cuando quedan dos dedos en el vaso, ten comida que dé ganas de quedarse y facilita pedir sin tener que buscar al camarero."
+        },
+        {
+          "q": "¿Cada cuánto debo contar el stock del bar?",
+          "a": "Las referencias caras, cada semana. El inventario completo, una vez al mes. Cuenta siempre a la misma hora, antes de abrir o después de cerrar, para que los números sean comparables."
+        },
+        {
+          "q": "¿Sirve una carta QR en un bar de copas?",
+          "a": "Sí, sobre todo en terrazas y en locales con mucha gente. El cliente ve las bebidas con foto y precio, pide desde la mesa y puede llamar al camarero sin levantar la mano."
+        }
+      ],
+      "cta": {
+        "h2": "Más rondas, menos esperas",
+        "lead": "Te avisamos cuando ArtOfMenu salga para tu bar."
+      },
+      "related": [
+        "bar",
+        "inventory",
+        "ordering",
+        "menu-engineering"
+      ]
+    },
+    "cafe-sales": {
+      "slug": "aumentar-ventas-cafeteria",
+      "title": "Cómo aumentar las ventas de una cafetería | ArtOfMenu",
+      "description": "Guía para cafeterías: rapidez en la hora punta, extras, el dulce con el café, carta según el tiempo, clientes que vuelven y menos merma de bollería.",
+      "eyebrow": "Guía",
+      "h1": "Cómo aumentar las ventas de una cafetería",
+      "lead": "Una cafetería vende más cuando sirve rápido en la hora punta de la mañana, cuando cada café va acompañado de algo y cuando el cliente vuelve al día siguiente. Estas son las medidas que mueven esas tres cosas.",
+      "answer": "Las ventas de una cafetería dependen sobre todo de la velocidad en la hora punta, de lo que se vende junto al café y de la frecuencia con la que vuelven los clientes. Ayudan una barra bien ordenada, extras visibles, ofertas de desayuno sencillas y una carta que cambia con el tiempo. ArtOfMenu ayuda con la sugerencia “Va bien con” y el orden según el tiempo.",
+      "sections": [
+        {
+          "h2": "La hora punta de la mañana manda",
+          "body": [
+            "Entre semana, buena parte de la caja de una cafetería se hace en pocas horas, antes del trabajo. Si la cola llega a la puerta, hay gente que se da la vuelta. Cada minuto que ganas en la barra se convierte en clientes que no pierdes.",
+            "Observa un día de hora punta con un cuaderno. Apunta cuánto tarda un café desde que se pide hasta que se entrega y dónde se forma el atasco: en la caja, en la máquina, en la tostadora. Muchas veces el problema es de sitio, como una jarra de leche lejos de la máquina o la bollería al otro lado de la barra."
+          ],
+          "bullets": [
+            "Ten la bollería y las tostadas más pedidas preparadas antes de abrir.",
+            "Separa quien cobra de quien prepara cuando hay cola.",
+            "Coloca leche, vasos y tapas al alcance de la mano de quien hace el café.",
+            "Deja que las mesas pidan sin pasar por la cola."
+          ]
+        },
+        {
+          "h2": "Extras que suman en cada taza",
+          "body": [
+            "La leche vegetal, la carga extra de café, un tamaño más grande o un sirope son pequeños añadidos que el cliente acepta con facilidad si los ve claros en la carta. Ponles precio fijo y muéstralos junto a cada bebida, no en una lista aparte al final.",
+            "Cuida que el precio del extra tenga sentido. Si la leche de avena cuesta lo mismo que un café entero, mucha gente prefiere no pedirla."
+          ]
+        },
+        {
+          "h2": "Café con algo",
+          "body": [
+            "El cliente que solo pide un café es el que más fácil se convierte en un desayuno. Una oferta cerrada de café con tostada, o café con zumo y bollo, simplifica la decisión y sube el ticket. En España es una costumbre muy asentada, así que el cliente la busca.",
+            "En la carta, coloca los dulces y las tostadas cerca de los cafés. Con el plan Smart de ArtOfMenu, cuando alguien añade un café, la carta le enseña el producto que más se pide con ese café en tu cafetería, en el momento en que está decidiendo."
+          ]
+        },
+        {
+          "h2": "La carta según el tiempo y la estación",
+          "body": [
+            "Lo que apetece cambia con el termómetro. En los días de frío se piden chocolates, infusiones y cafés con leche; en los de calor, cafés con hielo, batidos y zumos. Prepara cada temporada con antelación y da protagonismo a lo que encaja con el tiempo.",
+            "ArtOfMenu hace esto dentro del día: cuando hace frío, las bebidas calientes suben en la carta y las frías bajan. Solo cambia el orden, el precio sigue igual."
+          ]
+        },
+        {
+          "h2": "Clientes que vuelven cada día",
+          "body": [
+            "Una cafetería de barrio vive de la gente que viene cada mañana. Lo que hace que vuelvan es sencillo de describir y difícil de mantener: que el café salga igual cada día, que se acuerden de cómo lo toman y que no tengan que esperar.",
+            "Una tarjeta de sellos funciona si es fácil de entender y el premio llega pronto. Más que el descuento, lo que fideliza es sentir que en esa barra les conocen."
+          ]
+        },
+        {
+          "h2": "Las tardes también cuentan",
+          "body": [
+            "Muchas cafeterías se vacían después de comer. Una merienda con chocolate, una tarta del día o un espacio tranquilo para trabajar con portátil pueden llenar esas horas. Prueba una idea cada vez durante unas semanas y quédate con lo que funcione."
+          ]
+        },
+        {
+          "h2": "Menos merma de bollería y leche",
+          "body": [
+            "La bollería que sobra al cierre es dinero tirado. Apunta cada día cuánto preparas y cuánto sobra, y ajusta la producción por día de la semana. El lunes no se parece al sábado.",
+            "Con la leche y los productos frescos, usa primero lo que entró antes y revisa las fechas cada mañana. Con el stock por receta de ArtOfMenu, cuando se acaba un ingrediente, todos los productos que lo llevan aparecen agotados en la carta."
+          ]
+        },
+        {
+          "h2": "Mira tus números cada semana",
+          "body": [
+            "Basta con tres cifras: número de tickets, ticket medio y los cinco productos más vendidos. Compáralas semana a semana. Si el ticket medio sube después de cambiar la carta o lanzar una oferta de desayuno, vas por buen camino. Si no, prueba otra cosa."
+          ]
+        }
+      ],
+      "features": [
+        "pairing",
+        "weather",
+        "ordering",
+        "stock",
+        "screens"
+      ],
+      "faq": [
+        {
+          "q": "¿Cómo aumento el ticket medio de mi cafetería?",
+          "a": "Con extras visibles junto a cada bebida, una oferta de desayuno cerrada y sugerencias en el momento de pedir. Mide el ticket medio antes y después de cada cambio para saber qué funciona."
+        },
+        {
+          "q": "¿Qué hago para que la cola de la mañana vaya más rápida?",
+          "a": "Prepara antes de abrir lo que más se vende, separa caja y barra cuando haya cola y ordena la barra para que quien hace el café lo tenga todo a mano."
+        },
+        {
+          "q": "¿Funcionan las tarjetas de fidelización en una cafetería?",
+          "a": "Funcionan si son fáciles y el premio llega pronto, por ejemplo un café después de unos pocos sellos. Lo que más fideliza, aun así, es la constancia del café y del trato."
+        },
+        {
+          "q": "¿Cómo reduzco la bollería que sobra?",
+          "a": "Apunta cada día lo que preparas y lo que sobra, y ajusta por día de la semana. Si sobra a menudo, prepara menos y hornea una segunda tanda si hace falta."
+        }
+      ],
+      "cta": {
+        "h2": "Un café, y algo para acompañar",
+        "lead": "Te avisamos cuando ArtOfMenu salga para tu cafetería."
+      },
+      "related": [
+        "cafe",
+        "smart",
+        "inventory",
+        "menu-engineering"
+      ]
+    },
+    "menu-engineering": {
+      "slug": "ingenieria-de-menu",
+      "title": "Ingeniería de menú: guía paso a paso | ArtOfMenu",
+      "description": "Qué es la ingeniería de menú, cómo calcular margen y popularidad, la matriz de estrellas, vacas, puzzles y perros, y un ejemplo con números.",
+      "eyebrow": "Guía",
+      "h1": "Ingeniería de menú: qué es y cómo aplicarla",
+      "lead": "La ingeniería de menú es un método para analizar la carta plato a plato según dos datos: cuánto se vende cada uno y cuánto dinero deja. Con esos dos datos, cada plato cae en una de cuatro categorías y sabes qué hacer con él.",
+      "answer": "La ingeniería de menú es un método de análisis de cartas desarrollado por Michael Kasavana y Donald Smith que clasifica cada plato por popularidad y margen de contribución en cuatro grupos: estrellas, vacas, puzzles y perros. Sirve para decidir qué platos destacar, cuáles ajustar y cuáles quitar. ArtOfMenu complementa el análisis con informes de qué platos se ven y no se piden.",
+      "sections": [
+        {
+          "h2": "Qué es la ingeniería de menú",
+          "body": [
+            "Michael Kasavana y Donald Smith propusieron este método a principios de los años ochenta. Su idea es sencilla: un plato no es bueno o malo solo porque se venda mucho o porque tenga un coste bajo. Lo que importa es la combinación de ambas cosas.",
+            "El análisis se hace por secciones de la carta, porque no tiene sentido comparar un postre con un principal. Analiza los entrantes con los entrantes y los principales con los principales."
+          ]
+        },
+        {
+          "h2": "Los dos datos que necesitas",
+          "body": [
+            "El margen de contribución de un plato es su precio de venta sin IVA menos el coste de sus ingredientes. Para conocer ese coste necesitas el escandallo: la lista de ingredientes de cada plato con su cantidad y su precio.",
+            "La popularidad es el número de unidades vendidas en un periodo, sacado de tu TPV. Para decidir si un plato es popular, el método usa un umbral: un plato es popular si vende al menos el 70 % de lo que le tocaría si todos los platos de la sección vendieran lo mismo. Con cinco platos, a cada uno le tocaría el 20 % de las ventas; el umbral es el 70 % de eso, un 14 %.",
+            "Para el margen, el umbral es el margen medio ponderado de la sección: la suma del margen de cada plato multiplicado por sus unidades vendidas, dividida entre el total de unidades."
+          ]
+        },
+        {
+          "h2": "Las cuatro categorías de la matriz",
+          "body": [
+            "Cruzando popularidad y margen salen cuatro grupos. Los nombres varían según el libro; estos son los más usados en español."
+          ],
+          "bullets": [
+            "Estrellas: se venden mucho y dejan buen margen. Son el centro de la carta.",
+            "Vacas, o caballos de batalla: se venden mucho pero dejan poco margen.",
+            "Puzzles, o enigmas: dejan buen margen pero se venden poco.",
+            "Perros: se venden poco y dejan poco margen."
+          ]
+        },
+        {
+          "h2": "Qué hacer con cada categoría",
+          "body": [
+            "A las estrellas no las toques en la receta. Dales los primeros puestos de la carta, una buena foto y cuida que la calidad no baje. Si quieres, prueba subidas de precio pequeñas: suelen aguantarlas.",
+            "Con las vacas, el cliente ya está convencido; el trabajo está en el margen. Revisa la ración, cambia una guarnición cara por otra más barata o sube el precio poco a poco. También puedes acompañarlas con algo de más margen, como una bebida o un extra.",
+            "Los puzzles necesitan visibilidad. Cámbialos de sitio, mejora la descripción, añade foto o pide al equipo que los recomiende. Si después de todo siguen sin venderse, quizá el precio está por encima de lo que el cliente espera.",
+            "Los perros son candidatos a salir de la carta. Antes de quitarlos, comprueba si alguno tiene una razón para quedarse, como ser la única opción vegetariana de la sección o un plato que los clientes habituales piden siempre."
+          ]
+        },
+        {
+          "h2": "Un ejemplo con números",
+          "body": [
+            "Imagina una sección de cinco principales durante un mes (cifras inventadas para el ejemplo, precios sin IVA). Entrecot: precio 22 €, coste 9 €, margen 13 €, 120 vendidos. Merluza: 18 €, coste 7 €, margen 11 €, 60 vendidos. Risotto de setas: 15 €, coste 3,50 €, margen 11,50 €, 40 vendidos. Hamburguesa: 14 €, coste 4,50 €, margen 9,50 €, 150 vendidos. Pulpo: 21 €, coste 10 €, margen 11 €, 30 vendidos.",
+            "En total se venden 400 platos. El umbral de popularidad es el 14 % de 400, es decir, 56 unidades. El margen medio ponderado es 4.435 € entre 400, unos 11,09 €.",
+            "El resultado: el entrecot es una estrella (popular y con margen alto). La hamburguesa y la merluza son vacas: se venden bien, pero dejan menos de la media. El risotto es un puzzle: deja buen margen y se vende poco. El pulpo es un perro: se vende poco y su margen está por debajo de la media.",
+            "Las decisiones posibles: destacar el entrecot, revisar la ración o el precio de la hamburguesa, mover el risotto a un sitio más visible con foto, y estudiar si el pulpo sigue en la carta o cambia de precio y presentación."
+          ]
+        },
+        {
+          "h2": "El diseño de la carta también cuenta",
+          "body": [
+            "Una vez clasificados los platos, la carta tiene que reflejarlo. Pon las estrellas y los puzzles en los sitios que primero se miran de cada sección. Usa descripciones más cuidadas para los platos que quieres vender. Evita poner los precios en columna alineada a la derecha, porque invita a comparar solo por precio.",
+            "En una carta digital, ese trabajo lo hacen el orden dentro de cada sección y la foto."
+          ]
+        },
+        {
+          "h2": "Cada cuánto repetir el análisis",
+          "body": [
+            "Los costes y los gustos cambian, y una estrella de invierno puede ser un perro en agosto.",
+            "Vuelve a medir unas semanas después de cada cambio para ver si la decisión ha funcionado."
+          ]
+        },
+        {
+          "h2": "Dónde ayudan los informes de ArtOfMenu",
+          "body": [
+            "La matriz clásica solo ve lo que se vendió. Los informes de la carta de ArtOfMenu añaden lo que pasó antes de la venta: qué platos se ven pero casi no se abren, que suele ser un problema de foto, de nombre o de sitio, y qué platos se abren pero nunca se piden, donde el precio o la descripción frenan al cliente. Son pistas útiles para trabajar los puzzles.",
+            "Con el plan Smart, los precios inteligentes diarios se mueven dentro del mínimo y el máximo que tú pongas a cada plato, así que la ingeniería de menú te sirve también para decidir esos límites."
+          ]
+        }
+      ],
+      "steps": {
+        "h2": "Ingeniería de menú paso a paso",
+        "items": [
+          {
+            "t": "Elige el periodo y la sección",
+            "d": "Por ejemplo, los principales del último mes. Usa un periodo sin cambios de carta."
+          },
+          {
+            "t": "Haz el escandallo de cada plato",
+            "d": "Lista los ingredientes con cantidad y precio y suma el coste por ración."
+          },
+          {
+            "t": "Calcula el margen de contribución",
+            "d": "Precio de venta sin IVA menos el coste de ingredientes."
+          },
+          {
+            "t": "Saca las unidades vendidas",
+            "d": "Del informe de ventas de tu TPV, plato por plato."
+          },
+          {
+            "t": "Calcula los dos umbrales",
+            "d": "Popularidad: 70 % de 1 entre el número de platos. Margen: la media ponderada de la sección."
+          },
+          {
+            "t": "Clasifica cada plato",
+            "d": "Estrella, vaca, puzzle o perro según quede por encima o por debajo de cada umbral."
+          },
+          {
+            "t": "Decide una acción por plato",
+            "d": "Destacar, ajustar margen, dar visibilidad o quitar."
+          },
+          {
+            "t": "Mide otra vez",
+            "d": "Repite el análisis unas semanas después para comprobar el efecto."
+          }
+        ]
+      },
+      "features": [
+        "reports",
+        "pricing",
+        "pairing",
+        "stock"
+      ],
+      "faq": [
+        {
+          "q": "¿Hay una plantilla de ingeniería de menú en Excel?",
+          "a": "Puedes hacerla en una hoja con estas columnas: plato, precio sin IVA, coste, margen, unidades vendidas, porcentaje de ventas, margen total y categoría. Añade dos celdas con los umbrales de popularidad y margen medio ponderado."
+        },
+        {
+          "q": "¿Qué fórmulas se usan en la ingeniería de menú?",
+          "a": "Margen de contribución: precio sin IVA menos coste. Umbral de popularidad: (1 ÷ número de platos) × 70 %. Margen medio ponderado: suma de margen por unidades vendidas, dividida entre el total de unidades."
+        },
+        {
+          "q": "¿Se analiza la carta entera o por secciones?",
+          "a": "Por secciones. Comparar un postre con un principal no tiene sentido, porque sus precios y sus ventas están en otra escala. Analiza entrantes, principales y postres por separado, cada uno con sus propios umbrales."
+        },
+        {
+          "q": "¿Qué es un escandallo?",
+          "a": "Es la ficha de coste de un plato: cada ingrediente con su cantidad por ración y su precio de compra. Sumando todo sale el coste de la materia prima, que es la base del margen."
+        },
+        {
+          "q": "¿Cada cuánto conviene hacer la ingeniería de menú?",
+          "a": "Con cada cambio de carta y, si es posible, cada trimestre. También cuando suben mucho los precios de un ingrediente importante, porque un plato puede pasar de estrella a vaca sin que cambie nada en la sala."
+        }
+      ],
+      "cta": {
+        "h2": "Saber qué pasa antes de cada pedido",
+        "lead": "Te avisamos cuando ArtOfMenu salga para que tengas los informes de tu carta."
+      },
+      "related": [
+        "restaurant-sales",
+        "smart",
+        "inventory",
+        "design"
+      ]
+    },
+    "inventory": {
+      "slug": "control-inventario-restaurante",
+      "title": "Control de inventario en un restaurante | ArtOfMenu",
+      "description": "Cómo llevar el control de inventario de un restaurante: escandallos, recuentos, stock mínimo, FIFO, merma y qué columnas poner en tu hoja de Excel.",
+      "eyebrow": "Guía",
+      "h1": "Control de inventario en un restaurante",
+      "lead": "Llevar el control de inventario de un restaurante es saber, en cada momento, qué tienes, cuánto vale, cuánto gastas y cuánto pierdes. Se consigue con cuatro hábitos: escandallos al día, recuentos regulares, stock mínimo por producto y un registro de la merma.",
+      "answer": "El control de inventario de un restaurante es el registro ordenado de los productos que entran, se usan y se pierden en la cocina y la barra. Se basa en escandallos, recuentos periódicos, niveles de stock mínimo, rotación FIFO y registro de mermas. ArtOfMenu, en el plan Smart, usa el stock por receta para marcar como agotados los platos cuyo ingrediente se ha terminado.",
+      "sections": [
+        {
+          "h2": "Por qué el inventario es dinero",
+          "body": [
+            "Todo lo que hay en la cámara, el almacén y la barra lo has pagado. Si compras de más, ese dinero está parado o se acaba tirando. Si compras de menos, te quedas sin un plato en mitad del servicio y pierdes la venta.",
+            "El control de inventario sirve para tres cosas: saber cuánto te cuesta de verdad lo que vendes, comprar lo justo y detectar a tiempo dónde se pierde producto."
+          ]
+        },
+        {
+          "h2": "Escandallos: el coste real de cada plato",
+          "body": [
+            "El escandallo es la ficha de cada plato con sus ingredientes, la cantidad por ración y el precio de compra. Sin él, no puedes saber cuánto deberías haber gastado según lo que has vendido.",
+            "Incluye las mermas de preparación: si compras un kilo de merluza y después de limpiarla quedan setecientos gramos útiles, el coste por ración se calcula sobre esos setecientos. Actualiza los escandallos cuando cambie el precio de un proveedor o la receta."
+          ]
+        },
+        {
+          "h2": "Recuento: qué contar, cuándo y cómo",
+          "body": [
+            "No hace falta contarlo todo cada día. Separa los productos en dos grupos: los caros o los que más se mueven (carne, pescado, destilados, café) y el resto. El primer grupo, cada semana. El inventario completo, una vez al mes."
+          ],
+          "bullets": [
+            "Cuenta siempre a la misma hora, antes de abrir o después de cerrar.",
+            "Sigue el mismo recorrido: cámara, congelador, almacén seco, barra.",
+            "Usa la misma unidad que en las compras: kilos, litros, botellas, unidades.",
+            "Si podéis, contad entre dos: una persona cuenta y otra apunta.",
+            "Anota también los productos abiertos, en fracción de unidad."
+          ]
+        },
+        {
+          "h2": "Stock mínimo y punto de pedido",
+          "body": [
+            "El stock mínimo es la cantidad por debajo de la cual tienes que pedir. Una forma sencilla de calcularlo: consumo medio diario multiplicado por los días que tarda el proveedor en servir, más un pequeño margen de seguridad para un día con más gente de lo normal.",
+            "El stock máximo evita el problema contrario: comprar tanto que se caduque. Para productos frescos, ajústalo al consumo de pocos días. Revisa estas cifras con el cambio de temporada, porque en verano y en invierno no gastas lo mismo."
+          ]
+        },
+        {
+          "h2": "FIFO y etiquetado",
+          "body": [
+            "FIFO viene del inglés first in, first out: lo primero que entra es lo primero que sale. Cuando llega la mercancía, colócala detrás de la que ya tienes, para que se use antes lo antiguo. Con productos de caducidad corta, manda la fecha de caducidad aunque haya entrado después.",
+            "Etiqueta todo lo que se abre o se prepara con el producto, la fecha de elaboración y la fecha límite de uso. Una salsa sin etiqueta acaba en la basura por dudas aunque esté bien."
+          ]
+        },
+        {
+          "h2": "Registra la merma",
+          "body": [
+            "Pon una hoja junto al cubo o en la tablet de cocina y apunta todo lo que se tira: producto, cantidad y motivo. Caducado, mal conservado, mal preparado, devuelto por el cliente, roto.",
+            "Al cabo de unas semanas tendrás una lista que dice mucho. Si siempre se tira pan, compras de más. Si vuelven platos a medias, la ración es grande. Si caduca un ingrediente concreto, quizá lo usa un solo plato que se vende poco."
+          ]
+        },
+        {
+          "h2": "Consumo teórico frente a consumo real",
+          "body": [
+            "Con los escandallos y las ventas del TPV puedes calcular cuánto deberías haber gastado de cada ingrediente. Comparándolo con lo que dice el recuento (stock inicial más compras menos stock final), sale la diferencia.",
+            "Una diferencia pequeña es normal. Una grande indica raciones servidas de más, mermas sin apuntar, errores en las entregas de los proveedores o producto que sale sin registrarse. Empieza revisando los productos más caros."
+          ]
+        },
+        {
+          "h2": "Hoja de Excel o programa: qué te conviene",
+          "body": [
+            "Para un local pequeño, una hoja de cálculo bien hecha basta. Las columnas útiles son: producto, proveedor, unidad, precio por unidad, stock mínimo, stock máximo, recuento anterior, compras, recuento actual, consumo y valor del stock. Una pestaña por mes te deja comparar.",
+            "Cuando tienes varios locales, muchas referencias o la hoja se queda sin actualizar porque nadie tiene tiempo, compensa una herramienta que reste el stock con cada venta."
+          ]
+        },
+        {
+          "h2": "Stock por receta en ArtOfMenu",
+          "body": [
+            "El plan Order de ArtOfMenu incluye informes sencillos de stock y pedidos. El plan Smart va más allá con el stock por receta: cada plato sabe qué ingredientes lleva, y cuando uno se acaba, todos los platos que lo usan aparecen como agotados en la carta sin que nadie tenga que hacerlo a mano. Así el cliente no pide un plato que la cocina ya no puede servir.",
+            "No sustituye a un programa completo de gestión de almacén ni a tus compras con proveedores, pero conecta lo que hay en la cocina con lo que ve el cliente en la carta."
+          ]
+        }
+      ],
+      "steps": {
+        "h2": "Cómo montar el control de inventario en un mes",
+        "items": [
+          {
+            "t": "Haz la lista de productos",
+            "d": "Todo lo que compras, con proveedor, unidad de compra y precio actual."
+          },
+          {
+            "t": "Escribe los escandallos",
+            "d": "Empieza por los diez platos que más vendes y sigue con el resto."
+          },
+          {
+            "t": "Haz el primer recuento completo",
+            "d": "Ese será tu stock inicial y el punto de partida para comparar."
+          },
+          {
+            "t": "Fija mínimos y máximos",
+            "d": "Con el consumo medio diario y los días de entrega de cada proveedor."
+          },
+          {
+            "t": "Organiza el almacén en FIFO",
+            "d": "Lo antiguo delante, lo nuevo detrás, todo etiquetado con fechas."
+          },
+          {
+            "t": "Empieza a registrar la merma",
+            "d": "Producto, cantidad y motivo, cada vez que algo se tira."
+          },
+          {
+            "t": "Compara consumo teórico y real",
+            "d": "Al final del mes, revisa primero las diferencias en los productos caros."
+          }
+        ]
+      },
+      "features": [
+        "stock",
+        "reports",
+        "ordering",
+        "pricing"
+      ],
+      "faq": [
+        {
+          "q": "¿Cada cuánto hay que hacer inventario en un restaurante?",
+          "a": "Los productos caros o de mucha rotación, cada semana. El inventario completo, una vez al mes. Lo importante es contar siempre a la misma hora y de la misma forma para que las cifras se puedan comparar."
+        },
+        {
+          "q": "¿Qué columnas debe tener una hoja de control de inventario en Excel?",
+          "a": "Producto, proveedor, unidad, precio por unidad, stock mínimo y máximo, recuento anterior, compras del periodo, recuento actual, consumo y valor del stock. Una pestaña por mes te permite comparar la evolución."
+        },
+        {
+          "q": "¿Qué es el método FIFO?",
+          "a": "Significa first in, first out: lo primero que entra es lo primero que se usa. Se aplica colocando la mercancía nueva detrás de la antigua. En productos perecederos manda la fecha de caducidad."
+        },
+        {
+          "q": "¿Cómo calculo el stock mínimo de un producto?",
+          "a": "Multiplica el consumo medio diario por los días que tarda el proveedor en entregar y suma un margen de seguridad para los días con más gente. Revisa la cifra con cada cambio de temporada."
+        },
+        {
+          "q": "¿ArtOfMenu sustituye a un programa de gestión de almacén?",
+          "a": "No. Ofrece informes sencillos de stock y pedidos en el plan Order y stock por receta en el plan Smart, que marca como agotados los platos cuyo ingrediente se ha acabado."
+        }
+      ],
+      "cta": {
+        "h2": "Que la carta sepa lo que queda en cocina",
+        "lead": "Te avisamos cuando el stock por receta de ArtOfMenu esté disponible."
+      },
+      "related": [
+        "menu-engineering",
+        "restaurant-sales",
+        "bar-sales",
+        "smart"
+      ]
+    },
+    "how-to": {
+      "slug": "crear-menu-qr",
+      "title": "Cómo crear un menú QR paso a paso | ArtOfMenu",
+      "description": "Cómo hacer un menú QR para tu restaurante o bar: de tu carta en PDF a la mesa el mismo día, cómo imprimir el código y cómo cambiar precios después.",
+      "eyebrow": "Paso a paso",
+      "h1": "Cómo crear un menú QR para tu local",
+      "lead": "Para crear un menú QR necesitas tu carta, un servicio que la publique online y un código impreso en cada mesa. Con ArtOfMenu puedes subir la carta en PDF que ya tienes y tenerla en las mesas el mismo día.",
+      "answer": "Crear un menú QR consiste en publicar la carta en internet y colocar en cada mesa un código QR que lleve a ella. Con ArtOfMenu se sube la carta en PDF, se revisan fotos, precios y alérgenos, y se imprime el código. El QR no cambia nunca: cuando cambias un precio o un plato, lo actualizas en la carta y las mesas lo ven al momento.",
+      "sections": [
+        {
+          "h2": "Lo que necesitas antes de empezar",
+          "body": [
+            "Ten a mano la carta actual, mejor en PDF, con los precios al día. Reúne la información de alérgenos de cada plato, preguntando a cocina si hace falta. Guarda las fotos que tengas con el nombre de cada plato.",
+            "Puedes publicar la carta del PDF y añadir fotos poco a poco."
+          ]
+        },
+        {
+          "h2": "Del PDF a la carta online el mismo día",
+          "body": [
+            "Con ArtOfMenu subes el PDF de tu carta en cualquier plan y la carta queda publicada ese mismo día. Después revisa precios, descripciones y alérgenos.",
+            "Si quieres que la carta se abra en el dominio de tu local, configúralo en este momento, antes de imprimir el código."
+          ]
+        },
+        {
+          "h2": "Imprimir el QR y colocarlo en las mesas",
+          "body": [
+            "Unos detalles evitan problemas el primer día."
+          ],
+          "bullets": [
+            "Imprímelo de al menos 3 × 3 cm en las mesas, y más grande si se va a escanear de lejos.",
+            "Usa contraste alto: código oscuro sobre fondo claro.",
+            "Evita acabados brillantes que reflejen la luz del techo o del sol.",
+            "Un expositor de acrílico o una pegatina mate en la mesa aguantan bien el uso diario.",
+            "Añade debajo “Escanea para ver la carta”."
+          ]
+        },
+        {
+          "h2": "Actualizar precios y platos sin cambiar el QR",
+          "body": [
+            "El código de la mesa no cambia nunca. Cuando subes un precio, quitas un plato que se ha acabado o añades el especial del fin de semana, lo haces en la carta y el siguiente cliente que escanee ya lo ve."
+          ]
+        },
+        {
+          "h2": "Errores frecuentes al crear un menú QR",
+          "body": [
+            "El más común es enlazar el código directamente a un archivo PDF guardado en una carpeta compartida. Cuando cambias el archivo, el enlace deja de funcionar y hay que reimprimir todos los códigos. Otro error es poner el código tan pequeño o en un rincón tan oscuro que el móvil no lo lee.",
+            "Y no te olvides de quien no usa el móvil: ten siempre una carta impresa para quien la pida, con los precios y los alérgenos."
+          ]
+        }
+      ],
+      "steps": {
+        "h2": "Crear tu menú QR en siete pasos",
+        "items": [
+          {
+            "t": "Reúne la carta",
+            "d": "PDF actual, precios al día, alérgenos de cada plato y las fotos que tengas."
+          },
+          {
+            "t": "Sube el PDF a ArtOfMenu",
+            "d": "La carta queda publicada el mismo día, en cualquier plan."
+          },
+          {
+            "t": "Revisa plato por plato",
+            "d": "Precio, descripción, alérgenos y foto. Corrige lo que haga falta."
+          },
+          {
+            "t": "Conecta tu dominio",
+            "d": "Para que la carta se abra con el nombre de tu local en la dirección."
+          },
+          {
+            "t": "Imprime el código QR",
+            "d": "En un soporte mate y duradero, con buen contraste y tamaño suficiente."
+          },
+          {
+            "t": "Pruébalo en la mesa",
+            "d": "Escanéalo con varios móviles y con la luz real de la sala."
+          },
+          {
+            "t": "Actualiza cuando quieras",
+            "d": "Cambia precios y platos en la carta; el QR de la mesa sigue igual."
+          }
+        ]
+      },
+      "features": [
+        "pdf",
+        "domain",
+        "multilingual",
+        "global"
+      ],
+      "faq": [
+        {
+          "q": "¿Cuánto se tarda en crear un menú QR?",
+          "a": "Si ya tienes la carta en PDF, puedes publicarla el mismo día con ArtOfMenu. Añadir fotos y revisar los alérgenos de cada plato puede llevarte algo más, y puedes hacerlo poco a poco."
+        },
+        {
+          "q": "¿Tengo que cambiar el QR cada vez que cambio la carta?",
+          "a": "No. El código de la mesa no cambia nunca. Cambias la carta en ArtOfMenu, ya sea un precio, un plato o una foto, y los clientes ven la versión nueva en el siguiente escaneo."
+        },
+        {
+          "q": "¿Qué tamaño debe tener el QR impreso?",
+          "a": "En las mesas, al menos unos 3 × 3 cm. Si el cliente lo va a escanear desde más lejos, como en una pared o en la entrada, hazlo más grande."
+        },
+        {
+          "q": "¿Qué soporte uso para el QR de la mesa?",
+          "a": "Un expositor de acrílico, una pegatina mate resistente o un portamenús. Lo importante es que no refleje la luz, que el código no quede tapado por la vajilla y que aguante la limpieza diaria de las mesas."
+        },
+        {
+          "q": "¿Necesito saber de diseño o de programación?",
+          "a": "No. Subes la carta en PDF o tus platos con sus fotos, y la carta se presenta con el diseño de ArtOfMenu. No hay que tocar código ni elegir plantillas, porque el diseño ya viene hecho."
+        }
+      ],
+      "cta": {
+        "h2": "Tu menú QR, el mismo día",
+        "lead": "Déjanos tu correo y te avisamos en cuanto puedas subir tu carta a ArtOfMenu."
+      },
+      "related": [
+        "pricing",
+        "design",
+        "qr-menu",
+        "multilingual"
+      ]
+    }
+  }
+}

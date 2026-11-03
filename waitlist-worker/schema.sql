@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS signups (
   email      TEXT NOT NULL UNIQUE,
   maps_url   TEXT NOT NULL,
   plan       TEXT NOT NULL,          -- menu | order | smart | undecided
-  lang       TEXT NOT NULL,          -- tr | en | de
+  lang       TEXT NOT NULL,          -- tr | en | de | es | it | fr
   ip_hash    TEXT NOT NULL,          -- salted SHA-256 of the IP, only for rate limiting
   consent_at TEXT NOT NULL,
   created_at TEXT NOT NULL,

@@ -1,0 +1,1643 @@
+{
+  "lang": "it",
+  "ui": {
+    "langName": "Italiano",
+    "home": "Home",
+    "notify": "Avvisami al lancio",
+    "pricing": "Prezzi",
+    "soon": "In arrivo",
+    "answerLabel": "In breve",
+    "featuresTitle": "Le funzioni di ArtOfMenu per questo tema",
+    "faqTitle": "Domande frequenti",
+    "relatedTitle": "Pagine correlate",
+    "allPages": "Tutte le pagine",
+    "plansTitle": "Piani",
+    "plansLead": "Un prezzo per locale al mese. Con l'abbonamento annuale paghi 10 mesi e ne usi 12.",
+    "perBranch": "per locale",
+    "from": "a partire da",
+    "footerTagline": "Menu QR, ordinazioni al tavolo e prezzi intelligenti per bar, caffetterie, ristoranti, cocktail bar e pasticcerie.",
+    "languages": "Lingue",
+    "skip": "Vai al contenuto",
+    "features": {
+      "multilingual": {
+        "t": "Nella lingua dell'ospite",
+        "d": "Il menu si apre nella lingua del telefono di chi lo inquadra, con foto e allergeni."
+      },
+      "ordering": {
+        "t": "Ordini dal tavolo",
+        "d": "Gli ospiti ordinano dal menu e il cameriere vede l'ordine subito sul suo telefono."
+      },
+      "weather": {
+        "t": "Un menu che segue il meteo",
+        "d": "Con il freddo salgono le bevande calde, mentre quelle fredde e i prodotti in esaurimento scendono."
+      },
+      "pairing": {
+        "t": "Si abbina bene con",
+        "d": "Quando l'ospite aggiunge un prodotto, il menu propone quello ordinato più spesso insieme in quella sede."
+      },
+      "pricing": {
+        "t": "Prezzi del giorno",
+        "d": "Ogni sera fissa i prezzi di domani tra il minimo e il massimo che decidi tu."
+      },
+      "pdf": {
+        "t": "Dal PDF al menu online",
+        "d": "Carica il PDF del menu che hai già e vai online lo stesso giorno."
+      },
+      "stock": {
+        "t": "Scorte ed esauriti",
+        "d": "Report di scorte e ordini; con lo stock da ricetta, se finisce un ingrediente i piatti risultano esauriti."
+      },
+      "reports": {
+        "t": "Report del menu",
+        "d": "Statistiche anonime che segnalano i piatti visti ma poco aperti e quelli aperti ma mai ordinati."
+      },
+      "screens": {
+        "t": "Schermi dietro al banco",
+        "d": "Il menu sui monitor del banco, con più schermi che girano pagina insieme."
+      },
+      "domain": {
+        "t": "Il tuo dominio",
+        "d": "Il menu si apre sul dominio del tuo locale, con il tuo nome nell'indirizzo."
+      },
+      "global": {
+        "t": "216 paesi, la tua valuta",
+        "d": "Valuta, esposizione delle imposte e arrotondamento dei prezzi impostati per il tuo paese."
+      }
+    },
+    "plans": {
+      "menu": {
+        "tag": "Il menu digitale",
+        "items": [
+          "Menu QR con foto e allergeni",
+          "Menu in più lingue",
+          "Il tuo dominio",
+          "Caricamento del PDF",
+          "Statistiche anonime"
+        ]
+      },
+      "order": {
+        "tag": "Ordini dal tavolo",
+        "items": [
+          "Tutto il piano Menu",
+          "Ordinazioni dal tavolo",
+          "Schermo del cameriere e notifiche",
+          "Report semplici di scorte e ordini"
+        ]
+      },
+      "smart": {
+        "tag": "Prezzi e scorte intelligenti",
+        "items": [
+          "Tutto il piano Order",
+          "Prezzi del giorno e calendario delle ricorrenze",
+          "Ordini live e «si abbina bene con»",
+          "Chiamata dal tavolo",
+          "Stock da ricetta",
+          "Schermi dietro al banco"
+        ]
+      }
+    }
+  },
+  "pages": {
+    "qr-menu": {
+      "slug": "menu-qr-code",
+      "title": "Menu QR code per bar e ristoranti | ArtOfMenu",
+      "description": "Il menu QR code di ArtOfMenu si apre nella lingua dell'ospite, con foto e allergeni. Cambi piatti e prezzi, il QR sul tavolo resta lo stesso.",
+      "eyebrow": "Menu digitale",
+      "h1": "Menu QR code: il menu digitale del tuo locale",
+      "lead": "Un menu QR code è un menu digitale che l'ospite apre inquadrando un codice sul tavolo con la fotocamera del telefono. Con ArtOfMenu si apre nella sua lingua, mostra foto e allergeni e lo aggiorni tu quando vuoi.",
+      "answer": "Un menu QR code è la versione digitale del menu di un locale: l'ospite inquadra il codice stampato sul tavolo e il menu si apre sul telefono, senza installare app. ArtOfMenu è un menu QR pensato per bar, ristoranti, cocktail bar e pasticcerie. Si apre nella lingua del telefono, mostra foto e allergeni e si aggiorna senza ristampare il QR.",
+      "sections": [
+        {
+          "h2": "Cosa succede quando l'ospite inquadra il QR",
+          "body": [
+            "Tavolo 4, una coppia arrivata da Monaco. Lei inquadra il codice con la fotocamera e il menu si apre in tedesco, con la foto della tagliata e gli allergeni sotto ogni piatto. Non c'è un'app da scaricare e non c'è un account da creare.",
+            "Il cameriere arriva quando hanno già scelto. Al tavolo si parla del vino da abbinare, mentre la traduzione dei piatti l'ha già fatta il menu."
+          ]
+        },
+        {
+          "h2": "Cosa cambia per chi gestisce il locale",
+          "body": [
+            "Il codice sul tavolo resta sempre lo stesso. Quando lo spritz passa da 6 a 6,50 € o finisce il pesce del giorno, modifichi il menu e il QR mostra subito la versione nuova. I supporti stampati restano dove sono.",
+            "Se hai già un menu in PDF, lo carichi e sei online lo stesso giorno. Il menu può aprirsi sul dominio del tuo locale, così l'ospite legge il tuo nome nell'indirizzo."
+          ]
+        },
+        {
+          "h2": "Per chi è pensato",
+          "body": [
+            "ArtOfMenu nasce per locali piccoli e medi, dove il menu cambia spesso e il personale ha poco tempo."
+          ],
+          "bullets": [
+            "Bar e caffetterie: la colazione al tavolo, il listino sugli schermi del banco.",
+            "Ristoranti e trattorie: menu lunghi divisi in portate, allergeni, ospiti stranieri.",
+            "Cocktail bar, pub e wine bar: carte drink che cambiano, giri di ordinazioni, prodotti che finiscono.",
+            "Pasticcerie: vetrine piene, prodotti di stagione, allergeni da indicare con cura."
+          ]
+        },
+        {
+          "h2": "Oltre il menu: ordini, scorte e prezzi",
+          "body": [
+            "Il piano Menu copre l'essenziale: foto, allergeni, lingue, dominio, caricamento del PDF e statistiche anonime. Con Order gli ospiti ordinano dal tavolo e il cameriere riceve l'ordine sul telefono. Con Smart il menu propone abbinamenti, gestisce le scorte da ricetta e ogni sera calcola i prezzi del giorno dopo entro i limiti che fissi tu.",
+            "Ogni funzione ha la sua pagina, con quello che fa e quello che non fa."
+          ]
+        },
+        {
+          "h2": "La privacy dei tuoi ospiti",
+          "body": [
+            "Il menu non usa cookie e non conserva identificativi persistenti o indirizzi IP degli ospiti. Le statistiche che vedi sono anonime: ti dicono quali piatti vengono guardati e quali ordinati, mai chi li ha guardati."
+          ]
+        }
+      ],
+      "features": [
+        "multilingual",
+        "pdf",
+        "domain",
+        "reports",
+        "ordering",
+        "global"
+      ],
+      "faq": [
+        {
+          "q": "Come funziona un menu QR code al ristorante?",
+          "a": "L'ospite inquadra il codice sul tavolo con la fotocamera del telefono e il menu si apre nel browser. Con ArtOfMenu si apre nella lingua del telefono, con foto e allergeni. Tu modifichi piatti e prezzi e il codice stampato resta valido."
+        },
+        {
+          "q": "Serve un'app per leggere il menu QR?",
+          "a": "No. Sugli smartphone recenti basta la fotocamera, che riconosce il codice e propone di aprire il link. L'ospite non installa nulla e non si registra. Conviene comunque tenere qualche menu di carta per chi non ha il telefono con sé."
+        },
+        {
+          "q": "Posso cambiare i prezzi senza ristampare il QR?",
+          "a": "Sì. Il QR porta sempre allo stesso indirizzo, mentre il contenuto lo aggiorni tu. Un prezzo nuovo, un piatto in più o un prodotto esaurito compaiono appena salvi la modifica. Il codice sul tavolo si ristampa solo se si rovina."
+        },
+        {
+          "q": "Quanto costa il menu QR di ArtOfMenu?",
+          "a": "Il piano Menu costa 9 € al mese per locale, Order 29 € e Smart 59 €. Con l'abbonamento annuale paghi 10 mesi e ne usi 12. Non esiste un piano senza costi e non c'è un periodo di prova."
+        },
+        {
+          "q": "Quando sarà disponibile ArtOfMenu?",
+          "a": "ArtOfMenu non è ancora stato lanciato. Puoi lasciare nome, email, il link Google Maps del locale e il piano che ti interessa: ti scriviamo appena il servizio è disponibile, così puoi preparare il menu per tempo."
+        }
+      ],
+      "cta": {
+        "h2": "Il tuo menu, pronto per il lancio",
+        "lead": "Lascia i tuoi dati e ti avvisiamo appena ArtOfMenu è disponibile per il tuo locale."
+      },
+      "related": [
+        "pricing",
+        "how-to",
+        "multilingual",
+        "ordering",
+        "design"
+      ]
+    },
+    "pricing": {
+      "slug": "menu-qr-code-prezzi",
+      "title": "Menu QR code prezzi: quanto costa | ArtOfMenu",
+      "description": "Quanto costa un menu QR code? Con ArtOfMenu da 9 € al mese per locale. Cosa include ogni piano, il risparmio annuale e il confronto con la stampa.",
+      "eyebrow": "Prezzi",
+      "h1": "Quanto costa un menu QR code",
+      "lead": "Con ArtOfMenu un menu QR code costa 9 € al mese per locale con il piano Menu, 29 € con Order e 59 € con Smart. Con l'abbonamento annuale paghi 10 mesi e usi il servizio per 12.",
+      "answer": "Il prezzo di un menu QR code dipende da cosa fa oltre a mostrare i piatti: lingue, foto, ordini dal tavolo, gestione delle scorte. ArtOfMenu ha tre piani per locale: Menu a 9 € al mese, Order a 29 € e Smart a 59 €. L'abbonamento annuale costa come 10 mesi. Ogni sede ha il proprio abbonamento.",
+      "sections": [
+        {
+          "h2": "Cosa determina il prezzo di un menu QR",
+          "body": [
+            "Un QR che apre un PDF costa poco e fa una cosa sola. Il prezzo sale quando il menu inizia a lavorare per te, con lingue, ordini dal tavolo, scorte e prezzi del giorno. L'altra variabile è il numero di locali, perché ogni sede ha il suo menu e i suoi dati."
+          ],
+          "bullets": [
+            "Le funzioni: solo menu, menu con ordini, oppure menu con prezzi e scorte intelligenti.",
+            "Il numero di sedi: ArtOfMenu si paga per locale.",
+            "La durata: mensile oppure annuale."
+          ]
+        },
+        {
+          "h2": "Cosa include ogni piano",
+          "body": [
+            "I prezzi sono per locale al mese. Ogni piano contiene tutto quello del piano precedente."
+          ],
+          "bullets": [
+            "Menu, 9 €: menu QR con foto e allergeni, più lingue, il tuo dominio, caricamento del PDF, statistiche anonime.",
+            "Order, 29 €: tutto il piano Menu, più ordinazioni dal tavolo, schermo del cameriere con notifiche, report semplici di scorte e ordini.",
+            "Smart, 59 €: tutto il piano Order, più prezzi del giorno con calendario delle ricorrenze, ordini live con «si abbina bene con», chiamata dal tavolo, stock da ricetta e schermi dietro al banco."
+          ]
+        },
+        {
+          "h2": "Mensile o annuale: quanto risparmi",
+          "body": [
+            "Con l'annuale paghi 10 mesi e usi il servizio per 12. Per un locale sono 90 € l'anno invece di 108 € con Menu, 290 € invece di 348 € con Order e 590 € invece di 708 € con Smart.",
+            "Se hai aperto da poco o lavori solo d'estate, il mensile ti lascia più libertà. Se il locale è aperto tutto l'anno, l'annuale ti fa risparmiare due mesi."
+          ]
+        },
+        {
+          "h2": "Software o menu stampati: un confronto onesto",
+          "body": [
+            "Il menu di carta ha dei pregi: si legge senza telefono e qualche ospite lo preferisce. Il suo costo vero arriva con le ristampe, perché ogni aumento del fornitore o piatto nuovo vuol dire rifarlo, oppure correggere a penna.",
+            "Per fare il conto sul tuo locale, guarda quante volte hai ristampato il menu nell'ultimo anno e quanto è costata ogni tiratura. Mettilo accanto ai 90 € annui del piano Menu. Tenere qualche copia stampata per chi la chiede resta comunque una buona idea."
+          ]
+        },
+        {
+          "h2": "Cambiare piano o disdire",
+          "body": [
+            "Disdici in un solo passaggio e continui a usare il servizio fino alla fine del periodo già pagato. Se passi a un piano più piccolo i tuoi dati restano dove sono: menu, foto e storico non si perdono."
+          ]
+        }
+      ],
+      "features": [
+        "pdf",
+        "ordering",
+        "pricing",
+        "stock",
+        "domain"
+      ],
+      "faq": [
+        {
+          "q": "Quanto costa un menu QR code per un ristorante?",
+          "a": "Con ArtOfMenu parti da 9 € al mese per locale con il piano Menu. Per le ordinazioni dal tavolo serve Order a 29 €, per prezzi del giorno e stock da ricetta Smart a 59 €. L'abbonamento annuale costa come 10 mesi."
+        },
+        {
+          "q": "C'è un periodo di prova?",
+          "a": "No, ArtOfMenu non ha un periodo di prova né un piano senza costi. La disdetta però si fa in un passaggio e il servizio resta attivo fino alla fine del periodo pagato, quindi puoi partire con un mese e decidere dopo."
+        },
+        {
+          "q": "Il prezzo è per account o per locale?",
+          "a": "Per locale. Ogni sede ha il suo abbonamento, perché ha il suo menu, i suoi prezzi e le sue statistiche. Se gestisci due bar, paghi due abbonamenti, e i dati dei due locali restano separati."
+        },
+        {
+          "q": "Posso passare da Smart a Menu?",
+          "a": "Sì. Quando passi a un piano più piccolo i dati restano: menu, foto e allergeni sono ancora lì. Non usi più le funzioni del piano superiore, che puoi riattivare quando vuoi."
+        },
+        {
+          "q": "Perché pagare un menu digitale se basta un QR che apre il PDF?",
+          "a": "Il PDF va bene se ti serve solo mostrare il menu. Sul telefono però costringe a ingrandire, non cambia lingua e non ti dice cosa guardano gli ospiti. Con ArtOfMenu parti dal tuo PDF lo stesso giorno e hai in più lingue, foto, allergeni e statistiche."
+        }
+      ],
+      "cta": {
+        "h2": "Scegli il piano, ti avvisiamo al lancio",
+        "lead": "Indica nel modulo il piano che ti interessa: ti scriviamo quando ArtOfMenu apre."
+      },
+      "related": [
+        "qr-menu",
+        "how-to",
+        "ordering",
+        "smart"
+      ]
+    },
+    "restaurant": {
+      "slug": "menu-qr-code-ristorante",
+      "title": "Menu QR code per ristorante e trattoria | ArtOfMenu",
+      "description": "Menu QR code per ristoranti: portate in ordine, allergeni per ogni piatto, lingua dell'ospite e ordinazioni al tavolo per la pausa pranzo.",
+      "eyebrow": "Per ristoranti",
+      "h1": "Menu QR code per ristoranti e trattorie",
+      "lead": "Un menu QR code per ristorante mostra antipasti, primi, secondi e dolci sul telefono dell'ospite, con foto, allergeni e nella sua lingua. Lo aggiorni tu, anche per il piatto del giorno.",
+      "answer": "Un menu QR code per ristorante è il menu della sala in formato digitale, che l'ospite apre inquadrando un codice sul tavolo. Serve soprattutto quando i piatti sono tanti, cambiano spesso e gli ospiti parlano lingue diverse. ArtOfMenu lo organizza per portate, indica gli allergeni di ogni piatto e, con il piano Order, riceve anche le ordinazioni dal tavolo.",
+      "sections": [
+        {
+          "h2": "Un menu lungo, diviso per portate",
+          "body": [
+            "Un menu da ristorante ha spesso decine di voci. Sul telefono l'ospite passa dagli antipasti ai primi e ai secondi senza perdere il segno, e le foto aiutano a scegliere tra due piatti dal nome simile.",
+            "Il piatto del giorno cambia ogni mattina? Lo aggiungi prima del servizio e lo togli quando finisce. Chi si siede alle 14 non ordina più quello che è finito alle 13."
+          ]
+        },
+        {
+          "h2": "Allergeni accanto a ogni piatto",
+          "body": [
+            "Il Regolamento UE 1169/2011 chiede di informare i clienti sulla presenza dei 14 allergeni principali anche nei piatti serviti al ristorante. Con ArtOfMenu l'informazione sta accanto al piatto, nella lingua dell'ospite, e la aggiorni quando cambia la ricetta.",
+            "La responsabilità di quello che scrivi resta tua. Ricontrolla le schede con la cucina a ogni cambio di menu e tieni una versione cartacea per chi la chiede."
+          ]
+        },
+        {
+          "h2": "Tavoli di turisti, senza tradurre a voce",
+          "body": [
+            "A Firenze in agosto o sul lago di Garda a giugno, metà sala può parlare un'altra lingua. Il menu si apre nella lingua del telefono di ciascun ospite, quindi al tavolo 7 si legge in inglese e al tavolo 8 in tedesco.",
+            "Il cameriere non deve spiegare a ogni tavolo cosa sia la ribollita e ha più tempo per consigliare."
+          ]
+        },
+        {
+          "h2": "La pausa pranzo con le ordinazioni al tavolo",
+          "body": [
+            "Alle 13:10 entrano gli uffici e hai mezz'ora per servire tutti. Con il piano Order gli ospiti ordinano dal menu e il cameriere vede l'ordine sul telefono, con il numero del tavolo. Possono anche chiedere l'acqua o il conto senza aspettare che qualcuno passi.",
+            "Il personale passa meno tempo con il blocchetto in mano e più tempo a portare i piatti."
+          ]
+        },
+        {
+          "h2": "Capire quali piatti lavorano per te",
+          "body": [
+            "I report del menu segnalano due cose utili. Ci sono i piatti visti ma aperti di rado, che forse hanno un nome poco chiaro o una foto debole. Poi ci sono quelli aperti ma mai ordinati, dove spesso il problema è il prezzo o la descrizione.",
+            "Sono dati anonimi, ma bastano per decidere cosa cambiare nel prossimo menu."
+          ]
+        }
+      ],
+      "features": [
+        "multilingual",
+        "ordering",
+        "reports",
+        "stock",
+        "pdf"
+      ],
+      "faq": [
+        {
+          "q": "Come si mette il menu del ristorante su QR code?",
+          "a": "Carichi il PDF del menu che hai già e stampi il QR da mettere sui tavoli. Con ArtOfMenu puoi essere online lo stesso giorno. Poi aggiungi foto e allergeni e modifichi piatti e prezzi senza ristampare il codice."
+        },
+        {
+          "q": "Il menu QR code deve indicare gli allergeni?",
+          "a": "L'informazione sugli allergeni è obbligatoria per i piatti serviti, su carta come in digitale. ArtOfMenu mostra gli allergeni per ogni piatto. Verifica comunque con la tua ASL o con il tuo consulente come gestire l'informazione nel tuo locale."
+        },
+        {
+          "q": "Posso cambiare il piatto del giorno ogni mattina?",
+          "a": "Sì. Aggiungi il piatto prima del servizio e lo togli quando è finito. La modifica si vede subito per chi inquadra il QR, senza ristampe. È comodo anche per un menu del pranzo che cambia tutti i giorni."
+        },
+        {
+          "q": "Gli ospiti possono ordinare direttamente dal tavolo?",
+          "a": "Sì, con il piano Order a 29 € al mese per locale. L'ordine arriva sul telefono del cameriere con il numero del tavolo. Il pagamento resta alla cassa o al tavolo come oggi, perché ArtOfMenu non incassa."
+        },
+        {
+          "q": "Funziona per un ristorante con più sedi?",
+          "a": "Sì. Ogni sede ha il suo abbonamento, il suo menu e i suoi prezzi. Puoi quindi avere un piatto solo in una sede, o prezzi diversi tra il locale in centro e quello in periferia."
+        }
+      ],
+      "cta": {
+        "h2": "Pronto per il prossimo servizio?",
+        "lead": "Lascia i dati del ristorante e ti avvisiamo quando ArtOfMenu apre."
+      },
+      "related": [
+        "ordering",
+        "multilingual",
+        "restaurant-sales",
+        "menu-engineering"
+      ]
+    },
+    "cafe": {
+      "slug": "menu-digitale-bar-caffetteria",
+      "title": "Menu digitale per bar e caffetteria | ArtOfMenu",
+      "description": "Menu digitale per bar, caffetterie e pasticcerie: colazione più veloce, bevande calde in cima quando fa freddo, listino sugli schermi del banco.",
+      "eyebrow": "Per bar e caffetterie",
+      "h1": "Menu digitale per bar, caffetterie e pasticcerie",
+      "lead": "Un menu digitale per bar mostra ai tavoli, nel dehors e sugli schermi del banco cosa offri a colazione, a pranzo e a merenda. Con ArtOfMenu l'ordine dei prodotti segue il meteo e i prezzi li aggiorni in un attimo.",
+      "answer": "Un menu digitale per bar e caffetterie è un listino consultabile dal telefono con un QR sul tavolo, oppure mostrato sui monitor dietro al banco. Serve a chi lavora con picchi brevi come la colazione e con prodotti che cambiano con la stagione. ArtOfMenu porta in alto le bevande calde quando fa freddo e, nel piano Smart, gestisce gli schermi del banco.",
+      "sections": [
+        {
+          "h2": "La colazione si gioca in pochi minuti",
+          "body": [
+            "Tra le 7:30 e le 9 il banco è pieno e nessuno ha voglia di aspettare. Chi si siede al tavolo o nel dehors guarda il menu dal telefono e decide prima che arrivi il cameriere: cappuccino, cornetto integrale, spremuta.",
+            "Chi resta al banco continua a ordinare a voce, come sempre. Il menu digitale toglie qualche domanda e lascia intatto il rito del caffè."
+          ]
+        },
+        {
+          "h2": "Il tempo decide cosa si beve",
+          "body": [
+            "In una mattina di novembre con la pioggia, cioccolata calda e tè salgono in cima al menu. A luglio salgono caffè shakerato, granita e spremute. I prodotti che stanno per finire scendono, così non li proponi a chi arriva dopo.",
+            "Durante la giornata cambia solo l'ordine in cui compaiono i prodotti. I prezzi restano quelli."
+          ]
+        },
+        {
+          "h2": "Al banco, il listino sugli schermi",
+          "body": [
+            "Con il piano Smart il menu va anche sui monitor dietro al banco. Se ne hai due o tre, girano pagina insieme, così chi è in fila legge la stessa offerta da qualsiasi punto del locale.",
+            "Quando cambi il prezzo del cappuccino o aggiungi la torta del giorno, lo modifichi una volta nel menu. Il vecchio listino di plexiglas da rifare a ogni rincaro va in pensione."
+          ]
+        },
+        {
+          "h2": "Pasticceria e allergeni",
+          "body": [
+            "Una vetrina di pasticceria è piena di glutine, latte, uova e frutta a guscio, e gli ospiti lo chiedono. ArtOfMenu mostra gli allergeni di ogni prodotto accanto alla foto, nella lingua di chi legge.",
+            "I prodotti di stagione entrano ed escono dal menu con facilità: le frittelle a Carnevale, la colomba a Pasqua, il panettone a dicembre."
+          ]
+        },
+        {
+          "h2": "Cappuccino e cornetto, al momento giusto",
+          "body": [
+            "Nel piano Smart, quando un ospite aggiunge un prodotto, il menu propone quello che nel tuo bar viene ordinato più spesso insieme. Magari è il cornetto accanto al cappuccino, magari la focaccia accanto alla spremuta. Lo decide lo storico del tuo locale."
+          ]
+        }
+      ],
+      "features": [
+        "weather",
+        "screens",
+        "pairing",
+        "multilingual",
+        "stock"
+      ],
+      "faq": [
+        {
+          "q": "Un bar ha bisogno del menu QR se si ordina al banco?",
+          "a": "Al banco basta un listino chiaro, che con il piano Smart può stare sugli schermi. Il QR serve ai tavoli e nel dehors, dove l'ospite aspetta il cameriere e vuole sapere cosa c'è prima di ordinare."
+        },
+        {
+          "q": "Posso mostrare il listino sui monitor dietro al banco?",
+          "a": "Sì, con il piano Smart a 59 € al mese per locale. Il menu appare sui monitor e, se ne usi più di uno, le pagine girano insieme. Quando modifichi un prezzo nel menu, lo modifichi anche per gli schermi."
+        },
+        {
+          "q": "Il menu cambia da solo con il meteo?",
+          "a": "Cambia l'ordine dei prodotti. Quando fa freddo salgono le bevande calde, mentre quelle fredde e i prodotti in esaurimento scendono. Durante la giornata il prezzo non cambia mai: si sposta solo la posizione nel menu."
+        },
+        {
+          "q": "Posso indicare gli allergeni dei dolci?",
+          "a": "Sì, ogni prodotto ha le sue informazioni sugli allergeni, visibili accanto alla foto e nella lingua dell'ospite. In pasticceria è particolarmente utile, perché molti prodotti contengono glutine, latte, uova o frutta a guscio."
+        },
+        {
+          "q": "Quale piano serve a una caffetteria?",
+          "a": "Se ti serve il menu ai tavoli, il piano Menu a 9 € al mese per locale è sufficiente. Con Order gli ospiti ordinano dal tavolo. Con Smart hai gli schermi del banco, i suggerimenti di abbinamento e lo stock da ricetta."
+        }
+      ],
+      "cta": {
+        "h2": "La colazione, più semplice",
+        "lead": "Lascia i dati del tuo bar e ti avvisiamo quando ArtOfMenu è disponibile."
+      },
+      "related": [
+        "cafe-sales",
+        "smart",
+        "design",
+        "pricing"
+      ]
+    },
+    "bar": {
+      "slug": "menu-qr-cocktail-bar-pub",
+      "title": "Menu QR per cocktail bar, pub e wine bar | ArtOfMenu",
+      "description": "Menu QR per cocktail bar, pub e wine bar: carta drink sempre aggiornata, il giro successivo ordinato dal tavolo, drink esauriti in automatico.",
+      "eyebrow": "Per cocktail bar e pub",
+      "h1": "Menu QR per cocktail bar, pub e wine bar",
+      "lead": "Un menu QR per cocktail bar mostra la carta drink sul telefono, con foto, descrizioni e allergeni, e la aggiorni quando cambia una spina o finisce un distillato. Con il piano Order gli ospiti ordinano il giro successivo dal tavolo.",
+      "answer": "Un menu QR per cocktail bar, pub e wine bar è la carta dei drink consultabile dal telefono inquadrando un codice sul tavolo. Funziona bene nei locali con luce bassa, carte lunghe e prodotti che cambiano spesso. ArtOfMenu la mostra nella lingua dell'ospite, permette di ordinare dal tavolo e segna come esauriti i drink quando finisce un ingrediente.",
+      "sections": [
+        {
+          "h2": "Una carta drink che cambia ogni settimana",
+          "body": [
+            "Il cocktail del mese, la nuova IPA alla spina, il rosso al calice finito sabato. In un locale serale la carta si muove più del menu di un ristorante. Con un menu QR la cambi dal telefono in un minuto, anche a serata iniziata.",
+            "Foto e descrizioni aiutano chi non conosce un mezcal o un amaro siciliano a scegliere senza fermare il barman."
+          ]
+        },
+        {
+          "h2": "Un altro giro, senza alzare la mano",
+          "body": [
+            "Alle 23 il locale è pieno e il cameriere non riesce a guardare ogni tavolo. Con il piano Order il gruppo al tavolo 12 ordina il secondo giro dal menu e l'ordine arriva subito sul telefono del cameriere.",
+            "Dallo stesso menu si può chiamare il cameriere, chiedere l'acqua o il conto. Chi preferisce ordinare a voce lo fa come prima."
+          ]
+        },
+        {
+          "h2": "Quando finisce un ingrediente",
+          "body": [
+            "Venerdì sera finiscono i lime. Con lo stock da ricetta del piano Smart, ogni drink che li usa, dal Moscow Mule al Margarita, risulta esaurito da solo. Nessuno ordina un cocktail che il bar non può preparare.",
+            "Con il piano Order hai report semplici di scorte e ordini, utili per capire cosa riordinare prima del weekend."
+          ]
+        },
+        {
+          "h2": "Wine bar: una carta lunga, ma leggibile",
+          "body": [
+            "Una carta dei vini con 80 etichette su un foglio A4 si legge male a lume di candela. Sul telefono l'ospite scorre le categorie che hai creato, per regione o per tipologia, e apre solo quello che gli interessa. I turisti la leggono nella loro lingua."
+          ]
+        },
+        {
+          "h2": "Cosa si beve davvero",
+          "body": [
+            "I report del menu mostrano quali drink vengono guardati ma aperti di rado e quali vengono aperti ma mai ordinati. Un signature aperto da tanti e ordinato da pochi può avere un prezzo da rivedere o una descrizione che spaventa."
+          ]
+        }
+      ],
+      "features": [
+        "ordering",
+        "stock",
+        "multilingual",
+        "reports",
+        "pairing"
+      ],
+      "faq": [
+        {
+          "q": "Come funziona il menu QR in un cocktail bar?",
+          "a": "Sui tavoli c'è un QR: l'ospite lo inquadra e la carta drink si apre sul telefono, nella sua lingua, con foto e descrizioni. Tu la aggiorni quando cambi un cocktail o una spina, e il codice resta lo stesso."
+        },
+        {
+          "q": "Gli ospiti possono ordinare un altro giro dal telefono?",
+          "a": "Sì, con il piano Order a 29 € al mese per locale. L'ordine arriva sul telefono del cameriere con il numero del tavolo. Dal menu gli ospiti possono anche chiamare il cameriere o chiedere il conto."
+        },
+        {
+          "q": "Cosa succede quando finisce un distillato?",
+          "a": "Con lo stock da ricetta del piano Smart, quando un ingrediente finisce tutti i drink che lo usano risultano esauriti in automatico. Il menu smette di proporli finché l'ingrediente non torna disponibile."
+        },
+        {
+          "q": "Il menu QR sostituisce la cassa?",
+          "a": "No. ArtOfMenu raccoglie le ordinazioni e le mostra al cameriere, ma non incassa e non emette scontrini. Cassa, POS e registratore telematico restano quelli che usi oggi, e il conto si chiude come sempre."
+        },
+        {
+          "q": "Si può usare anche per l'aperitivo?",
+          "a": "Sì. Le proposte dell'aperitivo si inseriscono come qualsiasi altra voce, con foto e prezzo. Con il piano Smart il menu suggerisce anche cosa abbinare, per esempio lo stuzzichino ordinato più spesso con lo spritz."
+        }
+      ],
+      "cta": {
+        "h2": "La carta drink, sempre giusta",
+        "lead": "Lascia i dati del locale e ti avvisiamo quando ArtOfMenu apre."
+      },
+      "related": [
+        "bar-sales",
+        "ordering",
+        "smart",
+        "pricing"
+      ]
+    },
+    "design": {
+      "slug": "menu-qr-code-design",
+      "title": "Menu QR code design: elegante e leggibile | ArtOfMenu",
+      "description": "Come rendere bello un menu QR code: foto, testi e nome del locale su un'impaginazione pulita. Cosa offre ArtOfMenu e cosa no, detto chiaro.",
+      "eyebrow": "Design del menu",
+      "h1": "Un menu QR code elegante e facile da leggere",
+      "lead": "Un menu QR code è bello quando si legge al primo sguardo e le foto fanno venire voglia di ordinare. ArtOfMenu ti dà un'impaginazione pulita già pronta, e il carattere lo portano le tue foto, i tuoi testi e il tuo nome.",
+      "answer": "Il design di un menu QR code riguarda la leggibilità sul telefono, la qualità delle foto, la chiarezza di nomi e prezzi e la coerenza con l'immagine del locale. ArtOfMenu non offre temi da scegliere né il caricamento di HTML o CSS. Usa un'impaginazione pulita, uguale per tutti, che mette in primo piano foto, nome e dominio del tuo locale.",
+      "sections": [
+        {
+          "h2": "Cosa rende bello un menu sul telefono",
+          "body": [
+            "Sullo schermo di un telefono lo spazio è poco e l'ospite legge al sole del dehors o nella luce bassa di un locale serale. Qui un menu bello è prima di tutto chiaro: testo grande, categorie evidenti, prezzi facili da trovare, foto ben fatte.",
+            "Un PDF elegante pensato per la stampa diventa scomodo sul telefono, perché costringe a ingrandire e a spostarsi. Per questo l'impaginazione conta più della grafica."
+          ]
+        },
+        {
+          "h2": "Un'impaginazione pulita al posto dei temi",
+          "body": [
+            "Lo diciamo subito: ArtOfMenu non ha temi pronti, non offre un servizio di grafica e non accetta file HTML o CSS. Ogni menu usa la stessa impaginazione ordinata, studiata per il telefono.",
+            "Ti risparmi una serata a scegliere colori e caratteri. Il risultato cambia da locale a locale grazie a quello che ci metti dentro."
+          ]
+        },
+        {
+          "h2": "Le foto fanno la differenza",
+          "body": [
+            "Le foto sono la parte del design che decidi tu. Non serve un fotografo, bastano alcune regole."
+          ],
+          "bullets": [
+            "Luce naturale, vicino a una finestra, senza flash.",
+            "Stessa angolazione e stesso sfondo per tutti i piatti di una categoria.",
+            "Il piatto come arriva in tavola, senza decorazioni in più.",
+            "Una foto per piatto, nitida, con il prodotto al centro.",
+            "Una foto nuova ogni volta che cambi l'impiattamento."
+          ]
+        },
+        {
+          "h2": "Nomi e descrizioni che aiutano a scegliere",
+          "body": [
+            "Un nome come «Tagliolini al limone di Amalfi e bottarga» dice già molto. Aggiungi una riga di descrizione solo dove serve: un ingrediente particolare, la provenienza, la cottura. Aggettivi come «squisito» o «delizioso» occupano spazio e non aiutano nessuno a scegliere.",
+            "Le descrizioni brevi si leggono meglio anche nelle altre lingue."
+          ]
+        },
+        {
+          "h2": "Il tuo nome nell'indirizzo",
+          "body": [
+            "Il menu può aprirsi sul dominio del tuo locale, per esempio menu.trattoriadamario.it. L'ospite vede il tuo nome già nella barra del browser, e il QR stampato porta a un indirizzo che è tuo."
+          ]
+        }
+      ],
+      "features": [
+        "domain",
+        "pdf",
+        "multilingual",
+        "reports"
+      ],
+      "faq": [
+        {
+          "q": "Posso scegliere un tema grafico per il menu?",
+          "a": "No, ArtOfMenu non ha temi pronti tra cui scegliere. Tutti i menu usano la stessa impaginazione pulita pensata per il telefono. A rendere riconoscibile il tuo sono le foto, i nomi dei piatti e il dominio del locale."
+        },
+        {
+          "q": "Offrite un servizio per disegnare il menu?",
+          "a": "No, ArtOfMenu non offre servizi di grafica né di fotografia. Prepari tu foto e testi, oppure parti dal PDF che hai già. Se vuoi foto molto curate, puoi rivolgerti a un fotografo della tua zona per una sessione dedicata ai piatti."
+        },
+        {
+          "q": "Che foto servono per un bel menu QR code?",
+          "a": "Foto nitide, con luce naturale, scattate dalla stessa angolazione per ogni categoria. Un telefono recente va bene se lavori vicino a una finestra. Mostra il piatto come arriva al tavolo, così l'ospite sa cosa aspettarsi."
+        },
+        {
+          "q": "Come stampare il QR in modo elegante?",
+          "a": "Usa un supporto da tavolo in legno, metallo o plexiglas e stampa il codice su carta opaca, che non riflette la luce. Lascia un margine bianco intorno al QR e aggiungi una riga come «Inquadra per il menu». Provalo da seduto prima di stamparne tanti."
+        },
+        {
+          "q": "Il design del menu influisce sugli ordini?",
+          "a": "Un menu chiaro rende più facile scegliere, ed è ragionevole aspettarsi che un piatto con una bella foto venga notato di più. Con i report di ArtOfMenu lo verifichi nel tuo locale: un piatto visto ma aperto poco ha spesso una foto o un nome da rivedere."
+        }
+      ],
+      "cta": {
+        "h2": "Il tuo menu, con le tue foto",
+        "lead": "Ti avvisiamo quando ArtOfMenu apre, così hai il tempo di preparare foto e testi."
+      },
+      "related": [
+        "qr-menu",
+        "how-to",
+        "cafe",
+        "multilingual"
+      ]
+    },
+    "smart": {
+      "slug": "menu-digitale-intelligente",
+      "title": "Menu digitale intelligente: cosa fa davvero | ArtOfMenu",
+      "description": "Menu che segue il meteo, suggerimenti «si abbina bene con» e prezzi del giorno entro i tuoi limiti. Cosa fa in concreto il menu smart di ArtOfMenu.",
+      "eyebrow": "Menu intelligente",
+      "h1": "Menu digitale intelligente: cosa fa, in concreto",
+      "lead": "Un menu digitale intelligente cambia l'ordine dei prodotti in base al meteo, suggerisce cosa abbinare e può fissare i prezzi del giorno dopo entro un minimo e un massimo decisi da te. Ecco cosa fa ArtOfMenu, una funzione alla volta.",
+      "answer": "Un menu digitale intelligente usa dati come meteo, abitudini di ordinazione e domanda prevista per adattare il menu senza lavoro manuale. In ArtOfMenu significa tre cose: l'ordine dei prodotti segue il tempo, il menu suggerisce il prodotto ordinato più spesso con quello scelto e ogni sera vengono fissati i prezzi di domani, entro i limiti decisi dal titolare.",
+      "sections": [
+        {
+          "h2": "L'ordine del menu segue il tempo",
+          "body": [
+            "Martedì piove e ci sono 9 gradi. Il menu mette in cima le bevande calde e porta più in basso quelle fredde e i prodotti che stanno per finire. Giovedì torna il sole e l'ordine si adatta di nuovo.",
+            "Durante la giornata cambia solo la posizione dei prodotti. Il prezzo resta quello fissato prima dell'apertura."
+          ]
+        },
+        {
+          "h2": "«Si abbina bene con»",
+          "body": [
+            "Nel piano Smart, quando un ospite aggiunge un prodotto all'ordine, il menu gli mostra quello che in quella sede viene ordinato più spesso insieme. Se da te lo spritz va con le olive ascolane, propone quelle.",
+            "Il suggerimento nasce dagli ordini della singola sede, quindi due locali della stessa insegna possono avere abbinamenti diversi."
+          ]
+        },
+        {
+          "h2": "Prezzi del giorno, dentro i tuoi limiti",
+          "body": [
+            "Ogni sera il sistema legge la posizione della sede, le previsioni del tempo, le festività e le ricorrenze e la domanda attesa per ogni prodotto. Poi fissa i prezzi del giorno dopo, sempre tra il minimo e il massimo che hai impostato tu.",
+            "I prezzi cambiano al massimo una volta al giorno, prima che la giornata inizi. Durante il servizio restano fermi. Scegli tu come usare la funzione:"
+          ],
+          "bullets": [
+            "Approvazione: vedi ogni prezzo proposto e decidi tu.",
+            "Automatico: i prezzi si applicano da soli, entro i limiti.",
+            "Spento: il menu usa i prezzi base.",
+            "Un prezzo che non approvi torna al prezzo base."
+          ]
+        },
+        {
+          "h2": "Cosa impara e cosa non condivide",
+          "body": [
+            "Per stimare la domanda il sistema usa anche coefficienti di comportamento anonimi di locali simili. Non usa mai i loro prezzi, e i tuoi prezzi non vengono mai condivisi con altri locali.",
+            "Gli ospiti non vengono tracciati: il menu non usa cookie e non conserva identificativi o indirizzi IP."
+          ]
+        },
+        {
+          "h2": "Scorte da ricetta e schermi al banco",
+          "body": [
+            "Smart collega ogni prodotto ai suoi ingredienti. Quando finisce il mascarpone, tiramisù e crostata al mascarpone risultano esauriti da soli. Con gli schermi del banco lo stesso menu va sui monitor dietro al bancone, con le pagine che girano insieme."
+          ]
+        }
+      ],
+      "features": [
+        "weather",
+        "pairing",
+        "pricing",
+        "stock",
+        "screens"
+      ],
+      "faq": [
+        {
+          "q": "Il menu intelligente cambia i prezzi durante il servizio?",
+          "a": "No. I prezzi cambiano al massimo una volta al giorno, prima che la giornata inizi. Durante il servizio cambia solo l'ordine in cui compaiono i prodotti, per esempio le bevande calde in cima quando fa freddo."
+        },
+        {
+          "q": "Posso approvare ogni prezzo prima che vada online?",
+          "a": "Sì. In modalità approvazione vedi ogni prezzo proposto per il giorno dopo e decidi tu. Se non approvi, resta il prezzo base. Puoi anche lasciare che i prezzi si applichino da soli oppure spegnere la funzione."
+        },
+        {
+          "q": "Da quali dati partono i prezzi del giorno?",
+          "a": "Dalla posizione della sede, dalle previsioni del tempo, da festività e ricorrenze e dalla domanda attesa per ogni prodotto. Il sistema impara anche da coefficienti di comportamento anonimi di locali simili, mai dai loro prezzi."
+        },
+        {
+          "q": "Un prezzo può superare il limite che ho fissato?",
+          "a": "No. Per ogni prodotto imposti un prezzo minimo e uno massimo, e il prezzo del giorno resta sempre in quell'intervallo. Se preferisci prezzi fissi, spegni la funzione e il menu usa i prezzi base."
+        },
+        {
+          "q": "Quale piano include le funzioni intelligenti?",
+          "a": "Prezzi del giorno, calendario delle ricorrenze, suggerimenti «si abbina bene con», stock da ricetta e schermi del banco sono nel piano Smart, a 59 € al mese per locale. Con l'annuale paghi 10 mesi su 12."
+        }
+      ],
+      "cta": {
+        "h2": "Un menu che si adatta, con le tue regole",
+        "lead": "Scegli Smart nel modulo e ti avvisiamo al lancio di ArtOfMenu."
+      },
+      "related": [
+        "menu-engineering",
+        "pricing",
+        "restaurant-sales",
+        "cafe"
+      ]
+    },
+    "ordering": {
+      "slug": "ordinazioni-al-tavolo",
+      "title": "Ordinazioni al tavolo con menu QR | ArtOfMenu",
+      "description": "Ordinazioni al tavolo dal menu QR: l'ospite ordina dal telefono e il cameriere riceve l'ordine subito. Come funziona e cosa non sostituisce.",
+      "eyebrow": "Ordini dal tavolo",
+      "h1": "Ordinazioni al tavolo dal menu QR",
+      "lead": "Con le ordinazioni al tavolo l'ospite sceglie dal menu sul telefono e invia l'ordine, che arriva subito sul telefono del cameriere. In ArtOfMenu è il piano Order, a 29 € al mese per locale.",
+      "answer": "Un sistema di ordinazioni al tavolo permette all'ospite di ordinare direttamente dal menu digitale, senza aspettare il cameriere. Con ArtOfMenu l'ospite inquadra il QR, sceglie e invia l'ordine. Il cameriere lo vede subito sul proprio telefono, con il numero del tavolo e una notifica. Pagamento e cassa restano quelli che il locale usa già.",
+      "sections": [
+        {
+          "h2": "Come funziona, dal tavolo al cameriere",
+          "body": [
+            "Ogni tavolo ha il suo QR. Al tavolo 6 l'ospite apre il menu, aggiunge due margherite e una birra media e invia. Sul telefono del cameriere arriva una notifica con l'ordine e il numero del tavolo, e la schermata del cameriere mostra gli ordini in arrivo dal vivo.",
+            "Il resto del servizio va come sempre: il cameriere passa l'ordine alla cucina o al banco e porta in tavola."
+          ]
+        },
+        {
+          "h2": "Chiamare il cameriere, l'acqua, il conto",
+          "body": [
+            "Dallo stesso menu l'ospite può chiamare il cameriere, chiedere l'acqua o il conto. Di solito sono richieste che si fanno alzando la mano e aspettando che qualcuno guardi. Così arrivano subito a chi è in sala."
+          ]
+        },
+        {
+          "h2": "A chi conviene",
+          "body": [
+            "Le ordinazioni al tavolo aiutano soprattutto dove il personale è poco rispetto ai coperti o dove i tavoli sono lontani dal banco."
+          ],
+          "bullets": [
+            "Pizzerie e trattorie con la sala piena nel weekend.",
+            "Locali con dehors grandi o su più piani.",
+            "Cocktail bar e pub, dove si ordina a giri.",
+            "Pranzi di lavoro veloci, dove ogni minuto conta.",
+            "Località turistiche, dove l'ospite ordina leggendo nella sua lingua."
+          ]
+        },
+        {
+          "h2": "Cosa non sostituisce",
+          "body": [
+            "ArtOfMenu raccoglie ordini e richieste, ma non incassa e non emette scontrini. Cassa, POS e registratore telematico restano quelli che hai.",
+            "Non sostituisce nemmeno il cameriere. L'ospite che vuole ordinare a voce o chiedere un consiglio lo fa come sempre."
+          ]
+        },
+        {
+          "h2": "Ordini e scorte nello stesso posto",
+          "body": [
+            "Il piano Order include report semplici di scorte e ordini. A fine settimana vedi cosa è uscito di più e cosa riordinare. Con il piano Smart passi allo stock da ricetta, che segna esauriti i piatti quando finisce un ingrediente."
+          ]
+        }
+      ],
+      "features": [
+        "ordering",
+        "stock",
+        "multilingual",
+        "pairing"
+      ],
+      "faq": [
+        {
+          "q": "Come funzionano le ordinazioni al tavolo con il QR code?",
+          "a": "L'ospite inquadra il QR del tavolo, sceglie dal menu e invia l'ordine. Il cameriere riceve una notifica sul telefono con il numero del tavolo e vede l'ordine sulla sua schermata. Il resto del servizio continua come al solito."
+        },
+        {
+          "q": "Servono tablet o altri dispositivi per i camerieri?",
+          "a": "Gli ordini arrivano sul telefono del cameriere, con notifiche e una schermata che mostra gli ordini dal vivo. Gli ospiti usano il proprio smartphone. Per partire non devi comprare dispositivi dedicati per la sala."
+        },
+        {
+          "q": "Gli ospiti pagano dal telefono?",
+          "a": "No. ArtOfMenu non gestisce pagamenti e non emette scontrini. L'ospite può chiedere il conto dal menu, poi paga alla cassa o al tavolo con il tuo POS, come oggi. Il cameriere riceve la richiesta sul telefono."
+        },
+        {
+          "q": "Quanto costano le ordinazioni al tavolo?",
+          "a": "Sono nel piano Order, a 29 € al mese per locale, che comprende anche tutto il piano Menu e i report semplici di scorte e ordini. Con l'abbonamento annuale paghi 290 € per 12 mesi."
+        },
+        {
+          "q": "E se un ospite preferisce ordinare a voce?",
+          "a": "Ordina a voce, come sempre. Le ordinazioni dal telefono sono una possibilità in più e non obbligano nessuno. Il cameriere resta il punto di riferimento per consigli e richieste particolari."
+        }
+      ],
+      "cta": {
+        "h2": "Meno attese, stessa squadra",
+        "lead": "Scegli Order nel modulo e ti avvisiamo quando ArtOfMenu apre."
+      },
+      "related": [
+        "restaurant",
+        "bar",
+        "pricing",
+        "inventory"
+      ]
+    },
+    "multilingual": {
+      "slug": "menu-multilingua",
+      "title": "Menu multilingua per ristoranti e bar | ArtOfMenu",
+      "description": "Menu multilingua che si apre nella lingua del telefono dell'ospite, con foto e allergeni. Pensato per i locali che lavorano con i turisti.",
+      "eyebrow": "Per i turisti",
+      "h1": "Menu multilingua: ogni ospite lo legge nella sua lingua",
+      "lead": "Un menu multilingua mostra piatti, descrizioni e allergeni nella lingua di chi lo legge. Con ArtOfMenu si apre da solo nella lingua impostata sul telefono dell'ospite.",
+      "answer": "Un menu multilingua è un menu disponibile in più lingue, così ogni ospite capisce piatti, prezzi e allergeni senza chiedere al personale. ArtOfMenu apre il menu digitale direttamente nella lingua impostata sul telefono di chi inquadra il QR. È utile soprattutto nelle città d'arte, al mare e sui laghi, dove nella stessa sala si parlano molte lingue.",
+      "sections": [
+        {
+          "h2": "La lingua giusta, senza chiedere",
+          "body": [
+            "Una famiglia di Amburgo si siede in una trattoria di Trastevere. Il papà inquadra il QR e il menu si apre in tedesco, perché il suo telefono è in tedesco. Al tavolo accanto una coppia di Lione lo legge in francese.",
+            "Nessuno deve cercare un'impostazione, e gli ospiti italiani continuano a vedere il menu in italiano."
+          ]
+        },
+        {
+          "h2": "Dove serve di più",
+          "body": [
+            "Ci sono zone d'Italia dove una sala piena di stranieri è la normalità per mesi interi."
+          ],
+          "bullets": [
+            "Città d'arte come Roma, Firenze e Venezia, con ospiti da tutto il mondo.",
+            "Lago di Garda e Alto Adige, con molti ospiti di lingua tedesca.",
+            "Costiere, isole e località di mare, soprattutto d'estate.",
+            "Zone del vino, dove la carta va spiegata bene a chi viene da fuori."
+          ]
+        },
+        {
+          "h2": "Allergeni chiari in ogni lingua",
+          "body": [
+            "Per un ospite con un'allergia, capire bene gli ingredienti è una questione di salute. Un cameriere che prova a spiegare «frutta a guscio» a gesti non basta. Con ArtOfMenu le informazioni sugli allergeni compaiono accanto al piatto, nella lingua dell'ospite.",
+            "Resta buona pratica che il personale sappia rispondere a voce e che la cucina confermi in caso di dubbio."
+          ]
+        },
+        {
+          "h2": "Nomi italiani, spiegati bene",
+          "body": [
+            "Cacio e pepe, pici, 'nduja: il nome del piatto conviene lasciarlo in italiano, perché fa parte di quello che l'ospite è venuto a cercare. La descrizione invece va scritta per chi quel nome non l'ha mai sentito.",
+            "Basta una riga con gli ingredienti principali, se è piccante e se contiene carne o pesce."
+          ]
+        },
+        {
+          "h2": "Valuta e prezzi del tuo paese",
+          "body": [
+            "I prezzi restano in euro, con l'arrotondamento e l'esposizione delle imposte previsti per l'Italia. ArtOfMenu imposta valuta, imposte e arrotondamenti paese per paese in 216 paesi, quindi funziona allo stesso modo se hai un locale anche all'estero."
+          ]
+        }
+      ],
+      "features": [
+        "multilingual",
+        "global",
+        "pdf",
+        "domain"
+      ],
+      "faq": [
+        {
+          "q": "Come fa il menu a sapere la lingua dell'ospite?",
+          "a": "Legge la lingua impostata sul telefono di chi inquadra il QR e apre il menu in quella lingua. L'ospite non deve scegliere nulla. Il codice sul tavolo è uno solo per tutti."
+        },
+        {
+          "q": "Gli allergeni si vedono anche nelle altre lingue?",
+          "a": "Sì, le informazioni sugli allergeni accompagnano ogni piatto nella lingua in cui si apre il menu. Per un ospite straniero con un'allergia è spesso la parte più importante di tutto il menu."
+        },
+        {
+          "q": "I prezzi vengono mostrati nella valuta dell'ospite?",
+          "a": "No, i prezzi restano nella valuta del tuo locale, cioè in euro per l'Italia, con l'arrotondamento e l'esposizione delle imposte del tuo paese. È il prezzo che l'ospite pagherà alla cassa."
+        },
+        {
+          "q": "Il menu multilingua è incluso nel piano base?",
+          "a": "Sì. Le lingue fanno parte del piano Menu, a 9 € al mese per locale, insieme a foto, allergeni, dominio proprio, caricamento del PDF e statistiche anonime. Non serve un piano superiore per accogliere i turisti."
+        },
+        {
+          "q": "Serve un QR diverso per ogni lingua?",
+          "a": "No, basta un solo QR per tavolo. È il telefono dell'ospite a indicare la lingua, quindi non devi stampare un codice per ogni lingua né aggiungere bandierine sul supporto. Un codice, tutte le lingue."
+        }
+      ],
+      "cta": {
+        "h2": "Un menu per tutti i tuoi ospiti",
+        "lead": "Lascia i dati del locale e ti avvisiamo appena ArtOfMenu è disponibile."
+      },
+      "related": [
+        "restaurant",
+        "qr-menu",
+        "design",
+        "how-to"
+      ]
+    },
+    "restaurant-sales": {
+      "slug": "aumentare-fatturato-ristorante",
+      "title": "Come aumentare il fatturato di un ristorante | ArtOfMenu",
+      "description": "Come aumentare il fatturato di un ristorante: menu, prezzi, scontrino medio, rotazione dei tavoli, sprechi e personale. Una guida pratica.",
+      "eyebrow": "Guida",
+      "h1": "Come aumentare il fatturato di un ristorante",
+      "lead": "Per aumentare il fatturato di un ristorante lavori su tre numeri: quanti coperti servi, quanto spende in media ogni coperto e quanto margine ti lascia ogni piatto. Questa guida spiega cosa fare su ciascuno, partendo da quello che puoi cambiare già questa settimana.",
+      "answer": "Il fatturato di un ristorante cresce aumentando i coperti, lo scontrino medio o entrambi, mentre il margine cresce riducendo food cost e sprechi. Le leve pratiche sono un menu più corto e ragionato, prezzi calcolati sul costo reale, suggerimenti mirati del personale, un servizio più rapido a pranzo e il controllo del magazzino. Strumenti come ArtOfMenu aiutano a misurare cosa funziona nel menu.",
+      "sections": [
+        {
+          "h2": "Parti dai numeri che hai già",
+          "body": [
+            "Prima di cambiare qualcosa, misura tre valori per almeno due settimane, separando pranzo e cena. Ti servono solo gli scontrini, il numero di coperti e il costo degli ingredienti.",
+            "Con questi numeri sai dove intervenire. Se lo scontrino medio è basso lavori sui suggerimenti. Se la sala è piena ma i tavoli girano lenti lavori sul servizio. Se il food cost è alto lavori su ricette e acquisti."
+          ],
+          "bullets": [
+            "Scontrino medio = incasso del servizio ÷ coperti serviti",
+            "Rotazione = coperti serviti ÷ posti a sedere",
+            "Food cost % = costo della porzione ÷ prezzo senza IVA × 100"
+          ]
+        },
+        {
+          "h2": "Rivedi il menu prima di toccare i prezzi",
+          "body": [
+            "Un menu lungo ha un costo: più ingredienti in magazzino, più scarti, una cucina più lenta. Togliere i piatti che vendono poco e rendono poco alleggerisce la cucina e migliora il margine.",
+            "Usa il menu engineering: per ogni piatto incroci quante porzioni vendi e quanto margine lascia. I piatti che vendono tanto e rendono bene vanno messi in evidenza. Quelli che non fanno né l'una né l'altra cosa vanno tolti o ripensati."
+          ]
+        },
+        {
+          "h2": "Prezzi: piccoli aumenti, ben calcolati",
+          "body": [
+            "Il prezzo di un piatto parte dal costo della porzione. Il prezzo del ristorante di fronte serve dopo, come verifica. Calcola il costo con le grammature reali, aggiungi una quota per scarti e condimenti e controlla che il food cost resti nell'intervallo che hai scelto per il tuo locale.",
+            "Quando i costi salgono, conviene un ritocco mirato sui piatti più costosi da produrre invece di un aumento uguale su tutto il menu. Chi viene spesso si accorge prima dei rincari sui piatti che ordina sempre, come la margherita o il caffè."
+          ]
+        },
+        {
+          "h2": "Lo scontrino medio cresce con il suggerimento giusto",
+          "body": [
+            "Il calice di vino con il secondo, il dolce della casa, il caffè e l'amaro a fine pasto sono le voci che separano un tavolo da 25 € a persona da uno da 35 €. Un cameriere che propone un abbinamento preciso ha più possibilità di venderlo di uno che chiede soltanto «altro?».",
+            "Prepara due o tre abbinamenti per ogni piatto principale e falli conoscere a tutta la sala. Un consiglio concreto, con il nome del vino, convince più di un elenco."
+          ]
+        },
+        {
+          "h2": "La rotazione dei tavoli a pranzo",
+          "body": [
+            "A pranzo il limite è spesso il tempo, perché chi lavora ha un'ora. Ogni minuto perso tra l'arrivo, l'ordine e il conto può valere un tavolo in meno.",
+            "Un menu del giorno breve, comande prese subito e il conto pronto quando lo chiedono accorciano il servizio. Anche apparecchiare in anticipo e portare l'acqua appena l'ospite si siede fa guadagnare minuti."
+          ]
+        },
+        {
+          "h2": "Meno sprechi, più margine",
+          "body": [
+            "Ogni chilo buttato è margine perso. Per qualche settimana registra cosa butti e perché: scaduto, preparato in eccesso, piatto tornato indietro. Spesso lo spreco si concentra su pochi prodotti, ed è lì che conviene intervenire.",
+            "Applica il FIFO in cella e in dispensa, porziona con le grammature delle schede tecniche e costruisci il piatto del giorno con gli ingredienti da consumare per primi."
+          ]
+        },
+        {
+          "h2": "Il personale vende, se sa cosa vendere",
+          "body": [
+            "Un briefing di cinque minuti prima del servizio cambia molto: il piatto da proporre oggi, cosa è finito, il vino da abbinare. Fai assaggiare i piatti nuovi alla sala, perché si consiglia bene solo quello che si conosce.",
+            "Riconosci chi vende bene, con un piccolo premio o un turno migliore, e condividi con tutti cosa ha funzionato."
+          ]
+        },
+        {
+          "h2": "Clienti che tornano",
+          "body": [
+            "Un cliente che torna non costa pubblicità. Cura la scheda su Google Maps con orari aggiornati, foto vere e il menu, e rispondi alle recensioni, anche a quelle negative, con calma e nel merito.",
+            "Ricorda le preferenze degli abituali e proponi qualcosa di nuovo con regolarità, come un piatto di stagione o una serata a tema."
+          ]
+        },
+        {
+          "h2": "Dove ti aiuta ArtOfMenu",
+          "body": [
+            "I report del menu segnalano i piatti visti ma aperti di rado e quelli aperti ma mai ordinati, due segnali che su carta non avresti. Con il piano Order le ordinazioni al tavolo possono accorciare l'attesa a pranzo. Con Smart il menu suggerisce l'abbinamento più ordinato in quella sede e ogni sera fissa i prezzi del giorno dopo entro i limiti che decidi tu.",
+            "ArtOfMenu non è ancora stato lanciato, quindi non ti promettiamo risultati. Ti dà dati e strumenti, e le decisioni restano tue."
+          ]
+        }
+      ],
+      "features": [
+        "reports",
+        "pairing",
+        "pricing",
+        "ordering",
+        "stock"
+      ],
+      "faq": [
+        {
+          "q": "Come aumentare il fatturato di un ristorante senza alzare i prezzi?",
+          "a": "Lavora su scontrino medio e rotazione. Proponi abbinamenti precisi, come il calice di vino e il dolce, accorcia i tempi a pranzo e togli dal menu i piatti che vendono poco e rendono poco. Ridurre gli sprechi non aumenta il fatturato, ma migliora il margine."
+        },
+        {
+          "q": "Come si calcola lo scontrino medio di un ristorante?",
+          "a": "Dividi l'incasso di un servizio per il numero di coperti serviti. Calcolalo separatamente per pranzo e cena e confrontalo settimana dopo settimana. Quando cambi qualcosa nel menu o nel servizio, è il primo numero da guardare."
+        },
+        {
+          "q": "Qual è un buon food cost per un ristorante?",
+          "a": "Dipende dal tipo di locale, dai prezzi e dal costo del personale, quindi non esiste un valore valido per tutti. Calcola il food cost di ogni piatto, fissa un obiettivo realistico per il tuo locale e controlla soprattutto i piatti che vendi di più."
+        },
+        {
+          "q": "Quanti piatti dovrebbe avere il menu di un ristorante?",
+          "a": "Non c'è un numero giusto per tutti, ma ogni piatto deve meritare il suo posto. Un piatto che vende poco e rende poco occupa magazzino e tempo in cucina. Il menu engineering ti aiuta a decidere quali tenere e quali togliere."
+        },
+        {
+          "q": "Il menu digitale aiuta a vendere di più?",
+          "a": "Può aiutare, ma da solo non basta. Foto chiare, descrizioni brevi e allergeni rendono più facile scegliere. Con ArtOfMenu vedi anche quali piatti vengono guardati e non ordinati, un'indicazione utile per correggere prezzo, nome o foto."
+        }
+      ],
+      "cta": {
+        "h2": "Dati per decidere meglio",
+        "lead": "Ti avvisiamo quando ArtOfMenu apre, con i report del menu e i prezzi del giorno."
+      },
+      "related": [
+        "menu-engineering",
+        "inventory",
+        "restaurant",
+        "smart"
+      ]
+    },
+    "bar-sales": {
+      "slug": "aumentare-incassi-cocktail-bar",
+      "title": "Come aumentare gli incassi di un cocktail bar | ArtOfMenu",
+      "description": "Come aumentare gli incassi di un cocktail bar o di un pub: costo per drink, carta corta, aperitivo, secondo giro, distillati premium e scorte.",
+      "eyebrow": "Guida",
+      "h1": "Come aumentare gli incassi di un cocktail bar o di un pub",
+      "lead": "Per aumentare gli incassi di un cocktail bar devi servire più drink nelle stesse ore e guadagnare di più su ognuno, con un servizio rapido, una carta chiara, prezzi calcolati sul costo reale e scorte sotto controllo. Ecco come farlo, serata dopo serata.",
+      "answer": "Gli incassi di un cocktail bar, di un pub o di un wine bar crescono quando aumentano i drink serviti per ospite e il margine su ogni drink. Le leve principali sono il costo per drink calcolato con dosi fisse, una carta corta, un aperitivo che non svende, la velocità del secondo giro e il controllo delle bottiglie. ArtOfMenu aiuta con ordini dal tavolo e scorte.",
+      "sections": [
+        {
+          "h2": "Calcola il costo di ogni drink",
+          "body": [
+            "Il primo passo è sapere quanto ti costa ogni cocktail. Somma il costo di ogni ingrediente nella dose che usi: 4 cl di gin, la tonica, il ghiaccio, la fetta di lime. Dividi per il prezzo di vendita senza IVA e ottieni il costo percentuale del drink.",
+            "Il calcolo regge solo se le dosi sono sempre le stesse. Un barman che versa a occhio può regalare qualche centilitro a ogni drink, e a fine mese diventano bottiglie. Il jigger dietro al banco protegge il margine ogni sera."
+          ]
+        },
+        {
+          "h2": "Una carta corta, che si legge anche al buio",
+          "body": [
+            "Venti cocktail scritti piccoli su un cartoncino rallentano tutti. L'ospite non sceglie e chiede, e il barman perde tempo. Una carta con otto o dieci signature, più i classici che il tuo staff prepara a occhi chiusi, è più veloce da leggere e da servire.",
+            "Raggruppa i drink per gusto, come fresco, amaro, dolce o deciso, invece che per distillato. Chi non conosce il mezcal sa comunque se ha voglia di qualcosa di fresco."
+          ]
+        },
+        {
+          "h2": "Aperitivo e happy hour senza svendere",
+          "body": [
+            "L'aperitivo a buffet può riempire il locale e svuotare il margine, perché il cibo costa più di quanto sembri. Per una settimana pesa quello che esce e quello che torna dal buffet, poi calcola il costo reale per drink servito.",
+            "Un'alternativa è l'aperitivo servito al tavolo, con un tagliere o una ciotola per persona, a prezzo fisso drink più cibo. L'happy hour serve a riempire le ore deboli, come le 18 di un martedì. Il venerdì sera il locale si riempie comunque."
+          ]
+        },
+        {
+          "h2": "Il secondo giro decide la serata",
+          "body": [
+            "La differenza tra una buona serata e una normale sta spesso nel secondo e nel terzo giro. Se il gruppo deve cercare il cameriere con lo sguardo per dieci minuti, qualcuno chiede il conto invece di un altro drink.",
+            "Dividi la sala in zone, con un cameriere che passa da ogni tavolo quando i bicchieri sono a metà. Con le ordinazioni dal tavolo il giro successivo parte anche quando il cameriere è dall'altra parte del locale."
+          ]
+        },
+        {
+          "h2": "Distillati premium e piccoli upgrade",
+          "body": [
+            "Proponi il passaggio a un gin o a un rum di fascia alta con un supplemento chiaro, scritto in carta, come «con gin premium + 2 €». Chi lo vuole lo sceglie senza imbarazzo e il margine in euro di quel drink cresce.",
+            "Lo stesso vale per il wine bar: un calice di una selezione speciale accanto al vino della casa, con una riga che spiega la differenza."
+          ]
+        },
+        {
+          "h2": "Il cibo che fa restare",
+          "body": [
+            "Un tagliere, delle olive o una focaccia calda tengono le persone sedute più a lungo, e più tempo seduti può voler dire un altro giro. Scegli due o tre proposte semplici da preparare con quello che hai già e abbinale ai drink in carta.",
+            "Nei pub la birra alla spina e qualcosa di salato o fritto sono una coppia classica. Mettila in evidenza vicino alle birre."
+          ]
+        },
+        {
+          "h2": "Bottiglie, cali e scorte",
+          "body": [
+            "Fai l'inventario delle bottiglie aperte ogni settimana, sempre lo stesso giorno, stimando o pesando il contenuto. Confronta il consumo con i drink venduti. Se mancano più centilitri di quanti ne hai venduti, il problema sta nelle dosi, negli omaggi o nelle rotture.",
+            "Tieni una scorta minima per i prodotti chiave, come il gin più usato, la tonica e gli agrumi, e riordina prima del weekend."
+          ]
+        },
+        {
+          "h2": "Le serate deboli",
+          "body": [
+            "Lunedì e martedì sono spesso le serate più tranquille. Dai alle persone un motivo per uscire: una degustazione guidata, un quiz, un concerto acustico, un barman ospite. Ripeti l'evento con regolarità, perché diventi un'abitudine."
+          ]
+        },
+        {
+          "h2": "Dove ti aiuta ArtOfMenu",
+          "body": [
+            "Con il piano Order il gruppo ordina il giro successivo dal tavolo e il cameriere lo vede subito sul telefono. I report del menu mostrano i drink guardati ma ordinati poco. Con Smart lo stock da ricetta segna esauriti i cocktail quando finisce un ingrediente, e il menu suggerisce lo stuzzichino ordinato più spesso con quel drink."
+          ]
+        }
+      ],
+      "features": [
+        "ordering",
+        "stock",
+        "pairing",
+        "reports",
+        "pricing"
+      ],
+      "faq": [
+        {
+          "q": "Come aumentare gli incassi di un cocktail bar?",
+          "a": "Calcola il costo di ogni drink con dosi fisse, tieni una carta corta e chiara, rendi veloce il secondo giro e proponi upgrade sui distillati. Controlla le bottiglie ogni settimana e usa eventi e happy hour per le serate più deboli."
+        },
+        {
+          "q": "Come si calcola il costo di un cocktail?",
+          "a": "Somma il costo di ogni ingrediente nella dose esatta, dal distillato alla guarnizione, e dividilo per il prezzo di vendita senza IVA. Il risultato regge solo se le dosi sono fisse, quindi misura sempre con il jigger."
+        },
+        {
+          "q": "L'happy hour conviene?",
+          "a": "Conviene se riempie ore che altrimenti resterebbero vuote e se il prezzo copre il costo reale di drink e cibo. Se lo fai nelle ore in cui il locale si riempie comunque, rischi di incassare meno dagli stessi ospiti."
+        },
+        {
+          "q": "Ogni quanto fare l'inventario in un bar?",
+          "a": "Per distillati e vini costosi una volta a settimana, sempre nello stesso giorno e alla stessa ora. Un inventario completo una volta al mese è una buona base. La regolarità conta più della precisione al millilitro."
+        },
+        {
+          "q": "Le ordinazioni dal tavolo funzionano in un pub?",
+          "a": "Possono aiutare nelle serate piene, quando il cameriere non riesce a passare da ogni tavolo. Con ArtOfMenu il gruppo ordina dal menu, l'ordine arriva sul telefono del cameriere e chi preferisce continua a ordinare al banco."
+        }
+      ],
+      "cta": {
+        "h2": "Più giri, meno attese",
+        "lead": "Ti avvisiamo quando ArtOfMenu apre, con ordini dal tavolo e stock da ricetta."
+      },
+      "related": [
+        "bar",
+        "ordering",
+        "inventory",
+        "menu-engineering"
+      ]
+    },
+    "cafe-sales": {
+      "slug": "aumentare-incassi-bar",
+      "title": "Come aumentare gli incassi di un bar | ArtOfMenu",
+      "description": "Come aumentare gli incassi di un bar o di una caffetteria: colazione più veloce, scontrino medio, fasce morte, meteo, prezzo del caffè e invenduto.",
+      "eyebrow": "Guida",
+      "h1": "Come aumentare gli incassi di un bar o di una caffetteria",
+      "lead": "Per aumentare gli incassi di un bar servi più persone nell'ora della colazione, fai crescere lo scontrino medio con l'abbinamento giusto e riempi le fasce orarie morte. Questa guida spiega come, con esempi presi dal banco.",
+      "answer": "Gli incassi di un bar o di una caffetteria crescono quando il banco serve più clienti nei picchi, ogni scontrino include un prodotto in più e le ore tranquille portano clienti nuovi. Le leve sono la velocità alla colazione, abbinamenti come cappuccino e cornetto, l'offerta di pranzo e merenda, prezzi calcolati sul costo per tazzina e meno invenduto. ArtOfMenu aiuta con meteo e abbinamenti.",
+      "sections": [
+        {
+          "h2": "La colazione: prima di tutto la velocità",
+          "body": [
+            "Nell'ora della colazione ogni cliente che rinuncia perché vede la fila è un incasso perso. Osserva il percorso di chi entra: cassa, scontrino, banco, macchina, vetrina. Ogni passaggio in più rallenta tutti quelli dietro.",
+            "Tieni la vetrina dei cornetti vicino alla macchina, prepara tazze e piattini prima delle 7 e dividi i compiti tra chi sta alla cassa e chi fa i caffè. Se hai tavoli, un menu leggibile dal telefono evita che chi è seduto ti chieda cosa c'è mentre il banco è pieno."
+          ]
+        },
+        {
+          "h2": "Lo scontrino medio della mattina",
+          "body": [
+            "Cappuccino e cornetto sono il classico, ma c'è margine anche intorno: la spremuta, il cornetto farcito al posto di quello vuoto, il secondo caffè da portare via. Chi sta alla cassa può proporre un prodotto in più con una domanda precisa, come «Una spremuta con il cornetto?».",
+            "Una formula colazione a prezzo fisso semplifica la scelta. Calcolala in modo che il risparmio per il cliente sia piccolo e che il prodotto aggiunto abbia un buon margine."
+          ]
+        },
+        {
+          "h2": "Riempire le fasce morte",
+          "body": [
+            "Tra le 10:30 e mezzogiorno, e poi nel primo pomeriggio, molti bar restano mezzi vuoti. Sono le ore in cui conviene parlare ad altri clienti: chi cerca un pranzo veloce, gli studenti, chi fa una pausa dal lavoro.",
+            "Pochi tramezzini e un paio di insalate fatte bene, una merenda con tè e dolce, un aperitivo leggero dalle 18. Scegli quello che si adatta alla tua zona e al tuo personale, senza allungare troppo il listino."
+          ]
+        },
+        {
+          "h2": "Il tempo cambia cosa si vende",
+          "body": [
+            "Quando piove e fa freddo si vendono più bevande calde, con il caldo salgono spremute, granite e caffè freddi. Prepara la vetrina e la produzione guardando le previsioni del giorno dopo, oltre al calendario.",
+            "Metti in evidenza quello che la giornata chiede: la cioccolata calda vicino alla cassa in una mattina di pioggia, il caffè shakerato sulla lavagna a luglio."
+          ]
+        },
+        {
+          "h2": "Il prezzo del caffè, calcolato",
+          "body": [
+            "Quanto ti costa un espresso? Parti dal prezzo della miscela al chilo e dalla dose per tazzina, poi aggiungi zucchero, acqua e, per il cappuccino, il latte. Fai lo stesso calcolo per marocchino, ginseng e caffè d'orzo.",
+            "Con il costo per tazzina sotto mano decidi meglio quando ritoccare un prezzo. Chi viene ogni mattina si accorge subito di un aumento del caffè, quindi valuta prima i prodotti meno sensibili, come i dolci da asporto o le bevande speciali."
+          ]
+        },
+        {
+          "h2": "Pasticceria e invenduto",
+          "body": [
+            "L'invenduto di fine giornata è un costo che non si vede sullo scontrino. Segna ogni sera cosa resta, per prodotto e per giorno della settimana. Dopo qualche settimana vedrai, per esempio, che il lunedì servono meno cornetti alla crema e il sabato più brioche salate.",
+            "Quando puoi, cuoci in due turni, con una seconda infornata più piccola a metà mattina. Ciò che avanza può diventare una proposta del pomeriggio a prezzo ridotto, dove le regole igieniche lo permettono."
+          ]
+        },
+        {
+          "h2": "Chi torna ogni mattina",
+          "body": [
+            "Un bar vive di persone che tornano tutti i giorni. Ricordare il nome e «il solito» crea un legame che nessuna promozione compra. Una tessera fedeltà semplice, con un caffè offerto dopo un certo numero, funziona se il personale la propone a tutti e ogni volta."
+          ]
+        },
+        {
+          "h2": "Dove ti aiuta ArtOfMenu",
+          "body": [
+            "Il menu porta in alto le bevande calde quando fa freddo e sposta in basso quelle fredde e i prodotti che stanno per finire. Con il piano Smart, quando un ospite aggiunge un cappuccino, il menu propone il prodotto ordinato più spesso insieme in quel bar. Gli schermi dietro al banco mostrano il listino a chi è in fila, e lo stock da ricetta segna esaurito ogni prodotto quando finisce un ingrediente."
+          ]
+        }
+      ],
+      "features": [
+        "weather",
+        "pairing",
+        "screens",
+        "stock",
+        "reports"
+      ],
+      "faq": [
+        {
+          "q": "Come aumentare gli incassi di un bar?",
+          "a": "Servi più clienti nell'ora della colazione organizzando banco e cassa, proponi un prodotto in più a ogni scontrino e riempi le fasce morte con pranzo veloce, merenda o aperitivo. Calcola il costo per tazzina e segna l'invenduto ogni sera."
+        },
+        {
+          "q": "Quanto costa fare un caffè al bar?",
+          "a": "Dipende dal prezzo della tua miscela, dalla dose per tazzina e da costi accessori come zucchero e acqua. Fai il conto con i tuoi numeri: prezzo al chilo diviso per le tazzine che ottieni, più gli accessori. Rifallo a ogni nuovo listino del torrefattore."
+        },
+        {
+          "q": "Come ridurre l'invenduto in pasticceria?",
+          "a": "Segna ogni sera cosa resta, per prodotto e giorno della settimana, e adatta la produzione. Quando puoi cuoci in due turni e valuta una proposta del pomeriggio con quello che avanza, nel rispetto delle regole igieniche."
+        },
+        {
+          "q": "Conviene fare pranzi veloci in un bar?",
+          "a": "Conviene se hai spazio, personale e uffici o scuole nella zona. Pochi prodotti fatti bene, come tramezzini e insalate, riempiono le ore tra la colazione e il pomeriggio senza complicare troppo il lavoro."
+        },
+        {
+          "q": "Il meteo influisce sulle vendite di un bar?",
+          "a": "Sì, cambia cosa si beve: con il freddo crescono le bevande calde, con il caldo quelle fredde. Guarda le previsioni per preparare vetrina e produzione. ArtOfMenu porta in alto nel menu le bevande calde quando fa freddo."
+        }
+      ],
+      "cta": {
+        "h2": "Una colazione che rende di più",
+        "lead": "Lascia i dati del bar e ti avvisiamo al lancio di ArtOfMenu."
+      },
+      "related": [
+        "cafe",
+        "smart",
+        "inventory",
+        "menu-engineering"
+      ]
+    },
+    "menu-engineering": {
+      "slug": "menu-engineering",
+      "title": "Menu engineering: guida pratica con esempi | ArtOfMenu",
+      "description": "Menu engineering passo per passo: margine di contribuzione, popolarità, matrice con stelle, cavalli da tiro, enigmi e cani, e cosa fare con ognuno.",
+      "eyebrow": "Guida",
+      "h1": "Menu engineering: la guida pratica per bar e ristoranti",
+      "lead": "Il menu engineering è un metodo per analizzare ogni piatto del menu in base a quanto vende e a quanto margine lascia, per decidere cosa evidenziare, cosa rivedere e cosa togliere. Qui trovi il metodo passo per passo, con un esempio da adattare al tuo locale.",
+      "answer": "Il menu engineering è un'analisi del menu sviluppata da Michael Kasavana e Donald Smith che classifica ogni piatto secondo due criteri: popolarità e margine di contribuzione. Ne nascono quattro gruppi, cioè stelle, cavalli da tiro, enigmi e cani, e per ognuno c'è un'azione diversa. ArtOfMenu aggiunge un dato in più: quante volte un piatto viene visto e aperto nel menu digitale.",
+      "sections": [
+        {
+          "h2": "Cos'è il menu engineering",
+          "body": [
+            "Il metodo nasce nei primi anni Ottanta, quando Kasavana e Smith propongono di guardare il menu come un insieme di prodotti da gestire con i numeri. La domanda passa da «quali piatti piacciono?» a «quali piatti vendono e quali fanno guadagnare?».",
+            "Il suo punto di forza è la semplicità. Servono solo le vendite per piatto, il costo della porzione e il prezzo, e si fa con un foglio di calcolo in un pomeriggio."
+          ]
+        },
+        {
+          "h2": "Il margine di contribuzione",
+          "body": [
+            "Il margine di contribuzione di un piatto è il prezzo di vendita senza IVA meno il costo degli ingredienti della porzione. È quanto quel piatto lascia per pagare personale, affitto e utile.",
+            "Il metodo usa il margine in euro al posto del food cost percentuale. Un esempio: una carbonara a 12 € netti con 3 € di costo lascia 9 €, una tagliata a 22 € netti con 9 € di costo ne lascia 13. La tagliata ha un food cost percentuale più alto, eppure ogni porzione venduta porta più soldi."
+          ]
+        },
+        {
+          "h2": "La popolarità e la regola del 70%",
+          "body": [
+            "Un piatto è popolare se vende più del 70% della quota che avrebbe in un menu dove tutti i piatti vendono uguale. Con 10 piatti in una categoria la quota teorica è il 10% delle porzioni, e il 70% di quella quota è il 7%. Ogni piatto che supera il 7% delle porzioni vendute nella categoria conta come popolare.",
+            "Analizza ogni categoria per conto suo. Confrontare un antipasto con un dolce non dice nulla di utile."
+          ]
+        },
+        {
+          "h2": "Le quattro categorie e cosa farne",
+          "body": [
+            "Incrociando popolarità e margine, ogni piatto cade in uno di quattro quadranti."
+          ],
+          "bullets": [
+            "Stelle: popolari e con margine alto. Lasciale come sono, mettile in evidenza e controlla che porzioni e qualità restino costanti.",
+            "Cavalli da tiro: popolari ma con margine basso. Prova a ridurre il costo con una ricetta o una porzione riviste, oppure con un piccolo aumento di prezzo.",
+            "Enigmi: margine alto ma vendono poco. Cambia nome, descrizione, foto o posizione nel menu e chiedi al personale di proporli.",
+            "Cani: poco popolari e con margine basso. Toglili, a meno che non abbiano un ruolo preciso, come l'unico piatto vegano del menu."
+          ]
+        },
+        {
+          "h2": "Impaginazione: aiutare l'occhio",
+          "body": [
+            "Una volta classificati i piatti, il menu deve mostrarli nel modo giusto. Metti stelle ed enigmi nelle prime posizioni di ogni categoria e dai loro una foto o una descrizione più curata.",
+            "Evita una colonna di prezzi allineati sul bordo, che invita a scorrere i numeri e a scegliere il più basso. Scrivi il prezzo subito dopo la descrizione, senza puntini di riempimento."
+          ]
+        },
+        {
+          "h2": "Il dato in più del menu digitale",
+          "body": [
+            "Su carta sai solo cosa è stato ordinato. In un menu digitale sai anche cosa è stato guardato. I report di ArtOfMenu segnalano i piatti visti ma aperti di rado e quelli aperti ma mai ordinati.",
+            "Per un enigma questo cambia la diagnosi. Se nessuno lo apre, il problema è la visibilità: nome, foto, posizione. Se lo aprono in tanti e poi non lo ordinano, il problema è la descrizione o il prezzo."
+          ]
+        },
+        {
+          "h2": "Prezzi e menu engineering",
+          "body": [
+            "La matrice ti dice dove il prezzo va rivisto, soprattutto per i cavalli da tiro. Ritocca un piatto alla volta e misura le vendite delle settimane successive.",
+            "Nel piano Smart di ArtOfMenu i prezzi del giorno si muovono solo tra il minimo e il massimo che imposti per ogni piatto. Il menu engineering ti aiuta a scegliere quell'intervallo con criterio."
+          ]
+        },
+        {
+          "h2": "Ogni quanto rifarlo",
+          "body": [
+            "Rifai l'analisi a ogni cambio di menu e almeno una volta a stagione, perché costi e gusti cambiano. Conserva le analisi precedenti: vedere un piatto passare da cane a enigma dopo un cambio di nome ti insegna molto su cosa funziona nel tuo locale."
+          ]
+        }
+      ],
+      "steps": {
+        "h2": "Il menu engineering in 7 passi",
+        "items": [
+          {
+            "t": "Scegli il periodo",
+            "d": "Prendi almeno quattro settimane di vendite senza eventi particolari e separa le categorie: antipasti, primi, secondi, dolci, drink."
+          },
+          {
+            "t": "Ricava le vendite per piatto",
+            "d": "Dalla cassa estrai quante porzioni hai venduto di ogni piatto nel periodo scelto."
+          },
+          {
+            "t": "Calcola il costo della porzione",
+            "d": "Usa schede tecniche con grammature e prezzi d'acquisto aggiornati, scarti compresi."
+          },
+          {
+            "t": "Calcola il margine di contribuzione",
+            "d": "Prezzo senza IVA meno costo della porzione, per ogni piatto. Poi calcola il margine medio della categoria, pesato sulle porzioni vendute."
+          },
+          {
+            "t": "Trova la soglia di popolarità",
+            "d": "Dividi 100% per il numero di piatti della categoria e moltiplica il risultato per 0,7."
+          },
+          {
+            "t": "Classifica i piatti",
+            "d": "Sopra soglia e sopra il margine medio è una stella, sotto in entrambi è un cane. Gli altri sono cavalli da tiro o enigmi."
+          },
+          {
+            "t": "Agisci e misura",
+            "d": "Cambia pochi piatti alla volta e rifai l'analisi dopo quattro-sei settimane per vedere cosa è successo."
+          }
+        ]
+      },
+      "features": [
+        "reports",
+        "pricing",
+        "pairing",
+        "stock"
+      ],
+      "faq": [
+        {
+          "q": "Cos'è il menu engineering in parole semplici?",
+          "a": "È un modo per valutare ogni piatto del menu con due domande: quanto vende e quanto fa guadagnare. Incrociando le risposte ottieni quattro gruppi, stelle, cavalli da tiro, enigmi e cani, e per ognuno sai cosa fare."
+        },
+        {
+          "q": "Come si calcola il margine di contribuzione di un piatto?",
+          "a": "Prendi il prezzo di vendita senza IVA e sottrai il costo degli ingredienti della porzione. Il risultato in euro è il margine di contribuzione. Per un dato affidabile usa schede tecniche aggiornate con i prezzi dell'ultimo acquisto."
+        },
+        {
+          "q": "Serve un software per il menu engineering?",
+          "a": "No, basta un foglio di calcolo con vendite per piatto, costo della porzione e prezzo. Un software fa risparmiare tempo nella raccolta dei dati. Con ArtOfMenu hai anche i dati su quali piatti vengono visti e aperti nel menu digitale."
+        },
+        {
+          "q": "Cosa fare con un piatto «cane»?",
+          "a": "Di solito va tolto, perché vende poco e rende poco. Tienilo solo se ha un ruolo preciso, come l'unica opzione senza glutine o un piatto simbolo del locale, e in quel caso prova a ridurne il costo."
+        },
+        {
+          "q": "Il menu engineering funziona anche per un bar?",
+          "a": "Sì. Applica il metodo per categoria: caffetteria, cornetti e dolci, cocktail, vini. Per i drink calcola il costo della porzione con dosi fisse, altrimenti il margine reale cambia da un bicchiere all'altro."
+        }
+      ],
+      "cta": {
+        "h2": "Il menu, letto con i numeri",
+        "lead": "Ti avvisiamo quando ArtOfMenu apre, con i report che mostrano cosa viene visto e cosa viene ordinato."
+      },
+      "related": [
+        "restaurant-sales",
+        "smart",
+        "inventory",
+        "pricing"
+      ]
+    },
+    "inventory": {
+      "slug": "gestione-magazzino-ristorante",
+      "title": "Gestione magazzino ristorante: guida pratica | ArtOfMenu",
+      "description": "Gestione del magazzino di un ristorante: inventario, schede tecniche, scorte minime, FIFO, sprechi e food cost. Una guida passo per passo.",
+      "eyebrow": "Guida",
+      "h1": "Gestione del magazzino di un ristorante, passo per passo",
+      "lead": "Gestire il magazzino di un ristorante significa sapere ogni settimana cosa hai, cosa hai consumato e cosa ti serve, così ordini il giusto e butti poco. Bastano un inventario regolare, schede tecniche aggiornate, scorte minime e il FIFO.",
+      "answer": "La gestione del magazzino di un ristorante è il controllo di acquisti, scorte e consumi delle materie prime. Si basa su inventari regolari, schede tecniche con il costo di ogni ricetta, scorte minime per riordinare in tempo, rotazione FIFO e un registro degli sprechi. ArtOfMenu, con lo stock da ricetta, segna in automatico come esauriti i piatti quando finisce un ingrediente.",
+      "sections": [
+        {
+          "h2": "Perché il magazzino decide il margine",
+          "body": [
+            "Il margine di un ristorante si perde spesso in silenzio: la panna scaduta in fondo al frigo, il pesce ordinato due volte, le porzioni che crescono durante il servizio. Sullo scontrino non si vede nulla, ma a fine mese si vede tutto.",
+            "Un magazzino gestito bene non richiede strumenti costosi. Richiede regole semplici, applicate sempre."
+          ]
+        },
+        {
+          "h2": "Inventario: cosa contare e quando",
+          "body": [
+            "Conta sempre lo stesso giorno e alla stessa ora, di solito prima delle consegne. Usa le stesse unità degli ordini: chili, litri, pezzi, bottiglie.",
+            "Non tutto merita lo stesso controllo. Raggruppa i prodotti in base al loro peso sui costi e dedica più attenzione a quelli che pesano di più."
+          ],
+          "bullets": [
+            "Carne, pesce, formaggi e vini pregiati: inventario settimanale.",
+            "Secco e bevande comuni: inventario mensile.",
+            "Detersivi e monouso: controllo a vista e riordino a soglia."
+          ]
+        },
+        {
+          "h2": "Schede tecniche e costo della ricetta",
+          "body": [
+            "La scheda tecnica di un piatto elenca ogni ingrediente con la grammatura per porzione, il prezzo d'acquisto e la resa. La resa conta: un filetto intero dopo la pulizia pesa meno di quanto hai pagato, e il costo va calcolato sul peso utile.",
+            "Aggiorna i prezzi a ogni nuova fattura dei fornitori principali. Un costo ricetta fermo a un anno fa ti fa credere di guadagnare più di quanto guadagni davvero."
+          ]
+        },
+        {
+          "h2": "Scorte minime e punto di riordino",
+          "body": [
+            "Per ogni prodotto chiave fissa una scorta minima, cioè la quantità sotto la quale devi riordinare. Un modo semplice per calcolarla è prendere il consumo medio tra una consegna e l'altra e aggiungere una piccola scorta di sicurezza per i giorni più pieni.",
+            "Scrivila sull'etichetta dello scaffale o sul foglio d'ordine. Così chi fa l'ordine controlla un numero e non deve indovinare."
+          ]
+        },
+        {
+          "h2": "FIFO e FEFO in cella e in dispensa",
+          "body": [
+            "FIFO significa che il primo prodotto entrato è il primo a uscire. Quando arriva la merce nuova va dietro o sotto quella già presente. Il FEFO dà la precedenza a ciò che scade prima, ed è utile quando i lotti hanno scadenze diverse.",
+            "Etichetta ogni preparazione con contenuto e data, in linea con il piano HACCP del locale. Così chiunque apra il frigo sa cosa usare per primo."
+          ]
+        },
+        {
+          "h2": "Registrare gli sprechi per ridurli",
+          "body": [
+            "Tieni in cucina un foglio degli scarti con data, prodotto, quantità e motivo: scaduto, preparato in eccesso, errore, piatto tornato indietro. Dopo qualche settimana vedi dove si concentra lo spreco e puoi intervenire lì.",
+            "Spesso la soluzione passa dal menu: un piatto del giorno che usa le eccedenze, una porzione rivista, una preparazione in meno."
+          ]
+        },
+        {
+          "h2": "Food cost: la formula da usare ogni mese",
+          "body": [
+            "Il food cost del periodo si calcola così: rimanenze iniziali più acquisti meno rimanenze finali, diviso per i ricavi del cibo, per cento. Fai lo stesso calcolo per le bevande, separatamente.",
+            "Confronta il risultato con il food cost teorico dei piatti venduti, ricavato dalle schede tecniche. La differenza tra i due misura sprechi, cali ed errori che durante il servizio non vedi."
+          ]
+        },
+        {
+          "h2": "Quando un ingrediente finisce durante il servizio",
+          "body": [
+            "Sabato sera, alle 21, finisce la burrata. Tre piatti la usano, il menu continua a mostrarli e i camerieri devono tornare ai tavoli a scusarsi.",
+            "Con lo stock da ricetta di ArtOfMenu, nel piano Smart, ogni piatto è collegato ai suoi ingredienti. Quando la burrata finisce, tutti i piatti che la usano risultano esauriti nel menu da soli. Il piano Order include invece report semplici di scorte e ordini."
+          ]
+        },
+        {
+          "h2": "Quaderno, foglio di calcolo o software",
+          "body": [
+            "Per un locale piccolo un foglio di calcolo ben fatto basta per inventario, schede tecniche e food cost. Un software diventa utile quando i prodotti sono tanti, le sedi più di una o vuoi collegare il magazzino al menu e agli ordini.",
+            "Lo strumento conta meno dell'abitudine. Un inventario fatto ogni lunedì su un quaderno è più utile di un software aperto una volta al mese."
+          ]
+        }
+      ],
+      "steps": {
+        "h2": "Impostare il magazzino in una settimana",
+        "items": [
+          {
+            "t": "Fai ordine",
+            "d": "Svuota e riordina cella, frigoriferi e dispensa. Butta ciò che è scaduto e annotalo come primo scarto."
+          },
+          {
+            "t": "Crea l'elenco dei prodotti",
+            "d": "Per ogni prodotto scrivi nome, unità di misura, fornitore e prezzo dell'ultima fattura."
+          },
+          {
+            "t": "Fai il primo inventario",
+            "d": "Conta tutto con l'elenco in mano, seguendo lo stesso ordine degli scaffali."
+          },
+          {
+            "t": "Scrivi le schede tecniche",
+            "d": "Parti dai dieci piatti che vendi di più e calcola grammature e costo della porzione."
+          },
+          {
+            "t": "Fissa le scorte minime",
+            "d": "Per ogni prodotto chiave indica sotto quale quantità va riordinato."
+          },
+          {
+            "t": "Avvia il foglio degli scarti",
+            "d": "Appendilo in cucina con una penna e spiega a tutta la brigata perché serve."
+          },
+          {
+            "t": "Ripeti ogni settimana",
+            "d": "Stesso giorno, stessa ora. A fine mese calcola il food cost e confrontalo con quello teorico."
+          }
+        ]
+      },
+      "features": [
+        "stock",
+        "reports",
+        "ordering"
+      ],
+      "faq": [
+        {
+          "q": "Come si gestisce il magazzino di un ristorante?",
+          "a": "Con inventari regolari fatti sempre nello stesso giorno, schede tecniche aggiornate per ogni piatto, scorte minime per riordinare in tempo, rotazione FIFO e un registro degli sprechi. A fine mese confronti il food cost reale con quello teorico."
+        },
+        {
+          "q": "Ogni quanto fare l'inventario in un ristorante?",
+          "a": "Per i prodotti costosi o deperibili, come carne, pesce e vini pregiati, una volta a settimana. Per il resto una volta al mese è sufficiente. Conta sempre nello stesso giorno e alla stessa ora, prima delle consegne."
+        },
+        {
+          "q": "Che differenza c'è tra FIFO e FEFO?",
+          "a": "Con il FIFO usi per primo il prodotto arrivato per primo. Con il FEFO usi per primo quello che scade prima, anche se è arrivato dopo. In cucina conviene ragionare in FEFO quando i lotti hanno scadenze diverse."
+        },
+        {
+          "q": "Come si calcola il food cost mensile?",
+          "a": "Rimanenze iniziali più acquisti del mese meno rimanenze finali, diviso per i ricavi del cibo, per cento. Calcola le bevande a parte. Se il valore è molto più alto di quello teorico delle schede tecniche, cerca sprechi o porzioni fuori controllo."
+        },
+        {
+          "q": "Serve un software di gestione magazzino per un ristorante?",
+          "a": "Per un locale piccolo basta un foglio di calcolo usato con regolarità. Un software serve quando i prodotti sono tanti o le sedi più di una. ArtOfMenu collega scorte e menu: con lo stock da ricetta i piatti risultano esauriti quando finisce un ingrediente."
+        }
+      ],
+      "cta": {
+        "h2": "Il magazzino, collegato al menu",
+        "lead": "Ti avvisiamo quando ArtOfMenu apre, con stock da ricetta e report di scorte e ordini."
+      },
+      "related": [
+        "menu-engineering",
+        "restaurant-sales",
+        "ordering",
+        "smart"
+      ]
+    },
+    "how-to": {
+      "slug": "creare-menu-qr-code",
+      "title": "Come creare un menu QR code per il locale | ArtOfMenu",
+      "description": "Come creare un menu QR code passo per passo: dal PDF che hai già al QR sul tavolo, con misure, supporti e aggiornamento dei prezzi.",
+      "eyebrow": "Guida rapida",
+      "h1": "Come creare un menu QR code per il tuo locale",
+      "lead": "Per creare un menu QR code ti servono il menu, qualche foto e un servizio che ospiti il menu online e generi il codice. Con ArtOfMenu carichi il PDF che hai già e sei online lo stesso giorno.",
+      "answer": "Creare un menu QR code significa mettere online il menu del locale e stampare un codice che lo apre dal telefono. I passaggi sono pochi: preparare piatti, prezzi e allergeni, caricarli, collegare il dominio, stampare il QR e posizionarlo sui tavoli. Con ArtOfMenu puoi partire dal PDF che già usi e andare online lo stesso giorno.",
+      "steps": {
+        "h2": "Creare il menu QR, passo per passo",
+        "items": [
+          {
+            "t": "Raccogli il menu",
+            "d": "Parti dal PDF che usi già. Controlla prezzi e nomi ed elimina i piatti che non fai più."
+          },
+          {
+            "t": "Prepara gli allergeni",
+            "d": "Per ogni piatto segna gli allergeni insieme alla cucina, una volta per tutte."
+          },
+          {
+            "t": "Scatta le foto",
+            "d": "Luce naturale, stessa angolazione, il piatto come arriva in tavola. Puoi aggiungerle anche dopo, una alla volta."
+          },
+          {
+            "t": "Carica il menu",
+            "d": "Carica il PDF su ArtOfMenu e il menu è online lo stesso giorno. Foto e allergeni li completi con calma."
+          },
+          {
+            "t": "Collega il dominio",
+            "d": "Se vuoi, il menu si apre sul dominio del locale, per esempio menu.barcentrale.it."
+          },
+          {
+            "t": "Stampa il QR",
+            "d": "Stampa il codice su carta opaca, grande abbastanza da leggerlo da seduti, e mettilo su un supporto stabile."
+          },
+          {
+            "t": "Prova da ogni tavolo",
+            "d": "Inquadra il QR da seduto, di giorno e di sera, con telefoni diversi. Correggi prima di aprire."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "h2": "Cosa ti serve prima di iniziare",
+          "body": [
+            "Non serve un sito web e non serve un grafico. Serve un'ora per mettere in ordine le informazioni."
+          ],
+          "bullets": [
+            "Il menu attuale, anche in PDF.",
+            "L'elenco degli allergeni per piatto, controllato con la cucina.",
+            "Qualche foto dei piatti più ordinati.",
+            "Il dominio del locale, se ne hai uno.",
+            "Supporti da tavolo o adesivi per il QR."
+          ]
+        },
+        {
+          "h2": "Stampare il QR: misure e materiali",
+          "body": [
+            "Un QR troppo piccolo è un errore comune. Per un tavolo, un codice di almeno 3 cm di lato si legge bene da seduti; per vetrine e banconi va più grande. Lascia un bordo bianco intorno e stampa nero su bianco, senza invertire i colori.",
+            "Sulla carta lucida i faretti creano riflessi. Meglio la carta opaca, in un supporto di plexiglas o legno."
+          ]
+        },
+        {
+          "h2": "Dove metterlo",
+          "body": [
+            "Un QR per tavolo, sempre nello stesso punto, così l'ospite sa dove cercarlo. Nel dehors usa supporti fissati o adesivi resistenti, perché il vento sposta tutto. In vetrina un codice più grande aiuta chi guarda il menu prima di entrare."
+          ]
+        },
+        {
+          "h2": "Aggiornare prezzi e piatti",
+          "body": [
+            "Il QR sul tavolo non cambia mai. Quando aumenti il caffè di 10 centesimi o aggiungi la pizza del mese, modifichi il menu e chi inquadra il codice vede subito la versione nuova."
+          ]
+        },
+        {
+          "h2": "Errori da evitare",
+          "body": [
+            "Sono errori piccoli, ma rendono il menu scomodo."
+          ],
+          "bullets": [
+            "Un QR che apre un PDF pesante, da ingrandire con due dita.",
+            "Un codice stampato troppo piccolo o su carta lucida.",
+            "Un indirizzo che non porta il tuo nome: con il dominio del locale il link resta tuo.",
+            "Allergeni scritti di fretta e mai ricontrollati.",
+            "Nessuna copia di carta per chi non ha il telefono con sé."
+          ]
+        }
+      ],
+      "features": [
+        "pdf",
+        "domain",
+        "multilingual",
+        "global"
+      ],
+      "faq": [
+        {
+          "q": "Come si crea un menu con QR code?",
+          "a": "Prepari il menu con prezzi e allergeni, lo carichi su un servizio di menu digitale e stampi il QR che lo apre. Con ArtOfMenu puoi partire dal PDF che hai già, essere online lo stesso giorno e aggiornare il menu senza cambiare il codice."
+        },
+        {
+          "q": "Posso usare il PDF del menu che ho già?",
+          "a": "Sì, il caricamento del PDF è incluso in tutti i piani, anche nel piano Menu a 9 € al mese per locale. È il modo più veloce per andare online lo stesso giorno."
+        },
+        {
+          "q": "Quanto deve essere grande il QR sul tavolo?",
+          "a": "Per leggerlo da seduti, almeno 3 cm di lato è una buona base. Su banconi, vetrine o locandine va più grande, perché l'ospite è più lontano. Prova sempre la stampa con due o tre telefoni diversi."
+        },
+        {
+          "q": "Devo ristampare il QR se cambio i prezzi?",
+          "a": "No. Il QR porta sempre allo stesso indirizzo, mentre il menu che c'è dietro lo aggiorni tu. Prezzi, piatti nuovi e prodotti esauriti si vedono appena salvi la modifica. Ristampi solo i supporti rovinati."
+        },
+        {
+          "q": "Serve un sito web per avere il menu QR?",
+          "a": "No, il menu ha già il suo indirizzo e non ti serve un sito. Se hai un dominio, ArtOfMenu può aprire il menu sul dominio del locale, così anche l'indirizzo porta il tuo nome."
+        }
+      ],
+      "cta": {
+        "h2": "Prepara il PDF, ti avvisiamo al lancio",
+        "lead": "Lascia i dati del locale: al lancio carichi il menu e sei online lo stesso giorno."
+      },
+      "related": [
+        "qr-menu",
+        "pricing",
+        "design",
+        "multilingual"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+# ArtOfMenu: QR menus, table ordering and smart daily pricing for cafés, restaurants and bars
+User-agent: *
+Allow: /
+Disallow: /seo/
+Disallow: /tools/
+Disallow: /waitlist-worker/
+
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Bingbot
+User-agent: DuckAssistBot
+User-agent: meta-externalagent
+User-agent: MistralAI-User
+User-agent: CCBot
+Allow: /
+Disallow: /seo/
+Disallow: /tools/
+Disallow: /waitlist-worker/
+
+Sitemap: https://artofmenu.com/sitemap.xml

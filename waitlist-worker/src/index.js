@@ -3,7 +3,7 @@
 // signup in D1. Nothing is ever returned about who else is on the list.
 
 const PLANS = new Set(["menu", "order", "smart", "undecided"]);
-const LANGS = new Set(["tr", "en", "de"]);
+const LANGS = new Set(["tr", "en", "de", "es", "it", "fr"]);
 const HOURLY_LIMIT = 5;   // signups per visitor (hashed IP) per hour
 
 function isMapsUrl(value) {

@@ -10,6 +10,8 @@ Sonra http://localhost:5173 adresini açın.
 
 ## Dosyalar
 
+- `tools/build.mjs`: dil sayfalarını (`/tr/`, `/en/`, …), 90 konu sayfasını, `sitemap.xml`, `robots.txt` ve `llms.txt`'yi üretir. Metin değişince `node tools/build.mjs` çalıştır. Ayrıntılar `seo/README.md` içinde.
+
 - `index.html`: ana sayfa, 3D "Bir günün menüsü" hikâyesi ve fiyatlar. Stili `gun.css`, davranışı `gun.js`, metinleri `gun-i18n.js`
   (paket metinleri `i18n.js`'ten gelir).
 - `classic.html`: eski Apple tarzı sayfa.

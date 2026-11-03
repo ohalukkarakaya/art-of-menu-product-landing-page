@@ -1,0 +1,1748 @@
+{
+  "lang": "tr",
+  "ui": {
+    "langName": "Türkçe",
+    "home": "Ana sayfa",
+    "notify": "Çıkınca haber verelim",
+    "pricing": "Fiyatlar",
+    "soon": "Yakında",
+    "answerLabel": "Kısaca",
+    "featuresTitle": "ArtOfMenu'de bu sayfayla ilgili",
+    "faqTitle": "Sık sorulan sorular",
+    "relatedTitle": "İlgili sayfalar",
+    "allPages": "Tüm sayfalar",
+    "plansTitle": "Paketler",
+    "plansLead": "Fiyatlar şube başına ve aylıktır. Yıllık ödemede 12 ay, 10 ay fiyatına gelir.",
+    "perBranch": "şube başına",
+    "from": "başlayan fiyatlarla",
+    "footerTagline": "Kafe, restoran, bar ve pastaneler için QR menü, masadan sipariş ve akıllı fiyatlandırma.",
+    "languages": "Diller",
+    "skip": "İçeriğe geç",
+    "features": {
+      "multilingual": {
+        "t": "Misafirin dilinde menü",
+        "d": "Menü, misafirin telefonu hangi dildeyse o dilde, fotoğraf ve alerjen bilgisiyle açılır."
+      },
+      "ordering": {
+        "t": "Masadan sipariş",
+        "d": "Misafir siparişi menüden gönderir, garson telefonunda anında görür ve bildirim alır."
+      },
+      "weather": {
+        "t": "Havaya göre sıralama",
+        "d": "Hava soğuyunca sıcak içecekler öne çıkar; gün içinde yalnızca sıra değişir, fiyat değişmez."
+      },
+      "pairing": {
+        "t": "“Yanında iyi gider” önerisi",
+        "d": "Misafir bir ürün eklediğinde, o şubede onunla en sık birlikte alınan ürün gösterilir."
+      },
+      "pricing": {
+        "t": "Günlük akıllı fiyatlandırma",
+        "d": "Ertesi günün fiyatları her akşam, sizin belirlediğiniz alt ve üst sınırlar içinde hazırlanır."
+      },
+      "pdf": {
+        "t": "PDF'ten aynı gün yayına",
+        "d": "Elinizdeki PDF menüyü yükleyin, menünüz aynı gün misafirlerinize açılsın."
+      },
+      "stock": {
+        "t": "Reçeteye bağlı stok",
+        "d": "Bir malzeme bitince, onunla yapılan her ürün menüde kendiliğinden tükendi görünür."
+      },
+      "reports": {
+        "t": "Menü raporları",
+        "d": "Çok görülüp az açılan ve açılıp hiç sipariş edilmeyen ürünleri sizin için işaretler."
+      },
+      "screens": {
+        "t": "Tezgâh ekranları",
+        "d": "Menü tezgâh arkasındaki monitörlerde görünür; birden fazla ekran sayfaları birlikte çevirir."
+      },
+      "domain": {
+        "t": "Kendi alan adınız",
+        "d": "Menü işletmenizin kendi alan adında açılır, misafir adres çubuğunda sizin adınızı görür."
+      },
+      "global": {
+        "t": "216 ülke, kendi para biriminiz",
+        "d": "Para birimi, vergi gösterimi ve fiyat yuvarlama ülkenize göre ayarlanır."
+      }
+    },
+    "plans": {
+      "menu": {
+        "tag": "Dijital menü için",
+        "items": [
+          "QR menü",
+          "Ürün fotoğrafları ve alerjenler",
+          "Misafirin dilinde açılan menü",
+          "Kendi alan adınız",
+          "PDF menü yükleme",
+          "Anonim menü istatistikleri"
+        ]
+      },
+      "order": {
+        "tag": "Masadan sipariş için",
+        "items": [
+          "Menu paketindeki her şey",
+          "Masadan sipariş",
+          "Garson ekranı ve bildirimler",
+          "Basit stok ve sipariş raporları"
+        ]
+      },
+      "smart": {
+        "tag": "Akıllı fiyat ve satış için",
+        "items": [
+          "Order paketindeki her şey",
+          "Günlük akıllı fiyatlandırma",
+          "Özel günler takvimi",
+          "“Yanında iyi gider” önerileri",
+          "Masadan garson çağırma",
+          "Reçeteye bağlı stok",
+          "Tezgâh ekranları"
+        ]
+      }
+    }
+  },
+  "pages": {
+    "qr-menu": {
+      "slug": "qr-menu",
+      "title": "QR Menü: Misafirin Dilinde Açılan Menü | ArtOfMenu",
+      "description": "QR menü nedir, nasıl çalışır, kimler için uygun? ArtOfMenu'de masadaki kodu okutan misafir menüyü kendi dilinde, fotoğraf ve alerjenlerle görür.",
+      "eyebrow": "QR menü",
+      "h1": "QR menü: masadaki kod aynı kalır, menünüz hep güncel",
+      "lead": "QR menü, misafirin masadaki kodu telefon kamerasıyla okutup menüyü tarayıcıda açtığı dijital menüdür. ArtOfMenu'de menü misafirin telefon dilinde açılır, ürün fotoğrafları ve alerjen bilgisiyle birlikte gelir.",
+      "answer": "QR menü, masadaki karekodun telefonla okutulmasıyla açılan dijital menüdür. Misafir uygulama indirmez, menü tarayıcıda açılır. ArtOfMenu kafe, restoran, bar ve pastaneler için bir QR menü hizmetidir: menü misafirin telefon dilinde açılır, fotoğraf ve alerjen bilgisi gösterir, işletmenin kendi alan adında çalışır. Fiyat ya da ürün değiştiğinde menüyü siz güncellersiniz, masadaki QR aynı kalır.",
+      "sections": [
+        {
+          "h2": "QR menü nasıl çalışır?",
+          "body": [
+            "Misafir masaya oturur, telefonunun kamerasını masadaki koda tutar ve ekranda çıkan bağlantıya dokunur. Menü tarayıcıda açılır. Telefonu Almanca olan misafir menüyü Almanca, Türkçe olan Türkçe görür.",
+            "Kodun arkasında sabit bir bağlantı vardır. Menüde ne değiştirirseniz değiştirin bu bağlantı aynı kalır, bu yüzden masadaki kartı yeniden bastırmanız gerekmez. Sabah latte fiyatını güncellersiniz, öğle yemeğine gelen misafir yeni fiyatı görür."
+          ]
+        },
+        {
+          "h2": "Basılı menüden ve PDF'ten farkı",
+          "body": [
+            "Basılı menü, fiyatın değiştiği gün eskir. Yeni baskı hem para hem zaman ister. Telefonda açılan düz bir PDF ise küçük yazılıdır, büyütmeden okunmaz ve tek dildedir.",
+            "ArtOfMenu'de ürünler telefon ekranına göre dizilir. Her ürünün fotoğrafı ve alerjen bilgisi yanında durur. Elinizde hazır bir PDF menü varsa onu yükleyip aynı gün yayına geçebilirsiniz; PDF yükleme bütün paketlerde var."
+          ]
+        },
+        {
+          "h2": "Kimler için?",
+          "body": [
+            "ArtOfMenu küçük ve orta ölçekli yiyecek içecek işletmeleri için hazırlanıyor. Her işletmenin derdi biraz farklı:"
+          ],
+          "bullets": [
+            "Kafeler: sabah yoğunluğunda menüyü sıradaki müşteriye de gösterir, mevsim içeceklerini kolayca ekletir.",
+            "Restoranlar: uzun menüyü bölümlere ayırır, alerjenleri her tabağın yanında gösterir.",
+            "Barlar: kalabalık gecelerde menüyü her masaya aynı anda ulaştırır, yeni turun masadan gelmesini sağlar.",
+            "Pastaneler: vitrindeki ürünleri fotoğrafları ve içerikleriyle gösterir.",
+            "Otel çevresindeki ve turistik bölgelerdeki işletmeler: menüyü her misafire kendi dilinde açar."
+          ]
+        },
+        {
+          "h2": "Menüden fazlası: masadan sipariş ve akıllı özellikler",
+          "body": [
+            "Order paketinde misafir siparişini menüden gönderir. Garson siparişi anında kendi telefonunda görür ve bildirim alır. Masa masa dolaşıp not almak azalır.",
+            "Smart paketinde misafir sepetine bir ürün eklediğinde, o şubede o ürünle en sık birlikte sipariş edilen ürün gösterilir. Ertesi günün fiyatları her akşam, sizin belirlediğiniz alt ve üst sınırlar içinde hazırlanır.",
+            "Menünün sıralaması havaya da bakar. Hava soğuyunca sıcak içecekler üste çıkar, soğuk içecekler ve bitmek üzere olan ürünler aşağı iner. Gün içinde yalnızca sıralama değişir, fiyat değişmez."
+          ]
+        },
+        {
+          "h2": "Misafirleriniz için gizlilik",
+          "body": [
+            "ArtOfMenu misafirlerde çerez kullanmaz, kalıcı kimlik oluşturmaz ve IP adresi saklamaz. Menü istatistikleri anonimdir: hangi ürüne kaç kez bakıldığını bilirsiniz, kimin baktığını bilmezsiniz.",
+            "Fiyatlarınız başka işletmelerle hiçbir zaman paylaşılmaz. Aboneliği tek adımda iptal edersiniz ve ödediğiniz dönemin sonuna kadar kullanmaya devam edersiniz. Daha küçük bir pakete geçerseniz verileriniz yerinde kalır."
+          ]
+        }
+      ],
+      "features": [
+        "multilingual",
+        "pdf",
+        "domain",
+        "ordering",
+        "reports"
+      ],
+      "faq": [
+        {
+          "q": "QR menü nasıl okutulur?",
+          "a": "Çoğu güncel telefonda kamera uygulamasını açıp masadaki koda tutmak yeterlidir. Ekranda bir bağlantı belirir, ona dokununca menü tarayıcıda açılır. Bazı eski telefonlarda kamera kodu tanımazsa ayrı bir QR okuyucu uygulaması gerekebilir."
+        },
+        {
+          "q": "Misafirin uygulama indirmesi gerekir mi?",
+          "a": "Hayır. ArtOfMenu menüsü telefonun tarayıcısında, işletmenizin kendi alan adında açılır. Misafir bir şey indirmez, üye olmaz ve kişisel bilgi girmez. Menü telefonun diline göre açılır; ürün fotoğrafları ve alerjen bilgisi de aynı sayfada durur."
+        },
+        {
+          "q": "QR menüde fiyat değiştirince kodu yeniden bastırmak gerekir mi?",
+          "a": "Gerekmez. Masadaki QR kod her zaman aynı adrese gider. Fiyatı ya da ürünü değiştirdiğinizde misafir bir sonraki okutuşta yeni menüyü görür. Masa kartlarını ve standları bir kez bastırırsınız, sonraki değişiklikler için matbaaya gitmezsiniz."
+        },
+        {
+          "q": "ArtOfMenu ne zaman kullanıma açılıyor?",
+          "a": "ArtOfMenu henüz yayında değil ve kesin açılış tarihini şimdilik paylaşmıyoruz. Sayfadaki “Çıkınca haber verelim” formuna adınızı, e-postanızı, işletmenizin Google Haritalar bağlantısını ve ilgilendiğiniz paketi yazın; kullanıma açıldığında size e-postayla haber verelim."
+        },
+        {
+          "q": "Birden fazla şubem var, nasıl ücretlendirilir?",
+          "a": "Fiyatlar şube başınadır ve her şube ayrı ücretlendirilir. İki şubede Menu paketi kullanırsanız aylık 798 ₺, üç şubede 1.197 ₺ ödersiniz. Yıllık ödemede her şube için 12 ay, 10 ay fiyatına gelir; Menu paketinde bu, şube başına yılda 3.990 ₺ eder."
+        }
+      ],
+      "cta": {
+        "h2": "QR menünüz hazır olduğunda ilk siz bilin",
+        "lead": "Formu doldurun, ArtOfMenu kullanıma açıldığında size e-postayla haber verelim."
+      },
+      "related": [
+        "how-to",
+        "pricing",
+        "restaurant",
+        "multilingual",
+        "design"
+      ]
+    },
+    "pricing": {
+      "slug": "qr-menu-fiyatlari",
+      "title": "QR Menü Fiyatları: Uygun Fiyatlı Paketler | ArtOfMenu",
+      "description": "Uygun fiyatlı QR menü: ArtOfMenu şube başına aylık 399 ₺'den başlar. Paketlerde ne var, yıllık ödemede ne kadar tutar, baskıyla dürüst bir kıyas.",
+      "eyebrow": "Fiyatlar",
+      "h1": "QR menü fiyatları: uygun fiyatlı, şube başına net paketler",
+      "lead": "ArtOfMenu'de QR menü şube başına aylık 399 ₺'dir; masadan sipariş isterseniz 999 ₺, akıllı fiyatlandırma isterseniz 1.999 ₺. Yıllık ödemede 12 ay, 10 ay fiyatına gelir.",
+      "answer": "QR menü fiyatı çoğunlukla üç şeye bağlıdır: şube sayısı, menünün yalnızca ürünleri gösterip göstermediği ya da sipariş de aldığı, ve fiyatlandırma ya da stok gibi ek özellikler. ArtOfMenu'de Menu paketi şube başına aylık 399 ₺, Order 999 ₺, Smart 1.999 ₺'dir. Yıllık ödemede 12 ay, 10 ay fiyatına gelir; Menu için bu yılda 3.990 ₺ eder.",
+      "sections": [
+        {
+          "h2": "QR menü fiyatını ne belirler?",
+          "body": [
+            "Piyasadaki QR menü fiyatları birbirinden çok farklı. Farkın büyük kısmı birkaç sorudan çıkar. Teklif alırken önce bunlara bakın:"
+          ],
+          "bullets": [
+            "Şube sayısı: çoğu hizmet şube ya da işletme başına ücret alır.",
+            "Menünün yaptığı iş: yalnızca gösteren bir menüyle sipariş alan bir menü aynı fiyatta olmaz.",
+            "Dil desteği: menü misafirin dilinde açılıyor mu?",
+            "Güncelleme: fiyatı kendiniz anında değiştirebiliyor musunuz, yoksa her seferinde birinden mi istiyorsunuz?",
+            "Alan adı: menü sizin alan adınızda mı, hizmeti veren firmanın adresinde mi açılıyor?",
+            "Donanım: ayrı tablet, yazıcı ya da cihaz isteyip istemediği."
+          ]
+        },
+        {
+          "h2": "ArtOfMenu paketleri ne içerir?",
+          "body": [
+            "Menu, aylık 399 ₺: QR menü, ürün fotoğrafları, alerjenler, misafirin dilinde açılan menü, kendi alan adınız, PDF yükleme ve anonim menü istatistikleri. Siparişi kasada ya da garsonla alan kafe ve pastaneler için çoğu zaman yeterlidir.",
+            "Order, aylık 999 ₺: Menu'daki her şeye ek olarak masadan sipariş, garson ekranı ve bildirimler, basit stok ve sipariş raporları. Öğle servisinde garsonun masa masa dolaşıp not almasını azaltmak isteyen restoranlara uygundur.",
+            "Smart, aylık 1.999 ₺: Order'daki her şeye ek olarak günlük akıllı fiyatlandırma ve özel günler takvimi, “yanında iyi gider” önerileri, masadan garson çağırma, reçeteye bağlı stok ve tezgâh ekranları."
+          ]
+        },
+        {
+          "h2": "Yıllık ödeme ne kadar tutar?",
+          "body": [
+            "Yıllık ödemede 12 ayı 10 ay fiyatına alırsınız, yani iki aylık tutarı ödemezsiniz. Şube başına rakamlar:"
+          ],
+          "bullets": [
+            "Menu: yıllık 3.990 ₺ (aylık ödemeyle 12 ayda 4.788 ₺)",
+            "Order: yıllık 9.990 ₺ (aylık ödemeyle 12 ayda 11.988 ₺)",
+            "Smart: yıllık 19.990 ₺ (aylık ödemeyle 12 ayda 23.988 ₺)"
+          ]
+        },
+        {
+          "h2": "Baskı mı, yazılım mı? Dürüst bir karşılaştırma",
+          "body": [
+            "Basılı menünün aylık faturası yoktur. Fiyatlarınız yılda bir kez değişiyorsa, tek dil yetiyorsa ve menünüz kısaysa kâğıt menü hâlâ mantıklı olabilir.",
+            "Hesap, fiyatlar sık değiştiğinde bozulur. Her fiyat artışında bütün masalara yeni menü bastırmak, eskileri atmak ve yeni baskı gelene kadar üstü çizili fiyatlarla servis yapmak gerekir. Laminasyon yıpranır, yabancı misafir için ayrı dilde menü ayrı bir iş çıkarır. QR menüde baskı masrafı bir kez yapılır: masa kartını ya da standı bastırırsınız, sonrasını ekrandan değiştirirsiniz.",
+            "Kendi rakamınızı bulmak için son bir yılda kaç kez menü bastırdığınızı ve bir baskının size kaça mal olduğunu yazın. Bu tutarı paket fiyatının yanına koyduğunuzda hangisinin size uygun olduğu netleşir."
+          ]
+        },
+        {
+          "h2": "Uygun fiyatlı QR menü: hangi paketle başlamalı?",
+          "body": [
+            "Yalnızca menünüzü dijitale taşımak istiyorsanız Menu ile başlayın. Garsonlarınız yoğun saatlerde sipariş almaya yetişemiyorsa Order daha doğru seçimdir. Fiyatlarınızı talebe göre ayarlamak ve stoku reçeteden takip etmek istiyorsanız Smart'a bakın.",
+            "Sonradan küçük bir pakete geçerseniz verileriniz silinmez. İptal tek adımdır ve ödediğiniz dönemin sonuna kadar kullanmaya devam edersiniz."
+          ]
+        }
+      ],
+      "features": [
+        "pdf",
+        "domain",
+        "multilingual",
+        "ordering",
+        "pricing"
+      ],
+      "faq": [
+        {
+          "q": "QR menü fiyatları ne kadar?",
+          "a": "Fiyatlar firmaya ve özelliklere göre değişir. ArtOfMenu'de şube başına aylık Menu 399 ₺, Order 999 ₺, Smart 1.999 ₺'dir. Yıllık ödemede 12 ay, 10 ay fiyatına gelir; örneğin Menu yılda 3.990 ₺ tutar."
+        },
+        {
+          "q": "Deneme süresi ya da ödeme gerektirmeyen bir paket var mı?",
+          "a": "Hayır. ArtOfMenu'de deneme süresi ya da ödeme gerektirmeyen bir paket yok. Bunun yerine çıkışı kolay tuttuk: aboneliği tek adımda iptal edersiniz, ödediğiniz dönemin sonuna kadar menünüz açık kalır ve sonraki dönem için ücret alınmaz."
+        },
+        {
+          "q": "Fiyat değiştirdiğimde ek ücret ödüyor muyum?",
+          "a": "Hayır. Ürün eklemek, fiyat değiştirmek ve fotoğraf güncellemek paketin içindedir ve bunları istediğiniz kadar, kendiniz yaparsınız. Masadaki QR kod değişmediği için yeniden baskı masrafı da çıkmaz. Ödediğiniz tek tutar, seçtiğiniz paketin şube başına aylık ya da yıllık fiyatıdır."
+        },
+        {
+          "q": "Paketimi sonradan değiştirebilir miyim?",
+          "a": "Evet. İhtiyacınız büyüdüğünde, örneğin masadan sipariş almaya karar verdiğinizde üst pakete geçebilirsiniz. Daha küçük bir pakete geçtiğinizde verileriniz silinmez; Smart'tan Menu'ya dönseniz bile menünüz, fotoğraflarınız ve geçmiş istatistikleriniz yerinde kalır."
+        },
+        {
+          "q": "QR menü standı ve baskı fiyata dahil mi?",
+          "a": "Hayır. ArtOfMenu bir yazılımdır; QR kodu size verir, baskıyı ve standı siz yaptırırsınız. Masa kartı, sticker ya da pleksi stand gibi seçenekleri bir matbaada, bir tabela firmasında ya da kendi yazıcınızda hazırlayabilirsiniz. Bu masraf bir kez yapılır."
+        }
+      ],
+      "cta": {
+        "h2": "Fiyatlar belli, açılış yakında",
+        "lead": "ArtOfMenu açıldığında size haber verelim; ilgilendiğiniz paketi formda seçin."
+      },
+      "related": [
+        "qr-menu",
+        "how-to",
+        "ordering",
+        "smart"
+      ]
+    },
+    "restaurant": {
+      "slug": "restoran-qr-menu",
+      "title": "Restoran QR Menü: Kalabalık Servise Uygun | ArtOfMenu",
+      "description": "Restoran QR menü: başlangıçtan tatlıya bölümler, her tabakta alerjen, turiste kendi dilinde menü ve öğle yoğunluğunda masadan sipariş.",
+      "eyebrow": "Restoranlar için",
+      "h1": "Restoran QR menü: uzun menü, kısa bekleme",
+      "lead": "Restoran QR menü, masadaki kodu okutan misafire bütün menüyü bölümler, fotoğraflar ve alerjenlerle telefonunda gösterir. ArtOfMenu'de menü misafirin dilinde açılır; Order paketinde sipariş de masadan gelir.",
+      "answer": "Restoran QR menü, restoranın menüsünü masadaki QR kod aracılığıyla misafirin telefonuna getiren dijital menüdür. Uzun menülerde bölümler, fotoğraflar ve alerjen bilgisi seçimi kolaylaştırır. ArtOfMenu bu menüyü misafirin telefon dilinde açar, işletmenin kendi alan adında yayınlar ve Order paketinde masadan gelen siparişi garsonun telefonuna anında iletir.",
+      "sections": [
+        {
+          "h2": "Restoran menüsü neden zor bir menüdür?",
+          "body": [
+            "Kafe menüsü bir sayfaya sığar, restoran menüsü sığmaz. Başlangıçlar, salatalar, ızgaralar, günün yemekleri, tatlılar ve içecekler bir arada durur. Basılı menüde bu, misafirin sayfaları ileri geri çevirmesi demektir.",
+            "QR menüde misafir bölümler arasında kaydırarak gezinir. Ana yemeğini seçerken fotoğrafa bakar, porsiyonu görür ve garsona “Bu ne kadar büyük?” diye sormadan karar verir."
+          ]
+        },
+        {
+          "h2": "Her tabakta alerjen bilgisi",
+          "body": [
+            "Gluten, süt ürünü, kuruyemiş ya da susam soran misafire ezbere cevap vermek risklidir. Yeni başlayan bir garson emin olamaz, mutfak da yoğundur.",
+            "ArtOfMenu'de alerjen bilgisi her ürünün yanında durur. Misafir siparişten önce kendisi kontrol eder. Tarifi değiştirdiğinizde bilgiyi de güncellersiniz ve bütün masalar aynı anda doğru bilgiyi görür."
+          ]
+        },
+        {
+          "h2": "Öğle yoğunluğunda masadan sipariş",
+          "body": [
+            "Saat 12.30'da salon dolar. Herkes bir saatlik molasında yemeğini yiyip işine dönmek ister. Garsonun her masaya iki kez gidip sipariş alması bu saatte en pahalı dakikalardır.",
+            "Order paketinde misafir siparişini menüden gönderir. Garson siparişi telefonunda anında görür ve bildirim alır. 4 numaralı masanın siparişi kendiliğinden gelir; garson da tabak taşımaya, masa toplamaya ve yeni gelenleri karşılamaya vakit bulur.",
+            "Masadan sipariş bir POS ya da ödeme terminali değildir. Hesabı bugünkü kasanız ve sistemlerinizle almaya devam edersiniz."
+          ]
+        },
+        {
+          "h2": "Turist ve yabancı misafir",
+          "body": [
+            "Otel çevresinde, sahilde ya da tarihi bir bölgede çalışan restoranlarda masaların bir kısmı yabancıdır. ArtOfMenu menüyü misafirin telefon diline göre açar. Fiyatlar sizin para biriminizde, ülkenizin vergi gösterimi ve yuvarlama kurallarıyla görünür."
+          ]
+        },
+        {
+          "h2": "Hangi tabağa bakılıyor, hangisi seçiliyor?",
+          "body": [
+            "Menü raporları, çok görülüp az açılan ürünleri işaretler. Masadan sipariş açıksa, açılıp hiç sipariş edilmeyenleri de gösterir. Fotoğrafı zayıf bir tatlıyı ya da açıklaması anlaşılmayan bir ana yemeği bu sayede fark edersiniz.",
+            "İstatistikler anonimdir. ArtOfMenu misafirlerinizi tanımaz ve takip etmez."
+          ]
+        }
+      ],
+      "features": [
+        "ordering",
+        "multilingual",
+        "reports",
+        "stock",
+        "pdf"
+      ],
+      "faq": [
+        {
+          "q": "Restoran QR menü nasıl oluşturulur?",
+          "a": "Mevcut PDF menünüzü yükleyip aynı gün yayına alabilirsiniz. Ardından ürünlere fotoğraf, alerjen ve açıklama ekler, QR kodu masa kartlarına bastırırsınız. Adım adım anlatım için “QR menü nasıl yapılır” sayfamıza bakın."
+        },
+        {
+          "q": "Uzun menüler QR menüde karışık görünmez mi?",
+          "a": "Menüyü bölümlere ayırdığınızda misafir yalnızca baktığı bölümü görür. Ürün adı, fotoğraf, fiyat ve alerjen her satırda aynı düzende durur. Çok ürünlü menülerde asıl fark bu düzenden gelir; misafir uzun listede kaybolmaz."
+        },
+        {
+          "q": "Masadan sipariş için tablet ya da yazıcı gerekir mi?",
+          "a": "Hayır. Misafir siparişi kendi telefonundan gönderir, garson da siparişi kendi telefonunda görür ve bildirim alır. Ayrı bir cihaz şart değildir. Ödeme ve hesap tarafında mevcut kasanızı kullanmaya devam edersiniz, çünkü ArtOfMenu bir POS değildir."
+        },
+        {
+          "q": "Günün yemeği bittiğinde menüde nasıl gösteririm?",
+          "a": "Smart paketinde reçeteye bağlı stok vardır: bir malzeme bittiğinde, o malzemeyle yapılan her ürün menüde kendiliğinden tükendi görünür. Diğer paketlerde menüyü elle güncellemeniz yeterlidir; değişiklik bütün masalara aynı anda yansır ve garsonun masa masa haber vermesi gerekmez."
+        },
+        {
+          "q": "Restoran QR menü fiyatı ne kadar?",
+          "a": "ArtOfMenu'de fiyat şube başınadır: Menu aylık 399 ₺, masadan siparişli Order 999 ₺, akıllı fiyatlandırmalı Smart 1.999 ₺. Yıllık ödemede 12 ay, 10 ay fiyatına gelir. Kurulum için ayrı bir cihaz almanız gerekmez; baskıyı ve standı siz yaptırırsınız."
+        }
+      ],
+      "cta": {
+        "h2": "Restoranınız için haber listesine girin",
+        "lead": "ArtOfMenu açıldığında size e-postayla haber verelim; formda restoranınızın Google Haritalar bağlantısını eklemeniz yeterli."
+      },
+      "related": [
+        "ordering",
+        "multilingual",
+        "restaurant-sales",
+        "menu-engineering",
+        "pricing"
+      ]
+    },
+    "cafe": {
+      "slug": "kafe-qr-menu",
+      "title": "Kafe QR Menü: Sabah Yoğunluğuna Hazır | ArtOfMenu",
+      "description": "Kafe ve kahve dükkânları için QR menü: sabah kuyruğunda hızlı seçim, mevsim içecekleri, kahve yanına tatlı önerisi ve havaya göre sıralanan menü.",
+      "eyebrow": "Kafeler için",
+      "h1": "Kafe QR menü: havaya göre sıralanan kahve menüsü",
+      "lead": "Kafe QR menü, müşterinin masadaki ya da tezgâhtaki kodu okutup kahve, tatlı ve kahvaltı seçeneklerini telefonunda gördüğü dijital menüdür. ArtOfMenu'de hava soğuduğunda sıcak içecekler menünün üstüne çıkar.",
+      "answer": "Kafe QR menü, kafenin içecek ve yiyecek menüsünü QR kod üzerinden müşterinin telefonuna getiren dijital menüdür. Mevsim içeceği eklemek, fiyat güncellemek ya da biten bir keki kaldırmak baskı gerektirmez. ArtOfMenu kafe menüsünü müşterinin dilinde, fotoğraf ve alerjenlerle açar; hava soğuduğunda sıcak içecekleri menünün üstüne taşır.",
+      "sections": [
+        {
+          "h2": "Sabah yoğunluğunda hızlı karar",
+          "body": [
+            "Saat 8.15. Kapıda dört kişi var, tezgâhtaki müşteri sütsüz mü yulaf sütlü mü diye düşünüyor. Kafede bekleme çoğu zaman kararsızlıktan doğar.",
+            "Sıradaki müşteri menüyü telefonunda önceden açarsa tezgâha geldiğinde ne istediğini bilir. Kodu yalnızca masalara koymayın; sıranın yanına ve kapıya da bir tane koyun. Fotoğraflar boyutu ve sunumu gösterir, açıklama içindekileri söyler. Baristanız menüyü anlatmakla uğraşmaz, kahve yapmaya devam eder."
+          ]
+        },
+        {
+          "h2": "Mevsim içecekleri ve sık değişen menü",
+          "body": [
+            "Kafe menüsü yıl boyunca değişir: kışın salep ve sıcak çikolata, yazın soğuk demleme ve limonata, bayram haftasında özel bir tatlı. Her değişiklikte menü bastırmak hem masraflı hem yavaştır.",
+            "QR menüde yeni içeceği fotoğrafıyla ekler, sezon bitince kaldırırsınız. Masadaki kod aynı kalır."
+          ]
+        },
+        {
+          "h2": "Hava durumuna göre menü sıralaması",
+          "body": [
+            "Yağmurlu bir salı öğleden sonrası kimse buzlu latteyi ilk sırada görmek istemez. ArtOfMenu hava soğuduğunda sıcak içecekleri yukarı taşır. Soğuk içecekler ve bitmek üzere olan ürünler aşağı iner.",
+            "Gün içinde yalnızca sıralama değişir, fiyatlar aynı kalır. Müşteri sabah ve akşam baksa da aynı fiyatı görür."
+          ]
+        },
+        {
+          "h2": "Kahvenin yanına tatlı önerisi",
+          "body": [
+            "Kafede hesabı büyüten şey çoğu zaman ikinci üründür: kahvenin yanına bir dilim cheesecake, çayın yanına bir poğaça.",
+            "Smart paketinde müşteri sepetine bir ürün eklediğinde menü, o şubede o ürünle en sık birlikte sipariş edilen ürünü gösterir. Öneri sizin kafenizin gerçek siparişlerinden gelir; genel bir listeden ya da tahminden üretilmez."
+          ]
+        },
+        {
+          "h2": "Pastane ve kahvaltı menüleri için",
+          "body": [
+            "Vitrindeki ürünleri, kahvaltı tabaklarını ve paket ürünleri fotoğraflarıyla gösterebilirsiniz. Alerjen bilgisi her ürünün yanındadır; glutensiz ya da sütsüz seçenek arayan müşteri kasaya sormadan bulur."
+          ]
+        }
+      ],
+      "features": [
+        "weather",
+        "pairing",
+        "pdf",
+        "multilingual",
+        "screens"
+      ],
+      "faq": [
+        {
+          "q": "Cafe QR menü nasıl yapılır?",
+          "a": "Elinizdeki menünün PDF'ini yükleyerek aynı gün yayına geçebilirsiniz. Sonra ürünlere fotoğraf ve alerjen bilgisi eklersiniz. QR kodu yalnızca masalara değil, tezgâha ve kapıya da koyarsanız sırada bekleyen müşteri de menüye bakıp ne alacağına önceden karar verir."
+        },
+        {
+          "q": "Kafede masadan sipariş mantıklı mı?",
+          "a": "Siparişi tezgâhta alan self servis bir kafede Menu paketi çoğu zaman yeterlidir. Masaya servis yapıyorsanız, bahçeniz genişse ya da garson sayınız sınırlıysa Order paketi işe yarar: sipariş masadan gelir, garson telefonunda anında görür ve bildirim alır."
+        },
+        {
+          "q": "Menüyü tezgâh arkasındaki ekranda da gösterebilir miyim?",
+          "a": "Evet, Smart paketinde. Menü tezgâh arkasındaki monitörlerde görünür; birden fazla ekran varsa sayfaları birlikte çevirirler. Ekranlar QR menüdeki menüyü gösterdiği için fiyatı ayrıca bir yerde güncellemeniz gerekmez. Ayakta sipariş veren müşteri menüyü uzaktan okur."
+        },
+        {
+          "q": "Hava durumuna göre sıralama fiyatı da değiştirir mi?",
+          "a": "Hayır. Hava durumu gün içinde yalnızca ürünlerin sırasını değiştirir. Smart paketindeki günlük fiyatlandırmayı açarsanız fiyatlar en fazla günde bir kez, gün başlamadan önce ve sizin belirlediğiniz sınırlar içinde değişir. Kapalıyken menü her gün temel fiyatlarınızla açılır."
+        },
+        {
+          "q": "Küçük bir kafe için hangi paket yeterli?",
+          "a": "Tek şubeli, siparişi tezgâhta alan bir kafe için Menu paketi (şube başına aylık 399 ₺) menüyü, fotoğrafları, alerjenleri, dilleri ve istatistikleri kapsar. Kahve yanına tatlı önerisi ve reçeteye bağlı stok istiyorsanız Smart'a bakın."
+        }
+      ],
+      "cta": {
+        "h2": "Kafeniz için ilk haberi alın",
+        "lead": "Formu doldurun, ArtOfMenu kullanıma açıldığında size e-postayla yazalım."
+      },
+      "related": [
+        "cafe-sales",
+        "smart",
+        "design",
+        "how-to"
+      ]
+    },
+    "bar": {
+      "slug": "bar-qr-menu",
+      "title": "Bar QR Menü: Gece Servisi İçin İçki Menüsü | ArtOfMenu",
+      "description": "Bar ve pub'lar için QR menü: kokteyl ve içki menüsü telefonda, yeni tur masadan, garson çağırma ve biten içkiler için reçeteye bağlı stok.",
+      "eyebrow": "Barlar için",
+      "h1": "Bar QR menü: kalabalık gecede yeni tur masadan gelsin",
+      "lead": "Bar QR menü, misafirin masadaki kodu okutup kokteyl, bira, şarap ve atıştırmalık menüsünü telefonunda açtığı dijital menüdür. ArtOfMenu'de misafir siparişini masadan gönderebilir; Smart pakette garsonu da masadan çağırır.",
+      "answer": "Bar QR menü, barın içki ve atıştırmalık menüsünü masadaki QR kodla misafirin telefonuna getiren dijital menüdür. Kalabalık ve gürültülü ortamda garsonu beklemeden menüye bakmayı ve yeni tur vermeyi kolaylaştırır. ArtOfMenu Order paketinde siparişleri garsonun telefonuna anında iletir; Smart paketinde garson çağırmayı ve biten malzemeye göre içkileri tükendi göstermeyi ekler.",
+      "sections": [
+        {
+          "h2": "Gece servisinin asıl derdi: ikinci tur",
+          "body": [
+            "Barda ilk siparişi almak kolaydır. Zor olan ikinci ve üçüncü turdur. Bardaklar boşalır, garson başka masadadır, misafir el kaldırır ve bekler. Bazen bekledikten sonra yeni tur yerine hesabı ister.",
+            "Masadan sipariş açıkken misafir yeni turu menüden gönderir. Garson siparişi ve masayı telefonunda anında görür. Barmen hazırlar, garson götürür."
+          ]
+        },
+        {
+          "h2": "Garsonu masadan çağırmak",
+          "body": [
+            "Smart paketinde misafir menüden garson çağırabilir, su ya da hesap isteyebilir. Müzik yüksekken kimsenin bağırmasına ya da el sallamasına gerek kalmaz. İstek garsonun telefonuna bildirim olarak düşer."
+          ]
+        },
+        {
+          "h2": "Biten içkiyi menüde göstermek",
+          "body": [
+            "Cuma gecesi saat 23.00. Misafir cin tonikte karar kılar, garson birkaç dakika sonra geri gelip cinin bittiğini söyler. Misafir ikinci kez seçmek zorunda kalır, siz de bir turu boşa harcarsınız.",
+            "Smart paketindeki reçeteye bağlı stokta her kokteyli içindeki malzemelere bağlarsınız. Bir malzeme bittiğinde, o malzemeyle yapılan her içki menüde kendiliğinden tükendi görünür. Bitmek üzere olan ürünler de menüde aşağı iner; az kalan bir şişe gecenin ortasında en üstte durmaz."
+          ]
+        },
+        {
+          "h2": "Okunması kolay bir içki menüsü",
+          "body": [
+            "Kokteyl menüsünde isim çoğu zaman tek başına bir şey anlatmaz. Fotoğraf, içindekiler ve kısa bir açıklama misafirin “Bu nasıl bir şey?” sorusunu cevaplar. Alerjen bilgisi atıştırmalıklar için de işe yarar; kuruyemiş ya da süt içeren bir ürünü misafir önceden görür.",
+            "Turistik bölgelerdeki barlarda menü misafirin telefon dilinde açılır. Kaleiçi'nde ya da Bodrum'da masadaki tek kod her misafire kendi dilinde menü gösterir."
+          ]
+        },
+        {
+          "h2": "Tezgâh arkasında ekran",
+          "body": [
+            "Smart paketinde menüyü bar tezgâhının arkasındaki monitörlerde de gösterebilirsiniz. Birden fazla ekran varsa sayfalar birlikte döner. Ayakta içen misafir de menüyü uzaktan görür."
+          ]
+        }
+      ],
+      "features": [
+        "ordering",
+        "stock",
+        "screens",
+        "multilingual",
+        "reports"
+      ],
+      "faq": [
+        {
+          "q": "Bar için QR menü gerekli mi?",
+          "a": "Zorunlu değil, ama kalabalık gecelerde işe yarar. Misafir garsonu beklemeden menüye bakar ve yeni turu masadan verebilir. Kısa bir içki listesi olan, tezgâhtan servis yapan küçük bir bar için basılı menü de yeterli olabilir."
+        },
+        {
+          "q": "Misafir QR menüden garson çağırabilir mi?",
+          "a": "Evet, Smart paketinde. Misafir menüden garson çağırır, su ya da hesap ister; istek garsonun telefonuna bildirim olarak gelir. Order paketinde ise misafir siparişini masadan gönderir ve garson siparişi anında görür, garson çağırma ve hesap isteme ise Smart paketinde gelir."
+        },
+        {
+          "q": "Biten içkiler menüde otomatik kapanır mı?",
+          "a": "Smart paketindeki reçeteye bağlı stokla evet. Kokteylleri malzemelerine bağlarsınız; bir malzeme bitince onunla yapılan bütün içkiler kendiliğinden tükendi görünür. Order paketinde ise basit stok ve sipariş raporları bulunur; tükenen ürünü orada menüden elle kaldırırsınız."
+        },
+        {
+          "q": "Yabancı misafir menüyü kendi dilinde görür mü?",
+          "a": "Evet. ArtOfMenu menüyü misafirin telefon diline göre açar. Telefonu İngilizce, Almanca ya da Rusça olan misafir menüyü o dilde görür. Masada tek bir QR kod yeterlidir; her dil için ayrı menü bastırmazsınız."
+        },
+        {
+          "q": "Bar için hangi paket uygun?",
+          "a": "Menüyü dijitale taşımak yeterliyse Menu (aylık 399 ₺). Yeni turların masadan gelmesini istiyorsanız Order (999 ₺). Garson çağırma, kokteyl reçetesine bağlı stok ve tezgâh ekranları için Smart (1.999 ₺). Fiyatlar şube başınadır."
+        }
+      ],
+      "cta": {
+        "h2": "Barınız için haber listesine katılın",
+        "lead": "ArtOfMenu açıldığında size haber verelim; formda barınızın Google Haritalar bağlantısını eklemeniz yeterli."
+      },
+      "related": [
+        "bar-sales",
+        "ordering",
+        "inventory",
+        "pricing"
+      ]
+    },
+    "design": {
+      "slug": "qr-menu-tasarimi",
+      "title": "Şık ve Havalı QR Menü Tasarımı | ArtOfMenu",
+      "description": "Şık bir QR menü için ne gerekir? İyi fotoğraf, okunaklı düzen, markanız ve kendi alan adınız. ArtOfMenu'nun sade düzeni ve hazır tema olmadığı gerçeği.",
+      "eyebrow": "QR menü tasarımı",
+      "h1": "Şık, havalı QR menü: tasarımı fotoğraflarınız ve markanız yapar",
+      "lead": "Şık bir QR menü; iyi ürün fotoğrafları, telefonda rahat okunan bir düzen ve markanızı taşıyan bir adresle olur. ArtOfMenu temiz ve sade bir düzen sunar; menünüzü sizin fotoğraflarınız, ürün adlarınız ve alan adınız kişiselleştirir.",
+      "answer": "QR menü tasarımı, dijital menünün telefonda nasıl göründüğü ve ne kadar kolay okunduğudur. Şık bir menüyü çoğunlukla iyi fotoğraflar, sade bir düzen ve tutarlı bir marka belirler. ArtOfMenu'de hazır tema ya da tasarım hizmeti yoktur; ürünün temiz düzeni sizin fotoğraflarınız ve markanızla birleşir, menü de kendi alan adınızda açılır.",
+      "sections": [
+        {
+          "h2": "Telefonda şık görünen menülerin ortak noktaları",
+          "body": [
+            "Beğendiğiniz QR menü örneklerini telefonunuzda açın. Çoğunda süslü çerçeveler ya da hareketli efektler göremezsiniz. Ortak noktaları daha sadedir:"
+          ],
+          "bullets": [
+            "Her üründe aynı açıyla, aynı ışıkta çekilmiş fotoğraflar",
+            "Telefonda büyütmeden okunan yazı boyutu",
+            "Kısa, iştah açan ürün açıklamaları",
+            "Her satırda aynı yerde duran fiyat",
+            "Az sayıda ama net bölüm başlıkları"
+          ]
+        },
+        {
+          "h2": "Fotoğraf: menünün en güçlü tasarım öğesi",
+          "body": [
+            "Misafir telefonda önce görsele bakar. Sarı ışıkta çekilmiş bulanık bir tabağı en güzel yazı tipi bile kurtarmaz. İyi fotoğraf için stüdyo şart değildir; birkaç kurala uymak yeter:"
+          ],
+          "bullets": [
+            "Gün ışığı alan bir pencere kenarında çekin, flaşı kapatın.",
+            "Tabağı tepeden ya da 45 derece açıyla çekin ve bütün ürünlerde aynı açıyı kullanın.",
+            "Arka planı sabit tutun: aynı masa, aynı örtü, aynı tabak ailesi.",
+            "Tabağı misafire nasıl servis ediyorsanız öyle çekin; fotoğraf ile masaya gelen tabak birbirine benzemeli.",
+            "Önce en çok satan beş ürünü çekin, gerisini haftalar içinde tamamlayın."
+          ]
+        },
+        {
+          "h2": "Tasarım neden siparişi etkiler?",
+          "body": [
+            "Misafir göremediği ürünü sipariş etmez. Uzun bir listede fotoğrafı olan, açıklaması anlaşılır olan ürün göze çarpar. Fotoğrafsız bir ürün, lezzeti aynı olsa bile geride kalabilir.",
+            "ArtOfMenu'nun menü raporları bunu ölçmenize yardım eder. Çok görülüp az açılan ürünler işaretlenir. Fotoğrafını ya da açıklamasını yenilediğiniz bir ürünün sonraki haftalarda daha sık açılıp açılmadığını takip edebilirsiniz."
+          ]
+        },
+        {
+          "h2": "Markanız ve kendi alan adınız",
+          "body": [
+            "Menünüz kendi alan adınızda açılır; örneğin menu.kafeniz.com. Misafir adres çubuğunda sizin adınızı görür. Menü bağlantısını Instagram profilinize ya da Google Haritalar kaydınıza koyduğunuzda da aynı adres görünür ve marka bütünlüğü bozulmaz."
+          ]
+        },
+        {
+          "h2": "Hazır tema yok: bunu bilerek seçin",
+          "body": [
+            "Açık konuşalım: ArtOfMenu'de hazır temalar, tasarım hizmeti ya da HTML/CSS yükleme yoktur. Bütün menüler ürünün temiz ve sade düzeniyle gösterilir. Bu düzen telefonda okunaklı olmak için tasarlandı.",
+            "Böylece tasarımla uğraşmazsınız. Menünüzü farklı kılan şey fotoğraflarınız, ürün adlarınız ve açıklamalarınız olur. Size özel çizilmiş bir menü istiyorsanız bir tasarımcıyla çalışıp sonucu PDF olarak yükleyebilirsiniz."
+          ]
+        },
+        {
+          "h2": "Havalı bir menü için yazı dili",
+          "body": [
+            "Havalı görünen menülerin çoğu ürünlerini iyi adlandırır. “Ev yapımı limonata, taze nane ve misket limonu” tek satırda hem ürünü hem tadı anlatır. Uzun hikâyelere gerek yoktur; iki bilgi yeter: en dikkat çekici malzeme ve hazırlanış biçimi.",
+            "Bölüm adlarında da aynı sadeliği koruyun. “Sabah”, “Paylaşmalık”, “Tatlılar” gibi kısa başlıklar, uzun ve esprili adlardan daha hızlı okunur."
+          ]
+        }
+      ],
+      "features": [
+        "domain",
+        "pdf",
+        "reports",
+        "multilingual"
+      ],
+      "faq": [
+        {
+          "q": "Şık bir QR menü nasıl hazırlanır?",
+          "a": "Önce fotoğraflara odaklanın: gün ışığında, aynı açı ve aynı arka planla çekin. Sonra ürün adlarını ve açıklamalarını kısaltın, bölüm sayısını azaltın. Menünün kendi alan adınızda açılması da markanızı tamamlar. Süslemeye çoğu zaman gerek kalmaz."
+        },
+        {
+          "q": "QR menü örneklerine nereden bakabilirim?",
+          "a": "Beğendiğiniz kafe ve restoranların masalarındaki kodları okutup menülerinin telefonda nasıl göründüğüne bakın. Fotoğraf kalitesine, yazı boyutuna ve fiyatın nerede durduğuna dikkat edin. Sonra kendi menünüzü aynı üç ölçüyle değerlendirin ve en zayıf olanından başlayın."
+        },
+        {
+          "q": "ArtOfMenu'de hazır QR menü temaları var mı?",
+          "a": "Hayır. Hazır tema, tasarım hizmeti ya da HTML/CSS yükleme yoktur. Bütün menüler ürünün temiz ve sade düzeniyle gösterilir. Menünüzü farklı kılan fotoğraflarınız, ürün adlarınız, açıklamalarınız ve menünün açıldığı kendi alan adınızdır."
+        },
+        {
+          "q": "Canva'da tasarladığım menüyü kullanabilir miyim?",
+          "a": "Evet. Canva ya da başka bir programda hazırladığınız menüyü PDF olarak dışa aktarıp ArtOfMenu'ye yükleyebilirsiniz. PDF yükleme bütün paketlerde var ve menünüz aynı gün yayına geçer. Dışa aktarırken yazıların telefonda okunacak kadar büyük olduğunu kontrol edin."
+        },
+        {
+          "q": "Profesyonel fotoğrafçı şart mı?",
+          "a": "Şart değil. Gün ışığında, aynı açıdan ve aynı arka planla çekilmiş telefon fotoğrafları çoğu menü için yeterlidir. Önemli olan tutarlılıktır; bütün ürünler aynı aileden görünmeli. Bütçeniz varsa en çok satan ürünleri bir profesyonele çektirmek iyi bir başlangıçtır."
+        }
+      ],
+      "cta": {
+        "h2": "Menünüzün fotoğraflarını şimdiden çekin",
+        "lead": "ArtOfMenu açıldığında size haber verelim; hazırladığınız fotoğraflarla ilk gün yayına geçin."
+      },
+      "related": [
+        "qr-menu",
+        "menu-engineering",
+        "how-to",
+        "cafe"
+      ]
+    },
+    "smart": {
+      "slug": "akilli-qr-menu",
+      "title": "Akıllı QR Menü: Havaya ve Talebe Göre Menü | ArtOfMenu",
+      "description": "Akıllı QR menü ne yapar? Havaya göre sıralama, “yanında iyi gider” önerileri ve sizin sınırlarınız içinde günlük fiyat. Hepsinin somut karşılığı burada.",
+      "eyebrow": "Akıllı QR menü",
+      "h1": "Akıllı QR menü: havaya, siparişe ve talebe göre çalışan menü",
+      "lead": "Akıllı QR menü, kendini duruma göre düzenleyen dijital menüdür. ArtOfMenu'de hava soğuyunca sıcak içecekler öne çıkar, eklenen ürünün yanına en sık birlikte alınan ürün önerilir ve ertesi günün fiyatları sizin sınırlarınız içinde hazırlanır.",
+      "answer": "Akıllı QR menü, sabit bir liste olarak kalmayıp hava, sipariş geçmişi ve beklenen talep gibi verilere göre davranan dijital menüdür. ArtOfMenu'de üç akıllı özellik vardır: havaya göre ürün sıralaması, şubenin kendi siparişlerinden gelen “yanında iyi gider” önerileri ve sizin belirlediğiniz en düşük ile en yüksek fiyat arasında, günde en fazla bir kez çalışan akıllı fiyatlandırma.",
+      "sections": [
+        {
+          "h2": "Havaya göre sıralama",
+          "body": [
+            "Sabah güneşliydi, öğleden sonra yağmur başladı. Menünün ilk sırasında hâlâ buzlu içecekler duruyor. ArtOfMenu'de hava soğuduğunda sıcak içecekler yukarı çıkar; soğuk içecekler ve bitmek üzere olan ürünler aşağı iner.",
+            "Gün içinde yalnızca sıralama değişir. Fiyat gün ortasında hiç değişmez; misafir sabah ve akşam aynı fiyatı görür."
+          ]
+        },
+        {
+          "h2": "“Yanında iyi gider” önerileri",
+          "body": [
+            "Smart paketinde misafir sepetine bir ürün eklediğinde menü, o şubede o ürünle en sık birlikte sipariş edilen ürünü gösterir. Hamburgerin yanında patates, filtre kahvenin yanında brownie, rakının yanında beyaz peynir çıkabilir.",
+            "Bu öneriyi elle yazılmış bir kural listesi belirlemez. Kaynak, o şubedeki gerçek siparişlerdir. Kadıköy şubenizde bir öneri, Bodrum şubenizde başka bir öneri çıkabilir."
+          ]
+        },
+        {
+          "h2": "Günlük akıllı fiyatlandırma nasıl çalışır?",
+          "body": [
+            "Smart paketinde sistem her akşam ertesi günü hazırlar. Şubenin konumuna, hava tahminine, resmî tatil ve özel günlere ve her ürünün beklenen talebine bakar. Benzer işletmelerin anonimleştirilmiş davranış katsayılarından da öğrenir; bu işletmelerin fiyatlarını hiçbir zaman kullanmaz.",
+            "Ardından ertesi günün fiyatını her ürün için sizin belirlediğiniz en düşük ve en yüksek fiyat arasında belirler. Fiyat en fazla günde bir kez, gün başlamadan önce değişir. Üç çalışma biçimi vardır:"
+          ],
+          "bullets": [
+            "Onaylı: her yeni fiyatı siz onaylarsınız. Onaylamadığınız fiyatın yerine temel fiyat geçerli olur.",
+            "Otomatik: fiyatlar sizin sınırlarınız içinde kendiliğinden uygulanır.",
+            "Kapalı: menü her gün temel fiyatlarınızla açılır."
+          ]
+        },
+        {
+          "h2": "Özel günler takvimi",
+          "body": [
+            "Bayram arifesi, Sevgililer Günü ya da yılbaşı gecesi sıradan bir perşembeye benzemez. Smart paketindeki özel günler takvimi bu günleri ertesi günün fiyat hesabına katar. Böylece talebin değiştiği günleri her yıl yeniden hatırlamanız gerekmez."
+          ]
+        },
+        {
+          "h2": "Akıllı, ama kontrol sizde",
+          "body": [
+            "Fiyatın sınırlarını siz koyarsınız. Bir latte için en düşük 160 ₺, en yüksek 180 ₺ dediyseniz sistem bu aralığın dışına çıkmaz. Fiyatlandırmayı istediğiniz an kapatıp temel fiyatlarınıza dönebilirsiniz.",
+            "Fiyatlarınız başka işletmelerle hiçbir zaman paylaşılmaz. Misafirleriniz de takip edilmez; menü istatistikleri anonimdir."
+          ]
+        },
+        {
+          "h2": "Smart paketinde başka neler var?",
+          "body": [
+            "Smart, Order paketindeki masadan sipariş ve garson ekranına şunları ekler:"
+          ],
+          "bullets": [
+            "Masadan garson çağırma, su ve hesap isteme",
+            "Reçeteye bağlı stok: biten malzemeyle yapılan ürünler kendiliğinden tükendi görünür",
+            "Tezgâh ekranları: menü, sayfaları birlikte çeviren monitörlerde"
+          ]
+        }
+      ],
+      "features": [
+        "weather",
+        "pairing",
+        "pricing",
+        "stock",
+        "screens"
+      ],
+      "faq": [
+        {
+          "q": "Akıllı QR menü nedir?",
+          "a": "Ürün sırasını, önerileri ya da fiyatları veriye göre ayarlayan dijital menüdür. ArtOfMenu'de bu; havaya göre sıralama, şubenin kendi siparişlerine dayanan öneriler ve sizin belirlediğiniz sınırlar içinde, günde en fazla bir kez çalışan fiyatlandırma anlamına gelir."
+        },
+        {
+          "q": "Akıllı fiyatlandırma misafiri rahatsız etmez mi?",
+          "a": "Fiyatlar gün içinde değişmez; en fazla günde bir kez, gün başlamadan önce güncellenir. Masaya oturan misafir hesabı isterken farklı bir fiyatla karşılaşmaz. Hangi ürünün hangi aralıkta değişebileceğine de siz karar verirsiniz."
+        },
+        {
+          "q": "Fiyatları onaylamazsam ne olur?",
+          "a": "Onaylı modda onay vermediğiniz her fiyatın yerine o ürünün temel fiyatı geçerli olur. Bir akşam bakmayı unutsanız bile menü ertesi gün sizin bildiğiniz fiyatlarla açılır. Onaylamakla uğraşmak istemiyorsanız otomatik modu seçebilir ya da fiyatlandırmayı tamamen kapatabilirsiniz."
+        },
+        {
+          "q": "Rakiplerimin fiyatlarını kullanıyor mu?",
+          "a": "Hayır. Sistem benzer işletmelerin anonimleştirilmiş davranış katsayılarından öğrenir, yani talebin hava ya da özel günlerle nasıl değiştiğine bakar. Hiçbir işletmenin fiyatını kullanmaz. Sizin fiyatlarınız da başka bir işletmeyle hiçbir zaman paylaşılmaz."
+        },
+        {
+          "q": "Akıllı özellikler hangi pakette?",
+          "a": "“Yanında iyi gider” önerileri, günlük akıllı fiyatlandırma, özel günler takvimi, masadan garson çağırma, reçeteye bağlı stok ve tezgâh ekranları Smart paketindedir. Smart şube başına aylık 1.999 ₺, yıllık ödemede 19.990 ₺'dir ve Order paketindeki her şeyi içerir."
+        }
+      ],
+      "cta": {
+        "h2": "Akıllı menü açıldığında haber verelim",
+        "lead": "Formda Smart paketini işaretleyin, ArtOfMenu açıldığında size e-postayla haber verelim."
+      },
+      "related": [
+        "menu-engineering",
+        "restaurant-sales",
+        "pricing",
+        "cafe"
+      ]
+    },
+    "ordering": {
+      "slug": "masadan-siparis-sistemi",
+      "title": "Masadan Sipariş Sistemi: QR ile Sipariş | ArtOfMenu",
+      "description": "Masadan sipariş sistemi nasıl çalışır? Misafir QR menüden sipariş verir, garson anında telefonunda görür. Kimlere uygun, neyin yerini tutmaz?",
+      "eyebrow": "Masadan sipariş",
+      "h1": "Masadan sipariş sistemi: sipariş masadan, bildirim garsonun cebine",
+      "lead": "Masadan sipariş sistemi, misafirin QR menüden seçtiği ürünleri doğrudan garsona gönderdiği sistemdir. ArtOfMenu Order paketinde garson siparişi kendi telefonunda anında görür ve bildirim alır.",
+      "answer": "Masadan sipariş sistemi, misafirin masadaki QR kodla açtığı menüden sipariş verebildiği ve siparişin anında personele ulaştığı sistemdir. Garsonun not alma turunu kısaltır, yoğun saatte bekleyen masaları azaltır. ArtOfMenu'nun Order paketinde siparişler garsonun telefonuna canlı ekran ve bildirimle gelir. Sistem bir POS ya da ödeme terminali değildir; ödeme mevcut kasanızda kalır.",
+      "steps": {
+        "h2": "Bir siparişin yolu",
+        "items": [
+          {
+            "t": "Misafir kodu okutur",
+            "d": "Masadaki QR kod menüyü misafirin telefonunda, kendi dilinde açar."
+          },
+          {
+            "t": "Ürünleri seçer ve gönderir",
+            "d": "Misafir fotoğraf ve alerjenlere bakarak seçer, siparişi menüden gönderir."
+          },
+          {
+            "t": "Garson anında görür",
+            "d": "Sipariş garsonun telefonundaki canlı ekrana düşer ve bildirim gelir."
+          },
+          {
+            "t": "Servis ve hesap",
+            "d": "Sipariş hazırlanıp servis edilir. Hesap her zamanki gibi kasanızda kapanır."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "h2": "Kimler için uygun?",
+          "body": [
+            "Masadan sipariş, garsonun en çok zaman kaybettiği yerde işe yarar: masaya gidip beklemek, not almak, geri dönmek. En çok şu işletmelere uyar:"
+          ],
+          "bullets": [
+            "Öğle saatinde dolup boşalan restoranlar",
+            "Bahçesi geniş, garsonun masalar arasında uzun yol yürüdüğü kafeler",
+            "Müziğin yüksek olduğu, misafirin garsona seslenemediği barlar",
+            "Otel çevresinde yabancı misafiri çok olan işletmeler: misafir menüyü kendi dilinde okur, siparişi de oradan verir"
+          ]
+        },
+        {
+          "h2": "Garson ekranı, bildirimler ve garson çağırma",
+          "body": [
+            "Order paketinde her garson siparişleri kendi telefonunda canlı olarak görür. Yeni sipariş geldiğinde bildirim alır. Ayrı tablet ya da sipariş yazıcısı şart değildir.",
+            "Smart paketinde misafir menüden garson da çağırabilir, su ya da hesap isteyebilir. Bu istekler de garsonun telefonuna aynı şekilde düşer. Masalara ayrı bir çağrı butonu koymanız gerekmez."
+          ]
+        },
+        {
+          "h2": "Neyin yerini tutmaz?",
+          "body": [
+            "ArtOfMenu bir POS ya da ödeme terminali değildir ve menüden ödeme alınmaz. Kasa ve ödeme tarafında bugün ne kullanıyorsanız onu kullanmaya devam edersiniz.",
+            "Garsonun yerini de almaz. Misafir siparişi kendisi gönderir, ama tabağı getiren, öneri yapan ve masayla ilgilenen yine garsondur. Değişen şey, garsonun zamanını not almaya harcamamasıdır."
+          ]
+        },
+        {
+          "h2": "Stok ve sipariş raporları",
+          "body": [
+            "Order paketinde basit stok ve sipariş raporları vardır. Masadan sipariş açıkken menü raporları da daha çok şey söyler: açılıp hiç sipariş edilmeyen ürünleri işaretler. Smart paketinde reçeteye bağlı stokla, biten malzemeyle yapılan ürünler menüde kendiliğinden tükendi görünür."
+          ]
+        }
+      ],
+      "features": [
+        "ordering",
+        "reports",
+        "stock",
+        "pairing"
+      ],
+      "faq": [
+        {
+          "q": "Masadan sipariş sistemi için ne gerekir?",
+          "a": "Masalara QR kodları koymanız ve garsonların telefonlarında garson ekranını açmaları yeterlidir. Misafir uygulama indirmez, menü tarayıcıda açılır. Ayrı tablet ya da yazıcı şart değildir. Masadan sipariş ArtOfMenu'nun Order ve Smart paketlerinde vardır."
+        },
+        {
+          "q": "Restoran sipariş sistemi fiyatları ne kadar?",
+          "a": "ArtOfMenu'de masadan sipariş Order paketiyle başlar: şube başına aylık 999 ₺, yıllık ödemede 9.990 ₺. Garson çağırma, “yanında iyi gider” önerileri ve akıllı fiyatlandırma isterseniz Smart paketi aylık 1.999 ₺'dir."
+        },
+        {
+          "q": "Misafir menüden ödeme yapabilir mi?",
+          "a": "Hayır. ArtOfMenu bir POS ya da ödeme terminali değildir. Misafir siparişini masadan gönderir; ödemeyi mevcut kasanız, POS cihazınız ya da bugün kullandığınız ödeme yöntemleriyle alırsınız. Böylece muhasebe ve kasa düzeninizi değiştirmeniz gerekmez."
+        },
+        {
+          "q": "Garson çağırma sistemi ayrı bir cihaz istiyor mu?",
+          "a": "Hayır. ArtOfMenu'de garson çağırma QR menünün içindedir ve Smart paketinde gelir. Misafir menüden garson çağırır, su ya da hesap ister; bildirim garsonun telefonuna düşer. Masaya buton ya da ayrı bir alıcı koymanız gerekmez."
+        },
+        {
+          "q": "Telefonla sipariş vermek istemeyen misafirler ne yapacak?",
+          "a": "Masadan sipariş bir seçenektir, zorunluluk değildir. Garsonunuz her zamanki gibi masaya gelip sipariş almaya devam eder. Birkaç basılı menüyü de elinizde tutabilirsiniz; telefon kullanmak istemeyen misafir siparişini garsona söyler."
+        }
+      ],
+      "cta": {
+        "h2": "Masadan siparişe hazır olun",
+        "lead": "ArtOfMenu açıldığında size haber verelim; formda Order ya da Smart paketini seçebilirsiniz."
+      },
+      "related": [
+        "restaurant",
+        "bar",
+        "pricing",
+        "smart"
+      ]
+    },
+    "multilingual": {
+      "slug": "cok-dilli-menu",
+      "title": "Çok Dilli Menü: Turist İçin QR Menü | ArtOfMenu",
+      "description": "Yabancı turiste kendi dilinde menü: ArtOfMenu menüyü misafirin telefon diline göre açar, alerjenleri gösterir, fiyatı ülkenize göre biçimlendirir.",
+      "eyebrow": "Çok dilli menü",
+      "h1": "Çok dilli menü: yabancı turist menüyü kendi dilinde okur",
+      "lead": "Çok dilli menü, aynı menünün misafirin anladığı dilde gösterilmesidir; ArtOfMenu'de menü, misafirin telefonu hangi dildeyse o dilde kendiliğinden açılır. Misafir dil seçmek için bayrak aramaz.",
+      "answer": "Çok dilli menü, bir restoran ya da kafe menüsünün birden fazla dilde sunulmasıdır. Basılı menüde bu ayrı baskılar demektir; QR menüde tek bir kod yeterlidir. ArtOfMenu'de menü misafirin telefon dilinde otomatik açılır, alerjen bilgisi her ürünün yanında durur ve fiyatlar işletmenin para birimi ve ülke kurallarıyla gösterilir.",
+      "sections": [
+        {
+          "h2": "Turistik bölgede menü sorunu",
+          "body": [
+            "Antalya'da sahil yolunda bir restoran, Kapadokya'da otelin yanındaki bir kafe ya da Sultanahmet'te bir lokanta düşünün. Aynı akşam Almanca, Rusça, Arapça ve İngilizce konuşan masalara servis yapılır.",
+            "Basılı menüde genellikle Türkçe ve İngilizce vardır. İngilizce bilmeyen misafir fotoğrafa bakarak ya da parmağıyla göstererek sipariş verir. Garson her masada aynı açıklamayı tekrarlar ve yoğun bir akşamda bu dakikalar birikir."
+          ]
+        },
+        {
+          "h2": "Menü telefonun dilinde açılır",
+          "body": [
+            "ArtOfMenu misafirin telefon dilini görür ve menüyü o dilde açar. Telefonu Almanca olan misafir Almanca, Rusça olan Rusça menüyle karşılaşır. Masada her dil için ayrı kart ya da bayraklı bir seçim ekranı gerekmez.",
+            "Menüye kendi dilinde başlayan misafir bölümler arasında rahat gezinir ve açıklamaları okur. Garsona da yalnızca gerçekten bir şey sormak istediğinde döner."
+          ]
+        },
+        {
+          "h2": "Alerjen bilgisi, dil engeline takılmadan",
+          "body": [
+            "Yabancı misafir için alerjen sorusu daha zordur. Gluten ya da fıstık alerjisini ortak dil olmadan garsona anlatmak risklidir. ArtOfMenu'de alerjenler her ürünün yanında gösterilir; misafir siparişten önce kendisi kontrol eder."
+          ]
+        },
+        {
+          "h2": "Para birimi, vergi ve yuvarlama",
+          "body": [
+            "ArtOfMenu 216 ülkede kullanılabilecek şekilde hazırlanıyor. Para birimi, vergi gösterimi ve fiyat yuvarlaması her ülkeye göre ayarlanır. Türkiye'deki bir işletmede fiyatlar Türk lirasıyla gösterilir; misafir yabancı olsa da menüde sizin fiyatınızı görür."
+          ]
+        },
+        {
+          "h2": "Çok dilli menü hazırlarken dikkat edilecekler",
+          "body": [
+            "Birkaç küçük alışkanlık, yabancı misafirin menüyü doğru anlamasını sağlar:"
+          ],
+          "bullets": [
+            "Yöresel yemeklerin adını değiştirmeyin; İskender İskender olarak kalsın, ne olduğu açıklamada anlatılsın.",
+            "Acılık derecesini ve porsiyon büyüklüğünü açık yazın; “acılı” herkes için aynı anlama gelmez.",
+            "Fotoğraf her dilde aynı şeyi söyler; çok dilli menüde fotoğrafsız ürün bırakmamaya çalışın.",
+            "Alkol içeren tatlı ve sosları açıklamada belirtin; bunu sipariş öncesinde soran misafirler olur.",
+            "Wi-Fi bilgisini QR kodun yanına yazın; mobil veri kullanmak istemeyen turist menüyü yine açabilsin."
+          ]
+        }
+      ],
+      "features": [
+        "multilingual",
+        "global",
+        "domain",
+        "pdf"
+      ],
+      "faq": [
+        {
+          "q": "Çok dilli menü nasıl yapılır?",
+          "a": "QR menüde tek bir menü hazırlar ve masaya tek bir kod koyarsınız. ArtOfMenu misafirin telefon dilini algılar ve menüyü o dilde açar. Basılı menüde olduğu gibi her dil için ayrı baskı yaptırmanız gerekmez."
+        },
+        {
+          "q": "Aynı masada farklı dilde misafirler varsa ne olur?",
+          "a": "Her misafir kodu kendi telefonuyla okutur ve menüyü kendi telefonunun dilinde görür. Masada tek bir QR kod yeterlidir; Türkçe ve Almanca konuşan iki arkadaş aynı menüyü aynı anda iki ayrı dilde okuyabilir."
+        },
+        {
+          "q": "Fiyatlar euro ya da dolar olarak gösterilebilir mi?",
+          "a": "ArtOfMenu'de para birimi, vergi gösterimi ve yuvarlama işletmenin ülkesine göre ayarlanır. Türkiye'deki bir işletmede menü Türk lirasıyla açılır. Misafirin dili değişse de fiyatlar sizin para biriminizde kalır, böylece misafirin gördüğü fiyat kasadaki fiyatla aynı olur."
+        },
+        {
+          "q": "Turistik bölgedeki bir işletme için hangi paket uygun?",
+          "a": "Çok dilli menü bütün paketlerde var; Menu paketi şube başına aylık 399 ₺'dir. Yoğun sezonda garson yetişmiyorsa Order paketiyle misafir siparişini kendi dilindeki menüden gönderir, garson da telefonunda anında görür."
+        },
+        {
+          "q": "Yabancı misafirin interneti yoksa menü açılır mı?",
+          "a": "Menü misafirin internet bağlantısıyla açılır. Yurt dışından gelen misafirlerin bir kısmı dolaşım ücreti yüzünden mobil veri kullanmak istemeyebilir. Wi-Fi adını ve şifresini QR kodun yanına yazmanız bu sorunu büyük ölçüde çözer; bir Wi-Fi QR kodu da koyabilirsiniz."
+        }
+      ],
+      "cta": {
+        "h2": "Sezon başlamadan haber alın",
+        "lead": "ArtOfMenu açıldığında size e-postayla haber verelim; menünüzü turist sezonuna hazırlayın."
+      },
+      "related": [
+        "restaurant",
+        "qr-menu",
+        "ordering",
+        "design"
+      ]
+    },
+    "restaurant-sales": {
+      "slug": "restoran-ciro-artirma",
+      "title": "Restoranım Nasıl Daha Çok Kazanır? Ciro Rehberi | ArtOfMenu",
+      "description": "Restoran ciro artırma yolları: menü düzeni, fiyat, ortalama hesap, masa devri, israf ve ekip. Bu hafta uygulamaya başlayabileceğiniz pratik adımlar.",
+      "eyebrow": "Restoran ciro rehberi",
+      "h1": "Restoranım nasıl daha çok kazanır? Ciroyu ve kârı artırmanın yolları",
+      "lead": "Bir restoran daha çok kazanmak için üç şeyi birlikte büyütür: masaya oturan misafir sayısını, masa başına ortalama hesabı ve her satıştan kalan kârı. Bu rehber, her birini bu hafta ölçmeye ve iyileştirmeye başlamanız için yazıldı.",
+      "answer": "Restoran cirosunun temel formülü basittir: ciro, misafir sayısı ile ortalama hesabın çarpımıdır. Kâr ise bu cirodan malzeme, personel ve israf maliyeti düştükten sonra kalandır. Kalıcı artış genellikle menü düzeninden, doğru fiyatlandırmadan, masa devir hızından ve israfın azalmasından gelir. ArtOfMenu bu işlerin menü tarafında raporlar, öneriler ve akıllı fiyatlandırmayla yardımcı olur.",
+      "sections": [
+        {
+          "h2": "Önce ölçün: üç sayı",
+          "body": [
+            "“Daha çok kazanmak” somut hale gelmeden yönetilemez. Bir hafta boyunca şu üç sayıyı gün gün yazın. Çoğu kasa ve POS sistemi bunları zaten verir:"
+          ],
+          "bullets": [
+            "Misafir sayısı (kuver): öğle ve akşam ayrı ayrı.",
+            "Ortalama hesap: günlük ciro bölü misafir sayısı.",
+            "Masa devri: bir masanın bir serviste kaç kez dolup boşaldığı."
+          ]
+        },
+        {
+          "h2": "Sayılar size nereden başlayacağınızı söyler",
+          "body": [
+            "Salon öğlen doluyor ama ortalama hesap düşükse işiniz menü ve öneri tarafındadır. Ortalama hesap iyi ama akşamları masalar boş kalıyorsa sorun görünürlük ve trafik tarafındadır. Masalar dolu, hesap iyi, ama ay sonunda kasada az para kalıyorsa maliyete ve israfa bakmanız gerekir.",
+            "Aynı anda her şeye saldırmayın. En zayıf görünen sayıyı seçin, dört hafta onun üzerinde çalışın, sonra yeniden ölçün."
+          ]
+        },
+        {
+          "h2": "Menü düzeni: misafirin gözü nereye gidiyor?",
+          "body": [
+            "Menü, restoranın en çok okunan satış metnidir. Misafir her satırı okumaz; gözü önce bölüm başlıklarına, fotoğraflı ürünlere ve listenin ilk birkaç satırına gider. Bunu lehinize kullanın:"
+          ],
+          "bullets": [
+            "Her bölümün ilk iki sırasına hem sevilen hem kâr bırakan ürünlerinizi koyun.",
+            "Bölüm başına ürün sayısını sınırlayın; çok seçenek kararı uzatır.",
+            "Fiyatları tek bir sütuna dizmeyin; misafir ürünleri bırakıp fiyatları karşılaştırmaya başlar.",
+            "Kâr payı yüksek bir ürünün açıklamasını güçlendirin: malzemenin nereden geldiğini, nasıl pişirildiğini yazın.",
+            "Satan ama sevmediğiniz ürünleri hemen çıkarmayın; önce menü mühendisliği analizine bakın."
+          ]
+        },
+        {
+          "h2": "Fiyatlandırma: maliyeti bilmeden fiyat koymayın",
+          "body": [
+            "Her tabağın reçete maliyetini çıkarın: et, yağ, sebze, ekmek ve garnitür dahil. Malzeme fiyatları sık değiştiği için bu hesabı en az ayda bir yenileyin. Satış fiyatı ile malzeme maliyeti arasındaki farka katkı payı denir.",
+            "Yüzdeye değil, liraya bakın. Maliyeti 40 ₺ olan bir çorba 180 ₺'ye satılırsa size 140 ₺ bırakır. Maliyeti 140 ₺ olan bir köfte tabağı 420 ₺'ye satılırsa 280 ₺ bırakır. Maliyet oranı çorbada daha iyi görünür, ama köfte her satışta iki kat para bırakır.",
+            "Fiyat artışını tek seferde bütün menüye yaymak yerine ürün ürün düşünün. Misafirin fiyatını ezbere bildiği ürünler (çay, su, çorba) ile karşılaştırması zor özel tabaklar aynı hassasiyette değildir.",
+            "ArtOfMenu'nun Smart paketindeki günlük akıllı fiyatlandırma bu düşünceyi bir adım ileri taşır: konuma, hava tahminine, özel günlere ve beklenen talebe bakarak ertesi günün fiyatını sizin belirlediğiniz alt ve üst sınır içinde ayarlar."
+          ]
+        },
+        {
+          "h2": "Ortalama hesabı büyütmek",
+          "body": [
+            "Yeni misafir bulmak pahalıdır. Masada zaten oturan misafirin bir ürün daha alması çok daha kolaydır. Bunu ısrarla yapmayın; doğru anda yapılan tek bir öneri yeter:"
+          ],
+          "bullets": [
+            "Ana yemek siparişinde yanına uygun bir meze ya da salata önerin.",
+            "Tatlı menüsünü yemek tabakları kalkarken getirin ve kahveyle birlikte önerin.",
+            "Paylaşmalık tabaklar ekleyin; kalabalık masalar ortaya sipariş vermeyi sever.",
+            "İçecek listesinde ev yapımı limonata ya da şerbet gibi kâr payı yüksek ürünleri öne alın.",
+            "Garsonlarınıza hangi tabağın yanına neyin gittiğini öğretin; ezberden değil, tadarak."
+          ]
+        },
+        {
+          "h2": "Masa devri: aynı masadan daha çok servis",
+          "body": [
+            "Öğle servisinde ciroyu en çok bekleme süresi düşürür. Misafir oturduktan sonra menü gelene, sipariş alınana ve hesap gelene kadar geçen her dakika masanın boşta kalmasıdır. Menünün masada hazır olmasını sağlayın, öğle için hızlı hazırlanan kısa bir bölüm oluşturun ve hesabı istenmeden önce hazır tutun. Dört kişilik masalara çoğunlukla iki kişi oturuyorsa ikilik masalar ekleyin.",
+            "Akşam yemeğinde acele ettirmek ters teper. Akşamları önemli olan, misafirin rahat edip tatlıya ve ikinci içeceğe kalmasıdır.",
+            "ArtOfMenu Order paketinde misafir siparişini masadan gönderir ve garson telefonunda anında görür. Smart paketinde misafir sepete bir ürün eklediğinde, o şubede o ürünle en sık birlikte alınan ürün gösterilir; misafir hesabı da menüden isteyebilir."
+          ]
+        },
+        {
+          "h2": "İsraf ve stok: kârın sessizce kaçtığı yer",
+          "body": [
+            "Çöpe giden her porsiyon, hazırlanmış ama parası alınmamış bir tabaktır. Bir hafta boyunca atılan ürünleri ve nedenini (bozuldu, fazla hazırlandı, iade edildi) bir deftere yazın. Liste çoğu zaman aynı birkaç ürünü gösterir. Sonra şunları uygulayın:"
+          ],
+          "bullets": [
+            "Hazırlık miktarını geçen haftaların aynı gününe göre planlayın.",
+            "İlk giren ilk çıkar kuralını depoya ve dolaba uygulayın.",
+            "Çok az satan ve özel malzeme isteyen ürünleri menüden çıkarmayı düşünün.",
+            "Porsiyonları tartın; göz kararı porsiyon, maliyeti fark ettirmeden artırır."
+          ]
+        },
+        {
+          "h2": "Ekip ve görünürlük",
+          "body": [
+            "İyi hazırlanmış bir menü bile, onu anlatamayan bir ekiple yarım verim verir. Servisten önce on dakikalık kısa bir toplantı yapın: günün önerisi, biten ürünler, öne çıkarmak istediğiniz tabak. Garsonlara ürünleri tattırın; tatmadığı bir tabağı öneren garson inandırıcı olmaz.",
+            "Yeni misafir çoğu zaman haritadan gelir. Google Haritalar kaydınızda çalışma saatleri, fotoğraflar ve menü bağlantısı güncel olsun. Yorumlara kısa ve kibar cevap verin. Sakin günlere bir sebep koyun: pazartesi akşamı iki kişilik set menü ya da hafta içi öğlen için sabit fiyatlı bir tabak."
+          ]
+        }
+      ],
+      "features": [
+        "reports",
+        "pairing",
+        "pricing",
+        "ordering",
+        "stock"
+      ],
+      "faq": [
+        {
+          "q": "Restoran cirosu nasıl artırılır?",
+          "a": "Üç yoldan: daha çok misafir, masa başına daha yüksek hesap ve daha hızlı masa devri. Kârı artırmak için bunlara israfı azaltmak ve kâr payı yüksek ürünleri öne çıkarmak eklenir. İşe bir hafta boyunca kuver, ortalama hesap ve masa devrini ölçerek başlayın."
+        },
+        {
+          "q": "Restoranda ortalama hesap nasıl hesaplanır?",
+          "a": "Belirli bir dönemin toplam cirosunu aynı dönemdeki misafir sayısına bölün. Örneğin bir akşam 60 misafirden 36.000 ₺ ciro yaptıysanız ortalama hesap 600 ₺'dir. Öğle ve akşamı ayrı hesaplamak daha doğru sonuç verir."
+        },
+        {
+          "q": "Fiyat artırmadan kâr nasıl artar?",
+          "a": "Önce maliyet tarafına bakın: porsiyon kontrolü, israf ve kârsız ürünler. Sonra menüde kâr payı yüksek ürünleri daha görünür yerlere taşıyın ve doğru anda tatlı, içecek ya da meze önerin. Bu adımların hiçbiri menü fiyatına dokunmaz."
+        },
+        {
+          "q": "Masadan sipariş restoranın cirosunu artırır mı?",
+          "a": "Kesin bir sonuç vaat etmek doğru olmaz. Masadan sipariş, misafirin garsonu beklediği süreyi kısaltır ve garsona servise ayıracak zaman bırakır. Yoğun öğle servisinde bu, aynı masada daha çok servis yapmanıza yardım edebilir. Etkisini kendi kuver ve masa devri sayılarınızla ölçün."
+        },
+        {
+          "q": "Menüden hangi ürünleri çıkarmalıyım?",
+          "a": "Hem az satan hem az kâr bırakan ürünler ilk adaydır. Karar vermeden önce satış ve maliyet verisine bakın; az satan ama çok kâr bırakan bir ürün, menüde daha iyi bir yere taşındığında güçlü bir satıcıya dönüşebilir. Ayrıntı için menü mühendisliği rehberimize bakın."
+        }
+      ],
+      "cta": {
+        "h2": "Menünüz de satışa yardım etsin",
+        "lead": "ArtOfMenu açıldığında size haber verelim; menü raporlarıyla nereden başlayacağınızı görün."
+      },
+      "related": [
+        "menu-engineering",
+        "inventory",
+        "restaurant",
+        "smart"
+      ]
+    },
+    "bar-sales": {
+      "slug": "bar-ciro-artirma",
+      "title": "Bar Ciro Nasıl Artırılır? Bar Satış Rehberi | ArtOfMenu",
+      "description": "Bir bar kazancını nasıl artırır? İçki menüsü, happy hour, tur hızı, premium içkiler, yiyecek eşleştirmesi ve stok kontrolü için pratik adımlar.",
+      "eyebrow": "Bar ciro rehberi",
+      "h1": "Bir bar kazancını nasıl artırır? Bar cirosunu büyütmenin yolları",
+      "lead": "Bir bar kazancını en çok üç yerden artırır: misafir başına içilen tur sayısından, her bardağın bıraktığı kârdan ve dökülen ya da kayda geçmeyen içkiyi azaltmaktan. Bu rehber her biri için bu akşam deneyebileceğiniz adımları anlatıyor.",
+      "answer": "Bar cirosunu artırmanın yolu, aynı misafirden daha çok tur almak ve her içkiden kalan kârı korumaktır. Bunun için okunaklı bir içki menüsü, hızlı servis, iyi planlanmış bir happy hour, premium içki önerisi, içkiye eşlik eden atıştırmalıklar ve sıkı stok kontrolü gerekir. ArtOfMenu masadan sipariş, garson çağırma ve reçeteye bağlı stokla bu işin servis tarafına yardım eder.",
+      "sections": [
+        {
+          "h2": "Barın kazancı nereden gelir?",
+          "body": [
+            "Bir barın hesabı restorandan farklı işler. Masa başına tabak sayısından çok, misafirin gece boyunca kaç tur içtiği belirleyicidir. İkinci tur ilk turdan, üçüncü tur ikinciden daha zor gelir; çünkü her turda misafirin garsonu yakalaması gerekir.",
+            "Bir de kâr payı farkı vardır. Musluk birası, ev kokteyli ve kadeh şarap aynı fiyattan satılsa bile size aynı parayı bırakmaz. Hangi içkinin bardak başına ne bıraktığını bilmeden yapılan kampanya ciroyu büyütüp kârı küçültebilir. Üç kalemi ayrı ayrı izleyin:"
+          ],
+          "bullets": [
+            "Tur sayısı: misafir başına gece boyunca verilen sipariş.",
+            "Bardak başına katkı: satış fiyatı eksi içkinin maliyeti.",
+            "Kayıp: dökülen, fazla doldurulan ve kayda geçmeyen içki."
+          ]
+        },
+        {
+          "h2": "İçki menüsünü satış için düzenleyin",
+          "body": [
+            "Uzun bir içki listesi misafiri yorar ve kararı yavaşlatır. Kısa ve bölümlere ayrılmış bir menü daha hızlı sipariş getirir:"
+          ],
+          "bullets": [
+            "Kokteylleri tadına göre gruplayın: ferah, tatlı, sert, acımsı. Misafir isimden çok tada göre seçer.",
+            "Her kokteylin altına içindeki iki üç ana malzemeyi yazın.",
+            "Ev kokteyllerinizi bölümün başına koyun; başka yerde bulunmadıkları için fiyat karşılaştırması zordur.",
+            "Birayı musluk ve şişe olarak ayırın, bardak hacmini yazın.",
+            "Alkolsüz seçenekleri özenli ayrı bir bölüm yapın; masadaki şoför ya da içmeyen misafir de sipariş verir."
+          ]
+        },
+        {
+          "h2": "Happy hour'u kâr için planlayın",
+          "body": [
+            "Happy hour sakin saatleri doldurmak için iyi bir araçtır. Yanlış kurulursa, zaten gelecek olan misafire indirim yapmış olursunuz. Şu kuralları uygulayın:"
+          ],
+          "bullets": [
+            "Yalnızca gerçekten boş olan saatlere koyun; barınız 21.00'de doluyorsa happy hour 18.00 ile 20.00 arasında kalsın.",
+            "İndirimi katkı payı en yüksek içkilerde yapın: musluk birası ya da ev kokteyli gibi.",
+            "Premium içkileri happy hour dışında tutun.",
+            "Happy hour'a bir atıştırmalık tabağı ekleyin; yemeğe kalan misafir gecenin geri kalanında da oturur.",
+            "Bitiş saatini net yazın ve garsonların son siparişi hatırlatmasını sağlayın."
+          ]
+        },
+        {
+          "h2": "Tur hızını artırın: boş bardak, kaçan satıştır",
+          "body": [
+            "Barda en pahalı an, misafirin boş bardakla beklediği andır. Uzun süre bekleyen misafir bir tur daha istemekten vazgeçebilir ya da doğrudan hesabı ister.",
+            "Garsonlara bölge verin; her garson kendi masalarının bardaklarını izlesin. Bardak yarıya indiğinde “Bir tane daha hazırlayalım mı?” diye sorulsun, boşaldığında değil. En çok satan beş içkinin malzemeleri barmenin elinin altında dursun. Çok yoğun saatlerde kokteyl listesini hızlı hazırlanan içkilere doğru daraltın.",
+            "ArtOfMenu Order paketinde misafir yeni turu masadan gönderir ve garson siparişi telefonunda anında görür. Smart paketinde misafir menüden garson da çağırabilir."
+          ]
+        },
+        {
+          "h2": "Premium içki önerisi: bir üst raf",
+          "body": [
+            "Misafir “bir cin tonik” dediğinde garsonun “Hangi cinle olsun?” diye sorması küçük bir fark gibi görünür. Bu soru misafire seçim sunar ve bazı misafirler üst rafı seçer.",
+            "Premium içkiyi zorlamayın. Fark yaratan şey kısa ve dürüst bir açıklamadır: “Bu daha narenciyeli, tonikle çok iyi gider.” Garsonların bunu söyleyebilmesi için içkileri tatmış olmaları gerekir. Menüde premium seçenekleri standart içkinin hemen altına, fiyatıyla birlikte koyun; misafir farkı tek bakışta görsün."
+          ]
+        },
+        {
+          "h2": "İçkiye eşlik eden yiyecek",
+          "body": [
+            "Atıştırmalık sipariş eden masa daha uzun oturur, uzun oturan masa daha çok tur içer. Bira yanına çıtır tavuk ya da patates, şarap yanına peynir tabağı, rakı yanına meze bilinen eşleştirmelerdir. Mutfağınız küçükse hazırlığı kolay ve raf ömrü uzun birkaç ürünle başlayın: kuruyemiş, peynir tabağı, nachos.",
+            "ArtOfMenu Smart paketinde misafir sepetine bir içki eklediğinde, o şubede o içkiyle en sık birlikte sipariş edilen ürün menüde gösterilir. Öneri barınızın kendi siparişlerinden gelir."
+          ]
+        },
+        {
+          "h2": "Stok ve kayıp kontrolü",
+          "body": [
+            "Barlarda kâr çoğu zaman bardak ile şişe arasında kaybolur: göz kararı doldurulan kadeh, ikram edilip yazılmayan içki, kırılan şişe, kayda geçmeyen satış. Kaybı azaltmak için:"
+          ],
+          "bullets": [
+            "Standart ölçü belirleyin ve jigger kullanın.",
+            "Açık şişeleri her hafta aynı gün ve saatte tartın ya da ölçün, satışla karşılaştırın.",
+            "İkram ve personel içkisini ayrı bir satıra yazın; yazılmayan ikram kayıp gibi görünür.",
+            "Her kokteylin reçetesini yazılı hale getirin; aynı kokteyl her barmenin elinde aynı maliyette çıksın."
+          ]
+        },
+        {
+          "h2": "Sakin geceleri doldurmak",
+          "body": [
+            "Hafta içi akşamları için düzenli bir sebep yaratın: salı quiz gecesi, çarşamba akustik müzik, perşembe yerel bira tadımı. Düzenli olması önemlidir; misafir “salı orada quiz var” diye hatırlamalı.",
+            "Etkinlik gecesi için kısa bir özel menü hazırlayın. QR menüde bu bölümü o akşam ekleyip ertesi gün kaldırabilirsiniz. Smart paketindeki reçeteye bağlı stokta ise bir malzeme bittiğinde, onunla yapılan her içki menüde kendiliğinden tükendi görünür; kalabalık bir etkinlik gecesinde misafir olmayan bir içkiyi sipariş etmez."
+          ]
+        }
+      ],
+      "features": [
+        "ordering",
+        "pairing",
+        "stock",
+        "reports"
+      ],
+      "faq": [
+        {
+          "q": "Bar cirosu nasıl artırılır?",
+          "a": "Misafir başına tur sayısını artırarak, kâr payı yüksek içkileri öne çıkararak ve kaybı azaltarak. Pratikte bu; kısa ve okunaklı bir içki menüsü, boş bardağı bekletmeyen servis, doğru saatte happy hour, premium içki önerisi ve ölçülü döküm demektir."
+        },
+        {
+          "q": "Barda happy hour gerçekten kazandırır mı?",
+          "a": "Yalnızca boş saatleri dolduruyorsa ve indirim kâr payı yüksek içkilerdeyse kazandırabilir. Zaten dolu olan saatlere konan happy hour, normal fiyatla gelecek misafire indirim yapmak demektir. Bir ay boyunca o saatlerin cirosunu önceki ayla karşılaştırarak karar verin."
+        },
+        {
+          "q": "Bir bar hangi içkiden daha çok kazanır?",
+          "a": "Bardak başına en çok parayı genellikle ev kokteylleri ve musluk birası bırakır, çünkü maliyetleri satış fiyatına göre düşüktür. Bu barınıza göre değişir; her içkinin reçete maliyetini çıkarıp satış fiyatından düşerek kendi listenizi yapın."
+        },
+        {
+          "q": "Barda stok kaybı nasıl önlenir?",
+          "a": "Standart ölçü belirleyip jigger kullanın, açık şişeleri düzenli sayın, ikramları yazın ve her kokteylin reçetesini kayda geçirin. Sayım ile satış arasındaki farkı her hafta aynı gün kontrol etmek, kaybın nerede olduğunu hızla gösterir."
+        },
+        {
+          "q": "QR menü bara uygun mu?",
+          "a": "Kalabalık ve müziği yüksek barlarda işe yarar: misafir menüye garsonu beklemeden bakar ve yeni turu masadan gönderebilir. ArtOfMenu Order paketinde siparişler garsonun telefonuna anında düşer; Smart paketinde misafir garson da çağırabilir."
+        }
+      ],
+      "cta": {
+        "h2": "Yeni tur masadan gelsin",
+        "lead": "ArtOfMenu açıldığında size haber verelim; formda barınızın Google Haritalar bağlantısını ekleyin."
+      },
+      "related": [
+        "bar",
+        "inventory",
+        "menu-engineering",
+        "ordering"
+      ]
+    },
+    "cafe-sales": {
+      "slug": "kafe-ciro-artirma",
+      "title": "Kafe Ciro Artırma Yolları: Pratik Rehber | ArtOfMenu",
+      "description": "Kafe cirosu nasıl artırılır? Sabah yoğunluğunda hız, ekstra shot ve süt seçenekleri, tatlı eşleştirme, havaya göre menü, sadakat ve israf.",
+      "eyebrow": "Kafe ciro rehberi",
+      "h1": "Kafe ciro artırma: kahve fincanından başlayan pratik adımlar",
+      "lead": "Bir kafe cirosunu en hızlı, sabah yoğunluğunu hızlandırarak, her siparişe küçük eklemeler önererek ve kahvenin yanına bir şey sattırarak artırır. Kalıcı kâr için bunlara düzenli müşteri ve daha az israf eklenir.",
+      "answer": "Kafe ciro artırma, aynı müşteri trafiğinden daha fazla gelir elde etmek için hız, ek ürün ve tekrar ziyaret üzerinde çalışmaktır. En etkili adımlar; sabah kuyruğunu kısaltmak, ekstra shot ve süt seçeneklerini görünür kılmak, kahveyle tatlı eşleştirmek, menüyü havaya göre düzenlemek ve hazırlık israfını azaltmaktır. ArtOfMenu bu işlerin menü tarafında yardımcı olur.",
+      "sections": [
+        {
+          "h2": "Sabah yoğunluğu: kuyruktaki her dakika",
+          "body": [
+            "Pek çok kafede günün en yoğun saati sabahtır. İşe yetişmeye çalışan müşteri beklemeyi sevmez; kuyruk kapıya kadar uzadığında bir kısmı içeri bile girmez. Sabah hızı doğrudan ciroya dönüşür:"
+          ],
+          "bullets": [
+            "Sabah için kısa bir bölüm yapın: en çok satan beş içecek ve iki hazır yiyecek.",
+            "Yoğun saatte siparişi alan ile kahveyi yapan aynı kişi olmasın.",
+            "Sıradaki müşteri menüye önceden baksın; sıranın yanına bir QR kod koyun.",
+            "Kasanın yanında hazır paket ürünler tutun; kahve beklerken alınır.",
+            "Barista istasyonunu en çok satan içeceğe göre düzenleyin; fincan, süt ve şurup elinin altında olsun."
+          ]
+        },
+        {
+          "h2": "Küçük eklemeler: shot, süt, şurup, boy",
+          "body": [
+            "Kafede ortalama fişi büyütmenin en kolay yolu siparişe eklenen küçük şeylerdir: ekstra espresso, yulaf ya da badem sütü, bir pompa şurup, bir üst boy. Her biri küçük görünür, ama gün sonunda toplanır.",
+            "Bu seçenekleri müşteri sormadan görünür yapın. Menüde fiyatlarıyla birlikte yazın; kasadaki kişi de “Büyük mü olsun?” diye sorsun. Görünmeyen bir seçeneği müşteri istemeyi düşünmez.",
+            "Bitkisel süt farkını açıkça yazın. Hesapta beklemediği bir fark görmek, tutar küçük olsa bile müşterinin canını sıkar."
+          ]
+        },
+        {
+          "h2": "Kahvenin yanına bir şey",
+          "body": [
+            "Tek başına alınan kahvede fiş küçük kalır. Yanına bir kurabiye, bir dilim kek ya da bir sandviç eklendiğinde fiş büyür. Eşleştirmeyi müşteriye bırakmayın, önerin. Kafelerde iyi çalışan bazı eşleştirmeler:"
+          ],
+          "bullets": [
+            "Filtre kahve ile brownie ya da havuçlu kek",
+            "Türk kahvesi ile lokum ya da küçük bir çikolata",
+            "Çay ile simit ya da poğaça",
+            "Soğuk demleme ile meyveli tart"
+          ]
+        },
+        {
+          "h2": "Vitrin ve öneri",
+          "body": [
+            "Vitrini kasanın tam önüne koyun ve en kârlı tatlıyı göz hizasına yerleştirin. Müşteri ödeme yaparken baktığı yerde gördüğünü alır.",
+            "ArtOfMenu Smart paketinde müşteri sepetine bir içecek eklediğinde, o şubede o içecekle en sık birlikte sipariş edilen ürün menüde gösterilir. Öneri, sizin müşterilerinizin gerçek alışkanlığından gelir."
+          ]
+        },
+        {
+          "h2": "Havaya ve mevsime göre menü",
+          "body": [
+            "Kafe satışları havayla birlikte değişir. Yağmurlu bir günde sıcak çikolata ve salep, sıcak bir öğleden sonra limonata ve soğuk kahve satılır. Menünüz bu değişimi takip etmezse müşteri aradığını bulmak için kaydırır.",
+            "Mevsim içeceklerini önceden planlayın: hangi hafta başlayacak, hangi malzeme gerekecek, ne zaman kalkacak. Sezon sonunda satışlarına bakıp gelecek yıl hangisinin döneceğine karar verin.",
+            "ArtOfMenu'de hava soğuduğunda sıcak içecekler menünün üstüne çıkar; soğuk içecekler ve bitmek üzere olan ürünler aşağı iner. Fiyatlar gün içinde değişmez."
+          ]
+        },
+        {
+          "h2": "Öğleden sonra boşluğunu doldurun",
+          "body": [
+            "Sabah ve öğlen dolan pek çok kafe 15.00 ile 17.00 arasında sakinleşir. Bu saatlere bir sebep verin:"
+          ],
+          "bullets": [
+            "Öğleden sonra kahve ve tatlı seti",
+            "Uzaktan çalışanlar için priz ve sessiz bir köşe, uzun oturana ikinci içecekte küçük bir indirim",
+            "Okul ve ofis çıkışına yakın saatlerde paket ürünler",
+            "Hafta sonu için öğlene kadar süren bir kahvaltı tabağı"
+          ]
+        },
+        {
+          "h2": "Düzenli müşteri: en ucuz büyüme",
+          "body": [
+            "Mahalle kafesinin geliri düzenli müşterisine dayanır. Müşterinin adını ve her zamanki siparişini bilmek, onu kafenize bağlayan en güçlü şeylerden biridir.",
+            "Basit bir sadakat kartı işe yarar: on kahvede bir kahve gibi. Kuralı tek cümlede anlatılabilecek kadar sade tutun. Kafenin harita kaydında fotoğrafların ve menü bağlantısının güncel olduğundan da emin olun; yakında kahve arayan biri karar vermeden önce menüye bakar."
+          ]
+        },
+        {
+          "h2": "İsraf: günün sonunda vitrinde kalanlar",
+          "body": [
+            "Kafede israfın büyük kısmı kapanışta vitrinde kalan tatlılardan ve açılıp bitirilemeyen sütten gelir. Bir hafta boyunca kapanışta kalan ürünleri yazın, sonra:"
+          ],
+          "bullets": [
+            "Taze ürünleri günün saatine göre üretin; öğleden sonra için ikinci, küçük bir parti yapın.",
+            "Son saatte kalan ürünleri kahveyle set yapın.",
+            "Süt ve kremayı ilk giren ilk çıkar sırasıyla dizin.",
+            "Az satan ve kısa ömürlü tatlıları menüden çıkarmayı düşünün."
+          ]
+        },
+        {
+          "h2": "Ölçün ve haftada bir bakın",
+          "body": [
+            "Haftada bir, aynı gün, üç şeye bakın: en çok satan on ürün, ortalama fiş tutarı ve saat saat satış. Hangi saatte boş kaldığınızı ve hangi ürünün hiç dönmediğini bu üç tablo gösterir.",
+            "ArtOfMenu'nun menü raporları kasanın göremediğini ekler: çok görülüp az açılan ürünleri ve sipariş açıkken açılıp hiç sipariş edilmeyenleri işaretler. Smart paketindeki reçeteye bağlı stokta ise yulaf sütü bittiğinde yulaf sütlü her içecek menüde kendiliğinden tükendi görünür."
+          ]
+        }
+      ],
+      "features": [
+        "weather",
+        "pairing",
+        "reports",
+        "stock"
+      ],
+      "faq": [
+        {
+          "q": "Kafe cirosu nasıl artırılır?",
+          "a": "En hızlı etki sabah kuyruğunu kısaltmaktan ve her siparişe küçük bir ekleme önermekten gelir. Kahveyle tatlı eşleştirmek, menüyü havaya göre düzenlemek, öğleden sonra boşluğuna bir sebep vermek ve günün sonundaki israfı azaltmak da kalıcı fark yaratır."
+        },
+        {
+          "q": "Kafede ortalama fiş nasıl yükseltilir?",
+          "a": "Ekstra shot, bitkisel süt ve büyük boy gibi seçenekleri menüde fiyatlarıyla görünür yapın. Kasada “Büyük mü olsun?” ya da “Yanına kek ister misiniz?” gibi tek bir soru sorun. Vitrini kasanın önüne, en kârlı ürünü göz hizasına koyun."
+        },
+        {
+          "q": "Küçük bir kafe kampanya olarak ne yapabilir?",
+          "a": "Basit bir sadakat kartı, öğleden sonra kahve ve tatlı seti ya da sakin bir hafta içi günü için küçük bir etkinlik iyi başlangıçlardır. Kampanyayı sade tutun ve bir ay sonra o saatlerin satışını önceki ayla karşılaştırın."
+        },
+        {
+          "q": "Kafede israf nasıl azaltılır?",
+          "a": "Kapanışta vitrinde kalanları bir hafta boyunca yazın ve üretimi günün saatine göre bölün. Süt ve kremayı ilk giren ilk çıkar sırasıyla kullanın, son saatte kalanları kahveyle set yapın. Az satan, kısa ömürlü ürünleri menüden çıkarmayı düşünün."
+        },
+        {
+          "q": "QR menü kafe satışlarına yardım eder mi?",
+          "a": "Kesin bir satış artışı vaat etmek doğru olmaz. QR menü, müşterinin sırada beklerken menüye bakmasını, mevsim içeceklerini fotoğrafla görmesini ve ek seçenekleri fark etmesini kolaylaştırır. ArtOfMenu'de menü ayrıca havaya göre sıralanır ve Smart paketinde kahvenin yanına öneri gösterir."
+        }
+      ],
+      "cta": {
+        "h2": "Kafenizin menüsü de çalışsın",
+        "lead": "ArtOfMenu açıldığında size e-postayla haber verelim."
+      },
+      "related": [
+        "cafe",
+        "menu-engineering",
+        "inventory",
+        "smart"
+      ]
+    },
+    "menu-engineering": {
+      "slug": "menu-muhendisligi",
+      "title": "Menü Mühendisliği Nedir? Adım Adım Rehber | ArtOfMenu",
+      "description": "Menü mühendisliği nedir, matris nasıl kurulur? Katkı payı ve popülerlikle yıldız, at, bilmece ve köpek ürünleri bulun, menünüzü buna göre düzenleyin.",
+      "eyebrow": "Menü mühendisliği",
+      "h1": "Menü mühendisliği nedir? Matris, hesap ve uygulama adımları",
+      "lead": "Menü mühendisliği, menüdeki her ürünü ne kadar sattığına ve size ne kadar kâr bıraktığına göre sınıflandırıp menüyü buna göre düzenleme yöntemidir. Bir aylık satış verisi, reçete maliyetleri ve bir hesap tablosuyla kendiniz yapabilirsiniz.",
+      "answer": "Menü mühendisliği, Michael Kasavana ve Donald Smith'in 1982'de yayımladığı, menü ürünlerini popülerlik ve katkı payına göre dört gruba ayıran analiz yöntemidir: yıldızlar, atlar, bilmeceler ve köpekler. Her grup için farklı bir karar verilir: korumak, fiyatı düzenlemek, öne çıkarmak ya da çıkarmak. ArtOfMenu'nun menü raporları ve akıllı fiyatlandırması bu analizi destekleyen veriler sunar.",
+      "steps": {
+        "h2": "Adım adım menü mühendisliği analizi",
+        "items": [
+          {
+            "t": "Dönemi seçin",
+            "d": "Son dört haftayı alın. Bayram ya da kapalı kaldığınız günler gibi olağandışı günleri ayrı tutun. Yalnızca o dönem boyunca menüde kalan ürünleri karşılaştırın."
+          },
+          {
+            "t": "Satış adetlerini çıkarın",
+            "d": "Kasa ya da POS raporundan her ürünün kaç adet satıldığını yazın. Ana yemekleri, tatlıları ve içecekleri ayrı tablolarda analiz edin."
+          },
+          {
+            "t": "Reçete maliyetini hesaplayın",
+            "d": "Her ürün için porsiyondaki bütün malzemelerin güncel maliyetini toplayın; garnitür, sos ve ekmek dahil."
+          },
+          {
+            "t": "Katkı payını bulun",
+            "d": "KDV hariç satış fiyatından reçete maliyetini çıkarın. Sonuç, o ürünün her satışta size bıraktığı liradır."
+          },
+          {
+            "t": "İki eşiği hesaplayın",
+            "d": "Ortalama katkı payı: toplam katkı bölü toplam satış adedi. Popülerlik eşiği: bölümdeki ürün sayısına göre beklenen payın yüzde 70'i."
+          },
+          {
+            "t": "Ürünleri dört gruba ayırın",
+            "d": "Her ürün için iki soru sorun: popülerlik eşiğinin üstünde mi, katkı payı ortalamanın üstünde mi?"
+          },
+          {
+            "t": "Karar verin ve uygulayın",
+            "d": "Her grup için aşağıdaki kararları uygulayın ve her değişikliği tarihiyle not edin."
+          },
+          {
+            "t": "Ölçün ve tekrarlayın",
+            "d": "Dört hafta sonra aynı analizi yeniden yapın, değişikliklerin sonucuna bakın."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "h2": "Menü mühendisliği ne işe yarar?",
+          "body": [
+            "Çoğu işletme sahibi hangi ürünün çok sattığını bilir. Hangi ürünün çok para bıraktığını bilen daha azdır. İkisi her zaman aynı ürün olmaz.",
+            "Menü mühendisliği bu iki bilgiyi aynı tabloya koyar. Sonuçta elinizde, menüde neyi koruyacağınızı, neyi değiştireceğinizi ve neyi çıkaracağınızı gösteren bir harita olur. Yöntem şefin zevkine ya da tarifin kalitesine karışmaz; satış ve maliyet verisiyle çalışır."
+          ]
+        },
+        {
+          "h2": "İki ölçü: katkı payı ve popülerlik",
+          "body": [
+            "Katkı payı, bir ürünün satış fiyatından malzeme maliyeti çıktıktan sonra kalan tutardır ve lirayla düşünülür. Maliyet oranı yüzde 25 olan 150 ₺'lik bir tatlı size 112,50 ₺ bırakır. Maliyet oranı yüzde 35 olan 500 ₺'lik bir ana yemek ise 325 ₺ bırakır. Oranı daha kötü olan ana yemek, kasaya daha çok para koyar.",
+            "Popülerlik, bir ürünün kendi bölümündeki toplam satış içindeki payıdır. Kasavana ve Smith'in yöntemi bir ürünü, bölümdeki ürün sayısına göre beklenen payın yüzde 70'ini geçiyorsa popüler sayar. Ana yemek bölümünde 10 ürün varsa her birinden beklenen pay yüzde 10'dur; yüzde 7'nin üstünde satan ürün popülerdir."
+          ]
+        },
+        {
+          "h2": "Menü mühendisliği matrisi: dört grup",
+          "body": [
+            "İki ölçüyü yan yana koyduğunuzda her ürün dört gruptan birine düşer. Türkçe kaynaklarda bu gruplar bazen farklı adlarla geçer, anlamları aynıdır:"
+          ],
+          "bullets": [
+            "Yıldız (star): popüler ve katkı payı yüksek. Menünün en değerli ürünleridir.",
+            "At ya da iş atı (plowhorse): popüler ama katkı payı düşük. Çok satar, az bırakır.",
+            "Bilmece (puzzle): katkı payı yüksek ama az satan ürün. Potansiyeli vardır, ama misafir onu fark etmiyordur.",
+            "Köpek (dog): hem az satan hem az bırakan ürün."
+          ]
+        },
+        {
+          "h2": "Her grup için ne yapmalı?",
+          "bullets": [
+            "Yıldızlar: tarifi ve porsiyonu koruyun, menüde en görünür yerlere koyun. Fiyatta küçük ve dikkatli artışlar düşünebilirsiniz; misafir bu ürünleri zaten istiyordur.",
+            "Atlar: fiyatı küçük adımlarla artırın ya da porsiyondaki pahalı malzemeyi gözden geçirin. Yanına kâr payı yüksek bir garnitür ya da içecek eşleştirin. Menünün en dikkat çeken yerini onlara vermeyin; zaten satıyorlar.",
+            "Bilmeceler: menüdeki yerini, adını ve açıklamasını değiştirin. Fotoğraf ekleyin, garsonların önermesini isteyin. Fiyat belirgin şekilde yüksekse hafifçe indirmek de bir seçenektir.",
+            "Köpekler: menüden çıkarmayı ya da tamamen yeniden tasarlamayı düşünün. Bir köpeği sadık bir müşteri grubu için tutuyorsanız bunu bilerek yapın."
+          ]
+        },
+        {
+          "h2": "Analizi menünün düzenine taşımak",
+          "body": [
+            "Matris neyi öne çıkaracağınızı söyler, menü düzeni bunu misafire gösterir:"
+          ],
+          "bullets": [
+            "Yıldızları ve bilmeceleri her bölümün ilk sıralarına koyun.",
+            "Bilmecelere fotoğraf ve kısa, iştah açan bir açıklama ekleyin.",
+            "Bir ürünü çerçeveyle ya da “şefin önerisi” etiketiyle öne çıkarın, ama bunu her bölümde bir ya da iki ürünle sınırlayın.",
+            "Fiyatları noktalı çizgiyle sağa hizalanmış bir sütun haline getirmeyin; göz ürünü bırakıp fiyata gider.",
+            "Köpekleri çıkardığınızda bölümün kısalmasından korkmayın; kısa liste daha hızlı karar getirir."
+          ]
+        },
+        {
+          "h2": "Sık yapılan hatalar",
+          "bullets": [
+            "Bütün menüyü tek tabloda analiz etmek; tatlılar ana yemeklerle karşılaştırılınca hep köpek görünür.",
+            "Eski maliyetlerle hesap yapmak; malzeme fiyatı değiştiyse katkı payı da değişmiştir.",
+            "Tek bir analizle büyük karar vermek; mevsim ürünü kışın köpek, yazın yıldız olabilir.",
+            "Bir anda çok şey değiştirmek; hangi değişikliğin işe yaradığını anlayamazsınız.",
+            "Katkı payını yalnızca yüzdeyle değerlendirmek; kasada kalan lirayı gözden kaçırırsınız."
+          ]
+        },
+        {
+          "h2": "ArtOfMenu bu analizde nerede yardımcı olur?",
+          "body": [
+            "Menü mühendisliği satış ve maliyet verisiyle yapılır; bu veriler sizin kasanızda ve reçetelerinizdedir. ArtOfMenu tabloya kasanın göremediği bir bilgi ekler: misafirin menüde neye baktığı.",
+            "Menü raporları çok görülüp az açılan ürünleri işaretler. Masadan sipariş açıksa, açılıp hiç sipariş edilmeyen ürünleri de gösterir. İlk liste çoğu zaman bir görünürlük sorununa, ikinci liste fiyat ya da açıklama sorununa işaret eder. Bilmecelerinizi bu iki listede arayın.",
+            "Smart paketindeki günlük akıllı fiyatlandırma da atlarınız için bir araç olabilir. Bir ürünün fiyatını, sizin belirlediğiniz alt ve üst sınır içinde, beklenen talebe, havaya ve özel günlere göre her gün yeniden ayarlar."
+          ]
+        }
+      ],
+      "features": [
+        "reports",
+        "pricing",
+        "pairing",
+        "stock"
+      ],
+      "faq": [
+        {
+          "q": "Menü mühendisliği nedir?",
+          "a": "Menüdeki ürünleri satış adedi ve katkı payına göre dört gruba ayırıp menüyü bu gruplara göre düzenleme yöntemidir. Kasavana ve Smith tarafından geliştirilmiştir. Amaç, çok satan ve çok kâr bırakan ürünleri öne çıkarmak, zayıf ürünleri düzeltmek ya da çıkarmaktır."
+        },
+        {
+          "q": "Menü mühendisliği matrisi nasıl çizilir?",
+          "a": "Yatay eksene popülerliği, dikey eksene katkı payını koyun. Popülerlik eşiğini ve ortalama katkı payını birer çizgiyle işaretleyin. Ortaya çıkan dört kare yıldız, at, bilmece ve köpek gruplarıdır; her ürünü kendi değerlerine göre bu karelerden birine yerleştirin."
+        },
+        {
+          "q": "Menü mühendisliği ne sıklıkla yapılmalı?",
+          "a": "Çoğu işletme için üç ayda bir yeterlidir. Malzeme fiyatları hızlı değişiyorsa ya da menüye yeni ürünler eklediyseniz aylık yapın. Her değişiklikten sonra en az dört hafta bekleyip etkisini ölçün; daha kısa sürede çıkan sonuç çoğu zaman tesadüftür."
+        },
+        {
+          "q": "Menü mühendisliği için hangi verilere ihtiyacım var?",
+          "a": "Her ürünün belirli bir dönemdeki satış adedi, satış fiyatı ve güncel reçete maliyeti yeterlidir. Satış adetleri kasa ya da POS raporundan, maliyetler reçete kartlarından gelir. Bir hesap tablosu programıyla bütün analizi kendiniz yapabilirsiniz."
+        },
+        {
+          "q": "Köpek ürünleri hemen menüden çıkarmalı mıyım?",
+          "a": "Her zaman değil. Bazı ürünler başka satışları getirir; az satan bir çocuk menüsü ya da vejetaryen seçenek masaya bütün bir aileyi getirebilir. Böyle bir ürünü bilerek tutun, ama maliyetini düşürmenin ya da tarifini yenilemenin yolunu arayın."
+        }
+      ],
+      "cta": {
+        "h2": "Bilmecelerinizi menünüzde bulun",
+        "lead": "ArtOfMenu açıldığında size haber verelim; menü raporlarıyla hangi ürünün görülüp seçilmediğini görün."
+      },
+      "related": [
+        "restaurant-sales",
+        "inventory",
+        "smart",
+        "design"
+      ]
+    },
+    "inventory": {
+      "slug": "restoran-stok-takibi",
+      "title": "Restoran Stok Takibi Nasıl Yapılır? | ArtOfMenu",
+      "description": "Restoran stok takibi nasıl yapılır? Sayım düzeni, reçete maliyeti, minimum stok seviyesi, FIFO ve israf kaydı. Mutfağınızda bu hafta başlayın.",
+      "eyebrow": "Stok rehberi",
+      "h1": "Restoran stok takibi nasıl yapılır? Sayımdan reçeteye adım adım",
+      "lead": "Restoran stok takibi, elinizdeki malzemeyi düzenli sayıp satışlarla karşılaştırarak neyin ne kadar kullanıldığını ve nerede kaybolduğunu bilmektir. Başlamak için pahalı bir program şart değildir; düzenli bir sayım günü, reçete kartları ve bir tablo yeter.",
+      "answer": "Restoran stok takibi, mutfak ve bardaki malzemelerin girişini, kullanımını ve kaybını düzenli olarak kaydetme işidir. Temel adımlar haftalık sayım, reçete maliyeti, her malzeme için minimum stok seviyesi, ilk giren ilk çıkar kuralı ve israf kaydıdır. ArtOfMenu'nun Smart paketindeki reçeteye bağlı stok, bir malzeme bittiğinde onunla yapılan ürünleri menüde kendiliğinden tükendi gösterir.",
+      "steps": {
+        "h2": "Stok takibine başlamak için yedi adım",
+        "items": [
+          {
+            "t": "Malzeme listesi çıkarın",
+            "d": "Depodaki, dolaptaki ve bardaki her malzemeyi tek listede toplayın. Birimi sabitleyin: kilo, litre, adet ya da şişe."
+          },
+          {
+            "t": "Depoyu sayım sırasına göre düzenleyin",
+            "d": "Raflar listeyle aynı sırada olsun. Sayan kişi listeyi yukarıdan aşağı okurken depoda da aynı sırayla ilerlesin."
+          },
+          {
+            "t": "İlk sayımı yapın",
+            "d": "Bir sabah, teslimat gelmeden önce her şeyi sayın. Bu sayı başlangıç stokunuzdur."
+          },
+          {
+            "t": "Girişleri kaydedin",
+            "d": "Her teslimatı faturasıyla birlikte geldiği gün kaydedin; fiyat değiştiyse güncel fiyatı yazın."
+          },
+          {
+            "t": "Reçete kartlarını yazın",
+            "d": "Her ürün için porsiyondaki malzemeleri gram ya da mililitre olarak yazın."
+          },
+          {
+            "t": "Haftalık sayım yapın",
+            "d": "Her hafta aynı gün ve saatte sayın. Başlangıç stoku artı girişler eksi son sayım, o hafta kullandığınız malzemedir."
+          },
+          {
+            "t": "Olması gerekenle karşılaştırın",
+            "d": "Satış adetlerini reçetelerle çarparak teorik kullanımı bulun. Gerçek kullanımla arasındaki fark, kaybınızdır."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "h2": "Stok takibi neden bir kâr meselesidir?",
+          "body": [
+            "Stokta kaybolan her kilo, satılmış bir tabak kadar paradır. Kayıp çoğu zaman tek büyük olaydan gelmez: biraz fazla konan porsiyon, tarihi geçen bir kutu krema, kayda geçmeyen personel yemeği, iade edilen bir tabak.",
+            "Düzenli takip alışverişi de kolaylaştırır. Elinde ne kaldığını bilen mutfak, servis ortasında acil alışverişe çıkmaz ve aynı ürünü iki kez sipariş etmez."
+          ]
+        },
+        {
+          "h2": "Sayım düzeni: ne zaman, kim, nasıl?",
+          "bullets": [
+            "Aynı gün, aynı saat: genellikle haftanın ilk iş günü, teslimattan önce.",
+            "Aynı kişi ya da aynı iki kişi: biri sayar, biri yazar.",
+            "Pahalı ve hızlı dönen kalemleri (et, balık, alkol, kahve) daha sık, gerekirse her gün sayın.",
+            "Açık ambalajları tahminle yazmayın; tartın ya da ölçün.",
+            "Sayımı servis sırasında yapmayın; acele sayım yanlış sayımdır."
+          ]
+        },
+        {
+          "h2": "Reçete maliyeti: stokla menüyü bağlayan köprü",
+          "body": [
+            "Reçete kartı olmadan stok takibi yarım kalır, çünkü ne kadar kullanmanız gerektiğini bilemezsiniz. Her ürün için porsiyondaki malzemeyi gramla yazın, güncel alış fiyatıyla çarpın ve toplayın.",
+            "Örneğin bir mercimek çorbası porsiyonunda 60 g kırmızı mercimek, 15 g soğan, 10 g havuç, 10 ml zeytinyağı ve bir dilim limon olsun. Her malzemenin gram fiyatını miktarıyla çarpıp topladığınızda porsiyon maliyetini bulursunuz. Bu rakam fiyatlandırmanın da temelidir.",
+            "Reçeteleri mutfakta görünür bir yere asın. Aynı tabak her aşçının elinden aynı gramajla çıkmalı."
+          ]
+        },
+        {
+          "h2": "Minimum stok seviyesi (par seviyesi)",
+          "body": [
+            "Her malzeme için “bunun altına düşerse sipariş ver” dediğiniz bir seviye belirleyin. Bu seviye, bir sonraki teslimata kadar kullandığınız miktar artı küçük bir güvenlik payıdır.",
+            "Haftada iki teslimat alıyorsanız ve iki teslimat arasında 8 kilo tavuk kullanıyorsanız, tavuğun minimum seviyesi 8 kilo artı bir yoğun günün payı olabilir. Bu seviyeleri ayda bir satışlara göre gözden geçirin; yaz ile kış aynı olmaz."
+          ]
+        },
+        {
+          "h2": "İlk giren ilk çıkar (FIFO)",
+          "body": [
+            "Yeni gelen malzemeyi rafın arkasına, eskisini öne koyun. Basit bir kuraldır, ama yoğun bir teslimat sabahında ilk unutulan kuraldır. Uygulamayı kolaylaştırmak için:"
+          ],
+          "bullets": [
+            "Her kaba ve pakete açılış tarihini yazın.",
+            "Raflara etiket koyun; her ürünün yeri belli olsun.",
+            "Dolapta “önce bunu kullan” diye ayrı bir sepet ayırın.",
+            "Son kullanma tarihine iki gün kalan ürünü günün özel tabağına yönlendirin."
+          ]
+        },
+        {
+          "h2": "İsraf kaydı: kaybı görünür yapın",
+          "body": [
+            "Atılan her şeyi bir deftere ya da tabloya yazın: ne, ne kadar, neden. Nedenleri birkaç başlıkta toplayın: bozuldu, fazla hazırlandı, yanlış hazırlandı, iade edildi, düşürüldü.",
+            "Bir ay sonra liste size kendi mutfağınızın haritasını çıkarır. Fazla hazırlanan bir sos hazırlık planını, sık iade edilen bir tabak tarifi, sık bozulan bir sebze de sipariş miktarını değiştirmeniz gerektiğini söyler."
+          ]
+        },
+        {
+          "h2": "Menü ile stok arasındaki bağ: tükendi bilgisi",
+          "body": [
+            "Stok takibinin misafire dokunan yüzü, olmayan ürünün menüde görünmesidir. Misafir seçer, garson mutfağa gider, geri gelip “maalesef kalmadı” der. Masa yeniden karar vermek zorunda kalır.",
+            "ArtOfMenu Order paketinde basit stok ve sipariş raporları vardır. Smart paketindeki reçeteye bağlı stokta ürünleri malzemelerine bağlarsınız; bir malzeme bittiğinde o malzemeyle yapılan her ürün menüde kendiliğinden tükendi görünür. Mozzarella bittiğinde margarita pizza da, caprese salata da aynı anda kapanır.",
+            "Bitmek üzere olan ürünler ayrıca menüde aşağı iner; elinizde az kalan bir ürün en üst sırada durmaz."
+          ]
+        }
+      ],
+      "features": [
+        "stock",
+        "reports",
+        "ordering",
+        "weather"
+      ],
+      "faq": [
+        {
+          "q": "Restoran stok takibi nasıl yapılır?",
+          "a": "Malzeme listesi çıkarın, depoyu sayım sırasına göre düzenleyin ve her hafta aynı gün sayın. Girişleri faturayla kaydedin, her ürün için reçete kartı yazın. Satışlardan çıkan teorik kullanımı gerçek kullanımla karşılaştırdığınızda kaybınızı görürsünüz."
+        },
+        {
+          "q": "Stok sayımı ne sıklıkla yapılmalı?",
+          "a": "Genel sayım için haftada bir çoğu işletmeye yeter. Et, balık, alkol ve kahve gibi pahalı ve hızlı dönen kalemleri daha sık, mümkünse her gün sayın. Önemli olan, sayımı her seferinde aynı gün ve saatte yapmaktır."
+        },
+        {
+          "q": "FIFO nedir?",
+          "a": "FIFO, İngilizce “first in, first out” ifadesinin kısaltmasıdır; Türkçesi ilk giren ilk çıkar. Depoya önce giren malzeme önce kullanılır. Yeni teslimatı rafın arkasına, eskisini öne koyarak ve paketlere açılış tarihini yazarak uygularsınız."
+        },
+        {
+          "q": "Stok takibi için program şart mı?",
+          "a": "Başlangıç için şart değildir. Bir hesap tablosu, reçete kartları ve düzenli sayım çoğu küçük işletmeye yeter. Program, sayım ve satış verisini birbirine bağladığında zaman kazandırır. ArtOfMenu Smart paketindeki reçeteye bağlı stok bunu menüyle de bağlar."
+        },
+        {
+          "q": "Stok ile satış arasındaki fark ne kadar olmalı?",
+          "a": "Herkese uyan tek bir sayı yoktur. Önemli olan farkı her hafta aynı yöntemle ölçmek ve nedenini bulmaktır. Fark bir hafta aniden büyürse o haftanın israf kaydına, porsiyonlara ve kayda geçmeyen satışlara bakın."
+        }
+      ],
+      "cta": {
+        "h2": "Biten ürün menüde de bitsin",
+        "lead": "ArtOfMenu açıldığında size haber verelim; reçeteye bağlı stokla menünüz mutfağınızla birlikte güncellensin."
+      },
+      "related": [
+        "menu-engineering",
+        "restaurant-sales",
+        "bar-sales",
+        "ordering"
+      ]
+    },
+    "how-to": {
+      "slug": "qr-menu-nasil-yapilir",
+      "title": "QR Menü Nasıl Yapılır? Hızlı QR Menü Rehberi | ArtOfMenu",
+      "description": "Hızlı QR menü: PDF menünüzü yükleyin, aynı gün yayına alın. QR kodu bastırma, masa standı seçimi ve fiyat değiştirme adım adım anlatılıyor.",
+      "eyebrow": "Adım adım",
+      "h1": "QR menü nasıl yapılır? PDF'ten aynı gün yayına hızlı QR menü",
+      "lead": "QR menü yapmanın en hızlı yolu, elinizdeki PDF menüyü yükleyip size verilen QR kodu masalara koymaktır; ArtOfMenu'de PDF yükleme bütün paketlerde var ve menü aynı gün yayına geçer. Fotoğrafları, alerjenleri ve diğer ayrıntıları sonra kendi hızınızda eklersiniz.",
+      "answer": "QR menü oluşturmak için önce menünüzü dijital hale getirir, sonra bu menüye giden bir QR kodu masalara koyarsınız. En hızlı yol, mevcut PDF menüyü bir QR menü hizmetine yüklemektir. ArtOfMenu'de PDF yükleme bütün paketlerde vardır ve menü aynı gün yayına geçer. QR kod sabit kalır; fiyatları ve ürünleri sonradan siz güncellersiniz.",
+      "steps": {
+        "h2": "Adım adım QR menü oluşturma",
+        "items": [
+          {
+            "t": "Menünüzü toparlayın",
+            "d": "Güncel fiyatları, ürün adlarını ve bölümleri tek bir listede kontrol edin. Menünüz Canva'da ya da Word'de hazırsa PDF olarak dışa aktarın."
+          },
+          {
+            "t": "PDF'i yükleyin",
+            "d": "PDF menünüzü ArtOfMenu'ye yükleyin. Menü aynı gün yayına geçer ve misafirleriniz okutmaya başlayabilir."
+          },
+          {
+            "t": "Fotoğraf ve alerjen ekleyin",
+            "d": "En çok satan ürünlerden başlayarak fotoğraf ve alerjen bilgisi girin. Hepsini ilk gün bitirmeniz gerekmez."
+          },
+          {
+            "t": "Alan adınızı bağlayın",
+            "d": "Menünün kendi alan adınızda açılmasını istiyorsanız alan adınızı bağlayın; örneğin menu.isletmeniz.com."
+          },
+          {
+            "t": "QR kodu bastırın",
+            "d": "QR kodu masa kartına, sticker'a ya da pleksi standa bastırın. Kodu küçük basmayın; 3-4 cm genişlik çoğu masa için rahat okunur."
+          },
+          {
+            "t": "Masada deneyin",
+            "d": "Toplu baskıdan önce bir örneği masanın ışığında, eski ve yeni birkaç telefonla okutun. Bir de dili yabancı olan bir telefonla açın."
+          },
+          {
+            "t": "Fiyatları güncel tutun",
+            "d": "Fiyat ya da ürün değiştiğinde menüyü güncelleyin. Masadaki kod aynı kalır, yeniden baskı gerekmez."
+          }
+        ]
+      },
+      "sections": [
+        {
+          "h2": "Hızlı QR menü için hangi yolu seçmeli?",
+          "body": [
+            "QR menü yapmanın üç yaygın yolu var. Hangisini seçeceğiniz, ne kadar vaktiniz olduğuna ve menüyle ne yapmak istediğinize bağlı:"
+          ],
+          "bullets": [
+            "PDF'i bir QR kod oluşturucuya bağlamak: kısa sürer, ama menü telefonda küçük yazılı bir belge olarak açılır. Her değişiklikte PDF'i yeniden yüklersiniz; dosyanın adresi değişirse kod da çalışmaz.",
+            "Bir QR menü hizmeti kullanmak: menü telefon için düzenlenir, fiyatları kendiniz değiştirirsiniz ve kod sabit kalır. ArtOfMenu bu gruptadır.",
+            "Kendi web sitenizde menü sayfası yapmak: tam kontrol verir, ama tasarım, güncelleme ve dil desteği sizin işiniz olur."
+          ]
+        },
+        {
+          "h2": "QR menü standı ve baskı seçenekleri",
+          "body": [
+            "Kodu nereye koyduğunuz, ne kadar okutulduğunu doğrudan etkiler. Misafirin oturur oturmaz görebileceği bir yer seçin:"
+          ],
+          "bullets": [
+            "Pleksi masa standı: dik durur, silinebilir ve uzaktan görünür. Kafe ve restoranlarda en sık görülen seçenektir.",
+            "Masa sticker'ı: yer kaplamaz, ama ıslak bezle silindikçe yıpranır.",
+            "Kâğıt amerikan servis: kullanıyorsanız kodu doğrudan üzerine bastırabilirsiniz.",
+            "Tezgâh ve kapı: sırada bekleyen ya da içeri girmeden menüye bakmak isteyen misafir için.",
+            "Kodun yanına kısa bir yazı ekleyin: “Menü için okutun.”"
+          ]
+        },
+        {
+          "h2": "QR menüde fiyat değiştirme",
+          "body": [
+            "Fiyat değiştirmek, QR menüde en sık yapacağınız iştir. Zam günü sabah fiyatları düzenlersiniz, kahvaltıya gelen ilk masa yeni fiyatları görür. Masalardaki kartlara dokunmazsınız.",
+            "Smart paketinde fiyatlar her akşam, sizin belirlediğiniz alt ve üst sınırlar içinde ertesi gün için hazırlanabilir. Bu özelliği kullanmak zorunda değilsiniz; kapalıyken menü temel fiyatlarınızla açılır."
+          ]
+        },
+        {
+          "h2": "Sık yapılan hatalar",
+          "bullets": [
+            "QR kodu bir dosyanın geçici paylaşım linkine bağlamak; link değişince bütün masalardaki kodlar boşa çıkar.",
+            "Kodu parlak bir yüzeye basmak; ışık yansıyınca kamera okumakta zorlanır.",
+            "Menüde eski fiyat bırakmak; misafir hesapta farkı görünce güven kaybolur.",
+            "Uzun ve fotoğrafsız bir liste yayınlamak; misafir kaydırmayı çabuk bırakır."
+          ]
+        }
+      ],
+      "features": [
+        "pdf",
+        "domain",
+        "multilingual",
+        "global"
+      ],
+      "faq": [
+        {
+          "q": "QR menü oluşturma ne kadar sürer?",
+          "a": "Hazır bir PDF menünüz varsa ArtOfMenu'de aynı gün yayına geçebilirsiniz. Ürünlere tek tek fotoğraf ve alerjen eklemek, menünün uzunluğuna göre birkaç saat ya da birkaç gün sürebilir; bunu menü yayındayken de yapabilirsiniz."
+        },
+        {
+          "q": "Kendi QR kodumu bir QR oluşturucuyla yapsam olur mu?",
+          "a": "Olur, ama kodun hangi adrese gittiğine dikkat edin. Bir dosya paylaşım linkine bağlanan kod, link değiştiğinde ya da dosya silindiğinde çalışmaz. ArtOfMenu'de kod menünüzün sabit adresine gider; menüyü değiştirseniz de masadaki kod aynı kalır."
+        },
+        {
+          "q": "QR menü standı nereden alınır?",
+          "a": "Pleksi standları matbaalar, reklam ve tabela firmaları ya da online mağazalar yapar. ArtOfMenu stand satmaz; size QR kodu verir, istediğiniz yerde bastırırsınız. Toplu sipariş vermeden önce bir örnek bastırıp masada okutarak deneyin."
+        },
+        {
+          "q": "QR menü okunmuyorsa ne yapmalı?",
+          "a": "Önce kodun boyutuna ve yüzeyine bakın: küçük, buruşuk ya da parlak yüzeye basılmış kodlar zor okunur. Masanın ışığı da önemlidir. Eski telefonlarda kamera yerine Google Lens ya da bir QR okuyucu uygulaması gerekebilir."
+        },
+        {
+          "q": "QR menüyü kendim güncelleyebilir miyim?",
+          "a": "Evet. Ürün eklemek, fiyat değiştirmek, fotoğraf yüklemek ve tükenen ürünü kaldırmak sizin elinizdedir. Bunun için bir ajansa ya da tasarımcıya yazmanız gerekmez. Yaptığınız değişiklik, kodu bir sonraki okutan misafirde hemen görünür."
+        }
+      ],
+      "cta": {
+        "h2": "Menünüzü hazırlayın, açılışta yayına alın",
+        "lead": "ArtOfMenu açıldığında size haber verelim; PDF menünüzü yükleyip aynı gün yayına geçin."
+      },
+      "related": [
+        "qr-menu",
+        "pricing",
+        "design",
+        "restaurant"
+      ]
+    }
+  }
+}

@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Control de inventario en un restaurante | ArtOfMenu</title>
+  <meta name="description" content="Cómo llevar el control de inventario de un restaurante: escandallos, recuentos, stock mínimo, FIFO, merma y qué columnas poner en tu hoja de Excel.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://artofmenu.com/es/control-inventario-restaurante/">
+  <link rel="alternate" hreflang="tr" href="https://artofmenu.com/tr/restoran-stok-takibi/">
+  <link rel="alternate" hreflang="en" href="https://artofmenu.com/en/restaurant-inventory-management/">
+  <link rel="alternate" hreflang="de" href="https://artofmenu.com/de/warenwirtschaft-gastronomie/">
+  <link rel="alternate" hreflang="es" href="https://artofmenu.com/es/control-inventario-restaurante/">
+  <link rel="alternate" hreflang="it" href="https://artofmenu.com/it/gestione-magazzino-ristorante/">
+  <link rel="alternate" hreflang="fr" href="https://artofmenu.com/fr/gestion-des-stocks-restaurant/">
+  <link rel="alternate" hreflang="x-default" href="https://artofmenu.com/en/restaurant-inventory-management/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="ArtOfMenu">
+  <meta property="og:title" content="Control de inventario en un restaurante | ArtOfMenu">
+  <meta property="og:description" content="Cómo llevar el control de inventario de un restaurante: escandallos, recuentos, stock mínimo, FIFO, merma y qué columnas poner en tu hoja de Excel.">
+  <meta property="og:url" content="https://artofmenu.com/es/control-inventario-restaurante/">
+  <meta property="og:image" content="https://artofmenu.com/assets/web/og.jpg">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="tr_TR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="it_IT">
+  <meta property="og:locale:alternate" content="fr_FR">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#FBFBFD">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" as="image" href="/assets/web/mino-wave.webp" fetchpriority="high">
+  <link rel="stylesheet" href="/assets/seo/seo.css?v=05aa1b25">
+  <script>document.documentElement.classList.add("js");</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://artofmenu.com/#org","name":"ArtOfMenu","alternateName":"Art of Menu","url":"https://artofmenu.com/","description":"ArtOfMenu makes QR menu, table ordering and smart daily pricing software for cafés, restaurants, bars and bakeries. A product of Göktigin.","logo":"https://artofmenu.com/assets/brand/icon-512.png","parentOrganization":{"@type":"Organization","name":"Göktigin","url":"https://goktigin.com"}},{"@type":"SoftwareApplication","@id":"https://artofmenu.com/#app","name":"ArtOfMenu","url":"https://artofmenu.com/es/","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":"es","description":"Gestiona tu carta QR, los pedidos y el inventario con ArtOfMenu, y descubre las recomendaciones inteligentes de productos y los precios diarios.","publisher":{"@id":"https://artofmenu.com/#org"},"offers":[{"@type":"Offer","name":"Menu","price":"9","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","description":"Tu carta digital en minutos","priceSpecification":{"@type":"UnitPriceSpecification","price":"9","priceCurrency":"EUR","billingDuration":"P1M","unitText":"per branch per month"}},{"@type":"Offer","name":"Order","price":"29","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","description":"Pedidos desde la mesa, en el bolsillo del camarero","priceSpecification":{"@type":"UnitPriceSpecification","price":"29","priceCurrency":"EUR","billingDuration":"P1M","unitText":"per branch per month"}},{"@type":"Offer","name":"Smart","price":"59","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","description":"La inteligencia que hace crecer tu negocio","priceSpecification":{"@type":"UnitPriceSpecification","price":"59","priceCurrency":"EUR","billingDuration":"P1M","unitText":"per branch per month"}}]},{"@type":"WebSite","@id":"https://artofmenu.com/#site","url":"https://artofmenu.com/","name":"ArtOfMenu","publisher":{"@id":"https://artofmenu.com/#org"},"inLanguage":["tr","en","de","es","it","fr"]},{"@type":"Article","@id":"https://artofmenu.com/es/control-inventario-restaurante/#page","url":"https://artofmenu.com/es/control-inventario-restaurante/","name":"Control de inventario en un restaurante | ArtOfMenu","headline":"Control de inventario en un restaurante","author":{"@type":"Organization","name":"El equipo de ArtOfMenu","url":"https://artofmenu.com/es/"},"publisher":{"@id":"https://artofmenu.com/#org"},"datePublished":"2026-11-03","dateModified":"2026-11-03","description":"Cómo llevar el control de inventario de un restaurante: escandallos, recuentos, stock mínimo, FIFO, merma y qué columnas poner en tu hoja de Excel.","inLanguage":"es","isPartOf":{"@id":"https://artofmenu.com/#site"},"about":{"@id":"https://artofmenu.com/#app"},"breadcrumb":{"@id":"https://artofmenu.com/es/control-inventario-restaurante/#crumbs"},"image":["https://artofmenu.com/assets/web/og.jpg","https://artofmenu.com/assets/web/mino-wave.webp"]},{"@type":"BreadcrumbList","@id":"https://artofmenu.com/es/control-inventario-restaurante/#crumbs","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://artofmenu.com/es/"},{"@type":"ListItem","position":2,"name":"Carta QR y menú QR para tu local","item":"https://artofmenu.com/es/carta-qr/"},{"@type":"ListItem","position":3,"name":"Control de inventario en un restaurante","item":"https://artofmenu.com/es/control-inventario-restaurante/"}]},{"@type":"FAQPage","@id":"https://artofmenu.com/es/control-inventario-restaurante/#faq","mainEntity":[{"@type":"Question","name":"¿Cada cuánto hay que hacer inventario en un restaurante?","acceptedAnswer":{"@type":"Answer","text":"Los productos caros o de mucha rotación, cada semana. El inventario completo, una vez al mes. Lo importante es contar siempre a la misma hora y de la misma forma para que las cifras se puedan comparar."}},{"@type":"Question","name":"¿Qué columnas debe tener una hoja de control de inventario en Excel?","acceptedAnswer":{"@type":"Answer","text":"Producto, proveedor, unidad, precio por unidad, stock mínimo y máximo, recuento anterior, compras del periodo, recuento actual, consumo y valor del stock. Una pestaña por mes te permite comparar la evolución."}},{"@type":"Question","name":"¿Qué es el método FIFO?","acceptedAnswer":{"@type":"Answer","text":"Significa first in, first out: lo primero que entra es lo primero que se usa. Se aplica colocando la mercancía nueva detrás de la antigua. En productos perecederos manda la fecha de caducidad."}},{"@type":"Question","name":"¿Cómo calculo el stock mínimo de un producto?","acceptedAnswer":{"@type":"Answer","text":"Multiplica el consumo medio diario por los días que tarda el proveedor en entregar y suma un margen de seguridad para los días con más gente. Revisa la cifra con cada cambio de temporada."}},{"@type":"Question","name":"¿ArtOfMenu sustituye a un programa de gestión de almacén?","acceptedAnswer":{"@type":"Answer","text":"No. Ofrece informes sencillos de stock y pedidos en el plan Order y stock por receta en el plan Smart, que marca como agotados los platos cuyo ingrediente se ha acabado."}}]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="top-logo" href="/es/" aria-label="ArtOfMenu"><img src="/assets/brand/logo-aom.webp" alt="ArtOfMenu" width="900" height="391"></a>
+    <nav class="top-nav" aria-label="ArtOfMenu">
+      <a class="hide-s" href="/es/">Inicio</a>
+      <a class="hide-s" href="#plans">Precios</a>
+      <details class="langs">
+        <summary aria-label="Idiomas"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c2.6 2.8 2.6 15.2 0 18M12 3c-2.6 2.8-2.6 15.2 0 18" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>ES</span></summary>
+        <ul><li><a href="/tr/restoran-stok-takibi/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/en/restaurant-inventory-management/" hreflang="en" lang="en">English</a></li><li><a href="/de/warenwirtschaft-gastronomie/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/es/control-inventario-restaurante/" hreflang="es" lang="es" aria-current="page">Español</a></li><li><a href="/it/gestione-magazzino-ristorante/" hreflang="it" lang="it">Italiano</a></li><li><a href="/fr/gestion-des-stocks-restaurant/" hreflang="fr" lang="fr">Français</a></li></ul>
+      </details>
+      <button type="button" class="cta small" data-notify><span class="l">Avísame cuando salga</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <nav class="wrap crumbs" aria-label="Breadcrumb"><ol><li><a href="/es/">Inicio</a></li><li><a href="/es/carta-qr/">Carta QR y menú QR para tu local</a></li><li aria-current="page">Control de inventario en un restaurante</li></ol></nav>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow"><span class="soon">Próximamente</span>Guía</p>
+        <h1>Control de inventario en un restaurante</h1>
+        <p class="lead">Llevar el control de inventario de un restaurante es saber, en cada momento, qué tienes, cuánto vale, cuánto gastas y cuánto pierdes. Se consigue con cuatro hábitos: escandallos al día, recuentos regulares, stock mínimo por producto y un registro de la merma.</p>
+        <div class="hero-actions">
+          <button type="button" class="cta" data-notify><span class="l">Avísame cuando salga</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+          <a class="ghost-link" href="/es/">Mira cómo funciona</a>
+        </div>
+      </div>
+      <div class="hero-art"><img src="/assets/web/mino-wave.webp" alt="" width="367" height="760" fetchpriority="high"></div>
+    </div>
+  </section>
+
+  <section class="answer read" aria-label="En resumen">
+    <div class="answer-card"><b>En resumen</b><p>El control de inventario de un restaurante es el registro ordenado de los productos que entran, se usan y se pierden en la cocina y la barra. Se basa en escandallos, recuentos periódicos, niveles de stock mínimo, rotación FIFO y registro de mermas. ArtOfMenu, en el plan Smart, usa el stock por receta para marcar como agotados los platos cuyo ingrediente se ha terminado.</p></div>
+  </section>
+
+  <article class="body read">
+      <section data-reveal>
+        <h2>Por qué el inventario es dinero</h2>
+        <p>Todo lo que hay en la cámara, el almacén y la barra lo has pagado. Si compras de más, ese dinero está parado o se acaba tirando. Si compras de menos, te quedas sin un plato en mitad del servicio y pierdes la venta.</p>
+        <p>El control de inventario sirve para tres cosas: saber cuánto te cuesta de verdad lo que vendes, comprar lo justo y detectar a tiempo dónde se pierde producto.</p>
+        
+      </section>
+      <section data-reveal>
+        <h2>Escandallos: el coste real de cada plato</h2>
+        <p>El escandallo es la ficha de cada plato con sus ingredientes, la cantidad por ración y el precio de compra. Sin él, no puedes saber cuánto deberías haber gastado según lo que has vendido.</p>
+        <p>Incluye las mermas de preparación: si compras un kilo de merluza y después de limpiarla quedan setecientos gramos útiles, el coste por ración se calcula sobre esos setecientos. Actualiza los escandallos cuando cambie el precio de un proveedor o la receta.</p>
+        
+      </section>
+      <section data-reveal>
+        <h2>Recuento: qué contar, cuándo y cómo</h2>
+        <p>No hace falta contarlo todo cada día. Separa los productos en dos grupos: los caros o los que más se mueven (carne, pescado, destilados, café) y el resto. El primer grupo, cada semana. El inventario completo, una vez al mes.</p>
+        <ul><li>Cuenta siempre a la misma hora, antes de abrir o después de cerrar.</li><li>Sigue el mismo recorrido: cámara, congelador, almacén seco, barra.</li><li>Usa la misma unidad que en las compras: kilos, litros, botellas, unidades.</li><li>Si podéis, contad entre dos: una persona cuenta y otra apunta.</li><li>Anota también los productos abiertos, en fracción de unidad.</li></ul>
+      </section>
+      <section data-reveal>
+        <h2>Stock mínimo y punto de pedido</h2>
+        <p>El stock mínimo es la cantidad por debajo de la cual tienes que pedir. Una forma sencilla de calcularlo: consumo medio diario multiplicado por los días que tarda el proveedor en servir, más un pequeño margen de seguridad para un día con más gente de lo normal.</p>
+        <p>El stock máximo evita el problema contrario: comprar tanto que se caduque. Para productos frescos, ajústalo al consumo de pocos días. Revisa estas cifras con el cambio de temporada, porque en verano y en invierno no gastas lo mismo.</p>
+        
+      </section>
+      <section data-reveal>
+        <h2>FIFO y etiquetado</h2>
+        <p>FIFO viene del inglés first in, first out: lo primero que entra es lo primero que sale. Cuando llega la mercancía, colócala detrás de la que ya tienes, para que se use antes lo antiguo. Con productos de caducidad corta, manda la fecha de caducidad aunque haya entrado después.</p>
+        <p>Etiqueta todo lo que se abre o se prepara con el producto, la fecha de elaboración y la fecha límite de uso. Una salsa sin etiqueta acaba en la basura por dudas aunque esté bien.</p>
+        
+      </section>
+      <section data-reveal>
+        <h2>Registra la merma</h2>
+        <p>Pon una hoja junto al cubo o en la tablet de cocina y apunta todo lo que se tira: producto, cantidad y motivo. Caducado, mal conservado, mal preparado, devuelto por el cliente, roto.</p>
+        <p>Al cabo de unas semanas tendrás una lista que dice mucho. Si siempre se tira pan, compras de más. Si vuelven platos a medias, la ración es grande. Si caduca un ingrediente concreto, quizá lo usa un solo plato que se vende poco.</p>
+        
+      </section>
+      <section data-reveal>
+        <h2>Consumo teórico frente a consumo real</h2>
+        <p>Con los escandallos y las ventas del TPV puedes calcular cuánto deberías haber gastado de cada ingrediente. Comparándolo con lo que dice el recuento (stock inicial más compras menos stock final), sale la diferencia.</p>
+        <p>Una diferencia pequeña es normal. Una grande indica raciones servidas de más, mermas sin apuntar, errores en las entregas de los proveedores o producto que sale sin registrarse. Empieza revisando los productos más caros.</p>
+        
+      </section>
+      <section data-reveal>
+        <h2>Hoja de Excel o programa: qué te conviene</h2>
+        <p>Para un local pequeño, una hoja de cálculo bien hecha basta. Las columnas útiles son: producto, proveedor, unidad, precio por unidad, stock mínimo, stock máximo, recuento anterior, compras, recuento actual, consumo y valor del stock. Una pestaña por mes te deja comparar.</p>
+        <p>Cuando tienes varios locales, muchas referencias o la hoja se queda sin actualizar porque nadie tiene tiempo, compensa una herramienta que reste el stock con cada venta.</p>
+        
+      </section>
+      <section data-reveal>
+        <h2>Stock por receta en ArtOfMenu</h2>
+        <p>El plan Order de ArtOfMenu incluye informes sencillos de stock y pedidos. El plan Smart va más allá con el stock por receta: cada plato sabe qué ingredientes lleva, y cuando uno se acaba, todos los platos que lo usan aparecen como agotados en la carta sin que nadie tenga que hacerlo a mano. Así el cliente no pide un plato que la cocina ya no puede servir.</p>
+        <p>No sustituye a un programa completo de gestión de almacén ni a tus compras con proveedores, pero conecta lo que hay en la cocina con lo que ve el cliente en la carta.</p>
+        
+      </section>
+      <p class="updated" style="margin-top:40px;font-size:14px;color:var(--muted)">Actualizado: <time datetime="2026-11-03">3 de noviembre de 2026</time> · El equipo de ArtOfMenu</p>
+  </article>
+
+  <section class="steps" aria-labelledby="steps-title">
+    <div class="wrap" data-reveal>
+      <h2 id="steps-title">Cómo montar el control de inventario en un mes</h2>
+      <ol><li><h3>Haz la lista de productos</h3><p>Todo lo que compras, con proveedor, unidad de compra y precio actual.</p></li><li><h3>Escribe los escandallos</h3><p>Empieza por los diez platos que más vendes y sigue con el resto.</p></li><li><h3>Haz el primer recuento completo</h3><p>Ese será tu stock inicial y el punto de partida para comparar.</p></li><li><h3>Fija mínimos y máximos</h3><p>Con el consumo medio diario y los días de entrega de cada proveedor.</p></li><li><h3>Organiza el almacén en FIFO</h3><p>Lo antiguo delante, lo nuevo detrás, todo etiquetado con fechas.</p></li><li><h3>Empieza a registrar la merma</h3><p>Producto, cantidad y motivo, cada vez que algo se tira.</p></li><li><h3>Compara consumo teórico y real</h3><p>Al final del mes, revisa primero las diferencias en los productos caros.</p></li></ol>
+    </div>
+  </section>
+  <section class="feats" aria-labelledby="feats-title">
+    <div class="wrap">
+      <h2 id="feats-title" data-reveal>Lo que ArtOfMenu aporta aquí</h2>
+      <div class="feat-grid">
+        <article class="feat" data-reveal><img src="/assets/web/f-stock.webp" alt="" width="332" height="469" loading="lazy" decoding="async"><h3>Stock por receta</h3><p>Si se acaba un ingrediente, todos los platos que lo llevan aparecen como agotados.</p></article>
+        <article class="feat" data-reveal><img src="/assets/web/f-reports.webp" alt="" width="447" height="391" loading="lazy" decoding="async"><h3>Informes de la carta</h3><p>Señala los platos que se ven pero casi no se abren y los que se abren pero nunca se piden.</p></article>
+        <article class="feat" data-reveal><img src="/assets/web/p-bell.webp" alt="" width="373" height="315" loading="lazy" decoding="async"><h3>Pedidos desde la mesa</h3><p>El cliente pide desde la carta y el camarero ve el pedido al instante en su móvil.</p></article>
+        <article class="feat" data-reveal><img src="/assets/web/smart-night.webp" alt="" width="787" height="1200" loading="lazy" decoding="async"><h3>Precios inteligentes diarios</h3><p>Cada noche fija los precios de mañana dentro del mínimo y el máximo que tú decides.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="plans" id="plans" aria-labelledby="plans-title">
+    <div class="wrap">
+      <h2 id="plans-title" data-reveal>Planes</h2>
+      <p class="sub">Precio por local y mes. Con el pago anual pagas 10 meses y usas 12.</p>
+      <div class="billing" role="radiogroup" aria-label="Periodo de facturación">
+        <span class="billing-bg" aria-hidden="true"></span>
+        <button type="button" role="radio" data-billing="monthly" aria-checked="true">Mensual</button>
+        <button type="button" role="radio" data-billing="yearly" aria-checked="false"><span>Anual</span> <span class="billing-save">2 meses gratis</span></button>
+      </div>
+      <div class="plan-grid">
+        <article class="plan" data-reveal>
+          <h3>Menu</h3>
+          <p class="tag">La carta QR completa</p>
+          <p class="price" data-price="menu"><span class="price-amount">9 €</span><span class="price-per">/mes</span></p>
+          <ul><li>Carta QR con fotos y alérgenos</li><li>Idioma automático según el móvil</li><li>Tu propio dominio</li><li>Subida de carta en PDF</li><li>Estadísticas anónimas</li></ul>
+        </article>
+        <article class="plan" data-reveal>
+          <h3>Order</h3>
+          <p class="tag">Para pedir desde la mesa</p>
+          <p class="price" data-price="order"><span class="price-amount">29 €</span><span class="price-per">/mes</span></p>
+          <ul><li>Todo lo del plan Menu</li><li>Pedidos desde la mesa</li><li>Pantalla y avisos para camareros</li><li>Informes sencillos de stock y pedidos</li></ul>
+        </article>
+        <article class="plan hl" data-reveal>
+          <h3>Smart</h3>
+          <p class="tag">Para vender con datos</p>
+          <p class="price" data-price="smart"><span class="price-amount">59 €</span><span class="price-per">/mes</span></p>
+          <ul><li>Todo lo del plan Order</li><li>Precios inteligentes diarios y calendario de fechas especiales</li><li>Pedidos en directo y “Va bien con”</li><li>Llamada desde la mesa</li><li>Stock por receta</li><li>Pantallas de barra</li></ul>
+        </article>
+      </div>
+      <p class="note">Precios por local. Con el pago anual, 12 meses al precio de 10.</p>
+    </div>
+  </section>
+
+  <section class="faq" aria-labelledby="faq-title">
+    <div class="read">
+      <h2 id="faq-title" data-reveal>Preguntas frecuentes</h2>
+      <div class="faq-list">
+        <details open><summary>¿Cada cuánto hay que hacer inventario en un restaurante?</summary><p>Los productos caros o de mucha rotación, cada semana. El inventario completo, una vez al mes. Lo importante es contar siempre a la misma hora y de la misma forma para que las cifras se puedan comparar.</p></details>
+        <details><summary>¿Qué columnas debe tener una hoja de control de inventario en Excel?</summary><p>Producto, proveedor, unidad, precio por unidad, stock mínimo y máximo, recuento anterior, compras del periodo, recuento actual, consumo y valor del stock. Una pestaña por mes te permite comparar la evolución.</p></details>
+        <details><summary>¿Qué es el método FIFO?</summary><p>Significa first in, first out: lo primero que entra es lo primero que se usa. Se aplica colocando la mercancía nueva detrás de la antigua. En productos perecederos manda la fecha de caducidad.</p></details>
+        <details><summary>¿Cómo calculo el stock mínimo de un producto?</summary><p>Multiplica el consumo medio diario por los días que tarda el proveedor en entregar y suma un margen de seguridad para los días con más gente. Revisa la cifra con cada cambio de temporada.</p></details>
+        <details><summary>¿ArtOfMenu sustituye a un programa de gestión de almacén?</summary><p>No. Ofrece informes sencillos de stock y pedidos en el plan Order y stock por receta en el plan Smart, que marca como agotados los platos cuyo ingrediente se ha acabado.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="wrap closing-in" data-reveal>
+      <div>
+        <h2>Que la carta sepa lo que queda en cocina</h2>
+        <p>Te avisamos cuando el stock por receta de ArtOfMenu esté disponible.</p>
+        <button type="button" class="cta" data-notify data-hl-play><span class="l">Avísame cuando salga</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+      </div>
+      <div class="figure"><span class="figure-read" data-hl-read data-word="Mesa" aria-hidden="true"></span><div data-hl-stage data-label="Guía"></div></div>
+    </div>
+  </section>
+
+  <section class="related" aria-labelledby="rel-title">
+    <div class="wrap">
+      <h2 id="rel-title" data-reveal>Páginas relacionadas</h2>
+      <div class="rel-grid"><a class="rel" href="/es/ingenieria-de-menu/"><b>Ingeniería de menú: guía paso a paso</b><span>Qué es la ingeniería de menú, cómo calcular margen y popularidad, la matriz de estrellas, vacas, puzzles y perros, y un ejemplo con números.</span><i>→</i></a><a class="rel" href="/es/aumentar-ventas-restaurante/"><b>Cómo aumentar las ventas de un restaurante</b><span>Guía práctica para que tu restaurante gane más: carta, precios, ticket medio, rotación de mesas, merma y equipo. Ideas que funcionan con o sin software.</span><i>→</i></a><a class="rel" href="/es/aumentar-ventas-bar/"><b>Cómo aumentar las ventas de un bar</b><span>Guía para bares de tapas y de copas: margen por copa, happy hour, la segunda ronda, destilados premium, tapas que acompañan y control de botellas.</span><i>→</i></a><a class="rel" href="/es/menu-qr-inteligente/"><b>Menú QR inteligente</b><span>Qué hace un menú QR inteligente: orden según el tiempo, la sugerencia “Va bien con” y precios diarios dentro de tus límites. Explicado sin humo.</span><i>→</i></a></div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><a class="foot-logo" href="/es/" aria-label="ArtOfMenu"><img src="/assets/brand/logo-white.webp" alt="ArtOfMenu" width="900" height="682" loading="lazy"></a><p class="tag">Carta QR, pedidos desde la mesa y precios inteligentes para cafeterías, restaurantes, bares y pastelerías.</p></div>
+      <nav class="foot-pages" aria-label="Todas las páginas"><h2>Todas las páginas</h2><ul><li><a href="/es/carta-qr/">Carta QR y menú QR para tu local</a></li><li><a href="/es/precio-menu-qr/">Precio de un menú QR: planes desde 9 €</a></li><li><a href="/es/menu-qr-restaurante/">Menú QR para restaurantes</a></li><li><a href="/es/carta-qr-cafeteria/">Carta QR para cafeterías</a></li><li><a href="/es/carta-qr-bar/">Carta QR para bares de tapas y de copas</a></li><li><a href="/es/diseno-carta-qr/">Diseño de carta QR elegante y con tu marca</a></li><li><a href="/es/menu-qr-inteligente/">Menú QR inteligente</a></li><li><a href="/es/pedidos-desde-la-mesa/">Pedidos desde la mesa con carta QR</a></li><li><a href="/es/carta-multilingue/">Carta multilingüe para turistas</a></li><li><a href="/es/aumentar-ventas-restaurante/">Cómo aumentar las ventas de un restaurante</a></li><li><a href="/es/aumentar-ventas-bar/">Cómo aumentar las ventas de un bar</a></li><li><a href="/es/aumentar-ventas-cafeteria/">Cómo aumentar las ventas de una cafetería</a></li><li><a href="/es/ingenieria-de-menu/">Ingeniería de menú: guía paso a paso</a></li><li><a href="/es/control-inventario-restaurante/">Control de inventario en un restaurante</a></li><li><a href="/es/crear-menu-qr/">Cómo crear un menú QR paso a paso</a></li></ul></nav>
+      <nav aria-label="Idiomas"><h2>Idiomas</h2><ul><li><a href="/tr/restoran-stok-takibi/" hreflang="tr" lang="tr">Türkçe</a></li><li><a href="/en/restaurant-inventory-management/" hreflang="en" lang="en">English</a></li><li><a href="/de/warenwirtschaft-gastronomie/" hreflang="de" lang="de">Deutsch</a></li><li><a href="/es/control-inventario-restaurante/" hreflang="es" lang="es">Español</a></li><li><a href="/it/gestione-magazzino-ristorante/" hreflang="it" lang="it">Italiano</a></li><li><a href="/fr/gestion-des-stocks-restaurant/" hreflang="fr" lang="fr">Français</a></li></ul></nav>
+    </div>
+    <p class="foot-copy">© 2026 <a href="https://goktigin.com" target="_blank" rel="noopener">Göktigin</a></p>
+  </div>
+</footer>
+
+<dialog class="notify" id="notify" aria-labelledby="nf-title">
+  <form class="nf-form" id="nf-form" novalidate data-endpoint="https://aom-waitlist.ozgurhaluk-krky.workers.dev" data-sitekey="0x4AAAAAAFv0fEhL9ghMmw3a">
+    <button type="button" class="nf-close" data-nf-close aria-label="Cerrar"><svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+    <img class="nf-mark" src="/assets/brand/logo-aom.webp" alt="" width="900" height="391">
+    <h2 id="nf-title">Entérate antes que nadie</h2>
+    <p class="nf-lead">Te escribiremos cuando ArtOfMenu esté disponible. Comparte el enlace de Google Maps de tu negocio para que podamos conocerte.</p>
+    <label class="nf-field"><span>Nombre y apellidos</span><input type="text" name="fullname" autocomplete="name" maxlength="120" required></label>
+    <label class="nf-field"><span>Tu correo electrónico</span><input type="email" name="email" autocomplete="email" inputmode="email" maxlength="254" required></label>
+    <label class="nf-field"><span>Tu negocio en Google Maps (enlace)</span><input type="url" name="maps" inputmode="url" maxlength="500" placeholder="https://maps.app.goo.gl/…" required><small>Abre tu negocio en Google Maps, toca Compartir y copia el enlace.</small></label>
+    <fieldset class="nf-plans">
+      <legend>El plan que te interesa</legend>
+      <label><input type="radio" name="plan" value="menu"><span>Menu</span></label>
+      <label><input type="radio" name="plan" value="order"><span>Order</span></label>
+      <label><input type="radio" name="plan" value="smart"><span>Smart</span></label>
+      <label><input type="radio" name="plan" value="undecided" checked><span>Aún no lo sé</span></label>
+    </fieldset>
+    <label class="nf-consent"><input type="checkbox" name="consent" required><span>Acepto que se guarden mi nombre, mi correo electrónico y el enlace que comparto para recibir información sobre el lanzamiento y los planes. Puedo pedir que se eliminen en cualquier momento.</span></label>
+    <input class="nf-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+    <div class="nf-check" id="nf-check"></div>
+    <p class="nf-status" id="nf-status" role="status" aria-live="polite"></p>
+    <button type="submit" class="cta nf-submit"><span>Avísame</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></button>
+  </form>
+  <div class="nf-done" id="nf-done" hidden>
+    <img class="nf-mark" src="/assets/brand/logo-aom.webp" alt="" width="900" height="391">
+    <h2>Ya estás en la lista</h2>
+    <p class="nf-lead">Serás de los primeros en saber cuándo ArtOfMenu esté disponible.</p>
+    <button type="button" class="cta" data-nf-close><span>Cerrar</span></button>
+  </div>
+</dialog>
+
+<script src="/i18n.js?v=c1f95530"></script>
+<script src="/gun-i18n.js?v=fe044374"></script>
+<script src="/pricing.js?v=c1342e40"></script>
+<script src="/notify.js?v=3af369f0"></script>
+<script src="/assets/seo/seo.js?v=b3754054"></script>
+<script src="/assets/hairline/kernel.js?v=534c7fdd"></script>
+<script type="module" src="/assets/hairline/stands.js?v=534f7d29"></script>
+</body>
+</html>

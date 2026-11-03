@@ -503,6 +503,94 @@ window.AOM_I18N = {
     "join.failed": "Das hat gerade nicht geklappt. Bitte gleich noch einmal versuchen.",
 
     "footer.reach": "Verfügbar in 216 Ländern. Auf Türkisch, Englisch und Deutsch."
+  },
+
+  // es, it and fr carry only the keys the homepage reads; everything else falls back to English.
+  es: {
+    "meta.title": "ArtOfMenu: El menú que te hace ganar más",
+    "meta.desc": "Carta QR, pedidos desde la mesa, inventario y precios diarios inteligentes en un solo lugar para cafeterías, restaurantes, bares y pastelerías.",
+
+    "plans.title": "Elige el plan que mejor encaja con tu negocio.",
+    "plans.lead": "Todos los planes empiezan con la carta QR. Añade pedidos desde la mesa, inventario y precios diarios inteligentes cuando los necesites. Si cambias a un plan más pequeño, tus datos se conservan.",
+    "p.menu.tag": "Tu carta digital en minutos",
+    "p.menu.1": "Carta QR, fotos, alérgenos, varios idiomas",
+    "p.menu.2": "Tu propio dominio",
+    "p.menu.3": "Sube tu carta en PDF y publícala",
+    "p.menu.4": "Estadísticas anónimas de la carta",
+    "p.order.tag": "Pedidos desde la mesa, en el bolsillo del camarero",
+    "p.order.1": "Todo lo de Menu",
+    "p.order.2": "Pedidos desde la mesa, pantalla de sala en directo y notificaciones",
+    "p.order.3": "Informes sencillos de stock y pedidos",
+    "p.smart.tag": "La inteligencia que hace crecer tu negocio",
+    "p.smart.1": "Todo lo de Order",
+    "p.smart.2": "Precios diarios inteligentes y calendario de fechas especiales",
+    "p.smart.3": "Orden de la carta en directo y sugerencias \"combina bien con\"",
+    "p.smart.4": "Llamada desde la mesa, stock por recetas, pantallas de barra",
+    "plans.note": "Precios por local. Con el pago anual, 12 meses al precio de 10.",
+    "price.monthly": "Mensual",
+    "price.yearly": "Anual",
+    "price.save": "2 meses gratis",
+    "price.perMonth": "/mes",
+    "price.perYear": "/año",
+    "price.label": "Periodo de facturación"
+  },
+
+  it: {
+    "meta.title": "ArtOfMenu: Il menù che ti fa guadagnare di più",
+    "meta.desc": "Menù QR, ordini dal tavolo, magazzino e prezzi giornalieri intelligenti in un unico posto per bar, caffetterie, ristoranti e pasticcerie.",
+
+    "plans.title": "Scegli il piano adatto alla tua attività.",
+    "plans.lead": "Ogni piano parte dal menù QR. Aggiungi ordini dal tavolo, magazzino e prezzi giornalieri intelligenti quando ti servono. Se passi a un piano più piccolo, i tuoi dati restano.",
+    "p.menu.tag": "Il tuo menù digitale in pochi minuti",
+    "p.menu.1": "Menù QR, foto, allergeni, più lingue",
+    "p.menu.2": "Il tuo dominio personale",
+    "p.menu.3": "Carica il menù in PDF e pubblicalo",
+    "p.menu.4": "Statistiche anonime del menù",
+    "p.order.tag": "Ordini dal tavolo, in tasca al cameriere",
+    "p.order.1": "Tutto di Menu",
+    "p.order.2": "Ordini dal tavolo, schermata di sala in tempo reale e notifiche",
+    "p.order.3": "Report semplici su magazzino e ordini",
+    "p.smart.tag": "L'intelligenza che fa crescere la tua attività",
+    "p.smart.1": "Tutto di Order",
+    "p.smart.2": "Prezzi giornalieri intelligenti e calendario delle date speciali",
+    "p.smart.3": "Ordine del menù in tempo reale e suggerimenti \"si abbina bene con\"",
+    "p.smart.4": "Chiamata dal tavolo, magazzino per ricetta, schermi per il banco",
+    "plans.note": "Prezzi per sede. Con il pagamento annuale, 12 mesi al prezzo di 10.",
+    "price.monthly": "Mensile",
+    "price.yearly": "Annuale",
+    "price.save": "2 mesi gratis",
+    "price.perMonth": "/mese",
+    "price.perYear": "/anno",
+    "price.label": "Periodo di fatturazione"
+  },
+
+  fr: {
+    "meta.title": "ArtOfMenu : la carte qui vous rapporte plus",
+    "meta.desc": "Menu QR, commande à table, stocks et prix quotidiens intelligents réunis au même endroit pour les cafés, restaurants, bars et pâtisseries.",
+
+    "plans.title": "Choisissez la formule adaptée à votre établissement.",
+    "plans.lead": "Chaque formule commence par le menu QR. Ajoutez la commande à table, les stocks et les prix quotidiens intelligents selon vos besoins. Si vous passez à une formule plus petite, vos données sont conservées.",
+    "p.menu.tag": "Votre carte digitale en quelques minutes",
+    "p.menu.1": "Menu QR, photos, allergènes, plusieurs langues",
+    "p.menu.2": "Votre propre nom de domaine",
+    "p.menu.3": "Importez votre carte PDF et mettez-la en ligne",
+    "p.menu.4": "Statistiques anonymes de la carte",
+    "p.order.tag": "La commande à table, dans la poche du serveur",
+    "p.order.1": "Tout ce qu'inclut Menu",
+    "p.order.2": "Commande à table, écran de salle en direct et notifications",
+    "p.order.3": "Rapports simples sur les stocks et les commandes",
+    "p.smart.tag": "L'intelligence qui fait grandir votre établissement",
+    "p.smart.1": "Tout ce qu'inclut Order",
+    "p.smart.2": "Prix quotidiens intelligents et calendrier des dates spéciales",
+    "p.smart.3": "Ordre de la carte en direct et suggestions « se marie bien avec »",
+    "p.smart.4": "Appel depuis la table, stocks par recette, écrans de comptoir",
+    "plans.note": "Prix par établissement. En paiement annuel, 12 mois pour le prix de 10.",
+    "price.monthly": "Mensuel",
+    "price.yearly": "Annuel",
+    "price.save": "2 mois offerts",
+    "price.perMonth": "/mois",
+    "price.perYear": "/an",
+    "price.label": "Période de facturation"
   }
 };
 

@@ -25,7 +25,7 @@
       if (region) return "USD";
     }
     // No region in the browser language: fall back on the page language.
-    return lang === "tr" ? "TRY" : lang === "de" ? "EUR" : "USD";
+    return lang === "tr" ? "TRY" : (lang === "de" || lang === "es" || lang === "it" || lang === "fr") ? "EUR" : "USD";
   }
 
   function format(value, cur, lang) {

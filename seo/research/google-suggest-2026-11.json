@@ -1,0 +1,613 @@
+{
+ "tr": {
+  "qr menü": [
+   "qr menü",
+   "qr menü oluşturma",
+   "qr menü fiyatları",
+   "qr menü standı",
+   "qr menü örnekleri",
+   "qr menü nasıl yapılır",
+   "qr menü okutma",
+   "qr menü akınsoft",
+   "qr menü oluşturma ücretsiz",
+   "qr menü baskı"
+  ],
+  "qr menü fiyat": [
+   "qr menü fiyatları",
+   "qr menü fiyat değiştirme",
+   "midpoint qr menü fiyat",
+   "izmir qr menü fiyatları",
+   "akınsoft qr menü fiyatları",
+   "midpoint qr menü fiyat 2026",
+   "qr menü oluşturma fiyat",
+   "cadının evi qr menü fiyatları"
+  ],
+  "qr menü ücretsiz": [
+   "qr menü ücretsiz",
+   "qr menü oluşturma ücretsiz",
+   "qr menü scripti ücretsiz"
+  ],
+  "qr menü oluşturma": [
+   "qr menü oluşturma",
+   "qr menü oluşturma ücretsiz",
+   "qr menü oluşturma canva",
+   "qr menü oluşturma fiyat",
+   "qr kod menü oluşturma",
+   "restoran qr menü oluşturma",
+   "qr kodlu menü oluşturma"
+  ],
+  "restoran qr menü": [
+   "restoran qr menü",
+   "restoran qr menü oluşturma",
+   "restoran qr menü nasıl yapılır",
+   "restoran menü qr kod",
+   "myk restoran qr menü",
+   "trilye restoran qr menü",
+   "alaz restoran qr menü",
+   "göksu restoran qr menü"
+  ],
+  "kafe qr menü": [
+   "cafe qr menü",
+   "yalı cafe qr menü"
+  ],
+  "dijital menü": [
+   "dijital menü",
+   "dijital menü board",
+   "dijital menü board fiyatları",
+   "dijital menü board ikinci el",
+   "dijital menü ekranı",
+   "dijital menü platformu",
+   "dijital menü oluşturma",
+   "dijital menü giriş",
+   "dijital menü board sahibinden",
+   "dijital menü board ekran"
+  ],
+  "qr kod menü": [
+   "qr kod menü",
+   "qr kod menü oluşturma",
+   "qr kod menü oluşturma ücretsiz",
+   "qr kod menü örnekleri",
+   "qr kod menü standı",
+   "qr kod menü fiyatları",
+   "qr kod menü nasıl yapılır",
+   "qr kod menü okutma",
+   "qr kod menü pleksi",
+   "qr kod menü oluşturma fiyatları"
+  ],
+  "masadan sipariş": [
+   "masadan sipariş ver",
+   "masadan sipariş",
+   "masadan sipariş sistemi"
+  ],
+  "restoran sipariş sistemi": [
+   "restoran sipariş sistemi fiyatları",
+   "restoran sipariş sistemi ücretsiz",
+   "restoran sipariş takip sistemi",
+   "restoran online sipariş sistemi",
+   "cafe restoran sipariş sistemi"
+  ],
+  "restoran nasıl daha çok kazanır": [],
+  "kafe ciro artırma": [],
+  "bar ciro nasıl artırılır": [],
+  "restoran stok takibi": [
+   "restoran stok takibi nasıl yapılır",
+   "restoran stok takibi"
+  ],
+  "menü fiyatlandırma": [
+   "menü fiyatlandırma",
+   "menü fiyatlandırma yöntemleri"
+  ],
+  "menü mühendisliği": [
+   "menü mühendisliği",
+   "menü mühendisliği nedir",
+   "menü mühendisliği matrisi",
+   "menü mühendisliği eğitimi",
+   "iki boyutlu menü mühendisliği matrisi"
+  ],
+  "akıllı menü": [
+   "akıllı menü",
+   "akıllı binalar menü",
+   "akıllı telefon menüsü düşen kelime",
+   "affan akıllı menü",
+   "akıllı inverter menü ayarları",
+   "akıllı saat menü değiştirme",
+   "akıllı qr menü",
+   "akıllı telefon menüsü",
+   "akıllı kumandada menü tuşu hangisi",
+   "akıllı saat türkçe menü"
+  ],
+  "garson çağırma sistemi": [
+   "garson çağırma sistemi"
+  ],
+  "çok dilli menü": [],
+  "qr menü programı": []
+ },
+ "en": {
+  "qr menu": [
+   "qr menu",
+   "qr menu restaurant",
+   "qr menu maker",
+   "qr menu generator",
+   "qr menu design",
+   "qr menu stand",
+   "qr menu creator",
+   "qr menu mongolia",
+   "qr menu ordering system",
+   "qr menu login"
+  ],
+  "qr code menu": [
+   "qr code menu",
+   "qr code menu restaurant",
+   "qr code menu free",
+   "qr code menu generator",
+   "qr code menu card",
+   "qr code menu stand",
+   "qr code menu design",
+   "qr code menu meme",
+   "qr code menus are stupid",
+   "qr code menu ordering"
+  ],
+  "qr menu for restaurant": [
+   "qr menu for restaurants",
+   "qr menu for restaurants free",
+   "qr menu for restaurants india",
+   "qr code menu for restaurants",
+   "digital qr menu for restaurant",
+   "best qr menu for restaurants",
+   "qr menu for cafe",
+   "qr menu restaurant github",
+   "qr menu restaurant app",
+   "qr menu restaurant codecanyon"
+  ],
+  "digital menu for restaurant": [
+   "digital menu for restaurants",
+   "digital menu for restaurants india",
+   "digital menu for restaurants free",
+   "digital menu for restaurants template",
+   "digital menu for restaurants near me",
+   "digital menu for restaurants in uae",
+   "digital menu for restaurants github",
+   "electronic menu for restaurants",
+   "digital menu boards for restaurants",
+   "digital menu screens for restaurants"
+  ],
+  "contactless menu": [
+   "contactless menu",
+   "contactless menu qr code",
+   "contactless menu for restaurants",
+   "menu contactless bca",
+   "contactless digital menu",
+   "menu contactless edc bca",
+   "menu contactless di mybca",
+   "my contactless menu@mycia.it",
+   "my contactless menu",
+   "contactless payment restaurants near me"
+  ],
+  "qr menu free": [
+   "qr menu free",
+   "qr code menu free",
+   "qr menu generator free",
+   "create qr menu free",
+   "qr menu restaurant free",
+   "qr menu creator free",
+   "qr code menu free online",
+   "how to make qr menu free",
+   "qr code for pdf menu free",
+   "qr code menu ordering free"
+  ],
+  "qr menu pricing": [
+   "qr menu pricing",
+   "qr code menu price"
+  ],
+  "table ordering system": [
+   "table ordering system",
+   "table ordering system for restaurants",
+   "table ordering system free",
+   "table ordering software",
+   "table top ordering system",
+   "qr table ordering system",
+   "free table ordering system for restaurants",
+   "smart table ordering system",
+   "table food ordering system",
+   "best qr table ordering system in perth"
+  ],
+  "restaurant ordering app": [
+   "restaurant ordering app",
+   "restaurant ordering app for small business",
+   "restaurant ordering app free",
+   "restaurant ordering application",
+   "restaurant ordering app ui",
+   "restaurant ordering app template",
+   "restaurant ordering app design",
+   "restaurant order app for waiters",
+   "restaurant order app for customers",
+   "restaurant app ordering system"
+  ],
+  "how to increase restaurant sales": [
+   "how to increase restaurant sales",
+   "how to increase restaurant sales without advertising",
+   "how to increase restaurant sales through social media",
+   "how to increase restaurant sales online",
+   "how to increase restaurant sales in india",
+   "how to increase restaurant sales reddit",
+   "how to increase restaurant sales in zomato",
+   "how to boost your restaurant sales",
+   "how to build restaurant sales",
+   "how to raise restaurant sales"
+  ],
+  "how to increase bar sales": [
+   "how to increase bar sales",
+   "how to increase bar sales in a restaurant",
+   "how to increase liquor sales in restaurant",
+   "how to increase liquor sales",
+   "how to increase pub sales",
+   "how to increase sales liquor store",
+   "how to increase beer sales in a bar",
+   "how to increase your sales"
+  ],
+  "how to increase cafe profit": [
+   "how to increase restaurant profit",
+   "how to increase restaurant profit margin",
+   "how to increase cafe sales",
+   "how to increase cafe income ac unity",
+   "how to increase cafe revenue",
+   "how to increase cafe theatre income",
+   "how to increase cafe theatre income ac unity",
+   "how to increase my cafe sales",
+   "how to increase profit in cafe",
+   "can a cafe be profitable"
+  ],
+  "menu engineering": [
+   "menu engineering",
+   "menu engineering matrix",
+   "menu engineering meaning",
+   "menu engineering adalah",
+   "menu engineering worksheet",
+   "menu engineering pdf",
+   "menu engineering formula",
+   "menu engineering in food and beverage",
+   "menu engineering grid",
+   "menu engineering analysis"
+  ],
+  "dynamic pricing restaurant": [
+   "dynamic pricing restaurants",
+   "dynamic pricing restaurants examples",
+   "dynamic pricing fast food restaurants",
+   "dynamic pricing grocery stores",
+   "what is meant by dynamic pricing",
+   "dynamic pricing define"
+  ],
+  "restaurant inventory management": [
+   "restaurant inventory management",
+   "restaurant inventory management software",
+   "restaurant inventory management excel",
+   "restaurant inventory management system",
+   "restaurant inventory management excel free download",
+   "restaurant inventory management software free",
+   "restaurant inventory management app",
+   "restaurant inventory management free",
+   "restaurant inventory management course",
+   "restaurant inventory management excel template"
+  ],
+  "multilingual menu": [
+   "multilingual menu",
+   "multilingual menu urls",
+   "drupal/multilingual menu urls",
+   "wix multilingual menu",
+   "hugo multilingual menu",
+   "multilingual restaurant menu",
+   "malum menu multilingual",
+   "drupal menu multilingual",
+   "how multilingual is multilingual bert"
+  ],
+  "qr menu maker": [
+   "qr menu maker",
+   "qr menu maker free",
+   "qr menu maker saas",
+   "qr menu maker codecanyon",
+   "qr menu creator",
+   "qr menu generator",
+   "qr menu generator free",
+   "online qr menu maker",
+   "qr code restaurant menu maker",
+   "qr code menu example"
+  ],
+  "best qr menu app": [
+   "best qr code menu app",
+   "what is the best qr app",
+   "what is the best app for qr codes"
+  ]
+ },
+ "de": {
+  "qr code speisekarte": [
+   "qr code speisekarte",
+   "qr code speisekarte hans im glück",
+   "qr code speisekarte erstellen",
+   "qr code speisekarte lesen",
+   "qr code speisekarte kostenlos",
+   "qr code speisekarte erstellen kostenlos",
+   "qr code beispiel speisekarte",
+   "restaurant qr code speisekarte",
+   "qr code generator speisekarte"
+  ],
+  "digitale speisekarte": [
+   "digitale speisekarte",
+   "digitale speisekarte ice",
+   "digitale speisekarte db",
+   "digitale speisekarte monitor",
+   "digitale speisekarte kostenlos",
+   "digitale speisekarte tv",
+   "digitale speisekarte restaurant",
+   "digitale speisekarte erstellen",
+   "digitale speisekarte mit bestellfunktion",
+   "digitale speisekarte bahn"
+  ],
+  "qr speisekarte kostenlos": [
+   "qr code speisekarte kostenlos",
+   "speisekarte qr code kostenlos erstellen"
+  ],
+  "speisekarte qr code erstellen": [
+   "speisekarte qr code erstellen",
+   "speisekarte qr code kostenlos erstellen",
+   "online speisekarte erstellen qr code"
+  ],
+  "digitale speisekarte restaurant": [
+   "digitale speisekarte restaurant"
+  ],
+  "bestellen am tisch": [
+   "bestellen am tisch"
+  ],
+  "tischbestellung app": [],
+  "restaurant umsatz steigern": [
+   "restaurant umsatz steigern"
+  ],
+  "bar umsatz steigern": [],
+  "café umsatz steigern": [
+   "cafe umsatz steigern"
+  ],
+  "speisekarte mehrsprachig": [
+   "mehrsprachige speisekarte"
+  ],
+  "warenwirtschaft gastronomie": [
+   "warenwirtschaft gastronomie",
+   "warenwirtschaft gastronomie excel",
+   "warenwirtschaft gastronomie kostenlos"
+  ],
+  "dynamische preise gastronomie": [],
+  "menu engineering": [
+   "menu engineering",
+   "menu engineering in der gastronomie",
+   "menu engineering deutsch",
+   "menu engineering wird in der gastronomie eingesetzt",
+   "menu engineering meaning",
+   "menu engineering book",
+   "menu engineering mercedes",
+   "menu engineering restaurant",
+   "menu engineering bedeutung",
+   "menu engineering popularity formula"
+  ]
+ },
+ "es": {
+  "menú qr": [
+   "menú qr",
+   "menú qr restaurante gratis",
+   "menu qr restaurante",
+   "menu qr gratis",
+   "menu qr para restaurantes",
+   "menu qr pizza hut el salvador",
+   "menu qr pizza hut",
+   "menu qr toks",
+   "menu qr soft restaurant",
+   "menu qr acrilico"
+  ],
+  "carta qr": [
+   "carta qr",
+   "carta qr fudo",
+   "carta qr parrilla el quincho",
+   "carta qr loi suites",
+   "carta qr pilar restaurante",
+   "carta qr anduriña",
+   "carta qr la luna",
+   "carta qr online",
+   "carta qr henry cook",
+   "carta qr bar"
+  ],
+  "menú digital restaurante": [
+   "menú digital restaurante",
+   "menu digital para restaurantes",
+   "menú digital para restaurantes gratis",
+   "menu digital para restaurantes qr",
+   "pantallas menu digital para restaurantes",
+   "crear menu digital para restaurantes",
+   "crear menu digital para restaurantes gratis"
+  ],
+  "carta digital qr": [],
+  "menú qr gratis": [
+   "menu qr gratis",
+   "menú qr restaurante gratis",
+   "crear menu qr gratis",
+   "menu digital qr gratis",
+   "menu por qr gratis",
+   "menu qr online gratis",
+   "buat qr menu gratis",
+   "crea menu qr code gratis"
+  ],
+  "pedidos desde la mesa": [
+   "pedidos mesa"
+  ],
+  "cómo aumentar las ventas de un restaurante": [
+   "como aumentar las ventas de un restaurante",
+   "como aumentar las ventas en un restaurante de comida rápida"
+  ],
+  "cómo aumentar las ventas de un bar": [
+   "como aumentar las ventas de un bar"
+  ],
+  "ingeniería de menú": [
+   "ingeniería de menú",
+   "ingeniería de menú pdf",
+   "ingeniería de menú plantillas",
+   "ingeniería de menú libro pdf",
+   "ingeniería de menú excel gratis",
+   "ingeniería de menú formulas",
+   "ingeniería de menú excel",
+   "ingeniería de menú para restaurantes",
+   "ingeniería de menús plantilla excel",
+   "ingeniería de menú libro"
+  ],
+  "carta digital multilingüe": [],
+  "control de inventario restaurante": [
+   "control de inventario restaurante",
+   "control de inventario restaurante excel",
+   "control de inventario para restaurantes excel gratis",
+   "formato control de inventario restaurante"
+  ]
+ },
+ "it": {
+  "menu qr": [
+   "menu qr code",
+   "menu qr code ristorante",
+   "menu qr",
+   "menu qr code prezzi",
+   "menu qr food",
+   "menu qr code gratis",
+   "menu qr code generator",
+   "menu qr code restaurant",
+   "menu qr code generator free",
+   "menu qr code design"
+  ],
+  "menù digitale": [
+   "menù digitale",
+   "menù digitale scilla e cariddi",
+   "menù digitale ulives",
+   "menù digitale ristorante",
+   "menu digitale io",
+   "menu digitale gratis",
+   "menu digitale login",
+   "menu digitale qr code",
+   "menu digitale qr code gratis",
+   "menu digitale online"
+  ],
+  "menu digitale ristorante": [
+   "menù digitale ristorante"
+  ],
+  "menu qr code gratis": [
+   "menu qr code gratis",
+   "menu digitale qr code gratis",
+   "crea menu qr code gratis",
+   "qr code menu ristorante gratis",
+   "qr code per menu gratis"
+  ],
+  "ordinazioni al tavolo": [],
+  "come aumentare il fatturato di un ristorante": [
+   "come aumentare il fatturato di un ristorante"
+  ],
+  "come aumentare gli incassi di un bar": [
+   "come aumentare gli incassi di un bar"
+  ],
+  "menu engineering": [
+   "menu engineering",
+   "menu engineering a practical guide to menu analysis",
+   "menu engineering pdf",
+   "menu engineering worksheet",
+   "menu engineering template",
+   "menu engineering matrix excel",
+   "menu engineering book",
+   "menu engineering worksheet excel free download",
+   "menu engineering software",
+   "menu engineering mercedes"
+  ],
+  "menu multilingua": [
+   "menu multilingual",
+   "multilingual menu urls",
+   "drupal menu multilingual",
+   "malum menu multilingual",
+   "drupal/multilingual menu urls",
+   "wix multilingual menu",
+   "hugo multilingual menu"
+  ],
+  "gestione magazzino ristorante": [
+   "gestione magazzino ristorante",
+   "software gestione magazzino ristorante"
+  ]
+ },
+ "fr": {
+  "menu qr code": [
+   "menu qr code",
+   "menu qr code restaurant",
+   "menu qr code tunisie",
+   "menu qr code gratuit",
+   "menu qr code canva",
+   "menu bar qr code",
+   "menu qr code table",
+   "menu qr code sticker",
+   "app.menu qr code",
+   "menu qr code maroc"
+  ],
+  "menu digital restaurant": [
+   "menu digital restaurant",
+   "menu digital restaurant gratuit",
+   "menu digital restaurant qr code",
+   "menu digital restaurantes",
+   "menu numérique restaurant",
+   "menu web restaurant",
+   "menu digital pour restaurant",
+   "porte menu digital restaurant",
+   "menu digital écran restaurant",
+   "digital menu restaurant github"
+  ],
+  "carte qr code": [
+   "carte qr code",
+   "carte qr code avis google",
+   "carte qr code pokemon",
+   "carte qr code mariage",
+   "carte qr code photo mariage",
+   "carte qr code restaurant",
+   "carte qr code google",
+   "carte qr code personnalisé",
+   "carte qr code instagram",
+   "carte qr code gratuit"
+  ],
+  "menu qr code gratuit": [
+   "menu qr code gratuit",
+   "menu qr code gratuito",
+   "menu restaurant qr code gratuit",
+   "créer qr code menu restaurant gratuit",
+   "menu qr code free",
+   "menu qr code generator free",
+   "create menu qr code free",
+   "restaurant menu qr code free",
+   "digital menu qr code free",
+   "online menu qr code free"
+  ],
+  "commande à table": [
+   "commande à table",
+   "commode table à langer",
+   "commande tableau de bord voiture",
+   "commande tableau de bord",
+   "commande tableau",
+   "commande tablette",
+   "commande tableau de bord clio 5",
+   "commande table de routage windows",
+   "commande tableau photo",
+   "commande tableau de bord peugeot 2008"
+  ],
+  "augmenter chiffre d'affaires restaurant": [
+   "augmenter chiffre d affaire restaurant"
+  ],
+  "augmenter chiffre d'affaires bar": [],
+  "ingénierie de menu": [
+   "ingénierie de menu"
+  ],
+  "menu multilingue restaurant": [],
+  "gestion des stocks restaurant": [
+   "gestion des stocks restaurant",
+   "gestion des stocks restauration pdf",
+   "gestion des stocks restauration collective",
+   "logiciel gestion des stocks restaurant",
+   "gestion de stock restaurant excel",
+   "gestion stock restaurant excel gratuit",
+   "formation gestion des stocks restauration",
+   "gestionnaire de stock restaurant"
+  ]
+ }
+}
