@@ -1,0 +1,125 @@
+{
+  "key": "company",
+  "version": "1.1",
+  "locale": "it",
+  "title": "Società e informazioni legali",
+  "effective": "2026-11-08",
+  "summary": "Art of Menu è un prodotto software di Göktigin Bilişim Teknoloji Ltd. Şti. Questa pagina riporta i dati identificativi, i recapiti e i dati fiscali della Società, nonché i documenti legali relativi ad Art of Menu.",
+  "sections": [
+    {
+      "id": "identity",
+      "heading": "1. Dati della Società",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Dato",
+              "Valore"
+            ],
+            "rows": [
+              [
+                "Ragione sociale",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Nome del prodotto",
+                "Art of Menu (denominazione commerciale del prodotto software di proprietà della Società)"
+              ],
+              [
+                "Sede legale",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Turchia"
+              ],
+              [
+                "Ufficio delle imposte",
+                "Antalya Kurumlar Vergi Dairesi (Ufficio delle imposte per le società di Antalya)"
+              ],
+              [
+                "Codice fiscale",
+                "4060725346"
+              ],
+              [
+                "Numero MERSİS (sistema centrale del registro delle imprese)",
+                "0406072534600001"
+              ],
+              [
+                "Registro delle imprese",
+                "Registro delle imprese di Antalya — 137005"
+              ],
+              [
+                "Indirizzo KEP (posta elettronica certificata)",
+                "[da completare]"
+              ],
+              [
+                "Telefono",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "heading": "2. Attività",
+      "blocks": [
+        {
+          "p": "L'attività principale della Società è la programmazione informatica (codice attività 621000). Con il nome Art of Menu, la Società fornisce in abbonamento a ristoranti, bar e attività analoghe un software per menu digitali QR e gestione degli ordini. La Società non è il venditore dei prodotti che le attività vendono ai propri clienti."
+        },
+        {
+          "p": "Gli abbonamenti Art of Menu sono venduti direttamente dalla Società alle attività in Turchia e in altri paesi. Il fornitore e venditore del servizio è la Società."
+        }
+      ]
+    },
+    {
+      "id": "hosting",
+      "heading": "3. Hosting e presenza all'estero",
+      "blocks": [
+        {
+          "p": "I dati principali di Art of Menu sono ospitati nell'infrastruttura server gestita dalla Società."
+        },
+        {
+          "p": "La Società non ha società, sedi secondarie, uffici o rappresentanti al di fuori della Turchia."
+        }
+      ]
+    },
+    {
+      "id": "data-requests",
+      "heading": "4. Richieste relative ai dati personali",
+      "blocks": [
+        {
+          "p": "Puoi inoltrare alla Società le richieste relative ai tuoi diritti ai sensi della Legge n. 6698 sulla protezione dei dati personali (KVKK) e, ove applicabile, del GDPR, nei seguenti modi:"
+        },
+        {
+          "ul": [
+            "inviando un'e-mail all'indirizzo [hello@goktigin.com](mailto:hello@goktigin.com) dall'indirizzo e-mail registrato nei sistemi della Società;",
+            "inviando una richiesta scritta con firma autografa alla sede legale sopra indicata."
+          ]
+        },
+        {
+          "p": "In qualità di cliente di un'attività, le richieste relative ai dati che l'attività detiene su di te devono essere rivolte all'attività, che è titolare del trattamento. Se tali richieste pervengono alla Società, questa le inoltra all'attività interessata."
+        }
+      ]
+    },
+    {
+      "id": "legal-documents",
+      "heading": "5. Documenti legali",
+      "blocks": [
+        {
+          "ul": [
+            "[Contratto di Servizio Art of Menu per le Attività](doc:business-terms)",
+            "[Accordo sul trattamento dei dati](doc:dpa)",
+            "[Contratto di Partnership Commerciale](doc:partner-terms)",
+            "[Informativa KVKK e Informativa sulla privacy per gli utenti delle Attività](doc:privacy-business)",
+            "[Informativa KVKK per i Partner commerciali](doc:privacy-partner)",
+            "[Informativa privacy per gli ospiti](doc:privacy-guest)",
+            "[Politica sui cookie e tecnologie simili](doc:cookies)"
+          ]
+        }
+      ]
+    }
+  ]
+}

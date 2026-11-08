@@ -1,0 +1,99 @@
+{
+  "key": "cookies",
+  "version": "1.0",
+  "locale": "fr",
+  "title": "Politique relative aux cookies et technologies similaires",
+  "effective": "2026-11-08",
+  "summary": "La présente politique décrit les cookies et les technologies de stockage du navigateur utilisés dans le panneau de l'établissement, le portail partenaire commercial, le portail serveur et le menu des convives d'Art of Menu. Art of Menu utilise uniquement les cookies strictement nécessaires au fonctionnement du service et un stockage fonctionnel dans le navigateur. Aucun cookie d'analyse, de publicité ou de marketing n'est utilisé.",
+  "sections": [
+    {
+      "id": "operator",
+      "heading": "1. Société responsable",
+      "blocks": [
+        { "p": "Art of Menu est exploité par Göktigin Bilişim Teknoloji Ltd. Şti. (la Société). Les informations relatives à la Société figurent sur la page [Société et informations légales](doc:company). Pour toute question, vous pouvez écrire à [hello@goktigin.com](mailto:hello@goktigin.com)." }
+      ]
+    },
+    {
+      "id": "what",
+      "heading": "2. Qu'est-ce qu'un cookie et qu'est-ce que le stockage du navigateur ?",
+      "blocks": [
+        { "p": "Un cookie est un petit fichier texte qu'un site internet enregistre dans votre navigateur et qui est renvoyé au site lors des requêtes suivantes. Le stockage local (localStorage) et le stockage de session (sessionStorage) sont des technologies similaires qui permettent au site de conserver des informations dans votre navigateur ; ces informations ne sont pas transmises automatiquement au serveur. Les informations contenues dans le stockage de session sont supprimées à la fermeture de l'onglet." }
+      ]
+    },
+    {
+      "id": "principles",
+      "heading": "3. Principes d'utilisation",
+      "blocks": [
+        { "ul": [
+          "Seules sont utilisées des technologies strictement nécessaires ou fonctionnelles à la fourniture du service que vous demandez, telles que la connexion, la sécurité et la mémorisation de vos préférences.",
+          "Aucun cookie d'analyse, de publicité, de marketing ou de réseaux sociaux n'est utilisé. Il n'y a ni pixel de suivi ni code de suivi tiers.",
+          "Le menu des convives n'utilise aucun cookie. Les statistiques d'utilisation du menu sont collectées sans cookie.",
+          "C'est pourquoi aucune fenêtre de consentement aux cookies n'est affichée. Les technologies utilisées étant indispensables au fonctionnement du service, les fonctionnalités concernées ne fonctionnent pas si elles sont désactivées."
+        ] }
+      ]
+    },
+    {
+      "id": "cookies-list",
+      "heading": "4. Cookies utilisés",
+      "blocks": [
+        { "p": "Tous les cookies ci-dessous sont des cookies de session internes (first-party) strictement nécessaires. Ils ne sont transmis que par une connexion sécurisée (HTTPS) et ne peuvent pas être lus par les scripts du navigateur (HttpOnly). Le cookie contient uniquement une clé de session aléatoire ; seule l'empreinte (hash) de cette clé est conservée sur le serveur." },
+        { "table": {
+          "head": ["Cookie", "Où", "Finalité", "Durée"],
+          "rows": [
+            ["aom_session", "Panneau de l'établissement", "Maintenir ouverte la session de l'utilisateur de l'établissement. L'accès d'assistance en lecture seule du personnel d'assistance de la Société, effectué à la connaissance de l'établissement, passe également par ce cookie.", "30 jours au maximum ; expire après 7 jours d'inactivité. 2 heures au maximum pour un accès d'assistance."],
+            ["aom_partner_session", "Portail partenaire commercial", "Maintenir ouverte la session du partenaire.", "30 jours au maximum ; expire après 7 jours d'inactivité."],
+            ["aom_waiter_session", "Portail serveur", "Maintenir ouverte la session ouverte par le serveur au moyen de son lien personnel ou d'un QR code.", "180 jours au maximum ; expire après 30 jours d'inactivité."],
+            ["aom_admin_session", "Panneau d'administration de la Société (personnel de la Société uniquement)", "Maintenir ouverte la session du personnel de la Société.", "12 heures au maximum ; expire après 1 heure d'inactivité."]
+          ]
+        } },
+        { "p": "Lorsque vous vous déconnectez, la session prend fin et le cookie est supprimé." }
+      ]
+    },
+    {
+      "id": "storage",
+      "heading": "5. Stockage du navigateur",
+      "blocks": [
+        { "p": "Les informations ci-dessous sont conservées uniquement dans votre navigateur et utilisées à des fins fonctionnelles. La partie {...} à la fin de la clé désigne l'identifiant qui varie selon l'établissement, la succursale ou le menu." },
+        { "table": {
+          "head": ["Application", "Clé", "Type", "Finalité", "Durée"],
+          "rows": [
+            ["Panneau de l'établissement", "aom.panel.v4:{établissement}", "localStorage", "Cache des données de l'établissement pour accélérer l'ouverture du panneau", "Jusqu'à la suppression des données du navigateur ; mis à jour à chaque connexion"],
+            ["Panneau de l'établissement", "aom.ui", "localStorage", "Langue d'interface que vous avez choisie", "Jusqu'à la suppression des données du navigateur"],
+            ["Panneau de l'établissement", "aom.intro.referral.{établissement}, aom.setup.strip.{établissement}", "localStorage", "Indique si les messages de présentation et de configuration ont été affichés", "Jusqu'à la suppression des données du navigateur"],
+            ["Panneau de l'établissement", "aom.preview.invite-tip.v2:{établissement}, aom.preview.order-tip.v2:{établissement}", "localStorage", "Indique si les astuces de l'aperçu du menu ont été vues", "Jusqu'à la suppression des données du navigateur"],
+            ["Panneau de l'établissement", "aom.ptab", "sessionStorage", "Onglet ouvert sur la page Produits", "Jusqu'à la fermeture de l'onglet"],
+            ["Panneau de l'établissement et portail partenaire", "aom.partner.prefill", "localStorage", "Transfert du prénom, du nom et de l'adresse e-mail vers le formulaire d'inscription lors du passage du panneau à l'inscription comme partenaire", "Lu puis supprimé immédiatement à l'ouverture du formulaire d'inscription ; valable 10 minutes au maximum"],
+            ["Portail partenaire commercial", "aom.partner.ui", "localStorage", "Langue d'interface que vous avez choisie", "Jusqu'à la suppression des données du navigateur"],
+            ["Portail serveur", "aom.waiter.ui", "localStorage", "Langue d'interface que vous avez choisie", "Jusqu'à la suppression des données du navigateur"],
+            ["Portail serveur", "aom.waiter.branch", "localStorage", "Succursale sélectionnée", "Jusqu'à la suppression des données du navigateur"],
+            ["Portail serveur", "aom.waiter.sound", "localStorage", "Préférence de son des notifications", "Jusqu'à la suppression des données du navigateur"],
+            ["Menu des convives", "aom.guest.access.v1:{menu}", "sessionStorage", "Mémoriser que vous avez rejoint la session de table", "Jusqu'à la fermeture de l'onglet"],
+            ["Menu des convives", "aom.guest.invite-tip.v1:{succursale}, aom.guest.order-tip.v1:{succursale}", "localStorage", "Mémoriser que vous avez vu les astuces du menu", "Jusqu'à la suppression des données du navigateur"]
+          ]
+        } }
+      ]
+    },
+    {
+      "id": "third-party",
+      "heading": "6. Contenus tiers",
+      "blocks": [
+        { "p": "La carte affichée dans le sélecteur d'emplacement du panneau de l'établissement est chargée depuis les serveurs d'OpenStreetMap (openstreetmap.org). Lorsque la carte s'affiche, votre navigateur se connecte à ces serveurs et OpenStreetMap traite votre adresse IP et les informations de votre navigateur conformément à sa propre politique. Art of Menu ne dépose aucun cookie par cette connexion." },
+        { "p": "Les autres services auxquels le panneau se connecte directement depuis votre navigateur (par ex. traduction automatique, recherche d'adresse, météo, taux de change) sont décrits dans la [Notice d'information KVKK et déclaration de confidentialité à l'intention des utilisateurs des établissements](doc:privacy-business#recipients). Le menu des convives ne charge aucun contenu tiers." }
+      ]
+    },
+    {
+      "id": "manage",
+      "heading": "7. Suppression des cookies et des informations stockées",
+      "blocks": [
+        { "p": "Vous pouvez supprimer ou bloquer les cookies et le stockage du navigateur au moyen de l'option de suppression des données de site dans les paramètres de votre navigateur. Si les cookies de session sont supprimés, votre session est fermée et vous devez vous reconnecter. Si les cookies sont bloqués, le panneau, le portail partenaire et le portail serveur ne fonctionnent pas. Le menu des convives fonctionne sans cookie ; si le stockage du navigateur est bloqué, votre participation à la table peut ne pas être mémorisée lors de l'actualisation de l'onglet." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "8. Modifications",
+      "blocks": [
+        { "p": "Si la Société souhaite à l'avenir utiliser un cookie ou une technologie similaire non strictement nécessaire (par ex. à des fins d'analyse ou de marketing), elle mettra à jour la présente politique avant de commencer à l'utiliser et recueillera votre consentement lorsque cela est requis. Ces technologies ne seront pas activées sans votre consentement, et vous pourrez retirer à tout moment le consentement que vous avez donné." }
+      ]
+    }
+  ]
+}

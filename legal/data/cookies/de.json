@@ -1,0 +1,99 @@
+{
+  "key": "cookies",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Richtlinie zu Cookies und ähnlichen Technologien",
+  "effective": "2026-11-08",
+  "summary": "Diese Richtlinie beschreibt die Cookies und Browserspeicher-Technologien, die im Betriebspanel, im Vertriebspartnerportal, im Kellnerportal und in der Gästespeisekarte von Art of Menu verwendet werden. Art of Menu verwendet ausschließlich Cookies und funktionale Browserspeicher, die für den Betrieb des Dienstes zwingend erforderlich sind. Analyse-, Werbe- oder Marketing-Cookies werden nicht verwendet.",
+  "sections": [
+    {
+      "id": "operator",
+      "heading": "1. Verantwortliches Unternehmen",
+      "blocks": [
+        { "p": "Art of Menu wird von der Göktigin Bilişim Teknoloji Ltd. Şti. (das Unternehmen) betrieben. Die Angaben zum Unternehmen finden Sie auf der Seite [Unternehmen und rechtliche Angaben](doc:company). Bei Fragen können Sie an [hello@goktigin.com](mailto:hello@goktigin.com) schreiben." }
+      ]
+    },
+    {
+      "id": "what",
+      "heading": "2. Was sind Cookies und Browserspeicher?",
+      "blocks": [
+        { "p": "Ein Cookie ist eine kleine Textdatei, die eine Website in Ihrem Browser speichert und die bei späteren Anfragen an die Website zurückgesendet wird. Der lokale Speicher (localStorage) und der Sitzungsspeicher (sessionStorage) sind vergleichbare Technologien, mit denen eine Website Informationen in Ihrem Browser ablegen kann; diese Informationen werden nicht automatisch an den Server gesendet. Die Informationen im Sitzungsspeicher werden gelöscht, wenn der Tab geschlossen wird." }
+      ]
+    },
+    {
+      "id": "principles",
+      "heading": "3. Grundsätze der Verwendung",
+      "blocks": [
+        { "ul": [
+          "Es werden ausschließlich Technologien verwendet, die für die Bereitstellung des von Ihnen gewünschten Dienstes zwingend erforderlich oder funktional sind, etwa für die Anmeldung, die Sicherheit und das Speichern Ihrer Einstellungen.",
+          "Analyse-, Werbe-, Marketing- oder Social-Media-Cookies werden nicht verwendet. Es gibt keine Tracking-Pixel und keinen Tracking-Code von Drittanbietern.",
+          "Die Gästespeisekarte verwendet überhaupt keine Cookies. Nutzungsstatistiken der Speisekarte werden ohne Cookies erhoben.",
+          "Aus diesem Grund wird kein Cookie-Einwilligungsbanner angezeigt. Da die verwendeten Technologien für den Betrieb des Dienstes zwingend erforderlich sind, funktionieren die betreffenden Funktionen nicht, wenn sie deaktiviert werden."
+        ] }
+      ]
+    },
+    {
+      "id": "cookies-list",
+      "heading": "4. Verwendete Cookies",
+      "blocks": [
+        { "p": "Alle nachstehenden Cookies sind zwingend erforderliche Erstanbieter-Sitzungscookies. Sie werden nur über sichere Verbindungen (HTTPS) gesendet und können von Skripten im Browser nicht gelesen werden (HttpOnly). Das Cookie enthält lediglich einen zufälligen Sitzungsschlüssel; auf dem Server wird nur der Hashwert dieses Schlüssels gespeichert." },
+        { "table": {
+          "head": ["Cookie", "Wo", "Zweck", "Dauer"],
+          "rows": [
+            ["aom_session", "Betriebspanel", "Aufrechterhaltung der Sitzung des Betriebsnutzers. Auch der ausschließlich lesende Supportzugriff des Supportpersonals des Unternehmens, der mit Kenntnis des Betriebs erfolgt, läuft über dieses Cookie.", "Höchstens 30 Tage; endet nach 7 Tagen ohne Nutzung. Bei Supportzugriff höchstens 2 Stunden."],
+            ["aom_partner_session", "Vertriebspartnerportal", "Aufrechterhaltung der Sitzung des Partners.", "Höchstens 30 Tage; endet nach 7 Tagen ohne Nutzung."],
+            ["aom_waiter_session", "Kellnerportal", "Aufrechterhaltung der Sitzung, die der Kellner über seinen persönlichen Link oder QR-Code geöffnet hat.", "Höchstens 180 Tage; endet nach 30 Tagen ohne Nutzung."],
+            ["aom_admin_session", "Verwaltungspanel des Unternehmens (nur für Mitarbeiter des Unternehmens)", "Aufrechterhaltung der Sitzung von Mitarbeitern des Unternehmens.", "Höchstens 12 Stunden; endet nach 1 Stunde ohne Nutzung."]
+          ]
+        } },
+        { "p": "Wenn Sie sich abmelden, endet die Sitzung und das Cookie wird gelöscht." }
+      ]
+    },
+    {
+      "id": "storage",
+      "heading": "5. Browserspeicher",
+      "blocks": [
+        { "p": "Die folgenden Informationen werden ausschließlich in Ihrem Browser gespeichert und für funktionale Zwecke verwendet. Der Teil {...} am Ende eines Schlüssels steht für eine Kennung, die je nach Betrieb, Filiale oder Speisekarte variiert." },
+        { "table": {
+          "head": ["Anwendung", "Schlüssel", "Art", "Zweck", "Dauer"],
+          "rows": [
+            ["Betriebspanel", "aom.panel.v4:{betrieb}", "localStorage", "Zwischenspeicher der Betriebsdaten, damit das Panel schnell öffnet", "Bis die Browserdaten gelöscht werden; wird bei jeder Anmeldung aktualisiert"],
+            ["Betriebspanel", "aom.ui", "localStorage", "Die von Ihnen gewählte Oberflächensprache", "Bis die Browserdaten gelöscht werden"],
+            ["Betriebspanel", "aom.intro.referral.{betrieb}, aom.setup.strip.{betrieb}", "localStorage", "Ob Einführungs- und Einrichtungshinweise bereits angezeigt wurden", "Bis die Browserdaten gelöscht werden"],
+            ["Betriebspanel", "aom.preview.invite-tip.v2:{betrieb}, aom.preview.order-tip.v2:{betrieb}", "localStorage", "Ob die Hinweise in der Speisekartenvorschau bereits gesehen wurden", "Bis die Browserdaten gelöscht werden"],
+            ["Betriebspanel", "aom.ptab", "sessionStorage", "Der auf der Produktseite geöffnete Tab", "Bis der Tab geschlossen wird"],
+            ["Betriebspanel und Partnerportal", "aom.partner.prefill", "localStorage", "Übernahme von Vorname, Nachname und E-Mail-Adresse in das Registrierungsformular beim Wechsel vom Panel zur Partnerregistrierung", "Wird beim Öffnen des Registrierungsformulars gelesen und sofort gelöscht; höchstens 10 Minuten gültig"],
+            ["Vertriebspartnerportal", "aom.partner.ui", "localStorage", "Die von Ihnen gewählte Oberflächensprache", "Bis die Browserdaten gelöscht werden"],
+            ["Kellnerportal", "aom.waiter.ui", "localStorage", "Die von Ihnen gewählte Oberflächensprache", "Bis die Browserdaten gelöscht werden"],
+            ["Kellnerportal", "aom.waiter.branch", "localStorage", "Die ausgewählte Filiale", "Bis die Browserdaten gelöscht werden"],
+            ["Kellnerportal", "aom.waiter.sound", "localStorage", "Einstellung für den Benachrichtigungston", "Bis die Browserdaten gelöscht werden"],
+            ["Gästespeisekarte", "aom.guest.access.v1:{speisekarte}", "sessionStorage", "Speichern, dass Sie der Tischsitzung beigetreten sind", "Bis der Tab geschlossen wird"],
+            ["Gästespeisekarte", "aom.guest.invite-tip.v1:{filiale}, aom.guest.order-tip.v1:{filiale}", "localStorage", "Speichern, dass Sie die Hinweise in der Speisekarte gesehen haben", "Bis die Browserdaten gelöscht werden"]
+          ]
+        } }
+      ]
+    },
+    {
+      "id": "third-party",
+      "heading": "6. Inhalte von Drittanbietern",
+      "blocks": [
+        { "p": "Die Karte in der Standortauswahl des Betriebspanels wird von den Servern von OpenStreetMap (openstreetmap.org) geladen. Wenn die Karte angezeigt wird, verbindet sich Ihr Browser mit diesen Servern, und OpenStreetMap verarbeitet Ihre IP-Adresse und Ihre Browserinformationen nach seiner eigenen Richtlinie. Art of Menu setzt über diese Verbindung keine Cookies." },
+        { "p": "Die übrigen Dienste, mit denen das Panel Ihren Browser direkt verbindet (z. B. automatische Übersetzung, Adresssuche, Wetter, Wechselkurse), sind in der [Datenschutzinformation nach KVKK für Betriebsnutzer](doc:privacy-business#recipients) beschrieben. Die Gästespeisekarte lädt keine Inhalte von Drittanbietern." }
+      ]
+    },
+    {
+      "id": "manage",
+      "heading": "7. Löschen von Cookies und gespeicherten Informationen",
+      "blocks": [
+        { "p": "Sie können Cookies und Browserspeicher über die Option zum Löschen von Websitedaten in den Einstellungen Ihres Browsers löschen oder blockieren. Werden Sitzungscookies gelöscht, endet Ihre Sitzung und Sie müssen sich erneut anmelden. Werden Cookies blockiert, funktionieren Panel, Partnerportal und Kellnerportal nicht. Die Gästespeisekarte funktioniert ohne Cookies; wird der Browserspeicher blockiert, wird der Tischbeitritt beim Neuladen des Tabs möglicherweise nicht gespeichert." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "8. Änderungen",
+      "blocks": [
+        { "p": "Möchte das Unternehmen künftig ein nicht zwingend erforderliches Cookie oder eine ähnliche Technologie (z. B. zu Analyse- oder Marketingzwecken) verwenden, aktualisiert es diese Richtlinie vor Beginn der Verwendung und holt, soweit erforderlich, Ihre Einwilligung ein. Diese Technologien werden nicht ohne Ihre Einwilligung aktiviert, und Sie können eine erteilte Einwilligung jederzeit widerrufen." }
+      ]
+    }
+  ]
+}

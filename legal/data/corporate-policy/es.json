@@ -1,0 +1,99 @@
+{
+  "key": "corporate-policy",
+  "version": "1.0",
+  "locale": "es",
+  "title": "Política de Valores Corporativos, Uso Aceptable y Reputación de Marca",
+  "effective": "2026-11-08",
+  "summary": "Esta política regula las normas corporativas que deben cumplir los establecimientos que utilizan los servicios de Art of Menu y los partners comerciales de Art of Menu. Constituye un anexo vinculante del Contrato de Servicio de Art of Menu para Establecimientos y del Contrato de Partner Comercial.",
+  "sections": [
+    { "id": "scope", "heading": "1. Finalidad, partes y carácter vinculante", "blocks": [
+      { "p": "Esta política establece los valores corporativos y las normas de conducta que Göktigin Bilişim Teknoloji Ltd. Şti. (la «Sociedad») aplica en relación con los servicios que ofrece con el nombre Art of Menu." },
+      { "p": "La política es un anexo vinculante del [Contrato de Servicio de Art of Menu para Establecimientos](doc:business-terms) y del [Contrato de Partner Comercial](doc:partner-terms) y se acepta junto con dichos contratos. La política solo se aplica a los establecimientos y a los partners comerciales. Los comensales que utilizan los menús de los establecimientos no son parte de esta política." },
+      { "p": "La política se aplica a las siguientes personas (las «Personas Sujetas»):" },
+      { "ul": [
+        "los establecimientos que utilizan los servicios de Art of Menu;",
+        "los propietarios, socios, directivos y representantes autorizados de los establecimientos;",
+        "los partners comerciales y los propietarios, socios, directivos y representantes autorizados de los partners comerciales personas jurídicas."
+      ]}
+    ]},
+    { "id": "universal-application", "heading": "2. Aplicación con independencia del país", "blocks": [
+      { "p": "La política se aplica de la misma manera en todos los países en los que Art of Menu presta servicio. Para que la política se aplique no es necesario que la Persona Sujeta sea turca, sea ciudadana de la República de Turquía, resida en Turquía, haya constituido una sociedad en Turquía o ejerza una actividad comercial en Turquía. La ciudadanía, la nacionalidad, el país de residencia o el país en el que se ejerza la actividad no eximen de la política." },
+      { "p": "El hecho de que una conducta sea lícita en el país en el que se encuentre la persona no impide que sea contraria a esta política. No obstante, las sanciones contractuales que aplique la Sociedad respetarán los límites imperativos del Derecho del país correspondiente." }
+    ]},
+    { "id": "conduct-scope", "heading": "3. Conductas dentro y fuera de la plataforma", "blocks": [
+      { "p": "La política no se limita a los contenidos publicados en Art of Menu. También están comprendidas las conductas de las Personas Sujetas en los siguientes ámbitos:" },
+      { "ul": [
+        "el local físico del establecimiento;",
+        "las cuentas en redes sociales y los sitios web;",
+        "los anuncios, las promociones y los eventos;",
+        "las declaraciones públicas;",
+        "otras actividades que puedan asociarse directamente al establecimiento o al partner comercial."
+      ]},
+      { "p": "No es necesario que la infracción se produzca a través de Art of Menu, que afecte directamente a los usuarios de Art of Menu ni que tenga lugar en Turquía." }
+    ]},
+    { "id": "ataturk", "heading": "4. Mustafa Kemal Atatürk", "blocks": [
+      { "p": "Queda prohibida toda conducta que contenga burla, insulto, desprecio, menosprecio o falta de respeto hacia la persona, la memoria, el legado o la personalidad moral de Mustafa Kemal Atatürk, honrado con el título de Gazi (héroe de guerra victorioso)." },
+      { "p": "La prohibición no se limita a las expresiones directas. También quedan prohibidas las alusiones ocultas, encubiertas, indirectas, veladas, simbólicas, alegóricas o disimuladas tras otros significados. En el examen se tendrán en cuenta los indicios concretos y razonables que muestren que una conducta tiene tales significados. Para constatar la infracción no es necesario que la persona afectada confiese su intención ni que utilice directamente el nombre." }
+    ]},
+    { "id": "national-values", "heading": "5. La República de Turquía y los valores nacionales", "blocks": [
+      { "p": "Quedan prohibidas las conductas que contengan burla, insulto, desprecio, menosprecio o falta de respeto hacia la República de Turquía y hacia los valores nacionales y sensibles de la gloriosa nación turca, o que aludan a ello de forma directa o indirecta. También están comprendidas las conductas ocultas, encubiertas, simbólicas o alegóricas y aquellas de cuyo contexto puedan deducirse tales significados." }
+    ]},
+    { "id": "corporate-language", "heading": "6. Norma de lenguaje corporativo", "blocks": [
+      { "p": "En los textos en turco, para designar a los ciudadanos de la República de Turquía se utiliza la palabra turca «Türk», escrita con mayúscula inicial. Queda prohibido utilizar los términos turcos «Türkiyeli», «Turki» u otras expresiones alternativas similares para designar a los ciudadanos de la República de Turquía." },
+      { "p": "También quedan prohibidas las expresiones y conductas utilizadas con el fin de despreciar, menospreciar o ridiculizar la identidad turca, o de aludir a ello." },
+      { "p": "En los textos en otros idiomas, la ciudadanía turca se expresa con su equivalente correcto y natural en dicho idioma (en español, «turco» o «ciudadano turco»). Una palabra estándar de un idioma extranjero no se considera contraria a esta norma por el mero hecho de parecerse a las expresiones prohibidas en turco." }
+    ]},
+    { "id": "terrorism", "heading": "7. Organizaciones terroristas", "blocks": [
+      { "p": "Queda prohibido hacer propaganda de las organizaciones, grupos y estructuras que la República de Turquía considera o ha considerado en el pasado organizaciones terroristas, así como apoyarlos, elogiarlos o enaltecerlos." },
+      { "p": "Para aplicar la prohibición no es necesario que la actividad se realice de forma abierta. También quedan prohibidas las expresiones de propaganda y apoyo ocultas, encubiertas, indirectas, simbólicas, alegóricas o disimuladas tras otros significados. Queda asimismo prohibido el uso de los símbolos, signos, lemas u otros elementos de dichas organizaciones con fines de propaganda o apoyo. El significado de los contenidos y de los símbolos se valora junto con el contexto en el que se utilizan." }
+    ]},
+    { "id": "serious-crimes", "heading": "8. Vulneraciones graves de derechos y delitos graves", "blocks": [
+      { "p": "Quedan prohibidos los siguientes actos:" },
+      { "ul": [
+        "el abuso de menores, el abuso sexual de menores y la explotación sexual de menores;",
+        "la agresión sexual, la violación y otros actos de violencia sexual;",
+        "la trata de seres humanos, el trabajo forzoso y otras vulneraciones graves de derechos similares;",
+        "la producción, el consumo, la venta, la distribución, el suministro o el tráfico de estupefacientes o sustancias estimulantes ilegales;",
+        "la estafa, la malversación y el cohecho;",
+        "el robo con violencia o intimidación y la extorsión;",
+        "el tráfico ilícito de migrantes;",
+        "el homicidio doloso, las lesiones graves y otros delitos violentos graves similares."
+      ]},
+      { "p": "En esta política, la expresión «delito grave o infamante», dado que puede definirse de forma distinta según el país, designa las categorías de delitos enumeradas anteriormente y los actos de gravedad equivalente." },
+      { "p": "También queda prohibido cometer, organizar, financiar, incitar o facilitar a sabiendas estos delitos, así como participar en su comisión." }
+    ]},
+    { "id": "brand-reputation", "heading": "9. Reputación de marca", "blocks": [
+      { "p": "La Sociedad no desea que su marca se asocie a delitos graves ni a personas y establecimientos que aparezcan públicamente como autores de dichos delitos. La asociación pública de un establecimiento, de su propietario, directivo o representante autorizado o de un partner comercial con los delitos enumerados en la sección 8, como autor, sospechoso o partícipe, podrá constituir motivo para poner fin a la relación comercial." },
+      { "p": "Si, a raíz de noticias de prensa fiables, investigaciones oficiales, información concreta de dominio público u otros hechos verificables, surge un riesgo reputacional grave para la marca, la cuenta afectada podrá suspenderse de inmediato o el contrato podrá resolverse conforme al Derecho aplicable. Para adoptar esta decisión no es necesario esperar a que una sentencia condenatoria sea firme ni a que concluya el proceso penal." },
+      { "p": "Esta decisión es una decisión comercial y no implica que la persona afectada sea culpable. Los rumores infundados no bastan por sí solos para aplicar esta sección." },
+      { "note": "Esta sección no se aplica en ningún caso a las víctimas de delitos, a los denunciantes ni a los testigos. El hecho de que una persona aparezca públicamente como víctima de un delito o acuda a las autoridades competentes no podrá constituir motivo de suspensión de la cuenta ni de resolución." }
+    ]},
+    { "id": "review", "heading": "10. Procedimiento de examen", "blocks": [
+      { "p": "La Sociedad examina las posibles infracciones sobre la base de fuentes concretas. Podrán valorarse las publicaciones públicas en redes sociales, las fotografías, los vídeos, las noticias de prensa fiables, las declaraciones oficiales, los documentos judiciales y de investigación y las comunicaciones documentadas remitidas a la Sociedad." },
+      { "p": "En los casos que no requieran una protección urgente, la Sociedad podrá ofrecer al establecimiento o al partner comercial afectado la posibilidad de presentar alegaciones por escrito antes de adoptar una decisión. En los casos urgentes, la cuenta se suspende primero y las alegaciones podrán recabarse después. La Sociedad deja constancia de su decisión y de las fuentes en que se basa. La persona afectada podrá impugnar la decisión por escrito en [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "enforcement", "heading": "11. Sanciones", "blocks": [
+      { "p": "A los establecimientos que se constate que han infringido las prohibiciones de esta política se les pondrá fin de inmediato al uso de los servicios de Art of Menu, se les cerrarán las cuentas y se resolverán sus contratos conforme al Derecho aplicable. Las cuentas de los partners comerciales que infrinjan las mismas normas se cerrarán de inmediato y se pondrá fin a sus contratos de partner." },
+      { "p": "El hecho de que los propietarios, directivos o representantes autorizados del establecimiento, o las actividades que puedan asociarse directamente al establecimiento, sean contrarios a esta política podrá constituir motivo para poner fin al contrato de servicio del establecimiento." },
+      { "p": "Para constatar el incumplimiento contractual no es necesaria una resolución judicial firme. La resolución del contrato por la Sociedad no implica que esta declare a una persona culpable a efectos del Derecho penal." }
+    ]},
+    { "id": "reporting", "heading": "12. Comunicación a las autoridades competentes", "blocks": [
+      { "p": "Los actos respecto de los cuales exista información concreta que respalde la sospecha de un delito conforme al Derecho de la República de Turquía o al Derecho del país correspondiente se comunicarán a las fuerzas de seguridad o a las autoridades judiciales competentes. En esta valoración se tendrán en cuenta, en particular, las siguientes disposiciones:" },
+      { "ul": [
+        "la Ley n.º 5816 sobre los Delitos Cometidos contra Atatürk;",
+        "la Ley n.º 3713 de Lucha contra el Terrorismo, en particular su artículo 7, relativo a la propaganda de organizaciones terroristas;",
+        "los artículos 300 y 301 del Código Penal turco (Ley n.º 5237, TCK), relativos a la degradación de los símbolos de soberanía del Estado y a la degradación de la Nación Turca;",
+        "los artículos 314 (organización armada) y 220 (constitución de una organización con el fin de cometer delitos) del TCK;",
+        "los artículos 103 (abuso sexual de menores), 102 (agresión sexual), 80 (trata de seres humanos) y 79 (tráfico ilícito de migrantes) del TCK;",
+        "el artículo 188 del TCK (fabricación y tráfico de estupefacientes o sustancias estimulantes);",
+        "los artículos 157 y 158 (estafa), 247 (malversación), 252 (cohecho), 148 y 149 (robo con violencia o intimidación) y 107 (extorsión) del TCK;",
+        "los artículos 81 y 82 (homicidio doloso) y 86 y 87 (lesiones dolosas) del TCK."
+      ]},
+      { "p": "Los incumplimientos contractuales ordinarios en los que no exista sospecha de delito no se comunicarán ni se calificarán como delito." },
+      { "p": "La Sociedad conserva la información y los documentos obtenidos en el marco del examen y de la comunicación solo en la medida permitida por la ley y solo los comparte con las autoridades competentes o en los demás casos legalmente permitidos." }
+    ]},
+    { "id": "mandatory-law", "heading": "13. Normas imperativas", "blocks": [
+      { "p": "En la aplicación de esta política se respetan las normas imperativas del Derecho de la República de Turquía y del país correspondiente. Si el Derecho aplicable limita una sanción, la Sociedad la aplicará en la medida en que sea legalmente posible." }
+    ]}
+  ]
+}

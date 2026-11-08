@@ -1,0 +1,79 @@
+{
+  "key": "dpa",
+  "version": "1.0",
+  "locale": "en",
+  "title": "Data Processing Agreement (Annex 1)",
+  "effective": "2026-11-08",
+  "summary": "This agreement is a binding annex to the Art of Menu Business Service Agreement. It sets out the rules for processing guest and employee data for which the business is the data controller and Göktigin Bilişim Teknoloji Ltd. Şti. is the processor.",
+  "sections": [
+    { "id": "subject", "heading": "1. Subject Matter and Roles", "blocks": [
+      { "p": "This Data Processing Agreement (the “Annex”) is a binding annex to the [Art of Menu Business Service Agreement](doc:business-terms) (the “Service Agreement”). Terms not defined in this Annex have the meaning given to them in the Service Agreement." },
+      { "p": "The Customer is the data controller (the “Controller”) for the personal data listed in section 3. Göktigin Bilişim Teknoloji Ltd. Şti. (the “Company”) is the processor that processes this data on behalf of the Controller and on its instructions. This Annex is made pursuant to Article 12 of the Turkish Personal Data Protection Law No. 6698 (“KVKK”) and, where applicable, Article 28 of the European Union General Data Protection Regulation (“GDPR”)." },
+      { "p": "Processing carried out by the Company as data controller for User accounts, billing and the security of its own service is outside the scope of this Annex; it is described in the [KVKK Privacy Notice and Privacy Statement for Business Users](doc:privacy-business)." }
+    ]},
+    { "id": "duration-purpose", "heading": "2. Duration, Nature and Purpose", "blocks": [
+      { "p": "The Annex remains in force for the term of the Service Agreement and until the deletion described in section 9 has been completed." },
+      { "p": "The Company processes personal data solely to provide the Service: publishing the guest menu, managing table sessions and orders, passing on waiter calls, running the waiter screen, generating sales and menu usage reports and ensuring the security of the Service. Processing consists of recording, storing, organising, viewing, transmitting, reporting and deleting." }
+    ]},
+    { "id": "data-categories", "heading": "3. Data Subjects and Categories of Data", "blocks": [
+      { "p": "**Guests.** No name, e-mail address or telephone number is collected from guests. The data processed is as follows:" },
+      { "ul": [
+        "table session data: the table, the shared basket, the keys used for session membership (stored as hashes) and the 6-digit session code;",
+        "records of orders and of calls for a waiter, water or the bill, linked only to the table;",
+        "menu usage data collected without cookies: a random page view identifier, the device class and browser type derived from browser information, the menu language, the country code taken from a network header, the products opened and the time spent on the page;",
+        "the IP address, used temporarily for security and to limit excessive use; the IP address is not recorded in the database."
+      ]},
+      { "p": "**Waiters.** The first name, last name, gender and branch details entered by the Controller; orders delivered and sales records of the waiter; waiter screen session information." },
+      { "p": "**Other employees of the Controller.** Employee names entered into the Service by the Controller and the transaction records linked to them." },
+      { "p": "This Annex does not envisage the processing of special categories of personal data. The Controller does not enter such data into the Service." }
+    ]},
+    { "id": "instructions", "heading": "4. Instructions and Confidentiality", "blocks": [
+      { "p": "The Company processes personal data only on the documented instructions of the Controller. These instructions consist of the Service Agreement, this Annex and the Controller's settings and actions in the panel. If the Company considers that an instruction infringes the law, it informs the Controller. Cases in which the law requires the Company to process data remain unaffected." },
+      { "p": "The Company ensures that its employees who access personal data are bound by a duty of confidentiality and limits access to those who need it to perform their duties." },
+      { "p": "The Controller is responsible for the lawful processing of the data, for its obligation to inform its guests and employees, and for the lawfulness of the instructions it gives." }
+    ]},
+    { "id": "security", "heading": "5. Security Measures", "blocks": [
+      { "p": "The Company applies the following measures to keep the data secure:" },
+      { "ul": [
+        "the data is hosted on server infrastructure managed by the Company;",
+        "data in transit is encrypted with TLS;",
+        "sensitive fields are stored encrypted in the database; session and access keys are stored as hashes;",
+        "role- and permission-based access control is applied in the panel;",
+        "multi-factor authentication is used for Company employees who access the Company's platform administration screen;",
+        "administrative actions are kept in an audit log that cannot be altered;",
+        "rate limiting is applied against excessive requests and attempted abuse;",
+        "Company employees enter an account for support purposes only through time-limited access that is visible to the Controller in the panel."
+      ]},
+      { "p": "The Company may update these measures in line with technical developments; updates do not reduce the level of protection." }
+    ]},
+    { "id": "sub-processors", "heading": "6. Sub-processors and Third-Party Services", "blocks": [
+      { "p": "The core functions of the Service run on the Company's own servers. Automatic translation of menu texts and removal of photo backgrounds are also carried out on the Company's servers. The Company uses the following services to process data within the scope of this Annex:" },
+      { "ul": [
+        "**E-mail sending service:** where used, receives only the recipient's e-mail address and the content of the e-mail. This service may be located abroad.",
+        "**Licensed payment service provider:** used only for the Customer's subscription payments; receives no guest or waiter data."
+      ]},
+      { "p": "Google Translate may be used through the browser in the panel to translate menu texts. The menu text and the user's IP address are sent to this service. Menu texts do not normally contain personal data; the Controller does not include personal data in menu texts." },
+      { "p": "If the Controller connects its account to ChatGPT, the product catalogue, menu information and employee names are sent to OpenAI on the Controller's instructions. The decision to set up and remove this connection, and the relationship with OpenAI, rest with the Controller." },
+      { "p": "Before using a new sub-processor, the Company informs the Controller by e-mail or through the panel. If the Controller objects on reasonable grounds and the parties cannot find a solution, the Controller may terminate the Service Agreement. The Company imposes on its sub-processors data protection obligations of the same level as those in this Annex. The current list of sub-processors is provided on request at [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "transfers", "heading": "7. Transfers Abroad", "blocks": [
+      { "p": "Personal data is transferred abroad only on the legal bases provided for by law. Article 9 KVKK applies to transfers from Türkiye; where a transfer is based on a standard contract, the Personal Data Protection Authority is notified within the period prescribed by the Law." },
+      { "p": "Where the Controller is subject to the GDPR, the instruments required for transfers to the Company in Türkiye, in particular the European Commission's standard contractual clauses, are completed separately by the parties. No such transfer is presumed to take place until these instruments have been completed." }
+    ]},
+    { "id": "assistance", "heading": "8. Data Subject Requests and Breach Notification", "blocks": [
+      { "p": "If the Company receives a request directly from a data subject, it forwards it to the Controller without delay and does not respond to the request itself. The Company provides, to a reasonable extent, the information and technical support the Controller needs to respond to requests." },
+      { "p": "When the Company becomes aware of a security breach affecting data within the scope of this Annex, it informs the Controller without undue delay and in time for the Controller to meet the 72-hour notification period set by the Personal Data Protection Board. The notification sets out, as far as known at the time, the nature of the breach, the categories of data affected, its likely consequences and the measures taken. The obligation to notify the Board and the data subjects rests with the Controller." }
+    ]},
+    { "id": "deletion", "heading": "9. Deletion and Retention", "blocks": [
+      { "p": "Raw menu usage data is deleted after 120 days; only aggregated statistics that cannot be linked to an individual are retained." },
+      { "p": "When the Service Agreement ends and the account is closed, the data within the scope of this Annex is deleted or anonymised at the end of the 30-day period during which the account can be reopened. The Controller saves any data it needs itself before this period expires. Records that must be retained by law are kept for the relevant period." }
+    ]},
+    { "id": "audits", "heading": "10. Audits", "blocks": [
+      { "p": "On the Controller's written request, the Company provides the information and documents needed to demonstrate its compliance with this Annex. If this information is insufficient, the Controller may carry out an audit, or have one carried out by an independent auditor, no more than once a year, provided that it gives at least 30 days' notice, conducts the audit during business hours, bears its costs and complies with the duty of confidentiality. This frequency limit does not apply in the event of a security breach or a request from a competent authority. Audits are carried out in a way that does not harm other customers' data or the security of the Company's systems." }
+    ]},
+    { "id": "liability", "heading": "11. Liability", "blocks": [
+      { "p": "Each party is liable for breaches of its own obligations under this Annex and data protection law. The limitations in the [Liability](doc:business-terms#liability) section of the Service Agreement apply to the Company's liability, except where mandatory law does not permit them." },
+      { "p": "If there is a conflict between this Annex and the Service Agreement concerning the protection of personal data, this Annex prevails." }
+    ]}
+  ]
+}

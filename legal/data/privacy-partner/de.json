@@ -1,0 +1,181 @@
+{
+  "key": "privacy-partner",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Datenschutzinformation nach KVKK für Vertriebspartner",
+  "effective": "2026-11-08",
+  "summary": "Dieser Text erläutert gemäß Artikel 10 des türkischen Gesetzes Nr. 6698 zum Schutz personenbezogener Daten (KVKK) und dem Kommuniqué über die Verfahren und Grundsätze zur Erfüllung der Informationspflicht, wie die Göktigin Bilişim Teknoloji Ltd. Şti. die personenbezogenen Daten der Personen verarbeitet, die sich für das Art of Menu-Vertriebspartnerprogramm bewerben und daran teilnehmen. Zusätzliche Informationen für Partner in der Europäischen Union, im Europäischen Wirtschaftsraum oder im Vereinigten Königreich enthält Abschnitt 11. Dieser Text ist weder ein Vertrag noch eine Einwilligungserklärung; er dient ausschließlich der Information.",
+  "sections": [
+    {
+      "id": "controller",
+      "heading": "1. Verantwortlicher",
+      "blocks": [
+        { "p": "Ihre personenbezogenen Daten werden von der **Göktigin Bilişim Teknoloji Limited Şirketi** (das Unternehmen) als Verantwortlicher verarbeitet." },
+        { "ul": [
+          "Anschrift: Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkei",
+          "Finanzamt und Steuernummer: Körperschaftsteueramt Antalya (Antalya Kurumlar Vergi Dairesi), 4060725346",
+          "E-Mail: [hello@goktigin.com](mailto:hello@goktigin.com)",
+          "Telefon: +90 554 238 70 07"
+        ] },
+        { "p": "Weitere Angaben zum Unternehmen finden Sie auf der Seite [Unternehmen und rechtliche Angaben](doc:company). Das Unternehmen hat außerhalb der Türkei weder eine Gesellschaft noch eine Niederlassung noch einen Vertreter." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "2. Verarbeitete personenbezogene Daten",
+      "blocks": [
+        { "table": {
+          "head": ["Datenkategorie", "Daten"],
+          "rows": [
+            ["Identität", "Vorname, Nachname, Geburtsdatum, Staatsangehörigkeit, Art (türkische Identitätsnummer (T.C. kimlik numarası), Reisepass oder nationaler Personalausweis) und Nummer des Ausweisdokuments. Bei Partnern, die juristische Personen sind: Firma, Steuernummer und zuständiges Finanzamt."],
+            ["Kontakt", "E-Mail-Adresse, Telefonnummer, Anschrift, Stadt, Postleitzahl, Land."],
+            ["Finanzen", "Bankverbindung (Kontoinhaber, IBAN oder Kontonummer, BIC/SWIFT-Code, Name und Anschrift der Bank, gegebenenfalls Bankleitzahl bzw. Routing-Code), Land der Bank, Auszahlungswährung, Provisions- und Auszahlungsaufzeichnungen, Angaben zu Ausgabenbelegen (gider pusulası) und Rechnungen, Angaben zu Steuerabzügen."],
+            ["Kundentransaktionen", "Partnercode, Name der mit dem Code registrierten Betriebe, Angaben zu Paket, Laufzeit, Betrag und Datum der ersten Zahlung dieser Betriebe, Status der Provisionen und Gründe für ihre Ungültigkeit."],
+            ["Transaktionssicherheit", "Nicht umkehrbarer Hashwert des Passworts, Sitzungsdaten (Sitzungscookie, Browserinformationen, Beginn und letzte Nutzung der Sitzung), Aufzeichnungen zur E-Mail-Bestätigung und Passwortzurücksetzung, Prüfprotokolle über die im Konto vorgenommenen Handlungen."],
+            ["Rechtsgeschäfte", "Aufzeichnungen über die Vertragsannahme (angenommenes Dokument, Version, Sprache, Datum, Hashwert der IP-Adresse und Browserinformationen), Aufzeichnungen über die Aussetzung von Auszahlungen oder die Sperrung des Kontos samt Begründung, Aufzeichnungen über Streitigkeiten und Korrespondenz."],
+            ["Sonstiges", "Spracheinstellung und E-Mail-Korrespondenz mit dem Unternehmen."]
+          ]
+        } },
+        { "p": "Die Nummer des Ausweisdokuments und die Bankverbindung werden verschlüsselt in der Datenbank gespeichert. Für Auflistungen und Kontrollen werden lediglich das Land der Bank, die Auszahlungswährung und die letzten vier Ziffern der Kontonummer gesondert vorgehalten." },
+        { "p": "Das Unternehmen verlangt von Partnern keine besonderen Kategorien personenbezogener Daten (z. B. Gesundheitsdaten, Religion, politische Meinungen, biometrische Daten). Es werden weder Fotos noch Kopien des Ausweisdokuments erhoben." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "3. Zwecke der Verarbeitung",
+      "blocks": [
+        { "ul": [
+          "Eröffnung des Partnerkontos, Bestätigung der E-Mail-Adresse und Verwaltung des Kontos,",
+          "Vergabe des Partnercodes und Zuordnung der mit dem Code registrierten Betriebe zum Partner,",
+          "Berechnung, Fälligstellung, Ungültigerklärung und Auszahlung von Provisionen,",
+          "Erfüllung steuerlicher und buchhalterischer Pflichten wie Ausstellung von Ausgabenbelegen, Erfassung von Rechnungen und Vornahme von Steuerabzügen,",
+          "Prüfung, ob der Partner das 18. Lebensjahr vollendet hat und seine Identitätsangaben stimmig sind,",
+          "Verhinderung und Aufdeckung von Eigenvermittlungen, Mehrfachkonten und vorgetäuschten Transaktionen,",
+          "Gewährleistung der Konto- und Systemsicherheit,",
+          "Kommunikation mit dem Partner zu Vertrags-, Zahlungs-, Konto- und Sicherheitsfragen,",
+          "Durchführung des Vertriebspartnervertrags und der Unternehmensrichtlinie sowie Nachweis der Vertragsannahmen,",
+          "Begründung, Ausübung und Verteidigung von Rechten in rechtlichen Streitigkeiten sowie Beantwortung rechtmäßiger Anfragen zuständiger Behörden und Stellen."
+        ] },
+        { "p": "Das Unternehmen versendet an Partner keine Marketing-E-Mails oder kommerziellen elektronischen Nachrichten. E-Mails an Partner beschränken sich auf Konto-, Vertrags-, Provisions- und Auszahlungsangelegenheiten." }
+      ]
+    },
+    {
+      "id": "legal-bases",
+      "heading": "4. Rechtsgrundlagen",
+      "blocks": [
+        { "p": "Ihre personenbezogenen Daten werden auf Grundlage der folgenden Rechtsgrundlagen nach Art. 5 Abs. 2 KVKK verarbeitet:" },
+        { "ul": [
+          "**(c) Abschluss oder Erfüllung eines Vertrags:** Konto-, Partnercode-, Vermittlungs-, Provisions- und Auszahlungsvorgänge.",
+          "**(ç) Erfüllung einer rechtlichen Verpflichtung:** Pflichten zur Ausstellung von Belegen, zum Steuerabzug, zur Aufbewahrung und zur Meldung nach dem türkischen Steuerverfahrensgesetz, dem Einkommensteuergesetz, dem Handelsgesetzbuch und den einschlägigen Vorschriften; Anfragen zuständiger Behörden.",
+          "**(e) Begründung, Ausübung oder Verteidigung eines Rechts:** Aufzeichnungen über Vertragsannahmen, Provisions- und Auszahlungsaufzeichnungen, Aufzeichnungen über Streitigkeiten.",
+          "**(f) Berechtigtes Interesse:** Verhinderung vorgetäuschter Transaktionen und von Missbrauch, Konto- und Systemsicherheit, Prüfprotokolle. Diese Verarbeitungen erfolgen nur, soweit erforderlich, und so, dass Ihre Grundrechte und Grundfreiheiten nicht beeinträchtigt werden."
+        ] },
+        { "p": "Die in diesem Text beschriebenen Verarbeitungen beruhen nicht auf Ihrer ausdrücklichen Einwilligung. Daher wird keine ausdrückliche Einwilligung von Ihnen eingeholt." }
+      ]
+    },
+    {
+      "id": "collection",
+      "heading": "5. Art der Erhebung",
+      "blocks": [
+        { "p": "Ihre personenbezogenen Daten werden elektronisch und automatisiert bzw. teilautomatisiert erhoben: unmittelbar bei Ihnen über das Registrierungsformular sowie die Profil- und Bankdatenformulare im Partnerportal, aus den mit Ihrem Partnercode in den Art of Menu-Systemen ausgeführten Vorgängen, aus Sitzungs- und Sicherheitsprotokollen sowie aus Ihrer Korrespondenz mit dem Unternehmen. Im Rahmen der Zahlungs- und Steuerprozesse können auch Informationen von Banken und Behörden erfasst werden." },
+        { "p": "Stellen Sie die für den Abschluss und die Erfüllung des Vertrags erforderlichen Angaben nicht bereit, kann kein Partnercode vergeben und keine Provision ausgezahlt werden." }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "6. Empfänger",
+      "blocks": [
+        { "p": "Ihre personenbezogenen Daten werden nur an die folgenden Empfänger und nur in dem für den jeweils genannten Zweck erforderlichen Umfang übermittelt:" },
+        { "ul": [
+          "**Banken:** Zur Auszahlung der Provision die Bank des Unternehmens, Ihre Bank und bei Auslandsüberweisungen Korrespondenz- und Zwischenbanken. Übermittelt werden Vor- und Nachname bzw. Firma, Bankverbindung, Anschrift und Auszahlungsbetrag.",
+          "**Öffentliche Stellen:** Die türkische Steuerverwaltung (Gelir İdaresi Başkanlığı) und die Finanzämter sowie andere rechtlich zuständige Behörden, Stellen und Gerichte im Rahmen gesetzlicher Meldepflichten und rechtmäßiger Anfragen.",
+          "**E-Mail-Zustelldienst:** Für die Zustellung von E-Mails zur Bestätigung, Passwortzurücksetzung, zum Partnercode, zu Provisionen und Auszahlungen. Das Unternehmen nutzt hierfür, sofern der E-Mail-Versand entsprechend eingerichtet ist, den Dienst Resend. Der Anbieter verarbeitet E-Mail-Adresse und Name des Empfängers sowie den Inhalt der E-Mail.",
+          "**Rechts- und Steuerberater, Prüfer:** Für Buchhaltung, Steuern, Prüfungen und rechtliche Streitigkeiten, unter Verschwiegenheitspflicht."
+        ] },
+        { "p": "Ihre personenbezogenen Daten werden zu Marketingzwecken weder an Dritte weitergegeben noch verkauft. Die Hauptdaten von Art of Menu werden auf der vom Unternehmen verwalteten Serverinfrastruktur gespeichert." }
+      ]
+    },
+    {
+      "id": "transfers-abroad",
+      "heading": "7. Übermittlung ins Ausland",
+      "blocks": [
+        { "p": "In folgenden Fällen können Ihre personenbezogenen Daten ins Ausland übermittelt werden:" },
+        { "ul": [
+          "Der E-Mail-Zustelldienst (Resend) hat seinen Sitz in den Vereinigten Staaten von Amerika. An Sie gesendete E-Mails werden über die Systeme dieses Anbieters übermittelt.",
+          "Befindet sich Ihr Bankkonto im Ausland, werden Ihre Zahlungsdaten zur Durchführung der Auszahlung an Ihre Bank sowie an die Korrespondenz- und Zwischenbanken übermittelt, über die die internationale Überweisung läuft."
+        ] },
+        { "p": "Die Übermittlung ins Ausland erfolgt nach den in Art. 9 KVKK geregelten Voraussetzungen. Bei Übermittlungen in Länder, für die die türkische Datenschutzbehörde (Kişisel Verileri Koruma Kurulu) keinen Angemessenheitsbeschluss gefasst hat, stützt sich die Übermittlung auf eine der in Art. 9 Abs. 4 genannten geeigneten Garantien (z. B. die von der Behörde veröffentlichten Standardverträge). Können keine geeigneten Garantien gewährleistet werden, erfolgt die Übermittlung, sofern sie gelegentlich erfolgt, auf Grundlage einer der in Art. 9 Abs. 6 genannten Ausnahmen, insbesondere weil sie für die Erfüllung des mit Ihnen geschlossenen Vertrags zwingend erforderlich ist (Art. 9 Abs. 6 lit. b). Hierunter fällt die Auszahlung auf Ihr Bankkonto im Ausland." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "8. Speicherdauer",
+      "blocks": [
+        { "ul": [
+          "Konto-, Profil-, Bank-, Provisions- und Auszahlungsaufzeichnungen werden für die Dauer des Vertrags und nach seiner Beendigung für die in den einschlägigen Vorschriften vorgesehenen Fristen gespeichert (z. B. 10 Jahre gemäß Art. 82 des türkischen Handelsgesetzbuchs, 5 Jahre gemäß Art. 253 des türkischen Steuerverfahrensgesetzes).",
+          "Aufzeichnungen über Vertragsannahmen und Streitigkeiten werden für die Dauer der Verjährungsfrist der betreffenden Ansprüche gespeichert.",
+          "Sitzungsdaten werden nach Ende der Sitzung, Aufzeichnungen zur E-Mail-Bestätigung und Passwortzurücksetzung nach Ablauf ihrer Gültigkeit für einen begrenzten Zeitraum zu Sicherheitszwecken gespeichert.",
+          "Prüfprotokolle werden unveränderbar geführt und so lange gespeichert, wie es für die Kontosicherheit und die Erfüllung rechtlicher Pflichten erforderlich ist."
+        ] },
+        { "p": "Personenbezogene Daten, deren Speicherdauer abgelaufen ist, werden gelöscht, vernichtet oder anonymisiert." }
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "9. Sicherheit",
+      "blocks": [
+        { "p": "Das Unternehmen trifft geeignete technische und organisatorische Maßnahmen zur Sicherheit Ihrer personenbezogenen Daten. Passwörter werden ausschließlich als nicht umkehrbare Hashwerte gespeichert. Ausweisnummer und Bankdaten werden verschlüsselt. Sitzungscookies werden nur über sichere Verbindungen übertragen und können von Skripten im Browser nicht gelesen werden. Zugriff auf personenbezogene Daten haben nur Mitarbeiter des Unternehmens, die ihn für ihre Aufgaben benötigen." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "10. Ihre Rechte und Antragstellung",
+      "blocks": [
+        { "p": "Gemäß Art. 11 KVKK können Sie durch Antrag an das Unternehmen folgende Rechte ausüben:" },
+        { "ul": [
+          "zu erfahren, ob Ihre personenbezogenen Daten verarbeitet werden,",
+          "falls ja, Auskunft darüber zu verlangen,",
+          "den Zweck der Verarbeitung zu erfahren und ob die Daten zweckentsprechend verwendet werden,",
+          "die Dritten im In- oder Ausland zu kennen, an die die Daten übermittelt werden,",
+          "die Berichtigung unvollständig oder unrichtig verarbeiteter Daten zu verlangen,",
+          "die Löschung oder Vernichtung nach Maßgabe der Voraussetzungen des Art. 7 KVKK zu verlangen,",
+          "zu verlangen, dass Berichtigung, Löschung und Vernichtung den Dritten mitgeteilt werden, an die die Daten übermittelt wurden,",
+          "einem für Sie nachteiligen Ergebnis zu widersprechen, das sich aus einer ausschließlich automatisierten Analyse ergibt,",
+          "Ersatz des Schadens zu verlangen, der Ihnen durch eine rechtswidrige Verarbeitung entstanden ist."
+        ] },
+        { "p": "Ihren Antrag können Sie gemäß dem Kommuniqué über die Verfahren und Grundsätze für Anträge an den Verantwortlichen unter eindeutiger Angabe Ihrer Identität und Ihres Anliegens auf einem der folgenden Wege stellen:" },
+        { "ul": [
+          "schriftlich mit eigenhändig unterschriebenem Antrag an die Anschrift des Unternehmens,",
+          "per E-Mail von der in Ihrem Partnerkonto hinterlegten E-Mail-Adresse an [hello@goktigin.com](mailto:hello@goktigin.com),",
+          "mit einem durch sichere elektronische Signatur oder Mobilsignatur unterzeichneten Antrag."
+        ] },
+        { "p": "Das Unternehmen bearbeitet Ihren Antrag je nach Art spätestens innerhalb von 30 Tagen unentgeltlich. Verursacht die Bearbeitung gesonderte Kosten, kann eine Gebühr nach dem von der türkischen Datenschutzbehörde festgelegten Tarif erhoben werden. Wird Ihr Antrag abgelehnt, halten Sie die Antwort für unzureichend oder wird nicht fristgerecht geantwortet, können Sie gemäß Art. 14 KVKK Beschwerde bei der türkischen Datenschutzbehörde (Kişisel Verileri Koruma Kurulu) einlegen." },
+        { "p": "Über Ihre personenbezogenen Daten wird keine Entscheidung mit nachteiligen Folgen für Sie getroffen, die ausschließlich auf automatisierter Verarbeitung beruht. In Fällen wie dem Verdacht auf vorgetäuschte Transaktionen werden Systemwarnungen von Mitarbeitern des Unternehmens geprüft." }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "heading": "11. Zusätzliche Informationen für Partner in der EU, im EWR und im Vereinigten Königreich",
+      "blocks": [
+        { "p": "Befinden Sie sich in der Europäischen Union, im Europäischen Wirtschaftsraum oder im Vereinigten Königreich, kann auf die Verarbeitung Ihrer personenbezogenen Daten auch die Datenschutz-Grundverordnung (DSGVO) bzw. die UK GDPR anwendbar sein. Verantwortlicher (Controller) ist auch in diesem Fall das Unternehmen." },
+        { "p": "**Rechtsgrundlagen:**" },
+        { "ul": [
+          "Art. 6 Abs. 1 lit. b DSGVO: Abschluss und Erfüllung des Vertriebspartnervertrags (Konto-, Partnercode-, Provisions- und Auszahlungsvorgänge).",
+          "Art. 6 Abs. 1 lit. c DSGVO: rechtliche Verpflichtungen, denen das Unternehmen unterliegt (steuerliche, buchhalterische und Aufbewahrungspflichten).",
+          "Art. 6 Abs. 1 lit. f DSGVO: berechtigte Interessen des Unternehmens (Verhinderung vorgetäuschter Transaktionen, Konto- und Systemsicherheit, Geltendmachung und Abwehr rechtlicher Ansprüche). Sie können Informationen über die Abwägung anfordern, ob diese Interessen Ihre Rechte überwiegen."
+        ] },
+        { "p": "**Übermittlung in die und aus der Türkei:** Ihre Daten werden von dem in der Türkei ansässigen Unternehmen erhoben und in der Türkei verarbeitet. Ein Angemessenheitsbeschluss der Europäischen Kommission für die Türkei besteht nicht. Die Verarbeitung Ihrer Daten in der Türkei ist für die Erfüllung des mit Ihnen geschlossenen Vertriebspartnervertrags erforderlich (Art. 49 Abs. 1 lit. b DSGVO). Die Übermittlungen an den E-Mail-Zustelldienst und an ausländische Banken sind in den Abschnitten 6 und 7 beschrieben; diese Übermittlungen stützen sich auf das jeweils geeignete Instrument nach Kapitel V DSGVO." },
+        { "p": "**Ihre Rechte:** Nach Art. 15 bis 22 DSGVO haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie auf Widerspruch gegen eine auf berechtigte Interessen gestützte Verarbeitung. Ihr Anliegen können Sie auf den in Abschnitt 10 genannten Wegen übermitteln. Das Unternehmen beantwortet Ihr Anliegen spätestens innerhalb eines Monats; wegen der Komplexität des Anliegens kann diese Frist in dem nach Art. 12 Abs. 3 DSGVO vorgesehenen Umfang verlängert werden, worüber Sie informiert werden." },
+        { "p": "**Beschwerderecht:** Sie können Beschwerde bei der Datenschutzaufsichtsbehörde des Landes einlegen, in dem Sie Ihren gewöhnlichen Aufenthalt oder Ihren Arbeitsplatz haben oder in dem der mutmaßliche Verstoß stattgefunden hat." },
+        { "p": "Stellen Sie die für die Vertragserfüllung und gesetzliche Pflichten erforderlichen Daten nicht bereit, kann kein Partnercode vergeben und keine Auszahlung vorgenommen werden. Eine automatisierte Entscheidungsfindung einschließlich Profiling findet nicht statt." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "12. Änderungen dieses Textes",
+      "blocks": [
+        { "p": "Das Unternehmen aktualisiert diesen Text, wenn sich seine Datenverarbeitungstätigkeiten ändern. Der aktuelle Text wird mit Datum des Inkrafttretens und Versionsnummer veröffentlicht. Wesentliche Änderungen werden zusätzlich über das Partnerportal oder per E-Mail mitgeteilt." }
+      ]
+    }
+  ]
+}

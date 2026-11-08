@@ -1,0 +1,79 @@
+{
+  "key": "dpa",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Auftragsverarbeitungsvertrag (Anlage 1)",
+  "effective": "2026-11-08",
+  "summary": "Dieser Vertrag ist verbindliche Anlage des Art of Menu Dienstleistungsvertrags für Betriebe. Er regelt die Verarbeitung von Gäste- und Mitarbeiterdaten, für die der Betrieb Verantwortlicher und die Göktigin Bilişim Teknoloji Ltd. Şti. Auftragsverarbeiter ist.",
+  "sections": [
+    { "id": "subject", "heading": "1. Gegenstand und Rollen", "blocks": [
+      { "p": "Dieser Auftragsverarbeitungsvertrag (die „Anlage“) ist verbindliche Anlage des [Art of Menu Dienstleistungsvertrags für Betriebe](doc:business-terms) (der „Dienstleistungsvertrag“). In der Anlage nicht definierte Begriffe haben die Bedeutung, die ihnen im Dienstleistungsvertrag zukommt." },
+      { "p": "Für die in Abschnitt 3 aufgeführten personenbezogenen Daten ist der Kunde Verantwortlicher (der „Verantwortliche“). Die Göktigin Bilişim Teknoloji Ltd. Şti. (das „Unternehmen“) ist Auftragsverarbeiter, der diese Daten im Auftrag und nach Weisung des Verantwortlichen verarbeitet. Diese Anlage ist gemäß Art. 12 des türkischen Gesetzes Nr. 6698 zum Schutz personenbezogener Daten („KVKK“) und, soweit anwendbar, gemäß Art. 28 der Datenschutz-Grundverordnung der Europäischen Union („DSGVO“) gestaltet." },
+      { "p": "Verarbeitungen, die das Unternehmen als Verantwortlicher für Nutzerkonten, Abrechnungsvorgänge und die Sicherheit seines eigenen Dienstes vornimmt, fallen nicht unter diese Anlage; sie sind in der [Datenschutzinformation nach KVKK und Datenschutzerklärung für Betriebsnutzer](doc:privacy-business) beschrieben." }
+    ]},
+    { "id": "duration-purpose", "heading": "2. Dauer, Art und Zweck", "blocks": [
+      { "p": "Die Anlage gilt für die Dauer des Dienstleistungsvertrags und bis zum Abschluss der Löschung nach Abschnitt 9." },
+      { "p": "Das Unternehmen verarbeitet personenbezogene Daten ausschließlich zur Erbringung des Dienstes: zur Veröffentlichung der Gästespeisekarte, zur Verwaltung von Tischsitzungen und Bestellungen, zur Weiterleitung von Kellnerrufen, zum Betrieb der Kellneransicht, zur Erstellung von Verkaufs- und Menünutzungsberichten und zur Gewährleistung der Sicherheit des Dienstes. Die Verarbeitung umfasst das Erfassen, Speichern, Ordnen, Anzeigen, Übermitteln, Auswerten in Berichten und Löschen." }
+    ]},
+    { "id": "data-categories", "heading": "3. Betroffene Personen und Datenkategorien", "blocks": [
+      { "p": "**Gäste.** Von Gästen werden weder Name noch E-Mail-Adresse noch Telefonnummer erhoben. Verarbeitet werden:" },
+      { "ul": [
+        "Daten zur Tischsitzung: Tisch, gemeinsamer Warenkorb, als Hashwert gespeicherte Schlüssel für die Sitzungsmitgliedschaft, 6-stelliger Sitzungscode;",
+        "ausschließlich dem Tisch zugeordnete Aufzeichnungen über Bestellungen sowie Rufe nach dem Kellner, nach Wasser oder nach der Rechnung;",
+        "ohne Cookies erhobene Menünutzungsdaten: zufällige Kennung des Seitenaufrufs, aus den Browserinformationen abgeleitete Geräteklasse und Browserart, Sprache der Speisekarte, aus dem Netzwerk-Header ermittelter Ländercode, geöffnete Produkte und Verweildauer auf der Seite;",
+        "die vorübergehend zur Sicherheit und zur Begrenzung übermäßiger Nutzung verwendete IP-Adresse; die IP-Adresse wird nicht in der Datenbank gespeichert."
+      ]},
+      { "p": "**Kellner.** Die vom Verantwortlichen eingegebenen Angaben zu Vorname, Nachname, Geschlecht und Filiale; die vom Kellner ausgelieferten Bestellungen und Verkaufsaufzeichnungen; Sitzungsdaten der Kellneransicht." },
+      { "p": "**Sonstige Mitarbeiter des Verantwortlichen.** Die vom Verantwortlichen in den Dienst eingegebenen Mitarbeiternamen und die damit verbundenen Vorgangsaufzeichnungen." },
+      { "p": "Die Anlage bezweckt keine Verarbeitung besonderer Kategorien personenbezogener Daten. Der Verantwortliche gibt solche Daten nicht in den Dienst ein." }
+    ]},
+    { "id": "instructions", "heading": "4. Weisungen und Vertraulichkeit", "blocks": [
+      { "p": "Das Unternehmen verarbeitet personenbezogene Daten ausschließlich auf dokumentierte Weisung des Verantwortlichen. Diese Weisungen ergeben sich aus dem Dienstleistungsvertrag, dieser Anlage sowie den Einstellungen und Handlungen des Verantwortlichen im Panel. Ist das Unternehmen der Auffassung, dass eine Weisung gegen Rechtsvorschriften verstößt, informiert es den Verantwortlichen. Fälle, in denen Rechtsvorschriften das Unternehmen zur Verarbeitung verpflichten, bleiben unberührt." },
+      { "p": "Das Unternehmen stellt sicher, dass seine Mitarbeiter, die auf personenbezogene Daten zugreifen, zur Vertraulichkeit verpflichtet sind, und beschränkt den Zugriff auf diejenigen, die ihn für ihre Aufgaben benötigen." },
+      { "p": "Der Verantwortliche ist für die Rechtmäßigkeit der Verarbeitung, für die Erfüllung der Informationspflichten gegenüber seinen Gästen und Mitarbeitern und für die Rechtmäßigkeit seiner Weisungen verantwortlich." }
+    ]},
+    { "id": "security", "heading": "5. Sicherheitsmaßnahmen", "blocks": [
+      { "p": "Zur Sicherheit der Daten setzt das Unternehmen folgende Maßnahmen um:" },
+      { "ul": [
+        "Die Daten werden auf der vom Unternehmen verwalteten Serverinfrastruktur gehostet;",
+        "die Datenübertragung ist mit TLS verschlüsselt;",
+        "sensible Felder werden verschlüsselt in der Datenbank gespeichert; Sitzungs- und Zugriffsschlüssel werden als Hashwerte gespeichert;",
+        "im Panel gilt eine rollen- und berechtigungsbasierte Zugriffskontrolle;",
+        "für Mitarbeiter, die auf die Plattformverwaltung des Unternehmens zugreifen, wird eine Mehr-Faktor-Authentifizierung verwendet;",
+        "Verwaltungsvorgänge werden in einem unveränderbaren Prüfprotokoll festgehalten;",
+        "gegen übermäßige Anfragen und Missbrauchsversuche wird eine Anfragebegrenzung angewendet;",
+        "Mitarbeiter des Unternehmens greifen zu Supportzwecken nur zeitlich befristet und für den Verantwortlichen im Panel sichtbar auf ein Konto zu."
+      ]},
+      { "p": "Das Unternehmen kann diese Maßnahmen an den technischen Fortschritt anpassen; Anpassungen senken das Schutzniveau nicht." }
+    ]},
+    { "id": "sub-processors", "heading": "6. Unterauftragsverarbeiter und Dienste Dritter", "blocks": [
+      { "p": "Die Kernfunktionen des Dienstes laufen auf den eigenen Servern des Unternehmens. Auch die automatische Übersetzung von Menütexten und die Entfernung von Fotohintergründen erfolgen auf den Servern des Unternehmens. Zur Verarbeitung der Daten im Rahmen dieser Anlage nutzt das Unternehmen folgende Dienste:" },
+      { "ul": [
+        "**E-Mail-Versanddienst:** erhält, sofern er genutzt wird, ausschließlich die E-Mail-Adresse des Empfängers und den Inhalt der E-Mail. Dieser Dienst kann sich im Ausland befinden.",
+        "**Lizenzierter Zahlungsdienstleister:** wird ausschließlich für die Abonnementzahlungen des Kunden genutzt und erhält keine Gäste- oder Kellnerdaten."
+      ]},
+      { "p": "Zur Übersetzung von Menütexten kann im Panel über den Browser Google Translate genutzt werden. An diesen Dienst werden der Menütext und die IP-Adresse des Nutzers übermittelt. Menütexte enthalten im Normalfall keine personenbezogenen Daten; der Verantwortliche schreibt keine personenbezogenen Daten in Menütexte." },
+      { "p": "Verbindet der Verantwortliche sein Konto mit ChatGPT, werden Produktkatalog, Menüangaben und Mitarbeiternamen auf Weisung des Verantwortlichen an OpenAI übermittelt. Die Entscheidung über Einrichtung und Entfernung dieser Verbindung sowie das Verhältnis zu OpenAI liegen beim Verantwortlichen." },
+      { "p": "Bevor das Unternehmen einen neuen Unterauftragsverarbeiter einsetzt, informiert es den Verantwortlichen per E-Mail oder über das Panel. Erhebt der Verantwortliche aus berechtigtem Grund Einspruch und finden die Parteien keine Lösung, kann der Verantwortliche den Dienstleistungsvertrag kündigen. Das Unternehmen erlegt seinen Unterauftragsverarbeitern Datenschutzpflichten auf, die denen dieser Anlage gleichwertig sind. Eine aktuelle Liste der Unterauftragsverarbeiter ist auf Anfrage unter [hello@goktigin.com](mailto:hello@goktigin.com) erhältlich." }
+    ]},
+    { "id": "transfers", "heading": "7. Übermittlung ins Ausland", "blocks": [
+      { "p": "Personenbezogene Daten werden nur auf den gesetzlich vorgesehenen Rechtsgrundlagen ins Ausland übermittelt. Für Übermittlungen aus der Türkei gilt Art. 9 KVKK; stützt sich eine Übermittlung auf einen Standardvertrag, wird dieser innerhalb der gesetzlich vorgesehenen Frist der türkischen Datenschutzbehörde (Kişisel Verileri Koruma Kurumu) gemeldet." },
+      { "p": "Unterliegt der Verantwortliche der DSGVO, werden die für die Übermittlung an das Unternehmen in der Türkei erforderlichen Instrumente, insbesondere die Standardvertragsklauseln der Europäischen Kommission, von den Parteien gesondert abgeschlossen. Bevor diese Instrumente abgeschlossen sind, gilt eine solche Übermittlung nicht als erfolgt." }
+    ]},
+    { "id": "assistance", "heading": "8. Anträge betroffener Personen und Meldung von Verletzungen", "blocks": [
+      { "p": "Geht beim Unternehmen unmittelbar ein Antrag einer betroffenen Person ein, leitet das Unternehmen ihn unverzüglich an den Verantwortlichen weiter und beantwortet ihn nicht selbst. Das Unternehmen stellt in angemessenem Umfang die Informationen und technische Unterstützung bereit, die der Verantwortliche zur Beantwortung der Anträge benötigt." },
+      { "p": "Erlangt das Unternehmen Kenntnis von einer Verletzung der Sicherheit der Daten im Rahmen dieser Anlage, informiert es den Verantwortlichen unverzüglich und so rechtzeitig, dass der Verantwortliche die von der türkischen Datenschutzbehörde (Kişisel Verileri Koruma Kurulu) vorgesehene Meldefrist von 72 Stunden einhalten kann. Die Meldung enthält, soweit zu diesem Zeitpunkt bekannt, die Art der Verletzung, die betroffenen Datenkategorien, die wahrscheinlichen Folgen und die ergriffenen Maßnahmen. Die Pflicht zur Meldung an die Behörde und an die betroffenen Personen obliegt dem Verantwortlichen." }
+    ]},
+    { "id": "deletion", "heading": "9. Löschung und Aufbewahrung", "blocks": [
+      { "p": "Rohe Menünutzungsdaten werden nach 120 Tagen gelöscht; aufbewahrt werden nur aggregierte Statistiken, die keiner Person zugeordnet werden können." },
+      { "p": "Endet der Dienstleistungsvertrag und wird das Konto geschlossen, werden die Daten im Rahmen dieser Anlage nach Ablauf der 30-tägigen Frist, innerhalb derer das Konto wieder geöffnet werden kann, gelöscht oder anonymisiert. Der Verantwortliche sichert die von ihm benötigten Daten vor Ablauf dieser Frist selbst. Aufzeichnungen, deren Aufbewahrung gesetzlich vorgeschrieben ist, werden für die betreffende Frist aufbewahrt." }
+    ]},
+    { "id": "audits", "heading": "10. Kontrollen", "blocks": [
+      { "p": "Auf schriftliche Anfrage des Verantwortlichen stellt das Unternehmen die Informationen und Unterlagen bereit, die zum Nachweis der Einhaltung dieser Anlage erforderlich sind. Reichen diese Informationen nicht aus, kann der Verantwortliche höchstens einmal jährlich eine Kontrolle selbst durchführen oder durch einen unabhängigen Prüfer durchführen lassen, sofern er sie mindestens 30 Tage im Voraus ankündigt, sie während der üblichen Geschäftszeiten durchführt, die Kosten trägt und die Vertraulichkeitspflicht einhält. Bei einer Sicherheitsverletzung oder auf Verlangen einer zuständigen Behörde gilt diese Häufigkeitsbegrenzung nicht. Die Kontrolle wird so durchgeführt, dass die Daten anderer Kunden und die Systemsicherheit des Unternehmens nicht beeinträchtigt werden." }
+    ]},
+    { "id": "liability", "heading": "11. Haftung", "blocks": [
+      { "p": "Jede Partei haftet für Verstöße gegen ihre eigenen Pflichten aus dieser Anlage und dem Datenschutzrecht. Für die Haftung des Unternehmens gelten die Beschränkungen im Abschnitt [Haftung](doc:business-terms#liability) des Dienstleistungsvertrags; Fälle, in denen zwingendes Recht dies nicht zulässt, bleiben unberührt." },
+      { "p": "Besteht zwischen dieser Anlage und dem Dienstleistungsvertrag ein Widerspruch in Bezug auf den Schutz personenbezogener Daten, geht diese Anlage vor." }
+    ]}
+  ]
+}

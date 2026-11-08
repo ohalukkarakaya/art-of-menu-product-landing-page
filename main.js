@@ -312,7 +312,8 @@
 
   var form = document.getElementById("join-form");
   var statusEl = document.getElementById("join-status");
-  form.addEventListener("submit", function (e) {
+  // the early-access form is gone; sign-up happens in the panel
+  if (form) form.addEventListener("submit", function (e) {
     e.preventDefault();
     var input = form.querySelector("input");
     var email = input.value.trim();

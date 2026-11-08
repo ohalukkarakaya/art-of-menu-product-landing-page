@@ -1,0 +1,181 @@
+{
+  "key": "privacy-partner",
+  "version": "1.0",
+  "locale": "it",
+  "title": "Informativa KVKK per i Partner commerciali",
+  "effective": "2026-11-08",
+  "summary": "La presente informativa illustra come Göktigin Bilişim Teknoloji Ltd. Şti. tratta i dati personali delle persone che presentano domanda e partecipano al programma di partnership commerciale Art of Menu, ai sensi dell'articolo 10 della Legge n. 6698 sulla protezione dei dati personali e del Comunicato sulle procedure e i principi da osservare nell'adempimento dell'obbligo di informativa. Le informazioni aggiuntive per i partner che si trovano nell'Unione europea, nello Spazio economico europeo o nel Regno Unito sono riportate nella sezione 11. La presente informativa non è un contratto né un modulo di consenso; ha finalità puramente informative.",
+  "sections": [
+    {
+      "id": "controller",
+      "heading": "1. Titolare del trattamento",
+      "blocks": [
+        { "p": "I tuoi dati personali sono trattati da **Göktigin Bilişim Teknoloji Limited Şirketi** (la Società) in qualità di titolare del trattamento." },
+        { "ul": [
+          "Indirizzo: Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Turchia",
+          "Ufficio delle imposte e codice fiscale: Antalya Kurumlar Vergi Dairesi (Ufficio delle imposte per le società di Antalya), 4060725346",
+          "E-mail: [hello@goktigin.com](mailto:hello@goktigin.com)",
+          "Telefono: +90 554 238 70 07"
+        ] },
+        { "p": "Gli altri dati della Società sono riportati nella pagina [Società e informazioni legali](doc:company). La Società non ha società, sedi secondarie o rappresentanti al di fuori della Turchia." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "2. Dati personali trattati",
+      "blocks": [
+        { "table": {
+          "head": ["Categoria di dati", "Dati"],
+          "rows": [
+            ["Identità", "Nome, cognome, data di nascita, cittadinanza, tipo (numero d'identità della Repubblica di Turchia, passaporto o documento d'identità nazionale) e numero del documento d'identità. Per i partner persone giuridiche, ragione sociale, codice fiscale e ufficio delle imposte."],
+            ["Contatto", "Indirizzo e-mail, numero di telefono, indirizzo, città, codice postale, paese."],
+            ["Dati finanziari", "Coordinate bancarie (intestatario del conto, IBAN o numero di conto, codice BIC/SWIFT, nome e indirizzo della banca, se necessario codice di instradamento bancario), paese della banca, valuta di pagamento, registrazioni di provvigioni e pagamenti, dati della ricevuta di spesa (gider pusulası) e delle fatture, dati sulle ritenute fiscali."],
+            ["Operazioni con i clienti", "Codice partner, nome delle attività registrate con il codice, dati relativi al pacchetto, al periodo, all'importo e alla data del primo pagamento di tali attività, stato delle provvigioni e motivi per cui sono state considerate nulle."],
+            ["Sicurezza delle operazioni", "Valore di hash irreversibile della password, registri delle sessioni (cookie di sessione, dati del browser, ora di inizio e di ultimo utilizzo della sessione), registri di verifica dell'e-mail e di reimpostazione della password, registri di audit delle operazioni effettuate nell'account."],
+            ["Atti giuridici", "Registrazioni di accettazione del contratto (documento accettato, versione, lingua, data, valore di hash dell'indirizzo IP e dati del browser), registrazioni e motivazioni della sospensione dei pagamenti o della sospensione dell'account, registrazioni di controversie e corrispondenza."],
+            ["Altro", "Preferenza linguistica e corrispondenza via e-mail con la Società."]
+          ]
+        } },
+        { "p": "Il numero del documento d'identità e le coordinate bancarie sono conservati in forma cifrata nella banca dati. Ai fini di elencazione e controllo sono conservati separatamente solo il paese della banca, la valuta di pagamento e le ultime quattro cifre del numero di conto." },
+        { "p": "La Società non chiede ai partner categorie particolari di dati personali (ad es. dati relativi alla salute, alla religione, alle opinioni politiche, dati biometrici). Non viene acquisita alcuna fotografia o copia del documento d'identità." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "3. Finalità del trattamento",
+      "blocks": [
+        { "ul": [
+          "apertura dell'account partner, verifica dell'indirizzo e-mail e gestione dell'account,",
+          "assegnazione del codice partner e attribuzione al partner delle attività registrate con il codice,",
+          "calcolo, maturazione definitiva, annullamento e pagamento delle provvigioni,",
+          "adempimento degli obblighi fiscali e contabili, quali l'emissione della ricevuta di spesa (gider pusulası), la registrazione delle fatture e l'applicazione delle ritenute fiscali,",
+          "verifica che il partner abbia compiuto 18 anni e della coerenza dei dati identificativi,",
+          "prevenzione e individuazione di autosegnalazioni, account duplicati e operazioni fraudolente,",
+          "garanzia della sicurezza dell'account e del sistema,",
+          "comunicazioni con il partner in materia di contratto, pagamenti, account e sicurezza,",
+          "applicazione del Contratto di Partnership Commerciale e della Politica Aziendale, prova dell'accettazione del contratto,",
+          "accertamento, esercizio e difesa di diritti nelle controversie legali, riscontro alle richieste legittime di autorità e organismi competenti."
+        ] },
+        { "p": "La Società non invia ai partner e-mail di marketing né messaggi elettronici commerciali. Le e-mail inviate al partner riguardano esclusivamente l'account, il contratto, le provvigioni e i pagamenti." }
+      ]
+    },
+    {
+      "id": "legal-bases",
+      "heading": "4. Basi giuridiche",
+      "blocks": [
+        { "p": "I tuoi dati personali sono trattati sulla base delle seguenti basi giuridiche previste dall'art. 5, comma 2, della KVKK:" },
+        { "ul": [
+          "**(c) Conclusione o esecuzione del contratto:** operazioni relative all'account, al codice partner, alle segnalazioni, alle provvigioni e ai pagamenti.",
+          "**(ç) Adempimento di un obbligo legale:** obblighi di emissione di documenti, ritenuta, conservazione e comunicazione derivanti dalla Legge sulla procedura tributaria, dalla Legge sull'imposta sul reddito, dal Codice di commercio turco e dalla normativa pertinente; richieste delle autorità competenti.",
+          "**(e) Accertamento, esercizio o difesa di un diritto:** registrazioni di accettazione del contratto, registrazioni di provvigioni e pagamenti, registrazioni relative alle controversie.",
+          "**(f) Legittimo interesse:** prevenzione delle operazioni fraudolente e degli abusi, sicurezza dell'account e del sistema, registri di audit. Tali trattamenti sono effettuati nella misura necessaria e in modo da non pregiudicare i tuoi diritti e le tue libertà fondamentali."
+        ] },
+        { "p": "I trattamenti descritti nella presente informativa non si basano sul tuo consenso esplicito. Per questo motivo non ti viene chiesto alcun consenso esplicito." }
+      ]
+    },
+    {
+      "id": "collection",
+      "heading": "5. Modalità di raccolta",
+      "blocks": [
+        { "p": "I tuoi dati personali sono raccolti in formato elettronico, con mezzi automatizzati e parzialmente automatizzati, direttamente da te tramite il modulo di registrazione e i moduli del profilo e delle coordinate bancarie del Portale Partner, dalle operazioni effettuate con il tuo codice partner nei sistemi Art of Menu, dai registri di sessione e di sicurezza e dalla corrispondenza con la Società. Nell'ambito delle procedure di pagamento e fiscali possono essere registrate anche informazioni provenienti da banche e autorità pubbliche." },
+        { "p": "Se non fornisci i dati necessari alla conclusione e all'esecuzione del contratto, non è possibile assegnarti un codice partner né corrisponderti provvigioni." }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "6. Destinatari",
+      "blocks": [
+        { "p": "I tuoi dati personali sono comunicati esclusivamente ai seguenti destinatari e solo nella misura necessaria per la finalità indicata:" },
+        { "ul": [
+          "**Banche:** per il pagamento delle provvigioni, la banca con cui opera la Società, la tua banca e, per i bonifici esteri, le banche corrispondenti e intermediarie. I dati comunicati sono nome, cognome o ragione sociale, coordinate bancarie, indirizzo e importo del pagamento.",
+          "**Enti e organismi pubblici:** l'Amministrazione delle entrate (Gelir İdaresi Başkanlığı) e gli uffici delle imposte, nonché altri enti, organismi e autorità giudiziarie legalmente competenti, nell'ambito degli obblighi di comunicazione previsti dalla normativa e di richieste legittime.",
+          "**Fornitore del servizio di recapito e-mail:** per il recapito delle e-mail di verifica, reimpostazione della password, codice partner, provvigioni e pagamenti. A tal fine, quando l'invio di e-mail è configurato, la Società utilizza il servizio Resend. Il fornitore tratta l'indirizzo e-mail e il nome del destinatario e il contenuto dell'e-mail.",
+          "**Consulenti legali e fiscali, revisori:** per le procedure contabili, fiscali, di revisione e di contenzioso, nel rispetto dell'obbligo di segreto."
+        ] },
+        { "p": "I tuoi dati personali non sono comunicati a terzi per finalità di marketing né venduti. I dati principali di Art of Menu sono conservati nell'infrastruttura server gestita dalla Società." }
+      ]
+    },
+    {
+      "id": "transfers-abroad",
+      "heading": "7. Trasferimento all'estero",
+      "blocks": [
+        { "p": "I tuoi dati personali possono essere trasferiti all'estero nei seguenti casi:" },
+        { "ul": [
+          "Il fornitore del servizio di recapito e-mail (Resend) ha sede negli Stati Uniti d'America. Le e-mail che ti vengono inviate transitano attraverso i sistemi di tale fornitore.",
+          "Se il tuo conto bancario si trova all'estero, i tuoi dati di pagamento sono trasmessi alla tua banca e alle banche corrispondenti e intermediarie attraverso cui transita il bonifico internazionale, al fine di effettuare il pagamento."
+        ] },
+        { "p": "Il trasferimento all'estero avviene alle condizioni previste dall'art. 9 della KVKK. Per i trasferimenti verso paesi per i quali l'Autorità per la protezione dei dati personali non ha adottato una decisione di adeguatezza, ci si avvale di una delle garanzie adeguate elencate all'art. 9, comma 4 (ad es. le clausole contrattuali standard pubblicate dall'Autorità). Se non è possibile fornire garanzie adeguate, il trasferimento avviene, purché occasionale, sulla base di uno dei casi elencati all'art. 9, comma 6, in particolare quando il trasferimento è necessario per l'esecuzione del contratto concluso con te (art. 9, comma 6, lett. b). Il pagamento sul tuo conto bancario all'estero rientra in tale ambito." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "8. Periodo di conservazione",
+      "blocks": [
+        { "ul": [
+          "Le registrazioni relative ad account, profilo, coordinate bancarie, provvigioni e pagamenti sono conservate per la durata del contratto e, dopo la sua cessazione, per i periodi previsti dalla normativa pertinente (ad es. 10 anni ai sensi dell'art. 82 del Codice di commercio turco, 5 anni ai sensi dell'art. 253 della Legge sulla procedura tributaria).",
+          "Le registrazioni di accettazione del contratto e le registrazioni relative alle controversie sono conservate per il periodo di prescrizione dei relativi crediti.",
+          "I registri delle sessioni sono conservati, dopo la fine della sessione, e i registri di verifica dell'e-mail e di reimpostazione della password, dopo la scadenza del loro periodo di validità, per un periodo limitato a fini di sicurezza.",
+          "I registri di audit sono tenuti in forma non modificabile e conservati per il periodo necessario alla sicurezza dell'account e all'adempimento degli obblighi di legge."
+        ] },
+        { "p": "Alla scadenza del periodo di conservazione, i dati personali sono cancellati, distrutti o resi anonimi." }
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "9. Sicurezza",
+      "blocks": [
+        { "p": "La Società adotta misure tecniche e organizzative adeguate per la sicurezza dei tuoi dati personali. Le password sono conservate esclusivamente sotto forma di valori di hash irreversibili. Il numero del documento d'identità e le coordinate bancarie sono cifrati. I cookie di sessione sono trasmessi solo tramite connessione sicura e non possono essere letti dagli script del browser. Ai dati personali accede solo il personale della Società che ne ha necessità per lo svolgimento delle proprie mansioni." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "10. I tuoi diritti e come esercitarli",
+      "blocks": [
+        { "p": "Ai sensi dell'art. 11 della KVKK, puoi esercitare i seguenti diritti rivolgendoti alla Società:" },
+        { "ul": [
+          "sapere se i tuoi dati personali sono trattati,",
+          "in caso affermativo, chiedere informazioni al riguardo,",
+          "conoscere la finalità del trattamento e se i dati sono utilizzati in modo conforme a tale finalità,",
+          "conoscere i terzi a cui i dati sono trasferiti in Turchia o all'estero,",
+          "chiedere la rettifica dei dati incompleti o inesatti,",
+          "chiedere la cancellazione o la distruzione dei dati alle condizioni di cui all'art. 7 della KVKK,",
+          "chiedere che le operazioni di rettifica, cancellazione e distruzione siano notificate ai terzi a cui i dati sono stati trasferiti,",
+          "opporti a un risultato a te sfavorevole derivante dall'analisi dei dati effettuata esclusivamente tramite sistemi automatizzati,",
+          "chiedere il risarcimento del danno subito a causa di un trattamento illecito."
+        ] },
+        { "p": "Puoi presentare la tua richiesta, indicando chiaramente la tua identità e l'oggetto della richiesta ai sensi del Comunicato sulle procedure e i principi per le richieste al titolare del trattamento, in uno dei seguenti modi:" },
+        { "ul": [
+          "con istanza scritta con firma autografa inviata all'indirizzo della Società,",
+          "via e-mail all'indirizzo [hello@goktigin.com](mailto:hello@goktigin.com) dall'indirizzo e-mail registrato nel tuo account partner,",
+          "con richiesta sottoscritta con firma elettronica sicura o firma mobile."
+        ] },
+        { "p": "La Società evade gratuitamente la richiesta entro al massimo 30 giorni, a seconda della sua natura. Se l'operazione comporta un costo aggiuntivo, può essere addebitato l'importo previsto dalla tariffa stabilita dall'Autorità per la protezione dei dati personali. In caso di rigetto della richiesta, di risposta ritenuta insufficiente o di mancata risposta nei termini, puoi presentare reclamo all'Autorità per la protezione dei dati personali ai sensi dell'art. 14 della KVKK." },
+        { "p": "Nessuna decisione che produca effetti a te sfavorevoli in relazione ai tuoi dati personali è adottata esclusivamente sulla base di un trattamento automatizzato. In situazioni quali il sospetto di operazioni fraudolente, gli avvisi del sistema sono esaminati dal personale della Società." }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "heading": "11. Informazioni aggiuntive per i Partner nell'UE, nel SEE e nel Regno Unito",
+      "blocks": [
+        { "p": "Se ti trovi nell'Unione europea, nello Spazio economico europeo o nel Regno Unito, al trattamento dei tuoi dati personali possono applicarsi anche il Regolamento generale sulla protezione dei dati (GDPR) o il GDPR del Regno Unito. In tal caso il titolare del trattamento (controller) resta la Società." },
+        { "p": "**Basi giuridiche:**" },
+        { "ul": [
+          "Art. 6, par. 1, lett. b) GDPR: conclusione ed esecuzione del Contratto di Partnership Commerciale (operazioni relative all'account, al codice partner, alle provvigioni e ai pagamenti).",
+          "Art. 6, par. 1, lett. c) GDPR: obblighi legali cui è soggetta la Società (obblighi fiscali, contabili e di conservazione delle registrazioni).",
+          "Art. 6, par. 1, lett. f) GDPR: legittimi interessi della Società (prevenzione delle operazioni fraudolente, sicurezza dell'account e del sistema, accertamento e difesa di diritti in sede giudiziaria). Puoi chiedere informazioni sulla valutazione effettuata per stabilire se tali interessi prevalgano sui tuoi diritti."
+        ] },
+        { "p": "**Trasferimento verso e dalla Turchia:** i tuoi dati sono raccolti dalla Società, costituita in Turchia, e trattati in Turchia. Non esiste una decisione di adeguatezza della Commissione europea relativa alla Turchia. Il trattamento dei tuoi dati in Turchia è necessario per l'esecuzione del Contratto di Partnership Commerciale concluso con te (art. 49, par. 1, lett. b) GDPR). I trasferimenti al fornitore del servizio di recapito e-mail e alle banche estere sono descritti nelle sezioni 6 e 7; per tali trasferimenti ci si avvale dello strumento appropriato tra quelli previsti dal Capo V del GDPR." },
+        { "p": "**I tuoi diritti:** ai sensi degli artt. 15-22 GDPR hai il diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità dei dati e opposizione al trattamento basato sul legittimo interesse. Puoi inoltrare la tua richiesta con le modalità indicate nella sezione 10. La Società risponde alla richiesta entro al massimo un mese; tenuto conto della complessità della richiesta, tale termine può essere prorogato nella misura prevista dall'art. 12, par. 3, GDPR e la proroga ti viene comunicata." },
+        { "p": "**Diritto di reclamo:** puoi proporre reclamo all'autorità di controllo per la protezione dei dati del paese in cui risiedi abitualmente, lavori o in cui ritieni si sia verificata la violazione." },
+        { "p": "Se non fornisci i dati necessari all'esecuzione del contratto e all'adempimento degli obblighi di legge, non è possibile assegnarti un codice partner né effettuare pagamenti. Non sono effettuati processi decisionali automatizzati né profilazione." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "12. Modifiche alla presente informativa",
+      "blocks": [
+        { "p": "La Società aggiorna la presente informativa in caso di modifiche alle attività di trattamento dei dati. Il testo aggiornato è pubblicato con la data di entrata in vigore e il numero di versione. Le modifiche sostanziali sono inoltre comunicate tramite il Portale Partner o via e-mail." }
+      ]
+    }
+  ]
+}

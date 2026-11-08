@@ -1,0 +1,318 @@
+{
+  "key": "partner-terms",
+  "version": "1.0",
+  "locale": "es",
+  "title": "Contrato de Partner Comercial",
+  "effective": "2026-11-08",
+  "summary": "Este contrato regula la relación entre los partners comerciales que remiten nuevos establecimientos a las suscripciones de Art of Menu y Göktigin Bilişim Teknoloji Ltd. Şti. Explica el régimen de actuación independiente del Partner, las reglas de remisión, los límites de sus facultades, cómo se devenga y se paga la comisión, los métodos de venta prohibidos y la terminación del contrato. La Política de Valores Corporativos, Uso Aceptable y Reputación de Marca constituye un anexo vinculante de este contrato.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Partes y definiciones",
+      "blocks": [
+        { "p": "Este contrato se celebra entre **Göktigin Bilişim Teknoloji Limited Şirketi** (Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Turquía; Oficina Tributaria Antalya Kurumlar, número de identificación fiscal (VKN) 4060725346; [hello@goktigin.com](mailto:hello@goktigin.com)) y la persona física o jurídica que se inscribe en el programa de partners comerciales. Toda la información de la Sociedad figura en la página [Información corporativa y legal](doc:company)." },
+        { "p": "Los términos utilizados en este contrato tienen el significado siguiente:" },
+        { "ul": [
+          "**Sociedad:** Göktigin Bilişim Teknoloji Ltd. Şti.",
+          "**Art of Menu:** el nombre comercial del software de menú digital y gestión de pedidos del que la Sociedad es titular y que explota.",
+          "**Partner:** la persona física o jurídica que participa en el programa de partners comerciales tras aceptar este contrato.",
+          "**Portal de Partners:** el área en línea en la que el Partner consulta su cuenta, su perfil, sus datos bancarios, sus remisiones, sus comisiones y sus pagos.",
+          "**Código de Partner:** el código de remisión asignado de forma exclusiva al Partner, con el formato AOM-XXXXXX.",
+          "**Establecimiento:** el restaurante, cafetería o negocio comercial similar que contrata una suscripción de Art of Menu con la Sociedad.",
+          "**Primera Venta:** el primer pago de suscripción de pago que realiza a la Sociedad un establecimiento registrado con un Código de Partner.",
+          "**Importe Neto Cobrado:** el importe que resulta de deducir, del importe efectivamente percibido por la Sociedad en la Primera Venta, el impuesto sobre el valor añadido y demás impuestos, así como la comisión retenida por el proveedor de servicios de pago por dicho pago."
+        ] }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Objeto del contrato",
+      "blocks": [
+        { "p": "El Partner da a conocer las suscripciones de Art of Menu a los establecimientos y los remite a la Sociedad mediante el Código de Partner. El contrato de suscripción se celebra directamente entre el establecimiento y la Sociedad. La Sociedad cobra el precio de la suscripción. La Sociedad paga al Partner una comisión cuando se cumplen las condiciones de este contrato." },
+        { "p": "Este contrato no impone al Partner ningún objetivo de ventas, obligación de venta mínima ni exclusividad. La Sociedad tampoco concede al Partner exclusividad alguna en una zona o grupo de clientes determinados." }
+      ]
+    },
+    {
+      "id": "independence",
+      "heading": "3. Actuación independiente",
+      "blocks": [
+        { "p": "El Partner ejerce su actividad de forma independiente, en nombre propio, por cuenta propia y con su propia organización. Entre las partes no se constituye relación laboral, de agencia, de venta exclusiva, de distribución, de concesión, societaria ni de sociedad civil. El Partner no es empleado, representante ni agente de la Sociedad." },
+        { "p": "El Partner determina por sí mismo su horario, sus métodos y sus medios de trabajo, siempre que se ajusten a este contrato y a la ley. Asume todos los gastos de desplazamiento, comunicación, equipos, publicidad y similares en que incurra para su actividad. La Sociedad no paga ni reembolsa dichos gastos." },
+        { "p": "El Partner es el único responsable de las obligaciones tributarias, de seguros y de seguridad social derivadas de su propia actividad." }
+      ]
+    },
+    {
+      "id": "joining",
+      "heading": "4. Adhesión y cuenta",
+      "blocks": [
+        { "p": "La adhesión al programa de partners se realiza a través del Portal de Partners. En el registro se solicitan el nombre, los apellidos, la dirección de correo electrónico, una contraseña y el país. El Partner verifica su dirección de correo electrónico mediante el enlace enviado a dicha dirección." },
+        { "p": "El Código de Partner se asigna una vez verificada la dirección de correo electrónico y cumplimentados íntegramente el perfil y los datos bancarios en el Portal de Partners. El código se muestra en el Portal de Partners y se envía a la dirección de correo electrónico del Partner." },
+        { "ul": [
+          "El Partner persona física debe ser mayor de 18 años. A las personas físicas se les solicitan la fecha de nacimiento, la nacionalidad, el tipo y número de documento de identidad (número de identidad turco, pasaporte o documento nacional de identidad), la dirección y el teléfono.",
+          "Al Partner persona jurídica se le solicitan la denominación social, el número de identificación fiscal, la oficina tributaria en el caso de sociedades constituidas en Turquía, la dirección y el teléfono. El nombre y los apellidos facilitados en el registro corresponden a la persona que actúa en nombre de la sociedad.",
+          "El Partner declara que los datos que facilita son veraces, están actualizados y le pertenecen. La cuenta bancaria debe estar abierta a nombre del Partner o de la sociedad del Partner.",
+          "El Partner actualiza sin demora su registro en el Portal de Partners cuando se produzca algún cambio en sus datos. La Sociedad no responde de los pagos efectuados con retraso o de forma errónea a causa de datos incorrectos o incompletos."
+        ] },
+        { "p": "El Partner mantiene en secreto los datos de su cuenta y su contraseña. El Partner es responsable de las operaciones realizadas en su cuenta. Cuando el Partner advierta un uso no autorizado de su cuenta, lo comunicará de inmediato a la Sociedad." },
+        { "p": "La Sociedad se reserva el derecho de no aceptar una solicitud de partner sin necesidad de motivarlo, así como de cerrar temporal o definitivamente el registro de nuevos partners." }
+      ]
+    },
+    {
+      "id": "referrals",
+      "heading": "5. Reglas de remisión",
+      "blocks": [
+        { "p": "Para que un establecimiento quede vinculado al Partner, el establecimiento debe haber introducido el Código de Partner en Art of Menu antes de su primer pago. No es posible añadir el código después del primer pago ni reclamar a posteriori una comisión por una venta realizada sin código." },
+        { "ul": [
+          "Cada establecimiento solo puede vincularse a un Partner, y por cada establecimiento se paga una única comisión.",
+          "La comisión se calcula sobre la suscripción del primer local que figure en la primera factura de pago del establecimiento. No se paga comisión adicional por los demás locales del mismo establecimiento, por los locales añadidos posteriormente, por las mejoras de plan ni por las renovaciones.",
+          "No se paga comisión por el establecimiento propio del Partner, por el establecimiento del que sea socio o que dirija, ni por las cuentas abiertas a su propio nombre (queda prohibida la autorremisión).",
+          "Quedan prohibidas las cuentas de establecimientos que no ejerzan una actividad real o que se hayan abierto únicamente para obtener una comisión, las cuentas duplicadas abiertas para un mismo establecimiento y las cuentas abiertas sin autorización a nombre de otra persona.",
+          "Para determinar a qué Partner está vinculado un establecimiento, prevalecen los registros de la Sociedad. La Sociedad se reserva el derecho de corregir cualquier error derivado de su propio sistema."
+        ] }
+      ]
+    },
+    {
+      "id": "authority",
+      "heading": "6. Límites de las facultades",
+      "blocks": [
+        { "p": "Salvo que la Sociedad le haya otorgado por escrito una autorización expresa, el Partner no puede asumir compromisos, celebrar contratos, ofrecer descuentos o condiciones especiales ni hacer declaraciones en nombre de la Sociedad." },
+        { "ul": [
+          "El Partner describe con exactitud los planes, las funcionalidades y los precios de Art of Menu conforme a la información vigente publicada por la Sociedad. No presenta como existente una funcionalidad que no existe.",
+          "El Partner no cobra a los establecimientos, en nombre de la Sociedad, pagos, señales ni ningún otro importe.",
+          "El Partner no solicita, recibe ni registra los datos de tarjeta ni otros datos de pago de los establecimientos, ni realiza pagos en su nombre. El pago de la suscripción lo realiza el propio establecimiento a través del panel de Art of Menu.",
+          "El Partner no abre cuentas en nombre del establecimiento, no acepta en su nombre el Contrato de Servicio de Art of Menu ni utiliza los datos de la cuenta del establecimiento."
+        ] }
+      ]
+    },
+    {
+      "id": "commission",
+      "heading": "7. Comisión",
+      "blocks": [
+        { "p": "Por la Primera Venta de un establecimiento registrado con su Código de Partner, el Partner devenga la siguiente comisión:" },
+        { "table": {
+          "head": ["Plan", "Primera venta en suscripción mensual", "Primera venta en suscripción anual (venta en EUR)"],
+          "rows": [
+            ["Menu", "100 % del Importe Neto Cobrado", "15 €"],
+            ["Order", "50 % del Importe Neto Cobrado", "30 €"],
+            ["Smart", "50 % del Importe Neto Cobrado", "100 €"]
+          ]
+        } },
+        { "ul": [
+          "En las suscripciones mensuales, la comisión se calcula sobre el Importe Neto Cobrado en la Primera Venta. No se computan el impuesto sobre el valor añadido y demás impuestos ni la comisión retenida por el proveedor de servicios de pago por dicho pago.",
+          "En las suscripciones anuales, la comisión es un importe fijo con independencia del importe de la venta. Para las ventas en EUR, los importes figuran en la tabla anterior. Para las ventas en TRY o USD, los importes fijos en TRY y USD de cada plan se muestran en el Portal de Partners.",
+          "No se paga comisión por las renovaciones.",
+          "No se paga comisión por los periodos gratuitos que la Sociedad conceda como obsequio ni por los periodos en los que no se perciba pago alguno.",
+          "Los porcentajes e importes de las comisiones también se muestran en el Portal de Partners. A cada venta se le aplican los porcentajes e importes vigentes en la fecha en que se realizó."
+        ] },
+        { "note": "La comisión se paga una sola vez y únicamente por el primer pago del establecimiento por una suscripción de pago. Las renovaciones mensuales o anuales posteriores no generan comisión." }
+      ]
+    },
+    {
+      "id": "payable",
+      "heading": "8. Firmeza de la comisión, reembolsos y retrocesiones",
+      "blocks": [
+        { "p": "La comisión se registra como comisión pendiente en la fecha en que el pago del establecimiento llega a la Sociedad y pasa a ser pagadera 30 días después de dicha fecha. Este plazo de 30 días se aplica para que se despejen los riesgos de reembolso, retrocesión y cancelación." },
+        { "p": "La Sociedad considerará anulada la comisión en los siguientes casos:" },
+        { "ul": [
+          "si se reembolsa al establecimiento la totalidad o parte del pago;",
+          "si el titular de la tarjeta o su banco recupera el pago mediante una retrocesión (chargeback);",
+          "si la suscripción del establecimiento se cancela durante el periodo de espera o si el banco o el proveedor de servicios de pago rechaza el pago;",
+          "si se constata que la venta es falsa, fraudulenta o engañosa, o que se ha obtenido en contravención de este contrato;",
+          "si los pagos al Partner se han suspendido conforme a la cláusula 11 y la venta se ha producido durante dicha suspensión."
+        ] },
+        { "p": "En caso de reembolso parcial, la comisión podrá reducirse en proporción al importe reembolsado. Si una comisión anulada ya se hubiera pagado al Partner, el importe pagado se compensará con los pagos posteriores del Partner. Si no hubiera saldo suficiente para la compensación, la Sociedad podrá reclamar dicho importe al Partner." },
+        { "p": "El estado de la comisión (pendiente, pagadera, pagada, anulada) y el motivo de su anulación se muestran en el Portal de Partners." }
+      ]
+    },
+    {
+      "id": "payment",
+      "heading": "9. Proceso de pago",
+      "blocks": [
+        { "p": "Las comisiones se registran en liras turcas. En las ventas realizadas en una moneda distinta de la TRY, la comisión se convierte a liras turcas al tipo de cambio de venta de divisas del Banco Central de la República de Turquía del día en que el establecimiento realizó el pago. Para las monedas cuyo tipo no publique el Banco Central se utiliza un tipo cruzado calculado a partir de los tipos de referencia del Banco Central Europeo." },
+        { "p": "La Sociedad realiza los pagos manualmente, mediante transferencia bancaria, a la cuenta bancaria del Partner registrada en el Portal de Partners. Cuando se efectúa un pago, se envía un correo electrónico al Partner y el pago se registra en el Portal de Partners." },
+        { "ul": [
+          "Los pagos a cuentas bancarias en Turquía se realizan en liras turcas. El importe mínimo de pago es de 1.000 TRY.",
+          "Los pagos a cuentas bancarias en el extranjero se realizan mediante transferencia bancaria internacional. El importe mínimo de pago es el equivalente a 200 EUR o 200 USD.",
+          "No se realiza ningún pago mientras el saldo pagadero no alcance el importe mínimo. El saldo se traslada a los periodos siguientes.",
+          "Los importes que el Portal de Partners muestra en monedas distintas de la lira turca son meras estimaciones a título informativo. El importe exacto que se abonará en la cuenta del Partner se determina según el tipo de cambio aplicado por el banco el día de la transferencia.",
+          "En las transferencias internacionales, corren por cuenta del Partner los gastos SWIFT, de bancos corresponsales e intermediarios distintos del banco emisor, así como los gastos que retenga el propio banco del Partner.",
+          "No se realizan pagos al Partner cuyos datos de perfil o bancarios estén incompletos o sean erróneos. Una vez completados los datos, se paga el saldo pagadero pendiente."
+        ] },
+        { "p": "La Sociedad realiza el pago en un plazo razonable. La Sociedad no responde de los retrasos debidos a los bancos, a los sistemas de pago internacionales o a datos erróneos del Partner. Los importes de las comisiones no devengan intereses." }
+      ]
+    },
+    {
+      "id": "taxes",
+      "heading": "10. Impuestos y documentos",
+      "blocks": [
+        { "ul": [
+          "Para los Partners personas físicas, la Sociedad emite en el momento del pago un recibo de gastos (gider pusulası) y practica las retenciones fiscales obligatorias conforme a la normativa (incluida la retención en la fuente). Al Partner se le paga el importe neto tras las retenciones.",
+          "Los Partners personas jurídicas emiten una factura a nombre de la Sociedad por la comisión que se vaya a pagar. El pago se realiza después de que la factura llegue a la Sociedad.",
+          "El Partner es el único responsable de sus obligaciones tributarias, declarativas y de registro en su propio país. La Sociedad no paga los impuestos que se devenguen en el país en el que se encuentre el Partner.",
+          "La Sociedad efectúa ante las autoridades competentes las comunicaciones que le exija la normativa."
+        ] }
+      ]
+    },
+    {
+      "id": "suspension",
+      "heading": "11. Suspensión de pagos y suspensión de la cuenta",
+      "blocks": [
+        { "p": "Cuando exista una causa justificada, como un incumplimiento del contrato, la sospecha de operaciones fraudulentas, datos de identidad o bancarios incompletos o incoherentes, o el requerimiento de una autoridad pública, la Sociedad podrá adoptar las siguientes medidas:" },
+        { "ul": [
+          "**Suspensión de pagos:** no se pagan las comisiones pendientes ni las pagaderas del Partner. Las nuevas ventas realizadas con el Código de Partner durante este periodo quedan vinculadas al Partner, pero no generan comisión.",
+          "**Suspensión:** el Código de Partner deja de funcionar para nuevas ventas.",
+          "**Cierre de la cuenta:** el Partner no puede acceder al Portal de Partners y el contrato se extingue conforme a la cláusula 18."
+        ] },
+        { "p": "La Sociedad comunica al Partner por correo electrónico el motivo de la medida en la medida en que la ley lo permita. Si, tras la revisión, se concluye que no existía causa justificada, la Sociedad levanta la medida y paga las comisiones pendientes conforme a este contrato." }
+      ]
+    },
+    {
+      "id": "fraud",
+      "heading": "12. Operaciones fraudulentas",
+      "blocks": [
+        { "p": "Se consideran operaciones fraudulentas los registros que no se basen en una relación real con un establecimiento, las operaciones realizadas con datos de identidad o de pago falsos o pertenecientes a terceros, las suscripciones iniciadas únicamente para obtener una comisión y posteriormente reembolsadas o canceladas, y la manipulación del sistema." },
+        { "p": "Cuando se detecte una operación fraudulenta, la Sociedad:" },
+        { "ul": [
+          "anula las comisiones afectadas;",
+          "compensa los importes ya pagados con los pagos posteriores o los reclama al Partner;",
+          "podrá resolver el contrato con efecto inmediato;",
+          "podrá reclamar la indemnización de los daños sufridos y, cuando existan indicios de delito, acudir a las autoridades competentes."
+        ] }
+      ]
+    },
+    {
+      "id": "prohibited",
+      "heading": "13. Métodos de venta y promoción prohibidos",
+      "blocks": [
+        { "p": "El Partner no puede utilizar los siguientes métodos:" },
+        { "ul": [
+          "Enviar comunicaciones comerciales por correo electrónico, SMS, mensajería instantánea o llamadas automatizadas sin el consentimiento previo del destinatario. En Turquía se aplican la Ley n.º 6563 de Regulación del Comercio Electrónico, el Reglamento sobre Comunicaciones Comerciales y Mensajes Electrónicos Comerciales y las normas del Sistema de Gestión de Mensajes (İYS); en otros países, las normas aplicables de cada país.",
+          "Facilitar información falsa, incompleta o engañosa sobre Art of Menu, sus planes, precios o funcionalidades o sobre la Sociedad; prometer garantías, ingresos o resultados.",
+          "Presentarse como empleado, directivo, representante o distribuidor oficial de la Sociedad, o hacer declaraciones que den la impresión de proceder de la Sociedad.",
+          "Utilizar, sin autorización escrita de la Sociedad, el nombre Art of Menu o expresiones similares en nombres de dominio, nombres de usuario en redes sociales, nombres de aplicaciones o palabras clave publicitarias.",
+          "Contratar anuncios de pago o pujar en motores de búsqueda y plataformas publicitarias por la marca Art of Menu o expresiones similares.",
+          "Utilizar el relleno de cookies (cookie stuffing), los clics fraudulentos, los registros automatizados u otros métodos técnicos que generen remisiones sin conocimiento del usuario.",
+          "Inducir a los establecimientos a utilizar el Código de Partner ofreciendo descuentos, reembolsos, obsequios, pagos en efectivo u otras ventajas no autorizados por la Sociedad; ceder al establecimiento parte de su propia comisión.",
+          "Utilizar la presión, la amenaza, el engaño u otros métodos que limiten la libertad de decisión del establecimiento.",
+          "Realizar promoción en entornos o con contenidos contrarios a la ley o a la Política Corporativa o que puedan dañar la reputación de la marca Art of Menu."
+        ] },
+        { "p": "Las ventas obtenidas mediante métodos contrarios a estas prohibiciones no generan comisión. El Partner responde de las sanciones administrativas y de las reclamaciones de terceros derivadas del incumplimiento." }
+      ]
+    },
+    {
+      "id": "brand",
+      "heading": "14. Uso de la marca",
+      "blocks": [
+        { "p": "El nombre, el logotipo y demás elementos de la marca Art of Menu pertenecen a la Sociedad. La Sociedad concede al Partner, durante la vigencia de este contrato y únicamente para promocionar Art of Menu, una autorización de uso no exclusiva, intransferible y sin derecho a sublicenciar." },
+        { "ul": [
+          "El Partner utiliza únicamente los materiales promocionales facilitados o aprobados por la Sociedad.",
+          "El Partner no puede modificar los elementos de la marca, combinarlos con su propia marca ni dar la impresión de que mantiene con la Sociedad una relación distinta de la definida en este contrato.",
+          "El Partner no puede registrar a su nombre la marca Art of Menu ni un signo similar, ni solicitar su registro.",
+          "La autorización de uso se extingue automáticamente con la terminación del contrato. Desde la terminación, el Partner deja de utilizar los elementos de la marca y los materiales promocionales y los retira de las publicaciones que estén bajo su control."
+        ] }
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "heading": "15. Confidencialidad",
+      "blocks": [
+        { "p": "El Partner mantiene en secreto la información no pública que conozca con motivo de este contrato. Se incluyen en este ámbito las condiciones comerciales de la Sociedad, la información reservada a los partners, los datos del Portal de Partners y la información relativa a los establecimientos. El Partner utiliza esta información únicamente para la finalidad del contrato y no la comparte con terceros." },
+        { "p": "No están sujetas a esta obligación la información de dominio público, la que el Partner ya conociera de forma lícita o la que deba revelarse obligatoriamente a requerimiento de una autoridad competente. La obligación de confidencialidad subsiste tras la terminación del contrato." }
+      ]
+    },
+    {
+      "id": "personal-data",
+      "heading": "16. Datos personales",
+      "blocks": [
+        { "p": "La Sociedad trata los datos personales del Partner conforme al [Aviso informativo KVKK para Partners Comerciales](doc:privacy-partner)." },
+        { "p": "El Partner es responsable del tratamiento independiente respecto de los datos de establecimientos y personas que recopile por sí mismo durante su actividad de promoción (p. ej., listas de clientes potenciales). El Partner trata estos datos conforme a la Ley n.º 6698 de Protección de Datos Personales de Turquía (KVKK), al Reglamento General de Protección de Datos de la Unión Europea (RGPD) cuando proceda y a las normas de protección de datos del país en el que se encuentre. El Partner no transfiere estos datos a la Sociedad, y la Sociedad no es responsable de ellos." },
+        { "p": "La información de los establecimientos que se muestra al Partner en el Portal de Partners solo puede utilizarse para el seguimiento de las comisiones. El Partner no puede utilizar esta información para otros fines ni compartirla con terceros." }
+      ]
+    },
+    {
+      "id": "corporate-policy",
+      "heading": "17. Política Corporativa",
+      "blocks": [
+        { "p": "La [Política de Valores Corporativos, Uso Aceptable y Reputación de Marca](doc:corporate-policy) constituye un anexo vinculante de este contrato. Al aceptar este contrato, el Partner acepta también la política." },
+        { "p": "La política abarca la conducta del Partner en Art of Menu y fuera de la plataforma. La ciudadanía, la nacionalidad, el país de residencia o el país en el que ejerza su actividad el Partner no le eximen de la política. En caso de infracción de la política, la Sociedad podrá resolver el contrato con efecto inmediato conforme a la cláusula 18." }
+      ]
+    },
+    {
+      "id": "termination",
+      "heading": "18. Duración y resolución",
+      "blocks": [
+        { "p": "El contrato entra en vigor con su aceptación por el Partner en el momento del registro y tiene duración indefinida." },
+        { "ul": [
+          "Cualquiera de las partes puede resolver el contrato en cualquier momento mediante notificación por correo electrónico a la otra parte. La resolución surte efecto 7 días después de que la notificación llegue a la otra parte.",
+          "La Sociedad podrá resolver el contrato con efecto inmediato mediante notificación si el Partner infringe este contrato o la Política Corporativa, realiza operaciones fraudulentas, facilita datos de identidad o bancarios falsos o incurre en una conducta que cause un daño grave a la reputación de la Sociedad."
+        ] },
+        { "p": "Las consecuencias de la terminación son las siguientes:" },
+        { "ul": [
+          "El Código de Partner deja de funcionar para nuevas ventas. Las ventas realizadas después de la fecha de terminación no generan comisión.",
+          "Las comisiones devengadas por Primeras Ventas realizadas antes de la fecha de terminación se pagan conforme a las condiciones de este contrato, sin perjuicio de los supuestos de anulación de la cláusula 8.",
+          "Si el contrato se resuelve por infracción de la Política Corporativa o por operaciones fraudulentas, la Sociedad podrá, en la medida permitida por la ley, no pagar las comisiones pendientes y pagaderas y compensarlas con los daños sufridos.",
+          "El Partner deja de utilizar los elementos de la marca y sigue cumpliendo la obligación de confidencialidad.",
+          "El acceso al Portal de Partners podrá mantenerse abierto, durante el plazo que determine la Sociedad, únicamente para consultar los registros."
+        ] }
+      ]
+    },
+    {
+      "id": "programme-changes",
+      "heading": "19. Modificación o cierre del programa",
+      "blocks": [
+        { "p": "La Sociedad podrá cerrar el registro de nuevos partners, modificar con efectos futuros los porcentajes e importes de las comisiones, las condiciones de pago y las reglas del programa, o poner fin al programa en su totalidad. La Sociedad notificará estos cambios al Partner por correo electrónico y en el Portal de Partners con al menos 30 días de antelación a su entrada en vigor." },
+        { "p": "Los cambios no afectan a las comisiones devengadas por Primeras Ventas realizadas antes de la fecha de entrada en vigor. En caso de finalización del programa, dichas comisiones se pagarán conforme a las condiciones del contrato." }
+      ]
+    },
+    {
+      "id": "amendments",
+      "heading": "20. Modificaciones del contrato",
+      "blocks": [
+        { "p": "La Sociedad podrá modificar este contrato. La nueva versión se publica con su fecha de entrada en vigor y su número de versión. Las versiones anteriores se conservan y se deja constancia de la versión aceptada por el Partner." },
+        { "ul": [
+          "Las correcciones de redacción, los cambios aclaratorios y los cambios que no restrinjan los derechos del Partner entran en vigor una vez notificados al Partner. La continuación del Partner en el programa después de esa fecha supone la aceptación de dichos cambios.",
+          "Los cambios que afecten sustancialmente a los derechos u obligaciones del Partner requieren que el Partner acepte expresamente la nueva versión en el Portal de Partners. Si el Partner no la acepta, podrá resolver el contrato conforme a la cláusula 18. Mientras no la acepte, la Sociedad podrá impedir el uso del Código de Partner en nuevas ventas."
+        ] }
+      ]
+    },
+    {
+      "id": "liability",
+      "heading": "21. Responsabilidad",
+      "blocks": [
+        { "p": "El Partner responde de los daños derivados de su conducta contraria a este contrato, a la Política Corporativa o a la ley, así como de las reclamaciones que terceros dirijan por ese motivo contra la Sociedad. El Partner abonará a la Sociedad los importes que esta se vea obligada a pagar por ese motivo y los gastos razonables de defensa." },
+        { "p": "Salvo en los casos de dolo y culpa grave y en los casos en que las normas imperativas no permitan su limitación, la responsabilidad de la Sociedad derivada de este contrato se limita al total de las comisiones pagadas al Partner en los 12 meses anteriores al hecho causante del daño. La Sociedad no responde de los daños indirectos ni del lucro cesante." },
+        { "p": "La Sociedad no garantiza que el servicio Art of Menu funcione sin interrupciones ni que un establecimiento vaya a contratar una suscripción." }
+      ]
+    },
+    {
+      "id": "law",
+      "heading": "22. Ley aplicable y jurisdicción",
+      "blocks": [
+        { "p": "Este contrato se rige por el Derecho de la República de Turquía. Para las controversias derivadas del contrato son competentes los juzgados y las oficinas de ejecución de Antalya." },
+        { "p": "Quedan a salvo las disposiciones imperativas de protección del país en el que se encuentre el Partner que no puedan excluirse por contrato." }
+      ]
+    },
+    {
+      "id": "notices",
+      "heading": "23. Notificaciones",
+      "blocks": [
+        { "p": "La Sociedad realiza las notificaciones al Partner en la dirección de correo electrónico registrada del Partner o a través del Portal de Partners. La notificación por correo electrónico se considera recibida por el Partner en el momento de su envío. El Partner está obligado a mantener actualizada su dirección de correo electrónico." },
+        { "p": "El Partner envía sus notificaciones a la Sociedad a la dirección [hello@goktigin.com](mailto:hello@goktigin.com) desde su dirección de correo electrónico registrada, o por escrito al domicilio de la Sociedad." }
+      ]
+    },
+    {
+      "id": "general",
+      "heading": "24. Disposiciones varias",
+      "blocks": [
+        { "ul": [
+          "Este contrato y sus anexos constituyen la totalidad del acuerdo entre las partes sobre su objeto.",
+          "La invalidez de una disposición del contrato no afecta a la validez de las demás disposiciones.",
+          "El Partner no puede ceder a terceros los derechos y obligaciones derivados de este contrato sin el consentimiento escrito de la Sociedad.",
+          "Los registros de la Sociedad (registros del Portal de Partners, registros de pagos y bancarios, registros de aceptación del contrato) podrán utilizarse como prueba en las controversias, salvo prueba en contrario.",
+          "El contrato se publica en varios idiomas, entre ellos el turco. En caso de discrepancia entre los textos, prevalecerá el texto en turco."
+        ] }
+      ]
+    }
+  ],
+  "annexes": ["corporate-policy"]
+}

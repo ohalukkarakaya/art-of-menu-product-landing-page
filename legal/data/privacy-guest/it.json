@@ -1,0 +1,89 @@
+{
+  "key": "privacy-guest",
+  "version": "1.0",
+  "locale": "it",
+  "title": "Informativa privacy per gli ospiti",
+  "effective": "2026-11-08",
+  "summary": "La presente informativa spiega quali informazioni vengono trattate quando utilizzi il menu QR di un ristorante. Per utilizzare il menu non è necessario creare un account né fornire nome, indirizzo e-mail o numero di telefono. Il software del menu è Art of Menu; il menu e gli ordini sono invece gestiti dal ristorante.",
+  "sections": [
+    {
+      "id": "restaurant",
+      "heading": "1. Titolare del trattamento: il ristorante",
+      "blocks": [
+        { "p": "Il titolare del trattamento delle informazioni trattate durante l'utilizzo del menu è il ristorante i cui dati sono indicati nella parte superiore di questa pagina. Il ristorante gestisce in autonomia il proprio menu, gli ordini e la disposizione dei tavoli e prepara e vende direttamente ciò che ordini." },
+        { "p": "Se i recapiti del ristorante non sono indicati o sono incompleti, puoi chiedere informazioni al personale del ristorante." }
+      ]
+    },
+    {
+      "id": "provider",
+      "heading": "2. Il ruolo di Art of Menu",
+      "blocks": [
+        { "p": "Art of Menu è il software per menu digitali e gestione degli ordini fornito ai ristoranti da Göktigin Bilişim Teknoloji Ltd. Şti. (la Società). La Società tratta le informazioni relative all'utilizzo del menu per conto del ristorante e secondo le sue istruzioni, in qualità di responsabile del trattamento. La Società non utilizza tali informazioni per finalità proprie e non le vende." },
+        { "p": "La Società è inoltre titolare del trattamento esclusivamente per i registri tecnici che conserva al fine di garantire la sicurezza del servizio di menu. I dati della Società sono riportati nella pagina [Società e informazioni legali](doc:company)." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "3. Informazioni trattate",
+      "blocks": [
+        { "ul": [
+          "**Sessione al tavolo:** il tavolo che hai scelto, il carrello condiviso al tavolo e il codice di sessione a 6 cifre utilizzato per unirsi al tavolo. I dispositivi che si uniscono al tavolo sono riconosciuti tramite una chiave casuale, di cui viene conservato solo il valore di hash.",
+          "**Ordini e chiamate:** gli ordini che invii e le chiamate al cameriere, per l'acqua o per il conto. Questi sono collegati solo al tavolo, non alla persona.",
+          "**Statistiche di utilizzo del menu:** un identificativo generato casualmente per ogni visualizzazione di pagina, il tipo di dispositivo (telefono, tablet, computer) e la famiglia di browser ricavati dai dati del browser, la lingua del menu, il codice del paese determinato in base ai dati di rete, i prodotti aperti e il tempo trascorso sulla pagina. Queste statistiche sono raccolte senza utilizzare cookie e non sono utilizzate per identificarti.",
+          "**Indirizzo IP:** trattato per un breve periodo solo a fini di sicurezza e per limitare le richieste eccessive, e non conservato nella banca dati."
+        ] },
+        { "p": "Non vengono richiesti nome, cognome, indirizzo e-mail, numero di telefono né dati di pagamento. Tramite il menu non vengono riscossi pagamenti; quando chiedi il conto, viene inviata solo una notifica al cameriere." }
+      ]
+    },
+    {
+      "id": "device",
+      "heading": "4. Informazioni memorizzate sul tuo dispositivo",
+      "blocks": [
+        { "p": "Il menu non utilizza cookie. Nel tuo browser sono conservate soltanto le seguenti informazioni:" },
+        { "ul": [
+          "una chiave nella memoria di sessione (sessionStorage), per ricordare che ti sei unito al tavolo. Viene cancellata alla chiusura della scheda del browser.",
+          "piccoli indicatori nella memoria locale (localStorage), per ricordare che hai già visto i suggerimenti del menu."
+        ] },
+        { "p": "Non sono utilizzati cookie pubblicitari, di tracciamento o analitici. I dettagli sono riportati nella [Politica sui cookie e tecnologie simili](doc:cookies)." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "5. Finalità e basi giuridiche",
+      "blocks": [
+        { "ul": [
+          "Visualizzazione del menu, apertura della sessione al tavolo, trasmissione degli ordini e delle chiamate al ristorante: instaurazione ed esecuzione del rapporto tra te e il ristorante (art. 5, comma 2, lett. c) KVKK; art. 6, par. 1, lett. b) GDPR).",
+          "Statistiche di utilizzo aggregate per consentire al ristorante di migliorare il proprio menu: legittimo interesse del ristorante (art. 5, comma 2, lett. f) KVKK; art. 6, par. 1, lett. f) GDPR).",
+          "Sicurezza del servizio e prevenzione degli abusi: legittimo interesse del ristorante e della Società (art. 5, comma 2, lett. f) KVKK; art. 6, par. 1, lett. f) GDPR)."
+        ] },
+        { "p": "Questi trattamenti non si basano sul consenso esplicito. Per utilizzare il menu o effettuare un ordine non è necessario prestare alcun consenso." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "6. Periodo di conservazione",
+      "blocks": [
+        { "ul": [
+          "Le informazioni relative alla sessione al tavolo (carrello condiviso, codice di sessione, chiavi di accesso) sono cancellate al termine della sessione.",
+          "Gli ordini e le chiamate sono conservati nell'account del ristorante per le registrazioni proprie del ristorante.",
+          "Le statistiche di utilizzo grezze sono cancellate dopo 120 giorni. I risultati aggregati non identificativi sono conservati."
+        ] }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "7. Comunicazione delle informazioni",
+      "blocks": [
+        { "p": "Le informazioni sono trasmesse al ristorante e ai suoi camerieri. La Società tratta tali informazioni sui server da essa gestiti e non le comunica a nessuno per finalità pubblicitarie o di marketing. Restano salve le richieste legittime delle autorità competenti." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "8. I tuoi diritti",
+      "blocks": [
+        { "p": "Per esercitare i diritti previsti dall'art. 11 della KVKK e, ove applicabili, dagli artt. 15-22 GDPR (informazione, accesso, rettifica, cancellazione, opposizione e altri), puoi rivolgerti al ristorante, che è il titolare del trattamento. Le richieste pervenute alla Società sono inoltrate senza ritardo al ristorante interessato." },
+        { "p": "Puoi presentare reclamo all'Autorità per la protezione dei dati personali (Kişisel Verileri Koruma Kurulu) in Turchia oppure, se ti trovi nell'Unione europea, nello Spazio economico europeo o nel Regno Unito, all'autorità di controllo per la protezione dei dati del tuo paese." }
+      ]
+    }
+  ]
+}

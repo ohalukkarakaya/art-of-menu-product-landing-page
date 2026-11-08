@@ -1,0 +1,99 @@
+{
+  "key": "corporate-policy",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Richtlinie zu Unternehmenswerten, akzeptabler Nutzung und Markenreputation",
+  "effective": "2026-11-08",
+  "summary": "Diese Richtlinie regelt die Unternehmensregeln, die Betriebe, die die Dienste von Art of Menu nutzen, und Art of Menu-Vertriebspartner einhalten müssen. Sie ist verbindliche Anlage des Art of Menu Dienstleistungsvertrags für Betriebe und des Vertriebspartnervertrags.",
+  "sections": [
+    { "id": "scope", "heading": "1. Zweck, Beteiligte und Verbindlichkeit", "blocks": [
+      { "p": "Diese Richtlinie legt die Unternehmenswerte und Verhaltensregeln fest, die die Göktigin Bilişim Teknoloji Ltd. Şti. (das „Unternehmen“) für die unter dem Namen Art of Menu angebotenen Dienste anwendet." },
+      { "p": "Die Richtlinie ist verbindliche Anlage des [Art of Menu Dienstleistungsvertrags für Betriebe](doc:business-terms) und des [Vertriebspartnervertrags](doc:partner-terms) und wird zusammen mit diesen Verträgen angenommen. Die Richtlinie gilt ausschließlich für Betriebe und Vertriebspartner. Gäste, die die Speisekarten der Betriebe nutzen, sind nicht Partei dieser Richtlinie." },
+      { "p": "Die Richtlinie erfasst folgende Personen (die „erfassten Personen“):" },
+      { "ul": [
+        "Betriebe, die die Dienste von Art of Menu nutzen;",
+        "die Inhaber, Gesellschafter, Geschäftsführer und bevollmächtigten Vertreter der Betriebe;",
+        "Vertriebspartner sowie die Inhaber, Gesellschafter, Geschäftsführer und bevollmächtigten Vertreter von Vertriebspartnern, die juristische Personen sind."
+      ]}
+    ]},
+    { "id": "universal-application", "heading": "2. Länderunabhängige Geltung", "blocks": [
+      { "p": "Die Richtlinie gilt in allen Ländern, in denen Art of Menu Dienste erbringt, in gleicher Weise. Für die Anwendung der Richtlinie ist es nicht erforderlich, dass die erfasste Person Türke oder Staatsbürger der Republik Türkei ist, in der Türkei lebt, in der Türkei eine Gesellschaft gegründet hat oder in der Türkei geschäftlich tätig ist. Weder Staatsbürgerschaft noch Staatsangehörigkeit, Wohnsitzland oder Tätigkeitsland begründen eine Ausnahme von der Richtlinie." },
+      { "p": "Dass ein Verhalten in dem Land, in dem man sich befindet, rechtlich erlaubt ist, schließt nicht aus, dass es gegen diese Richtlinie verstößt. Die vertraglichen Sanktionen, die das Unternehmen anwendet, halten jedoch die zwingenden Grenzen des Rechts des betreffenden Landes ein." }
+    ]},
+    { "id": "conduct-scope", "heading": "3. Verhalten auf und außerhalb der Plattform", "blocks": [
+      { "p": "Die Richtlinie erfasst nicht nur auf Art of Menu veröffentlichte Inhalte. Erfasst ist auch das Verhalten der erfassten Personen in folgenden Bereichen:" },
+      { "ul": [
+        "in den Räumlichkeiten des Betriebs;",
+        "in Social-Media-Konten und auf Websites;",
+        "in Werbung, Werbemaßnahmen und Veranstaltungen;",
+        "in öffentlichen Äußerungen;",
+        "bei sonstigen Tätigkeiten, die unmittelbar mit dem Betrieb oder dem Vertriebspartner in Verbindung gebracht werden können."
+      ]},
+      { "p": "Es ist nicht erforderlich, dass der Verstoß über Art of Menu begangen wird, dass er Nutzer von Art of Menu unmittelbar betrifft oder dass er in der Türkei stattfindet." }
+    ]},
+    { "id": "ataturk", "heading": "4. Mustafa Kemal Atatürk", "blocks": [
+      { "p": "Jegliches Verhalten, das Spott, Beleidigung, Herabwürdigung, Geringschätzung oder Respektlosigkeit gegenüber der Person, dem Andenken, dem Erbe oder der ideellen Persönlichkeit von Mustafa Kemal Atatürk enthält, der mit dem Ehrentitel Gazi als siegreicher Kriegsheld geehrt wird, ist untersagt." },
+      { "p": "Das Verbot ist nicht auf direkte Äußerungen beschränkt. Untersagt sind auch versteckte, verdeckte, indirekte, verhüllte, symbolische oder anspielende Andeutungen sowie solche, die hinter anderen Bedeutungen verborgen sind. Konkrete und nachvollziehbare Anhaltspunkte dafür, dass ein Verhalten diese Bedeutungen trägt, werden bei der Prüfung berücksichtigt. Für die Feststellung eines Verstoßes ist es nicht erforderlich, dass die betreffende Person ihre Absicht eingesteht oder den Namen direkt verwendet." }
+    ]},
+    { "id": "national-values", "heading": "5. Die Republik Türkei und nationale Werte", "blocks": [
+      { "p": "Untersagt ist Verhalten, das Spott, Beleidigung, Herabwürdigung, Geringschätzung oder Respektlosigkeit gegenüber der Republik Türkei und den nationalen und sensiblen Werten der ruhmreichen türkischen Nation enthält oder dies direkt oder indirekt andeutet. Erfasst sind auch verstecktes, verdecktes, symbolisches und anspielendes Verhalten sowie Verhalten, bei dem sich diese Bedeutungen aus dem Zusammenhang ergeben." }
+    ]},
+    { "id": "corporate-language", "heading": "6. Regel zum Sprachgebrauch des Unternehmens", "blocks": [
+      { "p": "In türkischsprachigen Texten wird zur Bezeichnung der Staatsbürger der Republik Türkei das großgeschriebene türkische Wort „Türk“ verwendet. Es ist untersagt, die türkischen Ausdrücke „Türkiyeli“, „Turki“ oder ähnliche alternative Bezeichnungen zur Bezeichnung der Staatsbürger der Republik Türkei zu verwenden." },
+      { "p": "Untersagt sind auch Ausdrücke und Verhaltensweisen, die dazu dienen, die türkische Identität herabzuwürdigen, geringzuschätzen, zu verspotten oder dies anzudeuten." },
+      { "p": "In Texten in anderen Sprachen wird die türkische Staatsangehörigkeit mit der zutreffenden und natürlichen Entsprechung der jeweiligen Sprache ausgedrückt, im Deutschen also etwa mit „Türken“ oder „türkische Staatsbürger“. Ein Standardwort einer anderen Sprache gilt nicht allein deshalb als Verstoß gegen diese Regel, weil es den im Türkischen untersagten Ausdrücken ähnelt." }
+    ]},
+    { "id": "terrorism", "heading": "7. Terroristische Organisationen", "blocks": [
+      { "p": "Untersagt ist es, für Organisationen, Gruppen und Strukturen, die von der Republik Türkei als terroristische Organisationen eingestuft werden oder in der Vergangenheit eingestuft wurden, Propaganda zu betreiben, sie zu unterstützen, zu loben oder zu verherrlichen." },
+      { "p": "Für die Anwendung des Verbots ist es nicht erforderlich, dass die Tätigkeit offen erfolgt. Untersagt sind auch versteckte, verdeckte, indirekte, symbolische oder anspielende Propaganda- und Unterstützungsbekundungen sowie solche, die hinter anderen Bedeutungen verborgen sind. Ebenso untersagt ist die Verwendung von Symbolen, Zeichen, Parolen oder sonstigen Elementen dieser Organisationen zu Propaganda- oder Unterstützungszwecken. Die Bedeutung von Inhalten und Symbolen wird zusammen mit dem Zusammenhang, in dem sie verwendet werden, beurteilt." }
+    ]},
+    { "id": "serious-crimes", "heading": "8. Schwere Rechtsverletzungen und schwere Straftaten", "blocks": [
+      { "p": "Folgende Handlungen sind untersagt:" },
+      { "ul": [
+        "Kindesmissbrauch, sexueller Missbrauch von Kindern und sexuelle Ausbeutung von Kindern;",
+        "sexuelle Übergriffe, Vergewaltigung und sonstige sexuelle Gewalttaten;",
+        "Menschenhandel, Zwangsarbeit und vergleichbare schwere Rechtsverletzungen;",
+        "Herstellung, Konsum, Verkauf, Verbreitung, Beschaffung von oder Handel mit illegalen Betäubungs- oder Aufputschmitteln;",
+        "Betrug, Veruntreuung und Bestechung;",
+        "Raub und Erpressung;",
+        "Schleusung von Migranten;",
+        "vorsätzliche Tötung, schwere Körperverletzung und vergleichbare schwere Gewaltdelikte."
+      ]},
+      { "p": "Da der Ausdruck „schwere oder ehrenrührige Straftat“ von Land zu Land unterschiedlich definiert sein kann, bezeichnet er in dieser Richtlinie die oben aufgeführten Deliktskategorien sowie Handlungen von gleichem Gewicht." },
+      { "p": "Untersagt ist auch, diese Straftaten zu begehen, zu organisieren, zu finanzieren, zu ihnen anzustiften, sie wissentlich zu erleichtern oder sich an ihrer Begehung zu beteiligen." }
+    ]},
+    { "id": "brand-reputation", "heading": "9. Markenreputation", "blocks": [
+      { "p": "Das Unternehmen möchte nicht, dass seine Marke mit schweren Straftaten oder mit Personen und Betrieben in Verbindung gebracht wird, die als Täter solcher Straftaten öffentlich bekannt werden. Wird ein Betrieb, ein Betriebsinhaber, ein Geschäftsführer, ein bevollmächtigter Vertreter oder ein Vertriebspartner öffentlich als Täter, Verdächtiger oder Beteiligter mit den in Abschnitt 8 aufgeführten Straftaten in Verbindung gebracht, kann dies ein Grund für die Beendigung der Geschäftsbeziehung sein." },
+      { "p": "Entsteht aufgrund glaubwürdiger Presseberichte, behördlicher Ermittlungen, öffentlich zugänglicher konkreter Informationen oder sonstiger überprüfbarer Entwicklungen ein ernsthaftes Reputationsrisiko für die Marke, kann das betreffende Konto sofort gesperrt oder der Vertrag im Rahmen des anwendbaren Rechts gekündigt werden. Für diese Entscheidung wird weder die Rechtskraft einer Verurteilung noch der Abschluss eines Strafverfahrens abgewartet." },
+      { "p": "Diese Entscheidung ist eine geschäftliche Entscheidung und bedeutet nicht, dass die betreffende Person schuldig ist. Unbegründete Gerüchte allein reichen für die Anwendung dieses Abschnitts nicht aus." },
+      { "note": "Dieser Abschnitt erfasst in keiner Weise Opfer von Straftaten, Anzeigeerstatter und Zeugen. Dass eine Person als Opfer einer Straftat öffentlich bekannt wird oder sich an die zuständigen Behörden wendet, kann kein Grund für die Sperrung oder Kündigung eines Kontos sein." }
+    ]},
+    { "id": "review", "heading": "10. Prüfverfahren", "blocks": [
+      { "p": "Das Unternehmen prüft einen möglichen Verstoß anhand konkreter Quellen. Berücksichtigt werden können öffentlich zugängliche Social-Media-Beiträge, Fotos, Videos, glaubwürdige Presseberichte, amtliche Erklärungen, Gerichts- und Ermittlungsunterlagen sowie belegte Meldungen, die dem Unternehmen übermittelt werden." },
+      { "p": "In Fällen, die keinen sofortigen Schutz erfordern, kann das Unternehmen dem betreffenden Betrieb oder Vertriebspartner vor seiner Entscheidung Gelegenheit zu einer schriftlichen Stellungnahme geben. In dringenden Fällen wird das Konto zunächst gesperrt; die Stellungnahme kann später eingeholt werden. Das Unternehmen dokumentiert seine Entscheidung und die zugrunde liegenden Quellen. Die betroffene Person kann gegen die Entscheidung schriftlich an [hello@goktigin.com](mailto:hello@goktigin.com) Einspruch einlegen." }
+    ]},
+    { "id": "enforcement", "heading": "11. Sanktionen", "blocks": [
+      { "p": "Bei Betrieben, bei denen ein Verstoß gegen die Verbote dieser Richtlinie festgestellt wird, wird die Nutzung der Dienste von Art of Menu sofort beendet, ihre Konten werden geschlossen und ihre Verträge im Rahmen des anwendbaren Rechts gekündigt. Die Konten von Vertriebspartnern, die gegen dieselben Regeln verstoßen, werden sofort geschlossen und ihre Partnerverträge beendet." },
+      { "p": "Verstoßen Betriebsinhaber, Geschäftsführer, bevollmächtigte Vertreter oder unmittelbar mit dem Betrieb in Verbindung zu bringende Tätigkeiten gegen diese Richtlinie, kann dies ein Grund für die Beendigung des Dienstleistungsvertrags des Betriebs sein." },
+      { "p": "Für die Feststellung eines Vertragsverstoßes ist keine rechtskräftige gerichtliche Entscheidung erforderlich. Kündigt das Unternehmen einen Vertrag, bedeutet dies nicht, dass es eine Person im strafrechtlichen Sinne für schuldig erklärt." }
+    ]},
+    { "id": "reporting", "heading": "12. Meldung an die zuständigen Behörden", "blocks": [
+      { "p": "Handlungen, bei denen konkrete Informationen vorliegen, die nach dem Recht der Republik Türkei oder dem Recht des betreffenden Landes einen Straftatverdacht stützen, werden den zuständigen Sicherheitskräften oder Justizbehörden gemeldet. Bei dieser Beurteilung werden insbesondere folgende Bestimmungen berücksichtigt:" },
+      { "ul": [
+        "das Gesetz Nr. 5816 über Straftaten gegen Atatürk;",
+        "das Gesetz Nr. 3713 zur Bekämpfung des Terrorismus, insbesondere Art. 7 über Propaganda für eine terroristische Organisation;",
+        "Art. 300 und 301 des türkischen Strafgesetzbuchs Nr. 5237 (TCK) über die Herabwürdigung der Hoheitszeichen des Staates und der türkischen Nation;",
+        "Art. 314 TCK (bewaffnete Organisation) und Art. 220 TCK (Bildung einer Organisation zur Begehung von Straftaten);",
+        "Art. 103 TCK (sexueller Missbrauch von Kindern), Art. 102 (sexueller Übergriff), Art. 80 (Menschenhandel), Art. 79 (Schleusung von Migranten);",
+        "Art. 188 TCK (Herstellung von und Handel mit Betäubungs- oder Aufputschmitteln);",
+        "Art. 157–158 TCK (Betrug), Art. 247 (Veruntreuung), Art. 252 (Bestechung), Art. 148–149 (Raub), Art. 107 (Erpressung);",
+        "Art. 81–82 TCK (vorsätzliche Tötung) und Art. 86–87 (vorsätzliche Körperverletzung)."
+      ]},
+      { "p": "Gewöhnliche Vertragsverstöße ohne Straftatverdacht werden nicht als Straftaten gemeldet oder als Straftaten bezeichnet." },
+      { "p": "Informationen und Unterlagen, die das Unternehmen im Rahmen der Prüfung und Meldung erlangt, bewahrt es nur in dem gesetzlich zulässigen Umfang auf und gibt sie nur an zuständige Behörden oder in sonstigen gesetzlich zulässigen Fällen weiter." }
+    ]},
+    { "id": "mandatory-law", "heading": "13. Zwingendes Recht", "blocks": [
+      { "p": "Bei der Anwendung dieser Richtlinie werden die zwingenden Vorschriften des Rechts der Republik Türkei und des betreffenden Landes beachtet. Wird eine Sanktion durch das maßgebliche Recht eingeschränkt, wendet das Unternehmen die Sanktion in dem rechtlich möglichen Umfang an." }
+    ]}
+  ]
+}

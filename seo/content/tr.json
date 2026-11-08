@@ -3,9 +3,9 @@
   "ui": {
     "langName": "Türkçe",
     "home": "Ana sayfa",
-    "notify": "Çıkınca haber verelim",
+    "notify": "Hemen başla",
     "pricing": "Fiyatlar",
-    "soon": "Yakında",
+    "soon": "Şimdi yayında",
     "answerLabel": "Kısaca",
     "featuresTitle": "ArtOfMenu'de bu sayfayla ilgili",
     "faqTitle": "Sık sorulan sorular",
@@ -40,20 +40,16 @@
         "d": "Ertesi günün fiyatları her akşam, sizin belirlediğiniz alt ve üst sınırlar içinde hazırlanır."
       },
       "pdf": {
-        "t": "PDF'ten aynı gün yayına",
-        "d": "Elinizdeki PDF menüyü yükleyin, menünüz aynı gün misafirlerinize açılsın."
+        "t": "PDF menünüz aynı gün yayında",
+        "d": "Elinizdeki PDF menüyü yükleyin, şubenin QR kodu aynı gün onu açsın. Canlı menüyü hazır olduğunuzda kurarsınız."
       },
       "stock": {
         "t": "Reçeteye bağlı stok",
         "d": "Bir malzeme bitince, onunla yapılan her ürün menüde kendiliğinden tükendi görünür."
       },
       "reports": {
-        "t": "Menü raporları",
-        "d": "Çok görülüp az açılan ve açılıp hiç sipariş edilmeyen ürünleri sizin için işaretler."
-      },
-      "screens": {
-        "t": "Tezgâh ekranları",
-        "d": "Menü tezgâh arkasındaki monitörlerde görünür; birden fazla ekran sayfaları birlikte çevirir."
+        "t": "Satış raporları",
+        "d": "Smart pakette hangi ürünün sattığını, hangisinin az hareket ettiğini şube şube görün."
       },
       "domain": {
         "t": "Kendi alan adınız",
@@ -73,7 +69,7 @@
           "Misafirin dilinde açılan menü",
           "Kendi alan adınız",
           "PDF menü yükleme",
-          "Anonim menü istatistikleri"
+          "Set menüler ve porsiyon seçenekleri"
         ]
       },
       "order": {
@@ -82,7 +78,7 @@
           "Menu paketindeki her şey",
           "Masadan sipariş",
           "Garson ekranı ve bildirimler",
-          "Basit stok ve sipariş raporları"
+          "Masadan garson, su ve hesap çağrısı"
         ]
       },
       "smart": {
@@ -92,9 +88,8 @@
           "Günlük akıllı fiyatlandırma",
           "Özel günler takvimi",
           "“Yanında iyi gider” önerileri",
-          "Masadan garson çağırma",
-          "Reçeteye bağlı stok",
-          "Tezgâh ekranları"
+          "Satış raporları",
+          "Reçeteye bağlı stok"
         ]
       }
     }
@@ -120,13 +115,13 @@
           "h2": "Basılı menüden ve PDF'ten farkı",
           "body": [
             "Basılı menü, fiyatın değiştiği gün eskir. Yeni baskı hem para hem zaman ister. Telefonda açılan düz bir PDF ise küçük yazılıdır, büyütmeden okunmaz ve tek dildedir.",
-            "ArtOfMenu'de ürünler telefon ekranına göre dizilir. Her ürünün fotoğrafı ve alerjen bilgisi yanında durur. Elinizde hazır bir PDF menü varsa onu yükleyip aynı gün yayına geçebilirsiniz; PDF yükleme bütün paketlerde var."
+            "ArtOfMenu'de ürünler telefon ekranına göre dizilir. Her ürünün fotoğrafı ve alerjen bilgisi yanında durur. Elinizde hazır bir PDF menü varsa onu yükleyebilirsiniz; QR kodunuz aynı gün bu PDF'i açar, canlı menüyü hazırladığınızda ona geçersiniz. PDF menü bütün paketlerde var."
           ]
         },
         {
           "h2": "Kimler için?",
           "body": [
-            "ArtOfMenu küçük ve orta ölçekli yiyecek içecek işletmeleri için hazırlanıyor. Her işletmenin derdi biraz farklı:"
+            "ArtOfMenu küçük ve orta ölçekli yiyecek içecek işletmeleri için hazırlandı. Her işletmenin derdi biraz farklı:"
           ],
           "bullets": [
             "Kafeler: sabah yoğunluğunda menüyü sıradaki müşteriye de gösterir, mevsim içeceklerini kolayca ekletir.",
@@ -147,7 +142,7 @@
         {
           "h2": "Misafirleriniz için gizlilik",
           "body": [
-            "ArtOfMenu misafirlerde çerez kullanmaz, kalıcı kimlik oluşturmaz ve IP adresi saklamaz. Menü istatistikleri anonimdir: hangi ürüne kaç kez bakıldığını bilirsiniz, kimin baktığını bilmezsiniz.",
+            "ArtOfMenu misafirlerde çerez kullanmaz, kalıcı kimlik oluşturmaz ve IP adresi saklamaz. Menünün kullanımına dair veriler anonimdir; kimin neye baktığı bilinmez.",
             "Fiyatlarınız başka işletmelerle hiçbir zaman paylaşılmaz. Aboneliği tek adımda iptal edersiniz ve ödediğiniz dönemin sonuna kadar kullanmaya devam edersiniz. Daha küçük bir pakete geçerseniz verileriniz yerinde kalır."
           ]
         }
@@ -173,8 +168,8 @@
           "a": "Gerekmez. Masadaki QR kod her zaman aynı adrese gider. Fiyatı ya da ürünü değiştirdiğinizde misafir bir sonraki okutuşta yeni menüyü görür. Masa kartlarını ve standları bir kez bastırırsınız, sonraki değişiklikler için matbaaya gitmezsiniz."
         },
         {
-          "q": "ArtOfMenu ne zaman kullanıma açılıyor?",
-          "a": "ArtOfMenu henüz yayında değil ve kesin açılış tarihini şimdilik paylaşmıyoruz. Sayfadaki “Çıkınca haber verelim” formuna adınızı, e-postanızı, işletmenizin Google Haritalar bağlantısını ve ilgilendiğiniz paketi yazın; kullanıma açıldığında size e-postayla haber verelim."
+          "q": "ArtOfMenu'yu hemen kullanmaya başlayabilir miyim?",
+          "a": "Evet, ArtOfMenu şu an kullanımda. app.artofmenu.com adresindeki panelden kaydolun, menünüzü oluşturun ve QR kodu masalarınız için bastırın. Deneme süresi yoktur; ilk dönemin ücreti abonelik başlarken alınır ve aboneliği panelden istediğiniz zaman iptal edebilirsiniz."
         },
         {
           "q": "Birden fazla şubem var, nasıl ücretlendirilir?",
@@ -182,8 +177,8 @@
         }
       ],
       "cta": {
-        "h2": "QR menünüz hazır olduğunda ilk siz bilin",
-        "lead": "Formu doldurun, ArtOfMenu kullanıma açıldığında size e-postayla haber verelim."
+        "h2": "QR menünüzü bugün yayına alın",
+        "lead": "Panelden kaydolun, menünüzü oluşturun ve QR kodu bastırın."
       },
       "related": [
         "how-to",
@@ -219,9 +214,9 @@
         {
           "h2": "ArtOfMenu paketleri ne içerir?",
           "body": [
-            "Menu, aylık 399 ₺: QR menü, ürün fotoğrafları, alerjenler, misafirin dilinde açılan menü, kendi alan adınız, PDF yükleme ve anonim menü istatistikleri. Siparişi kasada ya da garsonla alan kafe ve pastaneler için çoğu zaman yeterlidir.",
-            "Order, aylık 999 ₺: Menu'daki her şeye ek olarak masadan sipariş, garson ekranı ve bildirimler, basit stok ve sipariş raporları. Öğle servisinde garsonun masa masa dolaşıp not almasını azaltmak isteyen restoranlara uygundur.",
-            "Smart, aylık 1.999 ₺: Order'daki her şeye ek olarak günlük akıllı fiyatlandırma ve özel günler takvimi, “yanında iyi gider” önerileri, masadan garson çağırma, reçeteye bağlı stok ve tezgâh ekranları."
+            "Menu, aylık 399 ₺: QR menü, ürün fotoğrafları, alerjenler, misafirin dilinde açılan menü, kendi alan adınız, PDF menü, set menüler ve porsiyon seçenekleri. Siparişi kasada ya da garsonla alan kafe ve pastaneler için çoğu zaman yeterlidir.",
+            "Order, aylık 999 ₺: Menu'daki her şeye ek olarak masadan sipariş, garson ekranı ve bildirimler, masadan garson çağırma, su ve hesap isteme. Öğle servisinde garsonun masa masa dolaşıp not almasını azaltmak isteyen restoranlara uygundur.",
+            "Smart, aylık 1.999 ₺: Order'daki her şeye ek olarak günlük akıllı fiyatlandırma ve özel günler takvimi, “yanında iyi gider” önerileri, reçeteye bağlı stok ve satış raporları."
           ]
         },
         {
@@ -265,7 +260,7 @@
         },
         {
           "q": "Deneme süresi ya da ödeme gerektirmeyen bir paket var mı?",
-          "a": "Hayır. ArtOfMenu'de deneme süresi ya da ödeme gerektirmeyen bir paket yok. Bunun yerine çıkışı kolay tuttuk: aboneliği tek adımda iptal edersiniz, ödediğiniz dönemin sonuna kadar menünüz açık kalır ve sonraki dönem için ücret alınmaz."
+          "a": "Hayır. ArtOfMenu'de deneme süresi ya da ödeme gerektirmeyen bir paket yok; ilk dönemin ücreti abonelik başlarken alınır. Bunun yerine çıkışı kolay tuttuk: aboneliği panelden istediğiniz zaman iptal edersiniz, ödediğiniz dönemin sonuna kadar menünüz açık kalır ve sonraki dönem için ücret alınmaz."
         },
         {
           "q": "Fiyat değiştirdiğimde ek ücret ödüyor muyum?",
@@ -273,7 +268,7 @@
         },
         {
           "q": "Paketimi sonradan değiştirebilir miyim?",
-          "a": "Evet. İhtiyacınız büyüdüğünde, örneğin masadan sipariş almaya karar verdiğinizde üst pakete geçebilirsiniz. Daha küçük bir pakete geçtiğinizde verileriniz silinmez; Smart'tan Menu'ya dönseniz bile menünüz, fotoğraflarınız ve geçmiş istatistikleriniz yerinde kalır."
+          "a": "Evet. İhtiyacınız büyüdüğünde, örneğin masadan sipariş almaya karar verdiğinizde üst pakete geçebilirsiniz. Daha küçük bir pakete geçtiğinizde verileriniz silinmez; Smart'tan Menu'ya dönseniz bile menünüz, fotoğraflarınız ve geçmiş verileriniz yerinde kalır."
         },
         {
           "q": "QR menü standı ve baskı fiyata dahil mi?",
@@ -281,8 +276,8 @@
         }
       ],
       "cta": {
-        "h2": "Fiyatlar belli, açılış yakında",
-        "lead": "ArtOfMenu açıldığında size haber verelim; ilgilendiğiniz paketi formda seçin."
+        "h2": "Fiyatlar belli, hemen başlayabilirsiniz",
+        "lead": "Panelden kaydolun, size uyan paketi seçin ve menünüzü yayına alın."
       },
       "related": [
         "qr-menu",
@@ -329,10 +324,10 @@
           ]
         },
         {
-          "h2": "Hangi tabağa bakılıyor, hangisi seçiliyor?",
+          "h2": "Hangi tabak seçiliyor, hangisi bekliyor?",
           "body": [
-            "Menü raporları, çok görülüp az açılan ürünleri işaretler. Masadan sipariş açıksa, açılıp hiç sipariş edilmeyenleri de gösterir. Fotoğrafı zayıf bir tatlıyı ya da açıklaması anlaşılmayan bir ana yemeği bu sayede fark edersiniz.",
-            "İstatistikler anonimdir. ArtOfMenu misafirlerinizi tanımaz ve takip etmez."
+            "Bir tabağı bölümün en üstüne taşıyıp iki hafta siparişleri karşılaştırın; dijital menüde bunu bir dakikada yaparsınız. Smart paketindeki satış raporları neyin satıp neyin beklediğini gösterir. Fotoğrafı zayıf bir tatlıyı ya da açıklaması anlaşılmayan bir ana yemeği bu sayede fark edersiniz.",
+            "Misafir verileri anonimdir. ArtOfMenu misafirlerinizi tanımaz ve takip etmez."
           ]
         }
       ],
@@ -346,7 +341,7 @@
       "faq": [
         {
           "q": "Restoran QR menü nasıl oluşturulur?",
-          "a": "Mevcut PDF menünüzü yükleyip aynı gün yayına alabilirsiniz. Ardından ürünlere fotoğraf, alerjen ve açıklama ekler, QR kodu masa kartlarına bastırırsınız. Adım adım anlatım için “QR menü nasıl yapılır” sayfamıza bakın."
+          "a": "Panelden kaydolup menünüzü bölüm bölüm oluşturur, ürünlere fotoğraf, alerjen ve açıklama ekler, QR kodu masa kartlarına bastırırsınız. Hemen yayında olmak isterseniz mevcut PDF menünüzü yükleyebilirsiniz; QR kod aynı gün onu açar. Adım adım anlatım için “QR menü nasıl yapılır” sayfamıza bakın."
         },
         {
           "q": "Uzun menüler QR menüde karışık görünmez mi?",
@@ -366,8 +361,8 @@
         }
       ],
       "cta": {
-        "h2": "Restoranınız için haber listesine girin",
-        "lead": "ArtOfMenu açıldığında size e-postayla haber verelim; formda restoranınızın Google Haritalar bağlantısını eklemeniz yeterli."
+        "h2": "Restoranınızın menüsünü bugün kurun",
+        "lead": "Panelden kaydolun, menünüzü oluşturun ve bir sonraki servise hazır olun."
       },
       "related": [
         "ordering",
@@ -426,20 +421,20 @@
         "pairing",
         "pdf",
         "multilingual",
-        "screens"
+        "reports"
       ],
       "faq": [
         {
           "q": "Cafe QR menü nasıl yapılır?",
-          "a": "Elinizdeki menünün PDF'ini yükleyerek aynı gün yayına geçebilirsiniz. Sonra ürünlere fotoğraf ve alerjen bilgisi eklersiniz. QR kodu yalnızca masalara değil, tezgâha ve kapıya da koyarsanız sırada bekleyen müşteri de menüye bakıp ne alacağına önceden karar verir."
+          "a": "Panelden kaydolup içecekleri ve yiyecekleri fotoğraf ve alerjen bilgisiyle eklersiniz. Hemen yayında olmak isterseniz elinizdeki PDF menüyü yükleyebilirsiniz; QR kod aynı gün onu açar. QR kodu yalnızca masalara değil, tezgâha ve kapıya da koyarsanız sırada bekleyen müşteri de menüye bakıp ne alacağına önceden karar verir."
         },
         {
           "q": "Kafede masadan sipariş mantıklı mı?",
           "a": "Siparişi tezgâhta alan self servis bir kafede Menu paketi çoğu zaman yeterlidir. Masaya servis yapıyorsanız, bahçeniz genişse ya da garson sayınız sınırlıysa Order paketi işe yarar: sipariş masadan gelir, garson telefonunda anında görür ve bildirim alır."
         },
         {
-          "q": "Menüyü tezgâh arkasındaki ekranda da gösterebilir miyim?",
-          "a": "Evet, Smart paketinde. Menü tezgâh arkasındaki monitörlerde görünür; birden fazla ekran varsa sayfaları birlikte çevirirler. Ekranlar QR menüdeki menüyü gösterdiği için fiyatı ayrıca bir yerde güncellemeniz gerekmez. Ayakta sipariş veren müşteri menüyü uzaktan okur."
+          "q": "Menüde boy seçenekleri ve set menü gösterebilir miyim?",
+          "a": "Evet. Ürünlere küçük, orta ve büyük gibi boy seçenekleri ekleyebilir, kahveyle tatlıyı bir set menü olarak sunabilirsiniz. Biten ürünü tükendi olarak işaretlersiniz, çalışma saatleriniz de menüde görünür. Bunların hepsi Menu paketinde vardır."
         },
         {
           "q": "Hava durumuna göre sıralama fiyatı da değiştirir mi?",
@@ -447,12 +442,12 @@
         },
         {
           "q": "Küçük bir kafe için hangi paket yeterli?",
-          "a": "Tek şubeli, siparişi tezgâhta alan bir kafe için Menu paketi (şube başına aylık 399 ₺) menüyü, fotoğrafları, alerjenleri, dilleri ve istatistikleri kapsar. Kahve yanına tatlı önerisi ve reçeteye bağlı stok istiyorsanız Smart'a bakın."
+          "a": "Tek şubeli, siparişi tezgâhta alan bir kafe için Menu paketi (şube başına aylık 399 ₺) menüyü, fotoğrafları, alerjenleri, dilleri, boyları ve set menüleri kapsar. Kahve yanına tatlı önerisi ve reçeteye bağlı stok istiyorsanız Smart'a bakın."
         }
       ],
       "cta": {
-        "h2": "Kafeniz için ilk haberi alın",
-        "lead": "Formu doldurun, ArtOfMenu kullanıma açıldığında size e-postayla yazalım."
+        "h2": "Kafenizin menüsünü bugün yayına alın",
+        "lead": "Panelden kaydolun, mevsim içeceklerinizi bugün ekleyin."
       },
       "related": [
         "cafe-sales",
@@ -467,8 +462,8 @@
       "description": "Bar ve pub'lar için QR menü: kokteyl ve içki menüsü telefonda, yeni tur masadan, garson çağırma ve biten içkiler için reçeteye bağlı stok.",
       "eyebrow": "Barlar için",
       "h1": "Bar QR menü: kalabalık gecede yeni tur masadan gelsin",
-      "lead": "Bar QR menü, misafirin masadaki kodu okutup kokteyl, bira, şarap ve atıştırmalık menüsünü telefonunda açtığı dijital menüdür. ArtOfMenu'de misafir siparişini masadan gönderebilir; Smart pakette garsonu da masadan çağırır.",
-      "answer": "Bar QR menü, barın içki ve atıştırmalık menüsünü masadaki QR kodla misafirin telefonuna getiren dijital menüdür. Kalabalık ve gürültülü ortamda garsonu beklemeden menüye bakmayı ve yeni tur vermeyi kolaylaştırır. ArtOfMenu Order paketinde siparişleri garsonun telefonuna anında iletir; Smart paketinde garson çağırmayı ve biten malzemeye göre içkileri tükendi göstermeyi ekler.",
+      "lead": "Bar QR menü, misafirin masadaki kodu okutup kokteyl, bira, şarap ve atıştırmalık menüsünü telefonunda açtığı dijital menüdür. ArtOfMenu Order paketinde misafir siparişini masadan gönderebilir, garsonu da masadan çağırır.",
+      "answer": "Bar QR menü, barın içki ve atıştırmalık menüsünü masadaki QR kodla misafirin telefonuna getiren dijital menüdür. Kalabalık ve gürültülü ortamda garsonu beklemeden menüye bakmayı ve yeni tur vermeyi kolaylaştırır. ArtOfMenu Order paketinde siparişleri ve garson çağrılarını garsonun telefonuna anında iletir; Smart paketinde biten malzemeye göre içkileri tükendi göstermeyi ekler.",
       "sections": [
         {
           "h2": "Gece servisinin asıl derdi: ikinci tur",
@@ -480,7 +475,7 @@
         {
           "h2": "Garsonu masadan çağırmak",
           "body": [
-            "Smart paketinde misafir menüden garson çağırabilir, su ya da hesap isteyebilir. Müzik yüksekken kimsenin bağırmasına ya da el sallamasına gerek kalmaz. İstek garsonun telefonuna bildirim olarak düşer."
+            "Order paketinde misafir menüden garson çağırabilir, su ya da hesap isteyebilir. Müzik yüksekken kimsenin bağırmasına ya da el sallamasına gerek kalmaz. İstek garsonun telefonuna bildirim olarak düşer."
           ]
         },
         {
@@ -498,16 +493,16 @@
           ]
         },
         {
-          "h2": "Tezgâh arkasında ekran",
+          "h2": "Garsonlar için kişisel giriş",
           "body": [
-            "Smart paketinde menüyü bar tezgâhının arkasındaki monitörlerde de gösterebilirsiniz. Birden fazla ekran varsa sayfalar birlikte döner. Ayakta içen misafir de menüyü uzaktan görür."
+            "Order paketinde her garson garson ekranına kendi kişisel bağlantısı ya da QR koduyla girer; e-posta adresi gerekmez. Masalardan gelen sipariş ve çağrılar telefonuna anında düşer, garson teslim edilen turu işaretler ya da bir ürünü iptal eder."
           ]
         }
       ],
       "features": [
         "ordering",
         "stock",
-        "screens",
+        "pdf",
         "multilingual",
         "reports"
       ],
@@ -518,11 +513,11 @@
         },
         {
           "q": "Misafir QR menüden garson çağırabilir mi?",
-          "a": "Evet, Smart paketinde. Misafir menüden garson çağırır, su ya da hesap ister; istek garsonun telefonuna bildirim olarak gelir. Order paketinde ise misafir siparişini masadan gönderir ve garson siparişi anında görür, garson çağırma ve hesap isteme ise Smart paketinde gelir."
+          "a": "Evet, Order paketinde. Misafir menüden garson çağırır, su ya da hesap ister; istek garsonun telefonuna bildirim olarak gelir. Aynı pakette misafir siparişini de masadan gönderir ve garson anında görür. Hesap isteği yalnızca garsona haber verir; ödeme her zamanki gibi kasada yapılır."
         },
         {
           "q": "Biten içkiler menüde otomatik kapanır mı?",
-          "a": "Smart paketindeki reçeteye bağlı stokla evet. Kokteylleri malzemelerine bağlarsınız; bir malzeme bitince onunla yapılan bütün içkiler kendiliğinden tükendi görünür. Order paketinde ise basit stok ve sipariş raporları bulunur; tükenen ürünü orada menüden elle kaldırırsınız."
+          "a": "Smart paketindeki reçeteye bağlı stokla evet. Kokteylleri malzemelerine bağlarsınız; bir malzeme bitince onunla yapılan bütün içkiler kendiliğinden tükendi görünür. Diğer paketlerde tükenen ürünü menüde elle tükendi olarak işaretlersiniz."
         },
         {
           "q": "Yabancı misafir menüyü kendi dilinde görür mü?",
@@ -530,12 +525,12 @@
         },
         {
           "q": "Bar için hangi paket uygun?",
-          "a": "Menüyü dijitale taşımak yeterliyse Menu (aylık 399 ₺). Yeni turların masadan gelmesini istiyorsanız Order (999 ₺). Garson çağırma, kokteyl reçetesine bağlı stok ve tezgâh ekranları için Smart (1.999 ₺). Fiyatlar şube başınadır."
+          "a": "Menüyü dijitale taşımak yeterliyse Menu (aylık 399 ₺). Yeni turların ve garson çağrılarının masadan gelmesini istiyorsanız Order (999 ₺). Kokteyl reçetesine bağlı stok ve satış raporları için Smart (1.999 ₺). Fiyatlar şube başınadır."
         }
       ],
       "cta": {
-        "h2": "Barınız için haber listesine katılın",
-        "lead": "ArtOfMenu açıldığında size haber verelim; formda barınızın Google Haritalar bağlantısını eklemeniz yeterli."
+        "h2": "Barınızın menüsünü bu akşam masaya koyun",
+        "lead": "Panelden kaydolun, menünüzü oluşturun ve QR kodu masalara yerleştirin."
       },
       "related": [
         "bar-sales",
@@ -583,7 +578,7 @@
           "h2": "Tasarım neden siparişi etkiler?",
           "body": [
             "Misafir göremediği ürünü sipariş etmez. Uzun bir listede fotoğrafı olan, açıklaması anlaşılır olan ürün göze çarpar. Fotoğrafsız bir ürün, lezzeti aynı olsa bile geride kalabilir.",
-            "ArtOfMenu'nun menü raporları bunu ölçmenize yardım eder. Çok görülüp az açılan ürünler işaretlenir. Fotoğrafını ya da açıklamasını yenilediğiniz bir ürünün sonraki haftalarda daha sık açılıp açılmadığını takip edebilirsiniz."
+            "Bunu denemek kolaydır: fotoğrafını ya da açıklamasını yenilediğiniz bir ürünün sonraki haftalarda daha sık sipariş edilip edilmediğine bakın. Smart paketinde menü sıralaması da satışlara, misafirin neye baktığına, saate ve havaya göre kendiliğinden ayarlanır."
           ]
         },
         {
@@ -628,7 +623,7 @@
         },
         {
           "q": "Canva'da tasarladığım menüyü kullanabilir miyim?",
-          "a": "Evet. Canva ya da başka bir programda hazırladığınız menüyü PDF olarak dışa aktarıp ArtOfMenu'ye yükleyebilirsiniz. PDF yükleme bütün paketlerde var ve menünüz aynı gün yayına geçer. Dışa aktarırken yazıların telefonda okunacak kadar büyük olduğunu kontrol edin."
+          "a": "Evet. Canva ya da başka bir programda hazırladığınız menüyü PDF olarak dışa aktarıp ArtOfMenu'ye PDF menü olarak yükleyebilirsiniz; QR kodunuz aynı gün bu PDF'i açar. PDF menü bütün paketlerde var, ama PDF açıkken sipariş, öneriler ve günlük fiyatlar çalışmaz. Dışa aktarırken yazıların telefonda okunacak kadar büyük olduğunu kontrol edin."
         },
         {
           "q": "Profesyonel fotoğrafçı şart mı?",
@@ -637,7 +632,7 @@
       ],
       "cta": {
         "h2": "Menünüzün fotoğraflarını şimdiden çekin",
-        "lead": "ArtOfMenu açıldığında size haber verelim; hazırladığınız fotoğraflarla ilk gün yayına geçin."
+        "lead": "Panelden kaydolun; hazırladığınız fotoğraflarla menünüzü bugün yayına alın."
       },
       "related": [
         "qr-menu",
@@ -691,7 +686,7 @@
           "h2": "Akıllı, ama kontrol sizde",
           "body": [
             "Fiyatın sınırlarını siz koyarsınız. Bir latte için en düşük 160 ₺, en yüksek 180 ₺ dediyseniz sistem bu aralığın dışına çıkmaz. Fiyatlandırmayı istediğiniz an kapatıp temel fiyatlarınıza dönebilirsiniz.",
-            "Fiyatlarınız başka işletmelerle hiçbir zaman paylaşılmaz. Misafirleriniz de takip edilmez; menü istatistikleri anonimdir."
+            "Fiyatlarınız başka işletmelerle hiçbir zaman paylaşılmaz. Misafirleriniz de takip edilmez; menünün kullanımına dair veriler anonimdir."
           ]
         },
         {
@@ -700,9 +695,9 @@
             "Smart, Order paketindeki masadan sipariş ve garson ekranına şunları ekler:"
           ],
           "bullets": [
-            "Masadan garson çağırma, su ve hesap isteme",
+            "Satış raporları: hangi ürünün ne zaman ve ne kadar sattığı",
             "Reçeteye bağlı stok: biten malzemeyle yapılan ürünler kendiliğinden tükendi görünür",
-            "Tezgâh ekranları: menü, sayfaları birlikte çeviren monitörlerde"
+            "Ürün hedefleme: ürünleri sıcaklığa, havaya ve yaş aralığına göre öne çıkarma"
           ]
         }
       ],
@@ -711,7 +706,7 @@
         "pairing",
         "pricing",
         "stock",
-        "screens"
+        "reports"
       ],
       "faq": [
         {
@@ -732,12 +727,12 @@
         },
         {
           "q": "Akıllı özellikler hangi pakette?",
-          "a": "“Yanında iyi gider” önerileri, günlük akıllı fiyatlandırma, özel günler takvimi, masadan garson çağırma, reçeteye bağlı stok ve tezgâh ekranları Smart paketindedir. Smart şube başına aylık 1.999 ₺, yıllık ödemede 19.990 ₺'dir ve Order paketindeki her şeyi içerir."
+          "a": "“Yanında iyi gider” önerileri, günlük akıllı fiyatlandırma, özel günler takvimi, reçeteye bağlı stok ve satış raporları Smart paketindedir. Smart şube başına aylık 1.999 ₺, yıllık ödemede 19.990 ₺'dir ve masadan sipariş ile garson çağırma dahil Order paketindeki her şeyi içerir."
         }
       ],
       "cta": {
-        "h2": "Akıllı menü açıldığında haber verelim",
-        "lead": "Formda Smart paketini işaretleyin, ArtOfMenu açıldığında size e-postayla haber verelim."
+        "h2": "Akıllı menüyle bugün başlayın",
+        "lead": "Panelden kaydolun ve Smart paketini seçin."
       },
       "related": [
         "menu-engineering",
@@ -792,7 +787,7 @@
           "h2": "Garson ekranı, bildirimler ve garson çağırma",
           "body": [
             "Order paketinde her garson siparişleri kendi telefonunda canlı olarak görür. Yeni sipariş geldiğinde bildirim alır. Ayrı tablet ya da sipariş yazıcısı şart değildir.",
-            "Smart paketinde misafir menüden garson da çağırabilir, su ya da hesap isteyebilir. Bu istekler de garsonun telefonuna aynı şekilde düşer. Masalara ayrı bir çağrı butonu koymanız gerekmez."
+            "Aynı pakette misafir menüden garson da çağırabilir, su ya da hesap isteyebilir. Bu istekler de garsonun telefonuna aynı şekilde düşer. Masalara ayrı bir çağrı butonu koymanız gerekmez."
           ]
         },
         {
@@ -803,9 +798,9 @@
           ]
         },
         {
-          "h2": "Stok ve sipariş raporları",
+          "h2": "Stok ve satış raporları",
           "body": [
-            "Order paketinde basit stok ve sipariş raporları vardır. Masadan sipariş açıkken menü raporları da daha çok şey söyler: açılıp hiç sipariş edilmeyen ürünleri işaretler. Smart paketinde reçeteye bağlı stokla, biten malzemeyle yapılan ürünler menüde kendiliğinden tükendi görünür."
+            "Stok ve raporlar Smart paketindedir. Reçeteye bağlı stokla, biten malzemeyle yapılan ürünler menüde kendiliğinden tükendi görünür; satış raporları da neyin satıldığını gösterir. Bir sonraki alışverişinizi buna göre planlarsınız."
           ]
         }
       ],
@@ -822,7 +817,7 @@
         },
         {
           "q": "Restoran sipariş sistemi fiyatları ne kadar?",
-          "a": "ArtOfMenu'de masadan sipariş Order paketiyle başlar: şube başına aylık 999 ₺, yıllık ödemede 9.990 ₺. Garson çağırma, “yanında iyi gider” önerileri ve akıllı fiyatlandırma isterseniz Smart paketi aylık 1.999 ₺'dir."
+          "a": "ArtOfMenu'de masadan sipariş Order paketiyle başlar: şube başına aylık 999 ₺, yıllık ödemede 9.990 ₺; garson çağırma da bu pakettedir. “Yanında iyi gider” önerileri, akıllı fiyatlandırma ve reçeteye bağlı stok isterseniz Smart paketi aylık 1.999 ₺'dir."
         },
         {
           "q": "Misafir menüden ödeme yapabilir mi?",
@@ -830,7 +825,7 @@
         },
         {
           "q": "Garson çağırma sistemi ayrı bir cihaz istiyor mu?",
-          "a": "Hayır. ArtOfMenu'de garson çağırma QR menünün içindedir ve Smart paketinde gelir. Misafir menüden garson çağırır, su ya da hesap ister; bildirim garsonun telefonuna düşer. Masaya buton ya da ayrı bir alıcı koymanız gerekmez."
+          "a": "Hayır. ArtOfMenu'de garson çağırma QR menünün içindedir ve Order paketinde gelir. Misafir menüden garson çağırır, su ya da hesap ister; bildirim garsonun telefonuna düşer. Masaya buton ya da ayrı bir alıcı koymanız gerekmez."
         },
         {
           "q": "Telefonla sipariş vermek istemeyen misafirler ne yapacak?",
@@ -838,8 +833,8 @@
         }
       ],
       "cta": {
-        "h2": "Masadan siparişe hazır olun",
-        "lead": "ArtOfMenu açıldığında size haber verelim; formda Order ya da Smart paketini seçebilirsiniz."
+        "h2": "Masadan siparişe bugün başlayın",
+        "lead": "Panelden kaydolun, Order paketini seçin ve masalarınızı ekleyin."
       },
       "related": [
         "restaurant",
@@ -880,7 +875,7 @@
         {
           "h2": "Para birimi, vergi ve yuvarlama",
           "body": [
-            "ArtOfMenu 216 ülkede kullanılabilecek şekilde hazırlanıyor. Para birimi, vergi gösterimi ve fiyat yuvarlaması her ülkeye göre ayarlanır. Türkiye'deki bir işletmede fiyatlar Türk lirasıyla gösterilir; misafir yabancı olsa da menüde sizin fiyatınızı görür."
+            "ArtOfMenu 216 ülkede kullanılabilir. Para birimi, vergi gösterimi ve fiyat yuvarlaması her ülkeye göre ayarlanır. Türkiye'deki bir işletmede fiyatlar Türk lirasıyla gösterilir; misafir yabancı olsa da menüde sizin fiyatınızı görür."
           ]
         },
         {
@@ -926,8 +921,8 @@
         }
       ],
       "cta": {
-        "h2": "Sezon başlamadan haber alın",
-        "lead": "ArtOfMenu açıldığında size e-postayla haber verelim; menünüzü turist sezonuna hazırlayın."
+        "h2": "Sezon başlamadan menünüzü hazırlayın",
+        "lead": "Panelden kaydolun, menünüzü bugün oluşturun ve turist sezonuna hazır olun."
       },
       "related": [
         "restaurant",
@@ -943,7 +938,7 @@
       "eyebrow": "Restoran ciro rehberi",
       "h1": "Restoranım nasıl daha çok kazanır? Ciroyu ve kârı artırmanın yolları",
       "lead": "Bir restoran daha çok kazanmak için üç şeyi birlikte büyütür: masaya oturan misafir sayısını, masa başına ortalama hesabı ve her satıştan kalan kârı. Bu rehber, her birini bu hafta ölçmeye ve iyileştirmeye başlamanız için yazıldı.",
-      "answer": "Restoran cirosunun temel formülü basittir: ciro, misafir sayısı ile ortalama hesabın çarpımıdır. Kâr ise bu cirodan malzeme, personel ve israf maliyeti düştükten sonra kalandır. Kalıcı artış genellikle menü düzeninden, doğru fiyatlandırmadan, masa devir hızından ve israfın azalmasından gelir. ArtOfMenu bu işlerin menü tarafında raporlar, öneriler ve akıllı fiyatlandırmayla yardımcı olur.",
+      "answer": "Restoran cirosunun temel formülü basittir: ciro, misafir sayısı ile ortalama hesabın çarpımıdır. Kâr ise bu cirodan malzeme, personel ve israf maliyeti düştükten sonra kalandır. Kalıcı artış genellikle menü düzeninden, doğru fiyatlandırmadan, masa devir hızından ve israfın azalmasından gelir. ArtOfMenu bu işlerin menü tarafında satış raporları, öneriler ve akıllı fiyatlandırmayla yardımcı olur.",
       "sections": [
         {
           "h2": "Önce ölçün: üç sayı",
@@ -1003,7 +998,7 @@
           "body": [
             "Öğle servisinde ciroyu en çok bekleme süresi düşürür. Misafir oturduktan sonra menü gelene, sipariş alınana ve hesap gelene kadar geçen her dakika masanın boşta kalmasıdır. Menünün masada hazır olmasını sağlayın, öğle için hızlı hazırlanan kısa bir bölüm oluşturun ve hesabı istenmeden önce hazır tutun. Dört kişilik masalara çoğunlukla iki kişi oturuyorsa ikilik masalar ekleyin.",
             "Akşam yemeğinde acele ettirmek ters teper. Akşamları önemli olan, misafirin rahat edip tatlıya ve ikinci içeceğe kalmasıdır.",
-            "ArtOfMenu Order paketinde misafir siparişini masadan gönderir ve garson telefonunda anında görür. Smart paketinde misafir sepete bir ürün eklediğinde, o şubede o ürünle en sık birlikte alınan ürün gösterilir; misafir hesabı da menüden isteyebilir."
+            "ArtOfMenu Order paketinde misafir siparişini masadan gönderir ve garson telefonunda anında görür; misafir hesabı da menüden isteyebilir. Smart paketinde misafir sepete bir ürün eklediğinde, o şubede o ürünle en sık birlikte alınan ürün gösterilir."
           ]
         },
         {
@@ -1057,7 +1052,7 @@
       ],
       "cta": {
         "h2": "Menünüz de satışa yardım etsin",
-        "lead": "ArtOfMenu açıldığında size haber verelim; menü raporlarıyla nereden başlayacağınızı görün."
+        "lead": "Panelden kaydolun; menünüzü bugün yayına alın."
       },
       "related": [
         "menu-engineering",
@@ -1118,7 +1113,7 @@
           "body": [
             "Barda en pahalı an, misafirin boş bardakla beklediği andır. Uzun süre bekleyen misafir bir tur daha istemekten vazgeçebilir ya da doğrudan hesabı ister.",
             "Garsonlara bölge verin; her garson kendi masalarının bardaklarını izlesin. Bardak yarıya indiğinde “Bir tane daha hazırlayalım mı?” diye sorulsun, boşaldığında değil. En çok satan beş içkinin malzemeleri barmenin elinin altında dursun. Çok yoğun saatlerde kokteyl listesini hızlı hazırlanan içkilere doğru daraltın.",
-            "ArtOfMenu Order paketinde misafir yeni turu masadan gönderir ve garson siparişi telefonunda anında görür. Smart paketinde misafir menüden garson da çağırabilir."
+            "ArtOfMenu Order paketinde misafir yeni turu masadan gönderir ve garson siparişi telefonunda anında görür. Aynı pakette misafir menüden garson da çağırabilir."
           ]
         },
         {
@@ -1180,12 +1175,12 @@
         },
         {
           "q": "QR menü bara uygun mu?",
-          "a": "Kalabalık ve müziği yüksek barlarda işe yarar: misafir menüye garsonu beklemeden bakar ve yeni turu masadan gönderebilir. ArtOfMenu Order paketinde siparişler garsonun telefonuna anında düşer; Smart paketinde misafir garson da çağırabilir."
+          "a": "Kalabalık ve müziği yüksek barlarda işe yarar: misafir menüye garsonu beklemeden bakar ve yeni turu masadan gönderebilir. ArtOfMenu Order paketinde siparişler ve garson çağrıları garsonun telefonuna anında düşer."
         }
       ],
       "cta": {
         "h2": "Yeni tur masadan gelsin",
-        "lead": "ArtOfMenu açıldığında size haber verelim; formda barınızın Google Haritalar bağlantısını ekleyin."
+        "lead": "Panelden kaydolun, masadan siparişi bu hafta başlatın."
       },
       "related": [
         "bar",
@@ -1286,7 +1281,7 @@
           "h2": "Ölçün ve haftada bir bakın",
           "body": [
             "Haftada bir, aynı gün, üç şeye bakın: en çok satan on ürün, ortalama fiş tutarı ve saat saat satış. Hangi saatte boş kaldığınızı ve hangi ürünün hiç dönmediğini bu üç tablo gösterir.",
-            "ArtOfMenu'nun menü raporları kasanın göremediğini ekler: çok görülüp az açılan ürünleri ve sipariş açıkken açılıp hiç sipariş edilmeyenleri işaretler. Smart paketindeki reçeteye bağlı stokta ise yulaf sütü bittiğinde yulaf sütlü her içecek menüde kendiliğinden tükendi görünür."
+            "Smart paketindeki satış raporları neyin satıp neyin beklediğini şube şube gösterir. Reçeteye bağlı stokta ise yulaf sütü bittiğinde yulaf sütlü her içecek menüde kendiliğinden tükendi görünür."
           ]
         }
       ],
@@ -1320,7 +1315,7 @@
       ],
       "cta": {
         "h2": "Kafenizin menüsü de çalışsın",
-        "lead": "ArtOfMenu açıldığında size e-postayla haber verelim."
+        "lead": "Panelden kaydolun ve menünüzü bugün yayına alın."
       },
       "related": [
         "cafe",
@@ -1336,7 +1331,7 @@
       "eyebrow": "Menü mühendisliği",
       "h1": "Menü mühendisliği nedir? Matris, hesap ve uygulama adımları",
       "lead": "Menü mühendisliği, menüdeki her ürünü ne kadar sattığına ve size ne kadar kâr bıraktığına göre sınıflandırıp menüyü buna göre düzenleme yöntemidir. Bir aylık satış verisi, reçete maliyetleri ve bir hesap tablosuyla kendiniz yapabilirsiniz.",
-      "answer": "Menü mühendisliği, Michael Kasavana ve Donald Smith'in 1982'de yayımladığı, menü ürünlerini popülerlik ve katkı payına göre dört gruba ayıran analiz yöntemidir: yıldızlar, atlar, bilmeceler ve köpekler. Her grup için farklı bir karar verilir: korumak, fiyatı düzenlemek, öne çıkarmak ya da çıkarmak. ArtOfMenu'nun menü raporları ve akıllı fiyatlandırması bu analizi destekleyen veriler sunar.",
+      "answer": "Menü mühendisliği, Michael Kasavana ve Donald Smith'in 1982'de yayımladığı, menü ürünlerini popülerlik ve katkı payına göre dört gruba ayıran analiz yöntemidir: yıldızlar, atlar, bilmeceler ve köpekler. Her grup için farklı bir karar verilir: korumak, fiyatı düzenlemek, öne çıkarmak ya da çıkarmak. ArtOfMenu'nun satış raporları ve akıllı fiyatlandırması bu analizi destekler.",
       "steps": {
         "h2": "Adım adım menü mühendisliği analizi",
         "items": [
@@ -1436,8 +1431,8 @@
         {
           "h2": "ArtOfMenu bu analizde nerede yardımcı olur?",
           "body": [
-            "Menü mühendisliği satış ve maliyet verisiyle yapılır; bu veriler sizin kasanızda ve reçetelerinizdedir. ArtOfMenu tabloya kasanın göremediği bir bilgi ekler: misafirin menüde neye baktığı.",
-            "Menü raporları çok görülüp az açılan ürünleri işaretler. Masadan sipariş açıksa, açılıp hiç sipariş edilmeyen ürünleri de gösterir. İlk liste çoğu zaman bir görünürlük sorununa, ikinci liste fiyat ya da açıklama sorununa işaret eder. Bilmecelerinizi bu iki listede arayın.",
+            "Menü mühendisliği satış ve maliyet verisiyle yapılır; bu veriler sizin kasanızda ve reçetelerinizdedir. ArtOfMenu'de bilmecelerinizi öne çıkarmak kolaydır: ürünü bölümün başına taşır, fotoğraf eklersiniz, değişiklik bir sonraki taramada görünür.",
+            "Smart paketindeki satış raporları her ürünün ne kadar sattığını gösterir; değişiklikten önceki ve sonraki haftaları karşılaştırarak işe yarayıp yaramadığını görürsünüz. Smart, menü sıralamasını da satışlara, misafirin neye baktığına, saate ve havaya göre kendiliğinden ayarlar.",
             "Smart paketindeki günlük akıllı fiyatlandırma da atlarınız için bir araç olabilir. Bir ürünün fiyatını, sizin belirlediğiniz alt ve üst sınır içinde, beklenen talebe, havaya ve özel günlere göre her gün yeniden ayarlar."
           ]
         }
@@ -1472,7 +1467,7 @@
       ],
       "cta": {
         "h2": "Bilmecelerinizi menünüzde bulun",
-        "lead": "ArtOfMenu açıldığında size haber verelim; menü raporlarıyla hangi ürünün görülüp seçilmediğini görün."
+        "lead": "Panelden kaydolun; menünüzü bugün yayına alın."
       },
       "related": [
         "restaurant-sales",
@@ -1578,7 +1573,7 @@
           "h2": "Menü ile stok arasındaki bağ: tükendi bilgisi",
           "body": [
             "Stok takibinin misafire dokunan yüzü, olmayan ürünün menüde görünmesidir. Misafir seçer, garson mutfağa gider, geri gelip “maalesef kalmadı” der. Masa yeniden karar vermek zorunda kalır.",
-            "ArtOfMenu Order paketinde basit stok ve sipariş raporları vardır. Smart paketindeki reçeteye bağlı stokta ürünleri malzemelerine bağlarsınız; bir malzeme bittiğinde o malzemeyle yapılan her ürün menüde kendiliğinden tükendi görünür. Mozzarella bittiğinde margarita pizza da, caprese salata da aynı anda kapanır.",
+            "ArtOfMenu Smart paketindeki reçeteye bağlı stokta ürünleri malzemelerine bağlarsınız; bir malzeme bittiğinde o malzemeyle yapılan her ürün menüde kendiliğinden tükendi görünür. Mozzarella bittiğinde margarita pizza da, caprese salata da aynı anda kapanır. Satış raporları da neyin ne kadar satıldığını gösterir.",
             "Bitmek üzere olan ürünler ayrıca menüde aşağı iner; elinizde az kalan bir ürün en üst sırada durmaz."
           ]
         }
@@ -1613,7 +1608,7 @@
       ],
       "cta": {
         "h2": "Biten ürün menüde de bitsin",
-        "lead": "ArtOfMenu açıldığında size haber verelim; reçeteye bağlı stokla menünüz mutfağınızla birlikte güncellensin."
+        "lead": "Panelden kaydolun; Smart paketindeki reçeteye bağlı stokla menünüz mutfağınızla birlikte güncellensin."
       },
       "related": [
         "menu-engineering",
@@ -1625,11 +1620,11 @@
     "how-to": {
       "slug": "qr-menu-nasil-yapilir",
       "title": "QR Menü Nasıl Yapılır? Hızlı QR Menü Rehberi | ArtOfMenu",
-      "description": "Hızlı QR menü: PDF menünüzü yükleyin, aynı gün yayına alın. QR kodu bastırma, masa standı seçimi ve fiyat değiştirme adım adım anlatılıyor.",
+      "description": "Hızlı QR menü: menünüzü panelde kurun ya da PDF'inizi aynı gün yayına alın. QR kodu bastırma, masa standı seçimi ve fiyat değiştirme adım adım anlatılıyor.",
       "eyebrow": "Adım adım",
       "h1": "QR menü nasıl yapılır? PDF'ten aynı gün yayına hızlı QR menü",
-      "lead": "QR menü yapmanın en hızlı yolu, elinizdeki PDF menüyü yükleyip size verilen QR kodu masalara koymaktır; ArtOfMenu'de PDF yükleme bütün paketlerde var ve menü aynı gün yayına geçer. Fotoğrafları, alerjenleri ve diğer ayrıntıları sonra kendi hızınızda eklersiniz.",
-      "answer": "QR menü oluşturmak için önce menünüzü dijital hale getirir, sonra bu menüye giden bir QR kodu masalara koyarsınız. En hızlı yol, mevcut PDF menüyü bir QR menü hizmetine yüklemektir. ArtOfMenu'de PDF yükleme bütün paketlerde vardır ve menü aynı gün yayına geçer. QR kod sabit kalır; fiyatları ve ürünleri sonradan siz güncellersiniz.",
+      "lead": "QR menü yapmanın en hızlı yolu, menünüzü panelde kurup size verilen QR kodu masalara koymaktır. Acele ediyorsanız elinizdeki PDF menüyü yükleyebilirsiniz; ArtOfMenu'de PDF menü bütün paketlerde var ve QR kod aynı gün onu açar. Fotoğrafları, alerjenleri ve diğer ayrıntıları canlı menüye kendi hızınızda eklersiniz.",
+      "answer": "QR menü oluşturmak için önce menünüzü dijital hale getirir, sonra bu menüye giden bir QR kodu masalara koyarsınız. ArtOfMenu'de panelden kaydolup ürünlerinizi fotoğraf ve alerjenleriyle girersiniz; mevcut PDF menünüzü de bütün paketlerde yükleyip aynı gün yayına alabilirsiniz. QR kod sabit kalır; fiyatları ve ürünleri sonradan siz güncellersiniz.",
       "steps": {
         "h2": "Adım adım QR menü oluşturma",
         "items": [
@@ -1638,8 +1633,8 @@
             "d": "Güncel fiyatları, ürün adlarını ve bölümleri tek bir listede kontrol edin. Menünüz Canva'da ya da Word'de hazırsa PDF olarak dışa aktarın."
           },
           {
-            "t": "PDF'i yükleyin",
-            "d": "PDF menünüzü ArtOfMenu'ye yükleyin. Menü aynı gün yayına geçer ve misafirleriniz okutmaya başlayabilir."
+            "t": "Panelde menünüzü kurun",
+            "d": "app.artofmenu.com'da kaydolun, bölümleri ve ürünleri fiyatlarıyla girin. Hemen yayında olmak isterseniz PDF'inizi PDF menü olarak yükleyin; QR kod aynı gün onu açar."
           },
           {
             "t": "Fotoğraf ve alerjen ekleyin",
@@ -1714,7 +1709,7 @@
       "faq": [
         {
           "q": "QR menü oluşturma ne kadar sürer?",
-          "a": "Hazır bir PDF menünüz varsa ArtOfMenu'de aynı gün yayına geçebilirsiniz. Ürünlere tek tek fotoğraf ve alerjen eklemek, menünün uzunluğuna göre birkaç saat ya da birkaç gün sürebilir; bunu menü yayındayken de yapabilirsiniz."
+          "a": "Hazır bir PDF menünüz varsa ArtOfMenu'de onu PDF menü olarak yükleyip aynı gün yayına geçebilirsiniz. Canlı menüyü ürün ürün fotoğraf ve alerjenle kurmak, menünün uzunluğuna göre birkaç saat ya da birkaç gün sürebilir. İsterseniz ArtOfMenu'yü ChatGPT'ye bağlayıp menü fotoğrafınızı ya da PDF'inizi ürünlere dönüştürmesini isteyebilirsiniz; değişiklikleri panelde onaylarsınız."
         },
         {
           "q": "Kendi QR kodumu bir QR oluşturucuyla yapsam olur mu?",
@@ -1734,8 +1729,8 @@
         }
       ],
       "cta": {
-        "h2": "Menünüzü hazırlayın, açılışta yayına alın",
-        "lead": "ArtOfMenu açıldığında size haber verelim; PDF menünüzü yükleyip aynı gün yayına geçin."
+        "h2": "Menünüzü hazırlayın, bugün yayına alın",
+        "lead": "Panelden kaydolun; PDF menünüzü yükleyip aynı gün yayına geçin ya da canlı menünüzü kurun."
       },
       "related": [
         "qr-menu",

@@ -1,0 +1,58 @@
+:root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif; color: #17223b; background: #f7f8fb; font-synthesis: none }
+* { box-sizing: border-box }
+html { scroll-behavior: smooth }
+body { margin: 0; line-height: 1.65 }
+a { color: #1f3a9e; text-underline-offset: 3px }
+a:hover { color: #11286f }
+.legal-top { background: #fff; border-bottom: 1px solid #e2e6ee; }
+.legal-top-inner { max-width: 1120px; margin: auto; min-height: 76px; padding: 12px 24px; display: flex; align-items: center; justify-content: space-between; gap: 20px }
+.legal-logo { font-size: 22px; font-weight: 750; letter-spacing: -.05em; text-decoration: none; color: #1f3a9e }
+.legal-tools { display: flex; align-items: center; gap: 16px }
+.legal-tools select { font: inherit; color: inherit; padding: 9px 12px; border: 1px solid #cdd4e2; border-radius: 8px; background: white; max-width: 132px }
+.legal-home { font-weight: 600; white-space: nowrap }
+.legal-main { max-width: 960px; min-height: 68vh; margin: auto; padding: 40px 28px 90px }
+.legal-back { display: inline-block; margin: 0 0 44px; font-size: 14px; text-decoration: none }
+.eyebrow { color: #1f3a9e; font-size: 12px; font-weight: 750; letter-spacing: .14em }
+h1 { font-size: clamp(30px, 4vw, 48px); line-height: 1.14; letter-spacing: -.035em; margin: 12px 0 16px }
+h2 { line-height: 1.28; letter-spacing: -.02em; font-size: 23px; margin: 0 0 14px }
+.legal-meta { color: #59667d; font-size: 13px; margin-bottom: 24px }
+.legal-summary { padding: 20px 24px; border-left: 4px solid #1f3a9e; background: #e9eefc; border-radius: 0 10px 10px 0; margin: 20px 0 36px; }
+.legal-context { padding: 14px 20px; border: 1px solid #cbd5e5; border-radius: 12px; background: #fff }
+.legal-list { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 34px }
+.legal-card { min-height: 88px; display: flex; justify-content: space-between; gap: 12px; align-items: center; border: 1px solid #e2e5ee; border-radius: 14px; background: white; padding: 22px; font-weight: 650; color: #17223b; text-decoration: none; box-shadow: 0 2px 8px #1c29400a; }
+.legal-card:hover { border-color: #8e9fd7; }
+.chevron { color: #1f3a9e; font-size: 25px; }
+.legal-toc { background: white; border: 1px solid #e2e6ee; border-radius: 12px; padding: 18px 20px; display: flex; flex-wrap: wrap; gap: 10px 20px; margin: 34px 0 48px }
+.legal-toc a { color: #4a5975; font-size: 13px; text-decoration: none; border-bottom: 1px solid #e5e9f2; }
+.legal-article { background: white; border: 1px solid #e2e6ee; border-radius: 16px; padding: clamp(22px, 4vw, 44px); box-shadow: 0 3px 20px #1c294008 }
+.legal-article section { scroll-margin-top: 22px; margin: 0 0 44px; }
+.legal-article section:last-child { margin-bottom: 0 }
+.legal-article p, .legal-article li { color: #344157; font-size: 15px; }
+.legal-article p { margin: 0 0 17px }
+.legal-article ul, .legal-article ol { padding-left: 26px; margin: 8px 0 22px; }
+.legal-article li { margin: 8px 0; }
+.legal-article strong { color: #17223b }
+.table-scroll { max-width: 100%; overflow-x: auto; margin: 14px 0 24px }
+table { width: 100%; border-collapse: collapse; font-size: 14px }
+th, td { padding: 13px; border: 1px solid #dde3ef; text-align: left; vertical-align: top; overflow-wrap: anywhere }
+th { color: #253355; background: #f4f6fb; }
+tr:nth-child(even) td { background: #fafbfe }
+.legal-print { margin: 30px 0; font: inherit; padding: 10px 22px; border: 1px solid #b7c3da; background: white; border-radius: 8px; color: #1f3a9e; cursor: pointer }
+.legal-footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; max-width: 1120px; padding: 26px; margin: auto; font-size: 12px; color: #586780; border-top: 1px solid #e2e6ee }
+.loading { padding: 120px; text-align: center }
+@media (max-width: 600px) {
+ .legal-top-inner { padding: 14px 18px; min-height: 68px }
+ .legal-home { display: none }
+ .legal-main { padding: 28px 18px 70px }
+ .legal-back { margin-bottom: 32px }
+ .legal-article { border-radius: 12px }
+ .legal-list { grid-template-columns: 1fr }
+}
+@media print {
+ :root { background: white }
+ .legal-top, .legal-back, .legal-toc, .legal-print, .legal-footer { display: none }
+ .legal-main { max-width: none; padding: 0; }
+ .legal-article { border: none; box-shadow: none; padding: 0 }
+ .legal-article section { break-inside: avoid }
+ a { color: inherit; text-decoration: none }
+}

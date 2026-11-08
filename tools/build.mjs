@@ -87,7 +87,9 @@ const img = (file, alt, extra = "") => {
 };
 const ARROW = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 const GLOBE = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c2.6 2.8 2.6 15.2 0 18M12 3c-2.6 2.8-2.6 15.2 0 18" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>';
-const cta = (label, extra = "") => `<button type="button" class="cta" data-notify${extra}><span class="l">${esc(label)}</span><span class="cta-arrow">${ARROW}</span></button>`;
+/** Every call to action opens the panel, where a business signs up. */
+const APP = "https://app.artofmenu.com/#/signup";
+const cta = (label, extra = "") => `<a class="cta" href="${APP}"${extra}><span class="l">${esc(label)}</span><span class="cta-arrow">${ARROW}</span></a>`;
 
 function alternates(urlFor, x) {
   const out = LANGS.filter((l) => urlFor(l)).map((l) => `<link rel="alternate" hreflang="${l}" href="${SITE}${urlFor(l)}">`);
@@ -116,43 +118,6 @@ function app(l) {
   };
 }
 
-/* ---------- the notify dialog, in the page's language ---------- */
-
-// the form's Worker address and Turnstile key are set once, in index.html, and copied to every page
-const FORM = (() => { const s = read("index.html"); return { endpoint: (s.match(/data-endpoint="([^"]*)"/) || [])[1] || "", sitekey: (s.match(/data-sitekey="([^"]*)"/) || [])[1] || "" }; })();
-
-function dialog(l) {
-  const t = tr(l), x = '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
-  return `<dialog class="notify" id="notify" aria-labelledby="nf-title">
-  <form class="nf-form" id="nf-form" novalidate data-endpoint="${esc(FORM.endpoint)}" data-sitekey="${esc(FORM.sitekey)}">
-    <button type="button" class="nf-close" data-nf-close aria-label="${esc(t("nf.close"))}">${x}</button>
-    <img class="nf-mark" src="/assets/brand/logo-aom.webp" alt="" width="900" height="391">
-    <h2 id="nf-title">${esc(t("nf.title"))}</h2>
-    <p class="nf-lead">${esc(t("nf.lead"))}</p>
-    <label class="nf-field"><span>${esc(t("nf.name"))}</span><input type="text" name="fullname" autocomplete="name" maxlength="120" required></label>
-    <label class="nf-field"><span>${esc(t("nf.email"))}</span><input type="email" name="email" autocomplete="email" inputmode="email" maxlength="254" required></label>
-    <label class="nf-field"><span>${esc(t("nf.maps"))}</span><input type="url" name="maps" inputmode="url" maxlength="500" placeholder="https://maps.app.goo.gl/…" required><small>${esc(t("nf.maps.hint"))}</small></label>
-    <fieldset class="nf-plans">
-      <legend>${esc(t("nf.plan"))}</legend>
-      <label><input type="radio" name="plan" value="menu"><span>Menu</span></label>
-      <label><input type="radio" name="plan" value="order"><span>Order</span></label>
-      <label><input type="radio" name="plan" value="smart"><span>Smart</span></label>
-      <label><input type="radio" name="plan" value="undecided" checked><span>${esc(t("nf.undecided"))}</span></label>
-    </fieldset>
-    <label class="nf-consent"><input type="checkbox" name="consent" required><span>${esc(t("nf.consent"))}</span></label>
-    <input class="nf-hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
-    <div class="nf-check" id="nf-check"></div>
-    <p class="nf-status" id="nf-status" role="status" aria-live="polite"></p>
-    <button type="submit" class="cta nf-submit"><span>${esc(t("nf.submit"))}</span><span class="cta-arrow">${ARROW}</span></button>
-  </form>
-  <div class="nf-done" id="nf-done" hidden>
-    <img class="nf-mark" src="/assets/brand/logo-aom.webp" alt="" width="900" height="391">
-    <h2>${esc(t("nf.done.t"))}</h2>
-    <p class="nf-lead">${esc(t("nf.done.d"))}</p>
-    <button type="button" class="cta" data-nf-close><span>${esc(t("nf.close"))}</span></button>
-  </div>
-</dialog>`;
-}
 
 /* ---------- topic pages ---------- */
 
@@ -247,7 +212,7 @@ function topicPage(l, key) {
         <summary aria-label="${esc(ui.languages)}">${GLOBE}<span>${l.toUpperCase()}</span></summary>
         <ul>${otherLangs.map((o) => `<li><a href="${pageUrl(o, key)}" hreflang="${o}" lang="${o}"${o === l ? ' aria-current="page"' : ""}>${esc(CONTENT[o].ui.langName)}</a></li>`).join("")}</ul>
       </details>
-      <button type="button" class="cta small" data-notify><span class="l">${esc(ui.notify)}</span><span class="cta-arrow">${ARROW}</span></button>
+      <a class="cta small" href="${APP}"><span class="l">${esc(ui.notify)}</span><span class="cta-arrow">${ARROW}</span></a>
     </nav>
   </div>
 </header>
@@ -336,12 +301,10 @@ ${steps}
 
 ${footer(l, (o) => (has(o, key) ? pageUrl(o, key) : null))}
 
-${dialog(l)}
 
 <script src="${asset("i18n.js")}"></script>
 <script src="${asset("gun-i18n.js")}"></script>
 <script src="${asset("pricing.js")}"></script>
-<script src="${asset("notify.js")}"></script>
 <script src="${asset("assets/seo/seo.js")}"></script>
 <script src="${asset("assets/hairline/kernel.js")}"></script>
 <script type="module" src="${asset("assets/hairline/stands.js")}"></script>
@@ -364,11 +327,11 @@ function footer(l, sameIn) {
   return `<footer class="foot">
   <div class="wrap">
     <div class="foot-grid">
-      <div><a class="foot-logo" href="${home(l)}" aria-label="ArtOfMenu"><img src="/assets/brand/logo-white.webp" alt="ArtOfMenu" width="900" height="682" loading="lazy"></a><p class="tag">${esc(ui.footerTagline)}</p></div>
+      <div><a class="foot-logo" href="${home(l)}" aria-label="ArtOfMenu"><picture><source srcset="/assets/brand/logo-white.webp" type="image/webp"><img src="/assets/brand/logo-white.png" alt="ArtOfMenu" width="900" height="682" decoding="async"></picture></a><p class="tag">${esc(ui.footerTagline)}</p></div>
       <nav class="foot-pages" aria-label="${esc(ui.allPages)}"><h2>${esc(ui.allPages)}</h2><ul>${pages}</ul></nav>
       <nav aria-label="${esc(ui.languages)}"><h2>${esc(ui.languages)}</h2><ul>${langs}</ul></nav>
     </div>
-    <p class="foot-copy">© 2026 <a href="https://goktigin.com" target="_blank" rel="noopener">Göktigin</a></p>
+    <p class="foot-copy">© 2026 <a href="https://goktigin.com" target="_blank" rel="noopener">Göktigin</a> · <a href="/legal/?lang=${l}">${({ tr: "Yasal bilgiler", en: "Legal information", de: "Rechtliche Angaben", es: "Información legal", fr: "Informations légales", it: "Informazioni legali" })[l]}</a></p>
   </div>
 </footer>`;
 }
@@ -376,7 +339,7 @@ function footer(l, sameIn) {
 /* ---------- homepages ---------- */
 
 // the homepage's own scripts and styles get the same content-hash versions as the topic pages
-const stamp = (html) => html.replace(/(\s(?:src|href)=")\/?((?:gun|i18n|gun-i18n|pricing|notify)\.(?:js|css))\?v=[^"]*"/g, (m, a, f) => `${a}${asset(f)}"`);
+const stamp = (html) => html.replace(/(\s(?:src|href)=")\/?((?:gun|i18n|gun-i18n|pricing)\.(?:js|css))\?v=[^"]*"/g, (m, a, f) => `${a}${asset(f)}"`);
 
 // index.html carries <!--seo:head-->…<!--/seo:head--> and <!--seo:links-->…<!--/seo:links--> blocks that this fills
 const fill = (html, name, body) => html.replace(new RegExp(`<!--seo:${name}-->[\\s\\S]*?<!--/seo:${name}-->`), `<!--seo:${name}-->${body}<!--/seo:${name}-->`);
@@ -474,17 +437,17 @@ function llms() {
   const lines = [
     "# ArtOfMenu",
     "",
-    "> ArtOfMenu is a QR menu, table ordering and smart daily pricing service for cafés, restaurants, bars and bakeries, made by Göktigin. It is launching soon; businesses can join the launch list on the site.",
+    "> ArtOfMenu is a QR menu, table ordering and smart daily pricing service for cafés, restaurants, bars and bakeries, made by Göktigin. It is available now; businesses sign up in the panel at https://app.artofmenu.com.",
     "",
-    `Status: not launched yet (as of ${TODAY}). No customers, reviews or ratings yet. Last updated: ${TODAY}.`,
+    `Status: available; sign-up at https://app.artofmenu.com. Last updated: ${TODAY}.`,
     "",
     "## Facts",
     "",
     "- Guests scan the QR code on the table and the menu opens automatically in their phone's language, with photos and allergen information. The QR code never changes; the owner updates the menu.",
-    "- An existing PDF menu can be uploaded and go live the same day (every plan). The menu can run on the business's own domain.",
+    "- An existing PDF menu can be put online the same day: the branch's QR code then opens the PDF (one per language; ordering and smart features pause while it is on). The live menu is built in the panel. The menu can run on the business's own domain (every plan).",
     "- Currency, tax display and price rounding are set up for 216 countries.",
-    "- Order plan: guests order from the table and waiters see each order instantly on their phones (live waiter screen and notifications); simple stock and order reports.",
-    "- Smart plan: the menu reorders itself with the weather (hot drinks up when it is cold), suggests the item most often ordered with the one a guest picks, and sets the next day's prices every evening within the minimum and maximum the owner chooses, from the weather forecast, holidays and expected demand. Prices change at most once a day and can be approved one by one, applied automatically, or switched off. Guests can also call a waiter, ask for water or the bill from the table. Recipe-based stock marks items sold out when an ingredient runs out; counter screens show the menu on monitors.",
+    "- Order plan: guests order from the table and waiters see each order instantly on their phones (waiter portal, sign-in by personal link); guests can call the waiter or ask for water or the bill; unlimited tables at no extra cost.",
+    "- Smart plan: the menu reorders itself with the weather (hot drinks up when it is cold), suggests the item most often ordered with the one a guest picks, and sets the next day's prices every evening within the minimum and maximum the owner chooses, from the weather forecast, holidays and expected demand. Prices change at most once a day and can be approved one by one, applied automatically, or switched off. Recipe-based stock marks items sold out when an ingredient runs out, and sales reports show what sold.",
     "- Privacy: no cookies, persistent IDs or stored IPs for guests; prices are never shared between businesses. Cancel in one step.",
     "- What it is not: not a POS or payment terminal (it takes no payments), no free plan or trial, no ready-made themes or design service.",
     "",

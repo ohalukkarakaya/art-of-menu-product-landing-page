@@ -1,0 +1,79 @@
+{
+  "key": "dpa",
+  "version": "1.0",
+  "locale": "fr",
+  "title": "Accord sur le traitement des données (Annexe 1)",
+  "effective": "2026-11-08",
+  "summary": "Le présent accord constitue une annexe contraignante du Contrat de service Art of Menu pour les établissements. Il fixe les règles applicables au traitement des données des convives et des salariés pour lequel l'établissement est responsable du traitement et Göktigin Bilişim Teknoloji Ltd. Şti. est sous-traitant.",
+  "sections": [
+    { "id": "subject", "heading": "1. Objet et rôles", "blocks": [
+      { "p": "Le présent Accord sur le traitement des données (l'« Annexe ») constitue une annexe contraignante du [Contrat de service Art of Menu pour les établissements](doc:business-terms) (le « Contrat de service »). Les termes non définis dans l'Annexe ont le sens qui leur est donné dans le Contrat de service." },
+      { "p": "Le Client est responsable du traitement des données personnelles énumérées à la section 3 (le « Responsable du traitement »). Göktigin Bilişim Teknoloji Ltd. Şti. (la « Société ») est le sous-traitant qui traite ces données pour le compte du Responsable du traitement et sur ses instructions. La présente Annexe est établie conformément à l'article 12 de la loi turque n° 6698 sur la protection des données personnelles (la « KVKK ») et, lorsqu'il est applicable, à l'article 28 du Règlement général sur la protection des données de l'Union européenne (le « RGPD »)." },
+      { "p": "Les traitements effectués par la Société en qualité de responsable du traitement pour les comptes Utilisateurs, les opérations de facturation et la sécurité de son propre service ne relèvent pas de la présente Annexe ; ils sont décrits dans la [Notice d'information KVKK et déclaration de confidentialité à l'intention des utilisateurs des établissements](doc:privacy-business)." }
+    ]},
+    { "id": "duration-purpose", "heading": "2. Durée, nature et finalité", "blocks": [
+      { "p": "L'Annexe s'applique pendant toute la durée du Contrat de service et jusqu'à l'achèvement des opérations d'effacement prévues à la section 9." },
+      { "p": "La Société traite les données personnelles uniquement pour fournir le Service : publier le menu des convives, gérer les sessions de table et les commandes, transmettre les appels au serveur, faire fonctionner l'écran serveur, produire les rapports de ventes et d'utilisation du menu et assurer la sécurité du Service. Le traitement consiste en des opérations d'enregistrement, de conservation, d'organisation, de consultation, de transmission, de production de rapports et d'effacement." }
+    ]},
+    { "id": "data-categories", "heading": "3. Personnes concernées et catégories de données", "blocks": [
+      { "p": "**Convives.** Aucun nom, adresse e-mail ni numéro de téléphone n'est recueilli auprès des convives. Les données traitées sont les suivantes :" },
+      { "ul": [
+        "données de session de table : table, panier commun, clés utilisées pour la participation à la session et conservées sous forme d'empreinte (hash), code de session à 6 chiffres ;",
+        "enregistrements des commandes et des appels au serveur, pour de l'eau ou pour l'addition, rattachés uniquement à la table ;",
+        "données d'utilisation du menu collectées sans cookie : identifiant aléatoire d'affichage de page, catégorie d'appareil et type de navigateur déduits des informations du navigateur, langue du menu, code pays tiré de l'en-tête réseau, produits consultés et temps passé sur la page ;",
+        "adresse IP utilisée temporairement à des fins de sécurité et de limitation des usages excessifs ; l'adresse IP n'est pas enregistrée dans la base de données."
+      ]},
+      { "p": "**Serveurs.** Le prénom, le nom, le sexe et la succursale saisis par le Responsable du traitement ; les commandes servies et les enregistrements de ventes du serveur ; les informations de session de l'écran serveur." },
+      { "p": "**Autres salariés du Responsable du traitement.** Les noms des salariés saisis par le Responsable du traitement dans le Service et les enregistrements d'opérations qui y sont liés." },
+      { "p": "L'Annexe n'a pas pour objet le traitement de catégories particulières de données personnelles. Le Responsable du traitement ne saisit pas de telles données dans le Service." }
+    ]},
+    { "id": "instructions", "heading": "4. Instructions et confidentialité", "blocks": [
+      { "p": "La Société ne traite les données personnelles que sur instructions documentées du Responsable du traitement. Ces instructions sont constituées du Contrat de service, de la présente Annexe et des paramètres et opérations du Responsable du traitement dans le panneau. Si la Société estime qu'une instruction est contraire à la réglementation, elle en informe le Responsable du traitement. Les cas dans lesquels la réglementation impose à la Société une obligation de traitement demeurent réservés." },
+      { "p": "La Société veille à ce que ses salariés ayant accès aux données personnelles soient soumis à une obligation de confidentialité et limite l'accès aux personnes qui en ont besoin pour l'exercice de leurs fonctions." },
+      { "p": "Le Responsable du traitement est responsable de la licéité du traitement des données, de l'obligation d'information à l'égard de ses convives et de ses salariés et de la licéité des instructions qu'il donne." }
+    ]},
+    { "id": "security", "heading": "5. Mesures de sécurité", "blocks": [
+      { "p": "La Société met en œuvre les mesures suivantes pour assurer la sécurité des données :" },
+      { "ul": [
+        "les données sont hébergées sur l'infrastructure de serveurs gérée par la Société ;",
+        "la transmission des données est chiffrée par TLS ;",
+        "les champs sensibles sont conservés sous forme chiffrée dans la base de données ; les clés de session et d'accès sont conservées sous forme d'empreinte (hash) ;",
+        "un contrôle d'accès fondé sur les rôles et les droits est appliqué dans le panneau ;",
+        "une authentification multifacteur est utilisée pour les salariés ayant accès à l'écran d'administration de la plateforme de la Société ;",
+        "les opérations d'administration sont consignées dans un journal d'audit inaltérable ;",
+        "une limitation des requêtes est appliquée contre les requêtes excessives et les tentatives d'abus ;",
+        "les salariés de la Société n'accèdent à un compte à des fins d'assistance qu'au moyen d'un accès limité dans le temps et visible par le Responsable du traitement dans le panneau."
+      ]},
+      { "p": "La Société peut mettre à jour ces mesures en fonction de l'évolution technique ; les mises à jour ne réduisent pas le niveau de protection." }
+    ]},
+    { "id": "sub-processors", "heading": "6. Sous-traitants ultérieurs et services tiers", "blocks": [
+      { "p": "Les fonctions essentielles du Service fonctionnent sur les propres serveurs de la Société. La traduction automatique des textes du menu et la suppression de l'arrière-plan des photos sont également effectuées sur les serveurs de la Société. Pour traiter les données relevant de la présente Annexe, la Société a recours aux services suivants :" },
+      { "ul": [
+        "**Service d'envoi d'e-mails :** lorsqu'il est utilisé, il reçoit uniquement l'adresse e-mail du destinataire et le contenu de l'e-mail. Ce service peut être situé à l'étranger.",
+        "**Prestataire de services de paiement agréé :** utilisé uniquement pour les paiements d'abonnement du Client ; il ne reçoit aucune donnée relative aux convives ou aux serveurs."
+      ]},
+      { "p": "Google Translate peut être utilisé via le navigateur pour traduire les textes du menu dans le panneau. Le texte du menu et l'adresse IP de l'utilisateur sont transmis à ce service. Les textes du menu ne contiennent normalement pas de données personnelles ; le Responsable du traitement n'inscrit pas de données personnelles dans les textes du menu." },
+      { "p": "Si le Responsable du traitement connecte son compte à ChatGPT, le catalogue de produits, les informations du menu et les noms des salariés sont transmis à OpenAI sur instruction du Responsable du traitement. La décision d'établir et de supprimer cette connexion, ainsi que la relation avec OpenAI, relèvent du Responsable du traitement." },
+      { "p": "Avant de recourir à un nouveau sous-traitant ultérieur, la Société en informe le Responsable du traitement par e-mail ou via le panneau. Si le Responsable du traitement formule une objection fondée sur un motif légitime et que les parties ne trouvent pas de solution, le Responsable du traitement peut résilier le Contrat de service. La Société impose à ses sous-traitants ultérieurs des obligations de protection des données d'un niveau identique à celles de la présente Annexe. La liste à jour des sous-traitants ultérieurs est communiquée sur demande à l'adresse [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "transfers", "heading": "7. Transferts à l'étranger", "blocks": [
+      { "p": "Les données personnelles ne sont transférées à l'étranger que sur le fondement des bases juridiques prévues par la réglementation. Les transferts depuis la Turquie sont soumis à l'article 9 de la KVKK ; lorsque le transfert repose sur des clauses contractuelles types, une notification est adressée à l'Autorité de protection des données personnelles (Kişisel Verileri Koruma Kurumu) dans le délai prévu par la loi." },
+      { "p": "Lorsque le Responsable du traitement est soumis au RGPD, les instruments nécessaires au transfert vers la Société en Turquie, en particulier les clauses contractuelles types de la Commission européenne, sont conclus séparément par les parties. Aucun transfert de ce type n'est réputé avoir lieu tant que ces instruments n'ont pas été conclus." }
+    ]},
+    { "id": "assistance", "heading": "8. Demandes des personnes concernées et notification des violations", "blocks": [
+      { "p": "Si une demande d'une personne concernée parvient directement à la Société, celle-ci la transmet sans délai au Responsable du traitement et n'y répond pas elle-même. La Société fournit, dans une mesure raisonnable, les informations et l'assistance technique nécessaires pour permettre au Responsable du traitement de répondre aux demandes." },
+      { "p": "Lorsque la Société a connaissance d'une violation de sécurité concernant les données relevant de la présente Annexe, elle en informe le Responsable du traitement sans délai et de manière à lui permettre de respecter le délai de notification de 72 heures prévu par le Conseil de protection des données personnelles (Kişisel Verileri Koruma Kurulu). La notification indique, dans la mesure où ces éléments sont connus à ce moment, la nature de la violation, les catégories de données concernées, ses conséquences probables et les mesures prises. L'obligation de notification au Conseil et aux personnes concernées incombe au Responsable du traitement." }
+    ]},
+    { "id": "deletion", "heading": "9. Effacement et conservation", "blocks": [
+      { "p": "Les données brutes d'utilisation du menu sont effacées au bout de 120 jours ; seules sont conservées les statistiques agrégées ne pouvant être rattachées à une personne." },
+      { "p": "À la fin du Contrat de service et à la clôture du compte, les données relevant de la présente Annexe sont effacées ou anonymisées à l'issue du délai de 30 jours pendant lequel le compte peut être rouvert. Le Responsable du traitement sauvegarde lui-même les données dont il a besoin avant l'expiration de ce délai. Les enregistrements dont la conservation est imposée par la réglementation sont conservés pendant la durée correspondante." }
+    ]},
+    { "id": "audits", "heading": "10. Audit", "blocks": [
+      { "p": "La Société fournit, sur demande écrite du Responsable du traitement, les informations et documents nécessaires pour démontrer qu'elle respecte la présente Annexe. Si ces informations sont insuffisantes, le Responsable du traitement peut, au maximum une fois par an, effectuer un audit ou le faire effectuer par un auditeur indépendant, à condition d'en donner notification au moins 30 jours à l'avance, de le réaliser pendant les heures ouvrables, d'en supporter les frais et de respecter l'obligation de confidentialité. Cette limite de fréquence ne s'applique pas en cas de violation de sécurité ou de demande d'une autorité compétente. L'audit est réalisé de manière à ne pas porter atteinte aux données des autres clients ni à la sécurité des systèmes de la Société." }
+    ]},
+    { "id": "liability", "heading": "11. Responsabilité", "blocks": [
+      { "p": "Chaque partie est responsable des manquements à ses propres obligations découlant de la présente Annexe et de la réglementation sur la protection des données. Les limitations prévues à la section [Responsabilité](doc:business-terms#liability) du Contrat de service s'appliquent à la responsabilité de la Société, sous réserve des cas dans lesquels le droit impératif ne les permet pas." },
+      { "p": "En cas de contradiction entre la présente Annexe et le Contrat de service concernant la protection des données personnelles, la présente Annexe prévaut." }
+    ]}
+  ]
+}

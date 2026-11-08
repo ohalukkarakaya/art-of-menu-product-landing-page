@@ -1,0 +1,192 @@
+{
+  "key": "privacy-business",
+  "version": "1.0",
+  "locale": "es",
+  "title": "Aviso informativo KVKK y Aviso de privacidad para usuarios de establecimientos",
+  "effective": "2026-11-08",
+  "summary": "Este aviso explica cómo trata Göktigin Bilişim Teknoloji Ltd. Şti. los datos personales de los propietarios, responsables, usuarios y personas de contacto de facturación de los establecimientos que utilizan Art of Menu, así como de los visitantes del sitio artofmenu.com, conforme al artículo 10 de la Ley n.º 6698 de Protección de Datos Personales de Turquía. La información adicional para los usuarios de la Unión Europea, el Espacio Económico Europeo y el Reino Unido figura en la sección 12. Este texto no es un contrato ni un texto de consentimiento.",
+  "sections": [
+    {
+      "id": "controller",
+      "heading": "1. Responsable del tratamiento",
+      "blocks": [
+        { "p": "Los datos personales descritos en este aviso son tratados por **Göktigin Bilişim Teknoloji Limited Şirketi** (la Sociedad) en su condición de responsable del tratamiento." },
+        { "ul": [
+          "Dirección: Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Turquía",
+          "Oficina tributaria y número de identificación fiscal: Oficina Tributaria Antalya Kurumlar, 4060725346",
+          "Correo electrónico: [hello@goktigin.com](mailto:hello@goktigin.com)",
+          "Teléfono: +90 554 238 70 07"
+        ] },
+        { "p": "Art of Menu es el nombre comercial del producto de software de la Sociedad. El resto de la información de la Sociedad figura en la página [Información corporativa y legal](doc:company). La Sociedad no tiene sociedades, sucursales ni representantes fuera de Turquía." }
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "2. Ámbito y funciones de la Sociedad",
+      "blocks": [
+        { "p": "Este aviso se refiere a las siguientes personas: las personas que abren y gestionan la cuenta del establecimiento, los usuarios del establecimiento que acceden al panel, las personas de contacto de facturación, los responsables que configuran la conexión con ChatGPT y los visitantes del sitio artofmenu.com. Respecto de estas personas, la Sociedad es responsable del tratamiento." },
+        { "p": "Respecto de los datos de los camareros que el establecimiento introduce en Art of Menu y de los datos de pedidos, sesiones de mesa y uso del menú de los comensales del establecimiento, el responsable del tratamiento es el establecimiento. La Sociedad trata estos datos por cuenta del establecimiento y siguiendo sus instrucciones, en calidad de encargado del tratamiento. Este tratamiento se regula en el [Contrato de Encargo del Tratamiento](doc:dpa). La información dirigida a los comensales figura en la [Información de privacidad para comensales](doc:privacy-guest)." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "3. Datos personales tratados",
+      "blocks": [
+        { "table": {
+          "head": ["Categoría de datos", "Datos"],
+          "rows": [
+            ["Identidad y contacto", "Nombre o nombre del establecimiento introducido en el registro, dirección de correo electrónico, dirección de correo electrónico de contacto de facturación."],
+            ["Cuenta y preferencias", "Función y permisos del usuario, preferencia de idioma, ajustes del panel."],
+            ["Seguridad de las operaciones", "Valor resumen (hash) irreversible de la contraseña, registros de sesión (cookie de sesión, información del navegador, hora de inicio y de último uso de la sesión), registros de auditoría de las operaciones realizadas en el panel, registros de acceso a la cuenta por el personal de soporte de la Sociedad (persona que accede, motivo, duración)."],
+            ["Datos financieros y de facturación", "Razón social de facturación, número de identificación fiscal, oficina tributaria, número de IVA, dirección de facturación, referencia (token) que representa la tarjeta de pago en el proveedor de servicios de pago y datos de visualización de la tarjeta (marca de la tarjeta, últimos cuatro dígitos, fecha de caducidad), facturas, historial de suscripciones y pagos, registros de cobros fallidos."],
+            ["Operaciones con clientes", "Planes y locales seleccionados, motivos de cancelación de la suscripción, solicitudes de soporte y correspondencia."],
+            ["Contenido del establecimiento", "Textos del menú, fotografías de productos, dirección y ubicación del local, horario de apertura. Esta información no suele constituir datos personales; cuando se asocia a una persona, se protege como dato personal."],
+            ["Actuaciones jurídicas", "Registros de aceptación de contratos (usuario y establecimiento que aceptan, documento, versión, idioma, fecha, valor resumen de la dirección IP, información del navegador) y registros de autorización de cobros automáticos."],
+            ["Conexión con ChatGPT", "Si el establecimiento configura una conexión con ChatGPT: el usuario que configura la conexión, los permisos concedidos, los valores resumen de las claves de acceso y los registros de los cambios solicitados a través de la conexión."],
+            ["Visitantes del sitio", "Dirección IP e información del navegador; se tratan de forma instantánea únicamente para servir la página, limitar la frecuencia de solicitudes y prevenir abusos, y no se almacenan en la base de datos."]
+          ]
+        } },
+        { "p": "El número de la tarjeta y el CVV no se almacenan en los sistemas de la Sociedad. Los datos de la tarjeta son tratados directamente por el proveedor de servicios de pago." },
+        { "p": "La Sociedad no solicita a los usuarios de los establecimientos datos personales de categorías especiales." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "4. Finalidades del tratamiento",
+      "blocks": [
+        { "ul": [
+          "abrir la cuenta, autenticar a los usuarios y gestionar sus permisos;",
+          "prestar el servicio Art of Menu: hacer funcionar el menú, los pedidos, las mesas, los camareros, Smart y las demás funcionalidades de los planes;",
+          "iniciar, renovar y cancelar las suscripciones, cobrar los pagos y emitir las facturas;",
+          "garantizar la seguridad de la cuenta, del sistema y de los pagos y prevenir los abusos y los accesos no autorizados;",
+          "responder a las solicitudes de soporte y proporcionar acceso de soporte a petición o con conocimiento del establecimiento;",
+          "enviar las notificaciones obligatorias relativas al servicio (cambios en la cuenta, la seguridad, los pagos, la suscripción y los contratos);",
+          "cumplir las obligaciones tributarias, contables y de registros mercantiles y atender las solicitudes lícitas de las autoridades competentes;",
+          "aplicar los contratos y la Política Corporativa, acreditar la aceptación de los contratos y defender derechos en controversias jurídicas;",
+          "mejorar el servicio; para ello solo se utilizan estadísticas de uso agregadas que no identifican a las personas."
+        ] },
+        { "p": "La Sociedad no envía correos electrónicos de marketing ni comunicaciones comerciales electrónicas. Los correos electrónicos enviados se limitan a notificaciones relativas al uso del servicio." }
+      ]
+    },
+    {
+      "id": "legal-bases",
+      "heading": "5. Bases jurídicas",
+      "blocks": [
+        { "p": "Los datos personales se tratan sobre la base de las siguientes causas de legitimación del art. 5.2 de la KVKK:" },
+        { "ul": [
+          "**(c) Celebración o ejecución de un contrato:** operaciones relativas a la cuenta, la prestación del servicio, la suscripción, los pagos, la facturación y el soporte.",
+          "**(ç) Cumplimiento de una obligación legal:** obligaciones de facturación, registro y conservación derivadas de la Ley de Procedimiento Tributario, el Código de Comercio turco y la normativa conexa; requerimientos de las autoridades competentes.",
+          "**(e) Constitución, ejercicio o defensa de un derecho:** registros de aceptación de contratos, registros de facturas y pagos, registros de auditoría.",
+          "**(f) Interés legítimo:** seguridad de la cuenta y del sistema, prevención de abusos, atención segura de las solicitudes de los visitantes del sitio y mejora del servicio mediante estadísticas agregadas."
+        ] },
+        { "p": "Los tratamientos descritos en este aviso no se basan en el consentimiento expreso. Por ello, no se solicita consentimiento expreso." }
+      ]
+    },
+    {
+      "id": "collection",
+      "heading": "6. Método de recogida",
+      "blocks": [
+        { "p": "Los datos personales se recogen en formato electrónico, por medios automatizados y parcialmente automatizados, a través de los formularios de registro, inicio de sesión, facturación y pago, de las operaciones realizadas en el panel, de los registros de sesión y de seguridad, de los resultados de las operaciones comunicados por el proveedor de servicios de pago, de la correspondencia de soporte y de las visitas al sitio." }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "7. Destinatarios y servicios de terceros",
+      "blocks": [
+        { "p": "Los datos principales de Art of Menu se alojan en la infraestructura de servidores gestionada por la Sociedad. Los servicios de traducción automática, eliminación de fondos y recomendaciones también funcionan en esta infraestructura. Los datos personales no se comparten con terceros con fines de marketing ni se venden. Los siguientes destinatarios y servicios solo reciben los datos indicados:" },
+        { "table": {
+          "head": ["Destinatario o servicio", "Finalidad", "Datos que recibe"],
+          "rows": [
+            ["Proveedor de servicios de pago autorizado con el que trabaja la Sociedad (Turquía)", "Recogida de los datos de la tarjeta, cobro y renovación automática", "Datos de la tarjeta, importe y moneda del pago, datos de facturación"],
+            ["Proveedor del servicio de entrega de correo electrónico (Resend, cuando está configurado)", "Entrega de los correos electrónicos del servicio", "Dirección de correo electrónico del destinatario y contenido del correo"],
+            ["Instituciones y organismos públicos", "Obligaciones tributarias y otras obligaciones legales, solicitudes lícitas", "Los datos que exija la solicitud o la obligación"],
+            ["Asesores jurídicos y financieros, auditores", "Procesos contables, tributarios, de auditoría y de controversias", "Los datos que exija el proceso"],
+            ["OpenAI (ChatGPT), solo si el establecimiento configura la conexión", "Gestión del menú y del establecimiento por el establecimiento a través de ChatGPT", "Información del catálogo y del menú, nombres de los camareros y datos del establecimiento, en el alcance autorizado por el establecimiento"]
+          ]
+        } },
+        { "p": "**Servicios a los que su navegador se conecta directamente desde el panel:** Algunas funcionalidades del panel funcionan mediante solicitudes que su navegador envía directamente a los servicios siguientes. Estos servicios tratan el contenido de la solicitud y la dirección IP de su navegador conforme a sus propias políticas:" },
+        { "ul": [
+          "**Google Translate:** el texto que se va a traducir, para la traducción automática de los textos del menú.",
+          "**OpenStreetMap Nominatim:** el texto de búsqueda o las coordenadas, para la búsqueda de direcciones y la obtención de la dirección a partir de la ubicación.",
+          "**Mapa de OpenStreetMap:** la imagen del mapa en el selector de ubicación.",
+          "**Open-Meteo:** las coordenadas del local, para la información meteorológica.",
+          "**ipwho.is:** la dirección IP, para determinar el país cuando el sistema no puede determinar la región de precios.",
+          "**Frankfurter y open.er-api.com:** la visualización de los tipos de cambio; no se incluyen datos personales en la solicitud, solo se transmite la dirección IP."
+        ] },
+        { "p": "**Servicios a los que se conectan nuestros servidores:** MET Norway (información meteorológica con coordenadas redondeadas del local), OpenStreetMap Nominatim (obtención de la dirección a partir de las coordenadas del local), Nager.Date y OpenHolidays (información sobre festivos oficiales solo con códigos de país y región), el Banco Central de la República de Turquía y el Banco Central Europeo (consultas de tipos de cambio sin datos personales) y Let's Encrypt (certificados de seguridad para dominios personalizados; solo el nombre de dominio). En estas solicitudes no se envían datos personales de los usuarios." }
+      ]
+    },
+    {
+      "id": "transfers-abroad",
+      "heading": "8. Transferencias al extranjero",
+      "blocks": [
+        { "p": "El proveedor del servicio de entrega de correo electrónico Resend y OpenAI tienen su sede en los Estados Unidos de América. Los servidores de los servicios Google Translate, OpenStreetMap, Open-Meteo, ipwho.is, Frankfurter y open.er-api.com, a los que su navegador se conecta directamente desde el panel, también pueden encontrarse fuera de Turquía. Por ello, algunos datos personales (dirección de correo electrónico, contenido del correo, dirección IP, texto que se va a traducir, coordenadas) pueden transferirse al extranjero." },
+        { "p": "Las transferencias al extranjero se realizan conforme a las condiciones del art. 9 de la KVKK. En las transferencias a países respecto de los cuales el Consejo de Protección de Datos Personales no haya adoptado una decisión de adecuación, se recurre a una de las garantías adecuadas enumeradas en el art. 9.4 (p. ej., las cláusulas contractuales tipo publicadas por el Consejo). Cuando no puedan aportarse garantías adecuadas, la transferencia se realiza, siempre que sea ocasional, sobre la base de uno de los supuestos del art. 9.6, en particular que la transferencia sea necesaria para la ejecución del contrato celebrado con usted (art. 9.6.b)." },
+        { "p": "La conexión con ChatGPT es opcional. El establecimiento configura la conexión, determina sus permisos y puede eliminarla en cualquier momento desde el panel. OpenAI trata los datos que recibe a través de la conexión conforme a sus propias condiciones." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "9. Plazo de conservación",
+      "blocks": [
+        { "ul": [
+          "Las sesiones finalizan como máximo a los 30 días, o antes si no se utilizan durante 7 días. Los registros de las sesiones finalizadas se conservan durante un plazo limitado con fines de seguridad.",
+          "Los registros de auditoría se mantienen de forma inalterable y se conservan durante el tiempo necesario por motivos de seguridad y para el cumplimiento de las obligaciones legales.",
+          "Las facturas, los datos de facturación y el historial de suscripciones y pagos se conservan durante los plazos previstos en la normativa aplicable (p. ej., 10 años conforme al art. 82 del Código de Comercio turco y 5 años conforme al art. 253 de la Ley de Procedimiento Tributario).",
+          "Cuando se cierra la cuenta de un establecimiento, la cuenta puede reabrirse en un plazo de 30 días. Al término de este plazo se suprimen los contenidos del menú, las imágenes, las estadísticas, los pedidos, las sesiones de mesa y demás datos del establecimiento, y se anonimizan los datos de los usuarios. Las facturas, los datos de la cuenta de facturación, el historial de suscripciones, los registros de aceptación de contratos y los registros de auditoría se conservan durante los plazos legales de conservación.",
+          "Las estadísticas brutas sobre el uso del menú se suprimen a los 120 días; se conservan los resultados agregados que no identifican a las personas.",
+          "Los registros de aceptación de contratos se conservan durante el plazo de prescripción de los créditos correspondientes."
+        ] },
+        { "p": "Los datos personales cuyo plazo de conservación haya vencido se suprimen, se destruyen o se anonimizan." }
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "10. Seguridad",
+      "blocks": [
+        { "p": "La Sociedad adopta las medidas técnicas y organizativas adecuadas para garantizar la seguridad de los datos personales. Las conexiones están cifradas. Las contraseñas y las claves de sesión solo se almacenan mediante valores resumen irreversibles. Las cookies de sesión no pueden ser leídas por los scripts del navegador y solo se transmiten a través de conexiones seguras. El acceso del personal de la Sociedad al panel del establecimiento con fines de soporte es motivado, temporal y de solo lectura; el establecimiento puede ver cada acceso y ponerle fin. Solo accede a los datos personales el personal que lo necesite para el desempeño de sus funciones." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "11. Sus derechos y solicitudes",
+      "blocks": [
+        { "p": "Conforme al art. 11 de la KVKK, puede dirigirse a la Sociedad para ejercer sus derechos a saber si sus datos personales son objeto de tratamiento; en caso afirmativo, a solicitar información al respecto; a conocer la finalidad del tratamiento y si los datos se utilizan conforme a dicha finalidad; a conocer los terceros a los que se han transferido; a solicitar su rectificación si se han tratado de forma incompleta o inexacta y su supresión o destrucción en el marco del art. 7 de la KVKK; a solicitar que estas operaciones se notifiquen a los terceros destinatarios; a oponerse a que se produzca un resultado desfavorable para usted como consecuencia del análisis de los datos exclusivamente mediante sistemas automatizados, y a solicitar la reparación del daño sufrido como consecuencia de un tratamiento ilícito." },
+        { "p": "Puede presentar su solicitud, conforme al Comunicado sobre los Procedimientos y Principios de las Solicitudes al Responsable del Tratamiento, indicando claramente su identidad y su petición, mediante escrito con firma manuscrita dirigido al domicilio de la Sociedad, mediante correo electrónico enviado a [hello@goktigin.com](mailto:hello@goktigin.com) desde la dirección de correo electrónico registrada en su cuenta de Art of Menu, o mediante una solicitud firmada con firma electrónica segura o firma móvil." },
+        { "p": "La Sociedad resolverá su solicitud de forma gratuita, según su naturaleza, en un plazo máximo de 30 días. Si la gestión implicara un coste adicional, podrá cobrarse la tarifa establecida por el Consejo de Protección de Datos Personales. Si su solicitud es denegada, si considera insuficiente la respuesta o si no se le responde en plazo, podrá presentar una reclamación ante el Consejo de Protección de Datos Personales conforme al art. 14 de la KVKK." },
+        { "p": "Las solicitudes relativas a datos de camareros o comensales deben dirigirse al establecimiento, que es el responsable del tratamiento de dichos datos. Las solicitudes de este tipo que lleguen a la Sociedad se remitirán al establecimiento correspondiente." }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "heading": "12. Información adicional para usuarios en la UE, el EEE y el Reino Unido",
+      "blocks": [
+        { "p": "Si se encuentra en la Unión Europea, el Espacio Económico Europeo o el Reino Unido, al tratamiento de sus datos personales también pueden aplicarse el Reglamento General de Protección de Datos (RGPD) o el RGPD del Reino Unido. En tal caso, el responsable del tratamiento (controller) es la Sociedad." },
+        { "p": "**Bases jurídicas:**" },
+        { "ul": [
+          "Art. 6.1.b) del RGPD: celebración y ejecución del contrato de servicio (cuenta, servicio, suscripción, pagos, facturación y soporte).",
+          "Art. 6.1.c) del RGPD: obligaciones legales aplicables a la Sociedad (obligaciones tributarias, contables y de conservación de registros).",
+          "Art. 6.1.f) del RGPD: intereses legítimos de la Sociedad (seguridad, prevención de abusos, formulación y defensa de reclamaciones, mejora del servicio mediante estadísticas agregadas). Puede solicitar información sobre la ponderación relativa a estos intereses."
+        ] },
+        { "p": "**Transferencias a Turquía y desde Turquía:** Sus datos son recogidos por la Sociedad, establecida en Turquía, y se tratan en Turquía. No existe una decisión de adecuación de la Comisión Europea respecto de Turquía. El tratamiento de sus datos en Turquía es necesario para la ejecución del contrato de servicio celebrado con usted o con el establecimiento al que representa (art. 49.1.b) del RGPD). En las transferencias a los destinatarios indicados en las secciones 7 y 8 se recurre al instrumento adecuado de entre los previstos en el capítulo V del RGPD." },
+        { "p": "**Sus derechos:** Conforme a los arts. 15 a 22 del RGPD, tiene derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad de los datos y oposición al tratamiento basado en el interés legítimo. Puede presentar su solicitud por las vías indicadas en la sección 11. La Sociedad responderá a su solicitud en el plazo máximo de un mes; dicho plazo podrá prorrogarse en la medida prevista en el art. 12.3 del RGPD, y la prórroga se le comunicará." },
+        { "p": "**Derecho a presentar una reclamación:** Puede presentar una reclamación ante la autoridad de control de protección de datos del país en el que tenga su residencia habitual, en el que trabaje o en el que considere que se ha producido la infracción." },
+        { "p": "Si no facilita los datos necesarios para la ejecución del contrato, no podrá abrirse la cuenta ni iniciarse la suscripción. No se toman decisiones automatizadas ni se elaboran perfiles." }
+      ]
+    },
+    {
+      "id": "cookies",
+      "heading": "13. Cookies",
+      "blocks": [
+        { "p": "El panel y el sitio solo utilizan las cookies estrictamente necesarias para el funcionamiento del servicio y el almacenamiento funcional del navegador. No se utilizan cookies analíticas, publicitarias ni de marketing. Los detalles figuran en la [Política de cookies y tecnologías similares](doc:cookies)." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "14. Cambios en este aviso",
+      "blocks": [
+        { "p": "La Sociedad actualizará este aviso cuando se produzcan cambios en sus actividades de tratamiento de datos. El texto actualizado se publica con su fecha de entrada en vigor y su número de versión. Los cambios sustanciales se notifican además a través del panel o por correo electrónico." }
+      ]
+    }
+  ]
+}

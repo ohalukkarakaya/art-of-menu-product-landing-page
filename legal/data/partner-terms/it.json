@@ -1,0 +1,318 @@
+{
+  "key": "partner-terms",
+  "version": "1.0",
+  "locale": "it",
+  "title": "Contratto di Partnership Commerciale",
+  "effective": "2026-11-08",
+  "summary": "Il presente contratto disciplina il rapporto tra Göktigin Bilişim Teknoloji Ltd. Şti. e i partner commerciali che segnalano nuove attività per gli abbonamenti Art of Menu. Illustra l'attività indipendente del partner, le regole sulle segnalazioni, i limiti dei poteri, le modalità di maturazione e pagamento delle provvigioni, i metodi di vendita vietati e la cessazione del contratto. La Politica sui Valori Aziendali, sull'Uso Accettabile e sulla Reputazione del Marchio costituisce allegato vincolante del presente contratto.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Parti e definizioni",
+      "blocks": [
+        { "p": "Il presente contratto è concluso tra **Göktigin Bilişim Teknoloji Limited Şirketi** (Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Turchia; Ufficio delle imposte per le società di Antalya (Antalya Kurumlar Vergi Dairesi), codice fiscale (VKN) 4060725346; [hello@goktigin.com](mailto:hello@goktigin.com)) e la persona fisica o giuridica che si iscrive al programma di partnership commerciale. I dati completi della società sono riportati nella pagina [Società e informazioni legali](doc:company)." },
+        { "p": "I termini utilizzati nel presente contratto hanno il significato indicato di seguito:" },
+        { "ul": [
+          "**Società:** Göktigin Bilişim Teknoloji Ltd. Şti.",
+          "**Art of Menu:** la denominazione commerciale del software per menu digitali e gestione degli ordini di proprietà della Società e da essa gestito.",
+          "**Partner:** la persona fisica o giuridica che aderisce al programma di partnership commerciale accettando il presente contratto.",
+          "**Portale Partner:** l'area online in cui il Partner consulta il proprio account, il profilo, le coordinate bancarie, le segnalazioni, le provvigioni e i pagamenti.",
+          "**Codice Partner:** il codice di segnalazione personale assegnato al Partner, nel formato AOM-XXXXXX.",
+          "**Attività:** il ristorante, il bar o altra attività commerciale analoga che acquista dalla Società un abbonamento Art of Menu.",
+          "**Prima Vendita:** il primo pagamento di un abbonamento a titolo oneroso effettuato alla Società da un'Attività registratasi con il Codice Partner.",
+          "**Incasso Netto:** l'importo effettivamente pervenuto alla Società con la Prima Vendita, al netto dell'imposta sul valore aggiunto e delle altre imposte, nonché della commissione trattenuta dal prestatore di servizi di pagamento su tale pagamento."
+        ] }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Oggetto del contratto",
+      "blocks": [
+        { "p": "Il Partner presenta gli abbonamenti Art of Menu alle attività e le indirizza alla Società tramite il Codice Partner. Il contratto di abbonamento è concluso direttamente tra l'Attività e la Società. Il corrispettivo dell'abbonamento è incassato dalla Società. La Società corrisponde al Partner una provvigione al ricorrere delle condizioni previste dal presente contratto." },
+        { "p": "Il presente contratto non impone al Partner alcun obiettivo di vendita, obbligo di vendita minima o esclusiva. Neppure la Società riconosce al Partner alcuna esclusiva per una determinata zona o categoria di clienti." }
+      ]
+    },
+    {
+      "id": "independence",
+      "heading": "3. Attività indipendente",
+      "blocks": [
+        { "p": "Il Partner svolge la propria attività in modo indipendente, in nome proprio, per conto proprio e con la propria organizzazione. Tra le parti non si instaura alcun rapporto di lavoro subordinato, di agenzia, di concessione di vendita in esclusiva, di distribuzione, di rivendita autorizzata, di società o di società semplice. Il Partner non è dipendente, rappresentante o agente della Società." },
+        { "p": "Il Partner stabilisce autonomamente orari, metodi e strumenti di lavoro, purché nel rispetto del presente contratto e della legge. Sostiene in proprio tutte le spese relative alla propria attività, quali viaggi, comunicazioni, attrezzature, pubblicità e simili. La Società non paga né rimborsa tali spese." },
+        { "p": "Il Partner è responsabile in proprio degli obblighi fiscali, assicurativi e previdenziali derivanti dalla propria attività." }
+      ]
+    },
+    {
+      "id": "joining",
+      "heading": "4. Adesione e account",
+      "blocks": [
+        { "p": "L'adesione al programma partner avviene tramite il Portale Partner. In fase di registrazione sono richiesti nome, cognome, indirizzo e-mail, password e paese. Il Partner verifica il proprio indirizzo e-mail tramite il link inviato a tale indirizzo." },
+        { "p": "Il Codice Partner viene assegnato dopo la verifica dell'indirizzo e-mail e la compilazione completa del profilo e delle coordinate bancarie nel Portale Partner. Il codice è visualizzato nel Portale Partner e inviato all'indirizzo e-mail del Partner." },
+        { "ul": [
+          "Il Partner persona fisica deve aver compiuto 18 anni. Alle persone fisiche sono richiesti data di nascita, cittadinanza, tipo e numero del documento d'identità (numero d'identità della Repubblica di Turchia, passaporto o documento d'identità nazionale), indirizzo e numero di telefono.",
+          "Al Partner persona giuridica sono richiesti ragione sociale, codice fiscale, ufficio delle imposte competente per le società costituite in Turchia, indirizzo e numero di telefono. Il nome e il cognome indicati in fase di registrazione sono quelli della persona che opera per conto della società.",
+          "Il Partner dichiara che i dati forniti sono veritieri, aggiornati e a sé riferiti. Il conto bancario deve essere intestato al Partner o alla società del Partner.",
+          "In caso di variazione dei propri dati, il Partner aggiorna senza ritardo la propria registrazione nel Portale Partner. La Società non risponde dei pagamenti effettuati in ritardo o in modo errato a causa di dati inesatti o incompleti."
+        ] },
+        { "p": "Il Partner mantiene riservati i dati di accesso e la password del proprio account. Il Partner è responsabile delle operazioni effettuate tramite il proprio account. Qualora si accorga di un uso non autorizzato del proprio account, il Partner ne informa immediatamente la Società." },
+        { "p": "La Società ha il diritto di non accettare una domanda di partnership senza indicarne il motivo, nonché di chiudere temporaneamente o definitivamente le nuove iscrizioni di partner." }
+      ]
+    },
+    {
+      "id": "referrals",
+      "heading": "5. Regole sulle segnalazioni",
+      "blocks": [
+        { "p": "Affinché un'Attività sia attribuita al Partner, l'Attività deve aver inserito il Codice Partner in Art of Menu prima del suo primo pagamento. Dopo il primo pagamento il codice non può essere aggiunto e non può essere richiesta successivamente alcuna provvigione per una vendita effettuata senza codice." },
+        { "ul": [
+          "Ogni Attività può essere attribuita a un solo Partner e per ogni Attività la provvigione è corrisposta una sola volta.",
+          "La provvigione è calcolata sull'abbonamento della prima sede indicato nella prima fattura a pagamento dell'Attività. Non sono dovute provvigioni aggiuntive per le altre sedi della stessa Attività, per le sedi aggiunte successivamente, per i passaggi a pacchetti superiori né per i rinnovi.",
+          "Non sono dovute provvigioni per l'attività propria del Partner, per le attività di cui il Partner è socio o che amministra, né per gli account aperti a proprio nome (l'autosegnalazione è vietata).",
+          "Sono vietati gli account di attività che non operano effettivamente o aperti al solo scopo di ottenere provvigioni, gli account duplicati aperti per la stessa Attività e gli account aperti senza autorizzazione a nome di un'altra persona.",
+          "Per stabilire a quale Partner sia attribuita un'Attività fanno fede le registrazioni della Società. La Società si riserva il diritto di correggere errori derivanti dal proprio sistema."
+        ] }
+      ]
+    },
+    {
+      "id": "authority",
+      "heading": "6. Limiti dei poteri",
+      "blocks": [
+        { "p": "Salvo specifica autorizzazione scritta della Società, il Partner non può assumere impegni, concludere contratti, offrire sconti o condizioni particolari né rilasciare dichiarazioni in nome della Società." },
+        { "ul": [
+          "Il Partner descrive i pacchetti, le funzionalità e i prezzi di Art of Menu in modo corretto e conforme alle informazioni aggiornate pubblicate dalla Società. Non presenta come esistente una funzionalità che non esiste.",
+          "Il Partner non riscuote dalle attività, in nome della Società, pagamenti, acconti o altri corrispettivi.",
+          "Il Partner non chiede, non riceve e non conserva i dati delle carte o altri dati di pagamento delle attività, né effettua pagamenti per loro conto. Il pagamento dell'abbonamento è effettuato direttamente dall'Attività tramite il pannello Art of Menu.",
+          "Il Partner non apre account a nome dell'Attività, non accetta il Contratto di Servizio Art of Menu per conto dell'Attività e non utilizza i dati dell'account dell'Attività."
+        ] }
+      ]
+    },
+    {
+      "id": "commission",
+      "heading": "7. Provvigione",
+      "blocks": [
+        { "p": "Per la Prima Vendita di un'Attività registratasi con il proprio Codice Partner, il Partner matura la seguente provvigione:" },
+        { "table": {
+          "head": ["Pacchetto", "Prima vendita con abbonamento mensile", "Prima vendita con abbonamento annuale (vendita in EUR)"],
+          "rows": [
+            ["Menu", "100% dell'Incasso Netto", "15 €"],
+            ["Order", "50% dell'Incasso Netto", "30 €"],
+            ["Smart", "50% dell'Incasso Netto", "100 €"]
+          ]
+        } },
+        { "ul": [
+          "Per gli abbonamenti mensili la provvigione è calcolata sull'Incasso Netto della Prima Vendita. Non si tiene conto dell'imposta sul valore aggiunto e delle altre imposte, né della commissione trattenuta dal prestatore di servizi di pagamento su tale pagamento.",
+          "Per gli abbonamenti annuali la provvigione è un importo fisso, indipendente dall'importo della vendita. Per le vendite in EUR gli importi sono indicati nella tabella che precede. Per le vendite in TRY o USD gli importi fissi in TRY e USD di ciascun pacchetto sono indicati nel Portale Partner.",
+          "Sui rinnovi non è dovuta alcuna provvigione.",
+          "Non è dovuta alcuna provvigione per i periodi gratuiti concessi in omaggio dalla Società né per i periodi per i quali non è stato ricevuto alcun pagamento.",
+          "Le percentuali e gli importi delle provvigioni sono indicati anche nel Portale Partner. A ciascuna vendita si applicano le percentuali e gli importi in vigore alla data in cui la vendita è stata effettuata."
+        ] },
+        { "note": "La provvigione è corrisposta una sola volta e soltanto per il primo pagamento a titolo oneroso dell'Attività. I successivi rinnovi mensili o annuali non danno diritto ad alcuna provvigione." }
+      ]
+    },
+    {
+      "id": "payable",
+      "heading": "8. Maturazione definitiva della provvigione, rimborsi e storni",
+      "blocks": [
+        { "p": "La provvigione è registrata come provvigione in attesa alla data in cui il pagamento dell'Attività perviene alla Società e diventa pagabile 30 giorni dopo tale data. Il periodo di 30 giorni serve a consentire che i rischi di rimborso, storno e annullamento si definiscano." },
+        { "p": "La Società considera nulla la provvigione nei seguenti casi:" },
+        { "ul": [
+          "se all'Attività viene rimborsato in tutto o in parte il pagamento,",
+          "se il pagamento viene stornato dal titolare della carta o dalla sua banca mediante chargeback,",
+          "se l'abbonamento dell'Attività viene annullato durante il periodo di attesa o se il pagamento viene rifiutato dalla banca o dal prestatore di servizi di pagamento,",
+          "se viene accertato che la vendita è fittizia, fraudolenta o ingannevole oppure è stata ottenuta in violazione del presente contratto,",
+          "se i pagamenti al Partner sono stati sospesi ai sensi dell'articolo 11 e la vendita è avvenuta durante tale periodo."
+        ] },
+        { "p": "In caso di rimborso parziale, la provvigione può essere ridotta in proporzione all'importo rimborsato. Se una provvigione considerata nulla è già stata corrisposta al Partner, l'importo pagato è compensato con i pagamenti successivi al Partner. Se il saldo non è sufficiente per la compensazione, la Società può chiedere tale importo al Partner." },
+        { "p": "Lo stato della provvigione (in attesa, pagabile, pagata, nulla) e il motivo per cui è stata considerata nulla sono indicati nel Portale Partner." }
+      ]
+    },
+    {
+      "id": "payment",
+      "heading": "9. Procedura di pagamento",
+      "blocks": [
+        { "p": "Le provvigioni sono registrate in lire turche. Per le vendite effettuate in una valuta diversa dalla TRY, la provvigione è convertita in lire turche al tasso di cambio di vendita della Banca Centrale della Repubblica di Turchia del giorno in cui l'Attività ha effettuato il pagamento. Per le valute per le quali la Banca Centrale non pubblica un tasso si utilizza un cambio incrociato basato sui tassi di riferimento della Banca Centrale Europea." },
+        { "p": "I pagamenti sono effettuati manualmente dalla Società mediante bonifico bancario sul conto bancario del Partner registrato nel Portale Partner. A pagamento effettuato, al Partner viene inviata un'e-mail e il pagamento viene registrato nel Portale Partner." },
+        { "ul": [
+          "I pagamenti su conti bancari in Turchia sono effettuati in lire turche. L'importo minimo di pagamento è di 1.000 TRY.",
+          "I pagamenti su conti bancari all'estero sono effettuati mediante bonifico internazionale. L'importo minimo di pagamento è l'equivalente di 200 EUR o 200 USD.",
+          "Finché il saldo pagabile non raggiunge l'importo minimo non viene effettuato alcun pagamento. Il saldo è riportato ai periodi successivi.",
+          "Gli importi visualizzati nel Portale Partner in valute diverse dalla lira turca sono stime a titolo puramente informativo. L'importo esatto accreditato sul conto del Partner è determinato in base al tasso di cambio applicato dalla banca il giorno del bonifico.",
+          "Per i bonifici all'estero, le spese SWIFT, delle banche corrispondenti e intermediarie diverse dalla banca ordinante, nonché le spese trattenute dalla banca del Partner, sono a carico del Partner.",
+          "Non vengono effettuati pagamenti al Partner il cui profilo o le cui coordinate bancarie siano incompleti o errati. Una volta completati i dati, viene corrisposto il saldo pagabile in sospeso."
+        ] },
+        { "p": "La Società effettua il pagamento entro un termine ragionevole. La Società non risponde dei ritardi imputabili alle banche, ai sistemi di pagamento internazionali o a dati errati forniti dal Partner. Sugli importi delle provvigioni non maturano interessi." }
+      ]
+    },
+    {
+      "id": "taxes",
+      "heading": "10. Imposte e documenti",
+      "blocks": [
+        { "ul": [
+          "Per i Partner persone fisiche, la Società emette al momento del pagamento una ricevuta di spesa (gider pusulası) e applica le ritenute fiscali obbligatorie per legge (compresa la ritenuta alla fonte). Al Partner viene corrisposto l'importo netto dopo le ritenute.",
+          "I Partner persone giuridiche emettono fattura intestata alla Società per la provvigione da corrispondere. Il pagamento è effettuato dopo il ricevimento della fattura da parte della Società.",
+          "Il Partner è responsabile in proprio degli obblighi fiscali, dichiarativi e di registrazione nel proprio paese. La Società non paga le imposte sorte nel paese in cui si trova il Partner.",
+          "La Società effettua le comunicazioni dovute per legge alle autorità competenti."
+        ] }
+      ]
+    },
+    {
+      "id": "suspension",
+      "heading": "11. Sospensione dei pagamenti e sospensione dell'account",
+      "blocks": [
+        { "p": "In presenza di un giusto motivo, quale una violazione del contratto, il sospetto di operazioni fraudolente, dati identificativi o bancari incompleti o incoerenti oppure la richiesta di un'autorità pubblica, la Società può adottare le seguenti misure:" },
+        { "ul": [
+          "**Sospensione dei pagamenti:** le provvigioni in attesa e pagabili del Partner non vengono corrisposte. Le nuove vendite effettuate con il Codice Partner durante tale periodo sono attribuite al Partner ma non danno diritto ad alcuna provvigione.",
+          "**Sospensione:** il Codice Partner non funziona per le nuove vendite.",
+          "**Chiusura dell'account:** il Partner non può accedere al Portale Partner e il contratto cessa ai sensi dell'articolo 18."
+        ] },
+        { "p": "Nei limiti consentiti dalla legge, la Società comunica al Partner via e-mail il motivo della misura. Se all'esito della verifica risulta che non sussiste un giusto motivo, la Società revoca la misura e corrisponde le provvigioni in sospeso secondo il presente contratto." }
+      ]
+    },
+    {
+      "id": "fraud",
+      "heading": "12. Operazioni fraudolente",
+      "blocks": [
+        { "p": "Sono considerate operazioni fraudolente le registrazioni che non si basano su un rapporto reale con un'attività, le operazioni effettuate con dati identificativi e di pagamento falsi o appartenenti a terzi, gli abbonamenti attivati al solo scopo di ottenere provvigioni e poi rimborsati o annullati, nonché la manipolazione del sistema." },
+        { "p": "Quando viene accertata un'operazione fraudolenta, la Società:" },
+        { "ul": [
+          "considera nulle le relative provvigioni,",
+          "compensa gli importi già corrisposti con i pagamenti successivi o li richiede al Partner,",
+          "può risolvere immediatamente il contratto,",
+          "può chiedere il risarcimento del danno subito e, in caso di sospetto reato, rivolgersi alle autorità competenti."
+        ] }
+      ]
+    },
+    {
+      "id": "prohibited",
+      "heading": "13. Metodi di vendita e promozione vietati",
+      "blocks": [
+        { "p": "Il Partner non può utilizzare i seguenti metodi:" },
+        { "ul": [
+          "inviare comunicazioni commerciali tramite e-mail, SMS, messaggistica istantanea o chiamate automatizzate senza il previo consenso del destinatario. In Turchia si applicano la Legge n. 6563 sulla disciplina del commercio elettronico, il Regolamento sulle comunicazioni commerciali e sui messaggi elettronici commerciali e le regole del Sistema di gestione dei messaggi (İleti Yönetim Sistemi, İYS); negli altri paesi si applicano le rispettive norme di quel paese.",
+          "fornire informazioni false, incomplete o ingannevoli su Art of Menu, sui pacchetti, sui prezzi, sulle funzionalità o sulla Società; promettere garanzie, guadagni o risultati.",
+          "presentarsi come dipendente, responsabile, rappresentante o rivenditore ufficiale della Società o rilasciare dichiarazioni che diano l'impressione di provenire dalla Società.",
+          "utilizzare, senza il consenso scritto della Società, il nome Art of Menu o espressioni simili in nomi di dominio, nomi utente sui social media, nomi di applicazioni o parole chiave pubblicitarie.",
+          "acquistare annunci a pagamento o fare offerte sui motori di ricerca e sulle piattaforme pubblicitarie utilizzando il marchio Art of Menu o espressioni simili.",
+          "utilizzare il cookie stuffing, clic fittizi, registrazioni automatizzate o altri metodi tecnici che generano segnalazioni all'insaputa dell'utente.",
+          "indurre le attività a utilizzare il Codice Partner offrendo sconti, rimborsi, omaggi, pagamenti in contanti o altri vantaggi non autorizzati dalla Società; cedere all'Attività una parte della propria provvigione.",
+          "ricorrere a pressioni, minacce, inganni o altri metodi che limitano la libertà decisionale dell'Attività.",
+          "svolgere attività promozionale in contesti e con contenuti illeciti, contrari alla Politica Aziendale o lesivi della reputazione del marchio Art of Menu."
+        ] },
+        { "p": "Le vendite ottenute con metodi contrari a tali divieti non danno diritto ad alcuna provvigione. Il Partner risponde delle sanzioni amministrative pecuniarie e delle pretese di terzi derivanti dalla violazione." }
+      ]
+    },
+    {
+      "id": "brand",
+      "heading": "14. Uso del marchio",
+      "blocks": [
+        { "p": "Il nome, il logo e gli altri elementi del marchio Art of Menu appartengono alla Società. Per la durata del presente contratto e al solo scopo di promuovere Art of Menu, la Società concede al Partner un'autorizzazione d'uso non esclusiva, non trasferibile e non sublicenziabile." },
+        { "ul": [
+          "Il Partner utilizza esclusivamente i materiali promozionali forniti o approvati dalla Società.",
+          "Il Partner non può modificare gli elementi del marchio, combinarli con il proprio marchio né dare l'impressione di avere con la Società un rapporto diverso da quello definito nel presente contratto.",
+          "Il Partner non può registrare né chiedere la registrazione a proprio nome del marchio Art of Menu o di un segno simile.",
+          "L'autorizzazione d'uso cessa automaticamente con la cessazione del contratto. Dalla cessazione, il Partner smette di utilizzare gli elementi del marchio e i materiali promozionali e li rimuove dalle pubblicazioni sotto il proprio controllo."
+        ] }
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "heading": "15. Riservatezza",
+      "blocks": [
+        { "p": "Il Partner mantiene riservate le informazioni non pubbliche di cui viene a conoscenza in ragione del presente contratto. Rientrano in tale ambito le condizioni commerciali della Società, le informazioni riservate ai partner, i dati presenti nel Portale Partner e le informazioni relative alle attività. Il Partner utilizza tali informazioni esclusivamente per le finalità del contratto e non le comunica a terzi." },
+        { "p": "L'obbligo non riguarda le informazioni di pubblico dominio, quelle già lecitamente note al Partner o quelle la cui divulgazione sia obbligatoria su richiesta di un'autorità competente. L'obbligo di riservatezza permane anche dopo la cessazione del contratto." }
+      ]
+    },
+    {
+      "id": "personal-data",
+      "heading": "16. Dati personali",
+      "blocks": [
+        { "p": "La Società tratta i dati personali del Partner nell'ambito dell'[Informativa KVKK per i Partner commerciali](doc:privacy-partner)." },
+        { "p": "Per i dati di attività e di persone che raccoglie autonomamente nel corso della propria attività promozionale (ad es. elenchi di potenziali clienti), il Partner è titolare autonomo del trattamento. Il Partner tratta tali dati in conformità alla Legge n. 6698 sulla protezione dei dati personali (KVKK), ove applicabile al Regolamento generale sulla protezione dei dati dell'Unione europea (GDPR) e alle norme sulla protezione dei dati del paese in cui si trova. Il Partner non trasferisce tali dati alla Società e la Società non ne è responsabile." },
+        { "p": "I dati delle attività mostrati al Partner nel Portale Partner possono essere utilizzati esclusivamente per monitorare le provvigioni. Il Partner non può utilizzare tali dati per altre finalità né comunicarli a terzi." }
+      ]
+    },
+    {
+      "id": "corporate-policy",
+      "heading": "17. Politica Aziendale",
+      "blocks": [
+        { "p": "La [Politica sui Valori Aziendali, sull'Uso Accettabile e sulla Reputazione del Marchio](doc:corporate-policy) costituisce allegato vincolante del presente contratto. Accettando il presente contratto, il Partner accetta anche la politica." },
+        { "p": "La politica si applica ai comportamenti del Partner su Art of Menu e ai suoi comportamenti al di fuori della piattaforma. La cittadinanza, la nazionalità, il paese di residenza o il paese in cui il Partner opera non comportano alcuna esenzione dalla politica. In caso di violazione della politica, la Società può risolvere immediatamente il contratto ai sensi dell'articolo 18." }
+      ]
+    },
+    {
+      "id": "termination",
+      "heading": "18. Durata e recesso",
+      "blocks": [
+        { "p": "Il contratto entra in vigore con l'accettazione da parte del Partner in fase di registrazione e prosegue a tempo indeterminato." },
+        { "ul": [
+          "Ciascuna parte può recedere dal contratto in qualsiasi momento mediante comunicazione via e-mail all'altra parte. Il recesso ha effetto 7 giorni dopo che la comunicazione è pervenuta all'altra parte.",
+          "La Società può risolvere il contratto con effetto immediato mediante comunicazione qualora il Partner violi il presente contratto o la Politica Aziendale, compia operazioni fraudolente, fornisca dati identificativi o bancari falsi o tenga una condotta tale da arrecare un grave danno alla reputazione della Società."
+        ] },
+        { "p": "La cessazione comporta le seguenti conseguenze:" },
+        { "ul": [
+          "Il Codice Partner non funziona per le nuove vendite. Le vendite effettuate dopo la data di cessazione non danno diritto ad alcuna provvigione.",
+          "Le provvigioni maturate per le Prime Vendite effettuate prima della data di cessazione sono corrisposte secondo le condizioni del presente contratto, fatti salvi i casi di nullità di cui all'articolo 8.",
+          "Se il contratto è risolto per violazione della Politica Aziendale o per operazioni fraudolente, la Società può, nella misura consentita dalla legge, non corrispondere le provvigioni in attesa e pagabili e compensarle con i propri danni.",
+          "Il Partner smette di utilizzare gli elementi del marchio e continua a rispettare l'obbligo di riservatezza.",
+          "L'accesso al Portale Partner può essere mantenuto per un periodo stabilito dalla Società, al solo scopo di consultare le registrazioni."
+        ] }
+      ]
+    },
+    {
+      "id": "programme-changes",
+      "heading": "19. Modifica o chiusura del programma",
+      "blocks": [
+        { "p": "La Società può chiudere le nuove iscrizioni di partner, modificare per il futuro le percentuali e gli importi delle provvigioni, le condizioni di pagamento e le regole del programma oppure porre fine al programma. La Società comunica tali modifiche al Partner via e-mail e nel Portale Partner almeno 30 giorni prima della loro entrata in vigore." },
+        { "p": "Le modifiche non incidono sulle provvigioni maturate per le Prime Vendite effettuate prima della data di entrata in vigore. In caso di cessazione del programma, tali provvigioni sono corrisposte secondo le condizioni del contratto." }
+      ]
+    },
+    {
+      "id": "amendments",
+      "heading": "20. Modifiche del contratto",
+      "blocks": [
+        { "p": "La Società può modificare il presente contratto. La nuova versione è pubblicata con la data di entrata in vigore e il numero di versione. Le versioni precedenti sono conservate e viene registrata la versione accettata dal Partner." },
+        { "ul": [
+          "Le correzioni di refusi, le modifiche di chiarimento e le modifiche che non restringono i diritti del Partner entrano in vigore dopo essere state comunicate al Partner. La prosecuzione della partecipazione al programma da parte del Partner dopo tale data vale come accettazione di tali modifiche.",
+          "Le modifiche che incidono in modo sostanziale sui diritti o sugli obblighi del Partner richiedono che il Partner accetti espressamente la nuova versione nel Portale Partner. Se il Partner non la accetta, può recedere dal contratto ai sensi dell'articolo 18. Finché la nuova versione non è accettata, la Società può sospendere l'utilizzo del Codice Partner per le nuove vendite."
+        ] }
+      ]
+    },
+    {
+      "id": "liability",
+      "heading": "21. Responsabilità",
+      "blocks": [
+        { "p": "Il Partner risponde dei danni derivanti da proprie condotte contrarie al presente contratto, alla Politica Aziendale o alla legge, nonché delle pretese avanzate per tale motivo da terzi nei confronti della Società. Il Partner rimborsa alla Società gli importi che questa sia stata tenuta a pagare per tale motivo e le ragionevoli spese di difesa." },
+        { "p": "Salvo i casi di dolo e colpa grave e i casi in cui norme imperative non consentano limitazioni, la responsabilità della Società derivante dal presente contratto è limitata al totale delle provvigioni corrisposte al Partner nei 12 mesi precedenti l'evento che ha causato il danno. La Società non risponde dei danni indiretti né del lucro cessante." },
+        { "p": "La Società non garantisce che il servizio Art of Menu funzioni senza interruzioni né che un'attività acquisterà un abbonamento." }
+      ]
+    },
+    {
+      "id": "law",
+      "heading": "22. Legge applicabile e foro competente",
+      "blocks": [
+        { "p": "Il presente contratto è regolato dalla legge della Repubblica di Turchia. Per le controversie derivanti dal contratto sono competenti i tribunali e gli uffici esecutivi di Antalya." },
+        { "p": "Restano salve le disposizioni imperative di tutela del paese in cui si trova il Partner che non possono essere escluse per contratto." }
+      ]
+    },
+    {
+      "id": "notices",
+      "heading": "23. Comunicazioni",
+      "blocks": [
+        { "p": "La Società effettua le comunicazioni al Partner all'indirizzo e-mail registrato del Partner o tramite il Portale Partner. La comunicazione via e-mail si considera pervenuta al Partner nel momento dell'invio. Il Partner è tenuto a mantenere aggiornato il proprio indirizzo e-mail." },
+        { "p": "Il Partner invia le comunicazioni alla Società all'indirizzo [hello@goktigin.com](mailto:hello@goktigin.com) dal proprio indirizzo e-mail registrato oppure per iscritto all'indirizzo della Società." }
+      ]
+    },
+    {
+      "id": "general",
+      "heading": "24. Disposizioni varie",
+      "blocks": [
+        { "ul": [
+          "Il presente contratto e i suoi allegati costituiscono l'intero accordo tra le parti relativamente al suo oggetto.",
+          "L'invalidità di una disposizione del contratto non pregiudica la validità delle altre disposizioni.",
+          "Il Partner non può cedere a terzi i diritti e gli obblighi derivanti dal presente contratto senza il consenso scritto della Società.",
+          "Le registrazioni della Società (registrazioni del Portale Partner, registrazioni di pagamento e bancarie, registrazioni di accettazione del contratto) possono essere utilizzate come prova nelle controversie fino a prova contraria.",
+          "Il contratto è pubblicato in più lingue, tra cui il turco. In caso di divergenza tra i testi, prevale il testo turco."
+        ] }
+      ]
+    }
+  ],
+  "annexes": ["corporate-policy"]
+}

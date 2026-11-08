@@ -1,0 +1,215 @@
+{
+  "key": "business-terms",
+  "version": "1.0",
+  "locale": "en",
+  "title": "Art of Menu Business Service Agreement",
+  "effective": "2026-11-08",
+  "summary": "This agreement applies to businesses that use the digital menu and order management software provided by Göktigin Bilişim Teknoloji Ltd. Şti. under the name Art of Menu. It sets out the scope of the service, the parties' responsibilities and the terms for subscription, payment, automatic renewal and cancellation. The Data Processing Agreement and the Corporate Values, Acceptable Use and Brand Reputation Policy are binding annexes to this agreement.",
+  "sections": [
+    { "id": "parties", "heading": "1. Parties", "blocks": [
+      { "p": "This agreement (the “Agreement”) is entered into between **Göktigin Bilişim Teknoloji Limited Şirketi** (the “Company”), located at Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye and registered with the Antalya Corporate Tax Office under tax identification number 4060725346, and the business that creates an Art of Menu account (the “Customer”)." },
+      { "p": "Art of Menu is the trade name of the Company's software product and has no separate legal personality. The Company is the provider of the service and the seller of the subscriptions. Further details about the Company are set out on the [Company and Legal Information](doc:company) page." },
+      { "p": "The person who accepts the Agreement electronically at registration declares that they are acting on behalf of the Customer and are authorised to bind the Customer to this Agreement. If the accepting person is not authorised, the provisions of the Turkish Code of Obligations on unauthorised representation apply." }
+    ]},
+    { "id": "definitions", "heading": "2. Definitions", "blocks": [
+      { "ul": [
+        "**Service:** the business panel, guest menu, waiter screen and related software functions provided under the name Art of Menu.",
+        "**Panel:** the online administration screen through which the Customer manages the Service.",
+        "**Branch:** each point of sale defined by the Customer in the Panel.",
+        "**User:** the account holder and the employees to whom the Customer grants access to the Panel.",
+        "**Waiter:** an employee defined by the Customer in the Panel who uses the waiter screen through a personal link or QR code.",
+        "**Guest:** a person who views the menu or places an order at the Customer's establishment. Guests do not register with Art of Menu and do not enter into a contractual relationship with the Company.",
+        "**Content:** the menu texts, product information, prices, photographs, logos and other data that the Customer uploads to the Service or creates through it.",
+        "**Subscription Period:** the monthly or annual service period selected for a branch and charged in advance."
+      ]}
+    ]},
+    { "id": "subject", "heading": "3. Subject of the Agreement and the Customer's Responsibility towards Its Guests", "blocks": [
+      { "p": "The subject of the Agreement is the Company's provision of its digital menu and order management software to the Customer on a subscription basis, and the parties' rights and obligations in that connection." },
+      { "p": "The Company is a software provider. It is not the seller of the food, drinks and other products that the Customer offers to its guests and is not a party to the sales relationship between the Customer and its guests. Guests do not make payments through the Service. The request-the-bill function only sends a notification to the waiter; taking payment is the Customer's responsibility." },
+      { "p": "The Customer is solely responsible towards its guests for the following:" },
+      { "ul": [
+        "the accuracy of the products, portions, ingredients and prices on the menu;",
+        "the accuracy and completeness of allergen, ingredient, vegan, halal and similar information;",
+        "compliance with legal rules on the sale of age-restricted products such as alcoholic drinks and tobacco products;",
+        "compliance with pricing legislation, including the rules on displaying and labelling prices;",
+        "compliance with legislation on consumer protection, food safety and hygiene;",
+        "issuing receipts or invoices to guests and fulfilling tax obligations;",
+        "preparing, delivering and cancelling orders and resolving guest complaints."
+      ]}
+    ]},
+    { "id": "account", "heading": "4. Account, Users and Waiters", "blocks": [
+      { "p": "The Customer keeps its registration and billing details accurate and up to date. The User who opens the account is the account holder and has all permissions. The Customer determines what actions other Users can take using the role and permission settings provided in the Panel. Actions taken in the Service by Users and Waiters are attributed to the Customer." },
+      { "p": "Waiters log in without an e-mail address or password, using a personal link or QR code created by the Customer in the Panel. Anyone who has this link can access the waiter screen concerned. The Customer gives the link only to the employee concerned and immediately removes from the Panel the access of any Waiter who leaves or loses their link." },
+      { "p": "The Customer is responsible for keeping User passwords confidential and for the security of the devices it uses to access the Service. The Customer reports any suspected unauthorised use to [hello@goktigin.com](mailto:hello@goktigin.com) without delay." }
+    ]},
+    { "id": "plans", "heading": "5. Plans", "blocks": [
+      { "p": "The Service is offered in the Menu, Order and Smart plans. A plan is selected separately for each branch, and the plan's features can be used only at that branch." },
+      { "p": "The **Menu** plan includes:" },
+      { "ul": [
+        "a digital QR menu with one QR code and one menu link per branch;",
+        "a multilingual menu with automatic translation support;",
+        "publication of the menu on a domain name owned by the Customer;",
+        "customisation of the PDF menu and the appearance of the QR code;",
+        "category, product, set menu and portion definitions;",
+        "allergen, vegan, halal and age restriction labels;",
+        "marking products as sold out and displaying opening hours."
+      ]},
+      { "p": "The **Order** plan includes, in addition to the Menu plan:" },
+      { "ul": [
+        "table management and table sessions: the guest selects their table, a new session is opened at a free table, and an occupied table's session is joined with a 6-digit session code or an invitation link;",
+        "a shared basket for guests at the same table and transmission of orders to waiters;",
+        "notifications for calling a waiter, requesting water and requesting the bill;",
+        "the waiter screen: Waiters are defined by first name, last name, gender and branch;",
+        "delivery records and cancellation of ordered products."
+      ]},
+      { "p": "The **Smart** plan includes, in addition to the Order plan:" },
+      { "ul": [
+        "dynamic pricing as described in section 6;",
+        "smart ordering of the menu and recommendations of products likely to be chosen together;",
+        "product targeting settings based on weather, temperature and target age range;",
+        "stock and recipe management, with sold products automatically deducted from stock;",
+        "sales reports."
+      ]},
+      { "p": "The Company may add new features to the plans and improve existing features. The removal or narrowing of a material feature of a plan is subject to the notification procedure in the [Amendments to the Agreement](doc:business-terms#changes) section." }
+    ]},
+    { "id": "smart-pricing", "heading": "6. Smart Dynamic Pricing", "blocks": [
+      { "p": "Dynamic pricing calculates product prices daily between the minimum and maximum price set by the Customer for each product. The Customer chooses one of the following modes:" },
+      { "ul": [
+        "**Automatic:** the calculated price is applied within the set range without the Customer's further approval.",
+        "**With approval:** the calculated price is presented as a suggestion and is applied once the Customer approves it.",
+        "**Off:** prices remain as entered by the Customer."
+      ]},
+      { "p": "The price of a product included in an order is fixed at the time of the order; subsequent price changes do not affect orders already placed." },
+      { "p": "Dynamic pricing is a decision-support tool; it does not guarantee any increase in sales, profit or demand. The Customer chooses the price range and the mode and is responsible for the prices shown to guests. The Customer complies with the requirements to display prices clearly to guests before they order, to keep up to date the price lists that must be kept at the establishment, and with other legal rules on price changes. If these rules restrict the use of dynamic pricing, the Customer adjusts or switches off the function accordingly." }
+    ]},
+    { "id": "content", "heading": "7. Content", "blocks": [
+      { "p": "The Customer is responsible for the accuracy and lawfulness of the Content and for holding the necessary rights to the photographs, logos, trade marks and texts used in it. The rights to the Content remain with the Customer." },
+      { "p": "The Customer grants the Company a free, non-transferable and non-exclusive licence, solely for the purpose of providing the Service and for the term of the Agreement, to host, reproduce, translate and format the Content and to publish it in the guest menu or in integrations set up by the Customer. The Company does not use the Content in its own promotion without the Customer's separate permission." },
+      { "p": "Menu texts may be translated automatically by the translation engine running on the Company's servers or by the Google Translate service used through the browser in the Panel. Automatic translations may be inaccurate or incomplete. The Customer checks translations, and in particular allergen and ingredient information, before publishing them and corrects them where necessary." },
+      { "p": "The background of product photographs may be removed automatically by a model running on the Company's servers. The Customer checks whether the result is suitable." },
+      { "p": "If the Company obtains concrete information that Content is contrary to the law or to the [Corporate Policy](doc:corporate-policy), it may remove that Content or block access to it, and informs the Customer. Notices of unlawful content may be sent to [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "usage-rules", "heading": "8. Rules of Use", "blocks": [
+      { "p": "The Customer and Users use the Service in accordance with the law and this Agreement. In particular, the following are prohibited:" },
+      { "ul": [
+        "attempting to circumvent or compromise the security of the Service or to access other accounts;",
+        "copying the software, reverse engineering it or attempting to obtain its source code;",
+        "loading the Service or extracting data from it with automated tools beyond normal use;",
+        "renting or reselling the Service to third parties without the Company's written permission;",
+        "distributing malicious software or unlawful content."
+      ]},
+      { "p": "With respect to its business and managers, the Customer also complies with the [Corporate Values, Acceptable Use and Brand Reputation Policy](doc:corporate-policy), which is an annex to this Agreement." }
+    ]},
+    { "id": "integrations", "heading": "9. ChatGPT Integration", "blocks": [
+      { "p": "The Customer may optionally connect its account to ChatGPT. The connection is set up by an authorised User of the Customer and can be removed from the Panel at any time. Once connected, ChatGPT can read the Customer's product catalogue, menu information and employee names. Changes requested through ChatGPT are not applied until the Customer approves them in the Panel." },
+      { "p": "The ChatGPT service is provided by OpenAI, and OpenAI's terms apply to its use. The Company is not responsible for the accuracy of responses generated by ChatGPT." }
+    ]},
+    { "id": "availability", "heading": "10. Provision of the Service, Maintenance and Interruptions", "blocks": [
+      { "p": "The Company provides the Service on server infrastructure it manages, with reasonable care and professional diligence. No commitment is made that the Service will operate without interruption or error, or at any particular availability rate." },
+      { "p": "The Company carries out planned maintenance, as far as possible, at times when businesses are not busy and tries to announce it in advance. In the event of a security vulnerability or serious fault, it may intervene without prior notice." },
+      { "p": "The Service depends on internet connectivity, the domain name system (DNS), the Customer's custom domain settings, browsers and third-party services such as maps, weather, exchange rates, e-mail delivery and payments. The Company is not responsible for disruptions in these services." },
+      { "p": "The Company's affected obligations are suspended for the duration of events beyond its control, such as natural disasters, epidemics, war, terrorism, fire, widespread power or internet outages, cyber attacks that could not be prevented despite reasonable measures, and decisions of public authorities. If such a situation lasts longer than 60 days, either party may terminate the Agreement." },
+      { "p": "So that its establishment can continue to operate when the Service is unavailable, the Customer keeps alternative means in place, such as a printed price list, which may also be required by law." }
+    ]},
+    { "id": "security", "heading": "11. Security and Support Access", "blocks": [
+      { "p": "The Company takes reasonable technical and organisational measures to keep the Service and data secure. These measures are described in the [Data Processing Agreement](doc:dpa#security)." },
+      { "p": "Company employees enter the Customer's account for support purposes only through time-limited access that is visible in the Panel. Such access is logged." }
+    ]},
+    { "id": "data-protection", "heading": "12. Personal Data Protection", "blocks": [
+      { "p": "The Company is the data controller for Users' account, session and billing information. The processing of this data is described in the [KVKK Privacy Notice and Privacy Statement for Business Users](doc:privacy-business)." },
+      { "p": "For guests' table session, order, call and menu usage data, and for the data of Waiters and other employees entered into the Service by the Customer, the Customer is the data controller and the Company is the processor. This processing is subject to the [Data Processing Agreement](doc:dpa), which is an annex to the Agreement." },
+      { "p": "The Customer fulfils the obligation to inform its guests and employees. By completing the guest privacy information field in the Panel, the Customer can have its identity and contact details shown on the guest privacy page. The technologies used in the guest menu are described in the [Cookie and Similar Technologies Policy](doc:cookies)." }
+    ]},
+    { "id": "subscription", "heading": "13. Subscription, Fees and Payment", "blocks": [
+      { "p": "**Fees per branch.** Fees are calculated separately for each branch according to the plan and period selected. All branches belonging to the same legal entity are grouped in a single billing account with a common billing period. A single invoice is issued for each period, with a separate line for each branch." },
+      { "p": "**Prices.** The annual fee is 10 times the monthly fee. The list prices per branch on the effective date of this Agreement are as follows:" },
+      { "table": {
+        "head": ["Plan", "Period", "Türkiye (TRY, VAT included)", "Europe (EUR, excluding taxes)", "Other countries (USD, excluding taxes)"],
+        "rows": [
+          ["Menu", "Monthly", "TRY 399", "€9", "$12"],
+          ["Menu", "Annual", "TRY 3,990", "€90", "$120"],
+          ["Order", "Monthly", "TRY 999", "€29", "$35"],
+          ["Order", "Annual", "TRY 9,990", "€290", "$350"],
+          ["Smart", "Monthly", "TRY 1,999", "€59", "$69"],
+          ["Smart", "Annual", "TRY 19,990", "€590", "$690"]
+        ]
+      }},
+      { "p": "**Currency and taxes.** The currency is determined by the Customer's country and shown on the payment screen. Prices for Türkiye include 20% VAT. Prices for Europe are net; any applicable value added tax is shown separately on the payment screen. For Customers who provide a valid VAT identification number, the tax is accounted for by the Customer (reverse charge) where the legislation so provides. Prices for other countries are net; any sales tax or similar tax applicable in the Customer's country is shown on the payment screen or paid by the Customer. Exchange rate differences and fees charged by the card-issuing bank are borne by the Customer." },
+      { "p": "**There is no free trial.** The fee for the first Subscription Period is charged when the subscription is started. If the first charge fails, the subscription does not start." },
+      { "p": "**Automatic renewal and payment authorisation.** The subscription renews automatically for the same duration until it is cancelled. By giving separate consent when starting the subscription, the Customer authorises the Company to charge its registered card, at the start of each new Subscription Period, the fee and taxes for that period, through the licensed payment service provider used by the Company, without obtaining separate approval each time. This authorisation ends for subsequent periods when the subscription is cancelled or the account is closed." },
+      { "p": "**Plan changes and new branches.** An upgrade to a higher plan or the addition of a new branch during a period takes effect immediately; the fee difference, prorated by the number of remaining days, is added to the next invoice. A downgrade to a lower plan takes effect at the end of the current period, and no refund is therefore made." },
+      { "p": "**Failed payments.** If the renewal fee cannot be collected, the following process applies. Days are counted from the renewal date:" },
+      { "ul": [
+        "Days 0–6 (overdue): the full Service continues to work and the Customer is notified.",
+        "The charge is retried on days 1, 3, 5 and 7, and then every three days.",
+        "From day 7 (restricted use): only the basic menu remains published, at base prices; paid plan features cannot be used.",
+        "From day 30 (suspension): the guest menu shows that the menu is temporarily unavailable.",
+        "When payment is made, the Service is reopened according to the plan paid for. No data is deleted during this process."
+      ]},
+      { "p": "If the suspension continues, the Company may terminate the Agreement by notice sent by e-mail. In that case, the account closure provisions in the [Suspension and Termination](doc:business-terms#termination) section apply." },
+      { "p": "**Cancellation.** The Customer may cancel its subscription from the Panel at any time. Cancellation takes effect at the end of the paid period; the Service can be used until that date, and the cancellation can be reversed. A short reason for cancellation is requested at the time of cancellation." },
+      { "p": "**Refunds.** The fee for a Subscription Period that has started is not refunded, including for the remaining time. Cases in which mandatory law requires a refund and cases in which the Company decides to make a refund remain unaffected. If the Company ends the Agreement without fault on the part of the Customer, it refunds the fee for the paid and unused period." },
+      { "p": "**Price changes.** The Company may change its list prices. The new price is notified to the Customer by e-mail and through the Panel at least 30 days in advance and applies from the first renewal after the notice. A Customer that does not accept the new price may cancel its subscription before the renewal date. The fee for a period that has started is not changed during that period. Changes in tax rates apply from their effective dates." },
+      { "p": "**Invoices.** Invoices are issued by the Company on the basis of the billing details provided by the Customer in the Panel and are made available electronically. The Customer is responsible for the accuracy of its billing details." },
+      { "p": "**Payment infrastructure and card details.** Payments are taken through the infrastructure of the licensed payment service provider used by the Company, and the Company is the party receiving the payment. The card number and security code (CVV) are not stored in the Company's systems. The Company stores only the card reference provided by the payment service provider and the card brand, last four digits and expiry date used to identify the card." },
+      { "p": "**Gift periods.** The Company may, at its discretion, grant a branch free use of a plan for a certain period. No fee is charged for gift periods; these periods are not eligible for refunds or cash payments. A gift period does not automatically convert into a paid subscription." },
+      { "p": "No renewal fee is charged for accounts that have been blocked or closed by the Company." }
+    ]},
+    { "id": "termination", "heading": "14. Suspension and Termination", "blocks": [
+      { "p": "The Agreement is concluded for an indefinite term. The Customer may end the Agreement at any time by cancelling its subscription from the Panel or by closing its account through the account holder. When the account is closed, the Service ends and the fee for the period that has started is not refunded." },
+      { "p": "The Company may suspend the Service or terminate the Agreement in the following cases:" },
+      { "ul": [
+        "in the event of a breach of the [Corporate Policy](doc:corporate-policy): immediately, with notice;",
+        "in the event of non-payment: in accordance with the process in the [Subscription](doc:business-terms#subscription) section;",
+        "in the event of other material breaches: the Company notifies the breach in writing and may terminate if the breach is not remedied within 7 days; in the case of breaches that endanger the security of the Service, guests or third parties, the Service may be suspended immediately;",
+        "where a decision of a competent authority or the legislation prevents the Service from being provided."
+      ]},
+      { "p": "The Company may also terminate the Agreement without giving reasons, provided that it gives at least 90 days' notice and refunds the fee for the paid and unused period." },
+      { "p": "**Consequences of account closure.** A closed account can be reopened within 30 days. When this period expires, menu and product information, images, analytics data, orders, table sessions and other business data are deleted, and User details are anonymised. Invoices, billing account details, subscription history, transaction records and agreement acceptance records are retained for the periods required by the Tax Procedure Law and the Turkish Commercial Code. The Customer saves any information it needs itself before closing its account." },
+      { "p": "Payment obligations and the provisions on liability, evidence, governing law and jurisdiction continue to apply after the Agreement ends." }
+    ]},
+    { "id": "commercial-nature", "heading": "15. Commercial Nature", "blocks": [
+      { "p": "The Customer acquires the Service for its commercial or professional activities and does not act as a consumer under this Agreement. Accordingly, the right of withdrawal under Law No. 6502 on Consumer Protection and the Regulation on Distance Contracts, and the rights of withdrawal granted to consumers in other countries, do not apply to this Agreement. The mandatory rules applicable to commercial transactions in the Customer's country remain unaffected." }
+    ]},
+    { "id": "liability", "heading": "16. Liability", "blocks": [
+      { "p": "The Company is liable for direct losses arising from breach of this Agreement. It is not liable for loss of profit, loss of turnover, loss of reputation or other indirect losses, or for claims arising from the relationship between the Customer and its guests." },
+      { "p": "The Company's total liability is limited to the total subscription fees paid by the Customer to the Company in the 12 months preceding the event giving rise to the loss." },
+      { "p": "The limitations in this section do not apply in cases of intent or gross negligence (Article 115 of the Turkish Code of Obligations). Other cases in which mandatory law prohibits the limitation of liability also remain unaffected." },
+      { "p": "The Customer indemnifies the Company for the loss it suffers as a result of claims brought against the Company by third parties, and administrative fines imposed on the Company, in connection with the Content, the products the Customer sells, its prices, its relationship with its guests or its breach of this Agreement." }
+    ]},
+    { "id": "intellectual-property", "heading": "17. Intellectual Property", "blocks": [
+      { "p": "All rights in the software, design and templates of the Service and in the Art of Menu brand belong to the Company. The Customer is granted a non-exclusive and non-transferable right to use the Service for the term of the Agreement. The Company may use the Customer's suggestions concerning the Service without incurring any obligation to the Customer." }
+    ]},
+    { "id": "changes", "heading": "18. Amendments to the Agreement", "blocks": [
+      { "p": "The Company may amend this Agreement and its annexes. Amendments are notified by e-mail and through the Panel at least 30 days before their effective date. A shorter period may apply where required by law or for security reasons." },
+      { "p": "Amendments that materially affect the Customer's rights and obligations apply once the Customer accepts the new text in the Panel. Other amendments apply from their effective date. A Customer that does not accept an amendment may cancel its subscription or close its account before the effective date." }
+    ]},
+    { "id": "notices", "heading": "19. Notices", "blocks": [
+      { "p": "The Company sends notices to the Customer at the account holder's registered e-mail address or through the Panel. A notice sent by e-mail is deemed given on the date it is sent. The Customer keeps its e-mail address up to date." },
+      { "p": "The Customer sends notices to the Company at [hello@goktigin.com](mailto:hello@goktigin.com) or at the Company's address stated in section 1." }
+    ]},
+    { "id": "evidence", "heading": "20. Evidence", "blocks": [
+      { "p": "The parties agree that, in disputes arising from this Agreement, the Company's electronic records, server and system logs and agreement acceptance records may be used as evidence under Article 193 of the Code of Civil Procedure No. 6100. This provision does not remove the Customer's right to submit evidence to the contrary." }
+    ]},
+    { "id": "governing-law", "heading": "21. Governing Law and Jurisdiction", "blocks": [
+      { "p": "This Agreement is governed by the laws of the Republic of Türkiye. The Courts and Enforcement Offices of Antalya have jurisdiction over disputes arising from the Agreement. The mandatory rules of the Customer's country on this matter remain unaffected." }
+    ]},
+    { "id": "final", "heading": "22. Final Provisions", "blocks": [
+      { "ul": [
+        "The Customer may not assign its rights and obligations under this Agreement to third parties without the Company's written consent. In the event of a merger, demerger or transfer of business, the Company may assign the Agreement to its successor by notifying the Customer.",
+        "If any provision of the Agreement is invalid, the validity of the remaining provisions is not affected.",
+        "The Agreement and its annexes constitute the entire agreement between the parties.",
+        "The Turkish text of the Agreement is authoritative. Texts in other languages are provided for information; in the event of a conflict, the Turkish text applies.",
+        "The Agreement enters into force when the Customer accepts it electronically at registration."
+      ]}
+    ]},
+    { "id": "annexes", "heading": "23. Annexes", "blocks": [
+      { "p": "The following documents are binding annexes to this Agreement and are deemed accepted together with it:" },
+      { "ol": [
+        "Annex 1: [Data Processing Agreement](doc:dpa)",
+        "Annex 2: [Corporate Values, Acceptable Use and Brand Reputation Policy](doc:corporate-policy)"
+      ]}
+    ]}
+  ],
+  "annexes": ["dpa", "corporate-policy"]
+}

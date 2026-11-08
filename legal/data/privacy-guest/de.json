@@ -1,0 +1,89 @@
+{
+  "key": "privacy-guest",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Datenschutzhinweise für Gäste",
+  "effective": "2026-11-08",
+  "summary": "Dieser Text erläutert, welche Informationen verarbeitet werden, wenn Sie die QR-Speisekarte eines Restaurants nutzen. Um die Speisekarte zu nutzen, müssen Sie weder ein Konto anlegen noch Ihren Namen, Ihre E-Mail-Adresse oder Ihre Telefonnummer angeben. Die Software der Speisekarte ist Art of Menu; Speisekarte und Bestellungen verwaltet jedoch das Restaurant.",
+  "sections": [
+    {
+      "id": "restaurant",
+      "heading": "1. Verantwortlicher: das Restaurant",
+      "blocks": [
+        { "p": "Verantwortlicher für die Informationen, die bei der Nutzung der Speisekarte verarbeitet werden, ist das Restaurant, dessen Angaben im oberen Bereich dieser Seite angezeigt werden. Das Restaurant verwaltet seine Speisekarte, seine Bestellungen und seine Tischordnung selbst und bereitet Ihre Bestellungen selbst zu und verkauft sie." },
+        { "p": "Werden die Kontaktdaten des Restaurants nicht oder nur unvollständig angezeigt, können Sie die Mitarbeiter des Restaurants danach fragen." }
+      ]
+    },
+    {
+      "id": "provider",
+      "heading": "2. Die Rolle von Art of Menu",
+      "blocks": [
+        { "p": "Art of Menu ist eine Software für digitale Speisekarten und Bestellverwaltung, die die Göktigin Bilişim Teknoloji Ltd. Şti. (das Unternehmen) Restaurants zur Verfügung stellt. Das Unternehmen verarbeitet die Informationen zur Nutzung der Speisekarte im Auftrag und nach Weisung des Restaurants als Auftragsverarbeiter. Das Unternehmen verwendet diese Informationen nicht für eigene Zwecke und verkauft sie nicht." },
+        { "p": "Lediglich für die technischen Protokolle, die es zur Sicherheit des Speisekartendienstes führt, ist das Unternehmen zusätzlich selbst Verantwortlicher. Die Angaben zum Unternehmen finden Sie auf der Seite [Unternehmen und rechtliche Angaben](doc:company)." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "3. Verarbeitete Informationen",
+      "blocks": [
+        { "ul": [
+          "**Tischsitzung:** Der von Ihnen gewählte Tisch, der am Tisch geteilte Warenkorb und der 6-stellige Sitzungscode, mit dem man dem Tisch beitritt. Geräte, die dem Tisch beitreten, werden anhand eines zufälligen Schlüssels erkannt, von dem nur der Hashwert gespeichert wird.",
+          "**Bestellungen und Rufe:** Die von Ihnen gesendeten Bestellungen sowie Rufe nach dem Kellner, nach Wasser oder nach der Rechnung. Diese werden nicht einer Person, sondern ausschließlich dem Tisch zugeordnet.",
+          "**Nutzungsstatistiken der Speisekarte:** Eine für jeden Seitenaufruf zufällig erzeugte Kennung, der aus den Browserinformationen abgeleitete Gerätetyp (Telefon, Tablet, Computer) und die Browserfamilie, die Sprache der Speisekarte, der aus Netzwerkinformationen ermittelte Ländercode, die geöffneten Produkte und die Verweildauer auf der Seite. Diese Statistiken werden ohne Cookies erhoben und nicht dazu verwendet, Sie zu identifizieren.",
+          "**IP-Adresse:** Wird nur kurzzeitig zur Sicherheit und zur Begrenzung übermäßiger Anfragen verarbeitet und nicht in der Datenbank gespeichert."
+        ] },
+        { "p": "Name, Nachname, E-Mail-Adresse, Telefonnummer oder Zahlungsdaten werden nicht abgefragt. Über die Speisekarte werden keine Zahlungen entgegengenommen; wenn Sie die Rechnung anfordern, erhält lediglich der Kellner eine Benachrichtigung." }
+      ]
+    },
+    {
+      "id": "device",
+      "heading": "4. Auf Ihrem Gerät gespeicherte Informationen",
+      "blocks": [
+        { "p": "Die Speisekarte verwendet keine Cookies. In Ihrem Browser werden nur folgende Informationen gespeichert:" },
+        { "ul": [
+          "Ein Schlüssel im Sitzungsspeicher (sessionStorage), damit erkannt wird, dass Sie dem Tisch beigetreten sind. Er wird gelöscht, wenn der Browser-Tab geschlossen wird.",
+          "Kleine Markierungen im lokalen Speicher (localStorage), damit erkannt wird, dass Sie die Hinweise in der Speisekarte bereits gesehen haben."
+        ] },
+        { "p": "Werbe-, Tracking- oder Analyse-Cookies werden nicht verwendet. Einzelheiten enthält die [Richtlinie zu Cookies und ähnlichen Technologien](doc:cookies)." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "5. Zwecke und Rechtsgrundlagen",
+      "blocks": [
+        { "ul": [
+          "Anzeige der Speisekarte, Eröffnung der Tischsitzung, Übermittlung von Bestellungen und Rufen an das Restaurant: Begründung und Erfüllung des Verhältnisses zwischen Ihnen und dem Restaurant (Art. 5 Abs. 2 lit. c KVKK; Art. 6 Abs. 1 lit. b DSGVO).",
+          "Aggregierte Nutzungsstatistiken, damit das Restaurant seine Speisekarte verbessern kann: berechtigtes Interesse des Restaurants (Art. 5 Abs. 2 lit. f KVKK; Art. 6 Abs. 1 lit. f DSGVO).",
+          "Sicherheit des Dienstes und Verhinderung von Missbrauch: berechtigtes Interesse des Restaurants und des Unternehmens (Art. 5 Abs. 2 lit. f KVKK; Art. 6 Abs. 1 lit. f DSGVO)."
+        ] },
+        { "p": "Diese Verarbeitungen beruhen nicht auf einer ausdrücklichen Einwilligung. Um die Speisekarte zu nutzen oder zu bestellen, müssen Sie keine Einwilligung erteilen." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "6. Speicherdauer",
+      "blocks": [
+        { "ul": [
+          "Die Informationen zur Tischsitzung (geteilter Warenkorb, Sitzungscode, Beitrittsschlüssel) werden gelöscht, wenn die Sitzung endet.",
+          "Bestellungen und Rufe werden für die eigenen Aufzeichnungen des Restaurants im Konto des Restaurants gespeichert.",
+          "Rohe Nutzungsstatistiken werden nach 120 Tagen gelöscht. Aggregierte Ergebnisse, die keine Person identifizieren, werden gespeichert."
+        ] }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "7. Weitergabe von Informationen",
+      "blocks": [
+        { "p": "Die Informationen werden an das Restaurant und seine Kellner übermittelt. Das Unternehmen verarbeitet diese Informationen auf den von ihm selbst verwalteten Servern und gibt sie zu Werbe- oder Marketingzwecken an niemanden weiter. Rechtmäßige Anfragen zuständiger Behörden bleiben vorbehalten." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "8. Ihre Rechte",
+      "blocks": [
+        { "p": "Zur Ausübung Ihrer Rechte nach Art. 11 KVKK und, soweit anwendbar, nach Art. 15 bis 22 DSGVO (Information, Auskunft, Berichtigung, Löschung, Widerspruch und weitere) können Sie sich an das Restaurant als Verantwortlichen wenden. Beim Unternehmen eingehende Anfragen werden unverzüglich an das betreffende Restaurant weitergeleitet." },
+        { "p": "In der Türkei können Sie Beschwerde bei der türkischen Datenschutzbehörde (Kişisel Verileri Koruma Kurulu) einlegen, in der Europäischen Union, im Europäischen Wirtschaftsraum oder im Vereinigten Königreich bei der Datenschutzaufsichtsbehörde des Landes, in dem Sie sich befinden." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "key": "business-terms",
+  "version": "1.0",
+  "locale": "fr",
+  "title": "Contrat de service Art of Menu pour les établissements",
+  "effective": "2026-11-08",
+  "summary": "Le présent contrat s'applique aux établissements qui utilisent le logiciel de menu numérique et de gestion des commandes proposé par Göktigin Bilişim Teknoloji Ltd. Şti. sous le nom Art of Menu. Il définit l'étendue du service, les responsabilités des parties ainsi que les conditions d'abonnement, de paiement, de renouvellement automatique et de résiliation. L'Accord sur le traitement des données et la Politique relative aux valeurs de l'entreprise, à l'utilisation acceptable et à la réputation de la marque constituent des annexes contraignantes du présent contrat.",
+  "sections": [
+    { "id": "parties", "heading": "1. Parties", "blocks": [
+      { "p": "Le présent contrat (le « Contrat ») est conclu entre **Göktigin Bilişim Teknoloji Limited Şirketi** (la « Société »), dont le siège est situé Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Turquie, et qui est immatriculée auprès de l'Antalya Kurumlar Vergi Dairesi (centre des impôts des sociétés d'Antalya) sous le numéro d'identification fiscale 4060725346, et l'établissement qui crée un compte Art of Menu (le « Client »)." },
+      { "p": "Art of Menu est le nom commercial du produit logiciel appartenant à la Société et ne dispose pas d'une personnalité juridique distincte. La Société est le prestataire du service et le vendeur des abonnements. Les autres informations relatives à la Société figurent sur la page [Société et informations légales](doc:company)." },
+      { "p": "La personne qui accepte le Contrat par voie électronique lors de l'inscription déclare agir au nom du Client et être habilitée à engager le Client par le présent Contrat. Si la personne ayant accepté n'est pas habilitée, les dispositions du Code turc des obligations (loi n° 6098) relatives à la représentation sans pouvoir s'appliquent." }
+    ]},
+    { "id": "definitions", "heading": "2. Définitions", "blocks": [
+      { "ul": [
+        "**Service :** le panneau de l'établissement, le menu des convives, l'écran serveur et les fonctions logicielles associées, fournis sous le nom Art of Menu.",
+        "**Panneau :** l'interface d'administration en ligne au moyen de laquelle le Client gère le Service.",
+        "**Succursale :** chaque point de vente défini par le Client dans le Panneau.",
+        "**Utilisateur :** le titulaire du compte et les salariés auxquels le Client a donné accès au Panneau.",
+        "**Serveur :** le salarié défini par le Client dans le Panneau, qui utilise l'écran serveur au moyen d'un lien personnel ou d'un QR code.",
+        "**Convive :** la personne qui consulte le menu ou passe commande dans l'établissement du Client. Les Convives ne s'inscrivent pas sur Art of Menu et n'entrent dans aucune relation contractuelle avec la Société.",
+        "**Contenu :** les textes de menu, informations sur les produits, prix, photos, logos et autres données que le Client charge dans le Service ou crée au moyen du Service.",
+        "**Période d'abonnement :** la période de service, mensuelle ou annuelle, choisie pour une succursale et facturée d'avance."
+      ]}
+    ]},
+    { "id": "subject", "heading": "3. Objet du Contrat et responsabilité du Client envers ses convives", "blocks": [
+      { "p": "Le Contrat a pour objet la mise à disposition du Client, par la Société, sur abonnement, d'un logiciel de menu numérique et de gestion des commandes, ainsi que les droits et obligations des parties à cet égard." },
+      { "p": "La Société est un fournisseur de logiciels. Elle n'est pas le vendeur des aliments, boissons et autres produits que le Client propose à ses convives et n'est pas partie à la relation de vente entre le Client et ses convives. Les convives n'effectuent aucun paiement via le Service. La fonction de demande d'addition envoie uniquement une notification au serveur ; l'encaissement du paiement incombe au Client." },
+      { "p": "Le Client est seul responsable envers ses convives pour les points suivants :" },
+      { "ul": [
+        "l'exactitude des produits, des portions, des compositions et des prix figurant au menu ;",
+        "l'exactitude et l'exhaustivité des informations relatives aux allergènes, à la composition, au caractère végan, halal et autres informations similaires ;",
+        "le respect des règles légales lors de la vente de produits soumis à une limite d'âge, tels que les boissons alcoolisées et les produits du tabac ;",
+        "le respect de la réglementation sur les prix, y compris les règles relatives à l'affichage et à l'étiquetage des prix ;",
+        "le respect de la réglementation relative à la protection des consommateurs, à la sécurité alimentaire et à l'hygiène ;",
+        "l'émission de tickets de caisse ou de factures aux convives et le respect des obligations fiscales ;",
+        "la préparation, le service et l'annulation des commandes ainsi que le traitement des réclamations des convives."
+      ]}
+    ]},
+    { "id": "account", "heading": "4. Compte, Utilisateurs et Serveurs", "blocks": [
+      { "p": "Le Client maintient ses informations d'inscription et de facturation exactes et à jour. L'Utilisateur qui ouvre le compte est le titulaire du compte et dispose de tous les droits. Au moyen des paramètres de rôles et de droits proposés par le Panneau, le Client détermine les opérations que les autres Utilisateurs peuvent effectuer. Les opérations effectuées par les Utilisateurs et les Serveurs dans le Service sont réputées être celles du Client." },
+      { "p": "Les Serveurs se connectent sans adresse e-mail ni mot de passe, au moyen d'un lien personnel ou d'un QR code créé par le Client dans le Panneau. Toute personne disposant de ce lien peut accéder à l'écran serveur concerné. Le Client ne remet le lien qu'au salarié concerné ; il supprime immédiatement dans le Panneau l'accès du Serveur qui quitte l'établissement ou qui a perdu son lien." },
+      { "p": "Le Client est responsable de la confidentialité des mots de passe des Utilisateurs et de la sécurité des appareils au moyen desquels il accède au Service. Il signale sans délai tout soupçon d'utilisation non autorisée à l'adresse [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "plans", "heading": "5. Formules", "blocks": [
+      { "p": "Le Service est proposé sous les formules Menu, Order et Smart. La formule est choisie séparément pour chaque succursale, et les fonctionnalités de la formule ne sont utilisables que dans cette succursale." },
+      { "p": "La formule **Menu** comprend :" },
+      { "ul": [
+        "un menu QR numérique avec un QR code et un lien de menu par succursale ;",
+        "un menu multilingue avec traduction automatique ;",
+        "la publication du menu sous un nom de domaine appartenant au Client ;",
+        "la mise en forme du menu PDF et de l'apparence du QR code ;",
+        "la définition des catégories, produits, menus composés et portions ;",
+        "des étiquettes allergènes, végan, halal et limite d'âge ;",
+        "le marquage des produits comme épuisés et l'affichage des horaires d'ouverture."
+      ]},
+      { "p": "La formule **Order** comprend, en plus de la formule Menu :" },
+      { "ul": [
+        "la gestion des tables et les sessions de table : le convive choisit sa table, une nouvelle session est ouverte à une table libre, et l'on rejoint la session d'une table occupée au moyen du code de session à 6 chiffres ou d'un lien d'invitation ;",
+        "un panier commun pour les convives d'une même table et la transmission des commandes aux serveurs ;",
+        "les notifications d'appel du serveur, de demande d'eau et de demande d'addition ;",
+        "l'écran serveur : les Serveurs sont définis par leur prénom, leur nom, leur sexe et leur succursale ;",
+        "les enregistrements de service et l'annulation des produits commandés."
+      ]},
+      { "p": "La formule **Smart** comprend, en plus de la formule Order :" },
+      { "ul": [
+        "la tarification dynamique décrite à la section 6 ;",
+        "le classement intelligent du menu et la suggestion de produits susceptibles d'être choisis ensemble ;",
+        "des paramètres de ciblage des produits selon la météo, la température et la tranche d'âge visée ;",
+        "la gestion des stocks et des recettes, avec déduction automatique des produits vendus du stock ;",
+        "des rapports de ventes."
+      ]},
+      { "p": "La Société peut ajouter de nouvelles fonctionnalités aux formules et améliorer les fonctionnalités existantes. La suppression ou la restriction d'une fonctionnalité essentielle d'une formule est soumise à la procédure de notification prévue à la section [Modifications du Contrat](doc:business-terms#changes)." }
+    ]},
+    { "id": "smart-pricing", "heading": "6. Tarification dynamique Smart", "blocks": [
+      { "p": "La tarification dynamique calcule chaque jour les prix des produits entre le prix minimal et le prix maximal fixés par le Client pour chaque produit. Le Client choisit l'un des modes de fonctionnement suivants :" },
+      { "ul": [
+        "**Automatique :** le prix calculé est appliqué dans la fourchette définie sans qu'une approbation distincte du Client soit requise.",
+        "**Avec approbation :** le prix calculé est présenté comme une suggestion et n'est appliqué qu'après approbation du Client.",
+        "**Désactivé :** les prix restent tels que saisis par le Client."
+      ]},
+      { "p": "Le prix d'un produit inclus dans une commande est figé au moment de la commande ; les modifications de prix ultérieures n'affectent pas les commandes déjà passées." },
+      { "p": "La tarification dynamique est un outil d'aide à la décision ; elle ne garantit aucune augmentation des ventes, des bénéfices ou de la demande. C'est le Client qui choisit la fourchette de prix et le mode de fonctionnement et qui est responsable des prix affichés aux convives. Le Client veille à ce que les prix soient clairement affichés aux convives avant la commande, à ce que les listes de prix devant être tenues à disposition dans l'établissement soient à jour, et respecte les autres règles légales relatives aux modifications de prix. Si ces règles limitent l'utilisation de la tarification dynamique, le Client paramètre ou désactive la fonction en conséquence." }
+    ]},
+    { "id": "content", "heading": "7. Contenu", "blocks": [
+      { "p": "Le Client est responsable de l'exactitude et de la licéité du Contenu ainsi que de la détention des droits nécessaires sur les photos, logos, marques et textes utilisés dans le Contenu. Les droits sur le Contenu restent acquis au Client." },
+      { "p": "Le Client accorde à la Société, uniquement aux fins de la fourniture du Service et pendant la durée du Contrat, une autorisation d'utilisation gratuite, non cessible et non exclusive lui permettant d'héberger, de reproduire, de traduire, de mettre en forme et de publier le Contenu dans le menu des convives ou dans les intégrations mises en place par le Client. La Société n'utilise pas le Contenu pour sa propre promotion sans l'autorisation distincte du Client." },
+      { "p": "Les textes du menu peuvent être traduits automatiquement par le moteur de traduction fonctionnant sur les serveurs de la Société ou par le service Google Translate utilisé via le navigateur dans le Panneau. Les traductions automatiques peuvent être erronées ou incomplètes. Le Client vérifie les traductions, en particulier les informations relatives aux allergènes et à la composition, avant leur publication et les corrige si nécessaire." },
+      { "p": "L'arrière-plan des photos de produits peut être supprimé automatiquement au moyen d'un modèle fonctionnant sur les serveurs de la Société. Le Client vérifie que le résultat est approprié." },
+      { "p": "Si la Société obtient des informations concrètes indiquant qu'un Contenu est contraire à la loi ou à la [Politique d'entreprise](doc:corporate-policy), elle peut retirer ce Contenu ou en bloquer l'accès, et en informe le Client. Les signalements de contenus illicites peuvent être adressés à [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "usage-rules", "heading": "8. Règles d'utilisation", "blocks": [
+      { "p": "Le Client et les Utilisateurs utilisent le Service conformément à la loi et au présent Contrat. Il est notamment interdit :" },
+      { "ul": [
+        "de tenter de contourner ou de compromettre la sécurité du Service ou d'accéder à d'autres comptes ;",
+        "de copier le logiciel, d'en faire de l'ingénierie inverse ou de tenter d'en obtenir le code source ;",
+        "de surcharger le Service ou d'en extraire des données au moyen d'outils automatisés excédant un usage normal ;",
+        "de louer ou de revendre le Service à des tiers sans l'autorisation écrite de la Société ;",
+        "de diffuser des logiciels malveillants ou des contenus illicites."
+      ]},
+      { "p": "Le Client respecte en outre, pour son établissement et ses dirigeants, la [Politique relative aux valeurs de l'entreprise, à l'utilisation acceptable et à la réputation de la marque](doc:corporate-policy), qui constitue une annexe du présent Contrat." }
+    ]},
+    { "id": "integrations", "heading": "9. Intégration ChatGPT", "blocks": [
+      { "p": "Le Client peut, s'il le souhaite, connecter son compte à ChatGPT. La connexion est établie par un Utilisateur habilité du Client, qui peut la supprimer à tout moment depuis le Panneau. Une fois la connexion établie, ChatGPT peut lire le catalogue de produits, les informations du menu et les noms des salariés du Client. Les modifications demandées via ChatGPT ne sont appliquées qu'après approbation du Client dans le Panneau." },
+      { "p": "Le service ChatGPT est fourni par OpenAI, et son utilisation est soumise aux conditions d'OpenAI. La Société n'est pas responsable de l'exactitude des réponses générées par ChatGPT." }
+    ]},
+    { "id": "availability", "heading": "10. Fourniture du Service, maintenance et interruptions", "blocks": [
+      { "p": "La Société fournit le Service sur l'infrastructure de serveurs qu'elle gère, avec un soin raisonnable et la diligence professionnelle requise. Aucun engagement n'est pris quant au fonctionnement ininterrompu ou exempt d'erreurs du Service, ni quant à un taux de disponibilité déterminé." },
+      { "p": "La Société effectue les maintenances planifiées, dans la mesure du possible, aux heures où l'activité des établissements est faible et s'efforce de les annoncer à l'avance. En cas de faille de sécurité ou de panne grave, elle peut intervenir sans préavis." },
+      { "p": "Le Service dépend de la connexion internet, du système de noms de domaine (DNS), des paramètres du nom de domaine personnalisé du Client, des navigateurs et de services tiers tels que la cartographie, la météo, les taux de change, l'envoi d'e-mails et le paiement. La Société n'est pas responsable des dysfonctionnements de ces services." },
+      { "p": "Pendant la durée d'événements échappant au contrôle de la Société, tels que catastrophes naturelles, épidémies, guerres, actes de terrorisme, incendies, coupures d'électricité ou d'internet généralisées, cyberattaques qui n'ont pu être évitées malgré des mesures raisonnables et décisions des autorités publiques, les obligations affectées de la Société sont suspendues. Si cette situation dure plus de 60 jours, chacune des parties peut résilier le Contrat." },
+      { "p": "Afin de pouvoir poursuivre l'activité de son établissement lorsque le Service est inaccessible, le Client dispose de moyens alternatifs, tels qu'une liste de prix imprimée, qui peuvent également être légalement requis." }
+    ]},
+    { "id": "security", "heading": "11. Sécurité et accès d'assistance", "blocks": [
+      { "p": "La Société prend des mesures techniques et organisationnelles raisonnables pour assurer la sécurité du Service et des données. Ces mesures sont décrites dans l'[Accord sur le traitement des données](doc:dpa#security)." },
+      { "p": "Les salariés de la Société n'accèdent au compte du Client à des fins d'assistance qu'au moyen d'un accès limité dans le temps et visible dans le Panneau. Ces accès sont enregistrés." }
+    ]},
+    { "id": "data-protection", "heading": "12. Protection des données personnelles", "blocks": [
+      { "p": "La Société est responsable du traitement des informations de compte, de session et de facturation des Utilisateurs. Le traitement de ces données est décrit dans la [Notice d'information KVKK et déclaration de confidentialité à l'intention des utilisateurs des établissements](doc:privacy-business)." },
+      { "p": "Pour les données de session de table, de commande, d'appel et d'utilisation du menu relatives aux convives, ainsi que pour les données des Serveurs et des autres salariés que le Client saisit dans le Service, le Client est responsable du traitement et la Société est sous-traitant. Ce traitement est soumis à l'[Accord sur le traitement des données](doc:dpa), qui constitue une annexe du Contrat." },
+      { "p": "Le Client remplit l'obligation d'information à l'égard de ses convives et de ses salariés. En renseignant le champ d'information des convives dans le Panneau, le Client peut faire afficher ses informations d'identification et ses coordonnées sur la page de confidentialité destinée aux convives. Les technologies utilisées dans le menu des convives sont décrites dans la [Politique relative aux cookies et technologies similaires](doc:cookies)." }
+    ]},
+    { "id": "subscription", "heading": "13. Abonnement, prix et paiement", "blocks": [
+      { "p": "**Prix par succursale.** Les prix sont calculés séparément pour chaque succursale, en fonction de la formule et de la période choisies. Toutes les succursales appartenant à une même personne morale sont regroupées dans un seul compte de facturation et sur une période de facturation commune. Une seule facture, comportant des lignes distinctes par succursale, est émise pour chaque période." },
+      { "p": "**Prix.** Le prix annuel correspond à 10 fois le prix mensuel. Les prix catalogue par succursale à la date d'entrée en vigueur du présent Contrat sont les suivants :" },
+      { "table": {
+        "head": ["Formule", "Période", "Turquie (TRY, TVA comprise)", "Europe (EUR, hors taxes)", "Autres pays (USD, hors taxes)"],
+        "rows": [
+          ["Menu", "Mensuelle", "399 TRY", "9 €", "12 $"],
+          ["Menu", "Annuelle", "3 990 TRY", "90 €", "120 $"],
+          ["Order", "Mensuelle", "999 TRY", "29 €", "35 $"],
+          ["Order", "Annuelle", "9 990 TRY", "290 €", "350 $"],
+          ["Smart", "Mensuelle", "1 999 TRY", "59 €", "69 $"],
+          ["Smart", "Annuelle", "19 990 TRY", "590 €", "690 $"]
+        ]
+      }},
+      { "p": "**Devise et taxes.** La devise est déterminée en fonction du pays du Client et indiquée sur l'écran de paiement. Les prix pour la Turquie incluent 20 % de TVA. Les prix pour l'Europe sont nets ; la taxe sur la valeur ajoutée applicable est indiquée séparément sur l'écran de paiement. Pour les Clients qui communiquent un numéro de TVA valide, la taxe est déclarée par le Client dans les cas prévus par la réglementation (autoliquidation, reverse charge). Les prix pour les autres pays sont nets ; si une taxe sur les ventes ou une taxe similaire s'applique dans le pays du Client, elle est indiquée sur l'écran de paiement ou acquittée par le Client. Les écarts de change et frais appliqués par la banque émettrice de la carte sont à la charge du Client." },
+      { "p": "**Aucun essai gratuit.** Le prix de la première Période d'abonnement est prélevé lors de la souscription de l'abonnement. Si le premier prélèvement échoue, l'abonnement ne commence pas." },
+      { "p": "**Renouvellement automatique et autorisation de prélèvement.** L'abonnement est renouvelé automatiquement pour la même durée jusqu'à sa résiliation. En donnant un accord distinct lors de la souscription de l'abonnement, le Client autorise la Société à prélever sur sa carte enregistrée, au début de chaque nouvelle Période d'abonnement, le prix et les taxes de cette période, par l'intermédiaire du prestataire de services de paiement agréé avec lequel travaille la Société, sans nouvel accord à chaque prélèvement. Cette autorisation prend fin pour les périodes suivantes lorsque l'abonnement est résilié ou que le compte est clôturé." },
+      { "p": "**Changement de formule et nouvelle succursale.** Le passage à une formule supérieure ou l'ajout d'une nouvelle succursale en cours de période s'applique immédiatement ; la différence de prix calculée au prorata des jours restants est ajoutée à la facture suivante. Le passage à une formule inférieure prend effet à la fin de la période en cours et ne donne donc lieu à aucun remboursement." },
+      { "p": "**Échec du prélèvement.** Si le prix du renouvellement ne peut pas être prélevé, la procédure suivante s'applique. Les jours sont comptés à partir de la date de renouvellement :" },
+      { "ul": [
+        "Jours 0 à 6 (retard) : l'ensemble du Service continue de fonctionner et le Client est informé.",
+        "Le prélèvement est retenté les jours 1, 3, 5 et 7, puis tous les trois jours.",
+        "À partir du 7e jour (utilisation restreinte) : seul le menu de base reste en ligne, aux prix de base ; les fonctionnalités des formules payantes ne sont pas utilisables.",
+        "À partir du 30e jour (suspension) : le menu des convives indique que le menu est temporairement indisponible.",
+        "Une fois le paiement effectué, le Service est rétabli selon la formule payée. Aucune donnée n'est supprimée pendant cette procédure."
+      ]},
+      { "p": "Si la suspension se prolonge, la Société peut résilier le Contrat par notification par e-mail. Dans ce cas, les dispositions relatives à la clôture du compte de la section [Suspension et résiliation](doc:business-terms#termination) s'appliquent." },
+      { "p": "**Résiliation de l'abonnement.** Le Client peut résilier son abonnement à tout moment depuis le Panneau. La résiliation prend effet à la fin de la période payée ; jusqu'à cette date, le Service reste utilisable et la résiliation peut être annulée. Un bref motif de résiliation est demandé lors de la résiliation." },
+      { "p": "**Remboursement.** Le prix d'une Période d'abonnement commencée n'est pas remboursé, y compris pour la durée restante. Les cas dans lesquels le droit impératif impose un remboursement et ceux dans lesquels la Société décide de procéder à un remboursement demeurent réservés. Si la Société met fin au Contrat sans faute du Client, elle rembourse le prix correspondant à la période payée et non utilisée." },
+      { "p": "**Modification des prix.** La Société peut modifier ses prix catalogue. Le nouveau prix est notifié au Client par e-mail et via le Panneau au moins 30 jours à l'avance et s'applique à compter du premier renouvellement suivant la notification. Le Client qui n'accepte pas le nouveau prix peut résilier son abonnement avant la date de renouvellement. Le prix d'une période commencée n'est pas modifié en cours de période. Les modifications des taux de taxe s'appliquent à compter de leur date d'entrée en vigueur." },
+      { "p": "**Facture.** Les factures sont émises par la Société sur la base des informations de facturation communiquées par le Client dans le Panneau et sont mises à disposition sous forme électronique. Le Client est responsable de l'exactitude des informations de facturation." },
+      { "p": "**Infrastructure de paiement et données de carte.** Les paiements sont encaissés via l'infrastructure du prestataire de services de paiement agréé avec lequel travaille la Société, et la partie qui reçoit le paiement est la Société. Le numéro de carte et le cryptogramme (CVV) ne sont pas conservés dans les systèmes de la Société. La Société conserve uniquement la référence de carte fournie par le prestataire de services de paiement ainsi que les informations permettant de reconnaître la carte : marque de la carte, quatre derniers chiffres et date d'expiration." },
+      { "p": "**Périodes offertes.** La Société peut, à sa discrétion, accorder à une succursale l'utilisation gratuite d'une formule pendant une durée déterminée. Aucun prix n'est perçu pour les périodes offertes ; celles-ci ne peuvent donner lieu à aucun remboursement ni paiement en espèces. Une période offerte ne se transforme pas automatiquement en abonnement payant." },
+      { "p": "Aucun prix de renouvellement n'est prélevé sur les comptes bloqués ou clôturés par la Société." }
+    ]},
+    { "id": "termination", "heading": "14. Suspension et résiliation", "blocks": [
+      { "p": "Le Contrat est conclu pour une durée indéterminée. Le Client peut y mettre fin à tout moment en résiliant son abonnement depuis le Panneau ou en clôturant son compte par l'intermédiaire du titulaire du compte. Lorsque le compte est clôturé, le Service prend fin et le prix de la période commencée n'est pas remboursé." },
+      { "p": "La Société peut suspendre le Service ou résilier le Contrat dans les cas suivants :" },
+      { "ul": [
+        "en cas de violation de la [Politique d'entreprise](doc:corporate-policy) : immédiatement et par notification ;",
+        "en cas de défaut de paiement : selon la procédure prévue à la section [Abonnement](doc:business-terms#subscription) ;",
+        "en cas d'autres manquements graves : la Société notifie le manquement par écrit et peut résilier le Contrat s'il n'y est pas remédié dans un délai de 7 jours ; en cas de manquement mettant en danger la sécurité du Service, les convives ou des tiers, le Service peut être suspendu immédiatement ;",
+        "lorsqu'une décision d'une autorité compétente ou la réglementation empêche la fourniture du Service."
+      ]},
+      { "p": "La Société peut également résilier le Contrat sans motif, à condition de le notifier au moins 90 jours à l'avance et de rembourser le prix correspondant à la période payée et non utilisée." },
+      { "p": "**Conséquences de la clôture du compte.** Un compte clôturé peut être rouvert dans un délai de 30 jours. À l'expiration de ce délai, les informations relatives au menu et aux produits, les images, les données d'analyse, les commandes, les sessions de table et les autres données de l'établissement sont supprimées ; les informations des Utilisateurs sont anonymisées. Les factures, les informations du compte de facturation, l'historique des abonnements, les enregistrements des opérations et les enregistrements d'acceptation du contrat sont conservés pendant les durées prévues par le Code de procédure fiscale (loi n° 213) et le Code de commerce turc (loi n° 6102). Le Client sauvegarde lui-même les informations dont il a besoin avant de clôturer son compte." },
+      { "p": "Les obligations de paiement ainsi que les dispositions relatives à la responsabilité, à la preuve, au droit applicable et à la juridiction compétente restent applicables après la fin du Contrat." }
+    ]},
+    { "id": "commercial-nature", "heading": "15. Caractère commercial", "blocks": [
+      { "p": "Le Client acquiert le Service pour son activité commerciale ou professionnelle et n'agit pas en qualité de consommateur dans le cadre du présent Contrat. Par conséquent, le droit de rétractation prévu par la loi n° 6502 sur la protection des consommateurs et le Règlement sur les contrats à distance, ainsi que les droits de rétractation reconnus aux consommateurs par d'autres pays, ne s'appliquent pas au présent Contrat. Les règles impératives applicables aux transactions commerciales dans le pays du Client demeurent réservées." }
+    ]},
+    { "id": "liability", "heading": "16. Responsabilité", "blocks": [
+      { "p": "La Société est responsable des dommages directs résultant d'un manquement au présent Contrat. Elle n'est pas responsable des pertes de bénéfices, pertes de chiffre d'affaires, atteintes à la réputation et autres dommages indirects, ni des réclamations découlant de la relation entre le Client et ses convives." },
+      { "p": "La responsabilité totale de la Société est limitée au montant total des prix d'abonnement payés par le Client à la Société au cours des 12 mois précédant l'événement à l'origine du dommage." },
+      { "p": "Les limitations prévues à la présente section ne s'appliquent pas en cas de faute intentionnelle ou de faute lourde (article 115 du Code turc des obligations). Les autres cas dans lesquels le droit impératif interdit la limitation de responsabilité demeurent également réservés." },
+      { "p": "Le Client indemnise la Société du préjudice qu'elle subit en raison de réclamations de tiers dirigées contre la Société et d'amendes administratives infligées à la Société du fait du Contenu, des produits vendus par le Client, de ses prix, de sa relation avec ses convives ou d'un manquement au présent Contrat." }
+    ]},
+    { "id": "intellectual-property", "heading": "17. Propriété intellectuelle", "blocks": [
+      { "p": "Tous les droits sur le logiciel, la conception et les modèles du Service ainsi que sur la marque Art of Menu appartiennent à la Société. Il est accordé au Client, pendant la durée du Contrat, un droit d'utilisation non exclusif et non cessible du Service. La Société peut utiliser les suggestions du Client relatives au Service sans qu'il en résulte une quelconque obligation envers le Client." }
+    ]},
+    { "id": "changes", "heading": "18. Modifications du Contrat", "blocks": [
+      { "p": "La Société peut modifier le présent Contrat et ses annexes. Les modifications sont notifiées par e-mail et via le Panneau au moins 30 jours avant leur date d'entrée en vigueur. Un délai plus court peut s'appliquer en cas d'obligation légale ou pour des raisons de sécurité." },
+      { "p": "Les modifications affectant de manière substantielle les droits et obligations du Client s'appliquent lorsque le Client accepte le nouveau texte dans le Panneau. Les autres modifications s'appliquent à compter de leur date d'entrée en vigueur. Le Client qui n'accepte pas une modification peut résilier son abonnement ou clôturer son compte avant la date d'entrée en vigueur." }
+    ]},
+    { "id": "notices", "heading": "19. Notifications", "blocks": [
+      { "p": "La Société adresse ses notifications au Client à l'adresse e-mail enregistrée du titulaire du compte ou via le Panneau. Une notification par e-mail est réputée faite à la date de son envoi. Le Client maintient son adresse e-mail à jour." },
+      { "p": "Le Client adresse ses notifications à la Société à l'adresse [hello@goktigin.com](mailto:hello@goktigin.com) ou à l'adresse de la Société indiquée à la section 1." }
+    ]},
+    { "id": "evidence", "heading": "20. Preuve", "blocks": [
+      { "p": "Les parties reconnaissent que, dans les litiges découlant du présent Contrat, les enregistrements électroniques de la Société, les journaux des serveurs et des systèmes ainsi que les enregistrements d'acceptation du contrat peuvent être utilisés comme preuve conformément à l'article 193 du Code de procédure civile (loi n° 6100). Cette disposition ne prive pas le Client du droit d'apporter la preuve contraire." }
+    ]},
+    { "id": "governing-law", "heading": "21. Droit applicable et juridiction compétente", "blocks": [
+      { "p": "Le présent Contrat est régi par le droit de la République de Turquie. Les tribunaux et les offices d'exécution (icra daireleri) d'Antalya sont compétents pour les litiges découlant du Contrat. Les règles impératives du pays du Client en la matière demeurent réservées." }
+    ]},
+    { "id": "final", "heading": "22. Dispositions finales", "blocks": [
+      { "ul": [
+        "Le Client ne peut pas céder à des tiers les droits et obligations découlant du présent Contrat sans l'autorisation écrite de la Société. En cas de fusion, de scission ou de cession de fonds de commerce, la Société peut transférer le Contrat à son successeur en le notifiant au Client.",
+        "La nullité d'une disposition du Contrat n'affecte pas la validité des autres dispositions.",
+        "Le Contrat et ses annexes constituent l'intégralité de l'accord entre les parties.",
+        "Le texte turc du Contrat fait foi. Les textes dans les autres langues sont fournis à titre informatif ; en cas de contradiction, le texte turc s'applique.",
+        "Le Contrat entre en vigueur dès son acceptation par voie électronique par le Client lors de l'inscription."
+      ]}
+    ]},
+    { "id": "annexes", "heading": "23. Annexes", "blocks": [
+      { "p": "Les documents suivants constituent des annexes contraignantes du présent Contrat et sont réputés acceptés en même temps que le Contrat :" },
+      { "ol": [
+        "Annexe 1 : [Accord sur le traitement des données](doc:dpa)",
+        "Annexe 2 : [Politique relative aux valeurs de l'entreprise, à l'utilisation acceptable et à la réputation de la marque](doc:corporate-policy)"
+      ]}
+    ]}
+  ],
+  "annexes": ["dpa", "corporate-policy"]
+}

@@ -3,9 +3,9 @@
   "ui": {
     "langName": "Deutsch",
     "home": "Startseite",
-    "notify": "Zum Start benachrichtigen",
+    "notify": "Jetzt starten",
     "pricing": "Preise",
-    "soon": "Bald verfügbar",
+    "soon": "Jetzt verfügbar",
     "answerLabel": "Kurz gesagt",
     "featuresTitle": "Passend dazu in ArtOfMenu",
     "faqTitle": "Häufige Fragen",
@@ -40,20 +40,16 @@
         "d": "Jeden Abend entstehen die Preise für morgen, immer innerhalb des Mindest- und Höchstpreises, den Sie festlegen."
       },
       "pdf": {
-        "t": "PDF hochladen, am selben Tag online",
-        "d": "Laden Sie Ihre vorhandene PDF-Speisekarte hoch und gehen Sie noch am selben Tag live."
+        "t": "Ihre PDF-Karte, heute online",
+        "d": "Laden Sie Ihre vorhandene PDF-Speisekarte hoch, und der QR-Code der Filiale öffnet sie noch am selben Tag. Die Live-Karte bauen Sie im Panel auf, wann es passt."
       },
       "stock": {
         "t": "Bestand nach Rezeptur",
         "d": "Ist eine Zutat aus, erscheint jedes Gericht damit automatisch als ausverkauft."
       },
       "reports": {
-        "t": "Menüberichte",
-        "d": "Zeigen Gerichte, die oft gesehen, aber selten geöffnet werden, und solche, die geöffnet, aber nie bestellt werden."
-      },
-      "screens": {
-        "t": "Thekenbildschirme",
-        "d": "Ihre Karte auf Monitoren hinter der Theke. Mehrere Bildschirme blättern gemeinsam um."
+        "t": "Verkaufsberichte",
+        "d": "Im Smart-Paket sehen Sie, welche Gerichte sich verkaufen und welche kaum laufen, Filiale für Filiale."
       },
       "domain": {
         "t": "Ihre eigene Domain",
@@ -73,7 +69,7 @@
           "Mehrere Sprachen",
           "Eigene Domain",
           "PDF-Upload",
-          "Anonyme Statistik"
+          "Menüs und Größen"
         ]
       },
       "order": {
@@ -82,7 +78,7 @@
           "Alles aus Menu",
           "Bestellen am Tisch",
           "Live-Bildschirm und Benachrichtigungen für die Bedienung",
-          "Einfache Lager- und Bestellberichte"
+          "Bedienung, Wasser und Rechnung vom Tisch rufen"
         ]
       },
       "smart": {
@@ -90,10 +86,9 @@
         "items": [
           "Alles aus Order",
           "Tägliche smarte Preise und Kalender für besondere Tage",
-          "Live-Bestellung und „Passt gut zu“",
-          "Rufen vom Tisch",
+          "Live-Sortierung der Karte und „Passt gut zu“",
           "Bestand nach Rezeptur",
-          "Thekenbildschirme"
+          "Verkaufsberichte"
         ]
       }
     }
@@ -122,31 +117,31 @@
           ],
           "bullets": [
             "Die Karte öffnet sich automatisch in der Sprache, die auf dem Handy des Gastes eingestellt ist.",
-            "Ihre vorhandene PDF-Speisekarte geht noch am selben Tag online.",
+            "Ihre vorhandene PDF-Speisekarte geht als PDF-Karte noch am selben Tag online, die Live-Karte bauen Sie im Panel auf.",
             "Die Karte läuft unter Ihrer eigenen Domain.",
             "Bei Kälte rücken heiße Getränke nach oben, knappe Artikel nach unten.",
-            "Anonyme Statistiken zeigen, welche Gerichte angesehen und welche übersehen werden.",
+            "Größen, Menüs und Ausverkauft-Markierung für jedes Gericht.",
             "Währung, Steuerausweis und Preisrundung passen zu Ihrem Land, in 216 Ländern."
           ]
         },
         {
           "h2": "Für Café, Restaurant, Bar und Bäckerei",
           "body": [
-            "Ein Café braucht morgens Tempo und nachmittags ein gutes Kuchenangebot. Ein Restaurant hat eine lange Karte mit Vorspeisen, Hauptgängen und Desserts. In der Bar wird bei wenig Licht bestellt, oft in Runden. Die Bäckerei zeigt ihr Sortiment auf einem Bildschirm hinter der Theke.",
+            "Ein Café braucht morgens Tempo und nachmittags ein gutes Kuchenangebot. Ein Restaurant hat eine lange Karte mit Vorspeisen, Hauptgängen und Desserts. In der Bar wird bei wenig Licht bestellt, oft in Runden. Die Bäckerei zeigt ihr Sortiment mit Fotos und Allergenen.",
             "ArtOfMenu ist für all diese Betriebe gebaut. Auf den Unterseiten lesen Sie, was für Ihren Betrieb zählt, von der mehrsprachigen Speisekarte über das Bestellen am Tisch bis zu Leitfäden für mehr Umsatz."
           ]
         },
         {
           "h2": "Drei Pakete auf demselben Code",
           "body": [
-            "Menu bringt für 9 € pro Filiale und Monat die digitale Speisekarte mit Fotos, Allergenen, Sprachen, eigener Domain, PDF-Upload und anonymer Statistik. Order ergänzt für 29 € das Bestellen am Tisch, einen Live-Bildschirm für die Bedienung und einfache Lager- und Bestellberichte.",
-            "Smart setzt für 59 € jeden Abend die Preise für den nächsten Tag innerhalb Ihrer Grenzen, schlägt passende Ergänzungen vor und führt den Bestand nach Rezeptur. Der QR-Code auf dem Tisch bleibt in jedem Paket derselbe."
+            "Menu bringt für 9 € pro Filiale und Monat die digitale Speisekarte mit Fotos, Allergenen, Sprachen, Größen und Menüs, eigener Domain und PDF-Karte. Order ergänzt für 29 € das Bestellen am Tisch, einen Live-Bildschirm für die Bedienung und das Rufen von Bedienung, Wasser oder Rechnung.",
+            "Smart setzt für 59 € jeden Abend die Preise für den nächsten Tag innerhalb Ihrer Grenzen, schlägt passende Ergänzungen vor, führt den Bestand nach Rezeptur und liefert Verkaufsberichte. Der QR-Code auf dem Tisch bleibt in jedem Paket derselbe."
           ]
         },
         {
           "h2": "Ihre Gäste werden nicht verfolgt",
           "body": [
-            "Wer Ihre Karte öffnet, hinterlässt keine Spuren. ArtOfMenu kommt bei Gästen ohne Cookies aus und speichert weder dauerhafte Kennungen noch IP-Adressen. Die Statistik bleibt anonym und zeigt Ihnen nur, wie die Karte genutzt wird."
+            "Wer Ihre Karte öffnet, hinterlässt keine Spuren. ArtOfMenu kommt bei Gästen ohne Cookies aus und speichert weder dauerhafte Kennungen noch IP-Adressen. Niemand wird über die Karte verfolgt oder wiedererkannt."
           ]
         }
       ],
@@ -169,20 +164,20 @@
         },
         {
           "q": "Kann ich meine bestehende Speisekarte weiterverwenden?",
-          "a": "Ja. Sie laden die PDF-Datei hoch, die Sie bereits haben, und Ihre Karte ist noch am selben Tag online. Das geht in allen Paketen, und am Anfang muss nichts neu gestaltet werden."
+          "a": "Ja. Sie laden die PDF-Datei hoch, die Sie bereits haben, je Sprache eine, und der QR-Code Ihrer Filiale öffnet sie noch am selben Tag. Das geht in allen Paketen. Solange die PDF aktiv ist, ruhen Bestellungen, Vorschläge und Tagespreise, das Rufen der Bedienung funktioniert weiter. Die Live-Karte mit Fotos und Allergenen bauen Sie im Panel auf."
         },
         {
           "q": "Muss ich den QR-Code neu drucken, wenn sich Preise ändern?",
           "a": "Nein. Der Code auf dem Tisch ändert sich nie. Sie ändern Preise, Gerichte oder Fotos in ArtOfMenu, und jeder neue Scan zeigt sofort den aktuellen Stand. Tischaufsteller und Aufkleber bleiben, wo sie sind."
         },
         {
-          "q": "Ab wann kann ich ArtOfMenu nutzen?",
-          "a": "ArtOfMenu ist noch nicht gestartet. Tragen Sie sich mit Name, E-Mail, dem Google-Maps-Link Ihres Betriebs und dem gewünschten Paket ein. Wir melden uns, sobald es losgeht, und Sie können dann direkt mit Ihrer vorhandenen PDF-Karte beginnen."
+          "q": "Kann ich ArtOfMenu schon heute nutzen?",
+          "a": "Ja, ArtOfMenu ist verfügbar. Registrieren Sie sich im Panel unter app.artofmenu.com, legen Sie Ihre Karte an und drucken Sie den QR-Code für Ihre Tische. Der erste Zeitraum wird mit Beginn des Abos berechnet, kündigen können Sie jederzeit im Panel."
         }
       ],
       "cta": {
         "h2": "Ihre Karte, bereit zum Scannen",
-        "lead": "Wir sagen Ihnen Bescheid, sobald ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel, legen Sie Ihre Karte an und drucken Sie den QR-Code."
       },
       "related": [
         "pricing",
@@ -214,9 +209,9 @@
             "Alle Preise gelten pro Filiale und Monat."
           ],
           "bullets": [
-            "Menu, 9 €: QR-Code-Speisekarte mit Fotos, Allergenen, mehreren Sprachen, eigener Domain, PDF-Upload und anonymer Statistik.",
-            "Order, 29 €: alles aus Menu, dazu Bestellen am Tisch, ein Live-Bildschirm mit Benachrichtigungen für die Bedienung und einfache Lager- und Bestellberichte.",
-            "Smart, 59 €: alles aus Order, dazu tägliche smarte Preise mit Kalender für besondere Tage, „Passt gut zu“-Vorschläge, Rufen vom Tisch, Bestand nach Rezeptur und Thekenbildschirme."
+            "Menu, 9 €: QR-Code-Speisekarte mit Fotos, Allergenen, mehreren Sprachen, Größen und Menüs, eigener Domain und PDF-Karte.",
+            "Order, 29 €: alles aus Menu, dazu Bestellen am Tisch, ein Live-Bildschirm mit Benachrichtigungen für die Bedienung und das Rufen von Bedienung, Wasser oder Rechnung vom Tisch.",
+            "Smart, 59 €: alles aus Order, dazu tägliche smarte Preise mit Kalender für besondere Tage, „Passt gut zu“-Vorschläge, Bestand nach Rezeptur und Verkaufsberichte."
           ]
         },
         {
@@ -236,7 +231,7 @@
         {
           "h2": "Kündigen und wechseln",
           "body": [
-            "Sie kündigen in einem Schritt und nutzen ArtOfMenu bis zum Ende des bezahlten Zeitraums weiter. Wechseln Sie in ein kleineres Paket, bleiben Ihre Daten erhalten, und Gerichte und Fotos müssen Sie nicht neu anlegen."
+            "Sie kündigen jederzeit im Panel und nutzen ArtOfMenu bis zum Ende des bezahlten Zeitraums weiter. Wechseln Sie in ein kleineres Paket, bleiben Ihre Daten erhalten, und Gerichte und Fotos müssen Sie nicht neu anlegen."
           ]
         }
       ],
@@ -250,7 +245,7 @@
       "faq": [
         {
           "q": "Gibt es eine Testphase?",
-          "a": "Nein. ArtOfMenu startet ohne Testphase und ohne Paket ohne Gebühr. Das kleinste Paket, Menu, kostet 9 € pro Filiale und Monat. Da Sie in einem Schritt kündigen können und bis zum Ende des bezahlten Zeitraums weiter nutzen, bleibt das Risiko überschaubar."
+          "a": "Nein. ArtOfMenu hat keine Testphase und kein Paket ohne Gebühr. Das kleinste Paket, Menu, kostet 9 € pro Filiale und Monat, und der erste Zeitraum wird mit Beginn des Abos berechnet. Da Sie jederzeit im Panel kündigen können und bis zum Ende des bezahlten Zeitraums weiter nutzen, bleibt das Risiko überschaubar."
         },
         {
           "q": "Was kostet ArtOfMenu bei mehreren Filialen?",
@@ -266,12 +261,12 @@
         },
         {
           "q": "Wie kündige ich?",
-          "a": "In einem Schritt. Nach der Kündigung läuft Ihr Paket bis zum Ende des bereits bezahlten Zeitraums weiter. Sie verlieren also keine Tage, für die Sie schon gezahlt haben, und Ihre Gäste sehen die Karte bis dahin wie gewohnt."
+          "a": "Jederzeit im Panel. Nach der Kündigung läuft Ihr Paket bis zum Ende des bereits bezahlten Zeitraums weiter. Sie verlieren also keine Tage, für die Sie schon gezahlt haben, und Ihre Gäste sehen die Karte bis dahin wie gewohnt."
         }
       ],
       "cta": {
         "h2": "Ein Preis, der zu Ihrem Betrieb passt",
-        "lead": "Lassen Sie sich benachrichtigen und nennen Sie uns schon jetzt Ihr Wunschpaket."
+        "lead": "Registrieren Sie sich im Panel, wählen Sie Ihr Paket und bringen Sie Ihre Karte online."
       },
       "related": [
         "qr-menu",
@@ -319,7 +314,7 @@
         {
           "h2": "Was Ihre Karte über Ihre Gerichte verrät",
           "body": [
-            "ArtOfMenu zeigt anonym, wie Gäste Ihre Karte nutzen. Die Menüberichte markieren Gerichte, die oft gesehen, aber selten geöffnet werden, und solche, die geöffnet, aber nie bestellt werden. Das eine spricht für einen schwachen Namen oder ein fehlendes Foto, das andere eher für Preis oder Beschreibung."
+            "Ob ein Gericht an einer besseren Stelle mehr verkauft, lässt sich einfach testen: Setzen Sie es zwei Wochen an den Anfang seiner Kategorie und vergleichen Sie die Bestellungen. Im Smart-Paket zeigen Verkaufsberichte, was sich verkauft, und die Karte sortiert sich nach Verkäufen, Interesse der Gäste, Uhrzeit und Wetter selbst."
           ]
         }
       ],
@@ -354,7 +349,7 @@
       ],
       "cta": {
         "h2": "Bereit für den nächsten Mittagstisch",
-        "lead": "Tragen Sie sich ein, und wir melden uns zum Start von ArtOfMenu."
+        "lead": "Registrieren Sie sich im Panel und haben Sie Ihre Karte vor dem nächsten Service bereit."
       },
       "related": [
         "ordering",
@@ -370,7 +365,7 @@
       "eyebrow": "Für Cafés",
       "h1": "Die QR-Code-Speisekarte fürs Café",
       "lead": "Eine QR-Code-Speisekarte im Café zeigt Kaffee, Frühstück und Kuchen auf dem Handy der Gäste und lässt sich anpassen, sobald der Kürbis-Latte kommt oder der Käsekuchen aus ist. ArtOfMenu sortiert die Karte zusätzlich nach Wetter, an kalten Tagen stehen heiße Getränke oben.",
-      "answer": "Eine QR-Code-Speisekarte für Cafés ist eine digitale Karte, die Gäste über einen Code am Tisch oder an der Theke öffnen. Sie zeigt Getränke, Frühstück und Gebäck mit Fotos und Allergenen. ArtOfMenu ergänzt das um eine Reihenfolge, die sich nach dem Wetter richtet, um Vorschläge, was gut zusammenpasst, und um Bildschirme hinter der Theke, die gemeinsam umblättern.",
+      "answer": "Eine QR-Code-Speisekarte für Cafés ist eine digitale Karte, die Gäste über einen Code am Tisch oder an der Theke öffnen. Sie zeigt Getränke, Frühstück und Gebäck mit Fotos und Allergenen. ArtOfMenu ergänzt das um eine Reihenfolge, die sich nach dem Wetter richtet, und um Vorschläge, was gut zusammenpasst.",
       "sections": [
         {
           "h2": "Der Frühstücksansturm",
@@ -401,21 +396,21 @@
         {
           "h2": "Die Karte hinter der Theke",
           "body": [
-            "In Cafés mit Thekenverkauf und in Bäckerei-Cafés entscheiden viele Gäste schon in der Schlange. Im Smart-Paket zeigen Thekenbildschirme Ihre Karte auf Monitoren hinter dem Tresen. Hängen dort mehrere Bildschirme, blättern sie gemeinsam um, und die Karte am Tisch und an der Wand ist dieselbe."
+            "In Cafés mit Thekenverkauf und in Bäckerei-Cafés entscheiden viele Gäste schon in der Schlange. Ein QR-Code an der Kasse und einer auf jedem Tisch öffnen dieselbe Karte, so liest der Gast in der Schlange, was er später am Tisch nachbestellen kann."
           ]
         }
       ],
       "features": [
         "weather",
         "pairing",
-        "screens",
+        "reports",
         "ordering",
         "pdf"
       ],
       "faq": [
         {
           "q": "Funktioniert das auch in einer Bäckerei mit Theke?",
-          "a": "Ja. Gäste können die Karte per QR-Code am Tisch oder in der Schlange öffnen. Im Smart-Paket zeigen Thekenbildschirme die Karte auf Monitoren hinter dem Verkaufstresen, und mehrere Bildschirme blättern dabei gemeinsam um."
+          "a": "Ja. Gäste können die Karte per QR-Code am Tisch oder in der Schlange öffnen, beide Codes zeigen dieselbe Karte. Im Smart-Paket markiert der Bestand nach Rezeptur Gebäck und Getränke automatisch als ausverkauft, wenn eine Zutat ausgeht."
         },
         {
           "q": "Ändert das Wetter auch meine Preise?",
@@ -436,7 +431,7 @@
       ],
       "cta": {
         "h2": "Ihr Café, digital auf der Karte",
-        "lead": "Wir benachrichtigen Sie, sobald ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel und tragen Sie die Getränke dieser Saison noch heute ein."
       },
       "related": [
         "cafe-sales",
@@ -464,7 +459,7 @@
           "h2": "Die nächste Runde, ohne zu winken",
           "body": [
             "Mit dem Order-Paket bestellt der Tisch die nächste Runde direkt aus der Karte. Die Bedienung bekommt eine Benachrichtigung aufs Handy und sieht auf ihrem Live-Bildschirm, was bestellt wurde.",
-            "Über die Karte können Gäste außerdem die Bedienung rufen, Wasser bestellen oder nach der Rechnung fragen. Spät am Abend, wenn es laut ist, erspart das viel Winken quer durch den Raum."
+            "Im Order-Paket können Gäste über die Karte außerdem die Bedienung rufen, Wasser bestellen oder nach der Rechnung fragen. Spät am Abend, wenn es laut ist, erspart das viel Winken quer durch den Raum."
           ]
         },
         {
@@ -495,7 +490,7 @@
         },
         {
           "q": "Wie ruft ein Gast die Bedienung?",
-          "a": "Direkt aus der Karte. Der Gast tippt auf die entsprechende Funktion, und die Bedienung erhält die Nachricht auf ihrem Handy. Genauso lassen sich Wasser oder die Rechnung anfordern, ohne dass jemand quer durch den vollen Raum winken muss."
+          "a": "Direkt aus der Karte, im Order-Paket. Der Gast tippt auf die entsprechende Funktion, und die Bedienung erhält die Nachricht auf ihrem Handy. Genauso lassen sich Wasser oder die Rechnung anfordern, ohne dass jemand quer durch den vollen Raum winken muss."
         },
         {
           "q": "Was passiert, wenn eine Zutat leer ist?",
@@ -512,7 +507,7 @@
       ],
       "cta": {
         "h2": "Mehr Zeit hinter der Bar",
-        "lead": "Tragen Sie sich ein, und wir sagen Ihnen Bescheid, wann ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel und bringen Sie die Karte noch heute Abend auf die Tische."
       },
       "related": [
         "bar-sales",
@@ -565,15 +560,15 @@
           ]
         },
         {
-          "h2": "Die digitale Speisekarte auf dem Monitor",
+          "h2": "Die digitale Speisekarte an der Theke",
           "body": [
-            "Hinter der Theke zählt, ob man die Karte aus zwei, drei Metern lesen kann. Im Smart-Paket zeigen Thekenbildschirme Ihre Karte auf Monitoren, und mehrere Bildschirme blättern gemeinsam um. So sehen Gäste am Tisch und in der Schlange dieselbe Karte."
+            "An der Theke zählt, dass Gäste die Karte schon in der Schlange öffnen können. Ein gut sichtbarer QR-Code an der Kasse und einer auf jedem Tisch zeigen dieselbe Karte. So sehen Gäste am Tisch und in der Schlange dieselben Fotos, Preise und Allergene."
           ]
         }
       ],
       "features": [
         "domain",
-        "screens",
+        "ordering",
         "weather",
         "reports",
         "pdf"
@@ -589,7 +584,7 @@
         },
         {
           "q": "Gestaltet ArtOfMenu die Speisekarte für mich?",
-          "a": "Nein, einen Designservice gibt es nicht. Sie laden Ihre bestehende PDF-Karte hoch oder pflegen Gerichte und Fotos selbst. Die Tipps zu Fotos und Beschreibungen auf dieser Seite helfen beim Einstieg."
+          "a": "Nein, einen Designservice gibt es nicht. Sie pflegen Gerichte und Fotos selbst im Panel oder laden für den Anfang Ihre bestehende PDF-Karte hoch. Die Tipps zu Fotos und Beschreibungen auf dieser Seite helfen beim Einstieg."
         },
         {
           "q": "Wo finde ich Beispiele für gute digitale Speisekarten?",
@@ -602,7 +597,7 @@
       ],
       "cta": {
         "h2": "Ihre Gerichte, gut in Szene gesetzt",
-        "lead": "Lassen Sie sich benachrichtigen, sobald ArtOfMenu verfügbar ist."
+        "lead": "Registrieren Sie sich im Panel und beginnen Sie mit Ihren Fotos."
       },
       "related": [
         "qr-menu",
@@ -685,12 +680,12 @@
         },
         {
           "q": "Welches Paket brauche ich für eine intelligente Speisekarte?",
-          "a": "Tägliche smarte Preise, „Passt gut zu“, Bestand nach Rezeptur und Thekenbildschirme gehören zum Smart-Paket für 59 € pro Filiale und Monat. Bei jährlicher Zahlung sind es 590 € im Jahr."
+          "a": "Tägliche smarte Preise, „Passt gut zu“, Bestand nach Rezeptur und Verkaufsberichte gehören zum Smart-Paket für 59 € pro Filiale und Monat. Bei jährlicher Zahlung sind es 590 € im Jahr."
         }
       ],
       "cta": {
         "h2": "Eine Karte, die mitdenkt",
-        "lead": "Wir sagen Ihnen Bescheid, sobald ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel und wählen Sie das Smart-Paket."
       },
       "related": [
         "menu-engineering",
@@ -757,7 +752,7 @@
           "h2": "Was Bestellen am Tisch nicht ersetzt",
           "body": [
             "ArtOfMenu ist kein Kassensystem und kein Zahlungsterminal. Abrechnung, Bons und Bezahlung laufen weiter über Ihre Kasse und Ihr Team.",
-            "Auch die Bedienung bleibt wichtig. Die Technik übernimmt das Aufschreiben, Begrüßen, Beraten und Servieren bleiben bei Ihren Leuten. Zum Order-Paket gehören außerdem einfache Lager- und Bestellberichte."
+            "Auch die Bedienung bleibt wichtig. Die Technik übernimmt das Aufschreiben, Begrüßen, Beraten und Servieren bleiben bei Ihren Leuten. Bestand nach Rezeptur und Verkaufsberichte gehören zum Smart-Paket."
           ]
         }
       ],
@@ -791,7 +786,7 @@
       ],
       "cta": {
         "h2": "Weniger Laufwege, mehr Zeit für Gäste",
-        "lead": "Tragen Sie sich ein, und wir melden uns, sobald ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel und legen Sie Ihre Tische noch heute an."
       },
       "related": [
         "restaurant",
@@ -873,12 +868,12 @@
         },
         {
           "q": "Was kostet eine mehrsprachige Speisekarte?",
-          "a": "Mehrere Sprachen sind schon im Menu-Paket für 9 € pro Filiale und Monat enthalten, zusammen mit Fotos, Allergenen, eigener Domain und PDF-Upload. Bei jährlicher Zahlung sind es 90 € im Jahr, ohne Aufpreis pro Sprache."
+          "a": "Mehrere Sprachen sind schon im Menu-Paket für 9 € pro Filiale und Monat enthalten, zusammen mit Fotos, Allergenen, eigener Domain und PDF-Karte. Bei jährlicher Zahlung sind es 90 € im Jahr, ohne Aufpreis pro Sprache."
         }
       ],
       "cta": {
         "h2": "Verstanden werden, in jeder Sprache",
-        "lead": "Wir benachrichtigen Sie zum Start von ArtOfMenu."
+        "lead": "Registrieren Sie sich im Panel und bringen Sie Ihre Karte heute online."
       },
       "related": [
         "restaurant",
@@ -894,7 +889,7 @@
       "eyebrow": "Leitfaden für Restaurants",
       "h1": "Restaurant Umsatz steigern: was im Alltag hilft",
       "lead": "Den Umsatz eines Restaurants steigern Sie über drei Größen: mehr Gäste, einen höheren Durchschnittsbon pro Gast und Tische, die schneller wieder belegt sind. Dieser Leitfaden zeigt, wo Sie dafür ansetzen können, von der Speisekarte bis zum Wareneinsatz.",
-      "answer": "Der Umsatz eines Restaurants ergibt sich aus der Zahl der Gäste mal dem durchschnittlichen Betrag pro Gast. Steigern lässt er sich über eine verkaufsstarke Speisekarte, sauber kalkulierte Preise, gezielte Empfehlungen, einen zügigen Ablauf und weniger Verschwendung. Werkzeuge wie ArtOfMenu helfen mit Menüberichten, „Passt gut zu“-Vorschlägen und Bestellen am Tisch, die Grundlagen bleiben Handwerk.",
+      "answer": "Der Umsatz eines Restaurants ergibt sich aus der Zahl der Gäste mal dem durchschnittlichen Betrag pro Gast. Steigern lässt er sich über eine verkaufsstarke Speisekarte, sauber kalkulierte Preise, gezielte Empfehlungen, einen zügigen Ablauf und weniger Verschwendung. Werkzeuge wie ArtOfMenu helfen mit „Passt gut zu“-Vorschlägen, Bestellen am Tisch und Verkaufsberichten, die Grundlagen bleiben Handwerk.",
       "sections": [
         {
           "h2": "Erst rechnen, dann handeln",
@@ -958,7 +953,7 @@
         {
           "h2": "Wo ArtOfMenu konkret hilft",
           "body": [
-            "ArtOfMenu ersetzt weder eine gute Küche noch einen guten Service. Einige der Hebel macht es aber einfacher. Die Menüberichte zeigen, welche Gerichte oft gesehen, aber selten geöffnet werden und welche geöffnet, aber nie bestellt werden. Das Erste deutet auf Platzierung oder Foto hin, das Zweite auf Preis oder Beschreibung.",
+            "ArtOfMenu ersetzt weder eine gute Küche noch einen guten Service. Einige der Hebel macht es aber einfacher. Eine digitale Karte lässt sich in Minuten umstellen, so können Sie Platzierung, Foto oder Beschreibung eines Gerichts testen und die Bestellungen vergleichen. Im Smart-Paket zeigen Verkaufsberichte, was sich verkauft.",
             "Die Reihenfolge nach Wetter rückt bei Kälte heiße Getränke nach oben. Bestellen am Tisch spart Wege, und die mehrsprachige Karte nimmt Touristen die Unsicherheit bei der Bestellung."
           ]
         }
@@ -989,12 +984,12 @@
         },
         {
           "q": "Hilft eine digitale Speisekarte beim Umsatz?",
-          "a": "Sie kann helfen, wenn sie gut gepflegt ist: mit guten Fotos, klarer Reihenfolge und Empfehlungen im passenden Moment. ArtOfMenu zeigt zusätzlich in Menüberichten, welche Gerichte übersehen oder geöffnet, aber nicht bestellt werden. Feste Zuwächse kann dabei niemand seriös versprechen."
+          "a": "Sie kann helfen, wenn sie gut gepflegt ist: mit guten Fotos, klarer Reihenfolge und Empfehlungen im passenden Moment. Im Smart-Paket zeigen Verkaufsberichte zusätzlich, welche Gerichte sich verkaufen und welche kaum laufen. Feste Zuwächse kann dabei niemand seriös versprechen."
         }
       ],
       "cta": {
         "h2": "Mehr aus jedem Tisch machen",
-        "lead": "Lassen Sie sich benachrichtigen, sobald ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel und starten Sie noch heute mit Ihrer Karte."
       },
       "related": [
         "menu-engineering",
@@ -1096,7 +1091,7 @@
       ],
       "cta": {
         "h2": "Mehr Runden, weniger Schwund",
-        "lead": "Wir melden uns, sobald ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel und starten Sie diese Woche mit Bestellen am Tisch."
       },
       "related": [
         "bar",
@@ -1112,13 +1107,13 @@
       "eyebrow": "Leitfaden für Cafés",
       "h1": "Café Umsatz steigern: Tempo, Extras und weniger Reste",
       "lead": "Den Umsatz eines Cafés steigern Sie morgens über Tempo, über den Tag mit Extras und Gebäck zum Kaffee und abends, indem weniger übrig bleibt. Dieser Leitfaden geht einen Café-Tag Stunde für Stunde durch und zeigt, wo jeweils Geld liegt.",
-      "answer": "Der Umsatz eines Cafés hängt an vielen kleinen Beträgen. Er steigt, wenn morgens mehr Gäste in kurzer Zeit bedient werden, wenn zum Kaffee öfter ein Extra oder Gebäck dazukommt, wenn das Angebot zu Wetter und Saison passt und wenn weniger Backwaren übrig bleiben. ArtOfMenu hilft mit einer Reihenfolge nach Wetter, „Passt gut zu“-Vorschlägen und Thekenbildschirmen.",
+      "answer": "Der Umsatz eines Cafés hängt an vielen kleinen Beträgen. Er steigt, wenn morgens mehr Gäste in kurzer Zeit bedient werden, wenn zum Kaffee öfter ein Extra oder Gebäck dazukommt, wenn das Angebot zu Wetter und Saison passt und wenn weniger Backwaren übrig bleiben. ArtOfMenu hilft mit einer Reihenfolge nach Wetter, „Passt gut zu“-Vorschlägen und Bestand nach Rezeptur.",
       "sections": [
         {
           "h2": "Der Morgen: Tempo ist Umsatz",
           "body": [
             "Zwischen sieben und neun entscheidet sich, ob ein Pendler bei Ihnen oder nebenan kauft. Eine lange Schlange schreckt ab, bevor jemand die Tür öffnet. Jede Sekunde, die Sie in dieser Zeit pro Bestellung sparen, macht Platz für einen weiteren Gast.",
-            "Thekenbildschirme im Smart-Paket zeigen Ihre Karte auf Monitoren hinter der Theke, und mehrere Bildschirme blättern gemeinsam um. Wer in der Schlange steht, kann sich entscheiden, bevor er an der Reihe ist."
+            "Ein QR-Code an der Schlange bringt Ihre Karte schon beim Warten aufs Handy. Wer in der Schlange steht, kann sich entscheiden, bevor er an der Reihe ist."
           ],
           "bullets": [
             "Eine kurze Morgenkarte mit den meistverkauften Produkten, groß und gut lesbar",
@@ -1175,7 +1170,7 @@
       "features": [
         "weather",
         "pairing",
-        "screens",
+        "ordering",
         "stock"
       ],
       "faq": [
@@ -1197,12 +1192,12 @@
         },
         {
           "q": "Passt ArtOfMenu auch für eine Bäckerei mit Café?",
-          "a": "Ja. Gäste öffnen die Karte per QR-Code am Tisch, und im Smart-Paket zeigen Thekenbildschirme die Karte zusätzlich hinter dem Verkaufstresen. Die Pakete kosten 9 €, 29 € oder 59 € pro Filiale und Monat."
+          "a": "Ja. Gäste öffnen die Karte per QR-Code am Tisch oder in der Schlange, und im Smart-Paket markiert der Bestand nach Rezeptur Gebäck automatisch als ausverkauft, wenn eine Zutat fehlt. Die Pakete kosten 9 €, 29 € oder 59 € pro Filiale und Monat."
         }
       ],
       "cta": {
         "h2": "Mehr Kaffee, weniger Reste",
-        "lead": "Lassen Sie sich benachrichtigen, sobald ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel und bringen Sie Ihre Karte heute online."
       },
       "related": [
         "cafe",
@@ -1218,7 +1213,7 @@
       "eyebrow": "Leitfaden Menu Engineering",
       "h1": "Menu Engineering: die Speisekarte nach Ertrag und Beliebtheit planen",
       "lead": "Menu Engineering ist eine Methode, mit der Sie jedes Gericht Ihrer Speisekarte nach zwei Fragen bewerten: Wie oft wird es bestellt, und wie viel bleibt pro Verkauf übrig? Aus den Antworten ergibt sich, welche Gerichte Sie hervorheben, neu kalkulieren, umbauen oder streichen.",
-      "answer": "Menu Engineering bewertet jedes Gericht einer Speisekarte nach Beliebtheit und Deckungsbeitrag. Die von Michael Kasavana und Donald Smith entwickelte Matrix teilt Gerichte in vier Gruppen: Stars, Plowhorses, Puzzles und Dogs. Für jede Gruppe gibt es typische Maßnahmen, von der Platzierung bis zur Streichung. Menüberichte wie die von ArtOfMenu liefern zusätzliche Hinweise, wie Gäste die Karte lesen.",
+      "answer": "Menu Engineering bewertet jedes Gericht einer Speisekarte nach Beliebtheit und Deckungsbeitrag. Die von Michael Kasavana und Donald Smith entwickelte Matrix teilt Gerichte in vier Gruppen: Stars, Plowhorses, Puzzles und Dogs. Für jede Gruppe gibt es typische Maßnahmen, von der Platzierung bis zur Streichung. Eine digitale Karte wie ArtOfMenu macht es leicht, diese Maßnahmen zu testen.",
       "steps": {
         "h2": "Menu Engineering in acht Schritten",
         "items": [
@@ -1308,9 +1303,9 @@
           ]
         },
         {
-          "h2": "Wie Menüberichte und smarte Preise dazu passen",
+          "h2": "Wie digitale Karte und smarte Preise dazu passen",
           "body": [
-            "Die klassische Matrix arbeitet mit Verkaufszahlen. Eine digitale Karte setzt einen Schritt früher an. Die Menüberichte von ArtOfMenu markieren Gerichte, die oft gesehen, aber selten geöffnet werden, und Gerichte, die geöffnet, aber nie bestellt werden. Bei einem Puzzle hilft das bei der Frage, ob es an Name und Foto liegt oder eher an Preis und Beschreibung.",
+            "Die klassische Matrix arbeitet mit Verkaufszahlen. Eine digitale Karte macht die Umsetzung schneller: Ein Puzzle rückt in Minuten an den Anfang seiner Kategorie oder bekommt ein neues Foto, und nach einigen Wochen zeigt der Vergleich der Bestellungen, ob es an Name und Foto lag oder eher an Preis und Beschreibung. Im Smart-Paket liefern Verkaufsberichte die Zahlen dazu.",
             "Im Smart-Paket entstehen jeden Abend Preise für den nächsten Tag, innerhalb Ihrer Mindest- und Höchstpreise und auf Basis von Wetter, Feiertagen und erwarteter Nachfrage. Die Matrix hilft Ihnen, diese Grenzen sinnvoll zu setzen: bei Stars mit etwas mehr Spielraum nach oben, bei Plowhorses enger."
           ]
         }
@@ -1345,7 +1340,7 @@
       ],
       "cta": {
         "h2": "Eine Karte, die mitrechnet",
-        "lead": "Lassen Sie sich benachrichtigen, sobald ArtOfMenu mit Menüberichten startet."
+        "lead": "Registrieren Sie sich im Panel und bauen Sie Ihre Karte noch heute auf."
       },
       "related": [
         "restaurant-sales",
@@ -1361,7 +1356,7 @@
       "eyebrow": "Leitfaden Warenwirtschaft",
       "h1": "Warenwirtschaft in der Gastronomie: Bestand, Wareneinsatz und Rezepturen",
       "lead": "Warenwirtschaft in der Gastronomie heißt, jederzeit zu wissen, was auf Lager ist, was es kostet und was davon verbraucht wird. Mit einer festen Inventur, kalkulierten Rezepturen, Meldebeständen und einer sauberen Lagerordnung behalten Sie den Wareneinsatz im Griff, ob mit Excel oder mit einem System.",
-      "answer": "Warenwirtschaft in der Gastronomie umfasst Einkauf, Lagerung, Inventur und die Kontrolle des Wareneinsatzes. Grundlage ist eine regelmäßige Zählung, aus der sich der Wareneinsatz berechnen lässt, ergänzt um Rezepturen, Meldebestände und FIFO. ArtOfMenu bietet im Order-Paket einfache Lager- und Bestellberichte und im Smart-Paket einen Bestand nach Rezeptur, der Gerichte mit fehlender Zutat automatisch als ausverkauft zeigt.",
+      "answer": "Warenwirtschaft in der Gastronomie umfasst Einkauf, Lagerung, Inventur und die Kontrolle des Wareneinsatzes. Grundlage ist eine regelmäßige Zählung, aus der sich der Wareneinsatz berechnen lässt, ergänzt um Rezepturen, Meldebestände und FIFO. ArtOfMenu bietet im Smart-Paket einen Bestand nach Rezeptur, der Gerichte mit fehlender Zutat automatisch als ausverkauft zeigt, und Verkaufsberichte.",
       "steps": {
         "h2": "Die Monatsinventur in sechs Schritten",
         "items": [
@@ -1452,7 +1447,7 @@
         {
           "h2": "Bestand nach Rezeptur in ArtOfMenu",
           "body": [
-            "ArtOfMenu ist kein vollständiges Warenwirtschaftssystem für Einkauf und Buchhaltung, es verbindet aber Bestand und Speisekarte. Im Order-Paket gibt es einfache Lager- und Bestellberichte. Im Smart-Paket führen Sie den Bestand nach Rezeptur: Ist eine Zutat aufgebraucht, erscheint jedes Gericht, das sie enthält, automatisch als ausverkauft.",
+            "ArtOfMenu ist kein vollständiges Warenwirtschaftssystem für Einkauf und Buchhaltung, es verbindet aber Bestand und Speisekarte. Im Smart-Paket führen Sie den Bestand nach Rezeptur: Ist eine Zutat aufgebraucht, erscheint jedes Gericht, das sie enthält, automatisch als ausverkauft. Verkaufsberichte zeigen, was sich bewegt hat.",
             "Ist am Samstagabend die Burrata aus, sind Burrata-Salat und Pizza mit Burrata sofort als ausverkauft markiert. Artikel, die bald ausgehen, rücken in der Karte nach unten."
           ]
         }
@@ -1490,7 +1485,7 @@
       ],
       "cta": {
         "h2": "Ihr Bestand, direkt auf der Karte",
-        "lead": "Wir benachrichtigen Sie, sobald ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel und wählen Sie das Smart-Paket."
       },
       "related": [
         "menu-engineering",
@@ -1502,21 +1497,21 @@
     "how-to": {
       "slug": "digitale-speisekarte-erstellen",
       "title": "Digitale Speisekarte erstellen in 6 Schritten | ArtOfMenu",
-      "description": "Von der PDF zur QR-Code-Speisekarte am selben Tag: hochladen, ergänzen, QR-Code drucken, Tischaufsteller aufstellen und Preise jederzeit ändern.",
+      "description": "Zur QR-Code-Speisekarte am selben Tag: Gerichte anlegen oder PDF online stellen, ergänzen, QR-Code drucken, Tischaufsteller aufstellen und Preise jederzeit ändern.",
       "eyebrow": "Anleitung in sechs Schritten",
       "h1": "Digitale Speisekarte erstellen: Schritt für Schritt zum QR-Code",
-      "lead": "Eine digitale Speisekarte erstellen Sie am schnellsten, indem Sie Ihre vorhandene PDF-Karte hochladen, einen QR-Code darauf verweisen lassen und den Code auf die Tische stellen. Mit ArtOfMenu ist Ihre Karte so noch am selben Tag online.",
-      "answer": "Um eine digitale Speisekarte mit QR-Code zu erstellen, brauchen Sie drei Dinge: die Karte in digitaler Form, eine Adresse, unter der sie dauerhaft erreichbar ist, und einen QR-Code, der auf diese Adresse zeigt. Bei ArtOfMenu laden Sie dafür Ihre PDF-Speisekarte hoch, die Karte läuft auf Wunsch unter Ihrer eigenen Domain, und der Code auf dem Tisch bleibt immer gleich.",
+      "lead": "Eine digitale Speisekarte erstellen Sie, indem Sie Ihre Gerichte im Panel anlegen oder Ihre vorhandene PDF-Karte hochladen, einen QR-Code darauf verweisen lassen und den Code auf die Tische stellen. Mit ArtOfMenu ist Ihre Karte so noch am selben Tag online.",
+      "answer": "Um eine digitale Speisekarte mit QR-Code zu erstellen, brauchen Sie drei Dinge: die Karte in digitaler Form, eine Adresse, unter der sie dauerhaft erreichbar ist, und einen QR-Code, der auf diese Adresse zeigt. Bei ArtOfMenu legen Sie die Karte mit Gerichten, Fotos und Allergenen im Panel an oder stellen Ihre PDF-Karte noch am selben Tag online, die Karte läuft auf Wunsch unter Ihrer eigenen Domain, und der Code auf dem Tisch bleibt immer gleich.",
       "steps": {
         "h2": "In sechs Schritten zur QR-Code-Speisekarte",
         "items": [
           {
             "t": "Karte vorbereiten",
-            "d": "Prüfen Sie Ihre aktuelle Speisekarte auf Preise, Gerichte und Allergenangaben und speichern Sie sie als PDF."
+            "d": "Prüfen Sie Ihre aktuelle Speisekarte auf Preise, Gerichte und Allergenangaben. Eine PDF oder ein gutes Foto der gedruckten Karte reicht als Vorlage."
           },
           {
-            "t": "PDF hochladen",
-            "d": "Laden Sie die Datei bei ArtOfMenu hoch. Ihre Karte ist noch am selben Tag online, in jedem Paket."
+            "t": "Gerichte anlegen",
+            "d": "Registrieren Sie sich im Panel und legen Sie Kategorien und Gerichte an. Soll schon heute etwas online sein, laden Sie die PDF als PDF-Karte hoch, in jedem Paket."
           },
           {
             "t": "Fotos und Allergene pflegen",
@@ -1541,7 +1536,7 @@
           "h2": "Bevor Sie anfangen: die Karte aufräumen",
           "body": [
             "Der Umstieg ist eine gute Gelegenheit, die bestehende Karte zu prüfen. Stimmen alle Preise? Gibt es Gerichte, die seit Monaten kaum bestellt werden? Sind die Allergenangaben aktuell? Was Sie jetzt korrigieren, müssen Sie später nicht nachpflegen.",
-            "Liegt Ihre Karte nur gedruckt vor, fragen Sie bei Ihrer Druckerei oder Ihrer Grafikerin nach der PDF-Datei."
+            "Liegt Ihre Karte nur gedruckt vor, reicht ein gutes Foto als Vorlage. Verbinden Sie ArtOfMenu mit ChatGPT, hilft ChatGPT dabei, aus Foto oder PDF Gerichte anzulegen, und Sie bestätigen die Änderungen im Panel."
           ]
         },
         {
@@ -1591,7 +1586,7 @@
         },
         {
           "q": "Wie lange dauert es, eine digitale Speisekarte zu erstellen?",
-          "a": "Mit einer vorhandenen PDF-Datei ist Ihre Karte bei ArtOfMenu noch am selben Tag online. Wie lange Fotos und Allergenangaben danach dauern, hängt vom Umfang Ihrer Karte ab. Planen Sie dafür lieber mehrere kurze Termine als einen langen."
+          "a": "Mit einer vorhandenen PDF-Datei ist Ihre Karte bei ArtOfMenu als PDF-Karte noch am selben Tag online. Wie lange die Live-Karte mit Fotos und Allergenangaben dauert, hängt vom Umfang Ihrer Karte ab; die optionale ChatGPT-Anbindung kann aus Ihrer PDF Gerichte vorbereiten, die Sie im Panel freigeben."
         },
         {
           "q": "Muss ich den QR-Code neu drucken, wenn ich die Karte ändere?",
@@ -1603,12 +1598,12 @@
         },
         {
           "q": "Was brauche ich, um eine QR-Code-Speisekarte zu starten?",
-          "a": "Ihre aktuelle Speisekarte als PDF, ein Smartphone für Fotos und einen Drucker oder eine Druckerei für QR-Codes und Tischaufsteller. Bei ArtOfMenu kommt ein Paket ab 9 € pro Filiale und Monat dazu."
+          "a": "Ihre aktuelle Speisekarte als PDF oder auf Papier, ein Smartphone für Fotos und einen Drucker oder eine Druckerei für QR-Codes und Tischaufsteller. Bei ArtOfMenu kommt ein Paket ab 9 € pro Filiale und Monat dazu."
         }
       ],
       "cta": {
         "h2": "Ihre Karte, vom ersten Tag an online",
-        "lead": "Tragen Sie sich ein, und wir sagen Ihnen Bescheid, sobald ArtOfMenu startet."
+        "lead": "Registrieren Sie sich im Panel und bringen Sie Ihre Karte noch am selben Tag online."
       },
       "related": [
         "qr-menu",

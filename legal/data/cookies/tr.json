@@ -1,0 +1,99 @@
+{
+  "key": "cookies",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Çerez ve Benzeri Teknolojiler Politikası",
+  "effective": "2026-11-08",
+  "summary": "Bu politika, Art of Menu'nün işletme paneli, satış partneri portalı, garson portalı ve misafir menüsünde kullanılan çerezleri ve tarayıcı depolama teknolojilerini açıklar. Art of Menu yalnızca hizmetin çalışması için zorunlu çerezleri ve işlevsel tarayıcı depolamasını kullanır. Analitik, reklam veya pazarlama çerezi kullanılmaz.",
+  "sections": [
+    {
+      "id": "operator",
+      "heading": "1. Sorumlu Şirket",
+      "blocks": [
+        { "p": "Art of Menu, Göktigin Bilişim Teknoloji Ltd. Şti. (Şirket) tarafından işletilir. Şirket'in bilgileri [Şirket ve Yasal Bilgiler](doc:company) sayfasında yer alır. Sorularınız için [hello@goktigin.com](mailto:hello@goktigin.com) adresine yazabilirsiniz." }
+      ]
+    },
+    {
+      "id": "what",
+      "heading": "2. Çerez ve Tarayıcı Depolaması Nedir?",
+      "blocks": [
+        { "p": "Çerez, bir internet sitesinin tarayıcınıza kaydettiği ve sonraki isteklerde siteye geri gönderilen küçük bir metin dosyasıdır. Yerel depolama (localStorage) ve oturum depolaması (sessionStorage) ise sitenin tarayıcınızda bilgi tutmasını sağlayan benzer teknolojilerdir; bu bilgiler sunucuya kendiliğinden gönderilmez. Oturum depolamasındaki bilgiler sekme kapandığında silinir." }
+      ]
+    },
+    {
+      "id": "principles",
+      "heading": "3. Kullanım İlkeleri",
+      "blocks": [
+        { "ul": [
+          "Yalnızca oturum açma, güvenlik ve tercihlerinizin hatırlanması gibi, istediğiniz hizmetin sunulması için zorunlu veya işlevsel teknolojiler kullanılır.",
+          "Analitik, reklam, pazarlama veya sosyal medya çerezi kullanılmaz. Takip pikseli ve üçüncü taraf izleme kodu yoktur.",
+          "Misafir menüsü hiç çerez kullanmaz. Menü kullanım istatistikleri çerezsiz olarak toplanır.",
+          "Bu nedenle çerez izin penceresi gösterilmez. Kullanılan teknolojiler hizmetin çalışması için zorunlu olduğundan kapatılmaları hâlinde ilgili özellikler çalışmaz."
+        ] }
+      ]
+    },
+    {
+      "id": "cookies-list",
+      "heading": "4. Kullanılan Çerezler",
+      "blocks": [
+        { "p": "Aşağıdaki çerezlerin tamamı birinci taraf, zorunlu oturum çerezidir. Yalnızca güvenli bağlantı (HTTPS) üzerinden gönderilir ve tarayıcıdaki betiklerle okunamaz (HttpOnly). Çerez yalnızca rastgele bir oturum anahtarı içerir; sunucuda bu anahtarın yalnızca özet değeri saklanır." },
+        { "table": {
+          "head": ["Çerez", "Nerede", "Amaç", "Süre"],
+          "rows": [
+            ["aom_session", "İşletme paneli", "İşletme kullanıcısının oturumunu açık tutmak. Şirket destek personelinin işletmenin bilgisi dahilindeki salt okunur destek erişimi de bu çerezle yürütülür.", "En fazla 30 gün; 7 gün kullanılmazsa sona erer. Destek erişiminde en fazla 2 saat."],
+            ["aom_partner_session", "Satış partneri portalı", "Partnerin oturumunu açık tutmak.", "En fazla 30 gün; 7 gün kullanılmazsa sona erer."],
+            ["aom_waiter_session", "Garson portalı", "Garsonun kişisel bağlantı veya QR kodla açtığı oturumu açık tutmak.", "En fazla 180 gün; 30 gün kullanılmazsa sona erer."],
+            ["aom_admin_session", "Şirket yönetim paneli (yalnızca Şirket personeli)", "Şirket personelinin oturumunu açık tutmak.", "En fazla 12 saat; 1 saat kullanılmazsa sona erer."]
+          ]
+        } },
+        { "p": "Çıkış yaptığınızda oturum sona erer ve çerez silinir." }
+      ]
+    },
+    {
+      "id": "storage",
+      "heading": "5. Tarayıcı Depolaması",
+      "blocks": [
+        { "p": "Aşağıdaki bilgiler yalnızca tarayıcınızda tutulur ve işlevsel amaçlarla kullanılır. Anahtarın sonundaki {...} kısmı işletmeye, şubeye veya menüye göre değişen tanımlayıcıyı gösterir." },
+        { "table": {
+          "head": ["Uygulama", "Anahtar", "Tür", "Amaç", "Süre"],
+          "rows": [
+            ["İşletme paneli", "aom.panel.v4:{işletme}", "localStorage", "Panelin hızlı açılması için işletme verilerinin önbelleği", "Tarayıcı verileri silinene kadar; her girişte güncellenir"],
+            ["İşletme paneli", "aom.ui", "localStorage", "Seçtiğiniz arayüz dili", "Tarayıcı verileri silinene kadar"],
+            ["İşletme paneli", "aom.intro.referral.{işletme}, aom.setup.strip.{işletme}", "localStorage", "Tanıtım ve kurulum bilgilendirmelerinin gösterilip gösterilmediği", "Tarayıcı verileri silinene kadar"],
+            ["İşletme paneli", "aom.preview.invite-tip.v2:{işletme}, aom.preview.order-tip.v2:{işletme}", "localStorage", "Menü önizlemesindeki ipuçlarının görülüp görülmediği", "Tarayıcı verileri silinene kadar"],
+            ["İşletme paneli", "aom.ptab", "sessionStorage", "Ürünler sayfasında açık olan sekme", "Sekme kapanana kadar"],
+            ["İşletme paneli ve partner portalı", "aom.partner.prefill", "localStorage", "Panelden partner kaydına geçerken ad, soyad ve e-posta adresinin kayıt formuna aktarılması", "Kayıt formu açıldığında okunur ve hemen silinir; en fazla 10 dakika geçerlidir"],
+            ["Satış partneri portalı", "aom.partner.ui", "localStorage", "Seçtiğiniz arayüz dili", "Tarayıcı verileri silinene kadar"],
+            ["Garson portalı", "aom.waiter.ui", "localStorage", "Seçtiğiniz arayüz dili", "Tarayıcı verileri silinene kadar"],
+            ["Garson portalı", "aom.waiter.branch", "localStorage", "Seçili şube", "Tarayıcı verileri silinene kadar"],
+            ["Garson portalı", "aom.waiter.sound", "localStorage", "Bildirim sesi tercihi", "Tarayıcı verileri silinene kadar"],
+            ["Misafir menüsü", "aom.guest.access.v1:{menü}", "sessionStorage", "Masa oturumuna katıldığınızı hatırlamak", "Sekme kapanana kadar"],
+            ["Misafir menüsü", "aom.guest.invite-tip.v1:{şube}, aom.guest.order-tip.v1:{şube}", "localStorage", "Menüdeki ipuçlarını gördüğünüzü hatırlamak", "Tarayıcı verileri silinene kadar"]
+          ]
+        } }
+      ]
+    },
+    {
+      "id": "third-party",
+      "heading": "6. Üçüncü Taraf İçerikler",
+      "blocks": [
+        { "p": "İşletme panelindeki konum seçicide gösterilen harita, OpenStreetMap sunucularından (openstreetmap.org) yüklenir. Harita görüntülendiğinde tarayıcınız bu sunuculara bağlanır ve OpenStreetMap IP adresinizi ve tarayıcı bilgilerinizi kendi politikasına göre işler. Art of Menu bu bağlantı üzerinden çerez yerleştirmez." },
+        { "p": "Panelin tarayıcınızdan doğrudan bağlandığı diğer hizmetler (ör. otomatik çeviri, adres arama, hava durumu, döviz kurları) [İşletme Kullanıcıları için KVKK Aydınlatma Metni](doc:privacy-business#recipients) içinde açıklanmıştır. Misafir menüsü üçüncü taraf içerik yüklemez." }
+      ]
+    },
+    {
+      "id": "manage",
+      "heading": "7. Çerezleri ve Depolanan Bilgileri Silme",
+      "blocks": [
+        { "p": "Çerezleri ve tarayıcı depolamasını tarayıcınızın ayarlarındaki site verilerini silme seçeneğiyle silebilir veya engelleyebilirsiniz. Oturum çerezleri silinirse oturumunuz kapanır ve yeniden giriş yapmanız gerekir. Çerezler engellenirse panel, partner portalı ve garson portalı çalışmaz. Misafir menüsü çerez olmadan çalışır; tarayıcı depolaması engellenirse masa katılımı sekme yenilendiğinde hatırlanmayabilir." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "8. Değişiklikler",
+      "blocks": [
+        { "p": "Şirket ileride zorunlu olmayan bir çerez veya benzeri teknoloji (ör. analitik veya pazarlama amaçlı) kullanmak isterse, bunu kullanmaya başlamadan önce bu politikayı günceller ve gerektiğinde izninizi alır. Bu teknolojiler izin vermeden çalıştırılmaz ve verdiğiniz izni dilediğiniz zaman geri alabilirsiniz." }
+      ]
+    }
+  ]
+}

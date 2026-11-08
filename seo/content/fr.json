@@ -3,9 +3,9 @@
   "ui": {
     "langName": "Français",
     "home": "Accueil",
-    "notify": "Prévenez-moi au lancement",
+    "notify": "Commencer",
     "pricing": "Tarifs",
-    "soon": "Bientôt",
+    "soon": "Disponible",
     "answerLabel": "En bref",
     "featuresTitle": "Dans ArtOfMenu, pour ce sujet",
     "faqTitle": "Questions fréquentes",
@@ -41,19 +41,15 @@
       },
       "pdf": {
         "t": "Votre PDF en ligne aujourd'hui",
-        "d": "Importez la carte PDF que vous avez déjà, sur toutes les formules, et mettez-la en ligne le jour même."
+        "d": "Déposez la carte PDF que vous avez déjà, sur toutes les formules : le QR de l'établissement l'ouvre dès le jour même."
       },
       "stock": {
         "t": "Stock par recette",
         "d": "Quand un ingrédient est épuisé, chaque plat qui l'utilise s'affiche comme épuisé, sans intervention."
       },
       "reports": {
-        "t": "Rapports de carte",
-        "d": "Repérez les articles vus mais rarement ouverts, et ceux ouverts mais jamais commandés."
-      },
-      "screens": {
-        "t": "Écrans de comptoir",
-        "d": "La carte s'affiche sur les écrans derrière le comptoir, et plusieurs écrans tournent leurs pages ensemble."
+        "t": "Rapports de ventes",
+        "d": "Avec la formule Smart, voyez ce qui se vend, article par article, dans chaque établissement."
       },
       "domain": {
         "t": "Votre propre nom de domaine",
@@ -72,8 +68,8 @@
           "Allergènes par article",
           "Langue du client, automatiquement",
           "Votre propre nom de domaine",
-          "Import de votre carte PDF",
-          "Statistiques anonymes"
+          "Carte PDF en ligne le jour même",
+          "Formules et tailles"
         ]
       },
       "order": {
@@ -82,7 +78,7 @@
           "Tout ce que contient Menu",
           "Commande à table",
           "Écran serveur et notifications",
-          "Rapports simples de stock et de commandes"
+          "Appel du serveur, de l'eau ou de l'addition"
         ]
       },
       "smart": {
@@ -91,9 +87,8 @@
           "Tout ce que contient Order",
           "Prix quotidiens et calendrier des jours spéciaux",
           "Commande en direct et « va bien avec »",
-          "Appel du serveur depuis la table",
-          "Stock par recette",
-          "Écrans de comptoir"
+          "Rapports de ventes",
+          "Stock par recette"
         ]
       }
     }
@@ -106,7 +101,7 @@
       "eyebrow": "Menu QR code",
       "h1": "Un menu QR code dans la langue de chaque client",
       "lead": "Un menu QR code est une carte que le client ouvre sur son téléphone en scannant le code posé sur sa table. Avec ArtOfMenu, elle s'affiche dans la langue du téléphone, avec la photo et les allergènes de chaque plat.",
-      "answer": "Un menu QR code remplace la lecture de la carte papier par une page web ouverte depuis un code imprimé sur la table. ArtOfMenu est un logiciel de menu QR code pour cafés, restaurants, bars et boulangeries : la carte s'ouvre dans la langue du client, montre photos et allergènes, et se met à jour sans réimprimer le code. Le service n'est pas encore lancé.",
+      "answer": "Un menu QR code remplace la lecture de la carte papier par une page web ouverte depuis un code imprimé sur la table. ArtOfMenu est un logiciel de menu QR code pour cafés, restaurants, bars et boulangeries : la carte s'ouvre dans la langue du client, montre photos et allergènes, et se met à jour sans réimprimer le code. Le service est disponible dès aujourd'hui.",
       "sections": [
         {
           "h2": "Comment fonctionne un menu QR code",
@@ -123,16 +118,16 @@
           "bullets": [
             "La carte s'ouvre dans la langue réglée sur le téléphone du client.",
             "Chaque produit a sa photo et ses informations sur les allergènes.",
-            "Vous importez votre carte PDF actuelle et elle est en ligne le jour même.",
+            "Vous mettez en ligne votre carte PDF actuelle le jour même, ou vous créez la carte plat par plat.",
             "La carte s'ouvre sur votre propre nom de domaine.",
             "Devise, affichage des taxes et arrondis sont réglés pour votre pays, parmi 216.",
-            "Des statistiques anonymes montrent ce que vos clients regardent sur la carte."
+            "Formules, tailles et articles épuisés se gèrent directement dans la carte."
           ]
         },
         {
           "h2": "Pour quels établissements",
           "body": [
-            "ArtOfMenu s'adresse aux cafés, restaurants, bars et boulangeries, de l'adresse unique au petit groupe de plusieurs établissements. Chaque établissement a sa carte, ses prix et ses statistiques.",
+            "ArtOfMenu s'adresse aux cafés, restaurants, bars et boulangeries, de l'adresse unique au petit groupe de plusieurs établissements. Chaque établissement a sa carte, ses prix et son QR code.",
             "Une brasserie de quartier y trouvera une carte simple à tenir à jour. Une terrasse en zone touristique, une carte que les visiteurs italiens ou allemands lisent dans leur langue. Un bar à cocktails, une carte qui affiche comme épuisé le cocktail dont il manque un ingrédient."
           ]
         },
@@ -146,7 +141,7 @@
         {
           "h2": "Par où continuer",
           "body": [
-            "Chaque question a sa page. Le prix des formules et le calcul face aux cartes imprimées. La création de la carte pas à pas, depuis votre PDF. La commande à table, la carte multilingue, le design de la carte et le menu intelligent qui suit la météo.",
+            "Chaque question a sa page. Le prix des formules et le calcul face aux cartes imprimées. La création de la carte pas à pas. La commande à table, la carte multilingue, le design de la carte et le menu intelligent qui suit la météo.",
             "Nos guides vont plus loin, avec ou sans ArtOfMenu : comment augmenter le chiffre d'affaires d'un restaurant, d'un bar ou d'un café, comment appliquer l'ingénierie de menu et comment tenir les stocks d'un restaurant."
           ]
         }
@@ -170,20 +165,20 @@
         },
         {
           "q": "Puis-je utiliser ma carte PDF actuelle ?",
-          "a": "Oui, sur toutes les formules. Vous importez le PDF de votre carte et elle peut être en ligne le jour même. Vous ajoutez ensuite les photos et les allergènes à votre rythme."
+          "a": "Oui, sur toutes les formules. Vous déposez le PDF de votre carte, un par langue, et le QR de l'établissement l'ouvre dès le jour même. Tant que le PDF est actif, la commande, les suggestions et les prix du jour sont en pause, mais l'appel du serveur fonctionne. Vous créez ensuite la carte en ligne, avec photos et allergènes, depuis votre espace."
         },
         {
           "q": "Combien coûte le menu QR code ArtOfMenu ?",
           "a": "La formule Menu coûte 9 € par établissement et par mois. Order, avec la commande à table, coûte 29 €, et Smart, avec les prix quotidiens et le stock par recette, 59 €. En annuel, vous payez 10 mois pour 12."
         },
         {
-          "q": "Quand ArtOfMenu sera-t-il disponible ?",
-          "a": "ArtOfMenu n'est pas encore lancé. Laissez votre nom, votre e-mail, le lien Google Maps de votre établissement et la formule qui vous intéresse : nous vous écrirons à l'ouverture du service."
+          "q": "Puis-je utiliser ArtOfMenu dès aujourd'hui ?",
+          "a": "Oui, ArtOfMenu est disponible. Inscrivez-vous dans l'espace sur app.artofmenu.com, créez votre carte et imprimez le QR code pour vos tables. La première période est facturée au démarrage de l'abonnement, et vous résiliez quand vous voulez depuis votre espace."
         }
       ],
       "cta": {
-        "h2": "Soyez prévenu à l'ouverture.",
-        "lead": "Laissez vos coordonnées et nous vous écrirons le jour où ArtOfMenu sera disponible pour votre établissement."
+        "h2": "Votre carte en ligne dès aujourd'hui.",
+        "lead": "Inscrivez-vous dans l'espace, créez votre carte et imprimez le QR code de votre établissement."
       },
       "related": [
         "pricing",
@@ -200,13 +195,13 @@
       "eyebrow": "Prix et formules",
       "h1": "Combien coûte un menu QR code ?",
       "lead": "Chez ArtOfMenu, un menu QR code coûte 9 € par établissement et par mois, et jusqu'à 59 € avec la commande à table et les prix intelligents. Le prix dépend de ce que vous attendez de la carte : la présenter, prendre les commandes ou ajuster les prix.",
-      "answer": "Le prix d'un menu QR code dépend des fonctions incluses. ArtOfMenu propose trois formules par établissement : Menu à 9 € par mois (carte QR, photos, allergènes, langues, domaine propre, import PDF), Order à 29 € (commande à table et stock simple) et Smart à 59 € (prix quotidiens, suggestions, stock par recette). En annuel, 12 mois coûtent le prix de 10.",
+      "answer": "Le prix d'un menu QR code dépend des fonctions incluses. ArtOfMenu propose trois formules par établissement : Menu à 9 € par mois (carte QR, photos, allergènes, langues, domaine propre, carte PDF), Order à 29 € (commande à table et appels depuis la table) et Smart à 59 € (prix quotidiens, suggestions, stock par recette). En annuel, 12 mois coûtent le prix de 10.",
       "sections": [
         {
           "h2": "Ce qui fait varier le prix d'un menu QR code",
           "body": [
             "Un QR code qui renvoie vers un PDF ne coûte presque rien à fabriquer. Il fait aussi très peu : le client zoome sur une page pensée pour l'impression, sans traduction ni allergènes par plat, et chaque changement demande un nouveau fichier.",
-            "Le prix d'un logiciel de carte dépend de trois choses. Ce que le client peut faire depuis la carte : lire, commander, appeler le serveur. Ce que la carte fait pour vous : statistiques, stock, prix. Et le nombre d'établissements. Chez ArtOfMenu, le tarif est fixé par établissement et par mois."
+            "Le prix d'un logiciel de carte dépend de trois choses. Ce que le client peut faire depuis la carte : lire, commander, appeler le serveur. Ce que la carte fait pour vous : ordre de la carte, stock, prix. Et le nombre d'établissements. Chez ArtOfMenu, le tarif est fixé par établissement et par mois."
           ]
         },
         {
@@ -215,9 +210,9 @@
             "Les prix s'entendent par établissement et par mois, en euros."
           ],
           "bullets": [
-            "Menu, 9 € par mois : carte QR, photos, allergènes, langue du client automatique, votre nom de domaine, import PDF, statistiques anonymes.",
-            "Order, 29 € par mois : tout Menu, plus la commande à table, l'écran serveur avec notifications, des rapports simples de stock et de commandes.",
-            "Smart, 59 € par mois : tout Order, plus les prix quotidiens avec calendrier des jours spéciaux, la commande en direct avec suggestions « va bien avec », l'appel depuis la table, le stock par recette et les écrans de comptoir."
+            "Menu, 9 € par mois : carte QR, photos, allergènes, langue du client automatique, votre nom de domaine, carte PDF, formules et tailles.",
+            "Order, 29 € par mois : tout Menu, plus la commande à table, l'écran serveur avec notifications et les appels du serveur, de l'eau ou de l'addition depuis la table.",
+            "Smart, 59 € par mois : tout Order, plus les prix quotidiens avec calendrier des jours spéciaux, l'ordre de la carte en direct avec suggestions « va bien avec », le stock par recette et les rapports de ventes."
           ]
         },
         {
@@ -231,7 +226,7 @@
           "h2": "Logiciel ou cartes imprimées : le calcul honnête",
           "body": [
             "Partez de ce que vous dépensez déjà. Prenez le prix d'une réimpression de vos cartes, multipliez-le par le nombre de fois où vous changez un prix, un plat ou la carte de saison dans l'année, puis ajoutez les cartes tachées ou cornées à remplacer. Mettez ce total en face de 108 € par an pour la formule Menu payée au mois.",
-            "Le calcul ne penche pas toujours vers le logiciel. Une crêperie dont la carte ne bouge pas depuis trois ans et qui reçoit peu de touristes peut très bien garder ses cartes plastifiées. Le menu QR code devient rentable quand la carte change souvent, quand une partie des clients parle une autre langue ou quand vous voulez savoir quels plats sont regardés sans être commandés."
+            "Le calcul ne penche pas toujours vers le logiciel. Une crêperie dont la carte ne bouge pas depuis trois ans et qui reçoit peu de touristes peut très bien garder ses cartes plastifiées. Le menu QR code devient rentable quand la carte change souvent, quand une partie des clients parle une autre langue ou quand vous voulez que la commande parte directement de la table."
           ]
         },
         {
@@ -251,11 +246,11 @@
       "faq": [
         {
           "q": "Existe-t-il une période d'essai ?",
-          "a": "Non, ArtOfMenu ne propose ni période d'essai ni formule sans abonnement. La formule la plus simple, Menu, coûte 9 € par établissement et par mois. Le service n'est pas encore lancé : inscrivez-vous pour être prévenu à l'ouverture."
+          "a": "Non, ArtOfMenu ne propose ni période d'essai ni formule sans abonnement. La formule la plus simple, Menu, coûte 9 € par établissement et par mois, et la première période est facturée au démarrage de l'abonnement. Vous résiliez quand vous voulez depuis votre espace."
         },
         {
           "q": "Le prix est-il par établissement ou par compte ?",
-          "a": "Par établissement. Chaque adresse a sa propre carte, ses prix et ses statistiques, et elle est facturée selon la formule choisie. Un groupe de trois cafés sur la formule Menu paie donc 27 € par mois."
+          "a": "Par établissement. Chaque adresse a sa propre carte, ses prix et son QR code, et elle est facturée selon la formule choisie. Un groupe de trois cafés sur la formule Menu paie donc 27 € par mois."
         },
         {
           "q": "Puis-je changer de formule ou résilier ?",
@@ -263,7 +258,7 @@
         },
         {
           "q": "Un générateur de QR code sans abonnement ne suffit-il pas ?",
-          "a": "Il suffit si vous voulez seulement afficher un PDF. Il lui manque la langue automatique, les allergènes par plat et les statistiques, et chaque changement de carte demande un nouveau fichier. ArtOfMenu s'adresse aux établissements dont la carte bouge et qui veulent la suivre."
+          "a": "Il suffit si vous voulez seulement afficher un PDF. Il lui manque la langue automatique, les allergènes par plat et la commande à table, et chaque changement de carte demande un nouveau fichier. ArtOfMenu s'adresse aux établissements dont la carte bouge et qui veulent la suivre."
         },
         {
           "q": "Combien coûte l'annuel ?",
@@ -271,8 +266,8 @@
         }
       ],
       "cta": {
-        "h2": "Choisissez votre formule, nous vous prévenons.",
-        "lead": "Indiquez la formule qui vous intéresse et nous vous écrirons au lancement d'ArtOfMenu."
+        "h2": "Choisissez votre formule et commencez.",
+        "lead": "Inscrivez-vous dans l'espace, choisissez la formule qui vous convient et mettez votre carte en ligne."
       },
       "related": [
         "qr-menu",
@@ -288,7 +283,7 @@
       "eyebrow": "Pour les restaurants",
       "h1": "Le menu QR code pour restaurant, de l'entrée au dessert",
       "lead": "Un menu QR code de restaurant doit présenter une carte longue, rangée par services, avec les allergènes de chaque plat. ArtOfMenu l'affiche dans la langue du client et, avec la formule Order, laisse la table commander quand la salle est pleine.",
-      "answer": "Un menu QR code pour restaurant est une carte numérique, ouverte depuis la table, qui organise entrées, plats, desserts et boissons et précise les allergènes de chaque plat. Avec ArtOfMenu, la carte s'ouvre dans la langue du téléphone, peut partir de votre PDF actuel et, en formule Order, transmet les commandes au serveur. À partir de 9 € par mois et par établissement.",
+      "answer": "Un menu QR code pour restaurant est une carte numérique, ouverte depuis la table, qui organise entrées, plats, desserts et boissons et précise les allergènes de chaque plat. Avec ArtOfMenu, la carte s'ouvre dans la langue du téléphone, votre PDF actuel peut être en ligne dès le premier jour et, en formule Order, les commandes partent vers le serveur. À partir de 9 € par mois et par établissement.",
       "sections": [
         {
           "h2": "Une longue carte, lisible sur un téléphone",
@@ -319,9 +314,9 @@
           ]
         },
         {
-          "h2": "Savoir ce que la salle regarde",
+          "h2": "Savoir ce qui se vend",
           "body": [
-            "Les statistiques anonymes montrent quels plats sont consultés. Les rapports de carte signalent ceux qui sont vus mais rarement ouverts, et ceux qui sont ouverts mais jamais commandés. Un plat souvent ouvert et jamais choisi a peut-être un prix, une photo ou un intitulé qui fait hésiter. C'est une piste concrète pour votre prochaine carte."
+            "Pour savoir si un plat fait hésiter, déplacez-le en haut de sa rubrique ou changez sa photo pendant deux semaines, puis comparez les commandes. Avec la formule Smart, les rapports de ventes montrent ce qui se vend, et la carte remonte d'elle-même les articles qui marchent selon l'heure et la météo. C'est une piste concrète pour votre prochaine carte."
           ]
         }
       ],
@@ -347,7 +342,7 @@
         },
         {
           "q": "Mon restaurant a deux adresses avec des cartes différentes. Est-ce possible ?",
-          "a": "Oui. Chaque établissement a sa carte, ses prix et ses statistiques, et la formule est facturée par établissement. La carte du bord de mer et celle du centre-ville évoluent chacune de leur côté."
+          "a": "Oui. Chaque établissement a sa carte, ses prix et son QR code, et la formule est facturée par établissement. La carte du bord de mer et celle du centre-ville évoluent chacune de leur côté."
         },
         {
           "q": "Comment indiquer les allergènes ?",
@@ -356,7 +351,7 @@
       ],
       "cta": {
         "h2": "Votre carte, prête pour la prochaine saison.",
-        "lead": "Inscrivez votre restaurant et nous vous préviendrons dès le lancement d'ArtOfMenu."
+        "lead": "Inscrivez votre restaurant dans l'espace et préparez votre carte dès aujourd'hui."
       },
       "related": [
         "ordering",
@@ -373,7 +368,7 @@
       "eyebrow": "Pour les cafés",
       "h1": "Un menu QR code pour café, du premier expresso au goûter",
       "lead": "Un menu QR code de café doit se lire en quelques secondes, montrer les boissons de saison et suggérer la pâtisserie qui va avec. ArtOfMenu remonte les boissons chaudes quand le temps se refroidit et affiche la carte dans la langue du client.",
-      "answer": "Un menu QR code pour café est une carte numérique courte, consultée depuis la table ou le comptoir, qui présente boissons, viennoiseries et pâtisseries. ArtOfMenu adapte l'ordre de la carte à la météo et, en formule Smart, propose l'article le plus souvent pris avec celui choisi et affiche la carte sur les écrans du comptoir. La formule Menu commence à 9 € par mois et par établissement.",
+      "answer": "Un menu QR code pour café est une carte numérique courte, consultée depuis la table ou le comptoir, qui présente boissons, viennoiseries et pâtisseries. ArtOfMenu l'affiche dans la langue du client et, en formule Smart, adapte l'ordre de la carte à la météo et propose l'article le plus souvent pris avec celui choisi. La formule Menu commence à 9 € par mois et par établissement.",
       "sections": [
         {
           "h2": "Le rush du matin",
@@ -404,16 +399,16 @@
           ]
         },
         {
-          "h2": "Les écrans derrière le comptoir",
+          "h2": "Un code au comptoir",
           "body": [
-            "Pour les clients qui commandent debout, la formule Smart affiche la carte sur des moniteurs derrière le comptoir. Avec plusieurs écrans, les pages tournent ensemble, comme un seul grand panneau. C'est aussi une solution pour une boulangerie où l'on choisit devant la vitrine."
+            "Pour les clients qui commandent debout, posez un QR code près de la caisse : il ouvre la même carte que celui des tables, et le client choisit pendant qu'il fait la queue. C'est aussi une solution pour une boulangerie où l'on choisit devant la vitrine."
           ]
         }
       ],
       "features": [
         "weather",
         "pairing",
-        "screens",
+        "pdf",
         "multilingual",
         "reports"
       ],
@@ -436,12 +431,12 @@
         },
         {
           "q": "Une boulangerie peut-elle utiliser ArtOfMenu ?",
-          "a": "Oui, ArtOfMenu s'adresse aussi aux boulangeries, en particulier celles qui ont un coin salon de thé ou quelques tables. Les écrans de comptoir de la formule Smart conviennent bien à une vitrine où les clients choisissent debout."
+          "a": "Oui, ArtOfMenu s'adresse aussi aux boulangeries, en particulier celles qui ont un coin salon de thé ou quelques tables. Un QR code posé près de la vitrine permet aux clients de lire la carte, allergènes compris, pendant qu'ils attendent."
         }
       ],
       "cta": {
         "h2": "Votre café, sur toutes les tables.",
-        "lead": "Laissez vos coordonnées et nous vous écrirons au lancement d'ArtOfMenu."
+        "lead": "Inscrivez votre café dans l'espace et mettez votre carte en ligne aujourd'hui."
       },
       "related": [
         "cafe-sales",
@@ -457,7 +452,7 @@
       "eyebrow": "Pour les bars",
       "h1": "Le menu QR code pour bar, pensé pour le service du soir",
       "lead": "Un menu QR code de bar doit rester lisible dans la pénombre, aller vite pour les tournées et ne pas proposer ce qui manque au comptoir. Avec ArtOfMenu, la table commande depuis la carte, appelle le serveur et voit les cocktails épuisés signalés d'eux-mêmes.",
-      "answer": "Un menu QR code pour bar est une carte des boissons ouverte depuis la table, qui liste cocktails, bières, vins et softs avec leurs prix. ArtOfMenu y ajoute la commande à table avec la formule Order et, avec la formule Smart, l'appel du serveur et un stock par recette qui marque un cocktail épuisé dès qu'un de ses ingrédients manque.",
+      "answer": "Un menu QR code pour bar est une carte des boissons ouverte depuis la table, qui liste cocktails, bières, vins et softs avec leurs prix. ArtOfMenu y ajoute la commande à table et l'appel du serveur avec la formule Order et, avec la formule Smart, un stock par recette qui marque un cocktail épuisé dès qu'un de ses ingrédients manque.",
       "sections": [
         {
           "h2": "Une carte lisible à 23 h",
@@ -475,7 +470,7 @@
         {
           "h2": "Appeler le serveur sans lever la main",
           "body": [
-            "Avec la formule Smart, le client appelle un serveur, demande de l'eau ou l'addition depuis la carte. La demande arrive en notification. En fin de soirée, quand tout le monde veut régler en même temps, le serveur voit qui attend quoi au lieu de deviner au regard."
+            "Avec la formule Order, le client appelle un serveur, demande de l'eau ou l'addition depuis la carte. La demande arrive en notification. En fin de soirée, quand tout le monde veut régler en même temps, le serveur voit qui attend quoi au lieu de deviner au regard."
           ]
         },
         {
@@ -488,7 +483,7 @@
         {
           "h2": "Ce que la carte vous apprend",
           "body": [
-            "Les statistiques anonymes montrent ce que vos clients consultent. Si la page des whiskies est souvent ouverte mais que les commandes restent rares, regardez le prix, la description ou le choix des références. Les rapports signalent aussi les boissons vues mais rarement ouvertes, celles qui passent inaperçues au milieu de la carte."
+            "Si la page des whiskies reste peu commandée, regardez le prix, la description ou le choix des références, et testez un changement à la fois. Avec la formule Smart, les rapports de ventes montrent ce qui part chaque soir, et l'ordre de la carte s'adapte tout seul aux ventes et à l'heure, pour que les boissons qui marchent ne passent pas inaperçues."
           ]
         }
       ],
@@ -523,7 +518,7 @@
       ],
       "cta": {
         "h2": "Votre bar, prêt pour le vendredi soir.",
-        "lead": "Inscrivez votre bar et nous vous écrirons dès le lancement d'ArtOfMenu."
+        "lead": "Inscrivez votre bar dans l'espace et posez la carte sur vos tables dès ce soir."
       },
       "related": [
         "bar-sales",
@@ -592,7 +587,7 @@
         "domain",
         "pdf",
         "multilingual",
-        "screens"
+        "reports"
       ],
       "faq": [
         {
@@ -600,25 +595,25 @@
           "a": "Non. ArtOfMenu n'a pas de thèmes prêts à l'emploi. Toutes les cartes partagent une mise en page sobre, conçue pour le téléphone. La personnalisation passe par vos photos, vos textes, vos allergènes et votre nom de domaine."
         },
         {
-          "q": "Puis-je créer ma carte sur Canva et l'importer ?",
-          "a": "Oui, en l'exportant en PDF. L'import PDF est disponible sur toutes les formules et la carte peut être en ligne le jour même. Vous l'enrichissez ensuite avec vos photos et les allergènes de chaque plat."
+          "q": "Puis-je créer ma carte sur Canva et la mettre en ligne ?",
+          "a": "Oui, en l'exportant en PDF. Sur toutes les formules, vous déposez ce PDF et le QR code l'ouvre dès le jour même. Pour une carte avec photos et allergènes plat par plat, vous saisissez ensuite vos articles dans votre espace."
         },
         {
           "q": "ArtOfMenu peut-il créer le design de ma carte ?",
-          "a": "Non, ArtOfMenu ne propose pas de service de design. Vous importez votre carte PDF ou saisissez vos articles, puis ajoutez vos photos. Pour des photos professionnelles, un photographe culinaire local peut couvrir vos plats principaux en une demi-journée."
+          "a": "Non, ArtOfMenu ne propose pas de service de design. Vous mettez en ligne votre carte PDF ou saisissez vos articles, puis ajoutez vos photos. Pour des photos professionnelles, un photographe culinaire local peut couvrir vos plats principaux en une demi-journée."
         },
         {
           "q": "Quelle taille pour le QR code sur la table ?",
           "a": "Visez au moins 3 centimètres de côté, davantage si le client scanne de loin, par exemple depuis un comptoir. Imprimez en noir sur fond clair, sur un support mat, et testez avec deux ou trois téléphones avant de lancer toute l'impression."
         },
         {
-          "q": "La carte peut-elle s'afficher sur un grand écran ?",
-          "a": "Oui, avec la formule Smart. La carte s'affiche sur des moniteurs derrière le comptoir, et plusieurs écrans tournent leurs pages ensemble. C'est pratique pour un café ou une boulangerie où l'on commande debout."
+          "q": "La carte peut-elle s'afficher sur un écran au comptoir ?",
+          "a": "Non, ArtOfMenu ne gère pas d'écrans d'affichage ni de menus pour moniteur. La carte est pensée pour le téléphone du client : posez un QR code près du comptoir pour ceux qui commandent debout."
         }
       ],
       "cta": {
-        "h2": "Une carte à votre nom, bientôt.",
-        "lead": "Laissez vos coordonnées et nous vous préviendrons au lancement d'ArtOfMenu."
+        "h2": "Une carte à votre nom, dès aujourd'hui.",
+        "lead": "Inscrivez-vous dans l'espace et commencez par vos photos."
       },
       "related": [
         "how-to",
@@ -634,7 +629,7 @@
       "eyebrow": "Menu intelligent",
       "h1": "Ce que fait vraiment un menu QR code intelligent",
       "lead": "Un menu QR code intelligent est une carte qui s'adapte à la journée : elle change l'ordre des articles selon la météo, suggère ce qui se commande ensemble et prépare les prix du lendemain dans les limites que vous fixez. Chez ArtOfMenu, chaque réglage reste entre vos mains.",
-      "answer": "Un menu QR code intelligent utilise la météo, les habitudes de commande et la demande prévue pour présenter la carte au bon moment. ArtOfMenu réordonne la carte selon le temps, affiche l'article le plus souvent commandé avec celui choisi et, avec la formule Smart, fixe chaque soir les prix du lendemain entre un minimum et un maximum définis par le propriétaire.",
+      "answer": "Un menu QR code intelligent utilise la météo, les habitudes de commande et la demande prévue pour présenter la carte au bon moment. Avec la formule Smart, ArtOfMenu réordonne la carte selon le temps, affiche l'article le plus souvent commandé avec celui choisi et fixe chaque soir les prix du lendemain entre un minimum et un maximum définis par le propriétaire.",
       "sections": [
         {
           "h2": "L'ordre de la carte suit la météo",
@@ -702,7 +697,7 @@
         },
         {
           "q": "Quelle formule comprend le menu intelligent ?",
-          "a": "Les prix quotidiens avec calendrier des jours spéciaux, les suggestions « va bien avec », l'appel depuis la table, le stock par recette et les écrans de comptoir font partie de la formule Smart, à 59 € par établissement et par mois, ou 590 € par an."
+          "a": "Les prix quotidiens avec calendrier des jours spéciaux, les suggestions « va bien avec », le stock par recette et les rapports de ventes font partie de la formule Smart, à 59 € par établissement et par mois, ou 590 € par an."
         },
         {
           "q": "Mes clients verront-ils les prix varier ?",
@@ -711,7 +706,7 @@
       ],
       "cta": {
         "h2": "Une carte qui suit votre journée.",
-        "lead": "Inscrivez-vous et nous vous préviendrons dès que la formule Smart sera disponible."
+        "lead": "Inscrivez-vous dans l'espace et choisissez la formule Smart."
       },
       "related": [
         "menu-engineering",
@@ -727,7 +722,7 @@
       "eyebrow": "Commande à table",
       "h1": "La commande à table depuis le menu QR code",
       "lead": "La commande à table permet au client d'envoyer sa commande depuis la carte ouverte sur son téléphone, sans attendre le serveur. Avec la formule Order d'ArtOfMenu, le serveur la reçoit aussitôt sur son téléphone, avec une notification.",
-      "answer": "Un système de commande à table permet aux clients de choisir et d'envoyer leur commande depuis le menu QR code, pendant que le personnel la reçoit en direct. ArtOfMenu l'inclut dans la formule Order, à 29 € par établissement et par mois : écran serveur en direct, notifications et rapports simples de commandes et de stock. Ce n'est ni une caisse ni un terminal de paiement.",
+      "answer": "Un système de commande à table permet aux clients de choisir et d'envoyer leur commande depuis le menu QR code, pendant que le personnel la reçoit en direct. ArtOfMenu l'inclut dans la formule Order, à 29 € par établissement et par mois : écran serveur en direct, notifications et appels du serveur, de l'eau ou de l'addition. Ce n'est ni une caisse ni un terminal de paiement.",
       "sections": [
         {
           "h2": "Ce que la commande à table change en salle",
@@ -739,7 +734,7 @@
         {
           "h2": "Les appels depuis la table",
           "body": [
-            "Avec la formule Smart, la carte ajoute des appels : appeler un serveur, demander de l'eau, demander l'addition. Chaque appel arrive en notification sur le téléphone du serveur. Le client n'a plus à guetter un regard pour obtenir sa carafe."
+            "Avec la formule Order, la carte ajoute des appels : appeler un serveur, demander de l'eau, demander l'addition. Chaque appel arrive en notification sur le téléphone du serveur. Le client n'a plus à guetter un regard pour obtenir sa carafe."
           ]
         },
         {
@@ -762,9 +757,9 @@
           ]
         },
         {
-          "h2": "Les rapports de commandes et de stock",
+          "h2": "Le stock et les rapports de ventes",
           "body": [
-            "La formule Order comprend des rapports simples sur les commandes et le stock. Vous voyez ce qui se commande et ce qui sort de la réserve. Pour un stock calculé recette par recette, qui marque un plat épuisé quand un ingrédient manque, il faut la formule Smart."
+            "Le stock et les rapports font partie de la formule Smart. Le stock par recette marque un plat épuisé quand un ingrédient manque, et les rapports de ventes montrent ce qui se commande pour préparer vos achats. La formule Order se concentre sur la commande et les appels depuis la table."
           ]
         }
       ],
@@ -799,7 +794,7 @@
       "faq": [
         {
           "q": "Le client peut-il payer depuis son téléphone ?",
-          "a": "Non. ArtOfMenu transmet la commande mais n'encaisse pas. Le règlement se fait comme aujourd'hui, avec votre caisse et votre terminal de paiement. Avec la formule Smart, le client peut en revanche demander l'addition depuis la carte."
+          "a": "Non. ArtOfMenu transmet la commande mais n'encaisse pas. Le règlement se fait comme aujourd'hui, avec votre caisse et votre terminal de paiement. Avec la formule Order, le client peut en revanche demander l'addition depuis la carte : le serveur est simplement prévenu."
         },
         {
           "q": "Faut-il une tablette pour les serveurs ?",
@@ -807,7 +802,7 @@
         },
         {
           "q": "Combien coûte la commande à table ?",
-          "a": "Elle est incluse dans la formule Order, à 29 € par établissement et par mois, ou 290 € par an. La formule Smart, à 59 €, ajoute les appels depuis la table, les suggestions « va bien avec » et le stock par recette."
+          "a": "Elle est incluse dans la formule Order, à 29 € par établissement et par mois, ou 290 € par an, avec les appels depuis la table. La formule Smart, à 59 €, ajoute les prix quotidiens, les suggestions « va bien avec » et le stock par recette."
         },
         {
           "q": "Les clients sans smartphone peuvent-ils encore commander ?",
@@ -819,8 +814,8 @@
         }
       ],
       "cta": {
-        "h2": "Moins d'attente, dès l'ouverture.",
-        "lead": "Laissez vos coordonnées et nous vous écrirons au lancement de la formule Order."
+        "h2": "Moins d'attente, dès ce soir.",
+        "lead": "Inscrivez-vous dans l'espace et ajoutez vos tables dès aujourd'hui."
       },
       "related": [
         "restaurant",
@@ -885,7 +880,7 @@
         },
         {
           "q": "Le menu multilingue est-il inclus dans la formule de base ?",
-          "a": "Oui. Les langues font partie de la formule Menu, à 9 € par établissement et par mois, avec les photos, les allergènes, votre nom de domaine et l'import PDF. Les formules Order et Smart les incluent aussi."
+          "a": "Oui. Les langues font partie de la formule Menu, à 9 € par établissement et par mois, avec les photos, les allergènes, votre nom de domaine et la carte PDF. Les formules Order et Smart les incluent aussi."
         },
         {
           "q": "Les allergènes s'affichent-ils dans la langue du client ?",
@@ -902,7 +897,7 @@
       ],
       "cta": {
         "h2": "Une carte pour chaque langue de votre salle.",
-        "lead": "Inscrivez votre établissement et nous vous préviendrons au lancement d'ArtOfMenu."
+        "lead": "Inscrivez votre établissement dans l'espace et mettez votre carte en ligne dès aujourd'hui."
       },
       "related": [
         "restaurant",
@@ -918,7 +913,7 @@
       "eyebrow": "Guide",
       "h1": "Comment augmenter le chiffre d'affaires de son restaurant",
       "lead": "Pour augmenter le chiffre d'affaires d'un restaurant, on agit sur trois leviers : le nombre de couverts, le ticket moyen et la marge sur chaque assiette. Ce guide passe en revue ce que vous pouvez changer dès cette semaine, de la carte à l'équipe en salle.",
-      "answer": "Le chiffre d'affaires d'un restaurant se calcule en multipliant le nombre de couverts par le ticket moyen. Pour l'augmenter, on travaille la carte, les prix, la vente additionnelle, la rotation des tables et la réduction des pertes. Des outils comme ArtOfMenu aident à voir quels plats sont consultés et commandés, mais l'essentiel tient à des choix de carte et de service.",
+      "answer": "Le chiffre d'affaires d'un restaurant se calcule en multipliant le nombre de couverts par le ticket moyen. Pour l'augmenter, on travaille la carte, les prix, la vente additionnelle, la rotation des tables et la réduction des pertes. Des outils comme ArtOfMenu aident à voir quels plats se vendent, mais l'essentiel tient à des choix de carte et de service.",
       "sections": [
         {
           "h2": "Commencez par vos chiffres",
@@ -1012,7 +1007,7 @@
         },
         {
           "q": "Un menu QR code fait-il vendre plus ?",
-          "a": "Un menu QR code ne vend pas à la place de l'équipe. Il aide à montrer des photos, à traduire la carte et à suggérer un accompagnement. Avec ArtOfMenu, les rapports montrent aussi les plats vus mais rarement commandés, une piste pour retravailler la carte."
+          "a": "Un menu QR code ne vend pas à la place de l'équipe. Il aide à montrer des photos, à traduire la carte et à suggérer un accompagnement. Avec la formule Smart d'ArtOfMenu, les rapports de ventes montrent aussi ce qui se vend, une piste pour retravailler la carte."
         },
         {
           "q": "Par où commencer quand le chiffre d'affaires baisse ?",
@@ -1021,7 +1016,7 @@
       ],
       "cta": {
         "h2": "Une carte qui vous montre ce qui se vend.",
-        "lead": "Inscrivez votre restaurant et nous vous préviendrons au lancement d'ArtOfMenu."
+        "lead": "Inscrivez votre restaurant dans l'espace et commencez par votre carte dès aujourd'hui."
       },
       "related": [
         "menu-engineering",
@@ -1136,7 +1131,7 @@
       ],
       "cta": {
         "h2": "Votre carte des boissons, plus vite servie.",
-        "lead": "Inscrivez votre bar et nous vous préviendrons au lancement d'ArtOfMenu."
+        "lead": "Inscrivez votre bar dans l'espace et lancez la commande à table cette semaine."
       },
       "related": [
         "bar",
@@ -1158,7 +1153,7 @@
           "h2": "Le rush du matin décide de la journée",
           "body": [
             "Entre 7 h 30 et 9 h 30, beaucoup de cafés font une grosse part de leur chiffre. Un client qui voit huit personnes dans la file et repart, c'est une vente perdue, et parfois un habitué perdu.",
-            "Les écrans de comptoir de la formule Smart d'ArtOfMenu affichent la carte derrière le comptoir ; avec plusieurs écrans, les pages tournent ensemble. Le client lit la carte en faisant la queue."
+            "Posez un QR code près de la file d'attente : il ouvre la même carte que celui des tables. Le client lit la carte en faisant la queue et arrive à la caisse en sachant ce qu'il veut."
           ],
           "bullets": [
             "Placez la carte au-dessus de la file, lisible de loin, pour que le client ait choisi avant d'arriver à la caisse.",
@@ -1185,7 +1180,7 @@
           "h2": "Suivre la météo et les saisons",
           "body": [
             "Un café ne vend pas la même chose sous la pluie et au soleil. Le premier matin froid, les chocolats chauds et les chais partent ; un après-midi à 28 °C, ce sont les boissons glacées et les limonades. Préparez deux versions de votre mise en avant et changez l'ardoise selon le temps.",
-            "La carte ArtOfMenu le fait d'elle-même : quand il fait froid, les boissons chaudes montent ; les boissons froides et les articles bientôt épuisés descendent. Pendant la journée, seul l'ordre change, pas les prix.",
+            "Avec la formule Smart, la carte ArtOfMenu le fait d'elle-même : quand il fait froid, les boissons chaudes montent ; les boissons froides et les articles bientôt épuisés descendent. Pendant la journée, seul l'ordre change, pas les prix.",
             "Les boissons de saison donnent aussi une raison de revenir. Une boisson proposée seulement six semaines pousse les clients à passer avant qu'elle disparaisse."
           ]
         },
@@ -1213,7 +1208,7 @@
         {
           "h2": "Revoir sa carte chaque trimestre",
           "body": [
-            "Les rapports de carte d'ArtOfMenu signalent les articles vus mais rarement ouverts, et ceux ouverts mais jamais commandés. Une boisson que personne n'ouvre a peut-être un nom obscur ; un gâteau qu'on regarde sans le commander est peut-être trop cher ou mal photographié.",
+            "Testez une chose à la fois : renommez une boisson, changez la photo d'un gâteau ou remontez-le dans sa rubrique, puis comparez les ventes sur deux semaines. Une boisson que personne ne prend a peut-être un nom obscur ; un gâteau peu commandé est peut-être trop cher ou mal photographié. Les rapports de ventes de la formule Smart facilitent la comparaison.",
             "Tous les trois mois, retirez ce qui ne se vend pas et testez une nouveauté à la place. Une carte de café courte se prépare plus vite, se lit plus vite et laisse moins d'invendus."
           ]
         }
@@ -1221,7 +1216,7 @@
       "features": [
         "weather",
         "pairing",
-        "screens",
+        "ordering",
         "reports"
       ],
       "faq": [
@@ -1248,7 +1243,7 @@
       ],
       "cta": {
         "h2": "Une carte qui suit le temps qu'il fait.",
-        "lead": "Inscrivez votre café et nous vous préviendrons au lancement d'ArtOfMenu."
+        "lead": "Inscrivez votre café dans l'espace et mettez votre carte en ligne aujourd'hui."
       },
       "related": [
         "cafe",
@@ -1264,7 +1259,7 @@
       "eyebrow": "Guide",
       "h1": "L'ingénierie de menu, expliquée pas à pas",
       "lead": "L'ingénierie de menu est une méthode qui classe chaque plat selon sa popularité et sa marge, pour décider quoi garder, mettre en avant, retravailler ou retirer. Elle demande deux chiffres par plat et un après-midi de calcul.",
-      "answer": "L'ingénierie de menu, ou menu engineering, analyse chaque plat d'une carte selon deux critères : le nombre de ventes et la marge brute par portion. La matrice de Kasavana et Smith classe ainsi les plats en étoiles, chevaux de labour, énigmes et poids morts. Les rapports de carte d'ArtOfMenu complètent l'analyse en montrant les plats vus mais rarement ouverts ou commandés.",
+      "answer": "L'ingénierie de menu, ou menu engineering, analyse chaque plat d'une carte selon deux critères : le nombre de ventes et la marge brute par portion. La matrice de Kasavana et Smith classe ainsi les plats en étoiles, chevaux de labour, énigmes et poids morts. Les rapports de ventes de la formule Smart d'ArtOfMenu fournissent les ventes par plat pour cette analyse.",
       "sections": [
         {
           "h2": "Les deux chiffres dont vous avez besoin",
@@ -1333,7 +1328,7 @@
         {
           "h2": "Ce que les données d'un menu QR code ajoutent",
           "body": [
-            "La caisse vous dit ce qui a été vendu. Elle ne dit pas ce que le client a regardé sans le prendre. Les rapports de carte d'ArtOfMenu signalent les plats vus mais rarement ouverts, et ceux ouverts mais jamais commandés. Pour une énigme, la nuance compte : un plat que personne n'ouvre a un problème de visibilité ou de nom, un plat ouvert puis abandonné a peut-être un problème de prix, de photo ou de description.",
+            "La caisse vous dit ce qui a été vendu, pas pourquoi un plat ne l'est pas. Pour une énigme, testez une piste à la fois : remontez-la en haut de sa rubrique, ajoutez une photo ou changez son intitulé, puis comparez les ventes. Un plat qui reste ignoré une fois bien placé a peut-être un problème de prix ou de description plutôt que de visibilité.",
             "La formule Smart va plus loin sur le prix. Chaque soir, elle fixe les prix du lendemain selon la demande attendue, la météo et le calendrier, entre le minimum et le maximum que vous définissez pour chaque plat. Votre analyse vous aide à poser ces bornes : une étoile supporte un maximum plus haut, un cheval de labour une fourchette plus étroite."
           ]
         }
@@ -1384,7 +1379,7 @@
         },
         {
           "q": "Faut-il un logiciel pour faire de l'ingénierie de menu ?",
-          "a": "Non. Un tableur suffit : une ligne par plat, avec ventes, prix hors taxes, coût matière et marge. La caisse fournit les ventes, et des rapports comme ceux d'ArtOfMenu ajoutent ce que la caisse ne voit pas : les plats regardés mais pas commandés."
+          "a": "Non. Un tableur suffit : une ligne par plat, avec ventes, prix hors taxes, coût matière et marge. La caisse fournit les ventes, ou les rapports de ventes de la formule Smart d'ArtOfMenu si vos clients commandent depuis la table."
         },
         {
           "q": "Quelle différence entre Kasavana-Smith et la méthode Omnes ?",
@@ -1392,8 +1387,8 @@
         }
       ],
       "cta": {
-        "h2": "Voyez ce que vos clients regardent.",
-        "lead": "Inscrivez-vous et nous vous préviendrons quand les rapports de carte d'ArtOfMenu seront disponibles."
+        "h2": "Voyez ce que votre carte vous dit.",
+        "lead": "Inscrivez-vous dans l'espace et créez votre carte dès aujourd'hui."
       },
       "related": [
         "restaurant-sales",
@@ -1472,7 +1467,7 @@
           "h2": "Le stock relié à la carte",
           "body": [
             "Le point faible de beaucoup de restaurants, c'est le lien entre la réserve et la salle. La cuisine sait que le poisson du jour est fini, mais le serveur l'apprend quand la troisième table l'a déjà commandé.",
-            "La formule Order d'ArtOfMenu fournit des rapports simples de stock et de commandes. La formule Smart ajoute le stock par recette : chaque plat est relié à ses ingrédients, et quand un ingrédient est épuisé, tous les plats qui l'utilisent s'affichent d'eux-mêmes comme épuisés sur la carte. Les articles qui vont bientôt manquer descendent aussi dans l'ordre de la carte.",
+            "Le stock et les rapports de ventes d'ArtOfMenu font partie de la formule Smart. Avec le stock par recette, chaque plat est relié à ses ingrédients, et quand un ingrédient est épuisé, tous les plats qui l'utilisent s'affichent d'eux-mêmes comme épuisés sur la carte. Les articles qui vont bientôt manquer descendent aussi dans l'ordre de la carte.",
             "Cet outil ne remplace pas l'inventaire. Il évite de vendre ce que vous n'avez plus, et il vous pousse au passage à tenir des recettes à jour."
           ]
         }
@@ -1536,7 +1531,7 @@
       ],
       "cta": {
         "h2": "Ne vendez plus ce que vous n'avez plus.",
-        "lead": "Laissez vos coordonnées : nous vous écrirons à l'ouverture d'ArtOfMenu, stock par recette compris."
+        "lead": "Inscrivez-vous dans l'espace et choisissez la formule Smart pour le stock par recette."
       },
       "related": [
         "menu-engineering",
@@ -1548,11 +1543,11 @@
     "how-to": {
       "slug": "creer-menu-qr-code",
       "title": "Créer un menu QR code pour son restaurant | ArtOfMenu",
-      "description": "Comment créer un menu QR code : importer votre carte PDF, ajouter photos et allergènes, imprimer le QR, choisir les supports et mettre à jour les prix.",
+      "description": "Comment créer un menu QR code : saisir votre carte ou mettre votre PDF en ligne, ajouter photos et allergènes, imprimer le QR, choisir les supports et mettre à jour les prix.",
       "eyebrow": "Pas à pas",
       "h1": "Comment créer un menu QR code en une journée",
-      "lead": "Pour créer un menu QR code, mettez votre carte en ligne, vérifiez-la sur un téléphone, imprimez le QR code et posez-le sur les tables. Avec ArtOfMenu, l'import du PDF de votre carte actuelle permet d'être en ligne le jour même.",
-      "answer": "Créer un menu QR code consiste à mettre sa carte en ligne, puis à imprimer un code qui y renvoie. Avec ArtOfMenu, vous importez le PDF de votre carte actuelle, ajoutez photos et allergènes, vérifiez l'affichage sur un téléphone et imprimez le QR code pour vos tables. La carte peut être en ligne le jour même, et le code ne change plus ensuite.",
+      "lead": "Pour créer un menu QR code, mettez votre carte en ligne, vérifiez-la sur un téléphone, imprimez le QR code et posez-le sur les tables. Avec ArtOfMenu, votre PDF actuel peut être en ligne le jour même, le temps de créer la carte dans votre espace.",
+      "answer": "Créer un menu QR code consiste à mettre sa carte en ligne, puis à imprimer un code qui y renvoie. Avec ArtOfMenu, vous vous inscrivez dans l'espace, saisissez vos articles avec photos et allergènes, vérifiez l'affichage sur un téléphone et imprimez le QR code pour vos tables. Votre PDF actuel peut être en ligne le jour même, et le code ne change plus ensuite.",
       "sections": [
         {
           "h2": "Avant de commencer : ce qu'il vous faut",
@@ -1560,7 +1555,7 @@
             "Le plus long n'a rien de technique. Il s'agit de réunir des informations justes, surtout pour les allergènes."
           ],
           "bullets": [
-            "Votre carte en PDF, à jour.",
+            "Votre carte à jour, en PDF ou sur papier.",
             "La liste des allergènes de chaque plat, validée avec la cuisine.",
             "Quelques photos prises à la lumière du jour.",
             "Votre nom de domaine, si vous voulez que la carte s'ouvre à votre adresse.",
@@ -1600,11 +1595,11 @@
         "items": [
           {
             "t": "Rassemblez votre carte",
-            "d": "Prenez la dernière version de votre carte en PDF, celle que vous envoyez à l'imprimeur. Vérifiez les prix avant l'import."
+            "d": "Prenez la dernière version de votre carte, celle que vous envoyez à l'imprimeur. Vérifiez les prix avant de commencer."
           },
           {
-            "t": "Importez le PDF",
-            "d": "Déposez le fichier dans ArtOfMenu. Toutes les formules acceptent l'import PDF, et la carte peut être en ligne le jour même."
+            "t": "Créez votre carte",
+            "d": "Inscrivez-vous dans l'espace et saisissez rubriques et articles. Pour être en ligne tout de suite, déposez votre PDF comme carte PDF en attendant."
           },
           {
             "t": "Ajoutez photos et allergènes",
@@ -1633,11 +1628,11 @@
       "faq": [
         {
           "q": "Combien de temps faut-il pour créer un menu QR code ?",
-          "a": "Avec l'import PDF, la carte peut être en ligne le jour même. Comptez ensuite quelques heures pour ajouter les photos et vérifier les allergènes, et quelques jours si vous commandez des supports de table imprimés."
+          "a": "Avec la carte PDF, votre carte actuelle peut être en ligne le jour même. Comptez ensuite quelques heures pour saisir les articles, ajouter les photos et vérifier les allergènes, et quelques jours si vous commandez des supports de table imprimés."
         },
         {
           "q": "Peut-on créer un menu QR code avec Canva ?",
-          "a": "Canva sert à mettre en page une carte et à générer un QR code qui pointe vers un fichier. Vous pouvez exporter votre carte Canva en PDF puis l'importer dans ArtOfMenu : le QR code reste alors le même à chaque mise à jour."
+          "a": "Canva sert à mettre en page une carte et à générer un QR code qui pointe vers un fichier. Vous pouvez exporter votre carte Canva en PDF et la déposer dans ArtOfMenu comme carte PDF : le QR code reste alors le même à chaque mise à jour. Si vous connectez ArtOfMenu dans ChatGPT, il peut aussi aider à transformer ce PDF en articles, que vous validez dans votre espace."
         },
         {
           "q": "Que faire si un client n'arrive pas à scanner ?",
@@ -1648,13 +1643,13 @@
           "a": "Non. Si vous savez exporter un PDF et envoyer une photo, vous savez créer votre carte. Le seul réglage un peu technique est le nom de domaine, si vous voulez que la carte s'ouvre à votre propre adresse."
         },
         {
-          "q": "Quand pourrai-je créer mon menu QR code avec ArtOfMenu ?",
-          "a": "ArtOfMenu n'est pas encore lancé. Inscrivez-vous avec votre nom, votre e-mail, le lien Google Maps de votre établissement et la formule qui vous intéresse : nous vous écrirons dès l'ouverture."
+          "q": "Puis-je créer mon menu QR code avec ArtOfMenu dès maintenant ?",
+          "a": "Oui, ArtOfMenu est disponible. Inscrivez-vous dans l'espace sur app.artofmenu.com, créez votre carte et imprimez le QR code. La première période est facturée au démarrage de l'abonnement, sans période d'essai, et vous résiliez quand vous voulez depuis votre espace."
         }
       ],
       "cta": {
-        "h2": "Votre carte en ligne le jour du lancement.",
-        "lead": "Préparez votre PDF et laissez vos coordonnées : nous vous préviendrons à l'ouverture d'ArtOfMenu."
+        "h2": "Votre carte en ligne dès aujourd'hui.",
+        "lead": "Inscrivez-vous dans l'espace, créez votre carte ou déposez votre PDF, et imprimez le QR code."
       },
       "related": [
         "pricing",

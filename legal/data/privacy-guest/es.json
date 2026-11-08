@@ -1,0 +1,89 @@
+{
+  "key": "privacy-guest",
+  "version": "1.0",
+  "locale": "es",
+  "title": "Información de privacidad para comensales",
+  "effective": "2026-11-08",
+  "summary": "Este texto explica qué información se trata cuando utiliza el menú QR de un restaurante. Para utilizar el menú no necesita crear una cuenta ni facilitar su nombre, su dirección de correo electrónico o su número de teléfono. El software del menú es Art of Menu; el menú y los pedidos los gestiona el restaurante.",
+  "sections": [
+    {
+      "id": "restaurant",
+      "heading": "1. Responsable del tratamiento: el restaurante",
+      "blocks": [
+        { "p": "El responsable del tratamiento de la información que se trata mientras utiliza el menú es el restaurante cuyos datos se muestran en la parte superior de esta página. El restaurante gestiona por sí mismo su menú, sus pedidos y la distribución de sus mesas, y es quien prepara y vende sus pedidos." },
+        { "p": "Si no se muestran los datos de contacto del restaurante o están incompletos, puede solicitarlos al personal del restaurante." }
+      ]
+    },
+    {
+      "id": "provider",
+      "heading": "2. Función de Art of Menu",
+      "blocks": [
+        { "p": "Art of Menu es un software de menú digital y gestión de pedidos que Göktigin Bilişim Teknoloji Ltd. Şti. (la Sociedad) ofrece a los restaurantes. La Sociedad trata la información relativa al uso del menú por cuenta del restaurante y siguiendo sus instrucciones, en calidad de encargado del tratamiento. La Sociedad no utiliza esta información para sus propios fines ni la vende." },
+        { "p": "La Sociedad es, además, responsable del tratamiento únicamente respecto de los registros técnicos que conserva para garantizar la seguridad del servicio de menú. La información de la Sociedad figura en la página [Información corporativa y legal](doc:company)." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "3. Información tratada",
+      "blocks": [
+        { "ul": [
+          "**Sesión de mesa:** la mesa que ha elegido, el carrito compartido en la mesa y el código de sesión de 6 dígitos utilizado para unirse a la mesa. Los dispositivos que se unen a la mesa se reconocen mediante una clave aleatoria de la que solo se almacena el valor resumen.",
+          "**Pedidos y avisos:** los pedidos que envía y los avisos para llamar al camarero, pedir agua o pedir la cuenta. Se vinculan únicamente a la mesa, no a la persona.",
+          "**Estadísticas de uso del menú:** un identificador generado aleatoriamente para cada visualización de página, el tipo de dispositivo (teléfono, tableta, ordenador) y la familia de navegador deducidos de la información del navegador, el idioma del menú, el código de país determinado a partir de la información de red, los productos abiertos y el tiempo de permanencia en la página. Estas estadísticas se recogen sin utilizar cookies y no se utilizan para identificarle.",
+          "**Dirección IP:** se trata durante un breve periodo únicamente por motivos de seguridad y para limitar las solicitudes excesivas, y no se almacena en la base de datos."
+        ] },
+        { "p": "No se solicitan nombre, apellidos, dirección de correo electrónico, número de teléfono ni datos de pago. A través del menú no se cobra ningún pago; cuando se pide la cuenta, solo se envía un aviso al camarero." }
+      ]
+    },
+    {
+      "id": "device",
+      "heading": "4. Información almacenada en su dispositivo",
+      "blocks": [
+        { "p": "El menú no utiliza cookies. En su navegador solo se guarda la siguiente información:" },
+        { "ul": [
+          "Una clave en el almacenamiento de sesión (sessionStorage) para recordar que se ha unido a la mesa. Se elimina al cerrar la pestaña del navegador.",
+          "Pequeñas marcas en el almacenamiento local (localStorage) para recordar que ha visto las sugerencias del menú."
+        ] },
+        { "p": "No se utilizan cookies publicitarias, de seguimiento ni analíticas. Los detalles figuran en la [Política de cookies y tecnologías similares](doc:cookies)." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "5. Finalidades y bases jurídicas",
+      "blocks": [
+        { "ul": [
+          "Mostrar el menú, abrir la sesión de mesa y transmitir los pedidos y avisos al restaurante: celebración y ejecución de la relación entre usted y el restaurante (art. 5.2.c de la KVKK; art. 6.1.b) del RGPD).",
+          "Estadísticas de uso agregadas para que el restaurante mejore su menú: interés legítimo del restaurante (art. 5.2.f de la KVKK; art. 6.1.f) del RGPD).",
+          "Seguridad del servicio y prevención de abusos: interés legítimo del restaurante y de la Sociedad (art. 5.2.f de la KVKK; art. 6.1.f) del RGPD)."
+        ] },
+        { "p": "Estos tratamientos no se basan en el consentimiento expreso. No necesita dar su consentimiento para utilizar el menú ni para hacer pedidos." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "6. Plazo de conservación",
+      "blocks": [
+        { "ul": [
+          "La información de la sesión de mesa (carrito compartido, código de sesión, claves de acceso) se suprime cuando finaliza la sesión.",
+          "Los pedidos y avisos se conservan en la cuenta del restaurante para sus propios registros.",
+          "Las estadísticas de uso brutas se suprimen a los 120 días. Se conservan los resultados agregados que no identifican a las personas."
+        ] }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "7. Comunicación de la información",
+      "blocks": [
+        { "p": "La información se transmite al restaurante y a sus camareros. La Sociedad trata esta información en servidores gestionados por ella misma y no la comparte con nadie con fines publicitarios o de marketing. Quedan a salvo las solicitudes lícitas de las autoridades competentes." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "8. Sus derechos",
+      "blocks": [
+        { "p": "Para ejercer los derechos que le reconocen el art. 11 de la KVKK y, en la medida en que sean aplicables, los arts. 15 a 22 del RGPD (información, acceso, rectificación, supresión, oposición y demás), puede dirigirse al restaurante, que es el responsable del tratamiento. Las solicitudes que lleguen a la Sociedad se remitirán sin demora al restaurante correspondiente." },
+        { "p": "Puede presentar una reclamación ante el Consejo de Protección de Datos Personales en Turquía o, en la Unión Europea, el Espacio Económico Europeo o el Reino Unido, ante la autoridad de control de protección de datos del país en el que se encuentre." }
+      ]
+    }
+  ]
+}

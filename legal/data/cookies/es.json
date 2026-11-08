@@ -1,0 +1,99 @@
+{
+  "key": "cookies",
+  "version": "1.0",
+  "locale": "es",
+  "title": "Política de cookies y tecnologías similares",
+  "effective": "2026-11-08",
+  "summary": "Esta política explica las cookies y las tecnologías de almacenamiento del navegador que se utilizan en el panel de establecimientos, el portal de partners comerciales, el portal de camareros y el menú para comensales de Art of Menu. Art of Menu solo utiliza las cookies estrictamente necesarias para el funcionamiento del servicio y el almacenamiento funcional del navegador. No se utilizan cookies analíticas, publicitarias ni de marketing.",
+  "sections": [
+    {
+      "id": "operator",
+      "heading": "1. Sociedad responsable",
+      "blocks": [
+        { "p": "Art of Menu es explotado por Göktigin Bilişim Teknoloji Ltd. Şti. (la Sociedad). La información de la Sociedad figura en la página [Información corporativa y legal](doc:company). Para cualquier consulta, puede escribir a [hello@goktigin.com](mailto:hello@goktigin.com)." }
+      ]
+    },
+    {
+      "id": "what",
+      "heading": "2. ¿Qué son las cookies y el almacenamiento del navegador?",
+      "blocks": [
+        { "p": "Una cookie es un pequeño archivo de texto que un sitio web guarda en su navegador y que se devuelve al sitio en las solicitudes posteriores. El almacenamiento local (localStorage) y el almacenamiento de sesión (sessionStorage) son tecnologías similares que permiten al sitio guardar información en su navegador; esta información no se envía automáticamente al servidor. La información del almacenamiento de sesión se elimina al cerrar la pestaña." }
+      ]
+    },
+    {
+      "id": "principles",
+      "heading": "3. Principios de uso",
+      "blocks": [
+        { "ul": [
+          "Solo se utilizan tecnologías necesarias o funcionales para prestar el servicio que usted solicita, como el inicio de sesión, la seguridad y el recuerdo de sus preferencias.",
+          "No se utilizan cookies analíticas, publicitarias, de marketing ni de redes sociales. No hay píxeles de seguimiento ni códigos de rastreo de terceros.",
+          "El menú para comensales no utiliza ninguna cookie. Las estadísticas de uso del menú se recogen sin cookies.",
+          "Por ello, no se muestra ningún banner de consentimiento de cookies. Como las tecnologías utilizadas son necesarias para el funcionamiento del servicio, si se desactivan, las funcionalidades correspondientes dejarán de funcionar."
+        ] }
+      ]
+    },
+    {
+      "id": "cookies-list",
+      "heading": "4. Cookies utilizadas",
+      "blocks": [
+        { "p": "Todas las cookies siguientes son cookies de sesión propias y estrictamente necesarias. Solo se envían a través de conexiones seguras (HTTPS) y no pueden ser leídas por los scripts del navegador (HttpOnly). La cookie solo contiene una clave de sesión aleatoria; en el servidor solo se almacena el valor resumen de dicha clave." },
+        { "table": {
+          "head": ["Cookie", "Dónde", "Finalidad", "Duración"],
+          "rows": [
+            ["aom_session", "Panel de establecimientos", "Mantener abierta la sesión del usuario del establecimiento. El acceso de soporte de solo lectura del personal de soporte de la Sociedad, con conocimiento del establecimiento, también se realiza mediante esta cookie.", "Máximo 30 días; caduca si no se utiliza durante 7 días. En el acceso de soporte, máximo 2 horas."],
+            ["aom_partner_session", "Portal de partners comerciales", "Mantener abierta la sesión del partner.", "Máximo 30 días; caduca si no se utiliza durante 7 días."],
+            ["aom_waiter_session", "Portal de camareros", "Mantener abierta la sesión que el camarero ha iniciado mediante un enlace personal o un código QR.", "Máximo 180 días; caduca si no se utiliza durante 30 días."],
+            ["aom_admin_session", "Panel de administración de la Sociedad (solo personal de la Sociedad)", "Mantener abierta la sesión del personal de la Sociedad.", "Máximo 12 horas; caduca si no se utiliza durante 1 hora."]
+          ]
+        } },
+        { "p": "Al cerrar la sesión, esta finaliza y la cookie se elimina." }
+      ]
+    },
+    {
+      "id": "storage",
+      "heading": "5. Almacenamiento del navegador",
+      "blocks": [
+        { "p": "La siguiente información solo se guarda en su navegador y se utiliza con fines funcionales. La parte {...} al final de la clave representa un identificador que varía según el establecimiento, el local o el menú." },
+        { "table": {
+          "head": ["Aplicación", "Clave", "Tipo", "Finalidad", "Duración"],
+          "rows": [
+            ["Panel de establecimientos", "aom.panel.v4:{establecimiento}", "localStorage", "Caché de los datos del establecimiento para que el panel se abra con rapidez", "Hasta que se borren los datos del navegador; se actualiza en cada inicio de sesión"],
+            ["Panel de establecimientos", "aom.ui", "localStorage", "El idioma de la interfaz que ha elegido", "Hasta que se borren los datos del navegador"],
+            ["Panel de establecimientos", "aom.intro.referral.{establecimiento}, aom.setup.strip.{establecimiento}", "localStorage", "Si se han mostrado los mensajes de presentación y de configuración", "Hasta que se borren los datos del navegador"],
+            ["Panel de establecimientos", "aom.preview.invite-tip.v2:{establecimiento}, aom.preview.order-tip.v2:{establecimiento}", "localStorage", "Si se han visto las sugerencias de la vista previa del menú", "Hasta que se borren los datos del navegador"],
+            ["Panel de establecimientos", "aom.ptab", "sessionStorage", "La pestaña abierta en la página de productos", "Hasta que se cierre la pestaña"],
+            ["Panel de establecimientos y portal de partners", "aom.partner.prefill", "localStorage", "Trasladar el nombre, los apellidos y la dirección de correo electrónico al formulario de registro al pasar del panel al registro de partner", "Se lee y se elimina inmediatamente al abrir el formulario de registro; validez máxima de 10 minutos"],
+            ["Portal de partners comerciales", "aom.partner.ui", "localStorage", "El idioma de la interfaz que ha elegido", "Hasta que se borren los datos del navegador"],
+            ["Portal de camareros", "aom.waiter.ui", "localStorage", "El idioma de la interfaz que ha elegido", "Hasta que se borren los datos del navegador"],
+            ["Portal de camareros", "aom.waiter.branch", "localStorage", "El local seleccionado", "Hasta que se borren los datos del navegador"],
+            ["Portal de camareros", "aom.waiter.sound", "localStorage", "Preferencia de sonido de las notificaciones", "Hasta que se borren los datos del navegador"],
+            ["Menú para comensales", "aom.guest.access.v1:{menú}", "sessionStorage", "Recordar que se ha unido a la sesión de mesa", "Hasta que se cierre la pestaña"],
+            ["Menú para comensales", "aom.guest.invite-tip.v1:{local}, aom.guest.order-tip.v1:{local}", "localStorage", "Recordar que ha visto las sugerencias del menú", "Hasta que se borren los datos del navegador"]
+          ]
+        } }
+      ]
+    },
+    {
+      "id": "third-party",
+      "heading": "6. Contenidos de terceros",
+      "blocks": [
+        { "p": "El mapa que se muestra en el selector de ubicación del panel de establecimientos se carga desde los servidores de OpenStreetMap (openstreetmap.org). Cuando se muestra el mapa, su navegador se conecta a estos servidores y OpenStreetMap trata su dirección IP y la información de su navegador conforme a su propia política. Art of Menu no instala cookies a través de esta conexión." },
+        { "p": "Los demás servicios a los que el panel se conecta directamente desde su navegador (p. ej., traducción automática, búsqueda de direcciones, información meteorológica, tipos de cambio) se describen en el [Aviso informativo KVKK para usuarios de establecimientos](doc:privacy-business#recipients). El menú para comensales no carga contenidos de terceros." }
+      ]
+    },
+    {
+      "id": "manage",
+      "heading": "7. Eliminación de cookies y de la información almacenada",
+      "blocks": [
+        { "p": "Puede eliminar o bloquear las cookies y el almacenamiento del navegador mediante la opción de borrar los datos de sitios en la configuración de su navegador. Si se eliminan las cookies de sesión, se cerrará su sesión y deberá volver a iniciarla. Si se bloquean las cookies, el panel, el portal de partners y el portal de camareros no funcionarán. El menú para comensales funciona sin cookies; si se bloquea el almacenamiento del navegador, es posible que no se recuerde su unión a la mesa al recargar la pestaña." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "8. Cambios",
+      "blocks": [
+        { "p": "Si en el futuro la Sociedad deseara utilizar una cookie o tecnología similar que no sea estrictamente necesaria (p. ej., con fines analíticos o de marketing), actualizará esta política antes de empezar a utilizarla y, cuando proceda, recabará su consentimiento. Estas tecnologías no se activarán sin su consentimiento, y podrá retirar el consentimiento otorgado en cualquier momento." }
+      ]
+    }
+  ]
+}

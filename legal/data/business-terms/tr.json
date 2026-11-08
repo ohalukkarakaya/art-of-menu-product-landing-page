@@ -1,0 +1,215 @@
+{
+  "key": "business-terms",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Art of Menu İşletme Hizmet Sözleşmesi",
+  "effective": "2026-11-08",
+  "summary": "Bu sözleşme, Göktigin Bilişim Teknoloji Ltd. Şti.'nin Art of Menu adıyla sunduğu dijital menü ve sipariş yönetim yazılımını kullanan işletmeler için geçerlidir. Hizmetin kapsamını, tarafların sorumluluklarını, abonelik, ödeme, otomatik yenileme ve iptal koşullarını düzenler. Veri İşleme Sözleşmesi ve Kurumsal Değerler, Kabul Edilebilir Kullanım ve Marka İtibarı Politikası bu sözleşmenin bağlayıcı ekleridir.",
+  "sections": [
+    { "id": "parties", "heading": "1. Taraflar", "blocks": [
+      { "p": "Bu sözleşme (“Sözleşme”), Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye adresinde bulunan ve Antalya Kurumlar Vergi Dairesi'ne 4060725346 vergi kimlik numarasıyla kayıtlı **Göktigin Bilişim Teknoloji Limited Şirketi** (“Şirket”) ile Art of Menu hesabı oluşturan işletme (“Müşteri”) arasında kurulur." },
+      { "p": "Art of Menu, Şirket'e ait yazılım ürününün ticari adıdır ve ayrı bir tüzel kişiliği yoktur. Hizmetin sağlayıcısı ve aboneliklerin satıcısı Şirket'tir. Şirket'in diğer bilgileri [Şirket ve Yasal Bilgiler](doc:company) sayfasında yer alır." },
+      { "p": "Sözleşmeyi kayıt sırasında elektronik ortamda kabul eden kişi, Müşteri adına hareket ettiğini ve Müşteri'yi bu Sözleşme ile bağlamaya yetkili olduğunu beyan eder. Kabul eden kişinin yetkisiz olması halinde Türk Borçlar Kanunu'nun yetkisiz temsile ilişkin hükümleri uygulanır." }
+    ]},
+    { "id": "definitions", "heading": "2. Tanımlar", "blocks": [
+      { "ul": [
+        "**Hizmet:** Art of Menu adıyla sunulan işletme paneli, misafir menüsü, garson ekranı ve bunlara bağlı yazılım işlevleri.",
+        "**Panel:** Müşteri'nin Hizmet'i yönettiği çevrim içi yönetim ekranı.",
+        "**Şube:** Müşteri'nin panelde tanımladığı her bir satış noktası.",
+        "**Kullanıcı:** Müşteri'nin panele erişim verdiği hesap sahibi ve çalışanlar.",
+        "**Garson:** Müşteri'nin panelde tanımladığı ve garson ekranını kişisel bağlantı veya QR kod ile kullanan çalışan.",
+        "**Misafir:** Müşteri'nin işletmesinde menüyü görüntüleyen veya sipariş veren kişi. Misafirler Art of Menu'ye üye olmaz ve Şirket ile sözleşme ilişkisi kurmaz.",
+        "**İçerik:** Müşteri'nin Hizmet'e yüklediği veya Hizmet aracılığıyla oluşturduğu menü metinleri, ürün bilgileri, fiyatlar, fotoğraflar, logolar ve diğer veriler.",
+        "**Abonelik Dönemi:** Bir şube için aylık veya yıllık olarak seçilen ve peşin ücretlendirilen hizmet dönemi."
+      ]}
+    ]},
+    { "id": "subject", "heading": "3. Sözleşmenin Konusu ve Müşteri'nin Misafirlerine Karşı Sorumluluğu", "blocks": [
+      { "p": "Sözleşme'nin konusu, Şirket'in Müşteri'ye dijital menü ve sipariş yönetim yazılımını abonelik esasıyla kullandırması ve tarafların bu kapsamdaki hak ve yükümlülükleridir." },
+      { "p": "Şirket bir yazılım sağlayıcısıdır. Müşteri'nin misafirlerine sunduğu yiyecek, içecek ve diğer ürünlerin satıcısı değildir ve Müşteri ile misafirleri arasındaki satış ilişkisinin tarafı olmaz. Misafirler Hizmet üzerinden ödeme yapmaz. Hesap isteme işlevi yalnızca garsona bildirim gönderir; ödemenin alınması Müşteri'nin işidir." },
+      { "p": "Müşteri, misafirlerine karşı aşağıdaki konularda tek başına sorumludur:" },
+      { "ul": [
+        "menüdeki ürünlerin, porsiyonların, içeriklerin ve fiyatların doğruluğu;",
+        "alerjen, içerik, vegan, helal ve benzeri bilgilerin doğru ve eksiksiz olması;",
+        "alkollü içki ve tütün ürünü gibi yaş sınırına tabi ürünlerin satışında yasal kurallara uyulması;",
+        "fiyatların gösterilmesine ve etiketlenmesine ilişkin kurallar dahil fiyat mevzuatına uyulması;",
+        "tüketicinin korunmasına, gıda güvenliğine ve hijyene ilişkin mevzuata uyulması;",
+        "misafirlere fiş veya fatura düzenlenmesi ve vergi yükümlülüklerinin yerine getirilmesi;",
+        "siparişlerin hazırlanması, teslimi ve iptali ile misafir şikâyetlerinin çözülmesi."
+      ]}
+    ]},
+    { "id": "account", "heading": "4. Hesap, Kullanıcılar ve Garsonlar", "blocks": [
+      { "p": "Müşteri, kayıt ve fatura bilgilerini doğru ve güncel tutar. Hesabı açan Kullanıcı hesap sahibidir ve bütün yetkilere sahiptir. Müşteri, panelin sunduğu rol ve yetki ayarlarıyla diğer Kullanıcıların hangi işlemleri yapabileceğini belirler. Kullanıcıların ve Garsonların Hizmet üzerinde yaptığı işlemler Müşteri'ye ait sayılır." },
+      { "p": "Garsonlar e-posta adresi veya şifre olmadan, Müşteri'nin panelden oluşturduğu kişisel bağlantı veya QR kod ile giriş yapar. Bu bağlantıya sahip olan herkes ilgili garson ekranına erişebilir. Müşteri, bağlantıyı yalnızca ilgili çalışana verir; işten ayrılan veya bağlantısını kaybeden Garsonun erişimini panelden derhal kaldırır." },
+      { "p": "Müşteri, Kullanıcı şifrelerinin gizliliğinden ve Hizmet'e eriştiği cihazların güvenliğinden sorumludur. Yetkisiz kullanım şüphesini gecikmeden [hello@goktigin.com](mailto:hello@goktigin.com) adresine bildirir." }
+    ]},
+    { "id": "plans", "heading": "5. Paketler", "blocks": [
+      { "p": "Hizmet; Menu, Order ve Smart paketleriyle sunulur. Paket her şube için ayrı seçilir ve paket özellikleri yalnızca o şubede kullanılır." },
+      { "p": "**Menu** paketi şunları içerir:" },
+      { "ul": [
+        "şube başına bir QR kod ve menü bağlantısıyla dijital QR menü;",
+        "otomatik çeviri desteğiyle çok dilli menü;",
+        "menünün Müşteri'ye ait bir alan adı üzerinden yayımlanması;",
+        "PDF menü ve QR kod görünümünün düzenlenmesi;",
+        "kategori, ürün, set menü ve porsiyon tanımları;",
+        "alerjen, vegan, helal ve yaş sınırı etiketleri;",
+        "ürünlerin tükendi olarak işaretlenmesi ve çalışma saatlerinin gösterilmesi."
+      ]},
+      { "p": "**Order** paketi, Menu paketine ek olarak şunları içerir:" },
+      { "ul": [
+        "masa yönetimi ve masa oturumları: misafir masasını seçer, boş masada yeni oturum açılır, dolu bir masanın oturumuna 6 haneli oturum kodu veya davet bağlantısıyla katılınır;",
+        "aynı masadaki misafirlerin ortak sepeti ve siparişlerin garsonlara iletilmesi;",
+        "garson çağırma, su isteme ve hesap isteme bildirimleri;",
+        "garson ekranı: Garsonlar ad, soyad, cinsiyet ve şube bilgileriyle tanımlanır;",
+        "teslim kayıtları ve sipariş edilen ürünlerin iptali."
+      ]},
+      { "p": "**Smart** paketi, Order paketine ek olarak şunları içerir:" },
+      { "ul": [
+        "6. bölümde açıklanan dinamik fiyatlandırma;",
+        "menünün akıllı sıralanması ve birlikte tercih edilebilecek ürünlerin önerilmesi;",
+        "hava durumu, sıcaklık ve hedef yaş aralığı ölçütleriyle ürün hedefleme ayarları;",
+        "stok ve reçete yönetimi, satılan ürünlerin stoktan otomatik düşülmesi;",
+        "satış raporları."
+      ]},
+      { "p": "Şirket, paketlere yeni özellikler ekleyebilir ve mevcut özellikleri geliştirebilir. Bir paketin esaslı bir özelliğinin kaldırılması veya daraltılması [Sözleşme Değişiklikleri](doc:business-terms#changes) bölümündeki bildirim usulüne tabidir." }
+    ]},
+    { "id": "smart-pricing", "heading": "6. Smart Dinamik Fiyatlandırma", "blocks": [
+      { "p": "Dinamik fiyatlandırma, ürün fiyatlarını günlük olarak Müşteri'nin her ürün için belirlediği en düşük ve en yüksek fiyat arasında hesaplar. Müşteri şu çalışma biçimlerinden birini seçer:" },
+      { "ul": [
+        "**Otomatik:** hesaplanan fiyat, belirlenen aralık içinde Müşteri'nin ayrıca onayı aranmadan uygulanır.",
+        "**Onaylı:** hesaplanan fiyat öneri olarak sunulur ve Müşteri onayladıktan sonra uygulanır.",
+        "**Kapalı:** fiyatlar Müşteri'nin girdiği şekilde kalır."
+      ]},
+      { "p": "Bir siparişe giren ürünün fiyatı sipariş anında sabitlenir; sonraki fiyat değişiklikleri verilmiş siparişleri etkilemez." },
+      { "p": "Dinamik fiyatlandırma bir karar destek aracıdır; satış, kâr veya talep artışı garanti etmez. Fiyat aralığını ve çalışma biçimini seçen ve misafirlere gösterilen fiyatlardan sorumlu olan Müşteri'dir. Müşteri, fiyatların misafirlere sipariş öncesinde açıkça gösterilmesine, işletmede bulundurulması gereken fiyat listelerinin güncel tutulmasına ve fiyat değişikliklerine ilişkin diğer yasal kurallara uyar. Bu kurallar dinamik fiyatlandırmanın kullanımını sınırlıyorsa Müşteri işlevi buna göre ayarlar veya kapatır." }
+    ]},
+    { "id": "content", "heading": "7. İçerik", "blocks": [
+      { "p": "İçerik'in doğruluğundan, hukuka uygunluğundan ve İçerik'te kullanılan fotoğraf, logo, marka ve metinler üzerinde gerekli haklara sahip olunmasından Müşteri sorumludur. İçerik üzerindeki haklar Müşteri'de kalır." },
+      { "p": "Müşteri, Şirket'e İçerik'i yalnızca Hizmet'i sunmak amacıyla ve Sözleşme süresince barındırma, çoğaltma, çevirme, biçimlendirme ve misafir menüsünde ya da Müşteri'nin kurduğu entegrasyonlarda yayımlama konusunda ücretsiz, devredilemez ve münhasır olmayan bir kullanım izni verir. Şirket, Müşteri'nin ayrıca izni olmadan İçerik'i kendi tanıtımında kullanmaz." },
+      { "p": "Menü metinleri, Şirket'in sunucularında çalışan çeviri motoruyla veya panelde tarayıcı üzerinden kullanılan Google Translate hizmetiyle otomatik olarak çevrilebilir. Otomatik çeviriler hatalı veya eksik olabilir. Müşteri, çevirileri ve özellikle alerjen ve içerik bilgilerini yayımlamadan önce kontrol eder ve gerekirse düzeltir." },
+      { "p": "Ürün fotoğraflarının arka planı, Şirket'in sunucularında çalışan bir modelle otomatik olarak kaldırılabilir. Sonucun uygunluğunu Müşteri kontrol eder." },
+      { "p": "Şirket, bir İçerik'in hukuka veya [Kurumsal Politika](doc:corporate-policy)'ya aykırı olduğuna ilişkin somut bilgi edinirse o İçerik'i yayından kaldırabilir veya erişimini engelleyebilir ve Müşteri'yi bilgilendirir. Hukuka aykırı içerik bildirimleri [hello@goktigin.com](mailto:hello@goktigin.com) adresine yapılabilir." }
+    ]},
+    { "id": "usage-rules", "heading": "8. Kullanım Kuralları", "blocks": [
+      { "p": "Müşteri ve Kullanıcılar Hizmet'i hukuka ve bu Sözleşme'ye uygun kullanır. Özellikle aşağıdakiler yasaktır:" },
+      { "ul": [
+        "Hizmet'in güvenliğini aşmaya veya bozmaya, başka hesaplara erişmeye çalışmak;",
+        "yazılımı kopyalamak, tersine mühendislik yapmak veya kaynak kodunu elde etmeye çalışmak;",
+        "Hizmet'i olağan kullanımı aşan otomatik araçlarla yüklemek veya veri çekmek;",
+        "Hizmet'i Şirket'in yazılı izni olmadan üçüncü kişilere kiralamak veya yeniden satmak;",
+        "zararlı yazılım veya hukuka aykırı içerik yaymak."
+      ]},
+      { "p": "Müşteri, işletmesi ve yöneticileri bakımından ayrıca bu Sözleşme'nin eki olan [Kurumsal Değerler, Kabul Edilebilir Kullanım ve Marka İtibarı Politikası](doc:corporate-policy)'na uyar." }
+    ]},
+    { "id": "integrations", "heading": "9. ChatGPT Entegrasyonu", "blocks": [
+      { "p": "Müşteri, isteğe bağlı olarak hesabını ChatGPT'ye bağlayabilir. Bağlantıyı Müşteri'nin yetkili Kullanıcısı kurar ve panelden istediği zaman kaldırabilir. Bağlantı kurulduğunda ChatGPT, Müşteri'nin ürün kataloğunu, menü bilgilerini ve çalışan adlarını okuyabilir. ChatGPT üzerinden istenen değişiklikler, Müşteri panelde onaylamadan uygulanmaz." },
+      { "p": "ChatGPT hizmetini OpenAI sağlar ve bu hizmetin kullanımına OpenAI'nin koşulları uygulanır. Şirket, ChatGPT'nin ürettiği yanıtların doğruluğundan sorumlu değildir." }
+    ]},
+    { "id": "availability", "heading": "10. Hizmetin Sunulması, Bakım ve Kesintiler", "blocks": [
+      { "p": "Şirket, Hizmet'i kendi yönettiği sunucu altyapısında makul özen ve mesleki dikkatle sunar. Hizmet'in kesintisiz veya hatasız çalışacağı ya da belirli bir erişilebilirlik oranı taahhüt edilmez." },
+      { "p": "Şirket, planlı bakımları mümkün olduğunca işletmelerin yoğun olmadığı saatlerde yapar ve önceden duyurmaya çalışır. Güvenlik açığı veya ciddi arıza durumunda önceden bildirim yapmadan müdahale edebilir." },
+      { "p": "Hizmet; internet bağlantısına, alan adı sistemine (DNS), Müşteri'nin özel alan adı ayarlarına, tarayıcılara ve harita, hava durumu, döviz kuru, e-posta gönderimi ve ödeme gibi üçüncü kişi hizmetlerine bağlıdır. Bu hizmetlerdeki aksaklıklardan Şirket sorumlu değildir." },
+      { "p": "Doğal afet, salgın, savaş, terör, yangın, yaygın elektrik veya internet kesintisi, makul önlemlere rağmen önlenemeyen siber saldırı ve resmî makam kararları gibi Şirket'in kontrolü dışındaki olaylar süresince Şirket'in etkilenen yükümlülükleri askıda kalır. Bu durum 60 günden uzun sürerse taraflardan her biri Sözleşme'yi feshedebilir." },
+      { "p": "Müşteri, Hizmet'e erişilemeyen durumlarda işletmesinin çalışmasını sürdürebilmek için basılı fiyat listesi gibi yasal olarak da gerekli olabilecek alternatif yöntemleri bulundurur." }
+    ]},
+    { "id": "security", "heading": "11. Güvenlik ve Destek Erişimi", "blocks": [
+      { "p": "Şirket, Hizmet'in ve verilerin güvenliği için makul teknik ve idari tedbirleri alır. Bu tedbirler [Veri İşleme Sözleşmesi](doc:dpa#security)'nde açıklanmıştır." },
+      { "p": "Şirket çalışanları, destek amacıyla Müşteri hesabına yalnızca süreli ve panelde görülebilen bir erişimle girer. Bu erişimler kayıt altına alınır." }
+    ]},
+    { "id": "data-protection", "heading": "12. Kişisel Verilerin Korunması", "blocks": [
+      { "p": "Şirket, Kullanıcıların hesap, oturum ve fatura bilgileri bakımından veri sorumlusudur. Bu verilerin işlenmesi [İşletme Kullanıcıları için KVKK Aydınlatma Metni ve Gizlilik Bildirimi](doc:privacy-business)'nde açıklanmıştır." },
+      { "p": "Misafirlere ait masa oturumu, sipariş, çağrı ve menü kullanım verileri ile Garsonların ve Müşteri'nin Hizmet'e girdiği diğer çalışanların verileri bakımından Müşteri veri sorumlusu, Şirket veri işleyendir. Bu işleme, Sözleşme'nin eki olan [Veri İşleme Sözleşmesi](doc:dpa)'ne tabidir." },
+      { "p": "Misafirlerine ve çalışanlarına karşı aydınlatma yükümlülüğünü Müşteri yerine getirir. Müşteri, paneldeki misafir aydınlatma bilgileri alanını doldurarak kimlik ve iletişim bilgilerinin misafir gizlilik sayfasında gösterilmesini sağlayabilir. Misafir menüsünde kullanılan teknolojiler [Çerez ve Benzeri Teknolojiler Politikası](doc:cookies)'nda açıklanmıştır." }
+    ]},
+    { "id": "subscription", "heading": "13. Abonelik, Ücretler ve Ödeme", "blocks": [
+      { "p": "**Şube başına ücret.** Ücretler her şube için seçilen pakete ve döneme göre ayrı ayrı hesaplanır. Aynı tüzel kişiye ait bütün şubeler tek bir fatura hesabında ve ortak bir fatura döneminde toplanır. Her dönem için şube başına ayrı satırlar içeren tek fatura düzenlenir." },
+      { "p": "**Fiyatlar.** Yıllık ücret, aylık ücretin 10 katıdır. Bu Sözleşme'nin yürürlük tarihindeki şube başı liste fiyatları şunlardır:" },
+      { "table": {
+        "head": ["Paket", "Dönem", "Türkiye (TRY, KDV dahil)", "Avrupa (EUR, vergiler hariç)", "Diğer ülkeler (USD, vergiler hariç)"],
+        "rows": [
+          ["Menu", "Aylık", "399 TL", "9 €", "12 $"],
+          ["Menu", "Yıllık", "3.990 TL", "90 €", "120 $"],
+          ["Order", "Aylık", "999 TL", "29 €", "35 $"],
+          ["Order", "Yıllık", "9.990 TL", "290 €", "350 $"],
+          ["Smart", "Aylık", "1.999 TL", "59 €", "69 $"],
+          ["Smart", "Yıllık", "19.990 TL", "590 €", "690 $"]
+        ]
+      }},
+      { "p": "**Para birimi ve vergiler.** Para birimi Müşteri'nin bulunduğu ülkeye göre belirlenir ve ödeme ekranında gösterilir. Türkiye fiyatlarına %20 KDV dahildir. Avrupa fiyatları nettir; uygulanabilir katma değer vergisi ödeme ekranında ayrıca gösterilir. Geçerli bir KDV kimlik numarası bildiren Müşteriler için, mevzuatın öngördüğü hallerde vergi Müşteri tarafından beyan edilir (reverse charge). Diğer ülkelerdeki fiyatlar nettir; Müşteri'nin ülkesinde uygulanan satış vergisi veya benzeri vergiler varsa ödeme ekranında gösterilir veya Müşteri tarafından ödenir. Kartı çıkaran bankanın uyguladığı kur farkı ve masraflar Müşteri'ye aittir." },
+      { "p": "**Ücretsiz deneme yoktur.** İlk Abonelik Dönemi'nin ücreti abonelik başlatılırken tahsil edilir. İlk tahsilat başarısız olursa abonelik başlamaz." },
+      { "p": "**Otomatik yenileme ve tahsilat yetkisi.** Abonelik, iptal edilinceye kadar aynı süreyle kendiliğinden yenilenir. Müşteri, abonelik başlatırken ayrıca onay vererek Şirket'in, kayıtlı kartından her yeni Abonelik Dönemi'nin başında o dönemin ücretini ve vergilerini, Şirket'in çalıştığı lisanslı ödeme hizmet sağlayıcısı aracılığıyla her seferinde ayrıca onay almadan tahsil etmesine izin verir. Bu yetki, abonelik iptal edildiğinde veya hesap kapatıldığında sonraki dönemler için sona erer." },
+      { "p": "**Paket değişikliği ve yeni şube.** Dönem içinde üst pakete geçiş veya yeni şube eklenmesi hemen uygulanır; kalan gün sayısına göre oranlanan ücret farkı bir sonraki faturaya eklenir. Alt pakete geçiş, içinde bulunulan dönemin sonunda geçerli olur ve bu nedenle ücret iadesi yapılmaz." },
+      { "p": "**Başarısız tahsilat.** Yenileme ücreti tahsil edilemezse aşağıdaki süreç uygulanır. Günler, yenileme tarihinden itibaren sayılır:" },
+      { "ul": [
+        "0–6. gün (gecikme): Hizmet'in tamamı çalışmaya devam eder ve Müşteri bilgilendirilir.",
+        "Tahsilat 1., 3., 5. ve 7. günlerde, ardından üç günde bir yeniden denenir.",
+        "7. günden itibaren (kısıtlı kullanım): yalnızca temel menü, taban fiyatlarla yayında kalır; ücretli paket özellikleri kullanılamaz.",
+        "30. günden itibaren (askı): misafir menüsünde menünün geçici olarak kullanılamadığı gösterilir.",
+        "Ödeme yapıldığında Hizmet ödenen pakete göre yeniden açılır. Bu süreç boyunca veriler silinmez."
+      ]},
+      { "p": "Askı durumu devam ederse Şirket, e-posta ile bildirerek Sözleşme'yi feshedebilir. Bu durumda [Askıya Alma ve Fesih](doc:business-terms#termination) bölümündeki hesap kapatma hükümleri uygulanır." },
+      { "p": "**İptal.** Müşteri aboneliğini istediği zaman panelden iptal edebilir. İptal, ödenmiş dönemin sonunda geçerli olur; o tarihe kadar Hizmet kullanılabilir ve iptal geri alınabilir. İptal sırasında kısa bir iptal nedeni sorulur." },
+      { "p": "**İade.** Başlamış bir Abonelik Dönemi'nin ücreti, kalan süre için de iade edilmez. Emredici hukukun iadeyi zorunlu kıldığı haller ve Şirket'in iade yapmaya karar verdiği haller saklıdır. Şirket, Müşteri'nin kusuru olmaksızın Sözleşme'yi sona erdirirse ödenmiş ve kullanılmamış süreye ait ücreti iade eder." },
+      { "p": "**Fiyat değişikliği.** Şirket liste fiyatlarını değiştirebilir. Yeni fiyat, Müşteri'ye e-posta ve panel üzerinden en az 30 gün önce bildirilir ve bildirimden sonraki ilk yenilemeden itibaren uygulanır. Yeni fiyatı kabul etmeyen Müşteri, yenileme tarihinden önce aboneliğini iptal edebilir. Başlamış bir dönemin ücreti dönem içinde değiştirilmez. Vergi oranlarındaki değişiklikler yürürlük tarihlerinden itibaren uygulanır." },
+      { "p": "**Fatura.** Faturalar Şirket tarafından, Müşteri'nin panelde bildirdiği fatura bilgilerine göre düzenlenir ve elektronik ortamda sunulur. Fatura bilgilerinin doğruluğundan Müşteri sorumludur." },
+      { "p": "**Ödeme altyapısı ve kart bilgileri.** Ödemeler, Şirket'in çalıştığı lisanslı ödeme hizmet sağlayıcısının altyapısı üzerinden alınır ve ödemeyi alan taraf Şirket'tir. Kart numarası ve güvenlik kodu (CVV) Şirket'in sistemlerinde saklanmaz. Şirket yalnızca ödeme hizmet sağlayıcısının verdiği kart referansını ve kartı tanımaya yarayan kart markası, son dört hane ve son kullanma tarihi bilgisini saklar." },
+      { "p": "**Hediye dönemleri.** Şirket, kendi takdiriyle bir şubeye belirli bir süre ücretsiz paket kullanımı tanımlayabilir. Hediye süreleri için ücret alınmaz; bu süreler iade veya nakit ödeme konusu olmaz. Hediye süresi kendiliğinden ücretli aboneliğe dönüşmez." },
+      { "p": "Şirket tarafından engellenen veya kapatılan hesaplardan yenileme ücreti tahsil edilmez." }
+    ]},
+    { "id": "termination", "heading": "14. Askıya Alma ve Fesih", "blocks": [
+      { "p": "Sözleşme süresizdir. Müşteri, aboneliğini panelden iptal ederek veya hesap sahibi aracılığıyla hesabını kapatarak Sözleşme'yi istediği zaman sona erdirebilir. Hesap kapatıldığında Hizmet sona erer ve başlamış dönemin ücreti iade edilmez." },
+      { "p": "Şirket aşağıdaki hallerde Hizmet'i askıya alabilir veya Sözleşme'yi feshedebilir:" },
+      { "ul": [
+        "[Kurumsal Politika](doc:corporate-policy) ihlalinde: derhal ve bildirim yaparak;",
+        "ödeme yapılmamasında: [Abonelik](doc:business-terms#subscription) bölümündeki sürece göre;",
+        "diğer esaslı ihlallerde: Şirket ihlali yazılı olarak bildirir ve ihlal 7 gün içinde giderilmezse feshedebilir; Hizmet'in güvenliğini, misafirleri veya üçüncü kişileri tehlikeye sokan ihlallerde Hizmet derhal askıya alınabilir;",
+        "yetkili makam kararı veya mevzuat Hizmet'in sunulmasını engellediğinde."
+      ]},
+      { "p": "Şirket, en az 90 gün önceden bildirmek ve ödenmiş, kullanılmamış süreye ait ücreti iade etmek koşuluyla Sözleşme'yi sebep göstermeden de feshedebilir." },
+      { "p": "**Hesap kapatmanın sonuçları.** Kapatılan hesap 30 gün içinde geri açılabilir. Bu süre dolduğunda menü ve ürün bilgileri, görseller, analiz verileri, siparişler, masa oturumları ve diğer işletme verileri silinir; Kullanıcı bilgileri anonim hale getirilir. Faturalar, fatura hesabı bilgileri, abonelik geçmişi, işlem kayıtları ve sözleşme kabul kayıtları Vergi Usul Kanunu ve Türk Ticaret Kanunu'nun öngördüğü süreler boyunca saklanır. Müşteri, hesabını kapatmadan önce ihtiyaç duyduğu bilgileri kendisi kaydeder." },
+      { "p": "Ödeme yükümlülükleri ile sorumluluk, delil, uygulanacak hukuk ve yetkili mahkemeye ilişkin hükümler Sözleşme'nin sona ermesinden sonra da geçerlidir." }
+    ]},
+    { "id": "commercial-nature", "heading": "15. Ticari Nitelik", "blocks": [
+      { "p": "Müşteri, Hizmet'i ticari veya mesleki faaliyeti için edinir ve bu Sözleşme'de tüketici sıfatıyla hareket etmez. Bu nedenle 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği'ndeki cayma hakkı ile diğer ülkelerin tüketicilere tanıdığı cayma hakları bu Sözleşme'ye uygulanmaz. Müşteri'nin bulunduğu ülkenin ticari işlemlere uygulanan emredici kuralları saklıdır." }
+    ]},
+    { "id": "liability", "heading": "16. Sorumluluk", "blocks": [
+      { "p": "Şirket, bu Sözleşme'ye aykırılıktan doğan doğrudan zararlardan sorumludur. Kâr kaybı, ciro kaybı, itibar kaybı ve diğer dolaylı zararlardan ve Müşteri ile misafirleri arasındaki ilişkiden doğan taleplerden sorumlu değildir." },
+      { "p": "Şirket'in toplam sorumluluğu, zarara yol açan olaydan önceki 12 ay içinde Müşteri'nin Şirket'e ödediği abonelik ücretlerinin toplamıyla sınırlıdır." },
+      { "p": "Bu bölümdeki sınırlamalar kast ve ağır ihmal hallerinde uygulanmaz (Türk Borçlar Kanunu md. 115). Emredici hukukun sorumluluğun sınırlanmasını yasakladığı diğer haller de saklıdır." },
+      { "p": "Müşteri; İçerik'ten, sattığı ürünlerden, fiyatlarından, misafirleriyle ilişkisinden veya bu Sözleşme'ye aykırılığından dolayı üçüncü kişilerin Şirket'e yönelttiği talepler ve Şirket'e verilen idari para cezaları nedeniyle Şirket'in uğradığı zararı karşılar." }
+    ]},
+    { "id": "intellectual-property", "heading": "17. Fikri Mülkiyet", "blocks": [
+      { "p": "Hizmet'e ait yazılım, tasarım, şablonlar ve Art of Menu markası üzerindeki bütün haklar Şirket'e aittir. Müşteri'ye Sözleşme süresince Hizmet'i kullanmak için münhasır olmayan ve devredilemez bir kullanım hakkı tanınır. Müşteri'nin Hizmet'e ilişkin önerilerini Şirket, Müşteri'ye bir yükümlülük doğmadan kullanabilir." }
+    ]},
+    { "id": "changes", "heading": "18. Sözleşme Değişiklikleri", "blocks": [
+      { "p": "Şirket bu Sözleşme'yi ve eklerini değiştirebilir. Değişiklikler, yürürlük tarihinden en az 30 gün önce e-posta ve panel üzerinden bildirilir. Yasal bir zorunluluk veya güvenlik gereği daha kısa süre uygulanabilir." },
+      { "p": "Müşteri'nin hak ve yükümlülüklerini esaslı biçimde etkileyen değişiklikler, Müşteri panelde yeni metni kabul ettiğinde uygulanır. Diğer değişiklikler yürürlük tarihinden itibaren uygulanır. Değişikliği kabul etmeyen Müşteri, yürürlük tarihinden önce aboneliğini iptal edebilir veya hesabını kapatabilir." }
+    ]},
+    { "id": "notices", "heading": "19. Bildirimler", "blocks": [
+      { "p": "Şirket, Müşteri'ye yapacağı bildirimleri hesap sahibinin kayıtlı e-posta adresine veya panel üzerinden yapar. E-posta ile yapılan bildirim, gönderildiği tarihte yapılmış sayılır. Müşteri e-posta adresini güncel tutar." },
+      { "p": "Müşteri, Şirket'e yapacağı bildirimleri [hello@goktigin.com](mailto:hello@goktigin.com) adresine veya Şirket'in 1. bölümde yazılı adresine yapar." }
+    ]},
+    { "id": "evidence", "heading": "20. Delil", "blocks": [
+      { "p": "Taraflar, bu Sözleşme'den doğan uyuşmazlıklarda Şirket'in elektronik kayıtlarının, sunucu ve sistem kayıtlarının ve sözleşme kabul kayıtlarının 6100 sayılı Hukuk Muhakemeleri Kanunu md. 193 uyarınca delil olarak kullanılabileceğini kabul eder. Bu hüküm, Müşteri'nin karşı delil sunma hakkını ortadan kaldırmaz." }
+    ]},
+    { "id": "governing-law", "heading": "21. Uygulanacak Hukuk ve Yetkili Mahkeme", "blocks": [
+      { "p": "Bu Sözleşme Türkiye Cumhuriyeti hukukuna tabidir. Sözleşme'den doğan uyuşmazlıklarda Antalya Mahkemeleri ve İcra Daireleri yetkilidir. Müşteri'nin bulunduğu ülkenin bu konudaki emredici kuralları saklıdır." }
+    ]},
+    { "id": "final", "heading": "22. Son Hükümler", "blocks": [
+      { "ul": [
+        "Müşteri, bu Sözleşme'den doğan hak ve yükümlülüklerini Şirket'in yazılı izni olmadan üçüncü kişilere devredemez. Şirket, birleşme, bölünme veya işletme devri halinde Sözleşme'yi Müşteri'ye bildirerek halefine devredebilir.",
+        "Sözleşme'nin bir hükmünün geçersiz olması diğer hükümlerin geçerliliğini etkilemez.",
+        "Sözleşme ve ekleri, taraflar arasındaki anlaşmanın tamamını oluşturur.",
+        "Sözleşme'nin Türkçe metni esastır. Diğer dillerdeki metinler bilgi amaçlıdır; çelişki halinde Türkçe metin uygulanır.",
+        "Sözleşme, Müşteri'nin kayıt sırasında elektronik ortamda kabulüyle yürürlüğe girer."
+      ]}
+    ]},
+    { "id": "annexes", "heading": "23. Ekler", "blocks": [
+      { "p": "Aşağıdaki belgeler bu Sözleşme'nin bağlayıcı ekleridir ve Sözleşme ile birlikte kabul edilmiş sayılır:" },
+      { "ol": [
+        "Ek-1: [Veri İşleme Sözleşmesi](doc:dpa)",
+        "Ek-2: [Kurumsal Değerler, Kabul Edilebilir Kullanım ve Marka İtibarı Politikası](doc:corporate-policy)"
+      ]}
+    ]}
+  ],
+  "annexes": ["dpa", "corporate-policy"]
+}

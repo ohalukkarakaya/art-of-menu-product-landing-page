@@ -1,0 +1,181 @@
+{
+  "key": "privacy-partner",
+  "version": "1.0",
+  "locale": "en",
+  "title": "KVKK Privacy Notice for Sales Partners",
+  "effective": "2026-11-08",
+  "summary": "This notice explains how Göktigin Bilişim Teknoloji Ltd. Şti. processes the personal data of people who apply to and take part in the Art of Menu sales partner programme, as required by Article 10 of the Turkish Personal Data Protection Law No. 6698 (KVKK) and the Communiqué on the Procedures and Principles to Be Followed in Fulfilling the Obligation to Inform. Additional information for partners located in the European Union, the European Economic Area or the United Kingdom is given in section 11. This notice is not a contract or a consent form; it is provided for information only.",
+  "sections": [
+    {
+      "id": "controller",
+      "heading": "1. Data Controller",
+      "blocks": [
+        { "p": "Your personal data is processed by **Göktigin Bilişim Teknoloji Limited Şirketi** (the Company) as data controller." },
+        { "ul": [
+          "Address: Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye",
+          "Tax office and number: Antalya Corporate Tax Office, 4060725346",
+          "E-mail: [hello@goktigin.com](mailto:hello@goktigin.com)",
+          "Telephone: +90 554 238 70 07"
+        ] },
+        { "p": "Further details about the Company are set out on the [Company and Legal Information](doc:company) page. The Company has no company, branch or representative outside Türkiye." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "2. Personal Data Processed",
+      "blocks": [
+        { "table": {
+          "head": ["Data category", "Data"],
+          "rows": [
+            ["Identity", "First name, last name, date of birth, nationality, identity document type (Turkish ID number, passport or national identity card) and number. For partners that are legal entities: company name, tax identification number and tax office."],
+            ["Contact", "E-mail address, telephone number, address, city, postcode, country."],
+            ["Financial", "Bank account details (account holder, IBAN or account number, BIC/SWIFT code, bank name and address, and bank routing code where required), bank country, payment currency, commission and payment records, expense voucher and invoice details, tax withholding details."],
+            ["Customer transaction", "Partner code, names of the businesses that registered with the code, plan, billing period, amount and date of these businesses' first payment, commission status and reasons for voiding."],
+            ["Transaction security", "Irreversible hash of the password, session records (session cookie, browser information, session start and last-used times), e-mail verification and password reset records, audit logs of actions taken in the account."],
+            ["Legal transaction", "Agreement acceptance records (document accepted, version, language, date, hash of the IP address and browser information), records of and reasons for the suspension of payments or of the account, dispute and correspondence records."],
+            ["Other", "Language preference and e-mail correspondence with the Company."]
+          ]
+        } },
+        { "p": "Identity document numbers and bank account details are stored encrypted in the database. For listing and verification purposes, only the bank country, payment currency and the last four digits of the account number are kept separately." },
+        { "p": "The Company does not ask partners for special categories of personal data (for example health, religion, political opinions or biometric data). No photograph or copy of the identity document is taken." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "3. Purposes of Processing",
+      "blocks": [
+        { "ul": [
+          "opening the partner account, verifying the e-mail address and managing the account;",
+          "issuing the partner code and attributing businesses that register with the code to the partner;",
+          "calculating, confirming, voiding and paying commissions;",
+          "fulfilling tax and accounting obligations, such as issuing expense vouchers, recording invoices and making tax deductions;",
+          "checking that the partner is at least 18 years old and that the identity details are consistent;",
+          "preventing and detecting self-referrals, duplicate accounts and fraudulent transactions;",
+          "ensuring account and system security;",
+          "communicating with the partner about the agreement, payments, the account and security;",
+          "applying the Sales Partner Agreement and the Corporate Policy, and proving acceptance of the agreement;",
+          "establishing, exercising and defending rights in legal disputes, and responding to lawful requests from competent authorities and bodies."
+        ] },
+        { "p": "The Company does not send partners marketing e-mails or commercial electronic messages. E-mails sent to partners are limited to matters concerning the account, the agreement, commissions and payments." }
+      ]
+    },
+    {
+      "id": "legal-bases",
+      "heading": "4. Legal Grounds",
+      "blocks": [
+        { "p": "Your personal data is processed on the following legal grounds under Article 5(2) KVKK:" },
+        { "ul": [
+          "**(c) Conclusion or performance of a contract:** account, partner code, referral, commission and payment operations.",
+          "**(ç) Compliance with a legal obligation:** obligations to issue documents, make deductions, retain records and make notifications under the Tax Procedure Law, the Income Tax Law, the Turkish Commercial Code and related legislation; requests from competent authorities.",
+          "**(e) Establishment, exercise or protection of a right:** agreement acceptance records, commission and payment records, dispute records.",
+          "**(f) Legitimate interest:** prevention of fraudulent transactions and abuse, account and system security, audit logs. This processing is carried out only to the extent necessary and without harming your fundamental rights and freedoms."
+        ] },
+        { "p": "The processing described in this notice is not based on your explicit consent. You are therefore not asked for explicit consent." }
+      ]
+    },
+    {
+      "id": "collection",
+      "heading": "5. Method of Collection",
+      "blocks": [
+        { "p": "Your personal data is collected electronically, by automated and partly automated means, directly from you through the registration form and the profile and bank details forms in the Partner Portal, from transactions made with your partner code in Art of Menu systems, from session and security records and from your correspondence with the Company. Information received from banks and public authorities during payment and tax processes may also be recorded." },
+        { "p": "If you do not provide the information needed to conclude and perform the agreement, no partner code can be issued and no commission can be paid." }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "6. Recipients",
+      "blocks": [
+        { "p": "Your personal data is transferred only to the following recipients, and only to the extent necessary for the stated purpose:" },
+        { "ul": [
+          "**Banks:** the Company's bank, your bank and, for international transfers, correspondent and intermediary banks, in order to pay commission. The data transferred is your name or company name, bank account details, address and the payment amount.",
+          "**Public authorities and bodies:** the Revenue Administration and tax offices, and other legally competent authorities, bodies and courts, in the context of statutory notification obligations and lawful requests.",
+          "**E-mail delivery service provider:** to deliver verification, password reset, partner code, commission and payment e-mails. Where e-mail sending is configured for this purpose, the Company uses the Resend service. The provider processes the recipient's e-mail address, name and the content of the e-mail.",
+          "**Legal and financial advisers, auditors:** for accounting, tax, audit and legal dispute processes, under a duty of confidentiality."
+        ] },
+        { "p": "Your personal data is never shared with or sold to any third party for marketing purposes. Art of Menu's primary data is kept on server infrastructure managed by the Company." }
+      ]
+    },
+    {
+      "id": "transfers-abroad",
+      "heading": "7. Transfers Abroad",
+      "blocks": [
+        { "p": "Your personal data may be transferred abroad in the following cases:" },
+        { "ul": [
+          "The e-mail delivery service provider (Resend) is based in the United States. E-mails sent to you are transmitted through this provider's systems.",
+          "If your bank account is outside Türkiye, your payment details are sent to your bank and to the correspondent and intermediary banks through which the international transfer passes, so that the payment can be made."
+        ] },
+        { "p": "Transfers abroad are made in accordance with the conditions laid down in Article 9 KVKK. For transfers to countries for which the Personal Data Protection Board has not issued an adequacy decision, one of the appropriate safeguards listed in Article 9(4) (for example the standard contract announced by the Board) is relied on. Where appropriate safeguards cannot be provided, the transfer is made on an occasional basis under one of the cases listed in Article 9(6), in particular where the transfer is necessary for the performance of the contract with you (Article 9(6)(b)). Payments to your bank account abroad fall within this scope." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "8. Retention Period",
+      "blocks": [
+        { "ul": [
+          "Account, profile, bank, commission and payment records are retained for the term of the agreement and, after it ends, for the periods required by the relevant legislation (for example 10 years under Article 82 of the Turkish Commercial Code and 5 years under Article 253 of the Tax Procedure Law).",
+          "Agreement acceptance records and dispute records are retained for the limitation period of the related claims.",
+          "Session records are retained for a limited period after the session ends, and e-mail verification and password reset records for a limited period after they expire, for security purposes.",
+          "Audit logs are kept in a form that cannot be altered and are retained for as long as necessary for account security and legal obligations."
+        ] },
+        { "p": "Personal data whose retention period has expired is erased, destroyed or anonymised." }
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "9. Security",
+      "blocks": [
+        { "p": "The Company takes appropriate technical and organisational measures to keep your personal data secure. Passwords are stored only as irreversible hashes. Identity document numbers and bank details are encrypted. Session cookies are transmitted only over secure connections and cannot be read by scripts in the browser. Personal data is accessed only by Company staff who need access to perform their duties." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "10. Your Rights and How to Apply",
+      "blocks": [
+        { "p": "Under Article 11 KVKK, you may apply to the Company to exercise the following rights:" },
+        { "ul": [
+          "to learn whether your personal data is processed;",
+          "to request information about the processing if it has been processed;",
+          "to learn the purpose of the processing and whether the data is used in line with that purpose;",
+          "to know the third parties in Türkiye or abroad to whom the data is transferred;",
+          "to request rectification if the data is incomplete or inaccurate;",
+          "to request erasure or destruction under the conditions set out in Article 7 KVKK;",
+          "to request that rectification, erasure and destruction be notified to the third parties to whom the data has been transferred;",
+          "to object to an outcome to your detriment that results from analysis of the data exclusively by automated systems;",
+          "to claim compensation if you suffer loss as a result of unlawful processing."
+        ] },
+        { "p": "In accordance with the Communiqué on the Procedures and Principles for Applications to the Data Controller, you may submit your application, clearly stating your identity and your request, by one of the following means:" },
+        { "ul": [
+          "by a written petition bearing your wet-ink signature sent to the Company's address;",
+          "by e-mail to [hello@goktigin.com](mailto:hello@goktigin.com) from the e-mail address registered in your partner account;",
+          "by an application signed with a secure electronic signature or mobile signature."
+        ] },
+        { "p": "The Company concludes your application free of charge within 30 days at the latest, depending on its nature. If the action requires an additional cost, a fee may be charged according to the tariff set by the Personal Data Protection Board. If your application is rejected, you find the response inadequate or no response is given in time, you may lodge a complaint with the Personal Data Protection Board under Article 14 KVKK." },
+        { "p": "No decision that produces a result to your detriment and is based solely on automated processing is taken about your personal data. In cases such as suspected fraudulent transactions, system alerts are reviewed by Company staff." }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "heading": "11. Additional Information for Partners in the EU, EEA and United Kingdom",
+      "blocks": [
+        { "p": "If you are located in the European Union, the European Economic Area or the United Kingdom, the General Data Protection Regulation (GDPR) or the UK GDPR may also apply to the processing of your personal data. In that case, the Company is still the controller." },
+        { "p": "**Legal bases:**" },
+        { "ul": [
+          "Article 6(1)(b) GDPR: conclusion and performance of the Sales Partner Agreement (account, partner code, commission and payment operations).",
+          "Article 6(1)(c) GDPR: legal obligations to which the Company is subject (tax, accounting and record-keeping obligations).",
+          "Article 6(1)(f) GDPR: the Company's legitimate interests (prevention of fraudulent transactions, account and system security, establishment and defence of legal claims). You may request information about the assessment of whether these interests are overridden by your rights."
+        ] },
+        { "p": "**Transfers to and from Türkiye:** your data is collected by the Company, which is established in Türkiye, and processed in Türkiye. There is no adequacy decision of the European Commission for Türkiye. Processing your data in Türkiye is necessary for the performance of the Sales Partner Agreement concluded with you (Article 49(1)(b) GDPR). Transfers to the e-mail delivery service provider and to banks abroad are described in sections 6 and 7; these transfers rely on the appropriate mechanism provided for in Chapter V of the GDPR." },
+        { "p": "**Your rights:** under Articles 15 to 22 GDPR, you have the right of access, rectification, erasure, restriction of processing, data portability and the right to object to processing based on legitimate interests. You may submit your request by the means set out in section 10. The Company responds to your request within one month at the latest; this period may be extended to the extent permitted by Article 12(3) GDPR where the request is complex, and you will be informed of any extension." },
+        { "p": "**Right to lodge a complaint:** you may lodge a complaint with the data protection supervisory authority in the country of your habitual residence, your place of work or the place of the alleged infringement." },
+        { "p": "If you do not provide the data required for the performance of the agreement and for legal obligations, no partner code can be issued and no payment can be made. No automated decision-making or profiling takes place." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "12. Changes to This Notice",
+      "blocks": [
+        { "p": "The Company updates this notice when its data processing activities change. The current notice is published with its effective date and version number. Material changes are also notified separately through the Partner Portal or by e-mail." }
+      ]
+    }
+  ]
+}

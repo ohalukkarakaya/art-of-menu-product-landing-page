@@ -1,0 +1,89 @@
+{
+  "key": "privacy-guest",
+  "version": "1.0",
+  "locale": "fr",
+  "title": "Information sur la confidentialité à l'intention des convives",
+  "effective": "2026-11-08",
+  "summary": "Ce texte explique quelles informations sont traitées lorsque vous utilisez le menu QR d'un restaurant. Pour utiliser le menu, vous n'avez pas besoin de créer un compte ni de communiquer votre nom, votre adresse e-mail ou votre numéro de téléphone. Le logiciel du menu est Art of Menu ; le menu et les commandes sont gérés par le restaurant.",
+  "sections": [
+    {
+      "id": "restaurant",
+      "heading": "1. Responsable du traitement : le restaurant",
+      "blocks": [
+        { "p": "Le responsable du traitement des informations traitées lors de votre utilisation du menu est le restaurant dont les coordonnées figurent en haut de cette page. Le restaurant gère lui-même son menu, ses commandes et la disposition de ses tables, et prépare et vend lui-même vos commandes." },
+        { "p": "Si les coordonnées du restaurant ne sont pas affichées ou sont incomplètes, vous pouvez les demander au personnel du restaurant." }
+      ]
+    },
+    {
+      "id": "provider",
+      "heading": "2. Rôle d'Art of Menu",
+      "blocks": [
+        { "p": "Art of Menu est un logiciel de menu numérique et de gestion des commandes proposé aux restaurants par Göktigin Bilişim Teknoloji Ltd. Şti. (la Société). La Société traite les informations relatives à l'utilisation du menu pour le compte du restaurant et sur ses instructions, en qualité de sous-traitant. La Société n'utilise pas ces informations à ses propres fins et ne les vend pas." },
+        { "p": "La Société est en outre responsable du traitement uniquement pour les journaux techniques qu'elle conserve afin d'assurer la sécurité du service de menu. Les informations relatives à la Société figurent sur la page [Société et informations légales](doc:company)." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "3. Informations traitées",
+      "blocks": [
+        { "ul": [
+          "**Session de table :** la table que vous avez choisie, le panier partagé à la table et le code de session à 6 chiffres utilisé pour rejoindre la table. Les appareils qui rejoignent la table sont reconnus au moyen d'une clé aléatoire dont seule l'empreinte (hash) est conservée.",
+          "**Commandes et appels :** les commandes que vous envoyez et les appels au serveur, pour de l'eau ou pour l'addition. Ils sont rattachés uniquement à la table, et non à une personne.",
+          "**Statistiques d'utilisation du menu :** un identifiant généré aléatoirement pour chaque affichage de page, le type d'appareil (téléphone, tablette, ordinateur) et la famille de navigateur déduits des informations du navigateur, la langue du menu, le code pays déterminé à partir des informations réseau, les produits consultés et le temps passé sur la page. Ces statistiques sont collectées sans cookie et ne sont pas utilisées pour vous identifier.",
+          "**Adresse IP :** traitée brièvement, uniquement pour la sécurité et la limitation des requêtes excessives, et non conservée dans la base de données."
+        ] },
+        { "p": "Aucun prénom, nom, adresse e-mail, numéro de téléphone ni information de paiement n'est demandé. Aucun paiement n'est encaissé via le menu ; lorsque vous demandez l'addition, seule une notification est envoyée au serveur." }
+      ]
+    },
+    {
+      "id": "device",
+      "heading": "4. Informations stockées sur votre appareil",
+      "blocks": [
+        { "p": "Le menu n'utilise pas de cookies. Seules les informations suivantes sont conservées dans votre navigateur :" },
+        { "ul": [
+          "Une clé dans le stockage de session (sessionStorage) pour mémoriser que vous avez rejoint la table. Elle est supprimée à la fermeture de l'onglet du navigateur.",
+          "De petits marqueurs dans le stockage local (localStorage) pour mémoriser que vous avez vu les astuces du menu."
+        ] },
+        { "p": "Aucun cookie publicitaire, de suivi ou d'analyse n'est utilisé. Pour plus de détails, consultez la [Politique relative aux cookies et technologies similaires](doc:cookies)." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "5. Finalités et bases juridiques",
+      "blocks": [
+        { "ul": [
+          "Affichage du menu, ouverture de la session de table, transmission des commandes et des appels au restaurant : conclusion et exécution de la relation entre vous et le restaurant (loi turque n° 6698 sur la protection des données personnelles (KVKK), art. 5/2-c ; RGPD, art. 6, par. 1, point b).",
+          "Statistiques d'utilisation agrégées permettant au restaurant d'améliorer son menu : intérêt légitime du restaurant (KVKK, art. 5/2-f ; RGPD, art. 6, par. 1, point f).",
+          "Sécurité du service et prévention des abus : intérêt légitime du restaurant et de la Société (KVKK, art. 5/2-f ; RGPD, art. 6, par. 1, point f)."
+        ] },
+        { "p": "Ces traitements ne reposent pas sur le consentement explicite. Vous n'avez pas besoin de donner votre consentement pour utiliser le menu ou passer commande." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "6. Durée de conservation",
+      "blocks": [
+        { "ul": [
+          "Les informations relatives à la session de table (panier partagé, code de session, clés de participation) sont supprimées à la fin de la session.",
+          "Les commandes et les appels sont conservés dans le compte du restaurant pour ses propres registres.",
+          "Les statistiques d'utilisation brutes sont supprimées au bout de 120 jours. Les résultats agrégés qui ne permettent pas d'identifier une personne sont conservés."
+        ] }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "7. Partage des informations",
+      "blocks": [
+        { "p": "Les informations sont transmises au restaurant et à ses serveurs. La Société traite ces informations sur des serveurs qu'elle gère elle-même et ne les partage avec personne à des fins publicitaires ou de marketing. Les demandes légitimes des autorités compétentes demeurent réservées." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "8. Vos droits",
+      "blocks": [
+        { "p": "Pour exercer les droits que vous tenez de l'article 11 de la KVKK et, dans la mesure où il est applicable, des articles 15 à 22 du RGPD (droit d'information, d'accès, de rectification, d'effacement, d'opposition et autres), vous pouvez vous adresser au restaurant, responsable du traitement. Les demandes parvenant à la Société sont transmises sans délai au restaurant concerné." },
+        { "p": "Vous pouvez introduire une réclamation auprès du Conseil de protection des données personnelles (Kişisel Verileri Koruma Kurulu) en Turquie ou, dans l'Union européenne, l'Espace économique européen ou au Royaume-Uni, auprès de l'autorité de contrôle de la protection des données du pays où vous vous trouvez." }
+      ]
+    }
+  ]
+}

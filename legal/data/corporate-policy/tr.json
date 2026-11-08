@@ -1,0 +1,99 @@
+{
+  "key": "corporate-policy",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Kurumsal Değerler, Kabul Edilebilir Kullanım ve Marka İtibarı Politikası",
+  "effective": "2026-11-08",
+  "summary": "Bu politika, Art of Menu hizmetlerini kullanan işletmelerin ve Art of Menu satış partnerlerinin uyması gereken kurumsal kuralları düzenler. Art of Menu İşletme Hizmet Sözleşmesi'nin ve Satış Partnerliği Sözleşmesi'nin bağlayıcı ekidir.",
+  "sections": [
+    { "id": "scope", "heading": "1. Amaç, Taraflar ve Bağlayıcılık", "blocks": [
+      { "p": "Bu politika, Göktigin Bilişim Teknoloji Ltd. Şti.'nin (“Şirket”) Art of Menu adıyla sunduğu hizmetler bakımından uyguladığı kurumsal değerleri ve davranış kurallarını belirler." },
+      { "p": "Politika, [Art of Menu İşletme Hizmet Sözleşmesi](doc:business-terms) ve [Satış Partnerliği Sözleşmesi](doc:partner-terms)'nin bağlayıcı ekidir ve bu sözleşmelerle birlikte kabul edilir. Politika yalnızca işletmelere ve satış partnerlerine uygulanır. İşletmelerin menülerini kullanan misafirler bu politikanın tarafı değildir." },
+      { "p": "Politika şu kişileri kapsar (“Kapsamdaki Kişiler”):" },
+      { "ul": [
+        "Art of Menu hizmetlerini kullanan işletmeler;",
+        "işletmelerin sahipleri, ortakları, yöneticileri ve yetkili temsilcileri;",
+        "satış partnerleri ve tüzel kişi satış partnerlerinin sahipleri, ortakları, yöneticileri ve yetkili temsilcileri."
+      ]}
+    ]},
+    { "id": "universal-application", "heading": "2. Ülkeden Bağımsız Uygulama", "blocks": [
+      { "p": "Politika, Art of Menu'nün hizmet verdiği bütün ülkelerde aynı şekilde uygulanır. Politikanın uygulanması için Kapsamdaki Kişi'nin Türk olması, Türkiye Cumhuriyeti vatandaşı olması, Türkiye'de yaşaması, Türkiye'de şirket kurmuş olması veya Türkiye'de ticari faaliyet göstermesi gerekmez. Vatandaşlık, uyruk, ikamet edilen ülke veya faaliyet gösterilen ülke politikadan muafiyet sağlamaz." },
+      { "p": "Bir davranışın bulunulan ülkede hukuken serbest olması, bu politikaya aykırı olmasını engellemez. Ancak Şirket'in uygulayacağı sözleşmesel yaptırımlar ilgili ülke hukukunun emredici sınırlarına uygun olur." }
+    ]},
+    { "id": "conduct-scope", "heading": "3. Platform İçi ve Platform Dışı Davranışlar", "blocks": [
+      { "p": "Politika yalnızca Art of Menu üzerinde yayımlanan içerikleri kapsamaz. Kapsamdaki Kişiler'in aşağıdaki ortamlardaki davranışları da kapsam dahilindedir:" },
+      { "ul": [
+        "işletmenin fiziksel mekânı;",
+        "sosyal medya hesapları ve internet siteleri;",
+        "reklamlar, tanıtımlar ve etkinlikler;",
+        "kamuya açık açıklamalar;",
+        "işletmeyle veya satış partneriyle doğrudan ilişkilendirilebilen diğer faaliyetler."
+      ]},
+      { "p": "İhlalin Art of Menu üzerinden gerçekleşmesi, Art of Menu kullanıcılarını doğrudan etkilemesi veya Türkiye'de gerçekleşmesi şart değildir." }
+    ]},
+    { "id": "ataturk", "heading": "4. Gazi Mustafa Kemal Atatürk", "blocks": [
+      { "p": "Gazi Mustafa Kemal Atatürk'ün şahsına, hatırasına, mirasına veya manevi şahsiyetine yönelik alay, hakaret, aşağılama, küçümseme veya saygısızlık içeren her türlü davranış yasaktır." },
+      { "p": "Yasak doğrudan ifadelerle sınırlı değildir. Gizli, örtülü, dolaylı, üstü kapalı, sembolik, kinayeli veya başka anlamların arkasına saklanmış imalar da yasaktır. Bir davranışın bu anlamları taşıdığını gösteren somut ve makul emareler incelemede dikkate alınır. İhlalin tespiti için ilgili kişinin niyetini itiraf etmesi veya doğrudan isim kullanması şart değildir." }
+    ]},
+    { "id": "national-values", "heading": "5. Türkiye Cumhuriyeti ve Millî Değerler", "blocks": [
+      { "p": "Türkiye Cumhuriyeti'ne ve Şanlı Türk ulusunun millî ve hassas değerlerine yönelik alay, hakaret, aşağılama, küçümseme veya saygısızlık içeren ya da bunları doğrudan veya dolaylı olarak ima eden davranışlar yasaktır. Gizli, örtülü, sembolik, kinayeli davranışlar ile bağlamından bu anlamların çıkarılabildiği davranışlar da kapsam dahilindedir." }
+    ]},
+    { "id": "corporate-language", "heading": "6. Kurumsal Dil Kuralı", "blocks": [
+      { "p": "Türkçe metinlerde Türkiye Cumhuriyeti vatandaşları tanımlanırken ilk harfi büyük yazılan “Türk” kelimesi kullanılır. “Türkiyeli”, “Turki” veya benzeri alternatif ifadelerin Türkiye Cumhuriyeti vatandaşlarını tanımlamak amacıyla kullanılması yasaktır." },
+      { "p": "Türk kimliğini aşağılamak, küçümsemek, alaya almak veya bunları ima etmek amacıyla kullanılan ifadeler ve davranışlar da yasaktır." },
+      { "p": "Diğer dillerdeki metinlerde Türk vatandaşlığı, o dildeki doğru ve doğal karşılığıyla ifade edilir. Yabancı bir dilin standart sözcüğü, yalnızca Türkçedeki yasaklı ifadelere benzediği için bu kurala aykırı sayılmaz." }
+    ]},
+    { "id": "terrorism", "heading": "7. Terör Örgütleri", "blocks": [
+      { "p": "Türkiye Cumhuriyeti tarafından terör örgütü olarak kabul edilen veya geçmişte kabul edilmiş örgütlerin, grupların ve yapılanmaların propagandasını yapmak, bunları desteklemek, övmek veya yüceltmek yasaktır." },
+      { "p": "Yasağın uygulanması için faaliyetin açıkça gerçekleştirilmesi gerekmez. Gizli, örtülü, dolaylı, sembolik, kinayeli veya başka anlamların arkasına saklanmış propaganda ve destek ifadeleri de yasaktır. Bu örgütlerin sembollerinin, işaretlerinin, sloganlarının veya diğer unsurlarının propaganda ya da destek amacıyla kullanılması da yasaktır. İçeriğin ve sembollerin anlamı, kullanıldığı bağlamla birlikte değerlendirilir." }
+    ]},
+    { "id": "serious-crimes", "heading": "8. Ağır Hak İhlalleri ve Ciddi Suçlar", "blocks": [
+      { "p": "Aşağıdaki fiiller yasaktır:" },
+      { "ul": [
+        "çocuk istismarı, çocukların cinsel istismarı ve çocuklara yönelik cinsel sömürü;",
+        "cinsel saldırı, tecavüz ve diğer cinsel şiddet fiilleri;",
+        "insan ticareti, zorla çalıştırma ve benzeri ağır hak ihlalleri;",
+        "yasa dışı uyuşturucu veya uyarıcı maddelerin üretilmesi, kullanılması, satılması, dağıtılması, temin edilmesi veya ticaretinin yapılması;",
+        "dolandırıcılık, zimmet ve rüşvet;",
+        "gasp (yağma) ve şantaj;",
+        "göçmen kaçakçılığı;",
+        "kasten öldürme, ağır yaralama ve benzeri ağır şiddet suçları."
+      ]},
+      { "p": "Bu politikada “ciddi veya yüz kızartıcı suç” ifadesi, ülkeler arasında farklı tanımlanabildiği için yukarıda sayılan suç kategorilerini ve bunlarla aynı ağırlıktaki fiilleri ifade eder." },
+      { "p": "Bu suçların işlenmesi, organize edilmesi, finanse edilmesi, teşvik edilmesi, bilerek kolaylaştırılması veya işlenmesine iştirak edilmesi de yasaktır." }
+    ]},
+    { "id": "brand-reputation", "heading": "9. Marka İtibarı", "blocks": [
+      { "p": "Şirket, markasının ağır suçlarla veya bu suçların faili olarak kamuoyunda gündeme gelen kişi ve işletmelerle ilişkilendirilmesini istemez. Bir işletmenin, işletme sahibinin, yöneticisinin, yetkili temsilcisinin veya satış partnerinin 8. bölümde sayılan suçlarla fail, şüpheli veya suça iştirak eden kişi olarak kamuoyunda ilişkilendirilmesi, ticari ilişkinin sonlandırılması için gerekçe olabilir." },
+      { "p": "Güvenilir basın haberleri, resmî soruşturmalar, kamuya açık somut bilgiler veya diğer doğrulanabilir gelişmeler nedeniyle marka açısından ciddi bir itibar riski oluşursa ilgili hesap derhal askıya alınabilir veya sözleşme uygulanabilir hukuk çerçevesinde feshedilebilir. Bu karar için mahkûmiyet kararının kesinleşmesi veya ceza yargılamasının tamamlanması beklenmez." },
+      { "p": "Bu karar ticari bir karardır ve ilgili kişinin suçlu olduğu anlamına gelmez. Dayanaksız söylentiler tek başına bu bölümün uygulanması için yeterli değildir." },
+      { "note": "Bu bölüm suç mağdurlarını, şikâyetçileri ve tanıkları hiçbir şekilde kapsamaz. Bir kişinin suç mağduru olarak gündeme gelmesi veya yetkili makamlara başvurması hesap askıya alma veya fesih gerekçesi olamaz." }
+    ]},
+    { "id": "review", "heading": "10. İnceleme Usulü", "blocks": [
+      { "p": "Şirket, olası bir ihlali somut kaynaklara dayanarak inceler. Kamuya açık sosyal medya paylaşımları, fotoğraflar, videolar, güvenilir basın haberleri, resmî açıklamalar, yargı ve soruşturma belgeleri ve Şirket'e iletilen belgeli bildirimler değerlendirilebilir." },
+      { "p": "Acil koruma gerektirmeyen hallerde Şirket, karar vermeden önce ilgili işletmeye veya satış partnerine yazılı açıklama yapma imkânı tanıyabilir. Acil hallerde hesap önce askıya alınır, açıklama daha sonra alınabilir. Şirket kararını ve dayandığı kaynakları kayıt altına alır. İlgili kişi karara karşı [hello@goktigin.com](mailto:hello@goktigin.com) adresine yazılı olarak itiraz edebilir." }
+    ]},
+    { "id": "enforcement", "heading": "11. Yaptırımlar", "blocks": [
+      { "p": "Bu politikadaki yasakları ihlal ettiği tespit edilen işletmelerin Art of Menu hizmetlerini kullanması derhal sonlandırılır, hesapları kapatılır ve sözleşmeleri uygulanabilir hukuk çerçevesinde feshedilir. Aynı kuralları ihlal eden satış partnerlerinin hesapları derhal kapatılır ve partnerlik sözleşmeleri sona erdirilir." },
+      { "p": "İşletme sahiplerinin, yöneticilerinin, yetkili temsilcilerinin ve işletmeyle doğrudan ilişkilendirilebilen faaliyetlerin bu politikaya aykırı olması, işletmenin hizmet sözleşmesinin sonlandırılması için gerekçe olabilir." },
+      { "p": "Sözleşmesel ihlalin tespiti için kesinleşmiş mahkeme kararı gerekmez. Şirket'in sözleşmeyi feshetmesi, bir kişinin ceza hukuku bakımından suçlu olduğunu ilan ettiği anlamına gelmez." }
+    ]},
+    { "id": "reporting", "heading": "12. Yetkili Makamlara Bildirim", "blocks": [
+      { "p": "Türkiye Cumhuriyeti hukukuna veya ilgili ülkenin hukukuna göre suç şüphesini destekleyen somut bilgiler bulunan fiiller yetkili güvenlik güçlerine veya adli makamlara bildirilir. Bu değerlendirmede özellikle şu hükümler dikkate alınır:" },
+      { "ul": [
+        "5816 sayılı Atatürk Aleyhine İşlenen Suçlar Hakkında Kanun;",
+        "3713 sayılı Terörle Mücadele Kanunu, özellikle terör örgütü propagandasına ilişkin 7. madde;",
+        "5237 sayılı Türk Ceza Kanunu'nun (TCK) devletin egemenlik alametlerini ve Türk Milletini aşağılamaya ilişkin 300 ve 301. maddeleri;",
+        "TCK 314 (silahlı örgüt) ve 220 (suç işlemek amacıyla örgüt kurma);",
+        "TCK 103 (çocukların cinsel istismarı), 102 (cinsel saldırı), 80 (insan ticareti), 79 (göçmen kaçakçılığı);",
+        "TCK 188 (uyuşturucu veya uyarıcı madde imal ve ticareti);",
+        "TCK 157–158 (dolandırıcılık), 247 (zimmet), 252 (rüşvet), 148–149 (yağma), 107 (şantaj);",
+        "TCK 81–82 (kasten öldürme) ve 86–87 (kasten yaralama)."
+      ]},
+      { "p": "Suç şüphesi bulunmayan sıradan sözleşme ihlalleri suç olarak bildirilmez veya suç olarak nitelendirilmez." },
+      { "p": "Şirket, inceleme ve bildirim kapsamında edindiği bilgi ve belgeleri yalnızca hukukun izin verdiği ölçüde saklar ve yalnızca yetkili makamlarla veya hukuken izin verilen diğer hallerde paylaşır." }
+    ]},
+    { "id": "mandatory-law", "heading": "13. Emredici Hukuk", "blocks": [
+      { "p": "Bu politika uygulanırken Türkiye Cumhuriyeti hukukunun ve ilgili ülkenin emredici kuralları gözetilir. Bir yaptırım ilgili hukuk tarafından sınırlandırılıyorsa Şirket, yaptırımı hukuken mümkün olan ölçüde uygular." }
+    ]}
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "company": {
+    "version": "1.1",
+    "titles": {
+      "tr": "Şirket ve Yasal Bilgiler",
+      "en": "Company and Legal Information",
+      "de": "Unternehmen und rechtliche Angaben",
+      "es": "Información corporativa y legal",
+      "fr": "Société et informations légales",
+      "it": "Società e informazioni legali"
+    }
+  },
+  "business-terms": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Art of Menu İşletme Hizmet Sözleşmesi",
+      "en": "Art of Menu Business Service Agreement",
+      "de": "Art of Menu Dienstleistungsvertrag für Betriebe",
+      "es": "Contrato de Servicio de Art of Menu para Establecimientos",
+      "fr": "Contrat de service Art of Menu pour les établissements",
+      "it": "Contratto di Servizio Art of Menu per le Attività"
+    }
+  },
+  "dpa": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Veri İşleme Sözleşmesi (Ek-1)",
+      "en": "Data Processing Agreement (Annex 1)",
+      "de": "Auftragsverarbeitungsvertrag (Anlage 1)",
+      "es": "Contrato de Encargo del Tratamiento (Anexo 1)",
+      "fr": "Accord sur le traitement des données (Annexe 1)",
+      "it": "Accordo sul trattamento dei dati (Allegato 1)"
+    }
+  },
+  "corporate-policy": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Kurumsal Değerler, Kabul Edilebilir Kullanım ve Marka İtibarı Politikası",
+      "en": "Corporate Values, Acceptable Use and Brand Reputation Policy",
+      "de": "Richtlinie zu Unternehmenswerten, akzeptabler Nutzung und Markenreputation",
+      "es": "Política de Valores Corporativos, Uso Aceptable y Reputación de Marca",
+      "fr": "Politique relative aux valeurs de l'entreprise, à l'utilisation acceptable et à la réputation de la marque",
+      "it": "Politica sui Valori Aziendali, sull'Uso Accettabile e sulla Reputazione del Marchio"
+    }
+  },
+  "partner-terms": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Satış Partnerliği Sözleşmesi",
+      "en": "Sales Partner Agreement",
+      "de": "Vertriebspartnervertrag",
+      "es": "Contrato de Partner Comercial",
+      "fr": "Contrat de partenariat commercial",
+      "it": "Contratto di Partnership Commerciale"
+    }
+  },
+  "privacy-business": {
+    "version": "1.0",
+    "titles": {
+      "tr": "İşletme Kullanıcıları için KVKK Aydınlatma Metni ve Gizlilik Bildirimi",
+      "en": "KVKK Privacy Notice and Privacy Statement for Business Users",
+      "de": "Datenschutzinformation nach KVKK und Datenschutzerklärung für Betriebsnutzer",
+      "es": "Aviso informativo KVKK y Aviso de privacidad para usuarios de establecimientos",
+      "fr": "Notice d'information KVKK et déclaration de confidentialité à l'intention des utilisateurs des établissements",
+      "it": "Informativa KVKK e Informativa sulla privacy per gli utenti delle Attività"
+    }
+  },
+  "privacy-partner": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Satış Partnerleri için KVKK Aydınlatma Metni",
+      "en": "KVKK Privacy Notice for Sales Partners",
+      "de": "Datenschutzinformation nach KVKK für Vertriebspartner",
+      "es": "Aviso informativo KVKK para Partners Comerciales",
+      "fr": "Notice d'information KVKK à l'intention des partenaires commerciaux",
+      "it": "Informativa KVKK per i Partner commerciali"
+    }
+  },
+  "privacy-guest": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Misafirler için Gizlilik Bilgilendirmesi",
+      "en": "Privacy Information for Guests",
+      "de": "Datenschutzhinweise für Gäste",
+      "es": "Información de privacidad para comensales",
+      "fr": "Information sur la confidentialité à l'intention des convives",
+      "it": "Informativa privacy per gli ospiti"
+    }
+  },
+  "cookies": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Çerez ve Benzeri Teknolojiler Politikası",
+      "en": "Cookie and Similar Technologies Policy",
+      "de": "Richtlinie zu Cookies und ähnlichen Technologien",
+      "es": "Política de cookies y tecnologías similares",
+      "fr": "Politique relative aux cookies et technologies similaires",
+      "it": "Politica sui cookie e tecnologie simili"
+    }
+  }
+}

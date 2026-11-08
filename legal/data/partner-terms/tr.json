@@ -1,0 +1,318 @@
+{
+  "key": "partner-terms",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Satış Partnerliği Sözleşmesi",
+  "effective": "2026-11-08",
+  "summary": "Bu sözleşme, Art of Menu aboneliklerine yeni işletmeler yönlendiren satış partnerleri ile Göktigin Bilişim Teknoloji Ltd. Şti. arasındaki ilişkiyi düzenler. Partnerin bağımsız çalışma düzenini, yönlendirme kurallarını, yetki sınırlarını, komisyonun nasıl kazanıldığını ve ödendiğini, yasak satış yöntemlerini ve sözleşmenin sona ermesini açıklar. Kurumsal Değerler, Kabul Edilebilir Kullanım ve Marka İtibarı Politikası bu sözleşmenin bağlayıcı ekidir.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Taraflar ve Tanımlar",
+      "blocks": [
+        { "p": "Bu sözleşme, **Göktigin Bilişim Teknoloji Limited Şirketi** (Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye; Antalya Kurumlar Vergi Dairesi, VKN 4060725346; [hello@goktigin.com](mailto:hello@goktigin.com)) ile satış partneri programına kaydolan gerçek veya tüzel kişi arasında kurulur. Şirket bilgilerinin tamamı [Şirket ve Yasal Bilgiler](doc:company) sayfasında yer alır." },
+        { "p": "Bu sözleşmede geçen terimler aşağıdaki anlamlarda kullanılır:" },
+        { "ul": [
+          "**Şirket:** Göktigin Bilişim Teknoloji Ltd. Şti.",
+          "**Art of Menu:** Şirket'in sahip olduğu ve işlettiği dijital menü ve sipariş yönetimi yazılımının ticari adı.",
+          "**Partner:** Bu sözleşmeyi kabul ederek satış partneri programına katılan gerçek veya tüzel kişi.",
+          "**Partner Portalı:** Partnerin hesabını, profilini, banka bilgilerini, yönlendirmelerini, komisyonlarını ve ödemelerini görüntülediği çevrim içi alan.",
+          "**Partner Kodu:** Partnere özel olarak verilen, AOM-XXXXXX biçimindeki yönlendirme kodu.",
+          "**İşletme:** Art of Menu aboneliğini Şirket'ten satın alan restoran, kafe veya benzeri ticari işletme.",
+          "**İlk Satış:** Partner Kodu ile kaydolan bir işletmenin Şirket'e yaptığı ilk ücretli abonelik ödemesi.",
+          "**Net Tahsilat:** İlk Satış'ta Şirket'e fiilen geçen tutardan katma değer vergisi ve diğer vergiler ile ödeme hizmet sağlayıcısının o ödeme için kestiği komisyon çıkarıldıktan sonra kalan tutar."
+        ] }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Sözleşmenin Konusu",
+      "blocks": [
+        { "p": "Partner, Art of Menu aboneliklerini işletmelere tanıtır ve onları Partner Kodu ile Şirket'e yönlendirir. Abonelik sözleşmesi doğrudan işletme ile Şirket arasında kurulur. Abonelik bedelini Şirket tahsil eder. Şirket, bu sözleşmedeki koşullar sağlandığında Partner'e komisyon öder." },
+        { "p": "Bu sözleşme Partner'e herhangi bir satış hedefi, asgari satış yükümlülüğü veya münhasırlık getirmez. Şirket de Partner'e belirli bir bölgede veya müşteri grubunda münhasırlık tanımaz." }
+      ]
+    },
+    {
+      "id": "independence",
+      "heading": "3. Bağımsız Çalışma",
+      "blocks": [
+        { "p": "Partner, faaliyetini kendi adına, kendi hesabına ve kendi organizasyonuyla bağımsız olarak yürütür. Taraflar arasında iş sözleşmesi, acentelik, tek satıcılık, distribütörlük, bayilik, ortaklık veya adi ortaklık ilişkisi kurulmaz. Partner, Şirket'in çalışanı, temsilcisi veya acentesi değildir." },
+        { "p": "Partner; çalışma saatlerini, yöntemlerini ve araçlarını bu sözleşmeye ve hukuka uygun olmak kaydıyla kendisi belirler. Faaliyeti için yaptığı yol, iletişim, ekipman, reklam ve benzeri bütün masrafları kendisi karşılar. Şirket bu masrafları ödemez veya geri ödemez." },
+        { "p": "Partner, kendi faaliyetinden doğan vergi, sigorta ve sosyal güvenlik yükümlülüklerinden kendisi sorumludur." }
+      ]
+    },
+    {
+      "id": "joining",
+      "heading": "4. Katılım ve Hesap",
+      "blocks": [
+        { "p": "Partner programına katılım Partner Portalı üzerinden yapılır. Kayıt sırasında ad, soyad, e-posta adresi, şifre ve ülke bilgisi istenir. Partner, e-posta adresine gönderilen bağlantıyla adresini doğrular." },
+        { "p": "Partner Kodu, e-posta adresi doğrulandıktan ve Partner Portalı'ndaki profil ile banka bilgileri eksiksiz doldurulduktan sonra verilir. Kod, Partner Portalı'nda gösterilir ve Partner'in e-posta adresine gönderilir." },
+        { "ul": [
+          "Gerçek kişi Partner'in 18 yaşını doldurmuş olması gerekir. Gerçek kişilerden doğum tarihi, uyruk, kimlik belgesi türü ve numarası (T.C. kimlik numarası, pasaport veya ulusal kimlik), adres ve telefon bilgisi istenir.",
+          "Tüzel kişi Partner'den şirket unvanı, vergi kimlik numarası, Türkiye'de kurulu şirketler için vergi dairesi, adres ve telefon bilgisi istenir. Kayıt sırasında verilen ad ve soyad, şirket adına işlem yapan kişiye aittir.",
+          "Partner, verdiği bilgilerin doğru, güncel ve kendisine ait olduğunu kabul eder. Banka hesabının Partner adına veya Partner şirket adına açılmış olması gerekir.",
+          "Partner, bilgilerinde değişiklik olduğunda Partner Portalı'ndaki kaydını gecikmeden günceller. Yanlış veya eksik bilgi nedeniyle gecikmeli ya da hatalı yapılan ödemelerden Şirket sorumlu değildir."
+        ] },
+        { "p": "Partner, hesap bilgilerini ve şifresini gizli tutar. Hesabında yapılan işlemlerden Partner sorumludur. Partner, hesabının yetkisiz kullanıldığını fark ettiğinde Şirket'e derhal bildirir." },
+        { "p": "Şirket, gerekçe göstermeksizin bir partnerlik başvurusunu kabul etmeme veya yeni partner kayıtlarını geçici ya da sürekli olarak kapatma hakkına sahiptir." }
+      ]
+    },
+    {
+      "id": "referrals",
+      "heading": "5. Yönlendirme Kuralları",
+      "blocks": [
+        { "p": "Bir işletmenin Partner'e bağlanması için işletmenin Partner Kodu'nu ilk ödemesinden önce Art of Menu'de girmiş olması gerekir. İlk ödemeden sonra kod eklenemez ve kodsuz yapılmış bir satış için sonradan komisyon talep edilemez." },
+        { "ul": [
+          "Her işletme yalnızca bir Partner'e bağlanabilir ve her işletme için yalnızca bir kez komisyon ödenir.",
+          "Komisyon, işletmenin ilk ücretli faturasında yer alan ilk şube aboneliği üzerinden hesaplanır. Aynı işletmenin diğer şubeleri, sonradan eklenen şubeler, paket yükseltmeleri ve yenilemeler için ek komisyon ödenmez.",
+          "Partner'in kendi işletmesi, ortağı olduğu veya yönettiği işletme ya da kendi adına açtığı hesaplar için komisyon ödenmez (kendi kendine yönlendirme yasaktır).",
+          "Gerçekte faaliyet göstermeyen veya yalnızca komisyon elde etmek için açılmış işletme hesapları, aynı işletme için açılmış mükerrer hesaplar ve başka bir kişi adına izinsiz açılmış hesaplar yasaktır.",
+          "Bir işletmenin hangi Partner'e bağlı olduğu konusunda Şirket'in kayıtları esas alınır. Şirket, kendi sisteminden kaynaklanan bir hatayı düzeltme hakkını saklı tutar."
+        ] }
+      ]
+    },
+    {
+      "id": "authority",
+      "heading": "6. Yetki Sınırları",
+      "blocks": [
+        { "p": "Partner'e Şirket tarafından yazılı olarak ayrıca yetki verilmedikçe Partner, Şirket adına taahhütte bulunamaz, sözleşme yapamaz, indirim veya özel koşul sunamaz ve açıklama yapamaz." },
+        { "ul": [
+          "Partner, Art of Menu paketlerini, özelliklerini ve fiyatlarını Şirket'in yayımladığı güncel bilgilere uygun olarak doğru biçimde anlatır. Var olmayan bir özelliği varmış gibi göstermez.",
+          "Partner, işletmelerden Şirket adına ödeme, kapora veya başka bir bedel tahsil etmez.",
+          "Partner, işletmelerin kart bilgilerini veya diğer ödeme bilgilerini istemez, almaz, kaydetmez ve onlar adına ödeme yapmaz. Abonelik ödemesini işletme, Art of Menu paneli üzerinden kendisi yapar.",
+          "Partner, işletme adına hesap açmaz, işletme adına Art of Menu Hizmet Sözleşmesi'ni kabul etmez ve işletmenin hesap bilgilerini kullanmaz."
+        ] }
+      ]
+    },
+    {
+      "id": "commission",
+      "heading": "7. Komisyon",
+      "blocks": [
+        { "p": "Partner, kendi Partner Kodu ile kaydolan bir işletmenin İlk Satış'ı için aşağıdaki komisyonu kazanır:" },
+        { "table": {
+          "head": ["Paket", "Aylık abonelikte ilk satış", "Yıllık abonelikte ilk satış (EUR ile satış)"],
+          "rows": [
+            ["Menu", "Net Tahsilat'ın %100'ü", "15 €"],
+            ["Order", "Net Tahsilat'ın %50'si", "30 €"],
+            ["Smart", "Net Tahsilat'ın %50'si", "100 €"]
+          ]
+        } },
+        { "ul": [
+          "Aylık aboneliklerde komisyon, İlk Satış'taki Net Tahsilat üzerinden hesaplanır. Katma değer vergisi ve diğer vergiler ile ödeme hizmet sağlayıcısının o ödeme için kestiği komisyon hesaba katılmaz.",
+          "Yıllık aboneliklerde komisyon, satış tutarından bağımsız sabit bir tutardır. EUR ile yapılan satışlarda tutarlar yukarıdaki tablodadır. TRY veya USD ile yapılan satışlar için her paketin sabit TRY ve USD tutarları Partner Portalı'nda gösterilir.",
+          "Yenilemelerde komisyon ödenmez.",
+          "Şirket'in hediye olarak tanımladığı ücretsiz dönemler ve hiçbir ödeme alınmayan dönemler için komisyon ödenmez.",
+          "Komisyon oranları ve tutarları Partner Portalı'nda da gösterilir. Bir satış için, o satışın yapıldığı tarihte geçerli olan oran ve tutarlar uygulanır."
+        ] },
+        { "note": "Komisyon yalnızca işletmenin ilk ücretli ödemesi için ve bir kez ödenir. Sonraki aylık veya yıllık yenilemeler komisyon doğurmaz." }
+      ]
+    },
+    {
+      "id": "payable",
+      "heading": "8. Komisyonun Kesinleşmesi, İadeler ve Ters İbrazlar",
+      "blocks": [
+        { "p": "Komisyon, işletmenin ödemesinin Şirket'e ulaştığı tarihte bekleyen komisyon olarak kaydedilir ve bu tarihten 30 gün sonra ödenebilir hâle gelir. Bu 30 günlük süre, iade, ters ibraz ve iptal risklerinin netleşmesi için uygulanır." },
+        { "p": "Şirket aşağıdaki durumlarda komisyonu geçersiz sayar:" },
+        { "ul": [
+          "İşletmeye ödemenin tamamı veya bir kısmı iade edilirse,",
+          "Ödeme, kart sahibi veya bankası tarafından ters ibraz (chargeback) yoluyla geri alınırsa,",
+          "İşletmenin aboneliği bekleme süresi içinde iptal edilirse veya ödeme banka ya da ödeme hizmet sağlayıcısı tarafından reddedilirse,",
+          "Satışın sahte, hileli veya yanıltıcı olduğu ya da bu sözleşmeye aykırı biçimde elde edildiği tespit edilirse,",
+          "Partner'in ödemeleri madde 11 uyarınca durdurulmuşsa ve satış bu süre içinde gerçekleşmişse."
+        ] },
+        { "p": "Kısmi iadede komisyon, iade edilen tutar oranında azaltılabilir. Geçersiz sayılan bir komisyon Partner'e daha önce ödenmişse, ödenen tutar Partner'in sonraki ödemelerinden mahsup edilir. Mahsup için yeterli bakiye oluşmazsa Şirket bu tutarı Partner'den talep edebilir." },
+        { "p": "Komisyonun durumu (bekliyor, ödenebilir, ödendi, geçersiz) ve geçersiz sayılma nedeni Partner Portalı'nda gösterilir." }
+      ]
+    },
+    {
+      "id": "payment",
+      "heading": "9. Ödeme Süreci",
+      "blocks": [
+        { "p": "Komisyonlar Türk lirası olarak kaydedilir. TRY dışındaki bir para birimiyle yapılan satışlarda komisyon, işletmenin ödeme yaptığı günün Türkiye Cumhuriyet Merkez Bankası döviz satış kuru ile Türk lirasına çevrilir. Merkez Bankası'nın ilan etmediği para birimlerinde Avrupa Merkez Bankası referans kurları üzerinden çapraz kur kullanılır." },
+        { "p": "Ödemeleri Şirket, Partner'in Partner Portalı'nda kayıtlı banka hesabına banka havalesiyle manuel olarak yapar. Ödeme yapıldığında Partner'e e-posta gönderilir ve ödeme Partner Portalı'na kaydedilir." },
+        { "ul": [
+          "Türkiye'deki banka hesaplarına ödeme Türk lirası olarak yapılır. Asgari ödeme tutarı 1.000 TL'dir.",
+          "Yurt dışındaki banka hesaplarına ödeme uluslararası banka havalesiyle yapılır. Asgari ödeme tutarı 200 EUR veya 200 USD karşılığıdır.",
+          "Ödenebilir bakiye asgari tutara ulaşmadığı sürece ödeme yapılmaz. Bakiye sonraki dönemlere devreder.",
+          "Partner Portalı'nda Türk lirası dışındaki para birimleriyle gösterilen tutarlar yalnızca bilgi amaçlı tahminlerdir. Partner'in hesabına geçecek kesin tutar, havalenin yapıldığı gün bankanın uyguladığı kura göre belirlenir.",
+          "Yurt dışı havalelerde gönderici banka dışındaki SWIFT, muhabir ve aracı banka masrafları ile Partner'in kendi bankasının kestiği masraflar Partner'e aittir.",
+          "Profil veya banka bilgileri eksik ya da hatalı olan Partner'e ödeme yapılmaz. Bilgiler tamamlanınca bekleyen ödenebilir bakiye ödenir."
+        ] },
+        { "p": "Şirket, ödemeyi makul bir süre içinde yapar. Bankalardan, uluslararası ödeme sistemlerinden veya Partner'in hatalı bilgilerinden kaynaklanan gecikmelerden Şirket sorumlu değildir. Komisyon tutarlarına faiz işlemez." }
+      ]
+    },
+    {
+      "id": "taxes",
+      "heading": "10. Vergiler ve Belgeler",
+      "blocks": [
+        { "ul": [
+          "Gerçek kişi Partner'ler için Şirket, ödeme sırasında gider pusulası düzenler ve mevzuat gereği yapılması zorunlu vergi kesintilerini (stopaj dahil) uygular. Partner'e kesinti sonrası net tutar ödenir.",
+          "Tüzel kişi Partner'ler, ödenecek komisyon için Şirket adına fatura düzenler. Ödeme, faturanın Şirket'e ulaşmasından sonra yapılır.",
+          "Partner, kendi ülkesindeki vergi, beyan ve kayıt yükümlülüklerinden kendisi sorumludur. Şirket, Partner'in bulunduğu ülkede doğan vergileri ödemez.",
+          "Şirket, yetkili makamlara mevzuat gereği yapması gereken bildirimleri yapar."
+        ] }
+      ]
+    },
+    {
+      "id": "suspension",
+      "heading": "11. Ödemelerin Durdurulması ve Hesabın Askıya Alınması",
+      "blocks": [
+        { "p": "Şirket, sözleşmeye aykırılık, sahte işlem şüphesi, eksik veya tutarsız kimlik ve banka bilgisi ya da bir resmî makamın talebi gibi haklı bir sebebin bulunması hâlinde aşağıdaki önlemleri alabilir:" },
+        { "ul": [
+          "**Ödemelerin durdurulması:** Partner'in bekleyen ve ödenebilir komisyonları ödenmez. Bu süre içinde Partner Kodu ile yapılan yeni satışlar Partner'e bağlanır ancak komisyon doğurmaz.",
+          "**Askıya alma:** Partner Kodu yeni satışlarda çalışmaz.",
+          "**Hesabın kapatılması:** Partner, Partner Portalı'na giriş yapamaz ve sözleşme madde 18 uyarınca sona erer."
+        ] },
+        { "p": "Şirket, önlemin nedenini hukuken mümkün olduğu ölçüde Partner'e e-posta ile bildirir. İnceleme sonucunda haklı bir sebep bulunmadığı anlaşılırsa Şirket önlemi kaldırır ve bekleyen komisyonları bu sözleşmeye göre öder." }
+      ]
+    },
+    {
+      "id": "fraud",
+      "heading": "12. Sahte İşlemler",
+      "blocks": [
+        { "p": "Gerçek bir işletme ilişkisine dayanmayan kayıtlar, sahte veya başkasına ait kimlik ve ödeme bilgileriyle yapılan işlemler, yalnızca komisyon elde etmek için başlatılıp iade veya iptal edilen abonelikler ve sistemin manipüle edilmesi sahte işlem sayılır." },
+        { "p": "Sahte işlem tespit edildiğinde Şirket:" },
+        { "ul": [
+          "İlgili komisyonları geçersiz sayar,",
+          "Daha önce ödenmiş tutarları sonraki ödemelerden mahsup eder veya Partner'den talep eder,",
+          "Sözleşmeyi derhal feshedebilir,",
+          "Uğradığı zararın tazminini talep edebilir ve suç şüphesi bulunan durumlarda yetkili makamlara başvurabilir."
+        ] }
+      ]
+    },
+    {
+      "id": "prohibited",
+      "heading": "13. Yasak Satış ve Tanıtım Yöntemleri",
+      "blocks": [
+        { "p": "Partner aşağıdaki yöntemleri kullanamaz:" },
+        { "ul": [
+          "Alıcının önceden onayı alınmadan e-posta, SMS, anlık mesaj veya otomatik arama yoluyla ticari ileti göndermek. Türkiye'de 6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun, Ticari İletişim ve Ticari Elektronik İletiler Hakkında Yönetmelik ve İleti Yönetim Sistemi (İYS) kuralları, diğer ülkelerde ise o ülkenin ilgili kuralları uygulanır.",
+          "Art of Menu, paketleri, fiyatları, özellikleri veya Şirket hakkında yanlış, eksik ya da yanıltıcı bilgi vermek; garanti, gelir veya sonuç vaat etmek.",
+          "Kendini Şirket'in çalışanı, yetkilisi, temsilcisi veya resmî bayisi olarak tanıtmak ya da Şirket'in yaptığı izlenimini veren açıklamalar yapmak.",
+          "Şirket'in yazılı izni olmadan Art of Menu adını veya buna benzeyen ifadeleri alan adlarında, sosyal medya kullanıcı adlarında, uygulama adlarında veya reklam anahtar kelimelerinde kullanmak.",
+          "Arama motorlarında ve reklam platformlarında Art of Menu markası veya buna benzeyen ifadeler üzerinden ücretli reklam vermek ya da teklif vermek.",
+          "Çerez doldurma (cookie stuffing), sahte tıklama, otomatik kayıt veya kullanıcının bilgisi dışında yönlendirme sağlayan diğer teknik yöntemleri kullanmak.",
+          "Şirket'in yetki vermediği indirim, iade, hediye, nakit ödeme veya başka bir menfaat sunarak işletmeleri Partner Kodu kullanmaya yöneltmek; kendi komisyonundan işletmeye pay vermek.",
+          "Baskı, tehdit, aldatma veya işletmenin karar verme özgürlüğünü kısıtlayan diğer yöntemleri kullanmak.",
+          "Hukuka aykırı, Kurumsal Politika'ya aykırı veya Art of Menu markasının itibarını zedeleyecek ortamlarda ve içeriklerle tanıtım yapmak."
+        ] },
+        { "p": "Bu yasaklara aykırı yöntemlerle elde edilen satışlar komisyon doğurmaz. Aykırılıktan doğan idari para cezaları ve üçüncü kişi taleplerinden Partner sorumludur." }
+      ]
+    },
+    {
+      "id": "brand",
+      "heading": "14. Marka Kullanımı",
+      "blocks": [
+        { "p": "Art of Menu adı, logosu ve diğer marka unsurları Şirket'e aittir. Şirket, Partner'e bu sözleşme süresince ve yalnızca Art of Menu'nün tanıtımı amacıyla bu unsurları kullanma izni verir. Bu izin münhasır değildir, başkasına devredilemez ve alt lisans konusu yapılamaz." },
+        { "ul": [
+          "Partner yalnızca Şirket'in sağladığı veya onayladığı tanıtım materyallerini kullanır.",
+          "Partner, marka unsurlarını değiştiremez, kendi markasıyla birleştiremez ve Şirket ile arasında bu sözleşmede tanımlanandan farklı bir ilişki olduğu izlenimini veremez.",
+          "Partner, Art of Menu markasını veya buna benzeyen bir işareti kendi adına tescil ettiremez veya tescil başvurusunda bulunamaz.",
+          "Kullanım izni sözleşmenin sona ermesiyle kendiliğinden sona erer. Partner, sona ermeden itibaren marka unsurlarını ve tanıtım materyallerini kullanmayı bırakır ve kendi kontrolündeki yayınlardan kaldırır."
+        ] }
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "heading": "15. Gizlilik",
+      "blocks": [
+        { "p": "Partner, bu sözleşme nedeniyle öğrendiği ve kamuya açık olmayan bilgileri gizli tutar. Şirket'in ticari koşulları, partnerlere özel bilgiler, Partner Portalı'ndaki veriler ve işletmelerle ilgili bilgiler bu kapsamdadır. Partner bu bilgileri yalnızca sözleşmenin amacı için kullanır ve üçüncü kişilerle paylaşmaz." },
+        { "p": "Kamuya açık olan, Partner'in zaten hukuka uygun biçimde bildiği veya yetkili bir makamın talebi üzerine açıklanması zorunlu olan bilgiler bu yükümlülüğün kapsamında değildir. Gizlilik yükümlülüğü sözleşme sona erdikten sonra da devam eder." }
+      ]
+    },
+    {
+      "id": "personal-data",
+      "heading": "16. Kişisel Veriler",
+      "blocks": [
+        { "p": "Şirket, Partner'in kişisel verilerini [Satış Partnerleri için KVKK Aydınlatma Metni](doc:privacy-partner) çerçevesinde işler." },
+        { "p": "Partner, tanıtım faaliyeti sırasında kendi topladığı işletme ve kişi bilgileri (ör. potansiyel müşteri listeleri) bakımından bağımsız veri sorumlusudur. Partner bu verileri 6698 sayılı Kişisel Verilerin Korunması Kanunu'na, gerektiğinde Avrupa Birliği Genel Veri Koruma Tüzüğü'ne (GDPR) ve bulunduğu ülkenin veri koruma kurallarına uygun olarak işler. Partner, bu verileri Şirket'e aktarmaz ve Şirket bu verilerden sorumlu değildir." },
+        { "p": "Partner Portalı'nda Partner'e gösterilen işletme bilgileri yalnızca komisyonların takibi için kullanılabilir. Partner bu bilgileri başka amaçlarla kullanamaz ve üçüncü kişilerle paylaşamaz." }
+      ]
+    },
+    {
+      "id": "corporate-policy",
+      "heading": "17. Kurumsal Politika",
+      "blocks": [
+        { "p": "[Kurumsal Değerler, Kabul Edilebilir Kullanım ve Marka İtibarı Politikası](doc:corporate-policy) bu sözleşmenin bağlayıcı ekidir. Partner bu sözleşmeyi kabul ederek politikayı da kabul etmiş olur." },
+        { "p": "Politika, Partner'in Art of Menu üzerindeki davranışlarını ve platform dışındaki davranışlarını kapsar. Partner'in vatandaşlığı, uyruğu, ikamet ettiği ülke veya faaliyet gösterdiği ülke politikadan muafiyet sağlamaz. Politikanın ihlali halinde Şirket, sözleşmeyi madde 18 uyarınca derhal feshedebilir." }
+      ]
+    },
+    {
+      "id": "termination",
+      "heading": "18. Süre ve Fesih",
+      "blocks": [
+        { "p": "Sözleşme, Partner'in kayıt sırasında kabul etmesiyle yürürlüğe girer ve belirsiz süreli olarak devam eder." },
+        { "ul": [
+          "Taraflardan her biri sözleşmeyi, diğer tarafa e-posta ile bildirimde bulunarak dilediği zaman feshedebilir. Fesih, bildirimin karşı tarafa ulaşmasından 7 gün sonra hüküm doğurur.",
+          "Şirket; Partner'in bu sözleşmeyi veya Kurumsal Politika'yı ihlal etmesi, sahte işlem yapması, yanlış kimlik ya da banka bilgisi vermesi veya Şirket'in itibarına ciddi zarar verecek bir davranışta bulunması hâlinde sözleşmeyi bildirimle derhal feshedebilir."
+        ] },
+        { "p": "Sona ermenin sonuçları şunlardır:" },
+        { "ul": [
+          "Partner Kodu yeni satışlarda çalışmaz. Sona erme tarihinden sonra yapılan satışlar komisyon doğurmaz.",
+          "Sona erme tarihinden önce yapılan İlk Satış'lar için kazanılmış komisyonlar, madde 8'deki geçersizlik halleri saklı kalmak kaydıyla, bu sözleşmedeki koşullara göre ödenir.",
+          "Sözleşme Kurumsal Politika ihlali veya sahte işlem nedeniyle feshedilirse Şirket, bekleyen ve ödenebilir komisyonları hukuken izin verilen ölçüde ödemeyebilir ve zararlarıyla mahsup edebilir.",
+          "Partner, marka unsurlarını kullanmayı bırakır ve gizlilik yükümlülüğüne uymaya devam eder.",
+          "Partner Portalı'na erişim Şirket'in belirlediği bir süre için yalnızca kayıtlara erişim amacıyla açık tutulabilir."
+        ] }
+      ]
+    },
+    {
+      "id": "programme-changes",
+      "heading": "19. Programın Değiştirilmesi veya Kapatılması",
+      "blocks": [
+        { "p": "Şirket, yeni partner kayıtlarını kapatabilir, komisyon oranlarını ve tutarlarını, ödeme koşullarını ve program kurallarını ileriye dönük olarak değiştirebilir ya da programı tamamen sona erdirebilir. Şirket bu değişiklikleri yürürlüğe girmeden en az 30 gün önce Partner'e e-posta ile ve Partner Portalı'nda bildirir." },
+        { "p": "Değişiklikler, yürürlük tarihinden önce yapılmış İlk Satış'lar için kazanılmış komisyonları etkilemez. Programın sona ermesi hâlinde bu komisyonlar sözleşmedeki koşullara göre ödenir." }
+      ]
+    },
+    {
+      "id": "amendments",
+      "heading": "20. Sözleşme Değişiklikleri",
+      "blocks": [
+        { "p": "Şirket bu sözleşmeyi değiştirebilir. Yeni sürüm, yürürlük tarihi ve sürüm numarasıyla yayımlanır. Önceki sürümler saklanır ve Partner'in hangi sürümü kabul ettiği kayıt altında tutulur." },
+        { "ul": [
+          "Yazım düzeltmeleri, açıklık kazandıran değişiklikler ve Partner'in haklarını daraltmayan değişiklikler, Partner'e bildirildikten sonra yürürlüğe girer. Partner'in bu tarihten sonra programa devam etmesi bu değişikliklerin kabulü sayılır.",
+          "Partner'in haklarını veya yükümlülüklerini esaslı biçimde etkileyen değişiklikler için Partner'in yeni sürümü Partner Portalı'nda ayrıca kabul etmesi gerekir. Partner kabul etmezse sözleşmeyi madde 18 uyarınca feshedebilir. Kabul edilmediği sürece Şirket, Partner Kodu'nun yeni satışlarda kullanılmasını durdurabilir."
+        ] }
+      ]
+    },
+    {
+      "id": "liability",
+      "heading": "21. Sorumluluk",
+      "blocks": [
+        { "p": "Partner, bu sözleşmeye, Kurumsal Politika'ya veya hukuka aykırı davranışından doğan zararlardan ve üçüncü kişilerin bu nedenle Şirket'e yönelttiği taleplerden sorumludur. Partner, Şirket'in bu nedenle ödemek zorunda kaldığı tutarları ve makul savunma giderlerini Şirket'e öder." },
+        { "p": "Şirket'in bu sözleşmeden doğan sorumluluğu, kasıt ve ağır ihmal hâlleri ile emredici hukuk kurallarının sınırlandırılmasına izin vermediği hâller dışında, zararı doğuran olaydan önceki 12 ay içinde Partner'e ödenen komisyon toplamıyla sınırlıdır. Şirket dolaylı zararlardan ve yoksun kalınan kârdan sorumlu değildir." },
+        { "p": "Şirket, Art of Menu hizmetinin kesintisiz çalışacağını veya bir işletmenin abonelik satın alacağını taahhüt etmez." }
+      ]
+    },
+    {
+      "id": "law",
+      "heading": "22. Uygulanacak Hukuk ve Yetkili Mahkeme",
+      "blocks": [
+        { "p": "Bu sözleşmeye Türkiye Cumhuriyeti hukuku uygulanır. Sözleşmeden doğan uyuşmazlıklarda Antalya mahkemeleri ve icra daireleri yetkilidir." },
+        { "p": "Partner'in bulunduğu ülkenin, sözleşmeyle hariç tutulamayan emredici koruma hükümleri varsa bu hükümler saklıdır." }
+      ]
+    },
+    {
+      "id": "notices",
+      "heading": "23. Bildirimler",
+      "blocks": [
+        { "p": "Şirket, Partner'e yapacağı bildirimleri Partner'in kayıtlı e-posta adresine veya Partner Portalı üzerinden yapar. E-posta ile yapılan bildirim, gönderildiği anda Partner'e ulaşmış sayılır. Partner, e-posta adresini güncel tutmakla yükümlüdür." },
+        { "p": "Partner, Şirket'e yapacağı bildirimleri [hello@goktigin.com](mailto:hello@goktigin.com) adresine kayıtlı e-posta adresinden veya Şirket'in adresine yazılı olarak gönderir." }
+      ]
+    },
+    {
+      "id": "general",
+      "heading": "24. Diğer Hükümler",
+      "blocks": [
+        { "ul": [
+          "Bu sözleşme ve ekleri, konusuyla ilgili taraflar arasındaki anlaşmanın tamamıdır.",
+          "Sözleşmenin bir hükmünün geçersiz sayılması diğer hükümlerin geçerliliğini etkilemez.",
+          "Partner, Şirket'in yazılı onayı olmadan bu sözleşmeden doğan hak ve yükümlülüklerini üçüncü kişilere devredemez.",
+          "Şirket'in kayıtları (Partner Portalı kayıtları, ödeme ve banka kayıtları, sözleşme kabul kayıtları), aksi ispat edilinceye kadar uyuşmazlıklarda delil olarak kullanılabilir.",
+          "Sözleşme Türkçe dahil birden fazla dilde yayımlanır. Metinler arasında fark olması hâlinde Türkçe metin esas alınır."
+        ] }
+      ]
+    }
+  ],
+  "annexes": ["corporate-policy"]
+}

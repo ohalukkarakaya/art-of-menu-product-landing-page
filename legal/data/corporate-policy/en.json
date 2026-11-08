@@ -1,0 +1,99 @@
+{
+  "key": "corporate-policy",
+  "version": "1.0",
+  "locale": "en",
+  "title": "Corporate Values, Acceptable Use and Brand Reputation Policy",
+  "effective": "2026-11-08",
+  "summary": "This policy sets out the corporate rules that businesses using Art of Menu services and Art of Menu sales partners must comply with. It is a binding annex to the Art of Menu Business Service Agreement and the Sales Partner Agreement.",
+  "sections": [
+    { "id": "scope", "heading": "1. Purpose, Parties and Binding Effect", "blocks": [
+      { "p": "This policy sets out the corporate values and rules of conduct applied by Göktigin Bilişim Teknoloji Ltd. Şti. (the “Company”) in respect of the services it provides under the name Art of Menu." },
+      { "p": "The policy is a binding annex to the [Art of Menu Business Service Agreement](doc:business-terms) and the [Sales Partner Agreement](doc:partner-terms) and is accepted together with those agreements. The policy applies only to businesses and sales partners. Guests who use businesses' menus are not parties to this policy." },
+      { "p": "The policy covers the following persons (“Covered Persons”):" },
+      { "ul": [
+        "businesses that use Art of Menu services;",
+        "the owners, partners, managers and authorised representatives of businesses;",
+        "sales partners and the owners, partners, managers and authorised representatives of sales partners that are legal entities."
+      ]}
+    ]},
+    { "id": "universal-application", "heading": "2. Application Regardless of Country", "blocks": [
+      { "p": "The policy applies in the same way in every country in which Art of Menu provides its services. For the policy to apply, a Covered Person need not be Turkish, be a citizen of the Republic of Türkiye, live in Türkiye, have established a company in Türkiye or carry on business in Türkiye. Citizenship, nationality, country of residence or country of operation does not exempt anyone from the policy." },
+      { "p": "The fact that conduct is lawful in the country where a person is located does not prevent it from breaching this policy. However, any contractual sanctions applied by the Company will remain within the mandatory limits of the law of the country concerned." }
+    ]},
+    { "id": "conduct-scope", "heading": "3. Conduct on and off the Platform", "blocks": [
+      { "p": "The policy is not limited to content published on Art of Menu. The conduct of Covered Persons in the following settings is also within its scope:" },
+      { "ul": [
+        "the business's physical premises;",
+        "social media accounts and websites;",
+        "advertisements, promotions and events;",
+        "public statements;",
+        "other activities that can be directly associated with the business or the sales partner."
+      ]},
+      { "p": "It is not necessary for a breach to take place through Art of Menu, to directly affect Art of Menu users or to take place in Türkiye." }
+    ]},
+    { "id": "ataturk", "heading": "4. Mustafa Kemal Atatürk", "blocks": [
+      { "p": "Any conduct involving mockery, insult, denigration, belittlement or disrespect towards the person, memory, legacy or moral personality of Mustafa Kemal Atatürk, honoured with the title of Gazi (victorious war veteran), is prohibited." },
+      { "p": "The prohibition is not limited to direct statements. Hidden, veiled, indirect, implicit, symbolic or allusive insinuations, or insinuations concealed behind other meanings, are also prohibited. Concrete and reasonable indications that conduct carries such meanings are taken into account in the review. A finding of breach does not require the person concerned to admit their intent or to use Atatürk's name directly." }
+    ]},
+    { "id": "national-values", "heading": "5. The Republic of Türkiye and National Values", "blocks": [
+      { "p": "Conduct involving mockery, insult, denigration, belittlement or disrespect towards the Republic of Türkiye and the national and sensitive values of the glorious Turkish nation, or directly or indirectly implying any of these, is prohibited. Hidden, veiled, symbolic and allusive conduct, and conduct from whose context such meanings can be inferred, are also within the scope of this prohibition." }
+    ]},
+    { "id": "corporate-language", "heading": "6. Corporate Language Rule", "blocks": [
+      { "p": "In Turkish-language texts, citizens of the Republic of Türkiye are referred to with the Turkish word “Türk” (Turk), written with a capital initial. Using the Turkish terms “Türkiyeli”, “Turki” or similar alternative expressions to describe citizens of the Republic of Türkiye is prohibited." },
+      { "p": "Expressions and conduct used to denigrate, belittle or mock Turkish identity, or to imply any of these, are also prohibited." },
+      { "p": "In texts in other languages, Turkish citizenship is expressed by the correct and natural equivalent in that language (in English, “Turkish” or “Turks”). A standard word in a foreign language is not considered to breach this rule merely because it resembles the prohibited Turkish expressions." }
+    ]},
+    { "id": "terrorism", "heading": "7. Terrorist Organisations", "blocks": [
+      { "p": "Making propaganda for, supporting, praising or glorifying organisations, groups and structures that are recognised, or have in the past been recognised, as terrorist organisations by the Republic of Türkiye is prohibited." },
+      { "p": "For the prohibition to apply, the activity need not be carried out openly. Hidden, veiled, indirect, symbolic or allusive expressions of propaganda and support, or those concealed behind other meanings, are also prohibited. Using the symbols, signs, slogans or other elements of these organisations for the purpose of propaganda or support is also prohibited. The meaning of content and symbols is assessed together with the context in which they are used." }
+    ]},
+    { "id": "serious-crimes", "heading": "8. Grave Human Rights Violations and Serious Crimes", "blocks": [
+      { "p": "The following acts are prohibited:" },
+      { "ul": [
+        "child abuse, sexual abuse of children and sexual exploitation of children;",
+        "sexual assault, rape and other acts of sexual violence;",
+        "human trafficking, forced labour and similar grave human rights violations;",
+        "producing, using, selling, distributing, supplying or trafficking illegal narcotic or stimulant substances;",
+        "fraud, embezzlement and bribery;",
+        "robbery and blackmail;",
+        "migrant smuggling;",
+        "intentional killing, grievous bodily harm and similar serious violent crimes."
+      ]},
+      { "p": "Because definitions differ between countries, the expression “serious or dishonourable crime” in this policy means the categories of crime listed above and acts of equal gravity." },
+      { "p": "Committing, organising, financing, encouraging or knowingly facilitating these crimes, or participating in their commission, is also prohibited." }
+    ]},
+    { "id": "brand-reputation", "heading": "9. Brand Reputation", "blocks": [
+      { "p": "The Company does not wish its brand to be associated with serious crimes or with persons and businesses who come to public attention as perpetrators of such crimes. Public association of a business, or of its owner, manager, authorised representative or a sales partner, with the crimes listed in section 8 as a perpetrator, suspect or participant may be grounds for ending the commercial relationship." },
+      { "p": "If a serious reputational risk to the brand arises from reliable press reports, official investigations, concrete publicly available information or other verifiable developments, the account concerned may be suspended immediately or the agreement may be terminated within the framework of the applicable law. The Company does not wait for a conviction to become final or for criminal proceedings to be concluded before making this decision." },
+      { "p": "This decision is a commercial decision and does not mean that the person concerned is guilty. Unfounded rumours alone are not sufficient for this section to apply." },
+      { "note": "This section never applies to victims of crime, complainants or witnesses. A person coming to public attention as a victim of crime, or applying to the competent authorities, cannot be grounds for suspending an account or terminating an agreement." }
+    ]},
+    { "id": "review", "heading": "10. Review Procedure", "blocks": [
+      { "p": "The Company reviews a possible breach on the basis of concrete sources. Public social media posts, photographs, videos, reliable press reports, official statements, court and investigation documents and documented reports submitted to the Company may be considered." },
+      { "p": "Where urgent protection is not required, the Company may give the business or sales partner concerned an opportunity to provide a written explanation before making a decision. In urgent cases, the account is suspended first and the explanation may be obtained afterwards. The Company records its decision and the sources on which it is based. The person concerned may object to the decision in writing at [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "enforcement", "heading": "11. Sanctions", "blocks": [
+      { "p": "Businesses found to have breached the prohibitions in this policy will have their use of Art of Menu services ended immediately, their accounts closed and their agreements terminated within the framework of the applicable law. Sales partners who breach the same rules will have their accounts closed immediately and their partner agreements terminated." },
+      { "p": "Conduct by a business's owners, managers or authorised representatives, or activities that can be directly associated with the business, that is contrary to this policy may be grounds for terminating the business's service agreement." },
+      { "p": "A finding of contractual breach does not require a final court decision. The Company's termination of an agreement does not mean that it declares any person guilty under criminal law." }
+    ]},
+    { "id": "reporting", "heading": "12. Reporting to the Competent Authorities", "blocks": [
+      { "p": "Acts for which there is concrete information supporting a suspicion of a crime under the law of the Republic of Türkiye or of the country concerned are reported to the competent law enforcement or judicial authorities. In this assessment, the following provisions in particular are taken into account:" },
+      { "ul": [
+        "Law No. 5816 on Crimes Committed Against Atatürk;",
+        "Anti-Terror Law No. 3713, in particular Article 7 on propaganda for a terrorist organisation;",
+        "Articles 300 and 301 of the Turkish Penal Code No. 5237 (TCK) on degrading the symbols of state sovereignty and degrading the Turkish Nation;",
+        "TCK Articles 314 (armed organisation) and 220 (forming an organisation for the purpose of committing crimes);",
+        "TCK Articles 103 (sexual abuse of children), 102 (sexual assault), 80 (human trafficking) and 79 (migrant smuggling);",
+        "TCK Article 188 (manufacture of and trade in narcotic or stimulant substances);",
+        "TCK Articles 157–158 (fraud), 247 (embezzlement), 252 (bribery), 148–149 (robbery) and 107 (blackmail);",
+        "TCK Articles 81–82 (intentional killing) and 86–87 (intentional injury)."
+      ]},
+      { "p": "Ordinary breaches of contract that involve no suspicion of a crime are not reported as crimes or characterised as crimes." },
+      { "p": "The Company retains the information and documents it obtains in the course of reviews and reports only to the extent permitted by law, and shares them only with the competent authorities or in other cases permitted by law." }
+    ]},
+    { "id": "mandatory-law", "heading": "13. Mandatory Law", "blocks": [
+      { "p": "In applying this policy, the mandatory rules of the law of the Republic of Türkiye and of the country concerned are observed. Where a sanction is restricted by the applicable law, the Company applies it to the extent legally possible." }
+    ]}
+  ]
+}

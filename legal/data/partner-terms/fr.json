@@ -1,0 +1,318 @@
+{
+  "key": "partner-terms",
+  "version": "1.0",
+  "locale": "fr",
+  "title": "Contrat de partenariat commercial",
+  "effective": "2026-11-08",
+  "summary": "Le présent contrat régit la relation entre Göktigin Bilişim Teknoloji Ltd. Şti. et les partenaires commerciaux qui recommandent de nouveaux établissements pour les abonnements Art of Menu. Il décrit le mode de travail indépendant du partenaire, les règles de recommandation, les limites de ses pouvoirs, la manière dont la commission est acquise et versée, les méthodes de vente interdites et la fin du contrat. La Politique relative aux valeurs de l'entreprise, à l'utilisation acceptable et à la réputation de la marque constitue une annexe contraignante du présent contrat.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Parties et définitions",
+      "blocks": [
+        { "p": "Le présent contrat est conclu entre **Göktigin Bilişim Teknoloji Limited Şirketi** (Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Turquie ; Antalya Kurumlar Vergi Dairesi (centre des impôts des sociétés d'Antalya), numéro d'identification fiscale (VKN) 4060725346 ; [hello@goktigin.com](mailto:hello@goktigin.com)) et la personne physique ou morale qui s'inscrit au programme de partenaires commerciaux. L'ensemble des informations relatives à la Société figure sur la page [Société et informations légales](doc:company)." },
+        { "p": "Les termes utilisés dans le présent contrat ont le sens suivant :" },
+        { "ul": [
+          "**Société :** Göktigin Bilişim Teknoloji Ltd. Şti.",
+          "**Art of Menu :** le nom commercial du logiciel de menu numérique et de gestion des commandes détenu et exploité par la Société.",
+          "**Partenaire :** la personne physique ou morale qui participe au programme de partenaires commerciaux en acceptant le présent contrat.",
+          "**Portail Partenaire :** l'espace en ligne dans lequel le Partenaire consulte son compte, son profil, ses coordonnées bancaires, ses recommandations, ses commissions et ses paiements.",
+          "**Code Partenaire :** le code de recommandation au format AOM-XXXXXX attribué personnellement au Partenaire.",
+          "**Établissement :** le restaurant, café ou autre établissement commercial similaire qui achète un abonnement Art of Menu auprès de la Société.",
+          "**Première Vente :** le premier paiement d'abonnement payant effectué à la Société par un établissement inscrit avec un Code Partenaire.",
+          "**Encaissement Net :** le montant effectivement perçu par la Société lors de la Première Vente, déduction faite de la taxe sur la valeur ajoutée et des autres taxes ainsi que de la commission prélevée par le prestataire de services de paiement sur ce paiement."
+        ] }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Objet du contrat",
+      "blocks": [
+        { "p": "Le Partenaire présente les abonnements Art of Menu aux établissements et les oriente vers la Société au moyen du Code Partenaire. Le contrat d'abonnement est conclu directement entre l'établissement et la Société. Le prix de l'abonnement est encaissé par la Société. La Société verse une commission au Partenaire lorsque les conditions du présent contrat sont remplies." },
+        { "p": "Le présent contrat n'impose au Partenaire aucun objectif de vente, aucune obligation de vente minimale ni aucune exclusivité. La Société n'accorde pas non plus au Partenaire d'exclusivité sur un territoire ou un groupe de clients déterminé." }
+      ]
+    },
+    {
+      "id": "independence",
+      "heading": "3. Travail indépendant",
+      "blocks": [
+        { "p": "Le Partenaire exerce son activité de manière indépendante, en son propre nom, pour son propre compte et avec sa propre organisation. Aucune relation de contrat de travail, d'agence, de distribution exclusive, de distribution, de concession, d'association ou de société simple n'est créée entre les parties. Le Partenaire n'est ni salarié, ni représentant, ni agent de la Société." },
+        { "p": "Le Partenaire détermine lui-même ses horaires, ses méthodes et ses moyens de travail, sous réserve de respecter le présent contrat et la loi. Il prend en charge lui-même l'ensemble des frais de déplacement, de communication, d'équipement, de publicité et autres frais similaires liés à son activité. La Société ne paie ni ne rembourse ces frais." },
+        { "p": "Le Partenaire est seul responsable des obligations fiscales, d'assurance et de sécurité sociale découlant de sa propre activité." }
+      ]
+    },
+    {
+      "id": "joining",
+      "heading": "4. Adhésion et compte",
+      "blocks": [
+        { "p": "L'adhésion au programme de partenaires s'effectue via le Portail Partenaire. Lors de l'inscription, le prénom, le nom, l'adresse e-mail, un mot de passe et le pays sont demandés. Le Partenaire vérifie son adresse e-mail au moyen du lien qui lui est envoyé à cette adresse." },
+        { "p": "Le Code Partenaire est attribué une fois l'adresse e-mail vérifiée et le profil ainsi que les coordonnées bancaires du Portail Partenaire intégralement renseignés. Le code est affiché dans le Portail Partenaire et envoyé à l'adresse e-mail du Partenaire." },
+        { "ul": [
+          "Le Partenaire personne physique doit être âgé d'au moins 18 ans. Il est demandé aux personnes physiques leur date de naissance, leur nationalité, le type et le numéro de leur pièce d'identité (numéro d'identité de citoyen turc (T.C. kimlik numarası), passeport ou carte d'identité nationale), leur adresse et leur numéro de téléphone.",
+          "Il est demandé au Partenaire personne morale sa raison sociale, son numéro d'identification fiscale, son centre des impôts pour les sociétés établies en Turquie, son adresse et son numéro de téléphone. Le prénom et le nom indiqués lors de l'inscription sont ceux de la personne agissant au nom de la société.",
+          "Le Partenaire reconnaît que les informations qu'il fournit sont exactes, à jour et qu'elles le concernent. Le compte bancaire doit être ouvert au nom du Partenaire ou au nom de la société Partenaire.",
+          "En cas de changement de ses informations, le Partenaire met à jour sans délai son inscription dans le Portail Partenaire. La Société n'est pas responsable des paiements effectués avec retard ou de manière erronée en raison d'informations inexactes ou incomplètes."
+        ] },
+        { "p": "Le Partenaire garde confidentiels ses identifiants de compte et son mot de passe. Le Partenaire est responsable des opérations effectuées sur son compte. S'il constate une utilisation non autorisée de son compte, le Partenaire en informe immédiatement la Société." },
+        { "p": "La Société a le droit, sans avoir à motiver sa décision, de refuser une candidature au partenariat ou de fermer temporairement ou définitivement les nouvelles inscriptions de partenaires." }
+      ]
+    },
+    {
+      "id": "referrals",
+      "heading": "5. Règles de recommandation",
+      "blocks": [
+        { "p": "Pour qu'un établissement soit rattaché au Partenaire, l'établissement doit avoir saisi le Code Partenaire dans Art of Menu avant son premier paiement. Aucun code ne peut être ajouté après le premier paiement, et aucune commission ne peut être réclamée a posteriori pour une vente réalisée sans code." },
+        { "ul": [
+          "Chaque établissement ne peut être rattaché qu'à un seul Partenaire, et une commission n'est versée qu'une seule fois par établissement.",
+          "La commission est calculée sur l'abonnement de la première succursale figurant sur la première facture payante de l'établissement. Aucune commission supplémentaire n'est versée pour les autres succursales du même établissement, les succursales ajoutées ultérieurement, les passages à une formule supérieure ni les renouvellements.",
+          "Aucune commission n'est versée pour l'établissement du Partenaire lui-même, pour un établissement dont il est associé ou qu'il dirige, ni pour les comptes qu'il a ouverts à son propre nom (l'auto-parrainage est interdit).",
+          "Sont interdits les comptes d'établissement qui n'exercent aucune activité réelle ou qui ont été ouverts dans le seul but d'obtenir une commission, les comptes en double ouverts pour un même établissement et les comptes ouverts sans autorisation au nom d'une autre personne.",
+          "Les enregistrements de la Société font foi quant au Partenaire auquel un établissement est rattaché. La Société se réserve le droit de corriger toute erreur résultant de son propre système."
+        ] }
+      ]
+    },
+    {
+      "id": "authority",
+      "heading": "6. Limites des pouvoirs",
+      "blocks": [
+        { "p": "Sauf autorisation écrite distincte de la Société, le Partenaire ne peut ni prendre d'engagement, ni conclure de contrat, ni proposer de remise ou de conditions particulières, ni faire de déclaration au nom de la Société." },
+        { "ul": [
+          "Le Partenaire présente de manière exacte les formules, fonctionnalités et prix d'Art of Menu, conformément aux informations à jour publiées par la Société. Il ne présente pas une fonctionnalité inexistante comme si elle existait.",
+          "Le Partenaire n'encaisse auprès des établissements aucun paiement, acompte ni autre somme au nom de la Société.",
+          "Le Partenaire ne demande, ne reçoit ni n'enregistre les données de carte ou autres informations de paiement des établissements, et n'effectue aucun paiement pour leur compte. L'établissement effectue lui-même le paiement de l'abonnement via le panneau Art of Menu.",
+          "Le Partenaire n'ouvre pas de compte au nom de l'établissement, n'accepte pas le Contrat de service Art of Menu pour les établissements au nom de l'établissement et n'utilise pas les identifiants de compte de l'établissement."
+        ] }
+      ]
+    },
+    {
+      "id": "commission",
+      "heading": "7. Commission",
+      "blocks": [
+        { "p": "Le Partenaire perçoit la commission suivante pour la Première Vente d'un établissement inscrit avec son Code Partenaire :" },
+        { "table": {
+          "head": ["Formule", "Première vente en abonnement mensuel", "Première vente en abonnement annuel (vente en EUR)"],
+          "rows": [
+            ["Menu", "100 % de l'Encaissement Net", "15 €"],
+            ["Order", "50 % de l'Encaissement Net", "30 €"],
+            ["Smart", "50 % de l'Encaissement Net", "100 €"]
+          ]
+        } },
+        { "ul": [
+          "Pour les abonnements mensuels, la commission est calculée sur l'Encaissement Net de la Première Vente. La taxe sur la valeur ajoutée et les autres taxes ainsi que la commission prélevée par le prestataire de services de paiement sur ce paiement ne sont pas prises en compte.",
+          "Pour les abonnements annuels, la commission est un montant forfaitaire indépendant du montant de la vente. Pour les ventes réalisées en EUR, les montants figurent dans le tableau ci-dessus. Pour les ventes réalisées en TRY ou en USD, les montants forfaitaires en TRY et en USD de chaque formule sont indiqués dans le Portail Partenaire.",
+          "Aucune commission n'est versée sur les renouvellements.",
+          "Aucune commission n'est versée pour les périodes gratuites définies par la Société comme offertes ni pour les périodes au titre desquelles aucun paiement n'est perçu.",
+          "Les taux et montants des commissions sont également indiqués dans le Portail Partenaire. Pour une vente donnée, les taux et montants en vigueur à la date de cette vente s'appliquent."
+        ] },
+        { "note": "La commission n'est versée qu'une seule fois et uniquement pour le premier paiement payant de l'établissement. Les renouvellements mensuels ou annuels ultérieurs ne donnent pas lieu à commission." }
+      ]
+    },
+    {
+      "id": "payable",
+      "heading": "8. Acquisition définitive de la commission, remboursements et rétrofacturations",
+      "blocks": [
+        { "p": "La commission est enregistrée comme commission en attente à la date à laquelle le paiement de l'établissement parvient à la Société, et devient exigible 30 jours après cette date. Ce délai de 30 jours permet de clarifier les risques de remboursement, de rétrofacturation et d'annulation." },
+        { "p": "La Société considère la commission comme invalide dans les cas suivants :" },
+        { "ul": [
+          "si tout ou partie du paiement est remboursé à l'établissement,",
+          "si le paiement est récupéré par le titulaire de la carte ou par sa banque au moyen d'une rétrofacturation (chargeback),",
+          "si l'abonnement de l'établissement est résilié pendant la période d'attente ou si le paiement est refusé par la banque ou le prestataire de services de paiement,",
+          "s'il est établi que la vente est fictive, frauduleuse ou trompeuse, ou qu'elle a été obtenue en violation du présent contrat,",
+          "si les paiements du Partenaire ont été suspendus conformément à l'article 11 et que la vente a eu lieu pendant cette période."
+        ] },
+        { "p": "En cas de remboursement partiel, la commission peut être réduite à proportion du montant remboursé. Si une commission invalidée a déjà été versée au Partenaire, le montant versé est compensé sur les paiements ultérieurs du Partenaire. Si le solde est insuffisant pour opérer la compensation, la Société peut réclamer ce montant au Partenaire." },
+        { "p": "Le statut de la commission (en attente, exigible, payée, invalide) et le motif de l'invalidation sont indiqués dans le Portail Partenaire." }
+      ]
+    },
+    {
+      "id": "payment",
+      "heading": "9. Procédure de paiement",
+      "blocks": [
+        { "p": "Les commissions sont enregistrées en livres turques. Pour les ventes réalisées dans une devise autre que le TRY, la commission est convertie en livres turques au cours vendeur des devises de la Banque centrale de la République de Turquie du jour du paiement par l'établissement. Pour les devises dont le cours n'est pas publié par la Banque centrale, un cours croisé est utilisé sur la base des taux de référence de la Banque centrale européenne." },
+        { "p": "Les paiements sont effectués manuellement par la Société, par virement bancaire, sur le compte bancaire du Partenaire enregistré dans le Portail Partenaire. Lorsqu'un paiement est effectué, un e-mail est envoyé au Partenaire et le paiement est enregistré dans le Portail Partenaire." },
+        { "ul": [
+          "Les paiements sur des comptes bancaires en Turquie sont effectués en livres turques. Le montant minimal de paiement est de 1 000 TRY.",
+          "Les paiements sur des comptes bancaires à l'étranger sont effectués par virement bancaire international. Le montant minimal de paiement est la contre-valeur de 200 EUR ou de 200 USD.",
+          "Aucun paiement n'est effectué tant que le solde exigible n'atteint pas le montant minimal. Le solde est reporté sur les périodes suivantes.",
+          "Les montants affichés dans le Portail Partenaire dans des devises autres que la livre turque ne sont que des estimations fournies à titre indicatif. Le montant exact crédité sur le compte du Partenaire est déterminé selon le taux de change appliqué par la banque le jour du virement.",
+          "Pour les virements internationaux, les frais SWIFT, de banque correspondante et de banque intermédiaire autres que ceux de la banque émettrice, ainsi que les frais prélevés par la propre banque du Partenaire, sont à la charge du Partenaire.",
+          "Aucun paiement n'est effectué au Partenaire dont le profil ou les coordonnées bancaires sont incomplets ou erronés. Une fois les informations complétées, le solde exigible en attente est versé."
+        ] },
+        { "p": "La Société effectue le paiement dans un délai raisonnable. La Société n'est pas responsable des retards imputables aux banques, aux systèmes de paiement internationaux ou à des informations erronées fournies par le Partenaire. Les montants de commission ne portent pas intérêt." }
+      ]
+    },
+    {
+      "id": "taxes",
+      "heading": "10. Taxes et justificatifs",
+      "blocks": [
+        { "ul": [
+          "Pour les Partenaires personnes physiques, la Société établit lors du paiement un bordereau de dépenses (gider pusulası) et applique les retenues fiscales obligatoires en vertu de la réglementation (y compris la retenue à la source). Le montant net après retenue est versé au Partenaire.",
+          "Les Partenaires personnes morales émettent une facture au nom de la Société pour la commission à verser. Le paiement est effectué après réception de la facture par la Société.",
+          "Le Partenaire est seul responsable de ses obligations fiscales, déclaratives et d'enregistrement dans son propre pays. La Société ne paie pas les taxes nées dans le pays où se trouve le Partenaire.",
+          "La Société effectue les déclarations qu'elle est tenue de faire auprès des autorités compétentes en vertu de la réglementation."
+        ] }
+      ]
+    },
+    {
+      "id": "suspension",
+      "heading": "11. Suspension des paiements et suspension du compte",
+      "blocks": [
+        { "p": "En présence d'un motif légitime, tel qu'une violation du contrat, une suspicion d'opération frauduleuse, des informations d'identité ou bancaires incomplètes ou incohérentes ou la demande d'une autorité officielle, la Société peut prendre les mesures suivantes :" },
+        { "ul": [
+          "**Suspension des paiements :** les commissions en attente et exigibles du Partenaire ne sont pas versées. Pendant cette période, les nouvelles ventes réalisées avec le Code Partenaire sont rattachées au Partenaire mais ne donnent pas lieu à commission.",
+          "**Suspension :** le Code Partenaire ne fonctionne pas pour les nouvelles ventes.",
+          "**Fermeture du compte :** le Partenaire ne peut plus se connecter au Portail Partenaire et le contrat prend fin conformément à l'article 18."
+        ] },
+        { "p": "La Société informe le Partenaire par e-mail du motif de la mesure, dans la mesure où la loi le permet. S'il apparaît à l'issue de l'examen qu'aucun motif légitime n'existe, la Société lève la mesure et verse les commissions en attente conformément au présent contrat." }
+      ]
+    },
+    {
+      "id": "fraud",
+      "heading": "12. Opérations frauduleuses",
+      "blocks": [
+        { "p": "Sont considérés comme des opérations frauduleuses les inscriptions qui ne reposent pas sur une relation réelle avec un établissement, les opérations effectuées avec des données d'identité et de paiement fictives ou appartenant à autrui, les abonnements souscrits dans le seul but d'obtenir une commission puis remboursés ou résiliés, ainsi que la manipulation du système." },
+        { "p": "Lorsqu'une opération frauduleuse est constatée, la Société :" },
+        { "ul": [
+          "considère les commissions concernées comme invalides,",
+          "compense les montants déjà versés sur les paiements ultérieurs ou les réclame au Partenaire,",
+          "peut résilier le contrat avec effet immédiat,",
+          "peut demander réparation du préjudice subi et, en cas de soupçon d'infraction pénale, saisir les autorités compétentes."
+        ] }
+      ]
+    },
+    {
+      "id": "prohibited",
+      "heading": "13. Méthodes de vente et de promotion interdites",
+      "blocks": [
+        { "p": "Le Partenaire ne peut pas recourir aux méthodes suivantes :" },
+        { "ul": [
+          "Envoyer des communications commerciales par e-mail, SMS, messagerie instantanée ou appels automatisés sans le consentement préalable du destinataire. En Turquie, s'appliquent la loi n° 6563 sur la réglementation du commerce électronique, le Règlement sur les communications commerciales et les messages électroniques commerciaux et les règles du Système de gestion des messages (İleti Yönetim Sistemi, İYS) ; dans les autres pays, s'appliquent les règles pertinentes du pays concerné.",
+          "Fournir des informations fausses, incomplètes ou trompeuses sur Art of Menu, ses formules, ses prix, ses fonctionnalités ou sur la Société ; promettre une garantie, un revenu ou un résultat.",
+          "Se présenter comme salarié, dirigeant, représentant ou revendeur officiel de la Société, ou faire des déclarations donnant l'impression qu'elles émanent de la Société.",
+          "Utiliser, sans l'autorisation écrite de la Société, le nom Art of Menu ou des expressions similaires dans des noms de domaine, des noms d'utilisateur de réseaux sociaux, des noms d'applications ou des mots-clés publicitaires.",
+          "Diffuser des annonces payantes ou enchérir sur la marque Art of Menu ou sur des expressions similaires sur les moteurs de recherche et les plateformes publicitaires.",
+          "Recourir au bourrage de cookies (cookie stuffing), aux faux clics, à l'inscription automatisée ou à toute autre méthode technique permettant une recommandation à l'insu de l'utilisateur.",
+          "Inciter les établissements à utiliser le Code Partenaire en leur offrant une remise, un remboursement, un cadeau, un paiement en espèces ou tout autre avantage non autorisé par la Société ; reverser à l'établissement une partie de sa propre commission.",
+          "Recourir à la pression, à la menace, à la tromperie ou à toute autre méthode restreignant la liberté de décision de l'établissement.",
+          "Faire de la promotion dans des environnements ou au moyen de contenus illicites, contraires à la Politique d'entreprise ou de nature à porter atteinte à la réputation de la marque Art of Menu."
+        ] },
+        { "p": "Les ventes obtenues par des méthodes contraires à ces interdictions ne donnent pas lieu à commission. Le Partenaire est responsable des amendes administratives et des réclamations de tiers découlant de la violation." }
+      ]
+    },
+    {
+      "id": "brand",
+      "heading": "14. Utilisation de la marque",
+      "blocks": [
+        { "p": "Le nom Art of Menu, son logo et les autres éléments de la marque appartiennent à la Société. Pendant la durée du présent contrat et uniquement aux fins de la promotion d'Art of Menu, la Société accorde au Partenaire une autorisation d'utilisation non exclusive, non cessible et ne pouvant faire l'objet d'une sous-licence." },
+        { "ul": [
+          "Le Partenaire utilise uniquement les supports promotionnels fournis ou approuvés par la Société.",
+          "Le Partenaire ne peut pas modifier les éléments de la marque ni les combiner avec sa propre marque, et ne peut pas donner l'impression qu'il existe entre lui et la Société une relation différente de celle définie dans le présent contrat.",
+          "Le Partenaire ne peut pas faire enregistrer à son nom la marque Art of Menu ou un signe similaire, ni déposer de demande d'enregistrement.",
+          "L'autorisation d'utilisation prend fin de plein droit à la fin du contrat. À compter de la fin du contrat, le Partenaire cesse d'utiliser les éléments de la marque et les supports promotionnels et les retire des publications placées sous son contrôle."
+        ] }
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "heading": "15. Confidentialité",
+      "blocks": [
+        { "p": "Le Partenaire garde confidentielles les informations non publiques dont il a connaissance en raison du présent contrat. Sont notamment concernées les conditions commerciales de la Société, les informations réservées aux partenaires, les données du Portail Partenaire et les informations relatives aux établissements. Le Partenaire utilise ces informations uniquement aux fins du contrat et ne les partage pas avec des tiers." },
+        { "p": "Ne relèvent pas de cette obligation les informations publiques, les informations dont le Partenaire avait déjà connaissance de manière licite ou dont la divulgation est obligatoire à la demande d'une autorité compétente. L'obligation de confidentialité perdure après la fin du contrat." }
+      ]
+    },
+    {
+      "id": "personal-data",
+      "heading": "16. Données personnelles",
+      "blocks": [
+        { "p": "La Société traite les données personnelles du Partenaire dans le cadre de la [Notice d'information KVKK à l'intention des partenaires commerciaux](doc:privacy-partner)." },
+        { "p": "Le Partenaire est responsable du traitement indépendant pour les informations relatives aux établissements et aux personnes qu'il collecte lui-même dans le cadre de son activité de promotion (par ex. listes de clients potentiels). Le Partenaire traite ces données conformément à la loi turque n° 6698 sur la protection des données personnelles, le cas échéant au Règlement général sur la protection des données de l'Union européenne (RGPD), ainsi qu'aux règles de protection des données du pays où il se trouve. Le Partenaire ne transfère pas ces données à la Société, et la Société n'est pas responsable de ces données." },
+        { "p": "Les informations relatives aux établissements affichées au Partenaire dans le Portail Partenaire ne peuvent être utilisées que pour le suivi des commissions. Le Partenaire ne peut pas utiliser ces informations à d'autres fins ni les partager avec des tiers." }
+      ]
+    },
+    {
+      "id": "corporate-policy",
+      "heading": "17. Politique d'entreprise",
+      "blocks": [
+        { "p": "La [Politique relative aux valeurs de l'entreprise, à l'utilisation acceptable et à la réputation de la marque](doc:corporate-policy) constitue une annexe contraignante du présent contrat. En acceptant le présent contrat, le Partenaire accepte également cette politique." },
+        { "p": "La politique s'applique aux comportements du Partenaire sur Art of Menu comme en dehors de la plateforme. La citoyenneté, la nationalité, le pays de résidence ou le pays d'activité du Partenaire ne lui confèrent aucune exemption de la politique. En cas de violation de la politique, la Société peut résilier le contrat avec effet immédiat conformément à l'article 18." }
+      ]
+    },
+    {
+      "id": "termination",
+      "heading": "18. Durée et résiliation",
+      "blocks": [
+        { "p": "Le contrat entre en vigueur dès son acceptation par le Partenaire lors de l'inscription et est conclu pour une durée indéterminée." },
+        { "ul": [
+          "Chacune des parties peut résilier le contrat à tout moment en adressant une notification par e-mail à l'autre partie. La résiliation prend effet 7 jours après la réception de la notification par l'autre partie.",
+          "La Société peut résilier le contrat avec effet immédiat, par notification, si le Partenaire viole le présent contrat ou la Politique d'entreprise, effectue une opération frauduleuse, fournit de fausses informations d'identité ou bancaires ou adopte un comportement de nature à porter gravement atteinte à la réputation de la Société."
+        ] },
+        { "p": "La fin du contrat entraîne les conséquences suivantes :" },
+        { "ul": [
+          "Le Code Partenaire ne fonctionne plus pour les nouvelles ventes. Les ventes réalisées après la date de fin du contrat ne donnent pas lieu à commission.",
+          "Les commissions acquises au titre des Premières Ventes réalisées avant la date de fin du contrat sont versées selon les conditions du présent contrat, sous réserve des cas d'invalidité prévus à l'article 8.",
+          "Si le contrat est résilié pour violation de la Politique d'entreprise ou pour opération frauduleuse, la Société peut, dans la mesure permise par la loi, ne pas verser les commissions en attente et exigibles et les compenser avec ses préjudices.",
+          "Le Partenaire cesse d'utiliser les éléments de la marque et continue de respecter son obligation de confidentialité.",
+          "L'accès au Portail Partenaire peut être maintenu pendant une durée fixée par la Société, uniquement à des fins de consultation des enregistrements."
+        ] }
+      ]
+    },
+    {
+      "id": "programme-changes",
+      "heading": "19. Modification ou fermeture du programme",
+      "blocks": [
+        { "p": "La Société peut fermer les nouvelles inscriptions de partenaires, modifier pour l'avenir les taux et montants des commissions, les conditions de paiement et les règles du programme, ou mettre entièrement fin au programme. La Société notifie ces modifications au Partenaire par e-mail et dans le Portail Partenaire au moins 30 jours avant leur entrée en vigueur." },
+        { "p": "Les modifications n'affectent pas les commissions acquises au titre des Premières Ventes réalisées avant leur date d'entrée en vigueur. En cas de fin du programme, ces commissions sont versées selon les conditions du contrat." }
+      ]
+    },
+    {
+      "id": "amendments",
+      "heading": "20. Modifications du contrat",
+      "blocks": [
+        { "p": "La Société peut modifier le présent contrat. La nouvelle version est publiée avec sa date d'entrée en vigueur et son numéro de version. Les versions antérieures sont conservées et la version acceptée par le Partenaire est enregistrée." },
+        { "ul": [
+          "Les corrections rédactionnelles, les modifications apportant des clarifications et les modifications qui ne restreignent pas les droits du Partenaire entrent en vigueur après leur notification au Partenaire. La poursuite de la participation au programme par le Partenaire après cette date vaut acceptation de ces modifications.",
+          "Les modifications affectant de manière substantielle les droits ou obligations du Partenaire requièrent une acceptation distincte de la nouvelle version par le Partenaire dans le Portail Partenaire. Si le Partenaire ne l'accepte pas, il peut résilier le contrat conformément à l'article 18. Tant que la nouvelle version n'est pas acceptée, la Société peut suspendre l'utilisation du Code Partenaire pour les nouvelles ventes."
+        ] }
+      ]
+    },
+    {
+      "id": "liability",
+      "heading": "21. Responsabilité",
+      "blocks": [
+        { "p": "Le Partenaire est responsable des préjudices découlant de tout comportement contraire au présent contrat, à la Politique d'entreprise ou à la loi, ainsi que des réclamations que des tiers adressent de ce fait à la Société. Le Partenaire rembourse à la Société les montants que celle-ci a été contrainte de payer pour cette raison ainsi que les frais de défense raisonnables." },
+        { "p": "Hors les cas de faute intentionnelle et de faute lourde et les cas dans lesquels les règles impératives ne permettent pas de limitation, la responsabilité de la Société au titre du présent contrat est limitée au total des commissions versées au Partenaire au cours des 12 mois précédant l'événement à l'origine du préjudice. La Société n'est pas responsable des préjudices indirects ni du manque à gagner." },
+        { "p": "La Société ne garantit ni le fonctionnement ininterrompu du service Art of Menu, ni qu'un établissement souscrira un abonnement." }
+      ]
+    },
+    {
+      "id": "law",
+      "heading": "22. Droit applicable et juridiction compétente",
+      "blocks": [
+        { "p": "Le présent contrat est régi par le droit de la République de Turquie. Les tribunaux et les offices d'exécution (icra daireleri) d'Antalya sont compétents pour les litiges découlant du contrat." },
+        { "p": "Les dispositions protectrices impératives du pays du Partenaire auxquelles il ne peut être dérogé par contrat demeurent réservées." }
+      ]
+    },
+    {
+      "id": "notices",
+      "heading": "23. Notifications",
+      "blocks": [
+        { "p": "La Société adresse ses notifications au Partenaire à l'adresse e-mail enregistrée du Partenaire ou via le Portail Partenaire. Une notification par e-mail est réputée parvenue au Partenaire dès son envoi. Le Partenaire est tenu de maintenir son adresse e-mail à jour." },
+        { "p": "Le Partenaire adresse ses notifications à la Société à [hello@goktigin.com](mailto:hello@goktigin.com) depuis son adresse e-mail enregistrée, ou par écrit à l'adresse de la Société." }
+      ]
+    },
+    {
+      "id": "general",
+      "heading": "24. Dispositions diverses",
+      "blocks": [
+        { "ul": [
+          "Le présent contrat et ses annexes constituent l'intégralité de l'accord entre les parties sur son objet.",
+          "La nullité d'une disposition du contrat n'affecte pas la validité des autres dispositions.",
+          "Le Partenaire ne peut pas céder à des tiers les droits et obligations découlant du présent contrat sans l'accord écrit de la Société.",
+          "Les enregistrements de la Société (enregistrements du Portail Partenaire, enregistrements de paiement et bancaires, enregistrements d'acceptation du contrat) peuvent être utilisés comme preuve dans les litiges jusqu'à preuve du contraire.",
+          "Le contrat est publié en plusieurs langues, dont le turc. En cas de divergence entre les versions, le texte turc prévaut."
+        ] }
+      ]
+    }
+  ],
+  "annexes": ["corporate-policy"]
+}

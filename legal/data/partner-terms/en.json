@@ -1,0 +1,318 @@
+{
+  "key": "partner-terms",
+  "version": "1.0",
+  "locale": "en",
+  "title": "Sales Partner Agreement",
+  "effective": "2026-11-08",
+  "summary": "This agreement governs the relationship between Göktigin Bilişim Teknoloji Ltd. Şti. and the sales partners who refer new businesses to Art of Menu subscriptions. It explains the partner's independent status, the referral rules, the limits of the partner's authority, how commission is earned and paid, prohibited sales methods and how the agreement ends. The Corporate Values, Acceptable Use and Brand Reputation Policy is a binding annex to this agreement.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Parties and Definitions",
+      "blocks": [
+        { "p": "This agreement is entered into between **Göktigin Bilişim Teknoloji Limited Şirketi** (Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye; Antalya Corporate Tax Office, tax ID 4060725346; [hello@goktigin.com](mailto:hello@goktigin.com)) and the natural person or legal entity that registers for the sales partner programme. Full company details are set out on the [Company and Legal Information](doc:company) page." },
+        { "p": "The following terms have the meanings given below in this agreement:" },
+        { "ul": [
+          "**Company:** Göktigin Bilişim Teknoloji Ltd. Şti.",
+          "**Art of Menu:** the trade name of the digital menu and order management software owned and operated by the Company.",
+          "**Partner:** the natural person or legal entity that joins the sales partner programme by accepting this agreement.",
+          "**Partner Portal:** the online area where the Partner views its account, profile, bank details, referrals, commissions and payments.",
+          "**Partner Code:** the referral code in the format AOM-XXXXXX issued exclusively to the Partner.",
+          "**Business:** a restaurant, café or similar commercial establishment that purchases an Art of Menu subscription from the Company.",
+          "**First Sale:** the first paid subscription payment made to the Company by a business that registers with a Partner Code.",
+          "**Net Proceeds:** the amount actually received by the Company in the First Sale, less value added tax and other taxes and the fee deducted by the payment service provider for that payment."
+        ] }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Subject of the Agreement",
+      "blocks": [
+        { "p": "The Partner promotes Art of Menu subscriptions to businesses and refers them to the Company using the Partner Code. The subscription agreement is concluded directly between the business and the Company. The Company collects the subscription fee. The Company pays the Partner a commission when the conditions of this agreement are met." },
+        { "p": "This agreement does not impose any sales target, minimum sales obligation or exclusivity on the Partner. Nor does the Company grant the Partner exclusivity in any territory or customer group." }
+      ]
+    },
+    {
+      "id": "independence",
+      "heading": "3. Independent Status",
+      "blocks": [
+        { "p": "The Partner carries out its activities independently, in its own name, for its own account and with its own organisation. No employment, agency, sole distributorship, distributorship, dealership, partnership or ordinary partnership relationship is created between the parties. The Partner is not an employee, representative or agent of the Company." },
+        { "p": "The Partner determines its own working hours, methods and tools, provided they comply with this agreement and the law. The Partner bears all travel, communication, equipment, advertising and similar costs of its activities. The Company does not pay or reimburse these costs." },
+        { "p": "The Partner is solely responsible for the tax, insurance and social security obligations arising from its own activities." }
+      ]
+    },
+    {
+      "id": "joining",
+      "heading": "4. Joining and Account",
+      "blocks": [
+        { "p": "Partners join the programme through the Partner Portal. Registration requires a first name, last name, e-mail address, password and country. The Partner verifies its e-mail address using the link sent to that address." },
+        { "p": "The Partner Code is issued once the e-mail address has been verified and the profile and bank details in the Partner Portal have been completed in full. The code is displayed in the Partner Portal and sent to the Partner's e-mail address." },
+        { "ul": [
+          "A Partner who is a natural person must be at least 18 years old. Natural persons are asked for their date of birth, nationality, identity document type and number (Turkish ID number, passport or national identity card), address and telephone number.",
+          "A Partner that is a legal entity is asked for its company name, tax identification number, its tax office (for companies established in Türkiye), address and telephone number. The first name and last name given at registration belong to the person acting on behalf of the company.",
+          "The Partner confirms that the information it provides is accurate, up to date and its own. The bank account must be held in the name of the Partner or of the Partner company.",
+          "The Partner updates its record in the Partner Portal without delay whenever its details change. The Company is not responsible for late or incorrect payments caused by inaccurate or incomplete information."
+        ] },
+        { "p": "The Partner keeps its account details and password confidential. The Partner is responsible for all actions taken through its account. The Partner notifies the Company immediately on becoming aware of any unauthorised use of its account." },
+        { "p": "The Company reserves the right to reject any partner application without giving reasons and to close new partner registrations temporarily or permanently." }
+      ]
+    },
+    {
+      "id": "referrals",
+      "heading": "5. Referral Rules",
+      "blocks": [
+        { "p": "For a business to be attributed to the Partner, the business must have entered the Partner Code in Art of Menu before its first payment. A code cannot be added after the first payment, and no commission may be claimed afterwards for a sale made without a code." },
+        { "ul": [
+          "Each business can be attributed to only one Partner, and commission is paid only once per business.",
+          "Commission is calculated on the first branch subscription shown on the business's first paid invoice. No additional commission is paid for other branches of the same business, branches added later, plan upgrades or renewals.",
+          "No commission is paid for the Partner's own business, a business in which the Partner is a partner or which it manages, or accounts opened in the Partner's own name (self-referral is prohibited).",
+          "Business accounts for businesses that do not actually operate or that are opened solely to earn commission, duplicate accounts opened for the same business and accounts opened in another person's name without authorisation are prohibited.",
+          "The Company's records are decisive as to which Partner a business is attributed to. The Company reserves the right to correct any error originating from its own system."
+        ] }
+      ]
+    },
+    {
+      "id": "authority",
+      "heading": "6. Limits of Authority",
+      "blocks": [
+        { "p": "Unless separately authorised by the Company in writing, the Partner may not make commitments, enter into contracts, offer discounts or special terms, or make statements on behalf of the Company." },
+        { "ul": [
+          "The Partner describes Art of Menu plans, features and prices accurately and in line with the current information published by the Company. The Partner does not present a feature as existing when it does not.",
+          "The Partner does not collect payments, deposits or any other amounts from businesses on behalf of the Company.",
+          "The Partner does not request, receive or store businesses' card details or other payment information, and does not make payments on their behalf. The business makes the subscription payment itself through the Art of Menu panel.",
+          "The Partner does not open accounts on behalf of a business, does not accept the Art of Menu Service Agreement on behalf of a business and does not use a business's account credentials."
+        ] }
+      ]
+    },
+    {
+      "id": "commission",
+      "heading": "7. Commission",
+      "blocks": [
+        { "p": "The Partner earns the following commission on the First Sale of a business that registers with the Partner's own Partner Code:" },
+        { "table": {
+          "head": ["Plan", "First sale, monthly subscription", "First sale, annual subscription (sales in EUR)"],
+          "rows": [
+            ["Menu", "100% of Net Proceeds", "€15"],
+            ["Order", "50% of Net Proceeds", "€30"],
+            ["Smart", "50% of Net Proceeds", "€100"]
+          ]
+        } },
+        { "ul": [
+          "For monthly subscriptions, commission is calculated on the Net Proceeds of the First Sale. Value added tax and other taxes, and the fee deducted by the payment service provider for that payment, are not included.",
+          "For annual subscriptions, commission is a fixed amount regardless of the sale amount. The amounts for sales in EUR are shown in the table above. For sales in TRY or USD, the fixed TRY and USD amounts for each plan are shown in the Partner Portal.",
+          "No commission is paid on renewals.",
+          "No commission is paid for free periods granted by the Company as a gift or for any period in which no payment is received.",
+          "Commission rates and amounts are also shown in the Partner Portal. Each sale is subject to the rates and amounts in force on the date of that sale."
+        ] },
+        { "note": "Commission is paid only once, and only for the business's first paid payment. Subsequent monthly or annual renewals do not generate commission." }
+      ]
+    },
+    {
+      "id": "payable",
+      "heading": "8. Commission Becoming Payable, Refunds and Chargebacks",
+      "blocks": [
+        { "p": "Commission is recorded as pending commission on the date the business's payment reaches the Company and becomes payable 30 days after that date. This 30-day period allows refund, chargeback and cancellation risks to become clear." },
+        { "p": "The Company treats commission as void in the following cases:" },
+        { "ul": [
+          "if all or part of the payment is refunded to the business;",
+          "if the payment is reversed by the cardholder or the cardholder's bank through a chargeback;",
+          "if the business's subscription is cancelled during the holding period, or the payment is declined by the bank or the payment service provider;",
+          "if the sale is found to be fake, fraudulent or misleading, or to have been obtained in breach of this agreement;",
+          "if the Partner's payments have been suspended under clause 11 and the sale took place during that period."
+        ] },
+        { "p": "In the case of a partial refund, the commission may be reduced in proportion to the amount refunded. If commission that has been treated as void has already been paid to the Partner, the amount paid is set off against the Partner's subsequent payments. If the balance is insufficient for set-off, the Company may claim this amount from the Partner." },
+        { "p": "The status of each commission (pending, payable, paid, void) and the reason for any voiding are shown in the Partner Portal." }
+      ]
+    },
+    {
+      "id": "payment",
+      "heading": "9. Payment Process",
+      "blocks": [
+        { "p": "Commissions are recorded in Turkish lira. For sales in a currency other than TRY, the commission is converted into Turkish lira at the Central Bank of the Republic of Türkiye foreign exchange selling rate on the day the business made its payment. For currencies for which the Central Bank does not publish a rate, a cross rate based on the European Central Bank reference rates is used." },
+        { "p": "The Company makes payments manually by bank transfer to the bank account registered in the Partner Portal. When a payment is made, an e-mail is sent to the Partner and the payment is recorded in the Partner Portal." },
+        { "ul": [
+          "Payments to bank accounts in Türkiye are made in Turkish lira. The minimum payment amount is TRY 1,000.",
+          "Payments to bank accounts outside Türkiye are made by international bank transfer. The minimum payment amount is the equivalent of EUR 200 or USD 200.",
+          "No payment is made until the payable balance reaches the minimum amount. The balance is carried forward to subsequent periods.",
+          "Amounts shown in the Partner Portal in currencies other than Turkish lira are estimates for information only. The exact amount credited to the Partner's account is determined by the exchange rate applied by the bank on the day of the transfer.",
+          "For international transfers, SWIFT, correspondent and intermediary bank charges other than those of the sending bank, as well as any charges deducted by the Partner's own bank, are borne by the Partner.",
+          "No payment is made to a Partner whose profile or bank details are incomplete or incorrect. Once the details are completed, the pending payable balance is paid."
+        ] },
+        { "p": "The Company makes payments within a reasonable period. The Company is not responsible for delays caused by banks, international payment systems or incorrect information provided by the Partner. No interest accrues on commission amounts." }
+      ]
+    },
+    {
+      "id": "taxes",
+      "heading": "10. Taxes and Documents",
+      "blocks": [
+        { "ul": [
+          "For Partners who are natural persons, the Company issues an expense voucher (gider pusulası) at the time of payment and applies the tax deductions required by law (including withholding tax). The Partner is paid the net amount after deductions.",
+          "Partners that are legal entities issue an invoice to the Company for the commission payable. Payment is made after the invoice reaches the Company.",
+          "The Partner is solely responsible for its tax, filing and registration obligations in its own country. The Company does not pay taxes arising in the Partner's country.",
+          "The Company makes the notifications to the competent authorities that it is required to make by law."
+        ] }
+      ]
+    },
+    {
+      "id": "suspension",
+      "heading": "11. Suspension of Payments and of the Account",
+      "blocks": [
+        { "p": "Where there is just cause, such as a breach of the agreement, suspected fraudulent activity, missing or inconsistent identity or bank details, or a request from a public authority, the Company may take the following measures:" },
+        { "ul": [
+          "**Suspension of payments:** the Partner's pending and payable commissions are not paid. New sales made with the Partner Code during this period are attributed to the Partner but do not generate commission.",
+          "**Suspension:** the Partner Code does not work for new sales.",
+          "**Closure of the account:** the Partner cannot log in to the Partner Portal, and the agreement ends under clause 18."
+        ] },
+        { "p": "The Company notifies the Partner by e-mail of the reason for the measure to the extent legally permitted. If the review finds that there was no just cause, the Company lifts the measure and pays pending commissions in accordance with this agreement." }
+      ]
+    },
+    {
+      "id": "fraud",
+      "heading": "12. Fraudulent Transactions",
+      "blocks": [
+        { "p": "Registrations not based on a genuine business relationship, transactions made with fake or another person's identity and payment details, subscriptions started solely to earn commission and then refunded or cancelled, and any manipulation of the system are deemed fraudulent transactions." },
+        { "p": "Where a fraudulent transaction is detected, the Company:" },
+        { "ul": [
+          "treats the related commissions as void;",
+          "sets off amounts already paid against subsequent payments or claims them from the Partner;",
+          "may terminate the agreement with immediate effect;",
+          "may claim compensation for the loss it has suffered and, where a criminal offence is suspected, may refer the matter to the competent authorities."
+        ] }
+      ]
+    },
+    {
+      "id": "prohibited",
+      "heading": "13. Prohibited Sales and Promotion Methods",
+      "blocks": [
+        { "p": "The Partner may not use the following methods:" },
+        { "ul": [
+          "Sending commercial communications by e-mail, SMS, instant message or automated calls without the recipient's prior consent. In Türkiye, Law No. 6563 on the Regulation of Electronic Commerce, the Regulation on Commercial Communications and Commercial Electronic Messages and the rules of the Message Management System (İYS) apply; in other countries, the relevant rules of that country apply.",
+          "Giving false, incomplete or misleading information about Art of Menu, its plans, prices or features, or about the Company; promising guarantees, income or results.",
+          "Presenting itself as an employee, officer, representative or official dealer of the Company, or making statements that give the impression that they are made by the Company.",
+          "Using the name Art of Menu, or similar expressions, in domain names, social media usernames, app names or advertising keywords without the Company's written permission.",
+          "Placing paid advertisements or bidding on search engines and advertising platforms using the Art of Menu brand or similar expressions.",
+          "Using cookie stuffing, fake clicks, automated registrations or any other technical method that generates referrals without the user's knowledge.",
+          "Inducing businesses to use the Partner Code by offering discounts, refunds, gifts, cash payments or any other benefit not authorised by the Company; passing on a share of its own commission to a business.",
+          "Using pressure, threats, deception or any other method that restricts a business's freedom of decision.",
+          "Promoting Art of Menu in settings or with content that is unlawful, contrary to the Corporate Policy or liable to damage the reputation of the Art of Menu brand."
+        ] },
+        { "p": "Sales obtained through methods that breach these prohibitions do not generate commission. The Partner is liable for administrative fines and third-party claims arising from any such breach." }
+      ]
+    },
+    {
+      "id": "brand",
+      "heading": "14. Use of the Brand",
+      "blocks": [
+        { "p": "The Art of Menu name, logo and other brand elements belong to the Company. For the term of this agreement and solely for the purpose of promoting Art of Menu, the Company grants the Partner a non-exclusive permission of use that is non-transferable and may not be sublicensed." },
+        { "ul": [
+          "The Partner uses only promotional materials provided or approved by the Company.",
+          "The Partner may not alter the brand elements, combine them with its own brand or give the impression of any relationship with the Company other than the one defined in this agreement.",
+          "The Partner may not register, or apply to register, the Art of Menu brand or any similar sign in its own name.",
+          "The permission of use ends automatically when the agreement ends. From that point, the Partner stops using the brand elements and promotional materials and removes them from publications under its control."
+        ] }
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "heading": "15. Confidentiality",
+      "blocks": [
+        { "p": "The Partner keeps confidential any non-public information it learns in connection with this agreement. This includes the Company's commercial terms, information intended exclusively for partners, data in the Partner Portal and information about businesses. The Partner uses this information solely for the purpose of the agreement and does not share it with third parties." },
+        { "p": "This obligation does not cover information that is public, that the Partner already lawfully knew, or that must be disclosed at the request of a competent authority. The confidentiality obligation continues after the agreement ends." }
+      ]
+    },
+    {
+      "id": "personal-data",
+      "heading": "16. Personal Data",
+      "blocks": [
+        { "p": "The Company processes the Partner's personal data in accordance with the [KVKK Privacy Notice for Sales Partners](doc:privacy-partner)." },
+        { "p": "The Partner is an independent data controller with respect to the business and personal information it collects itself in the course of its promotional activities (for example, lists of prospective customers). The Partner processes this data in accordance with the Turkish Personal Data Protection Law No. 6698 (KVKK), the European Union General Data Protection Regulation (GDPR) where applicable, and the data protection rules of the country in which it is located. The Partner does not transfer this data to the Company, and the Company is not responsible for it." },
+        { "p": "Business information shown to the Partner in the Partner Portal may be used only to track commissions. The Partner may not use this information for any other purpose or share it with third parties." }
+      ]
+    },
+    {
+      "id": "corporate-policy",
+      "heading": "17. Corporate Policy",
+      "blocks": [
+        { "p": "The [Corporate Values, Acceptable Use and Brand Reputation Policy](doc:corporate-policy) is a binding annex to this agreement. By accepting this agreement, the Partner also accepts the policy." },
+        { "p": "The policy covers the Partner's conduct both on Art of Menu and outside the platform. The Partner's citizenship, nationality, country of residence or country of operation does not exempt it from the policy. In the event of a breach of the policy, the Company may terminate the agreement with immediate effect under clause 18." }
+      ]
+    },
+    {
+      "id": "termination",
+      "heading": "18. Term and Termination",
+      "blocks": [
+        { "p": "The agreement enters into force when the Partner accepts it at registration and continues for an indefinite term." },
+        { "ul": [
+          "Either party may terminate the agreement at any time by notifying the other party by e-mail. Termination takes effect 7 days after the notice reaches the other party.",
+          "The Company may terminate the agreement with immediate effect by notice if the Partner breaches this agreement or the Corporate Policy, engages in fraudulent transactions, provides false identity or bank details, or engages in conduct that would seriously damage the Company's reputation."
+        ] },
+        { "p": "The consequences of termination are as follows:" },
+        { "ul": [
+          "The Partner Code no longer works for new sales. Sales made after the termination date do not generate commission.",
+          "Commission earned on First Sales made before the termination date is paid under the terms of this agreement, subject to the voiding cases in clause 8.",
+          "If the agreement is terminated because of a breach of the Corporate Policy or a fraudulent transaction, the Company may, to the extent permitted by law, withhold pending and payable commissions and set them off against its losses.",
+          "The Partner stops using the brand elements and continues to comply with its confidentiality obligation.",
+          "Access to the Partner Portal may be kept open, solely for access to records, for a period determined by the Company."
+        ] }
+      ]
+    },
+    {
+      "id": "programme-changes",
+      "heading": "19. Changes to or Closure of the Programme",
+      "blocks": [
+        { "p": "The Company may close new partner registrations, change commission rates and amounts, payment terms and programme rules with effect for the future, or end the programme entirely. The Company notifies the Partner of such changes by e-mail and in the Partner Portal at least 30 days before they take effect." },
+        { "p": "Changes do not affect commission earned on First Sales made before the effective date. If the programme ends, this commission is paid under the terms of the agreement." }
+      ]
+    },
+    {
+      "id": "amendments",
+      "heading": "20. Amendments to the Agreement",
+      "blocks": [
+        { "p": "The Company may amend this agreement. A new version is published with its effective date and version number. Previous versions are retained, and a record is kept of which version the Partner has accepted." },
+        { "ul": [
+          "Corrections of typographical errors, clarifying changes and changes that do not restrict the Partner's rights take effect once notified to the Partner. The Partner's continued participation in the programme after that date constitutes acceptance of these changes.",
+          "Changes that materially affect the Partner's rights or obligations require the Partner to accept the new version separately in the Partner Portal. If the Partner does not accept it, the Partner may terminate the agreement under clause 18. Until the new version is accepted, the Company may stop the Partner Code from being used for new sales."
+        ] }
+      ]
+    },
+    {
+      "id": "liability",
+      "heading": "21. Liability",
+      "blocks": [
+        { "p": "The Partner is liable for losses arising from its conduct in breach of this agreement, the Corporate Policy or the law, and for claims brought against the Company by third parties as a result. The Partner reimburses the Company for any amounts the Company is required to pay as a result, together with reasonable defence costs." },
+        { "p": "Except in cases of intent or gross negligence and cases in which mandatory rules of law do not permit limitation, the Company's liability under this agreement is limited to the total commission paid to the Partner in the 12 months preceding the event giving rise to the loss. The Company is not liable for indirect losses or loss of profit." },
+        { "p": "The Company does not guarantee that the Art of Menu service will operate without interruption or that any business will purchase a subscription." }
+      ]
+    },
+    {
+      "id": "law",
+      "heading": "22. Governing Law and Jurisdiction",
+      "blocks": [
+        { "p": "This agreement is governed by the laws of the Republic of Türkiye. The courts and enforcement offices of Antalya have jurisdiction over disputes arising from the agreement." },
+        { "p": "Any mandatory protective provisions of the law of the Partner's country that cannot be excluded by contract remain unaffected." }
+      ]
+    },
+    {
+      "id": "notices",
+      "heading": "23. Notices",
+      "blocks": [
+        { "p": "The Company sends notices to the Partner at the Partner's registered e-mail address or through the Partner Portal. A notice sent by e-mail is deemed to have reached the Partner at the moment it is sent. The Partner is responsible for keeping its e-mail address up to date." },
+        { "p": "The Partner sends notices to the Company from its registered e-mail address to [hello@goktigin.com](mailto:hello@goktigin.com), or in writing to the Company's address." }
+      ]
+    },
+    {
+      "id": "general",
+      "heading": "24. Miscellaneous",
+      "blocks": [
+        { "ul": [
+          "This agreement and its annexes constitute the entire agreement between the parties on its subject matter.",
+          "If any provision of the agreement is held invalid, the validity of the remaining provisions is not affected.",
+          "The Partner may not assign its rights and obligations under this agreement to third parties without the Company's written consent.",
+          "The Company's records (Partner Portal records, payment and bank records, agreement acceptance records) may be used as evidence in disputes unless proven otherwise.",
+          "The agreement is published in more than one language, including Turkish. In the event of any discrepancy between the texts, the Turkish text prevails."
+        ] }
+      ]
+    }
+  ],
+  "annexes": ["corporate-policy"]
+}

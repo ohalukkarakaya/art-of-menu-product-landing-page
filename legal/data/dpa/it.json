@@ -1,0 +1,79 @@
+{
+  "key": "dpa",
+  "version": "1.0",
+  "locale": "it",
+  "title": "Accordo sul trattamento dei dati (Allegato 1)",
+  "effective": "2026-11-08",
+  "summary": "Il presente accordo costituisce allegato vincolante del Contratto di Servizio Art of Menu per le Attività. Disciplina le regole relative al trattamento dei dati dei clienti e dei dipendenti, per i quali l'attività è titolare del trattamento e Göktigin Bilişim Teknoloji Ltd. Şti. è responsabile del trattamento.",
+  "sections": [
+    { "id": "subject", "heading": "1. Oggetto e ruoli", "blocks": [
+      { "p": "Il presente Accordo sul trattamento dei dati (l'«Allegato») costituisce allegato vincolante del [Contratto di Servizio Art of Menu per le Attività](doc:business-terms) (il «Contratto di Servizio»). I termini non definiti nell'Allegato hanno il significato loro attribuito nel Contratto di Servizio." },
+      { "p": "Il Cliente è titolare del trattamento (il «Titolare») per i dati personali elencati nella sezione 3. Göktigin Bilişim Teknoloji Ltd. Şti. (la «Società») è il responsabile del trattamento che tratta tali dati per conto del Titolare e secondo le sue istruzioni. Il presente Allegato è redatto ai sensi dell'articolo 12 della Legge n. 6698 sulla protezione dei dati personali (la «KVKK») e, ove applicabile, dell'articolo 28 del Regolamento generale sulla protezione dei dati dell'Unione europea (il «GDPR»)." },
+      { "p": "I trattamenti effettuati dalla Società in qualità di titolare del trattamento per gli account degli Utenti, la fatturazione e la sicurezza del proprio servizio non rientrano nell'ambito del presente Allegato; sono descritti nell'[Informativa KVKK e Informativa sulla privacy per gli utenti delle Attività](doc:privacy-business)." }
+    ]},
+    { "id": "duration-purpose", "heading": "2. Durata, natura e finalità", "blocks": [
+      { "p": "L'Allegato è efficace per la durata del Contratto di Servizio e fino al completamento delle cancellazioni di cui alla sezione 9." },
+      { "p": "La Società tratta i dati personali esclusivamente per fornire il Servizio: pubblicare il menu per gli ospiti, gestire le sessioni ai tavoli e gli ordini, trasmettere le chiamate al cameriere, far funzionare la schermata dei camerieri, generare i report sulle vendite e sull'utilizzo del menu e garantire la sicurezza del Servizio. Il trattamento consiste nelle operazioni di registrazione, conservazione, organizzazione, consultazione, trasmissione, elaborazione di report e cancellazione." }
+    ]},
+    { "id": "data-categories", "heading": "3. Interessati e categorie di dati", "blocks": [
+      { "p": "**Clienti.** Ai clienti non vengono richiesti nome, indirizzo e-mail o numero di telefono. I dati trattati sono i seguenti:" },
+      { "ul": [
+        "dati della sessione al tavolo: tavolo, carrello condiviso, chiavi utilizzate per la partecipazione alla sessione e conservate sotto forma di hash, codice di sessione a 6 cifre;",
+        "registrazioni degli ordini e delle chiamate al cameriere, per l'acqua o per il conto, collegate esclusivamente al tavolo;",
+        "dati di utilizzo del menu raccolti senza cookie: identificativo casuale di visualizzazione della pagina, classe di dispositivo e tipo di browser ricavati dai dati del browser, lingua del menu, codice del paese ricavato dall'intestazione di rete, prodotti aperti e tempo trascorso sulla pagina;",
+        "indirizzo IP, utilizzato temporaneamente a fini di sicurezza e per limitare l'uso eccessivo; l'indirizzo IP non viene registrato nella banca dati."
+      ]},
+      { "p": "**Camerieri.** Nome, cognome, sesso e sede inseriti dal Titolare; ordini consegnati e registrazioni delle vendite del cameriere; dati di sessione della schermata dei camerieri." },
+      { "p": "**Altri dipendenti del Titolare.** Nomi dei dipendenti inseriti dal Titolare nel Servizio e registrazioni delle operazioni a essi collegate." },
+      { "p": "L'Allegato non ha per oggetto il trattamento di categorie particolari di dati personali. Il Titolare non inserisce tali dati nel Servizio." }
+    ]},
+    { "id": "instructions", "heading": "4. Istruzioni e riservatezza", "blocks": [
+      { "p": "La Società tratta i dati personali soltanto su istruzione documentata del Titolare. Tali istruzioni sono costituite dal Contratto di Servizio, dal presente Allegato e dalle impostazioni e operazioni del Titolare nel pannello. Se ritiene che un'istruzione violi la normativa, la Società ne informa il Titolare. Restano salvi i casi in cui la normativa imponga alla Società un obbligo di trattamento." },
+      { "p": "La Società garantisce che i propri dipendenti che accedono ai dati personali siano vincolati da un obbligo di riservatezza e limita l'accesso a coloro che ne hanno necessità per lo svolgimento delle proprie mansioni." },
+      { "p": "Il Titolare è responsabile della liceità del trattamento dei dati, dell'obbligo di informativa nei confronti dei propri clienti e dipendenti e della liceità delle istruzioni impartite." }
+    ]},
+    { "id": "security", "heading": "5. Misure di sicurezza", "blocks": [
+      { "p": "Per la sicurezza dei dati la Società applica le seguenti misure:" },
+      { "ul": [
+        "i dati sono ospitati nell'infrastruttura server gestita dalla Società;",
+        "la trasmissione dei dati è cifrata con TLS;",
+        "i campi sensibili sono conservati in forma cifrata nella banca dati; le chiavi di sessione e di accesso sono conservate sotto forma di hash;",
+        "nel pannello è applicato un controllo degli accessi basato su ruoli e autorizzazioni;",
+        "per i dipendenti che accedono alla schermata di amministrazione della piattaforma della Società è utilizzata l'autenticazione a più fattori;",
+        "le operazioni di amministrazione sono registrate in un registro di audit non modificabile;",
+        "contro le richieste eccessive e i tentativi di abuso è applicata una limitazione della frequenza delle richieste;",
+        "i dipendenti della Società accedono a un account a fini di assistenza solo con un accesso limitato nel tempo e visibile al Titolare nel pannello."
+      ]},
+      { "p": "La Società può aggiornare tali misure in base all'evoluzione tecnica; gli aggiornamenti non riducono il livello di protezione." }
+    ]},
+    { "id": "sub-processors", "heading": "6. Sub-responsabili e servizi di terzi", "blocks": [
+      { "p": "Le funzioni principali del Servizio funzionano sui server della Società. Anche la traduzione automatica dei testi del menu e la rimozione dello sfondo dalle fotografie avvengono sui server della Società. Per trattare i dati oggetto del presente Allegato la Società si avvale dei seguenti servizi:" },
+      { "ul": [
+        "**Servizio di invio e-mail:** quando utilizzato, riceve soltanto l'indirizzo e-mail del destinatario e il contenuto dell'e-mail. Questo servizio può trovarsi all'estero.",
+        "**Prestatore di servizi di pagamento autorizzato:** utilizzato esclusivamente per i pagamenti dell'abbonamento del Cliente; non riceve dati dei clienti né dei camerieri."
+      ]},
+      { "p": "Nel pannello può essere utilizzato Google Translate tramite il browser per tradurre i testi del menu. A tale servizio sono trasmessi il testo del menu e l'indirizzo IP dell'utente. In condizioni normali i testi del menu non contengono dati personali; il Titolare non inserisce dati personali nei testi del menu." },
+      { "p": "Se il Titolare collega il proprio account a ChatGPT, il catalogo dei prodotti, le informazioni del menu e i nomi dei dipendenti sono trasmessi a OpenAI su istruzione del Titolare. La decisione di attivare e rimuovere tale collegamento, nonché il rapporto con OpenAI, spettano al Titolare." },
+      { "p": "Prima di avvalersi di un nuovo sub-responsabile, la Società ne informa il Titolare via e-mail o tramite il pannello. Se il Titolare si oppone per un motivo giustificato e le parti non trovano una soluzione, il Titolare può recedere dal Contratto di Servizio. La Società impone ai propri sub-responsabili obblighi di protezione dei dati di livello pari a quelli del presente Allegato. L'elenco aggiornato dei sub-responsabili è fornito su richiesta all'indirizzo [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "transfers", "heading": "7. Trasferimento all'estero", "blocks": [
+      { "p": "I dati personali sono trasferiti all'estero solo sulla base delle basi giuridiche previste dalla normativa. Ai trasferimenti dalla Turchia si applica l'art. 9 della KVKK; se il trasferimento si basa su clausole contrattuali standard, ne viene data notifica all'Istituzione per la protezione dei dati personali (Kişisel Verileri Koruma Kurumu) entro il termine previsto dalla Legge." },
+      { "p": "Nei casi in cui il Titolare sia soggetto al GDPR, gli strumenti necessari per il trasferimento verso la Società in Turchia, in particolare le clausole contrattuali standard della Commissione europea, sono perfezionati separatamente dalle parti. Finché tali strumenti non sono perfezionati, non si presume che un simile trasferimento abbia luogo." }
+    ]},
+    { "id": "assistance", "heading": "8. Richieste degli interessati e notifica delle violazioni", "blocks": [
+      { "p": "Se alla Società perviene direttamente una richiesta di un interessato, la Società la inoltra senza ritardo al Titolare e non vi risponde direttamente. La Società fornisce in misura ragionevole le informazioni e il supporto tecnico necessari affinché il Titolare possa rispondere alle richieste." },
+      { "p": "Quando viene a conoscenza di una violazione della sicurezza relativa ai dati oggetto del presente Allegato, la Società ne informa il Titolare senza ingiustificato ritardo e in modo tale da consentire al Titolare di rispettare il termine di notifica di 72 ore previsto dall'Autorità per la protezione dei dati personali (Kişisel Verileri Koruma Kurulu). La notifica indica, nella misura in cui sono noti in quel momento, la natura della violazione, le categorie di dati interessate, le possibili conseguenze e le misure adottate. L'obbligo di notifica all'Autorità e agli interessati spetta al Titolare." }
+    ]},
+    { "id": "deletion", "heading": "9. Cancellazione e conservazione", "blocks": [
+      { "p": "I dati grezzi di utilizzo del menu sono cancellati dopo 120 giorni; sono conservate soltanto statistiche aggregate non riconducibili a una persona." },
+      { "p": "Alla cessazione del Contratto di Servizio e alla chiusura dell'account, al termine del periodo di 30 giorni entro il quale l'account può essere riattivato, i dati oggetto del presente Allegato sono cancellati o resi anonimi. Il Titolare salva autonomamente i dati di cui ha bisogno prima della scadenza di tale periodo. Le registrazioni la cui conservazione è imposta dalla normativa sono conservate per il relativo periodo." }
+    ]},
+    { "id": "audits", "heading": "10. Audit", "blocks": [
+      { "p": "Su richiesta scritta del Titolare, la Società fornisce le informazioni e i documenti necessari a dimostrare il rispetto del presente Allegato. Se tali informazioni risultano insufficienti, il Titolare può effettuare un audit, o farlo effettuare da un revisore indipendente, al massimo una volta all'anno, a condizione di darne preavviso di almeno 30 giorni, di svolgerlo durante l'orario di lavoro, di sostenerne i costi e di rispettare l'obbligo di riservatezza. In caso di violazione della sicurezza o di richiesta di un'autorità competente, tale limite di frequenza non si applica. L'audit è svolto in modo da non pregiudicare i dati degli altri clienti né la sicurezza dei sistemi della Società." }
+    ]},
+    { "id": "liability", "heading": "11. Responsabilità", "blocks": [
+      { "p": "Ciascuna parte risponde della violazione dei propri obblighi derivanti dal presente Allegato e dalla normativa sulla protezione dei dati. Alla responsabilità della Società si applicano le limitazioni previste dalla sezione [Responsabilità](doc:business-terms#liability) del Contratto di Servizio; restano salvi i casi in cui il diritto imperativo non le consente." },
+      { "p": "In caso di contrasto tra il presente Allegato e il Contratto di Servizio in materia di protezione dei dati personali, prevale il presente Allegato." }
+    ]}
+  ]
+}

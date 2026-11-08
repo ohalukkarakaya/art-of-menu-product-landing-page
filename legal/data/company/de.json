@@ -1,0 +1,125 @@
+{
+  "key": "company",
+  "version": "1.1",
+  "locale": "de",
+  "title": "Unternehmen und rechtliche Angaben",
+  "effective": "2026-11-08",
+  "summary": "Art of Menu ist ein Softwareprodukt der Göktigin Bilişim Teknoloji Ltd. Şti. Auf dieser Seite finden Sie die Identitäts-, Kontakt- und Steuerangaben des Unternehmens sowie die rechtlichen Dokumente zu Art of Menu.",
+  "sections": [
+    {
+      "id": "identity",
+      "heading": "1. Angaben zum Unternehmen",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Angabe",
+              "Wert"
+            ],
+            "rows": [
+              [
+                "Firma",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Produktname",
+                "Art of Menu (Handelsname des dem Unternehmen gehörenden Softwareprodukts)"
+              ],
+              [
+                "Eingetragene Anschrift",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkei"
+              ],
+              [
+                "Finanzamt",
+                "Körperschaftsteueramt Antalya (Antalya Kurumlar Vergi Dairesi)"
+              ],
+              [
+                "Steuernummer",
+                "4060725346"
+              ],
+              [
+                "MERSİS-Nummer (zentrales Handelsregistersystem)",
+                "0406072534600001"
+              ],
+              [
+                "Handelsregister",
+                "Handelsregisteramt Antalya — 137005"
+              ],
+              [
+                "KEP-Adresse (registrierte elektronische Post)",
+                "[wird ergänzt]"
+              ],
+              [
+                "Telefon",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-Mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "heading": "2. Geschäftstätigkeit",
+      "blocks": [
+        {
+          "p": "Hauptgegenstand der Geschäftstätigkeit des Unternehmens ist die Programmierung von Computersoftware (Tätigkeitscode 621000). Unter dem Namen Art of Menu stellt das Unternehmen Restaurants, Cafés und vergleichbaren Betrieben im Rahmen eines Abonnements Software für digitale QR-Speisekarten und Bestellverwaltung zur Verfügung. Das Unternehmen ist nicht Verkäufer der Produkte, die die Betriebe an ihre Gäste verkaufen."
+        },
+        {
+          "p": "Art of Menu-Abonnements werden vom Unternehmen unmittelbar an Betriebe in der Türkei und in anderen Ländern verkauft. Anbieter und Verkäufer des Dienstes ist das Unternehmen."
+        }
+      ]
+    },
+    {
+      "id": "hosting",
+      "heading": "3. Hosting und Präsenz im Ausland",
+      "blocks": [
+        {
+          "p": "Die Hauptdaten von Art of Menu werden auf der vom Unternehmen verwalteten Serverinfrastruktur gehostet."
+        },
+        {
+          "p": "Das Unternehmen hat außerhalb der Türkei weder eine Gesellschaft noch eine Niederlassung, ein Büro oder einen Vertreter."
+        }
+      ]
+    },
+    {
+      "id": "data-requests",
+      "heading": "4. Anträge zu personenbezogenen Daten",
+      "blocks": [
+        {
+          "p": "Anträge zu Ihren Rechten nach dem türkischen Gesetz Nr. 6698 zum Schutz personenbezogener Daten und, soweit anwendbar, nach der DSGVO können Sie dem Unternehmen auf folgenden Wegen übermitteln:"
+        },
+        {
+          "ul": [
+            "per E-Mail an [hello@goktigin.com](mailto:hello@goktigin.com) von der in den Systemen des Unternehmens hinterlegten E-Mail-Adresse;",
+            "durch einen eigenhändig unterschriebenen schriftlichen Antrag an die oben genannte eingetragene Anschrift."
+          ]
+        },
+        {
+          "p": "Anträge, die Sie als Gast eines Betriebs zu den Daten stellen, die der Betrieb über Sie verarbeitet, sind an den Betrieb als Verantwortlichen zu richten. Gehen solche Anträge beim Unternehmen ein, leitet das Unternehmen sie an den betreffenden Betrieb weiter."
+        }
+      ]
+    },
+    {
+      "id": "legal-documents",
+      "heading": "5. Rechtliche Dokumente",
+      "blocks": [
+        {
+          "ul": [
+            "[Art of Menu Dienstleistungsvertrag für Betriebe](doc:business-terms)",
+            "[Auftragsverarbeitungsvertrag](doc:dpa)",
+            "[Vertriebspartnervertrag](doc:partner-terms)",
+            "[Datenschutzinformation nach KVKK und Datenschutzerklärung für Betriebsnutzer](doc:privacy-business)",
+            "[Datenschutzinformation nach KVKK für Vertriebspartner](doc:privacy-partner)",
+            "[Datenschutzhinweise für Gäste](doc:privacy-guest)",
+            "[Richtlinie zu Cookies und ähnlichen Technologien](doc:cookies)"
+          ]
+        }
+      ]
+    }
+  ]
+}

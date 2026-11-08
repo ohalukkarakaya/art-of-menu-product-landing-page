@@ -1,0 +1,192 @@
+{
+  "key": "privacy-business",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "İşletme Kullanıcıları için KVKK Aydınlatma Metni ve Gizlilik Bildirimi",
+  "effective": "2026-11-08",
+  "summary": "Bu metin, Art of Menu'yü kullanan işletmelerin sahipleri, yetkilileri, kullanıcıları ve fatura iletişim kişileri ile artofmenu.com sitesini ziyaret eden kişilerin kişisel verilerinin Göktigin Bilişim Teknoloji Ltd. Şti. tarafından nasıl işlendiğini 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 10. maddesi uyarınca açıklar. Avrupa Birliği, Avrupa Ekonomik Alanı ve Birleşik Krallık'taki kullanıcılar için ek bilgiler 12. bölümdedir. Bu metin bir sözleşme veya onay metni değildir.",
+  "sections": [
+    {
+      "id": "controller",
+      "heading": "1. Veri Sorumlusu",
+      "blocks": [
+        { "p": "Bu metinde açıklanan kişisel veriler, veri sorumlusu sıfatıyla **Göktigin Bilişim Teknoloji Limited Şirketi** (Şirket) tarafından işlenir." },
+        { "ul": [
+          "Adres: Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye",
+          "Vergi dairesi ve numarası: Antalya Kurumlar Vergi Dairesi, 4060725346",
+          "E-posta: [hello@goktigin.com](mailto:hello@goktigin.com)",
+          "Telefon: +90 554 238 70 07"
+        ] },
+        { "p": "Art of Menu, Şirket'in yazılım ürününün ticari adıdır. Şirket'in diğer bilgileri [Şirket ve Yasal Bilgiler](doc:company) sayfasında yer alır. Şirket'in Türkiye dışında şirketi, şubesi veya temsilcisi bulunmamaktadır." }
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "2. Kapsam ve Şirket'in Rolleri",
+      "blocks": [
+        { "p": "Bu metin şu kişileri kapsar: işletme hesabını açan ve yöneten kişiler, işletmenin panele erişen kullanıcıları, fatura iletişim kişileri, ChatGPT bağlantısını kuran yetkililer ve artofmenu.com sitesinin ziyaretçileri. Bu kişiler bakımından Şirket veri sorumlusudur." },
+        { "p": "İşletmenin Art of Menu'ye girdiği garson bilgileri ile işletmenin misafirlerine ait sipariş, masa oturumu ve menü kullanım verileri bakımından veri sorumlusu işletmedir. Şirket bu verileri işletme adına ve işletmenin talimatlarıyla, veri işleyen sıfatıyla işler. Bu işleme [Veri İşleme Sözleşmesi](doc:dpa) ile düzenlenir. Misafirlere yönelik bilgilendirme [Misafirler için Gizlilik Bilgilendirmesi](doc:privacy-guest) metnindedir." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "3. İşlenen Kişisel Veriler",
+      "blocks": [
+        { "table": {
+          "head": ["Veri kategorisi", "Veriler"],
+          "rows": [
+            ["Kimlik ve iletişim", "Ad veya kayıt sırasında girilen işletme adı, e-posta adresi, fatura iletişim e-posta adresi."],
+            ["Hesap ve tercih", "Kullanıcı rolü ve yetkileri, dil tercihi, panel ayarları."],
+            ["İşlem güvenliği", "Şifrenin geri döndürülemez özet (hash) değeri, oturum kayıtları (oturum çerezi, tarayıcı bilgisi, oturum başlangıç ve son kullanım zamanı), panelde yapılan işlemlerin denetim kayıtları, Şirket destek personelinin hesaba erişim kayıtları (erişen personel, gerekçe, süre)."],
+            ["Finans ve fatura", "Fatura unvanı, vergi kimlik numarası, vergi dairesi, KDV numarası, fatura adresi, ödeme kartının ödeme hizmet sağlayıcısındaki karşılığı olan referans (token) ve kartın görüntüleme bilgileri (kart markası, son dört hane, son kullanma tarihi), faturalar, abonelik ve ödeme geçmişi, başarısız tahsilat kayıtları."],
+            ["Müşteri işlem", "Seçilen paketler ve şubeler, abonelik iptal nedenleri, destek talepleri ve yazışmalar."],
+            ["İşletme içeriği", "Menü metinleri, ürün fotoğrafları, şube adresi ve konumu, çalışma saatleri. Bu bilgiler çoğunlukla kişisel veri değildir; bir kişiyle ilişkilendirildiğinde kişisel veri olarak korunur."],
+            ["Hukuki işlem", "Sözleşme kabul kayıtları (kabul eden kullanıcı ve işletme, belge, sürüm, dil, tarih, IP adresinin özet değeri, tarayıcı bilgisi) ve otomatik tahsilat yetkilendirme kayıtları."],
+            ["ChatGPT bağlantısı", "İşletme ChatGPT bağlantısı kurarsa bağlantıyı kuran kullanıcı, verilen yetkiler, erişim anahtarlarının özet değerleri ve bağlantı üzerinden istenen değişikliklerin kayıtları."],
+            ["Site ziyaretçileri", "IP adresi ve tarayıcı bilgisi; yalnızca sayfanın iletilmesi, hız sınırlama ve kötüye kullanımın önlenmesi için anlık olarak işlenir ve veritabanında saklanmaz."]
+          ]
+        } },
+        { "p": "Kart numarası ve CVV Şirket'in sistemlerinde saklanmaz. Kart bilgileri doğrudan ödeme hizmet sağlayıcısı tarafından işlenir." },
+        { "p": "Şirket, işletme kullanıcılarından özel nitelikli kişisel veri istemez." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "4. İşleme Amaçları",
+      "blocks": [
+        { "ul": [
+          "Hesabın açılması, kullanıcıların kimlik doğrulaması ve yetkilerinin yönetilmesi,",
+          "Art of Menu hizmetinin sunulması: menü, sipariş, masa, garson, Smart ve diğer paket özelliklerinin çalıştırılması,",
+          "Aboneliklerin başlatılması, yenilenmesi, iptal edilmesi, ödemelerin alınması ve faturaların düzenlenmesi,",
+          "Hesap, sistem ve ödeme güvenliğinin sağlanması, kötüye kullanımın ve yetkisiz erişimin önlenmesi,",
+          "Destek taleplerinin yanıtlanması ve işletmenin talebi veya bilgisi dahilinde destek erişimi sağlanması,",
+          "Hizmetle ilgili zorunlu bildirimlerin (hesap, güvenlik, ödeme, abonelik ve sözleşme değişiklikleri) gönderilmesi,",
+          "Vergi, muhasebe ve ticari kayıt yükümlülüklerinin yerine getirilmesi, yetkili makamların hukuka uygun taleplerinin karşılanması,",
+          "Sözleşmelerin ve Kurumsal Politika'nın uygulanması, sözleşme kabullerinin ispatı, hukuki uyuşmazlıklarda hakların korunması,",
+          "Hizmetin geliştirilmesi; bu amaçla yalnızca toplu ve kişiyi tanımlamayan kullanım istatistikleri kullanılır."
+        ] },
+        { "p": "Şirket pazarlama e-postası veya ticari elektronik ileti göndermez. Gönderilen e-postalar hizmetin kullanımıyla ilgili bildirimlerle sınırlıdır." }
+      ]
+    },
+    {
+      "id": "legal-bases",
+      "heading": "5. Hukuki Sebepler",
+      "blocks": [
+        { "p": "Kişisel veriler KVKK m. 5/2'deki aşağıdaki hukuki sebeplere dayanılarak işlenir:" },
+        { "ul": [
+          "**(c) Sözleşmenin kurulması veya ifası:** Hesap, hizmetin sunulması, abonelik, ödeme, fatura ve destek işlemleri.",
+          "**(ç) Hukuki yükümlülüğün yerine getirilmesi:** Vergi Usul Kanunu, Türk Ticaret Kanunu ve ilgili mevzuattan doğan fatura, kayıt ve saklama yükümlülükleri; yetkili makamların talepleri.",
+          "**(e) Bir hakkın tesisi, kullanılması veya korunması:** Sözleşme kabul kayıtları, fatura ve ödeme kayıtları, denetim kayıtları.",
+          "**(f) Meşru menfaat:** Hesap ve sistem güvenliği, kötüye kullanımın önlenmesi, site ziyaretçilerinin isteklerinin güvenli biçimde karşılanması ve toplu istatistiklerle hizmetin geliştirilmesi."
+        ] },
+        { "p": "Bu metinde açıklanan işlemler açık rızaya dayanmaz. Bu nedenle açık rıza istenmez." }
+      ]
+    },
+    {
+      "id": "collection",
+      "heading": "6. Toplama Yöntemi",
+      "blocks": [
+        { "p": "Kişisel veriler; kayıt, giriş, fatura ve ödeme formları, panelde yapılan işlemler, oturum ve güvenlik kayıtları, ödeme hizmet sağlayıcısından gelen işlem sonuçları, destek yazışmaları ve site ziyaretleri sırasında elektronik ortamda, otomatik ve kısmen otomatik yöntemlerle toplanır." }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "7. Aktarılan Kişiler ve Üçüncü Taraf Hizmetler",
+      "blocks": [
+        { "p": "Art of Menu'nün ana verileri Şirket'in yönettiği sunucu altyapısında tutulur. Otomatik çeviri, arka plan temizleme ve öneri hizmetleri de bu altyapıda çalışır. Kişisel veriler pazarlama amacıyla hiçbir üçüncü kişiyle paylaşılmaz ve satılmaz. Aşağıdaki alıcılar ve hizmetler yalnızca belirtilen verileri alır:" },
+        { "table": {
+          "head": ["Alıcı veya hizmet", "Amaç", "Aldığı veriler"],
+          "rows": [
+            ["Şirket'in çalıştığı lisanslı ödeme hizmet sağlayıcısı (Türkiye)", "Kart bilgilerinin alınması, tahsilat ve otomatik yenileme", "Kart bilgileri, ödeme tutarı ve para birimi, fatura bilgileri"],
+            ["E-posta teslim hizmet sağlayıcısı (Resend, yapılandırıldığında)", "Hizmet e-postalarının teslimi", "Alıcının e-posta adresi ve e-postanın içeriği"],
+            ["Kamu kurum ve kuruluşları", "Vergi ve diğer hukuki yükümlülükler, hukuka uygun talepler", "Talebin veya yükümlülüğün gerektirdiği veriler"],
+            ["Hukuk ve mali danışmanlar, denetçiler", "Muhasebe, vergi, denetim ve uyuşmazlık süreçleri", "Sürecin gerektirdiği veriler"],
+            ["OpenAI (ChatGPT), yalnızca işletme bağlantı kurarsa", "İşletmenin ChatGPT üzerinden menüsünü ve işletmesini yönetmesi", "İşletmenin izin verdiği kapsamda katalog ve menü bilgileri, garson adları ve işletme verileri"]
+          ]
+        } },
+        { "p": "**Panelde tarayıcınızdan doğrudan bağlanılan hizmetler:** Paneldeki bazı özellikler, tarayıcınızın aşağıdaki hizmetlere doğrudan istek göndermesiyle çalışır. Bu hizmetler, isteğin içeriğini ve tarayıcınızın IP adresini kendi politikalarına göre işler:" },
+        { "ul": [
+          "**Google Translate:** Menü metinlerinin otomatik çevirisi için çevrilecek metin.",
+          "**OpenStreetMap Nominatim:** Adres arama ve konumdan adres bulma için arama metni veya koordinatlar.",
+          "**OpenStreetMap harita:** Konum seçicideki harita görüntüsü.",
+          "**Open-Meteo:** Hava durumu bilgisi için şube koordinatları.",
+          "**ipwho.is:** Fiyatlandırma bölgesinin sistemce belirlenemediği durumlarda ülke tespiti için IP adresi.",
+          "**Frankfurter ve open.er-api.com:** Döviz kurlarının gösterilmesi; isteğe kişisel veri eklenmez, yalnızca IP adresi iletilir."
+        ] },
+        { "p": "**Sunucularımızın bağlandığı hizmetler:** MET Norway (yuvarlanmış şube koordinatlarıyla hava durumu), OpenStreetMap Nominatim (şube koordinatlarından adres bulma), Nager.Date ve OpenHolidays (yalnızca ülke ve bölge kodlarıyla resmî tatil bilgisi), Türkiye Cumhuriyet Merkez Bankası ve Avrupa Merkez Bankası (kişisel veri içermeyen döviz kuru sorguları) ve Let's Encrypt (özel alan adları için güvenlik sertifikası; yalnızca alan adı). Bu isteklerde kullanıcıya ait kişisel veri gönderilmez." }
+      ]
+    },
+    {
+      "id": "transfers-abroad",
+      "heading": "8. Yurt Dışına Aktarım",
+      "blocks": [
+        { "p": "E-posta teslim hizmet sağlayıcısı Resend ve OpenAI Amerika Birleşik Devletleri merkezlidir. Panelden tarayıcınızın doğrudan bağlandığı Google Translate, OpenStreetMap, Open-Meteo, ipwho.is, Frankfurter ve open.er-api.com hizmetlerinin sunucuları da Türkiye dışında bulunabilir. Bu nedenle bazı kişisel veriler (e-posta adresi, e-posta içeriği, IP adresi, çevrilecek metin, koordinatlar) yurt dışına aktarılabilir." },
+        { "p": "Yurt dışına aktarım, KVKK m. 9'da düzenlenen şartlara göre yapılır. Kişisel Verileri Koruma Kurulu tarafından yeterlilik kararı verilmemiş ülkelere aktarımda m. 9/4'te sayılan uygun güvencelerden birine (ör. Kurulca ilan edilen standart sözleşme) dayanılır. Uygun güvencenin sağlanamadığı durumlarda aktarım, arızi olmak kaydıyla m. 9/6'da sayılan hâllerden birine, özellikle aktarımın sizinle yapılan sözleşmenin ifası için zorunlu olmasına (m. 9/6-b) dayanılarak yapılır." },
+        { "p": "ChatGPT bağlantısı isteğe bağlıdır. Bağlantıyı işletme kurar, yetkilerini belirler ve dilediği zaman panelden kaldırabilir. OpenAI, bağlantı üzerinden aldığı verileri kendi koşullarına göre işler." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "9. Saklama Süresi",
+      "blocks": [
+        { "ul": [
+          "Oturumlar en fazla 30 gün, 7 gün kullanılmadığında daha erken sona erer. Sona eren oturum kayıtları güvenlik amacıyla sınırlı bir süre saklanır.",
+          "Denetim kayıtları değiştirilemez biçimde tutulur ve güvenlik ile hukuki yükümlülükler için gerekli süre boyunca saklanır.",
+          "Faturalar, fatura bilgileri, abonelik ve ödeme geçmişi ilgili mevzuatta öngörülen süreler boyunca saklanır (ör. Türk Ticaret Kanunu m. 82 uyarınca 10 yıl, Vergi Usul Kanunu m. 253 uyarınca 5 yıl).",
+          "İşletme hesabı kapatıldığında hesap 30 gün içinde geri açılabilir. Bu sürenin sonunda menü içerikleri, görseller, istatistikler, siparişler, masa oturumları ve benzeri işletme verileri silinir; kullanıcı bilgileri anonim hâle getirilir. Faturalar, fatura hesabı bilgileri, abonelik geçmişi, sözleşme kabul kayıtları ve denetim kayıtları yasal saklama süreleri boyunca saklanır.",
+          "Menü kullanımına ilişkin ham istatistikler 120 gün sonra silinir; kişiyi tanımlamayan toplu sonuçlar saklanır.",
+          "Sözleşme kabul kayıtları, ilgili alacakların zamanaşımı süresi boyunca saklanır."
+        ] },
+        { "p": "Saklama süresi dolan kişisel veriler silinir, yok edilir veya anonim hâle getirilir." }
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "10. Güvenlik",
+      "blocks": [
+        { "p": "Şirket, kişisel verilerin güvenliği için uygun teknik ve idari tedbirleri alır. Bağlantılar şifrelidir. Şifreler ve oturum anahtarları yalnızca geri döndürülemez özet değerleriyle saklanır. Oturum çerezleri tarayıcıdaki betiklerle okunamaz ve yalnızca güvenli bağlantı üzerinden iletilir. Şirket personelinin işletme paneline destek amacıyla erişimi gerekçeli, süreli ve salt okunur olarak yapılır; işletme her erişimi görebilir ve sonlandırabilir. Kişisel verilere yalnızca görevi gereği erişmesi gereken personel erişir." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "11. Haklarınız ve Başvuru",
+      "blocks": [
+        { "p": "KVKK m. 11 uyarınca Şirket'e başvurarak kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini ve KVKK m. 7 çerçevesinde silinmesini veya yok edilmesini isteme, bu işlemlerin aktarılan üçüncü kişilere bildirilmesini isteme, münhasıran otomatik sistemlerle analiz edilmesi nedeniyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme ve kanuna aykırı işleme nedeniyle uğradığınız zararın giderilmesini talep etme haklarınızı kullanabilirsiniz." },
+        { "p": "Başvurunuzu, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ uyarınca kimliğinizi ve talebinizi açıkça belirterek Şirket'in adresine yazılı ve ıslak imzalı dilekçe ile, Art of Menu hesabınızda kayıtlı e-posta adresinizden [hello@goktigin.com](mailto:hello@goktigin.com) adresine e-posta ile veya güvenli elektronik imza ya da mobil imza ile imzalanmış başvuru ile yapabilirsiniz." },
+        { "p": "Şirket başvurunuzu niteliğine göre en geç 30 gün içinde ücretsiz olarak sonuçlandırır. İşlemin ayrıca bir maliyet gerektirmesi hâlinde Kişisel Verileri Koruma Kurulu'nun belirlediği tarifedeki ücret alınabilir. Başvurunuzun reddedilmesi, cevabı yetersiz bulmanız veya süresinde cevap verilmemesi hâlinde KVKK m. 14 uyarınca Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsiniz." },
+        { "p": "Garson veya misafir verilerine ilişkin talepler, bu verilerin veri sorumlusu olan işletmeye yapılmalıdır. Şirket'e ulaşan bu tür talepler ilgili işletmeye iletilir." }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "heading": "12. AB, AEA ve Birleşik Krallık'taki Kullanıcılar için Ek Bilgiler",
+      "blocks": [
+        { "p": "Avrupa Birliği, Avrupa Ekonomik Alanı veya Birleşik Krallık'ta bulunuyorsanız kişisel verilerinizin işlenmesine Genel Veri Koruma Tüzüğü (GDPR) veya Birleşik Krallık GDPR'ı da uygulanabilir. Bu durumda veri sorumlusu (controller) Şirket'tir." },
+        { "p": "**Hukuki dayanaklar:**" },
+        { "ul": [
+          "GDPR m. 6/1-b: Hizmet sözleşmesinin kurulması ve ifası (hesap, hizmet, abonelik, ödeme, fatura ve destek).",
+          "GDPR m. 6/1-c: Şirket'e uygulanan hukuki yükümlülükler (vergi, muhasebe ve kayıt saklama).",
+          "GDPR m. 6/1-f: Şirket'in meşru menfaatleri (güvenlik, kötüye kullanımın önlenmesi, hukuki taleplerin tesisi ve savunulması, toplu istatistiklerle hizmetin geliştirilmesi). Bu menfaatlere ilişkin değerlendirme hakkında bilgi isteyebilirsiniz."
+        ] },
+        { "p": "**Türkiye'ye ve Türkiye'den aktarım:** Verileriniz Türkiye'de kurulu Şirket tarafından toplanır ve Türkiye'de işlenir. Avrupa Komisyonu'nun Türkiye hakkında verdiği bir yeterlilik kararı bulunmamaktadır. Verilerinizin Türkiye'de işlenmesi, sizinle veya temsil ettiğiniz işletmeyle yapılan hizmet sözleşmesinin ifası için gereklidir (GDPR m. 49/1-b). 7. ve 8. bölümlerde belirtilen alıcılara yapılan aktarımlarda GDPR'nin V. Bölümü'nde öngörülen araçlardan uygun olanına dayanılır." },
+        { "p": "**Haklarınız:** GDPR m. 15-22 uyarınca verilerinize erişme, düzeltme, silme, işlemeyi kısıtlama, veri taşınabilirliği ve meşru menfaate dayanan işlemeye itiraz haklarına sahipsiniz. Talebinizi 11. bölümdeki yollarla iletebilirsiniz. Şirket talebinizi en geç bir ay içinde yanıtlar; bu süre GDPR m. 12/3'te öngörülen ölçüde uzatılabilir ve uzatma size bildirilir." },
+        { "p": "**Şikâyet hakkı:** Olağan olarak ikamet ettiğiniz, çalıştığınız veya ihlalin gerçekleştiğini düşündüğünüz ülkedeki veri koruma denetim makamına şikâyette bulunabilirsiniz." },
+        { "p": "Sözleşmenin ifası için gerekli verileri vermemeniz hâlinde hesap açılamaz veya abonelik başlatılamaz. Otomatik karar alma ve profilleme yapılmaz." }
+      ]
+    },
+    {
+      "id": "cookies",
+      "heading": "13. Çerezler",
+      "blocks": [
+        { "p": "Panel ve site yalnızca hizmetin çalışması için zorunlu çerezleri ve işlevsel tarayıcı depolamasını kullanır. Analitik, reklam veya pazarlama çerezi kullanılmaz. Ayrıntılar [Çerez ve Benzeri Teknolojiler Politikası](doc:cookies) metnindedir." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "14. Bu Metindeki Değişiklikler",
+      "blocks": [
+        { "p": "Şirket, veri işleme faaliyetlerinde değişiklik olduğunda bu metni günceller. Güncel metin yürürlük tarihi ve sürüm numarasıyla yayımlanır. Esaslı değişiklikler panel üzerinden veya e-posta ile ayrıca bildirilir." }
+      ]
+    }
+  ]
+}

@@ -3,9 +3,9 @@
   "ui": {
     "langName": "Italiano",
     "home": "Home",
-    "notify": "Avvisami al lancio",
+    "notify": "Inizia ora",
     "pricing": "Prezzi",
-    "soon": "In arrivo",
+    "soon": "Disponibile ora",
     "answerLabel": "In breve",
     "featuresTitle": "Le funzioni di ArtOfMenu per questo tema",
     "faqTitle": "Domande frequenti",
@@ -40,20 +40,16 @@
         "d": "Ogni sera fissa i prezzi di domani tra il minimo e il massimo che decidi tu."
       },
       "pdf": {
-        "t": "Dal PDF al menu online",
-        "d": "Carica il PDF del menu che hai già e vai online lo stesso giorno."
+        "t": "Il tuo PDF, online oggi",
+        "d": "Carica il PDF del menu che hai già: il QR del locale lo apre lo stesso giorno, in tutti i piani. Il menu digitale lo costruisci quando vuoi."
       },
       "stock": {
         "t": "Scorte ed esauriti",
-        "d": "Report di scorte e ordini; con lo stock da ricetta, se finisce un ingrediente i piatti risultano esauriti."
+        "d": "Con lo stock da ricetta, se finisce un ingrediente i piatti che lo usano risultano esauriti da soli."
       },
       "reports": {
-        "t": "Report del menu",
-        "d": "Statistiche anonime che segnalano i piatti visti ma poco aperti e quelli aperti ma mai ordinati."
-      },
-      "screens": {
-        "t": "Schermi dietro al banco",
-        "d": "Il menu sui monitor del banco, con più schermi che girano pagina insieme."
+        "t": "Report di vendita",
+        "d": "Nel piano Smart vedi cosa esce di più e in quali giorni, sede per sede."
       },
       "domain": {
         "t": "Il tuo dominio",
@@ -72,7 +68,7 @@
           "Menu in più lingue",
           "Il tuo dominio",
           "Caricamento del PDF",
-          "Statistiche anonime"
+          "Menù fissi e formati"
         ]
       },
       "order": {
@@ -81,7 +77,7 @@
           "Tutto il piano Menu",
           "Ordinazioni dal tavolo",
           "Schermo del cameriere e notifiche",
-          "Report semplici di scorte e ordini"
+          "Chiamata cameriere, acqua e conto dal tavolo"
         ]
       },
       "smart": {
@@ -90,9 +86,8 @@
           "Tutto il piano Order",
           "Prezzi del giorno e calendario delle ricorrenze",
           "Ordini live e «si abbina bene con»",
-          "Chiamata dal tavolo",
-          "Stock da ricetta",
-          "Schermi dietro al banco"
+          "Stock da ricetta con esauriti automatici",
+          "Report di vendita"
         ]
       }
     }
@@ -118,7 +113,7 @@
           "h2": "Cosa cambia per chi gestisce il locale",
           "body": [
             "Il codice sul tavolo resta sempre lo stesso. Quando lo spritz passa da 6 a 6,50 € o finisce il pesce del giorno, modifichi il menu e il QR mostra subito la versione nuova. I supporti stampati restano dove sono.",
-            "Se hai già un menu in PDF, lo carichi e sei online lo stesso giorno. Il menu può aprirsi sul dominio del tuo locale, così l'ospite legge il tuo nome nell'indirizzo."
+            "Se hai già un menu in PDF, lo carichi e il QR lo apre lo stesso giorno; intanto nel pannello costruisci il menu digitale con foto e allergeni. Il menu può aprirsi sul dominio del tuo locale, così l'ospite legge il tuo nome nell'indirizzo."
           ]
         },
         {
@@ -127,7 +122,7 @@
             "ArtOfMenu nasce per locali piccoli e medi, dove il menu cambia spesso e il personale ha poco tempo."
           ],
           "bullets": [
-            "Bar e caffetterie: la colazione al tavolo, il listino sugli schermi del banco.",
+            "Bar e caffetterie: la colazione al tavolo, un QR anche al banco per chi è in fila.",
             "Ristoranti e trattorie: menu lunghi divisi in portate, allergeni, ospiti stranieri.",
             "Cocktail bar, pub e wine bar: carte drink che cambiano, giri di ordinazioni, prodotti che finiscono.",
             "Pasticcerie: vetrine piene, prodotti di stagione, allergeni da indicare con cura."
@@ -136,14 +131,14 @@
         {
           "h2": "Oltre il menu: ordini, scorte e prezzi",
           "body": [
-            "Il piano Menu copre l'essenziale: foto, allergeni, lingue, dominio, caricamento del PDF e statistiche anonime. Con Order gli ospiti ordinano dal tavolo e il cameriere riceve l'ordine sul telefono. Con Smart il menu propone abbinamenti, gestisce le scorte da ricetta e ogni sera calcola i prezzi del giorno dopo entro i limiti che fissi tu.",
+            "Il piano Menu copre l'essenziale: foto, allergeni, lingue, dominio, menù fissi e formati, menu PDF. Con Order gli ospiti ordinano dal tavolo e il cameriere riceve l'ordine sul telefono. Con Smart il menu propone abbinamenti, gestisce le scorte da ricetta e ogni sera calcola i prezzi del giorno dopo entro i limiti che fissi tu.",
             "Ogni funzione ha la sua pagina, con quello che fa e quello che non fa."
           ]
         },
         {
           "h2": "La privacy dei tuoi ospiti",
           "body": [
-            "Il menu non usa cookie e non conserva identificativi persistenti o indirizzi IP degli ospiti. Le statistiche che vedi sono anonime: ti dicono quali piatti vengono guardati e quali ordinati, mai chi li ha guardati."
+            "Il menu non usa cookie e non conserva identificativi persistenti o indirizzi IP degli ospiti. Nessuno viene seguito: ArtOfMenu non sa chi guarda il menu, e i tuoi prezzi non vengono mai condivisi con altri locali."
           ]
         }
       ],
@@ -173,13 +168,13 @@
           "a": "Il piano Menu costa 9 € al mese per locale, Order 29 € e Smart 59 €. Con l'abbonamento annuale paghi 10 mesi e ne usi 12. Non esiste un piano senza costi e non c'è un periodo di prova."
         },
         {
-          "q": "Quando sarà disponibile ArtOfMenu?",
-          "a": "ArtOfMenu non è ancora stato lanciato. Puoi lasciare nome, email, il link Google Maps del locale e il piano che ti interessa: ti scriviamo appena il servizio è disponibile, così puoi preparare il menu per tempo."
+          "q": "Posso iniziare a usare ArtOfMenu già oggi?",
+          "a": "Sì, ArtOfMenu è già disponibile. Ti registri nel pannello su app.artofmenu.com, crei il menu e stampi il QR per i tavoli. Il primo periodo viene addebitato all'attivazione dell'abbonamento e puoi disdire quando vuoi dal pannello."
         }
       ],
       "cta": {
-        "h2": "Il tuo menu, pronto per il lancio",
-        "lead": "Lascia i tuoi dati e ti avvisiamo appena ArtOfMenu è disponibile per il tuo locale."
+        "h2": "Il tuo menu, online da oggi",
+        "lead": "Registrati nel pannello, crea il menu e stampa il QR per i tuoi tavoli."
       },
       "related": [
         "pricing",
@@ -215,9 +210,9 @@
             "I prezzi sono per locale al mese. Ogni piano contiene tutto quello del piano precedente."
           ],
           "bullets": [
-            "Menu, 9 €: menu QR con foto e allergeni, più lingue, il tuo dominio, caricamento del PDF, statistiche anonime.",
-            "Order, 29 €: tutto il piano Menu, più ordinazioni dal tavolo, schermo del cameriere con notifiche, report semplici di scorte e ordini.",
-            "Smart, 59 €: tutto il piano Order, più prezzi del giorno con calendario delle ricorrenze, ordini live con «si abbina bene con», chiamata dal tavolo, stock da ricetta e schermi dietro al banco."
+            "Menu, 9 €: menu QR con foto e allergeni, più lingue, il tuo dominio, menù fissi e formati, menu PDF.",
+            "Order, 29 €: tutto il piano Menu, più ordinazioni dal tavolo, schermo del cameriere con notifiche, chiamata del cameriere, dell'acqua e del conto dal tavolo.",
+            "Smart, 59 €: tutto il piano Order, più prezzi del giorno con calendario delle ricorrenze, ordini live con «si abbina bene con», stock da ricetta e report di vendita."
           ]
         },
         {
@@ -255,11 +250,11 @@
         },
         {
           "q": "C'è un periodo di prova?",
-          "a": "No, ArtOfMenu non ha un periodo di prova né un piano senza costi. La disdetta però si fa in un passaggio e il servizio resta attivo fino alla fine del periodo pagato, quindi puoi partire con un mese e decidere dopo."
+          "a": "No, ArtOfMenu non ha un periodo di prova né un piano senza costi: il primo periodo viene addebitato all'attivazione dell'abbonamento. La disdetta però si fa quando vuoi dal pannello e il servizio resta attivo fino alla fine del periodo pagato, quindi puoi partire con un mese e decidere dopo."
         },
         {
           "q": "Il prezzo è per account o per locale?",
-          "a": "Per locale. Ogni sede ha il suo abbonamento, perché ha il suo menu, i suoi prezzi e le sue statistiche. Se gestisci due bar, paghi due abbonamenti, e i dati dei due locali restano separati."
+          "a": "Per locale. Ogni sede ha il suo abbonamento, perché ha il suo menu, i suoi prezzi e i suoi tavoli. Se gestisci due bar, paghi due abbonamenti, e i dati dei due locali restano separati."
         },
         {
           "q": "Posso passare da Smart a Menu?",
@@ -267,12 +262,12 @@
         },
         {
           "q": "Perché pagare un menu digitale se basta un QR che apre il PDF?",
-          "a": "Il PDF va bene se ti serve solo mostrare il menu. Sul telefono però costringe a ingrandire, non cambia lingua e non ti dice cosa guardano gli ospiti. Con ArtOfMenu parti dal tuo PDF lo stesso giorno e hai in più lingue, foto, allergeni e statistiche."
+          "a": "Il PDF va bene se ti serve solo mostrare il menu. Sul telefono però costringe a ingrandire e non cambia lingua. Con ArtOfMenu puoi mettere online il tuo PDF lo stesso giorno e intanto costruire il menu digitale con lingue, foto e allergeni."
         }
       ],
       "cta": {
-        "h2": "Scegli il piano, ti avvisiamo al lancio",
-        "lead": "Indica nel modulo il piano che ti interessa: ti scriviamo quando ArtOfMenu apre."
+        "h2": "Scegli il piano e parti oggi",
+        "lead": "Registrati nel pannello, scegli il piano che ti serve e metti online il menu."
       },
       "related": [
         "qr-menu",
@@ -321,8 +316,8 @@
         {
           "h2": "Capire quali piatti lavorano per te",
           "body": [
-            "I report del menu segnalano due cose utili. Ci sono i piatti visti ma aperti di rado, che forse hanno un nome poco chiaro o una foto debole. Poi ci sono quelli aperti ma mai ordinati, dove spesso il problema è il prezzo o la descrizione.",
-            "Sono dati anonimi, ma bastano per decidere cosa cambiare nel prossimo menu."
+            "Sposta un piatto in cima alla sua sezione per due settimane, o cambiagli foto e nome, e confronta gli ordini. Con il piano Smart i report di vendita mostrano cosa esce di più e in quali giorni, e il menu riordina da solo i piatti in base alle vendite e a quello che gli ospiti guardano.",
+            "Bastano pochi dati per decidere cosa cambiare nel prossimo menu."
           ]
         }
       ],
@@ -336,7 +331,7 @@
       "faq": [
         {
           "q": "Come si mette il menu del ristorante su QR code?",
-          "a": "Carichi il PDF del menu che hai già e stampi il QR da mettere sui tavoli. Con ArtOfMenu puoi essere online lo stesso giorno. Poi aggiungi foto e allergeni e modifichi piatti e prezzi senza ristampare il codice."
+          "a": "Ti registri nel pannello, inserisci piatti, prezzi e allergeni e stampi il QR da mettere sui tavoli. Se vuoi essere online subito, carica il PDF che hai già e il QR lo apre lo stesso giorno. Poi modifichi piatti e prezzi senza ristampare il codice."
         },
         {
           "q": "Il menu QR code deve indicare gli allergeni?",
@@ -357,7 +352,7 @@
       ],
       "cta": {
         "h2": "Pronto per il prossimo servizio?",
-        "lead": "Lascia i dati del ristorante e ti avvisiamo quando ArtOfMenu apre."
+        "lead": "Registrati nel pannello e prepara il menu prima del prossimo servizio."
       },
       "related": [
         "ordering",
@@ -369,11 +364,11 @@
     "cafe": {
       "slug": "menu-digitale-bar-caffetteria",
       "title": "Menu digitale per bar e caffetteria | ArtOfMenu",
-      "description": "Menu digitale per bar, caffetterie e pasticcerie: colazione più veloce, bevande calde in cima quando fa freddo, listino sugli schermi del banco.",
+      "description": "Menu digitale per bar, caffetterie e pasticcerie: colazione più veloce, bevande calde in cima quando fa freddo, abbinamenti come cappuccino e cornetto.",
       "eyebrow": "Per bar e caffetterie",
       "h1": "Menu digitale per bar, caffetterie e pasticcerie",
-      "lead": "Un menu digitale per bar mostra ai tavoli, nel dehors e sugli schermi del banco cosa offri a colazione, a pranzo e a merenda. Con ArtOfMenu l'ordine dei prodotti segue il meteo e i prezzi li aggiorni in un attimo.",
-      "answer": "Un menu digitale per bar e caffetterie è un listino consultabile dal telefono con un QR sul tavolo, oppure mostrato sui monitor dietro al banco. Serve a chi lavora con picchi brevi come la colazione e con prodotti che cambiano con la stagione. ArtOfMenu porta in alto le bevande calde quando fa freddo e, nel piano Smart, gestisce gli schermi del banco.",
+      "lead": "Un menu digitale per bar mostra ai tavoli, nel dehors e a chi è in fila al banco cosa offri a colazione, a pranzo e a merenda. Con ArtOfMenu l'ordine dei prodotti segue il meteo e i prezzi li aggiorni in un attimo.",
+      "answer": "Un menu digitale per bar e caffetterie è un listino consultabile dal telefono con un QR sul tavolo o accanto alla cassa. Serve a chi lavora con picchi brevi come la colazione e con prodotti che cambiano con la stagione. Nel piano Smart, ArtOfMenu porta in alto le bevande calde quando fa freddo e suggerisce cosa abbinare.",
       "sections": [
         {
           "h2": "La colazione si gioca in pochi minuti",
@@ -390,9 +385,9 @@
           ]
         },
         {
-          "h2": "Al banco, il listino sugli schermi",
+          "h2": "Al banco, un QR per chi è in fila",
           "body": [
-            "Con il piano Smart il menu va anche sui monitor dietro al banco. Se ne hai due o tre, girano pagina insieme, così chi è in fila legge la stessa offerta da qualsiasi punto del locale.",
+            "Un codice accanto alla cassa apre lo stesso menu dei tavoli. Chi è in fila legge l'offerta dal telefono e arriva al banco sapendo già cosa ordinare.",
             "Quando cambi il prezzo del cappuccino o aggiungi la torta del giorno, lo modifichi una volta nel menu. Il vecchio listino di plexiglas da rifare a ogni rincaro va in pensione."
           ]
         },
@@ -412,7 +407,7 @@
       ],
       "features": [
         "weather",
-        "screens",
+        "pdf",
         "pairing",
         "multilingual",
         "stock"
@@ -420,11 +415,11 @@
       "faq": [
         {
           "q": "Un bar ha bisogno del menu QR se si ordina al banco?",
-          "a": "Al banco basta un listino chiaro, che con il piano Smart può stare sugli schermi. Il QR serve ai tavoli e nel dehors, dove l'ospite aspetta il cameriere e vuole sapere cosa c'è prima di ordinare."
+          "a": "Al banco basta un listino chiaro, magari con un QR accanto alla cassa per chi è in fila. Il QR serve soprattutto ai tavoli e nel dehors, dove l'ospite aspetta il cameriere e vuole sapere cosa c'è prima di ordinare."
         },
         {
-          "q": "Posso mostrare il listino sui monitor dietro al banco?",
-          "a": "Sì, con il piano Smart a 59 € al mese per locale. Il menu appare sui monitor e, se ne usi più di uno, le pagine girano insieme. Quando modifichi un prezzo nel menu, lo modifichi anche per gli schermi."
+          "q": "Posso mettere il QR anche al banco?",
+          "a": "Sì. Il codice apre semplicemente il menu, quindi funziona su un cartello al banco, in vetrina o su ogni tavolo. ArtOfMenu non gestisce monitor o schermi: il listino ognuno lo legge sul proprio telefono."
         },
         {
           "q": "Il menu cambia da solo con il meteo?",
@@ -436,12 +431,12 @@
         },
         {
           "q": "Quale piano serve a una caffetteria?",
-          "a": "Se ti serve il menu ai tavoli, il piano Menu a 9 € al mese per locale è sufficiente. Con Order gli ospiti ordinano dal tavolo. Con Smart hai gli schermi del banco, i suggerimenti di abbinamento e lo stock da ricetta."
+          "a": "Se ti serve il menu ai tavoli, il piano Menu a 9 € al mese per locale è sufficiente. Con Order gli ospiti ordinano dal tavolo. Con Smart hai il menu che segue il meteo, i suggerimenti di abbinamento e lo stock da ricetta."
         }
       ],
       "cta": {
         "h2": "La colazione, più semplice",
-        "lead": "Lascia i dati del tuo bar e ti avvisiamo quando ArtOfMenu è disponibile."
+        "lead": "Registrati nel pannello e metti online il menu del tuo bar già oggi."
       },
       "related": [
         "cafe-sales",
@@ -477,7 +472,7 @@
           "h2": "Quando finisce un ingrediente",
           "body": [
             "Venerdì sera finiscono i lime. Con lo stock da ricetta del piano Smart, ogni drink che li usa, dal Moscow Mule al Margarita, risulta esaurito da solo. Nessuno ordina un cocktail che il bar non può preparare.",
-            "Con il piano Order hai report semplici di scorte e ordini, utili per capire cosa riordinare prima del weekend."
+            "Con il piano Smart i report di vendita mostrano cosa è uscito, utili per capire cosa riordinare prima del weekend."
           ]
         },
         {
@@ -489,7 +484,7 @@
         {
           "h2": "Cosa si beve davvero",
           "body": [
-            "I report del menu mostrano quali drink vengono guardati ma aperti di rado e quali vengono aperti ma mai ordinati. Un signature aperto da tanti e ordinato da pochi può avere un prezzo da rivedere o una descrizione che spaventa."
+            "Con il piano Smart i report di vendita mostrano quali drink escono davvero e in quali sere. Un signature che si vende poco può avere un prezzo da rivedere o una descrizione che spaventa: cambia una cosa alla volta e guarda gli ordini."
           ]
         }
       ],
@@ -524,7 +519,7 @@
       ],
       "cta": {
         "h2": "La carta drink, sempre giusta",
-        "lead": "Lascia i dati del locale e ti avvisiamo quando ArtOfMenu apre."
+        "lead": "Registrati nel pannello e metti la carta drink sui tavoli già stasera."
       },
       "related": [
         "bar-sales",
@@ -596,7 +591,7 @@
         },
         {
           "q": "Offrite un servizio per disegnare il menu?",
-          "a": "No, ArtOfMenu non offre servizi di grafica né di fotografia. Prepari tu foto e testi, oppure parti dal PDF che hai già. Se vuoi foto molto curate, puoi rivolgerti a un fotografo della tua zona per una sessione dedicata ai piatti."
+          "a": "No, ArtOfMenu non offre servizi di grafica né di fotografia. Prepari tu foto e testi, e nel frattempo puoi mettere online il PDF che hai già. Se vuoi foto molto curate, puoi rivolgerti a un fotografo della tua zona per una sessione dedicata ai piatti."
         },
         {
           "q": "Che foto servono per un bel menu QR code?",
@@ -608,12 +603,12 @@
         },
         {
           "q": "Il design del menu influisce sugli ordini?",
-          "a": "Un menu chiaro rende più facile scegliere, ed è ragionevole aspettarsi che un piatto con una bella foto venga notato di più. Con i report di ArtOfMenu lo verifichi nel tuo locale: un piatto visto ma aperto poco ha spesso una foto o un nome da rivedere."
+          "a": "Un menu chiaro rende più facile scegliere, ed è ragionevole aspettarsi che un piatto con una bella foto venga notato di più. Verificalo nel tuo locale: cambia foto o nome a un piatto e confronta gli ordini delle settimane successive."
         }
       ],
       "cta": {
         "h2": "Il tuo menu, con le tue foto",
-        "lead": "Ti avvisiamo quando ArtOfMenu apre, così hai il tempo di preparare foto e testi."
+        "lead": "Registrati nel pannello e inizia dalle tue foto e dai tuoi testi."
       },
       "related": [
         "qr-menu",
@@ -666,9 +661,9 @@
           ]
         },
         {
-          "h2": "Scorte da ricetta e schermi al banco",
+          "h2": "Scorte da ricetta e report di vendita",
           "body": [
-            "Smart collega ogni prodotto ai suoi ingredienti. Quando finisce il mascarpone, tiramisù e crostata al mascarpone risultano esauriti da soli. Con gli schermi del banco lo stesso menu va sui monitor dietro al bancone, con le pagine che girano insieme."
+            "Smart collega ogni prodotto ai suoi ingredienti. Quando finisce il mascarpone, tiramisù e crostata al mascarpone risultano esauriti da soli. I report di vendita mostrano cosa esce di più e in quali giorni."
           ]
         }
       ],
@@ -677,7 +672,7 @@
         "pairing",
         "pricing",
         "stock",
-        "screens"
+        "reports"
       ],
       "faq": [
         {
@@ -698,12 +693,12 @@
         },
         {
           "q": "Quale piano include le funzioni intelligenti?",
-          "a": "Prezzi del giorno, calendario delle ricorrenze, suggerimenti «si abbina bene con», stock da ricetta e schermi del banco sono nel piano Smart, a 59 € al mese per locale. Con l'annuale paghi 10 mesi su 12."
+          "a": "Prezzi del giorno, calendario delle ricorrenze, suggerimenti «si abbina bene con», stock da ricetta e report di vendita sono nel piano Smart, a 59 € al mese per locale. Con l'annuale paghi 10 mesi su 12."
         }
       ],
       "cta": {
         "h2": "Un menu che si adatta, con le tue regole",
-        "lead": "Scegli Smart nel modulo e ti avvisiamo al lancio di ArtOfMenu."
+        "lead": "Registrati nel pannello e scegli il piano Smart."
       },
       "related": [
         "menu-engineering",
@@ -755,9 +750,9 @@
           ]
         },
         {
-          "h2": "Ordini e scorte nello stesso posto",
+          "h2": "Ordini, scorte e report",
           "body": [
-            "Il piano Order include report semplici di scorte e ordini. A fine settimana vedi cosa è uscito di più e cosa riordinare. Con il piano Smart passi allo stock da ricetta, che segna esauriti i piatti quando finisce un ingrediente."
+            "Scorte e report fanno parte del piano Smart. Lo stock da ricetta segna esauriti i piatti quando finisce un ingrediente, e i report di vendita mostrano a fine settimana cosa è uscito di più e cosa riordinare."
           ]
         }
       ],
@@ -782,7 +777,7 @@
         },
         {
           "q": "Quanto costano le ordinazioni al tavolo?",
-          "a": "Sono nel piano Order, a 29 € al mese per locale, che comprende anche tutto il piano Menu e i report semplici di scorte e ordini. Con l'abbonamento annuale paghi 290 € per 12 mesi."
+          "a": "Sono nel piano Order, a 29 € al mese per locale, che comprende anche tutto il piano Menu e le chiamate dal tavolo per cameriere, acqua e conto. Con l'abbonamento annuale paghi 290 € per 12 mesi."
         },
         {
           "q": "E se un ospite preferisce ordinare a voce?",
@@ -791,7 +786,7 @@
       ],
       "cta": {
         "h2": "Meno attese, stessa squadra",
-        "lead": "Scegli Order nel modulo e ti avvisiamo quando ArtOfMenu apre."
+        "lead": "Registrati nel pannello, scegli Order e aggiungi i tuoi tavoli."
       },
       "related": [
         "restaurant",
@@ -870,7 +865,7 @@
         },
         {
           "q": "Il menu multilingua è incluso nel piano base?",
-          "a": "Sì. Le lingue fanno parte del piano Menu, a 9 € al mese per locale, insieme a foto, allergeni, dominio proprio, caricamento del PDF e statistiche anonime. Non serve un piano superiore per accogliere i turisti."
+          "a": "Sì. Le lingue fanno parte del piano Menu, a 9 € al mese per locale, insieme a foto, allergeni, dominio proprio, menù fissi e formati e menu PDF. Non serve un piano superiore per accogliere i turisti."
         },
         {
           "q": "Serve un QR diverso per ogni lingua?",
@@ -879,7 +874,7 @@
       ],
       "cta": {
         "h2": "Un menu per tutti i tuoi ospiti",
-        "lead": "Lascia i dati del locale e ti avvisiamo appena ArtOfMenu è disponibile."
+        "lead": "Registrati nel pannello e metti online il tuo menu già oggi."
       },
       "related": [
         "restaurant",
@@ -961,8 +956,8 @@
         {
           "h2": "Dove ti aiuta ArtOfMenu",
           "body": [
-            "I report del menu segnalano i piatti visti ma aperti di rado e quelli aperti ma mai ordinati, due segnali che su carta non avresti. Con il piano Order le ordinazioni al tavolo possono accorciare l'attesa a pranzo. Con Smart il menu suggerisce l'abbinamento più ordinato in quella sede e ogni sera fissa i prezzi del giorno dopo entro i limiti che decidi tu.",
-            "ArtOfMenu non è ancora stato lanciato, quindi non ti promettiamo risultati. Ti dà dati e strumenti, e le decisioni restano tue."
+            "Sul menu digitale puoi spostare un piatto e confrontare gli ordini, cosa che su carta richiede una ristampa. Con il piano Order le ordinazioni al tavolo possono accorciare l'attesa a pranzo. Con Smart il menu suggerisce l'abbinamento più ordinato in quella sede e ogni sera fissa i prezzi del giorno dopo entro i limiti che decidi tu.",
+            "Non ti promettiamo risultati. ArtOfMenu ti dà dati e strumenti, e le decisioni restano tue."
           ]
         }
       ],
@@ -992,12 +987,12 @@
         },
         {
           "q": "Il menu digitale aiuta a vendere di più?",
-          "a": "Può aiutare, ma da solo non basta. Foto chiare, descrizioni brevi e allergeni rendono più facile scegliere. Con ArtOfMenu vedi anche quali piatti vengono guardati e non ordinati, un'indicazione utile per correggere prezzo, nome o foto."
+          "a": "Può aiutare, ma da solo non basta. Foto chiare, descrizioni brevi e allergeni rendono più facile scegliere. Con il piano Smart di ArtOfMenu i report di vendita mostrano quali piatti escono poco, un'indicazione utile per correggere prezzo, nome o foto."
         }
       ],
       "cta": {
         "h2": "Dati per decidere meglio",
-        "lead": "Ti avvisiamo quando ArtOfMenu apre, con i report del menu e i prezzi del giorno."
+        "lead": "Registrati nel pannello: report di vendita e prezzi del giorno sono nel piano Smart."
       },
       "related": [
         "menu-engineering",
@@ -1073,7 +1068,7 @@
         {
           "h2": "Dove ti aiuta ArtOfMenu",
           "body": [
-            "Con il piano Order il gruppo ordina il giro successivo dal tavolo e il cameriere lo vede subito sul telefono. I report del menu mostrano i drink guardati ma ordinati poco. Con Smart lo stock da ricetta segna esauriti i cocktail quando finisce un ingrediente, e il menu suggerisce lo stuzzichino ordinato più spesso con quel drink."
+            "Con il piano Order il gruppo ordina il giro successivo dal tavolo e il cameriere lo vede subito sul telefono. Con Smart i report di vendita mostrano i drink che escono poco, lo stock da ricetta segna esauriti i cocktail quando finisce un ingrediente, e il menu suggerisce lo stuzzichino ordinato più spesso con quel drink."
           ]
         }
       ],
@@ -1108,7 +1103,7 @@
       ],
       "cta": {
         "h2": "Più giri, meno attese",
-        "lead": "Ti avvisiamo quando ArtOfMenu apre, con ordini dal tavolo e stock da ricetta."
+        "lead": "Registrati nel pannello: ordini dal tavolo con Order, stock da ricetta con Smart."
       },
       "related": [
         "bar",
@@ -1177,14 +1172,14 @@
         {
           "h2": "Dove ti aiuta ArtOfMenu",
           "body": [
-            "Il menu porta in alto le bevande calde quando fa freddo e sposta in basso quelle fredde e i prodotti che stanno per finire. Con il piano Smart, quando un ospite aggiunge un cappuccino, il menu propone il prodotto ordinato più spesso insieme in quel bar. Gli schermi dietro al banco mostrano il listino a chi è in fila, e lo stock da ricetta segna esaurito ogni prodotto quando finisce un ingrediente."
+            "Il menu porta in alto le bevande calde quando fa freddo e sposta in basso quelle fredde e i prodotti che stanno per finire. Con il piano Smart, quando un ospite aggiunge un cappuccino, il menu propone il prodotto ordinato più spesso insieme in quel bar, e lo stock da ricetta segna esaurito ogni prodotto quando finisce un ingrediente."
           ]
         }
       ],
       "features": [
         "weather",
         "pairing",
-        "screens",
+        "ordering",
         "stock",
         "reports"
       ],
@@ -1212,7 +1207,7 @@
       ],
       "cta": {
         "h2": "Una colazione che rende di più",
-        "lead": "Lascia i dati del bar e ti avvisiamo al lancio di ArtOfMenu."
+        "lead": "Registrati nel pannello e metti online il menu del tuo bar."
       },
       "related": [
         "cafe",
@@ -1228,7 +1223,7 @@
       "eyebrow": "Guida",
       "h1": "Menu engineering: la guida pratica per bar e ristoranti",
       "lead": "Il menu engineering è un metodo per analizzare ogni piatto del menu in base a quanto vende e a quanto margine lascia, per decidere cosa evidenziare, cosa rivedere e cosa togliere. Qui trovi il metodo passo per passo, con un esempio da adattare al tuo locale.",
-      "answer": "Il menu engineering è un'analisi del menu sviluppata da Michael Kasavana e Donald Smith che classifica ogni piatto secondo due criteri: popolarità e margine di contribuzione. Ne nascono quattro gruppi, cioè stelle, cavalli da tiro, enigmi e cani, e per ognuno c'è un'azione diversa. ArtOfMenu aggiunge un dato in più: quante volte un piatto viene visto e aperto nel menu digitale.",
+      "answer": "Il menu engineering è un'analisi del menu sviluppata da Michael Kasavana e Donald Smith che classifica ogni piatto secondo due criteri: popolarità e margine di contribuzione. Ne nascono quattro gruppi, cioè stelle, cavalli da tiro, enigmi e cani, e per ognuno c'è un'azione diversa. Con il piano Smart, ArtOfMenu fornisce i report di vendita da cui partire.",
       "sections": [
         {
           "h2": "Cos'è il menu engineering",
@@ -1273,8 +1268,8 @@
         {
           "h2": "Il dato in più del menu digitale",
           "body": [
-            "Su carta sai solo cosa è stato ordinato. In un menu digitale sai anche cosa è stato guardato. I report di ArtOfMenu segnalano i piatti visti ma aperti di rado e quelli aperti ma mai ordinati.",
-            "Per un enigma questo cambia la diagnosi. Se nessuno lo apre, il problema è la visibilità: nome, foto, posizione. Se lo aprono in tanti e poi non lo ordinano, il problema è la descrizione o il prezzo."
+            "Su carta ogni prova costa una ristampa. In un menu digitale sposti un piatto, cambi foto o descrizione in un minuto e confronti gli ordini. Con il piano Smart i report di vendita di ArtOfMenu ti danno i numeri per piatto.",
+            "Per un enigma prova una cosa alla volta. Prima la visibilità: nome, foto, posizione. Se gli ordini non salgono, il problema è probabilmente la descrizione o il prezzo."
           ]
         },
         {
@@ -1341,7 +1336,7 @@
         },
         {
           "q": "Serve un software per il menu engineering?",
-          "a": "No, basta un foglio di calcolo con vendite per piatto, costo della porzione e prezzo. Un software fa risparmiare tempo nella raccolta dei dati. Con ArtOfMenu hai anche i dati su quali piatti vengono visti e aperti nel menu digitale."
+          "a": "No, basta un foglio di calcolo con vendite per piatto, costo della porzione e prezzo. Un software fa risparmiare tempo nella raccolta dei dati: con il piano Smart di ArtOfMenu i report di vendita ti danno i numeri per piatto."
         },
         {
           "q": "Cosa fare con un piatto «cane»?",
@@ -1354,7 +1349,7 @@
       ],
       "cta": {
         "h2": "Il menu, letto con i numeri",
-        "lead": "Ti avvisiamo quando ArtOfMenu apre, con i report che mostrano cosa viene visto e cosa viene ordinato."
+        "lead": "Registrati nel pannello e scopri cosa viene visto e cosa viene ordinato."
       },
       "related": [
         "restaurant-sales",
@@ -1430,7 +1425,7 @@
           "h2": "Quando un ingrediente finisce durante il servizio",
           "body": [
             "Sabato sera, alle 21, finisce la burrata. Tre piatti la usano, il menu continua a mostrarli e i camerieri devono tornare ai tavoli a scusarsi.",
-            "Con lo stock da ricetta di ArtOfMenu, nel piano Smart, ogni piatto è collegato ai suoi ingredienti. Quando la burrata finisce, tutti i piatti che la usano risultano esauriti nel menu da soli. Il piano Order include invece report semplici di scorte e ordini."
+            "Con lo stock da ricetta di ArtOfMenu, nel piano Smart, ogni piatto è collegato ai suoi ingredienti. Quando la burrata finisce, tutti i piatti che la usano risultano esauriti nel menu da soli. Nello stesso piano i report di vendita ti aiutano a capire cosa è uscito e cosa riordinare."
           ]
         },
         {
@@ -1503,7 +1498,7 @@
       ],
       "cta": {
         "h2": "Il magazzino, collegato al menu",
-        "lead": "Ti avvisiamo quando ArtOfMenu apre, con stock da ricetta e report di scorte e ordini."
+        "lead": "Registrati nel pannello e scegli Smart, con stock da ricetta e report di vendita."
       },
       "related": [
         "menu-engineering",
@@ -1515,11 +1510,11 @@
     "how-to": {
       "slug": "creare-menu-qr-code",
       "title": "Come creare un menu QR code per il locale | ArtOfMenu",
-      "description": "Come creare un menu QR code passo per passo: dal PDF che hai già al QR sul tavolo, con misure, supporti e aggiornamento dei prezzi.",
+      "description": "Come creare un menu QR code passo per passo: dal menu che hai già al QR sul tavolo, con misure, supporti e aggiornamento dei prezzi.",
       "eyebrow": "Guida rapida",
       "h1": "Come creare un menu QR code per il tuo locale",
-      "lead": "Per creare un menu QR code ti servono il menu, qualche foto e un servizio che ospiti il menu online e generi il codice. Con ArtOfMenu carichi il PDF che hai già e sei online lo stesso giorno.",
-      "answer": "Creare un menu QR code significa mettere online il menu del locale e stampare un codice che lo apre dal telefono. I passaggi sono pochi: preparare piatti, prezzi e allergeni, caricarli, collegare il dominio, stampare il QR e posizionarlo sui tavoli. Con ArtOfMenu puoi partire dal PDF che già usi e andare online lo stesso giorno.",
+      "lead": "Per creare un menu QR code ti servono il menu, qualche foto e un servizio che ospiti il menu online e generi il codice. Con ArtOfMenu ti registri nel pannello e crei lì il menu, oppure metti online lo stesso giorno il PDF che hai già.",
+      "answer": "Creare un menu QR code significa mettere online il menu del locale e stampare un codice che lo apre dal telefono. I passaggi sono pochi: preparare piatti, prezzi e allergeni, caricarli, collegare il dominio, stampare il QR e posizionarlo sui tavoli. Con ArtOfMenu puoi mettere online lo stesso giorno il PDF che già usi, oppure costruire nel pannello il menu digitale con piatti, foto e allergeni.",
       "steps": {
         "h2": "Creare il menu QR, passo per passo",
         "items": [
@@ -1536,8 +1531,8 @@
             "d": "Luce naturale, stessa angolazione, il piatto come arriva in tavola. Puoi aggiungerle anche dopo, una alla volta."
           },
           {
-            "t": "Carica il menu",
-            "d": "Carica il PDF su ArtOfMenu e il menu è online lo stesso giorno. Foto e allergeni li completi con calma."
+            "t": "Crea il menu",
+            "d": "Registrati nel pannello e inserisci piatti, prezzi e allergeni. Se vuoi essere online subito, carica il PDF: il QR lo apre lo stesso giorno."
           },
           {
             "t": "Collega il dominio",
@@ -1609,11 +1604,11 @@
       "faq": [
         {
           "q": "Come si crea un menu con QR code?",
-          "a": "Prepari il menu con prezzi e allergeni, lo carichi su un servizio di menu digitale e stampi il QR che lo apre. Con ArtOfMenu puoi partire dal PDF che hai già, essere online lo stesso giorno e aggiornare il menu senza cambiare il codice."
+          "a": "Prepari il menu con prezzi e allergeni, lo carichi su un servizio di menu digitale e stampi il QR che lo apre. Con ArtOfMenu ti registri nel pannello, crei il menu o carichi il PDF che hai già, e lo aggiorni senza cambiare il codice."
         },
         {
           "q": "Posso usare il PDF del menu che ho già?",
-          "a": "Sì, il caricamento del PDF è incluso in tutti i piani, anche nel piano Menu a 9 € al mese per locale. È il modo più veloce per andare online lo stesso giorno."
+          "a": "Sì, il menu PDF è incluso in tutti i piani, anche nel piano Menu a 9 € al mese per locale: carichi il file, uno per lingua, e il QR lo apre lo stesso giorno. Con il PDF attivo ordini, suggerimenti e prezzi del giorno sono in pausa. Se colleghi ArtOfMenu in ChatGPT, può aiutarti a trasformare il PDF in piatti, che approvi nel pannello."
         },
         {
           "q": "Quanto deve essere grande il QR sul tavolo?",
@@ -1629,8 +1624,8 @@
         }
       ],
       "cta": {
-        "h2": "Prepara il PDF, ti avvisiamo al lancio",
-        "lead": "Lascia i dati del locale: al lancio carichi il menu e sei online lo stesso giorno."
+        "h2": "Il tuo menu online, oggi stesso",
+        "lead": "Registrati nel pannello, crea il menu o carica il PDF e sei online lo stesso giorno."
       },
       "related": [
         "qr-menu",

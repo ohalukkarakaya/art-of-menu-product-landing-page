@@ -1,0 +1,79 @@
+{
+  "key": "dpa",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Veri İşleme Sözleşmesi (Ek-1)",
+  "effective": "2026-11-08",
+  "summary": "Bu sözleşme, Art of Menu İşletme Hizmet Sözleşmesi'nin bağlayıcı ekidir. İşletmenin veri sorumlusu, Göktigin Bilişim Teknoloji Ltd. Şti.'nin veri işleyen olduğu misafir ve çalışan verilerinin işlenmesine ilişkin kuralları düzenler.",
+  "sections": [
+    { "id": "subject", "heading": "1. Konu ve Roller", "blocks": [
+      { "p": "Bu Veri İşleme Sözleşmesi (“Ek”), [Art of Menu İşletme Hizmet Sözleşmesi](doc:business-terms)'nin (“Hizmet Sözleşmesi”) bağlayıcı ekidir. Ek'te tanımlanmayan terimler Hizmet Sözleşmesi'ndeki anlamı taşır." },
+      { "p": "Müşteri, 3. bölümde sayılan kişisel veriler bakımından veri sorumlusudur (“Veri Sorumlusu”). Göktigin Bilişim Teknoloji Ltd. Şti. (“Şirket”), bu verileri Veri Sorumlusu adına ve onun talimatıyla işleyen veri işleyendir. Bu Ek, 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun (“KVKK”) 12. maddesi ve uygulanabildiği hallerde Avrupa Birliği Genel Veri Koruma Tüzüğü'nün (“GDPR”) 28. maddesi uyarınca düzenlenmiştir." },
+      { "p": "Şirket'in Kullanıcı hesapları, fatura işlemleri ve kendi hizmet güvenliği için veri sorumlusu olarak yaptığı işlemler bu Ek'in kapsamında değildir; bunlar [İşletme Kullanıcıları için KVKK Aydınlatma Metni ve Gizlilik Bildirimi](doc:privacy-business)'nde açıklanmıştır." }
+    ]},
+    { "id": "duration-purpose", "heading": "2. Süre, Nitelik ve Amaç", "blocks": [
+      { "p": "Ek, Hizmet Sözleşmesi süresince ve 9. bölümdeki silme işlemleri tamamlanıncaya kadar geçerlidir." },
+      { "p": "Şirket kişisel verileri yalnızca Hizmet'i sunmak için işler: misafir menüsünü yayımlamak, masa oturumlarını ve siparişleri yönetmek, garson çağrılarını iletmek, garson ekranını çalıştırmak, satış ve menü kullanım raporlarını oluşturmak ve Hizmet'in güvenliğini sağlamak. İşleme; kaydetme, saklama, düzenleme, görüntüleme, iletme, raporlama ve silme işlemlerinden oluşur." }
+    ]},
+    { "id": "data-categories", "heading": "3. İlgili Kişiler ve Veri Kategorileri", "blocks": [
+      { "p": "**Misafirler.** Misafirlerden ad, e-posta adresi veya telefon numarası alınmaz. İşlenen veriler şunlardır:" },
+      { "ul": [
+        "masa oturumu verileri: masa, ortak sepet, oturum üyeliği için kullanılan ve özetlenerek (hash) saklanan anahtarlar, 6 haneli oturum kodu;",
+        "yalnızca masayla ilişkilendirilen sipariş ve garson, su veya hesap çağrısı kayıtları;",
+        "çerez kullanılmadan toplanan menü kullanım verileri: rastgele sayfa görüntüleme kimliği, tarayıcı bilgisinden çıkarılan cihaz sınıfı ve tarayıcı türü, menü dili, ağ başlığından alınan ülke kodu, açılan ürünler ve sayfada geçirilen süre;",
+        "güvenlik ve aşırı kullanımı sınırlama amacıyla geçici olarak kullanılan IP adresi; IP adresi veritabanına kaydedilmez."
+      ]},
+      { "p": "**Garsonlar.** Veri Sorumlusu'nun girdiği ad, soyad, cinsiyet ve şube bilgileri; garsonun teslim ettiği siparişler ve satış kayıtları; garson ekranı oturum bilgileri." },
+      { "p": "**Veri Sorumlusu'nun diğer çalışanları.** Veri Sorumlusu'nun Hizmet'e girdiği çalışan adları ve bunlara bağlı işlem kayıtları." },
+      { "p": "Ek, özel nitelikli kişisel verilerin işlenmesini amaçlamaz. Veri Sorumlusu, Hizmet'e bu tür veriler girmez." }
+    ]},
+    { "id": "instructions", "heading": "4. Talimatlar ve Gizlilik", "blocks": [
+      { "p": "Şirket kişisel verileri yalnızca Veri Sorumlusu'nun belgelenmiş talimatlarıyla işler. Hizmet Sözleşmesi, bu Ek ve Veri Sorumlusu'nun paneldeki ayarları ve işlemleri bu talimatları oluşturur. Şirket, bir talimatın mevzuata aykırı olduğunu düşünürse Veri Sorumlusu'nu bilgilendirir. Mevzuatın Şirket'e işleme yükümlülüğü getirdiği haller saklıdır." },
+      { "p": "Şirket, kişisel verilere erişen çalışanlarının gizlilik yükümlülüğü altında olmasını sağlar ve erişimi görevi gereği ihtiyaç duyanlarla sınırlar." },
+      { "p": "Veri Sorumlusu, verilerin hukuka uygun işlenmesinden, misafirlerine ve çalışanlarına karşı aydınlatma yükümlülüğünden ve verdiği talimatların hukuka uygunluğundan sorumludur." }
+    ]},
+    { "id": "security", "heading": "5. Güvenlik Tedbirleri", "blocks": [
+      { "p": "Şirket, verilerin güvenliği için aşağıdaki tedbirleri uygular:" },
+      { "ul": [
+        "veriler Şirket'in yönettiği sunucu altyapısında barındırılır;",
+        "veri iletimi TLS ile şifrelenir;",
+        "hassas alanlar veritabanında şifrelenerek saklanır; oturum ve erişim anahtarları özetlenerek (hash) saklanır;",
+        "panelde rol ve yetkiye dayalı erişim kontrolü uygulanır;",
+        "Şirket'in platform yönetim ekranına erişen çalışanlar için çok faktörlü kimlik doğrulama kullanılır;",
+        "yönetim işlemleri değiştirilemeyen bir denetim kaydında tutulur;",
+        "aşırı istek ve kötüye kullanım girişimlerine karşı istek sınırlaması uygulanır;",
+        "Şirket çalışanları destek amacıyla bir hesaba yalnızca süreli ve panelde Veri Sorumlusu'nun görebildiği bir erişimle girer."
+      ]},
+      { "p": "Şirket bu tedbirleri teknik gelişmelere göre güncelleyebilir; güncellemeler koruma düzeyini düşürmez." }
+    ]},
+    { "id": "sub-processors", "heading": "6. Alt İşleyenler ve Üçüncü Kişi Hizmetleri", "blocks": [
+      { "p": "Hizmet'in temel işlevleri Şirket'in kendi sunucularında çalışır. Menü metinlerinin otomatik çevirisi ve fotoğrafların arka planının kaldırılması da Şirket'in sunucularında yapılır. Şirket, bu Ek kapsamındaki verileri işlemek için şu hizmetlerden yararlanır:" },
+      { "ul": [
+        "**E-posta gönderim hizmeti:** kullanıldığında yalnızca alıcı e-posta adresini ve e-postanın içeriğini alır. Bu hizmet yurt dışında bulunabilir.",
+        "**Lisanslı ödeme hizmet sağlayıcısı:** yalnızca Müşteri'nin abonelik ödemeleri için kullanılır; misafir veya garson verisi almaz."
+      ]},
+      { "p": "Panelde menü metinlerini çevirmek için tarayıcı üzerinden Google Translate kullanılabilir. Bu hizmete menü metni ve kullanıcının IP adresi iletilir. Menü metinleri olağan durumda kişisel veri içermez; Veri Sorumlusu menü metinlerine kişisel veri yazmaz." },
+      { "p": "Veri Sorumlusu hesabını ChatGPT'ye bağlarsa, ürün kataloğu, menü bilgileri ve çalışan adları Veri Sorumlusu'nun talimatıyla OpenAI'ye iletilir. Bu bağlantıyı kurma ve kaldırma kararı ile OpenAI ile ilişki Veri Sorumlusu'na aittir." },
+      { "p": "Şirket, yeni bir alt işleyen kullanmadan önce Veri Sorumlusu'nu e-posta veya panel üzerinden bilgilendirir. Veri Sorumlusu haklı bir gerekçeyle itiraz ederse ve taraflar çözüm bulamazsa, Veri Sorumlusu Hizmet Sözleşmesi'ni feshedebilir. Şirket, alt işleyenlerine bu Ek'tekilerle aynı düzeyde veri koruma yükümlülükleri yükler. Güncel alt işleyen listesi talep halinde [hello@goktigin.com](mailto:hello@goktigin.com) adresinden verilir." }
+    ]},
+    { "id": "transfers", "heading": "7. Yurt Dışına Aktarım", "blocks": [
+      { "p": "Kişisel veriler yurt dışına yalnızca mevzuatın öngördüğü hukuki dayanaklarla aktarılır. Türkiye'den yapılan aktarımlarda KVKK md. 9 uygulanır; aktarımın standart sözleşmeye dayanması halinde, Kanun'un öngördüğü süre içinde Kişisel Verileri Koruma Kurumu'na bildirim yapılır." },
+      { "p": "Veri Sorumlusu'nun GDPR'ye tabi olduğu hallerde, Türkiye'deki Şirket'e yapılan aktarım için gereken araçlar, özellikle Avrupa Komisyonu'nun standart sözleşme maddeleri, taraflarca ayrıca tamamlanır. Bu araçlar tamamlanmadan böyle bir aktarımın yapıldığı varsayılmaz." }
+    ]},
+    { "id": "assistance", "heading": "8. İlgili Kişi Başvuruları ve İhlal Bildirimi", "blocks": [
+      { "p": "Şirket'e doğrudan ilgili kişi başvurusu gelirse Şirket bunu gecikmeden Veri Sorumlusu'na iletir ve başvuruyu kendisi yanıtlamaz. Şirket, Veri Sorumlusu'nun başvuruları yanıtlayabilmesi için gereken bilgileri ve teknik desteği makul ölçüde sağlar." },
+      { "p": "Şirket, bu Ek kapsamındaki verilere ilişkin bir güvenlik ihlalini öğrendiğinde Veri Sorumlusu'nu gecikmeksizin ve Veri Sorumlusu'nun Kişisel Verileri Koruma Kurulu'nun öngördüğü 72 saatlik bildirim süresine uyabileceği şekilde bilgilendirir. Bildirimde ihlalin niteliği, etkilenen veri kategorileri, olası sonuçları ve alınan tedbirler, o an bilinen ölçüde yer alır. Kurul'a ve ilgili kişilere bildirim yapma yükümlülüğü Veri Sorumlusu'na aittir." }
+    ]},
+    { "id": "deletion", "heading": "9. Silme ve Saklama", "blocks": [
+      { "p": "Ham menü kullanım verileri 120 gün sonra silinir; yalnızca kişiyle ilişkilendirilemeyen toplu istatistikler saklanır." },
+      { "p": "Hizmet Sözleşmesi sona erdiğinde ve hesap kapatıldığında, hesabın geri açılabileceği 30 günlük süre sonunda bu Ek kapsamındaki veriler silinir veya anonim hale getirilir. Veri Sorumlusu, ihtiyaç duyduğu verileri bu süre dolmadan kendisi kaydeder. Mevzuatın saklanmasını zorunlu kıldığı kayıtlar ilgili süre boyunca saklanır." }
+    ]},
+    { "id": "audits", "heading": "10. Denetim", "blocks": [
+      { "p": "Şirket, bu Ek'e uyduğunu göstermek için gereken bilgi ve belgeleri Veri Sorumlusu'nun yazılı talebi üzerine sağlar. Bu bilgilerin yetersiz kalması halinde Veri Sorumlusu, en az 30 gün önceden bildirmek, mesai saatleri içinde yapmak, masraflarını üstlenmek ve gizlilik yükümlülüğüne uymak koşuluyla yılda en fazla bir kez denetim yapabilir veya bağımsız bir denetçiye yaptırabilir. Güvenlik ihlali veya yetkili makam talebi halinde bu sıklık sınırı uygulanmaz. Denetim, diğer müşterilerin verilerine ve Şirket'in sistem güvenliğine zarar vermeyecek şekilde yapılır." }
+    ]},
+    { "id": "liability", "heading": "11. Sorumluluk", "blocks": [
+      { "p": "Her taraf, bu Ek'ten ve veri koruma mevzuatından doğan kendi yükümlülüklerine aykırılıktan sorumludur. Şirket'in sorumluluğuna Hizmet Sözleşmesi'nin [Sorumluluk](doc:business-terms#liability) bölümündeki sınırlamalar uygulanır; emredici hukukun izin vermediği haller saklıdır." },
+      { "p": "Bu Ek ile Hizmet Sözleşmesi arasında kişisel verilerin korunmasına ilişkin bir çelişki olursa bu Ek uygulanır." }
+    ]}
+  ]
+}

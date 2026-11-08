@@ -1,0 +1,89 @@
+{
+  "key": "privacy-guest",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Misafirler için Gizlilik Bilgilendirmesi",
+  "effective": "2026-11-08",
+  "summary": "Bu metin, bir restoranın QR menüsünü kullanırken hangi bilgilerin işlendiğini açıklar. Menüyü kullanmak için hesap açmanız, adınızı, e-posta adresinizi veya telefon numaranızı vermeniz gerekmez. Menü yazılımı Art of Menu'dür; menüyü ve siparişleri ise restoran yönetir.",
+  "sections": [
+    {
+      "id": "restaurant",
+      "heading": "1. Veri Sorumlusu: Restoran",
+      "blocks": [
+        { "p": "Menüyü kullandığınız sırada işlenen bilgilerin veri sorumlusu, bu sayfanın üst kısmında bilgileri gösterilen restorandır. Restoran, menüsünü, siparişlerini ve masa düzenini kendisi yönetir ve sizin siparişlerinizi kendisi hazırlar ve satar." },
+        { "p": "Restoranın iletişim bilgileri gösterilmiyorsa veya eksikse restoran çalışanlarından bilgi isteyebilirsiniz." }
+      ]
+    },
+    {
+      "id": "provider",
+      "heading": "2. Art of Menu'nün Rolü",
+      "blocks": [
+        { "p": "Art of Menu, Göktigin Bilişim Teknoloji Ltd. Şti. (Şirket) tarafından restoranlara sunulan dijital menü ve sipariş yönetimi yazılımıdır. Şirket, menü kullanımına ilişkin bilgileri restoran adına ve restoranın talimatlarıyla, veri işleyen sıfatıyla işler. Şirket bu bilgileri kendi amaçları için kullanmaz ve satmaz." },
+        { "p": "Şirket, yalnızca menü hizmetinin güvenliğini sağlamak için tuttuğu teknik kayıtlar bakımından ayrıca veri sorumlusudur. Şirket'in bilgileri [Şirket ve Yasal Bilgiler](doc:company) sayfasındadır." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "3. İşlenen Bilgiler",
+      "blocks": [
+        { "ul": [
+          "**Masa oturumu:** Seçtiğiniz masa, masada paylaşılan sepet ve masaya katılım için kullanılan 6 haneli oturum kodu. Masaya katılan cihazlar, özet değeri saklanan rastgele bir anahtarla tanınır.",
+          "**Siparişler ve çağrılar:** Gönderdiğiniz siparişler, garson, su veya hesap çağrıları. Bunlar kişiye değil, yalnızca masaya bağlanır.",
+          "**Menü kullanım istatistikleri:** Her sayfa görüntülemesi için rastgele oluşturulan bir kimlik, tarayıcı bilgisinden çıkarılan cihaz türü (telefon, tablet, bilgisayar) ve tarayıcı ailesi, menü dili, ağ bilgisinden belirlenen ülke kodu, açılan ürünler ve sayfada geçirilen süre. Bu istatistikler çerez kullanılmadan toplanır ve sizi tanımlamak için kullanılmaz.",
+          "**IP adresi:** Yalnızca güvenlik ve aşırı istekleri sınırlamak için kısa süreyle işlenir ve veritabanında saklanmaz."
+        ] },
+        { "p": "Ad, soyad, e-posta adresi, telefon numarası veya ödeme bilgisi istenmez. Menü üzerinden ödeme alınmaz; hesap istendiğinde yalnızca garsona bildirim gider." }
+      ]
+    },
+    {
+      "id": "device",
+      "heading": "4. Cihazınızda Saklanan Bilgiler",
+      "blocks": [
+        { "p": "Menü çerez kullanmaz. Tarayıcınızda yalnızca şu bilgiler tutulur:" },
+        { "ul": [
+          "Masaya katıldığınızı hatırlamak için oturum depolamasında (sessionStorage) bir anahtar. Tarayıcı sekmesi kapandığında silinir.",
+          "Menüdeki ipuçlarını gördüğünüzü hatırlamak için yerel depolamada (localStorage) küçük işaretler."
+        ] },
+        { "p": "Reklam, takip veya analitik çerezi kullanılmaz. Ayrıntılar [Çerez ve Benzeri Teknolojiler Politikası](doc:cookies) metnindedir." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "5. Amaçlar ve Hukuki Sebepler",
+      "blocks": [
+        { "ul": [
+          "Menünün gösterilmesi, masa oturumunun açılması, siparişlerin ve çağrıların restorana iletilmesi: sizinle restoran arasındaki ilişkinin kurulması ve ifası (KVKK m. 5/2-c; GDPR m. 6/1-b).",
+          "Restoranın menüsünü iyileştirmesi için toplu kullanım istatistikleri: restoranın meşru menfaati (KVKK m. 5/2-f; GDPR m. 6/1-f).",
+          "Hizmetin güvenliği ve kötüye kullanımın önlenmesi: restoranın ve Şirket'in meşru menfaati (KVKK m. 5/2-f; GDPR m. 6/1-f)."
+        ] },
+        { "p": "Bu işlemler açık rızaya dayanmaz. Menüyü kullanmak veya sipariş vermek için onay vermeniz gerekmez." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "6. Saklama Süresi",
+      "blocks": [
+        { "ul": [
+          "Masa oturumuna ait bilgiler (paylaşılan sepet, oturum kodu, katılım anahtarları) oturum sona erdiğinde silinir.",
+          "Siparişler ve çağrılar, restoranın kendi kayıtları için restoranın hesabında saklanır.",
+          "Ham kullanım istatistikleri 120 gün sonra silinir. Kişiyi tanımlamayan toplu sonuçlar saklanır."
+        ] }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "7. Bilgilerin Paylaşılması",
+      "blocks": [
+        { "p": "Bilgiler restorana ve restoranın garsonlarına iletilir. Şirket bu bilgileri kendi yönettiği sunucularda işler ve reklam veya pazarlama amacıyla kimseyle paylaşmaz. Yetkili makamların hukuka uygun talepleri saklıdır." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "8. Haklarınız",
+      "blocks": [
+        { "p": "KVKK m. 11 ve uygulanabildiği ölçüde GDPR m. 15-22 kapsamındaki haklarınızı (bilgi alma, erişim, düzeltme, silme, itiraz ve diğerleri) kullanmak için veri sorumlusu olan restorana başvurabilirsiniz. Şirket'e ulaşan talepler gecikmeden ilgili restorana iletilir." },
+        { "p": "Türkiye'de Kişisel Verileri Koruma Kurulu'na, Avrupa Birliği, Avrupa Ekonomik Alanı veya Birleşik Krallık'ta ise bulunduğunuz ülkenin veri koruma denetim makamına şikâyette bulunabilirsiniz." }
+      ]
+    }
+  ]
+}

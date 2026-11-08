@@ -1,0 +1,181 @@
+{
+  "key": "privacy-partner",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Satış Partnerleri için KVKK Aydınlatma Metni",
+  "effective": "2026-11-08",
+  "summary": "Bu metin, Art of Menu satış partneri programına başvuran ve katılan kişilerin kişisel verilerinin Göktigin Bilişim Teknoloji Ltd. Şti. tarafından nasıl işlendiğini 6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 10. maddesi ve Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ uyarınca açıklar. Avrupa Birliği, Avrupa Ekonomik Alanı veya Birleşik Krallık'ta bulunan partnerler için ek bilgiler 11. bölümdedir. Bu metin bir sözleşme veya onay metni değildir; okunması bilgilendirme amaçlıdır.",
+  "sections": [
+    {
+      "id": "controller",
+      "heading": "1. Veri Sorumlusu",
+      "blocks": [
+        { "p": "Kişisel verileriniz, veri sorumlusu sıfatıyla **Göktigin Bilişim Teknoloji Limited Şirketi** (Şirket) tarafından işlenir." },
+        { "ul": [
+          "Adres: Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye",
+          "Vergi dairesi ve numarası: Antalya Kurumlar Vergi Dairesi, 4060725346",
+          "E-posta: [hello@goktigin.com](mailto:hello@goktigin.com)",
+          "Telefon: +90 554 238 70 07"
+        ] },
+        { "p": "Şirket'in diğer bilgileri [Şirket ve Yasal Bilgiler](doc:company) sayfasında yer alır. Şirket'in Türkiye dışında şirketi, şubesi veya temsilcisi bulunmamaktadır." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "2. İşlenen Kişisel Veriler",
+      "blocks": [
+        { "table": {
+          "head": ["Veri kategorisi", "Veriler"],
+          "rows": [
+            ["Kimlik", "Ad, soyad, doğum tarihi, uyruk, kimlik belgesi türü (T.C. kimlik numarası, pasaport veya ulusal kimlik) ve numarası. Tüzel kişi partnerlerde şirket unvanı, vergi kimlik numarası ve vergi dairesi."],
+            ["İletişim", "E-posta adresi, telefon numarası, adres, şehir, posta kodu, ülke."],
+            ["Finans", "Banka hesap bilgileri (hesap sahibi, IBAN veya hesap numarası, BIC/SWIFT kodu, banka adı ve adresi, gerektiğinde banka yönlendirme kodu), banka ülkesi, ödeme para birimi, komisyon ve ödeme kayıtları, gider pusulası ve fatura bilgileri, vergi kesintisi bilgileri."],
+            ["Müşteri işlem", "Partner kodu, kodla kaydolan işletmelerin adı, bu işletmelerin ilk ödemesine ilişkin paket, dönem, tutar ve tarih bilgileri, komisyonların durumu ve geçersiz sayılma nedenleri."],
+            ["İşlem güvenliği", "Şifrenin geri döndürülemez özet (hash) değeri, oturum kayıtları (oturum çerezi, tarayıcı bilgisi, oturum başlangıç ve son kullanım zamanı), e-posta doğrulama ve şifre sıfırlama kayıtları, hesapta yapılan işlemlerin denetim kayıtları."],
+            ["Hukuki işlem", "Sözleşme kabul kayıtları (kabul edilen belge, sürüm, dil, tarih, IP adresinin özet değeri ve tarayıcı bilgisi), ödemelerin durdurulması veya hesabın askıya alınması kayıtları ve gerekçeleri, uyuşmazlık ve yazışma kayıtları."],
+            ["Diğer", "Dil tercihi ve Şirket ile yapılan e-posta yazışmaları."]
+          ]
+        } },
+        { "p": "Kimlik belgesi numarası ve banka hesap bilgileri veritabanında şifrelenmiş olarak saklanır. Listeleme ve kontrol amacıyla yalnızca banka ülkesi, ödeme para birimi ve hesap numarasının son dört hanesi ayrıca tutulur." },
+        { "p": "Şirket, partnerlerden özel nitelikli kişisel veri (ör. sağlık, din, siyasi görüş, biyometrik veri) istemez. Kimlik belgesinin fotoğrafı veya kopyası alınmaz." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "3. İşleme Amaçları",
+      "blocks": [
+        { "ul": [
+          "Partner hesabının açılması, e-posta adresinin doğrulanması ve hesabın yönetilmesi,",
+          "Partner kodunun verilmesi ve kodla kaydolan işletmelerin partnere bağlanması,",
+          "Komisyonların hesaplanması, kesinleşmesi, geçersiz sayılması ve ödenmesi,",
+          "Gider pusulası düzenlenmesi, faturaların kayda alınması ve vergi kesintilerinin yapılması gibi vergi ve muhasebe yükümlülüklerinin yerine getirilmesi,",
+          "Partnerin 18 yaşını doldurduğunun ve kimlik bilgilerinin tutarlılığının kontrol edilmesi,",
+          "Kendi kendine yönlendirme, mükerrer hesap ve sahte işlemlerin önlenmesi ve tespit edilmesi,",
+          "Hesap ve sistem güvenliğinin sağlanması,",
+          "Partnerle sözleşme, ödeme, hesap ve güvenlik konularında iletişim kurulması,",
+          "Satış Partnerliği Sözleşmesi'nin ve Kurumsal Politika'nın uygulanması, sözleşme kabullerinin ispatı,",
+          "Hukuki uyuşmazlıklarda hakların tesisi, kullanılması ve korunması, yetkili kurum ve kuruluşların hukuka uygun taleplerinin karşılanması."
+        ] },
+        { "p": "Şirket partnerlere pazarlama e-postası veya ticari elektronik ileti göndermez. Partnere gönderilen e-postalar hesap, sözleşme, komisyon ve ödeme konularıyla sınırlıdır." }
+      ]
+    },
+    {
+      "id": "legal-bases",
+      "heading": "4. Hukuki Sebepler",
+      "blocks": [
+        { "p": "Kişisel verileriniz KVKK m. 5/2'deki aşağıdaki hukuki sebeplere dayanılarak işlenir:" },
+        { "ul": [
+          "**(c) Sözleşmenin kurulması veya ifası:** Hesap, partner kodu, yönlendirme, komisyon ve ödeme işlemleri.",
+          "**(ç) Hukuki yükümlülüğün yerine getirilmesi:** Vergi Usul Kanunu, Gelir Vergisi Kanunu, Türk Ticaret Kanunu ve ilgili mevzuattan doğan belge düzenleme, kesinti, saklama ve bildirim yükümlülükleri; yetkili makamların talepleri.",
+          "**(e) Bir hakkın tesisi, kullanılması veya korunması:** Sözleşme kabul kayıtları, komisyon ve ödeme kayıtları, uyuşmazlık kayıtları.",
+          "**(f) Meşru menfaat:** Sahte işlemlerin ve kötüye kullanımın önlenmesi, hesap ve sistem güvenliği, denetim kayıtları. Bu işlemler temel hak ve özgürlüklerinize zarar vermeyecek biçimde ve gerekli olduğu ölçüde yapılır."
+        ] },
+        { "p": "Bu metinde açıklanan işlemler açık rızanıza dayanmaz. Bu nedenle sizden açık rıza istenmez." }
+      ]
+    },
+    {
+      "id": "collection",
+      "heading": "5. Toplama Yöntemi",
+      "blocks": [
+        { "p": "Kişisel verileriniz; kayıt formu ve Partner Portalı'ndaki profil ve banka bilgisi formları aracılığıyla doğrudan sizden, Art of Menu sistemlerinde partner kodunuzla yapılan işlemlerden, oturum ve güvenlik kayıtlarından ve Şirket ile yaptığınız yazışmalardan elektronik ortamda, otomatik ve kısmen otomatik yöntemlerle toplanır. Ödeme ve vergi süreçlerinde bankalardan ve resmî makamlardan gelen bilgiler de kayda alınabilir." },
+        { "p": "Sözleşmenin kurulması ve ifası için gerekli bilgileri vermemeniz hâlinde partner kodu verilemez ve komisyon ödemesi yapılamaz." }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "6. Aktarılan Kişiler",
+      "blocks": [
+        { "p": "Kişisel verileriniz yalnızca aşağıdaki alıcılara ve yalnızca belirtilen amaçla gerekli olduğu ölçüde aktarılır:" },
+        { "ul": [
+          "**Bankalar:** Komisyon ödemesinin yapılması için Şirket'in çalıştığı banka, sizin bankanız ve yurt dışı havalelerde muhabir ve aracı bankalar. Aktarılan bilgiler ad, soyad veya unvan, banka hesap bilgileri, adres ve ödeme tutarıdır.",
+          "**Kamu kurum ve kuruluşları:** Gelir İdaresi Başkanlığı ve vergi daireleri ile hukuken yetkili diğer kurum, kuruluş ve yargı mercileri; mevzuattan doğan bildirim yükümlülükleri ve hukuka uygun talepler kapsamında.",
+          "**E-posta teslim hizmet sağlayıcısı:** Doğrulama, şifre sıfırlama, partner kodu, komisyon ve ödeme e-postalarının teslimi için. Şirket bu amaçla e-posta gönderimi yapılandırıldığında Resend hizmetini kullanır. Sağlayıcı, alıcının e-posta adresini, adını ve e-postanın içeriğini işler.",
+          "**Hukuk ve mali danışmanlar, denetçiler:** Muhasebe, vergi, denetim ve hukuki uyuşmazlık süreçleri için, sır saklama yükümlülüğü altında."
+        ] },
+        { "p": "Kişisel verileriniz pazarlama amacıyla hiçbir üçüncü kişiyle paylaşılmaz ve satılmaz. Art of Menu'nün ana verileri Şirket'in yönettiği sunucu altyapısında tutulur." }
+      ]
+    },
+    {
+      "id": "transfers-abroad",
+      "heading": "7. Yurt Dışına Aktarım",
+      "blocks": [
+        { "p": "Aşağıdaki durumlarda kişisel verileriniz yurt dışına aktarılabilir:" },
+        { "ul": [
+          "E-posta teslim hizmet sağlayıcısı (Resend) Amerika Birleşik Devletleri merkezlidir. Size gönderilen e-postalar bu sağlayıcının sistemleri üzerinden iletilir.",
+          "Banka hesabınız yurt dışındaysa, ödemeyi yapabilmek için ödeme bilgileriniz sizin bankanıza ve uluslararası havalenin geçtiği muhabir ve aracı bankalara iletilir."
+        ] },
+        { "p": "Yurt dışına aktarım, KVKK m. 9'da düzenlenen şartlara göre yapılır. Kişisel Verileri Koruma Kurulu tarafından yeterlilik kararı verilmemiş ülkelere aktarımda, m. 9/4'te sayılan uygun güvencelerden birine (ör. Kurulca ilan edilen standart sözleşme) dayanılır. Uygun güvencenin sağlanamadığı durumlarda aktarım, arızi olmak kaydıyla m. 9/6'da sayılan hâllerden birine, özellikle aktarımın sizinle yapılan sözleşmenin ifası için zorunlu olmasına (m. 9/6-b) dayanılarak yapılır. Yurt dışındaki banka hesabınıza ödeme yapılması bu kapsamdadır." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "8. Saklama Süresi",
+      "blocks": [
+        { "ul": [
+          "Hesap, profil, banka, komisyon ve ödeme kayıtları sözleşme süresince ve sözleşmenin sona ermesinden sonra ilgili mevzuatta öngörülen süreler boyunca saklanır (ör. Türk Ticaret Kanunu m. 82 uyarınca 10 yıl, Vergi Usul Kanunu m. 253 uyarınca 5 yıl).",
+          "Sözleşme kabul kayıtları ve uyuşmazlık kayıtları, ilgili alacakların zamanaşımı süresi boyunca saklanır.",
+          "Oturum kayıtları oturumun sona ermesinden sonra, e-posta doğrulama ve şifre sıfırlama kayıtları kullanım süreleri dolduktan sonra güvenlik amacıyla sınırlı bir süre saklanır.",
+          "Denetim kayıtları değiştirilemez biçimde tutulur ve hesabın güvenliği ile hukuki yükümlülükler için gerekli süre boyunca saklanır."
+        ] },
+        { "p": "Saklama süresi dolan kişisel veriler silinir, yok edilir veya anonim hâle getirilir." }
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "9. Güvenlik",
+      "blocks": [
+        { "p": "Şirket, kişisel verilerinizin güvenliği için uygun teknik ve idari tedbirleri alır. Şifreler yalnızca geri döndürülemez özet değerleriyle saklanır. Kimlik belgesi numarası ve banka bilgileri şifrelenir. Oturum çerezleri yalnızca güvenli bağlantı üzerinden iletilir ve tarayıcıdaki betiklerle okunamaz. Kişisel verilere yalnızca görevi gereği erişmesi gereken Şirket personeli erişir." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "10. Haklarınız ve Başvuru",
+      "blocks": [
+        { "p": "KVKK m. 11 uyarınca Şirket'e başvurarak şu haklarınızı kullanabilirsiniz:" },
+        { "ul": [
+          "Kişisel verilerinizin işlenip işlenmediğini öğrenme,",
+          "İşlenmişse buna ilişkin bilgi talep etme,",
+          "İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme,",
+          "Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,",
+          "Eksik veya yanlış işlenmişse düzeltilmesini isteme,",
+          "KVKK m. 7'deki şartlar çerçevesinde silinmesini veya yok edilmesini isteme,",
+          "Düzeltme, silme ve yok etme işlemlerinin verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme,",
+          "Münhasıran otomatik sistemlerle analiz edilmesi nedeniyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme,",
+          "Kanuna aykırı işleme nedeniyle zarara uğramanız hâlinde zararın giderilmesini talep etme."
+        ] },
+        { "p": "Başvurunuzu, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ uyarınca kimliğinizi ve talebinizi açıkça belirterek şu yollardan biriyle yapabilirsiniz:" },
+        { "ul": [
+          "Şirket'in adresine yazılı ve ıslak imzalı dilekçe ile,",
+          "Partner hesabınızda kayıtlı e-posta adresinizden [hello@goktigin.com](mailto:hello@goktigin.com) adresine e-posta ile,",
+          "Güvenli elektronik imza veya mobil imza ile imzalanmış başvuru ile."
+        ] },
+        { "p": "Şirket başvurunuzu niteliğine göre en geç 30 gün içinde ücretsiz olarak sonuçlandırır. İşlemin ayrıca bir maliyet gerektirmesi hâlinde Kişisel Verileri Koruma Kurulu'nun belirlediği tarifedeki ücret alınabilir. Başvurunuzun reddedilmesi, verilen cevabı yetersiz bulmanız veya süresinde cevap verilmemesi hâlinde KVKK m. 14 uyarınca Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsiniz." },
+        { "p": "Kişisel verileriniz hakkında sizin aleyhinize sonuç doğuran ve yalnızca otomatik işlemeye dayanan bir karar verilmez. Sahte işlem şüphesi gibi durumlarda sistem uyarıları Şirket personeli tarafından incelenir." }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "heading": "11. AB, AEA ve Birleşik Krallık'taki Partnerler için Ek Bilgiler",
+      "blocks": [
+        { "p": "Avrupa Birliği, Avrupa Ekonomik Alanı veya Birleşik Krallık'ta bulunuyorsanız kişisel verilerinizin işlenmesine Genel Veri Koruma Tüzüğü (GDPR) veya Birleşik Krallık GDPR'ı da uygulanabilir. Bu durumda veri sorumlusu (controller) yine Şirket'tir." },
+        { "p": "**Hukuki dayanaklar:**" },
+        { "ul": [
+          "GDPR m. 6/1-b: Satış Partnerliği Sözleşmesi'nin kurulması ve ifası (hesap, partner kodu, komisyon ve ödeme işlemleri).",
+          "GDPR m. 6/1-c: Şirket'e uygulanan hukuki yükümlülükler (vergi, muhasebe ve kayıt saklama yükümlülükleri).",
+          "GDPR m. 6/1-f: Şirket'in meşru menfaatleri (sahte işlemlerin önlenmesi, hesap ve sistem güvenliği, hukuki taleplerin tesisi ve savunulması). Bu menfaatlerin sizin haklarınıza üstün gelip gelmediğine ilişkin değerlendirme hakkında bilgi isteyebilirsiniz."
+        ] },
+        { "p": "**Türkiye'ye ve Türkiye'den aktarım:** Verileriniz Türkiye'de kurulu Şirket tarafından toplanır ve Türkiye'de işlenir. Avrupa Komisyonu'nun Türkiye hakkında verdiği bir yeterlilik kararı bulunmamaktadır. Verilerinizin Türkiye'de işlenmesi, sizinle yapılan Satış Partnerliği Sözleşmesi'nin ifası için gereklidir (GDPR m. 49/1-b). E-posta teslim hizmet sağlayıcısına ve yurt dışı bankalara yapılan aktarımlar 6. ve 7. bölümlerde açıklanmıştır; bu aktarımlarda GDPR'nin V. Bölümü'nde öngörülen araçlardan uygun olanına dayanılır." },
+        { "p": "**Haklarınız:** GDPR m. 15-22 uyarınca verilerinize erişme, düzeltme, silme, işlemeyi kısıtlama, veri taşınabilirliği ve meşru menfaate dayanan işlemeye itiraz haklarına sahipsiniz. Talebinizi 10. bölümdeki yollarla iletebilirsiniz. Şirket talebinizi en geç bir ay içinde yanıtlar; talebin karmaşıklığı nedeniyle bu süre GDPR m. 12/3'te öngörülen ölçüde uzatılabilir ve uzatma size bildirilir." },
+        { "p": "**Şikâyet hakkı:** Olağan olarak ikamet ettiğiniz, çalıştığınız veya ihlalin gerçekleştiğini düşündüğünüz ülkedeki veri koruma denetim makamına şikâyette bulunabilirsiniz." },
+        { "p": "Sözleşmenin ifası ve yasal yükümlülükler için gerekli olan verileri vermemeniz hâlinde partner kodu verilemez ve ödeme yapılamaz. Otomatik karar alma ve profilleme yapılmaz." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "12. Bu Metindeki Değişiklikler",
+      "blocks": [
+        { "p": "Şirket, veri işleme faaliyetlerinde değişiklik olduğunda bu metni günceller. Güncel metin yürürlük tarihi ve sürüm numarasıyla yayımlanır. Esaslı değişiklikler Partner Portalı üzerinden veya e-posta ile ayrıca bildirilir." }
+      ]
+    }
+  ]
+}

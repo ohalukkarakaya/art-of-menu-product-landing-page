@@ -1,0 +1,125 @@
+{
+  "key": "company",
+  "version": "1.1",
+  "locale": "tr",
+  "title": "Şirket ve Yasal Bilgiler",
+  "effective": "2026-11-08",
+  "summary": "Art of Menu, Göktigin Bilişim Teknoloji Ltd. Şti.'ye ait bir yazılım ürünüdür. Bu sayfada Şirket'in kimlik, iletişim ve vergi bilgileri ile Art of Menu'ye ilişkin yasal belgeler yer alır.",
+  "sections": [
+    {
+      "id": "identity",
+      "heading": "1. Şirket Bilgileri",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Bilgi",
+              "Değer"
+            ],
+            "rows": [
+              [
+                "Ticaret unvanı",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Ürün adı",
+                "Art of Menu (Şirket'e ait yazılım ürününün ticari adıdır)"
+              ],
+              [
+                "Kayıtlı adres",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Vergi dairesi",
+                "Antalya Kurumlar Vergi Dairesi"
+              ],
+              [
+                "Vergi kimlik numarası",
+                "4060725346"
+              ],
+              [
+                "MERSİS numarası",
+                "0406072534600001"
+              ],
+              [
+                "Ticaret sicili",
+                "Antalya Ticaret Sicili Müdürlüğü — 137005"
+              ],
+              [
+                "KEP adresi",
+                "[eklenecek]"
+              ],
+              [
+                "Telefon",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-posta",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "activity",
+      "heading": "2. Faaliyet",
+      "blocks": [
+        {
+          "p": "Şirket'in ana faaliyet konusu bilgisayar programlama faaliyetleridir (faaliyet kodu 621000). Şirket, Art of Menu adıyla restoran, kafe ve benzeri işletmelere abonelik esasıyla dijital QR menü ve sipariş yönetim yazılımı sağlar. Şirket, işletmelerin misafirlerine sattığı ürünlerin satıcısı değildir."
+        },
+        {
+          "p": "Art of Menu abonelikleri Türkiye'deki ve diğer ülkelerdeki işletmelere doğrudan Şirket tarafından satılır. Hizmetin sağlayıcısı ve satıcısı Şirket'tir."
+        }
+      ]
+    },
+    {
+      "id": "hosting",
+      "heading": "3. Barındırma ve Yurt Dışı Teşkilat",
+      "blocks": [
+        {
+          "p": "Art of Menu'nün ana verileri Şirket'in yönettiği sunucu altyapısında barındırılır."
+        },
+        {
+          "p": "Şirket'in Türkiye dışında şirketi, şubesi, ofisi veya temsilcisi bulunmamaktadır."
+        }
+      ]
+    },
+    {
+      "id": "data-requests",
+      "heading": "4. Kişisel Verilere İlişkin Başvurular",
+      "blocks": [
+        {
+          "p": "6698 sayılı Kişisel Verilerin Korunması Kanunu ve uygulanabildiği hallerde GDPR kapsamındaki haklarınıza ilişkin başvurularınızı Şirket'e şu yollarla iletebilirsiniz:"
+        },
+        {
+          "ul": [
+            "Şirket'in sistemlerinde kayıtlı e-posta adresinizden [hello@goktigin.com](mailto:hello@goktigin.com) adresine e-posta göndererek;",
+            "yukarıdaki kayıtlı adrese ıslak imzalı yazılı başvuru göndererek."
+          ]
+        },
+        {
+          "p": "Bir işletmenin misafiri olarak işletmenin size ait verilerine ilişkin başvurularınızı, veri sorumlusu olan işletmeye yapmanız gerekir. Bu tür başvurular Şirket'e gelirse Şirket bunları ilgili işletmeye iletir."
+        }
+      ]
+    },
+    {
+      "id": "legal-documents",
+      "heading": "5. Yasal Belgeler",
+      "blocks": [
+        {
+          "ul": [
+            "[Art of Menu İşletme Hizmet Sözleşmesi](doc:business-terms)",
+            "[Veri İşleme Sözleşmesi](doc:dpa)",
+            "[Satış Partnerliği Sözleşmesi](doc:partner-terms)",
+            "[İşletme Kullanıcıları için KVKK Aydınlatma Metni ve Gizlilik Bildirimi](doc:privacy-business)",
+            "[Satış Partnerleri için KVKK Aydınlatma Metni](doc:privacy-partner)",
+            "[Misafirler için Gizlilik Bilgilendirmesi](doc:privacy-guest)",
+            "[Çerez ve Benzeri Teknolojiler Politikası](doc:cookies)"
+          ]
+        }
+      ]
+    }
+  ]
+}

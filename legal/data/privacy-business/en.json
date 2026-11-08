@@ -1,0 +1,192 @@
+{
+  "key": "privacy-business",
+  "version": "1.0",
+  "locale": "en",
+  "title": "KVKK Privacy Notice and Privacy Statement for Business Users",
+  "effective": "2026-11-08",
+  "summary": "This notice explains how Göktigin Bilişim Teknoloji Ltd. Şti. processes the personal data of the owners, authorised representatives, users and billing contacts of businesses that use Art of Menu, and of visitors to the artofmenu.com website, as required by Article 10 of the Turkish Personal Data Protection Law No. 6698 (KVKK). Additional information for users in the European Union, the European Economic Area and the United Kingdom is given in section 12. This notice is not a contract or a consent form.",
+  "sections": [
+    {
+      "id": "controller",
+      "heading": "1. Data Controller",
+      "blocks": [
+        { "p": "The personal data described in this notice is processed by **Göktigin Bilişim Teknoloji Limited Şirketi** (the Company) as data controller." },
+        { "ul": [
+          "Address: Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye",
+          "Tax office and number: Antalya Corporate Tax Office, 4060725346",
+          "E-mail: [hello@goktigin.com](mailto:hello@goktigin.com)",
+          "Telephone: +90 554 238 70 07"
+        ] },
+        { "p": "Art of Menu is the trade name of the Company's software product. Further details about the Company are set out on the [Company and Legal Information](doc:company) page. The Company has no company, branch or representative outside Türkiye." }
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "2. Scope and the Company's Roles",
+      "blocks": [
+        { "p": "This notice covers the following people: those who open and manage the business account, the business's users who access the panel, billing contacts, authorised persons who set up the ChatGPT connection, and visitors to the artofmenu.com website. The Company is the data controller with respect to these people." },
+        { "p": "The business is the data controller for the waiter information it enters into Art of Menu and for the order, table session and menu usage data of its guests. The Company processes this data on behalf of the business and on its instructions, as a processor. This processing is governed by the [Data Processing Agreement](doc:dpa). Information for guests is provided in the [Privacy Information for Guests](doc:privacy-guest)." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "3. Personal Data Processed",
+      "blocks": [
+        { "table": {
+          "head": ["Data category", "Data"],
+          "rows": [
+            ["Identity and contact", "Name or the business name entered at registration, e-mail address, billing contact e-mail address."],
+            ["Account and preferences", "User role and permissions, language preference, panel settings."],
+            ["Transaction security", "Irreversible hash of the password, session records (session cookie, browser information, session start and last-used times), audit logs of actions taken in the panel, records of access to the account by Company support staff (staff member, reason, duration)."],
+            ["Financial and billing", "Billing name, tax identification number, tax office, VAT number, billing address, the reference (token) representing the payment card at the payment service provider and the card's display details (card brand, last four digits, expiry date), invoices, subscription and payment history, records of failed charges."],
+            ["Customer transaction", "Selected plans and branches, reasons for subscription cancellation, support requests and correspondence."],
+            ["Business content", "Menu texts, product photographs, branch address and location, opening hours. This information is mostly not personal data; where it is linked to a person, it is protected as personal data."],
+            ["Legal transaction", "Agreement acceptance records (accepting user and business, document, version, language, date, hash of the IP address, browser information) and automatic payment authorisation records."],
+            ["ChatGPT connection", "If the business sets up a ChatGPT connection: the user who set up the connection, the permissions granted, hashes of the access keys and records of changes requested through the connection."],
+            ["Website visitors", "IP address and browser information; processed only momentarily to deliver the page, apply rate limiting and prevent abuse, and not stored in the database."]
+          ]
+        } },
+        { "p": "The card number and CVV are not stored in the Company's systems. Card details are processed directly by the payment service provider." },
+        { "p": "The Company does not ask business users for special categories of personal data." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "4. Purposes of Processing",
+      "blocks": [
+        { "ul": [
+          "opening the account, authenticating users and managing their permissions;",
+          "providing the Art of Menu service: running the menu, order, table, waiter, Smart and other plan features;",
+          "starting, renewing and cancelling subscriptions, collecting payments and issuing invoices;",
+          "ensuring account, system and payment security, and preventing abuse and unauthorised access;",
+          "responding to support requests and providing support access at the business's request or with its knowledge;",
+          "sending mandatory service notices (account, security, payment, subscription and agreement changes);",
+          "fulfilling tax, accounting and commercial record-keeping obligations, and responding to lawful requests from competent authorities;",
+          "applying the agreements and the Corporate Policy, proving acceptance of the agreements and protecting rights in legal disputes;",
+          "improving the service; only aggregated usage statistics that do not identify individuals are used for this purpose."
+        ] },
+        { "p": "The Company does not send marketing e-mails or commercial electronic messages. The e-mails it sends are limited to notices concerning use of the service." }
+      ]
+    },
+    {
+      "id": "legal-bases",
+      "heading": "5. Legal Grounds",
+      "blocks": [
+        { "p": "Personal data is processed on the following legal grounds under Article 5(2) KVKK:" },
+        { "ul": [
+          "**(c) Conclusion or performance of a contract:** account, provision of the service, subscription, payment, invoicing and support operations.",
+          "**(ç) Compliance with a legal obligation:** invoicing, record-keeping and retention obligations under the Tax Procedure Law, the Turkish Commercial Code and related legislation; requests from competent authorities.",
+          "**(e) Establishment, exercise or protection of a right:** agreement acceptance records, invoice and payment records, audit logs.",
+          "**(f) Legitimate interest:** account and system security, prevention of abuse, secure handling of website visitors' requests and improvement of the service through aggregated statistics."
+        ] },
+        { "p": "The processing described in this notice is not based on explicit consent. Explicit consent is therefore not requested." }
+      ]
+    },
+    {
+      "id": "collection",
+      "heading": "6. Method of Collection",
+      "blocks": [
+        { "p": "Personal data is collected electronically, by automated and partly automated means, through the registration, login, billing and payment forms, actions taken in the panel, session and security records, transaction results received from the payment service provider, support correspondence and website visits." }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "7. Recipients and Third-Party Services",
+      "blocks": [
+        { "p": "Art of Menu's primary data is kept on server infrastructure managed by the Company. Automatic translation, background removal and recommendation services also run on this infrastructure. Personal data is never shared with or sold to any third party for marketing purposes. The following recipients and services receive only the data stated:" },
+        { "table": {
+          "head": ["Recipient or service", "Purpose", "Data received"],
+          "rows": [
+            ["The licensed payment service provider used by the Company (Türkiye)", "Capturing card details, collecting payments and automatic renewal", "Card details, payment amount and currency, billing details"],
+            ["E-mail delivery service provider (Resend, where configured)", "Delivering service e-mails", "Recipient's e-mail address and the content of the e-mail"],
+            ["Public authorities and bodies", "Tax and other legal obligations, lawful requests", "The data required by the request or obligation"],
+            ["Legal and financial advisers, auditors", "Accounting, tax, audit and dispute processes", "The data required by the process"],
+            ["OpenAI (ChatGPT), only if the business sets up a connection", "Enabling the business to manage its menu and business through ChatGPT", "Catalogue and menu information, waiter names and business data, within the scope authorised by the business"]
+          ]
+        } },
+        { "p": "**Services your browser connects to directly from the panel:** some panel features work by your browser sending requests directly to the services below. These services process the content of the request and your browser's IP address under their own policies:" },
+        { "ul": [
+          "**Google Translate:** the text to be translated, for automatic translation of menu texts.",
+          "**OpenStreetMap Nominatim:** the search text or coordinates, for address search and finding an address from a location.",
+          "**OpenStreetMap map:** the map display in the location picker.",
+          "**Open-Meteo:** branch coordinates, for weather information.",
+          "**ipwho.is:** the IP address, for country detection where the system cannot determine the pricing region.",
+          "**Frankfurter and open.er-api.com:** displaying exchange rates; no personal data is added to the request, only the IP address is transmitted."
+        ] },
+        { "p": "**Services our servers connect to:** MET Norway (weather, using rounded branch coordinates), OpenStreetMap Nominatim (finding an address from branch coordinates), Nager.Date and OpenHolidays (public holiday information, using only country and region codes), the Central Bank of the Republic of Türkiye and the European Central Bank (exchange rate queries containing no personal data) and Let's Encrypt (security certificates for custom domains; domain name only). No personal data relating to users is sent in these requests." }
+      ]
+    },
+    {
+      "id": "transfers-abroad",
+      "heading": "8. Transfers Abroad",
+      "blocks": [
+        { "p": "The e-mail delivery service provider Resend and OpenAI are based in the United States. The servers of Google Translate, OpenStreetMap, Open-Meteo, ipwho.is, Frankfurter and open.er-api.com, to which your browser connects directly from the panel, may also be located outside Türkiye. Some personal data (e-mail address, e-mail content, IP address, text to be translated, coordinates) may therefore be transferred abroad." },
+        { "p": "Transfers abroad are made in accordance with the conditions laid down in Article 9 KVKK. For transfers to countries for which the Personal Data Protection Board has not issued an adequacy decision, one of the appropriate safeguards listed in Article 9(4) (for example the standard contract announced by the Board) is relied on. Where appropriate safeguards cannot be provided, the transfer is made on an occasional basis under one of the cases listed in Article 9(6), in particular where the transfer is necessary for the performance of the contract with you (Article 9(6)(b))." },
+        { "p": "The ChatGPT connection is optional. The business sets up the connection, determines its permissions and can remove it from the panel at any time. OpenAI processes the data it receives through the connection under its own terms." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "9. Retention Period",
+      "blocks": [
+        { "ul": [
+          "Sessions last no more than 30 days and end earlier if unused for 7 days. Records of ended sessions are retained for a limited period for security purposes.",
+          "Audit logs are kept in a form that cannot be altered and are retained for as long as necessary for security and legal obligations.",
+          "Invoices, billing details and subscription and payment history are retained for the periods required by the relevant legislation (for example 10 years under Article 82 of the Turkish Commercial Code and 5 years under Article 253 of the Tax Procedure Law).",
+          "When a business account is closed, it can be reopened within 30 days. At the end of this period, menu content, images, statistics, orders, table sessions and similar business data are deleted, and user details are anonymised. Invoices, billing account details, subscription history, agreement acceptance records and audit logs are retained for the statutory retention periods.",
+          "Raw statistics on menu usage are deleted after 120 days; aggregated results that do not identify individuals are retained.",
+          "Agreement acceptance records are retained for the limitation period of the related claims."
+        ] },
+        { "p": "Personal data whose retention period has expired is erased, destroyed or anonymised." }
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "10. Security",
+      "blocks": [
+        { "p": "The Company takes appropriate technical and organisational measures to keep personal data secure. Connections are encrypted. Passwords and session keys are stored only as irreversible hashes. Session cookies cannot be read by scripts in the browser and are transmitted only over secure connections. Company staff access a business's panel for support purposes only with a stated reason, for a limited time and in read-only mode; the business can see and end every such access. Personal data is accessed only by staff who need access to perform their duties." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "11. Your Rights and How to Apply",
+      "blocks": [
+        { "p": "Under Article 11 KVKK, you may apply to the Company to exercise your rights to learn whether your personal data is processed; to request information about the processing if it has been processed; to learn the purpose of the processing and whether the data is used in line with that purpose; to know the third parties to whom it is transferred; to request rectification if it is incomplete or inaccurate, and erasure or destruction under Article 7 KVKK; to request that these actions be notified to the third parties to whom it has been transferred; to object to an outcome to your detriment that results from analysis exclusively by automated systems; and to claim compensation for loss suffered as a result of unlawful processing." },
+        { "p": "In accordance with the Communiqué on the Procedures and Principles for Applications to the Data Controller, you may submit your application, clearly stating your identity and your request, by a written petition bearing your wet-ink signature sent to the Company's address, by e-mail to [hello@goktigin.com](mailto:hello@goktigin.com) from the e-mail address registered in your Art of Menu account, or by an application signed with a secure electronic signature or mobile signature." },
+        { "p": "The Company concludes your application free of charge within 30 days at the latest, depending on its nature. If the action requires an additional cost, a fee may be charged according to the tariff set by the Personal Data Protection Board. If your application is rejected, you find the response inadequate or no response is given in time, you may lodge a complaint with the Personal Data Protection Board under Article 14 KVKK." },
+        { "p": "Requests concerning waiter or guest data should be addressed to the business, which is the data controller for that data. Any such requests received by the Company are forwarded to the business concerned." }
+      ]
+    },
+    {
+      "id": "gdpr",
+      "heading": "12. Additional Information for Users in the EU, EEA and United Kingdom",
+      "blocks": [
+        { "p": "If you are located in the European Union, the European Economic Area or the United Kingdom, the General Data Protection Regulation (GDPR) or the UK GDPR may also apply to the processing of your personal data. In that case, the Company is the controller." },
+        { "p": "**Legal bases:**" },
+        { "ul": [
+          "Article 6(1)(b) GDPR: conclusion and performance of the service agreement (account, service, subscription, payment, invoicing and support).",
+          "Article 6(1)(c) GDPR: legal obligations to which the Company is subject (tax, accounting and record retention).",
+          "Article 6(1)(f) GDPR: the Company's legitimate interests (security, prevention of abuse, establishment and defence of legal claims, improvement of the service through aggregated statistics). You may request information about the assessment of these interests."
+        ] },
+        { "p": "**Transfers to and from Türkiye:** your data is collected by the Company, which is established in Türkiye, and processed in Türkiye. There is no adequacy decision of the European Commission for Türkiye. Processing your data in Türkiye is necessary for the performance of the service agreement concluded with you or with the business you represent (Article 49(1)(b) GDPR). Transfers to the recipients listed in sections 7 and 8 rely on the appropriate mechanism provided for in Chapter V of the GDPR." },
+        { "p": "**Your rights:** under Articles 15 to 22 GDPR, you have the right of access, rectification, erasure, restriction of processing, data portability and the right to object to processing based on legitimate interests. You may submit your request by the means set out in section 11. The Company responds to your request within one month at the latest; this period may be extended to the extent permitted by Article 12(3) GDPR, and you will be informed of any extension." },
+        { "p": "**Right to lodge a complaint:** you may lodge a complaint with the data protection supervisory authority in the country of your habitual residence, your place of work or the place of the alleged infringement." },
+        { "p": "If you do not provide the data required for the performance of the agreement, no account can be opened and no subscription can be started. No automated decision-making or profiling takes place." }
+      ]
+    },
+    {
+      "id": "cookies",
+      "heading": "13. Cookies",
+      "blocks": [
+        { "p": "The panel and the website use only cookies that are strictly necessary for the service to work and functional browser storage. No analytics, advertising or marketing cookies are used. Details are set out in the [Cookie and Similar Technologies Policy](doc:cookies)." }
+      ]
+    },
+    {
+      "id": "changes",
+      "heading": "14. Changes to This Notice",
+      "blocks": [
+        { "p": "The Company updates this notice when its data processing activities change. The current notice is published with its effective date and version number. Material changes are also notified separately through the panel or by e-mail." }
+      ]
+    }
+  ]
+}

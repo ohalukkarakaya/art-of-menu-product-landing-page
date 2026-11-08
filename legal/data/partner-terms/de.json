@@ -1,0 +1,318 @@
+{
+  "key": "partner-terms",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Vertriebspartnervertrag",
+  "effective": "2026-11-08",
+  "summary": "Dieser Vertrag regelt das Verhältnis zwischen der Göktigin Bilişim Teknoloji Ltd. Şti. und den Vertriebspartnern, die neue Betriebe an Art of Menu-Abonnements vermitteln. Er beschreibt die unabhängige Tätigkeit des Partners, die Regeln für Vermittlungen, die Grenzen seiner Befugnisse, wie Provisionen verdient und ausgezahlt werden, unzulässige Vertriebsmethoden sowie die Beendigung des Vertrags. Die Richtlinie zu Unternehmenswerten, akzeptabler Nutzung und Markenreputation ist verbindliche Anlage dieses Vertrags.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Vertragsparteien und Begriffsbestimmungen",
+      "blocks": [
+        { "p": "Dieser Vertrag wird zwischen der **Göktigin Bilişim Teknoloji Limited Şirketi** (Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkei; Körperschaftsteueramt Antalya (Antalya Kurumlar Vergi Dairesi), Steuernummer 4060725346; [hello@goktigin.com](mailto:hello@goktigin.com)) und der natürlichen oder juristischen Person geschlossen, die sich für das Vertriebspartnerprogramm registriert. Sämtliche Unternehmensangaben finden sich auf der Seite [Unternehmen und rechtliche Angaben](doc:company)." },
+        { "p": "Die in diesem Vertrag verwendeten Begriffe haben folgende Bedeutung:" },
+        { "ul": [
+          "**Unternehmen:** Göktigin Bilişim Teknoloji Ltd. Şti.",
+          "**Art of Menu:** Handelsname der Software für digitale Speisekarten und Bestellverwaltung, die dem Unternehmen gehört und von ihm betrieben wird.",
+          "**Partner:** Die natürliche oder juristische Person, die diesen Vertrag annimmt und am Vertriebspartnerprogramm teilnimmt.",
+          "**Partnerportal:** Der Online-Bereich, in dem der Partner sein Konto, sein Profil, seine Bankdaten, seine Vermittlungen, Provisionen und Auszahlungen einsieht.",
+          "**Partnercode:** Der dem Partner persönlich zugeteilte Vermittlungscode im Format AOM-XXXXXX.",
+          "**Betrieb:** Das Restaurant, Café oder vergleichbare gewerbliche Unternehmen, das beim Unternehmen ein Art of Menu-Abonnement erwirbt.",
+          "**Erstverkauf:** Die erste kostenpflichtige Abonnementzahlung, die ein mit dem Partnercode registrierter Betrieb an das Unternehmen leistet.",
+          "**Nettoeinnahme:** Der Betrag, der vom beim Erstverkauf tatsächlich beim Unternehmen eingegangenen Betrag nach Abzug der Umsatzsteuer und sonstiger Steuern sowie der vom Zahlungsdienstleister für diese Zahlung einbehaltenen Gebühr verbleibt."
+        ] }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Vertragsgegenstand",
+      "blocks": [
+        { "p": "Der Partner stellt Betrieben die Art of Menu-Abonnements vor und vermittelt sie mit seinem Partnercode an das Unternehmen. Der Abonnementvertrag kommt unmittelbar zwischen dem Betrieb und dem Unternehmen zustande. Das Abonnemententgelt zieht das Unternehmen ein. Das Unternehmen zahlt dem Partner eine Provision, sobald die Voraussetzungen dieses Vertrags erfüllt sind." },
+        { "p": "Dieser Vertrag begründet für den Partner weder Umsatzziele noch eine Mindestabnahmepflicht noch Exklusivität. Ebenso räumt das Unternehmen dem Partner keine Exklusivität für ein bestimmtes Gebiet oder eine bestimmte Kundengruppe ein." }
+      ]
+    },
+    {
+      "id": "independence",
+      "heading": "3. Selbstständige Tätigkeit",
+      "blocks": [
+        { "p": "Der Partner übt seine Tätigkeit selbstständig in eigenem Namen, auf eigene Rechnung und mit eigener Organisation aus. Zwischen den Parteien wird weder ein Arbeitsverhältnis noch ein Handelsvertreter-, Alleinvertriebs-, Vertriebshändler- oder Händlerverhältnis noch eine Gesellschaft oder Gesellschaft bürgerlichen Rechts begründet. Der Partner ist weder Arbeitnehmer noch Vertreter oder Handelsvertreter des Unternehmens." },
+        { "p": "Der Partner bestimmt seine Arbeitszeiten, Methoden und Mittel selbst, sofern diese mit diesem Vertrag und dem geltenden Recht vereinbar sind. Sämtliche Kosten seiner Tätigkeit, etwa für Fahrten, Kommunikation, Ausstattung und Werbung, trägt er selbst. Das Unternehmen übernimmt oder erstattet diese Kosten nicht." },
+        { "p": "Für die aus seiner eigenen Tätigkeit entstehenden steuerlichen, versicherungsrechtlichen und sozialversicherungsrechtlichen Pflichten ist der Partner selbst verantwortlich." }
+      ]
+    },
+    {
+      "id": "joining",
+      "heading": "4. Teilnahme und Konto",
+      "blocks": [
+        { "p": "Die Teilnahme am Partnerprogramm erfolgt über das Partnerportal. Bei der Registrierung werden Vorname, Nachname, E-Mail-Adresse, Passwort und Land abgefragt. Der Partner bestätigt seine E-Mail-Adresse über den an diese Adresse gesendeten Link." },
+        { "p": "Der Partnercode wird vergeben, nachdem die E-Mail-Adresse bestätigt und das Profil sowie die Bankdaten im Partnerportal vollständig ausgefüllt wurden. Der Code wird im Partnerportal angezeigt und an die E-Mail-Adresse des Partners gesendet." },
+        { "ul": [
+          "Ein Partner, der eine natürliche Person ist, muss das 18. Lebensjahr vollendet haben. Von natürlichen Personen werden Geburtsdatum, Staatsangehörigkeit, Art und Nummer des Ausweisdokuments (türkische Identitätsnummer (T.C. kimlik numarası), Reisepass oder nationaler Personalausweis), Anschrift und Telefonnummer abgefragt.",
+          "Von einem Partner, der eine juristische Person ist, werden Firma, Steuernummer, bei in der Türkei gegründeten Gesellschaften das zuständige Finanzamt, Anschrift und Telefonnummer abgefragt. Der bei der Registrierung angegebene Vor- und Nachname ist der der Person, die im Namen der Gesellschaft handelt.",
+          "Der Partner bestätigt, dass seine Angaben richtig und aktuell sind und ihn selbst betreffen. Das Bankkonto muss auf den Namen des Partners bzw. auf die Firma der Partnergesellschaft lauten.",
+          "Ändern sich seine Angaben, aktualisiert der Partner seinen Eintrag im Partnerportal unverzüglich. Für verspätete oder fehlerhafte Zahlungen infolge falscher oder unvollständiger Angaben haftet das Unternehmen nicht."
+        ] },
+        { "p": "Der Partner hält seine Kontodaten und sein Passwort geheim. Für die in seinem Konto vorgenommenen Handlungen ist der Partner verantwortlich. Bemerkt der Partner eine unbefugte Nutzung seines Kontos, teilt er dies dem Unternehmen unverzüglich mit." },
+        { "p": "Das Unternehmen ist berechtigt, eine Partnerbewerbung ohne Angabe von Gründen abzulehnen oder neue Partnerregistrierungen vorübergehend oder dauerhaft zu schließen." }
+      ]
+    },
+    {
+      "id": "referrals",
+      "heading": "5. Regeln für Vermittlungen",
+      "blocks": [
+        { "p": "Damit ein Betrieb dem Partner zugeordnet wird, muss der Betrieb den Partnercode vor seiner ersten Zahlung in Art of Menu eingegeben haben. Nach der ersten Zahlung kann kein Code mehr hinzugefügt werden, und für einen ohne Code getätigten Verkauf kann nachträglich keine Provision verlangt werden." },
+        { "ul": [
+          "Jeder Betrieb kann nur einem Partner zugeordnet werden, und für jeden Betrieb wird nur einmal eine Provision gezahlt.",
+          "Die Provision wird auf Grundlage des Abonnements für die erste Filiale berechnet, das in der ersten kostenpflichtigen Rechnung des Betriebs enthalten ist. Für weitere Filialen desselben Betriebs, später hinzugefügte Filialen, Paket-Upgrades und Verlängerungen wird keine zusätzliche Provision gezahlt.",
+          "Für den eigenen Betrieb des Partners, für Betriebe, an denen er beteiligt ist oder die er leitet, sowie für Konten, die er auf seinen eigenen Namen eröffnet, wird keine Provision gezahlt (Eigenvermittlung ist unzulässig).",
+          "Unzulässig sind Konten für Betriebe, die tatsächlich keine Geschäftstätigkeit ausüben oder nur zur Erzielung einer Provision eröffnet wurden, doppelte Konten für denselben Betrieb sowie Konten, die ohne Erlaubnis im Namen einer anderen Person eröffnet wurden.",
+          "Für die Frage, welchem Partner ein Betrieb zugeordnet ist, sind die Aufzeichnungen des Unternehmens maßgeblich. Das Unternehmen behält sich das Recht vor, Fehler zu berichtigen, die auf sein eigenes System zurückgehen."
+        ] }
+      ]
+    },
+    {
+      "id": "authority",
+      "heading": "6. Grenzen der Befugnisse",
+      "blocks": [
+        { "p": "Sofern das Unternehmen den Partner nicht gesondert schriftlich ermächtigt hat, darf der Partner im Namen des Unternehmens keine Zusagen machen, keine Verträge schließen, keine Rabatte oder Sonderkonditionen anbieten und keine Erklärungen abgeben." },
+        { "ul": [
+          "Der Partner beschreibt die Pakete, Funktionen und Preise von Art of Menu zutreffend und im Einklang mit den aktuellen, vom Unternehmen veröffentlichten Informationen. Er stellt keine Funktion so dar, als sei sie vorhanden, wenn sie es nicht ist.",
+          "Der Partner zieht von Betrieben im Namen des Unternehmens weder Zahlungen noch Anzahlungen noch sonstige Entgelte ein.",
+          "Der Partner verlangt keine Kartendaten oder sonstigen Zahlungsdaten der Betriebe, nimmt sie nicht entgegen, speichert sie nicht und leistet keine Zahlungen in deren Namen. Die Abonnementzahlung nimmt der Betrieb selbst über das Art of Menu-Panel vor.",
+          "Der Partner eröffnet kein Konto im Namen eines Betriebs, nimmt den Art of Menu-Dienstleistungsvertrag nicht im Namen eines Betriebs an und verwendet keine Kontodaten eines Betriebs."
+        ] }
+      ]
+    },
+    {
+      "id": "commission",
+      "heading": "7. Provision",
+      "blocks": [
+        { "p": "Für den Erstverkauf eines Betriebs, der sich mit seinem Partnercode registriert, erhält der Partner folgende Provision:" },
+        { "table": {
+          "head": ["Paket", "Erstverkauf bei Monatsabonnement", "Erstverkauf bei Jahresabonnement (Verkauf in EUR)"],
+          "rows": [
+            ["Menu", "100 % der Nettoeinnahme", "15 €"],
+            ["Order", "50 % der Nettoeinnahme", "30 €"],
+            ["Smart", "50 % der Nettoeinnahme", "100 €"]
+          ]
+        } },
+        { "ul": [
+          "Bei Monatsabonnements wird die Provision auf Grundlage der Nettoeinnahme aus dem Erstverkauf berechnet. Umsatzsteuer und sonstige Steuern sowie die vom Zahlungsdienstleister für diese Zahlung einbehaltene Gebühr werden nicht berücksichtigt.",
+          "Bei Jahresabonnements ist die Provision ein fester Betrag, unabhängig vom Verkaufspreis. Für Verkäufe in EUR gelten die Beträge in der obigen Tabelle. Für Verkäufe in TRY oder USD werden die festen TRY- und USD-Beträge jedes Pakets im Partnerportal angezeigt.",
+          "Für Verlängerungen wird keine Provision gezahlt.",
+          "Für kostenlose Zeiträume, die das Unternehmen als Geschenk gewährt, und für Zeiträume, in denen keinerlei Zahlung eingeht, wird keine Provision gezahlt.",
+          "Provisionssätze und -beträge werden auch im Partnerportal angezeigt. Für einen Verkauf gelten die Sätze und Beträge, die am Tag dieses Verkaufs gültig sind."
+        ] },
+        { "note": "Die Provision wird ausschließlich für die erste kostenpflichtige Zahlung eines Betriebs und nur einmal gezahlt. Spätere monatliche oder jährliche Verlängerungen begründen keine Provision." }
+      ]
+    },
+    {
+      "id": "payable",
+      "heading": "8. Fälligkeit der Provision, Erstattungen und Rückbuchungen",
+      "blocks": [
+        { "p": "Die Provision wird an dem Tag, an dem die Zahlung des Betriebs beim Unternehmen eingeht, als ausstehende Provision erfasst und 30 Tage nach diesem Tag auszahlbar. Diese Frist von 30 Tagen dient dazu, die Risiken von Erstattungen, Rückbuchungen und Kündigungen zu klären." },
+        { "p": "In folgenden Fällen behandelt das Unternehmen die Provision als ungültig:" },
+        { "ul": [
+          "wenn die Zahlung dem Betrieb ganz oder teilweise erstattet wird,",
+          "wenn die Zahlung vom Karteninhaber oder seiner Bank im Wege einer Rückbuchung (Chargeback) zurückgeholt wird,",
+          "wenn das Abonnement des Betriebs innerhalb der Wartefrist gekündigt wird oder die Zahlung von der Bank oder dem Zahlungsdienstleister abgelehnt wird,",
+          "wenn festgestellt wird, dass der Verkauf vorgetäuscht, betrügerisch oder irreführend ist oder unter Verstoß gegen diesen Vertrag erzielt wurde,",
+          "wenn die Auszahlungen an den Partner gemäß Ziffer 11 ausgesetzt wurden und der Verkauf in diesem Zeitraum erfolgt ist."
+        ] },
+        { "p": "Bei einer Teilerstattung kann die Provision im Verhältnis des erstatteten Betrags gekürzt werden. Wurde eine als ungültig behandelte Provision dem Partner bereits ausgezahlt, wird der gezahlte Betrag mit späteren Auszahlungen an den Partner verrechnet. Reicht das Guthaben für die Verrechnung nicht aus, kann das Unternehmen diesen Betrag vom Partner zurückfordern." },
+        { "p": "Der Status der Provision (ausstehend, auszahlbar, ausgezahlt, ungültig) und der Grund für eine Ungültigkeit werden im Partnerportal angezeigt." }
+      ]
+    },
+    {
+      "id": "payment",
+      "heading": "9. Auszahlungsverfahren",
+      "blocks": [
+        { "p": "Provisionen werden in türkischer Lira erfasst. Bei Verkäufen in einer anderen Währung als TRY wird die Provision zum Devisenverkaufskurs der Zentralbank der Republik Türkei vom Tag der Zahlung des Betriebs in türkische Lira umgerechnet. Für Währungen, für die die Zentralbank keinen Kurs veröffentlicht, wird ein Kreuzkurs auf Grundlage der Referenzkurse der Europäischen Zentralbank verwendet." },
+        { "p": "Die Auszahlungen nimmt das Unternehmen manuell per Banküberweisung auf das im Partnerportal hinterlegte Bankkonto des Partners vor. Nach erfolgter Auszahlung erhält der Partner eine E-Mail, und die Auszahlung wird im Partnerportal verbucht." },
+        { "ul": [
+          "Auszahlungen auf Bankkonten in der Türkei erfolgen in türkischer Lira. Der Mindestauszahlungsbetrag beträgt 1.000 TRY.",
+          "Auszahlungen auf Bankkonten im Ausland erfolgen per internationaler Banküberweisung. Der Mindestauszahlungsbetrag entspricht 200 EUR bzw. 200 USD.",
+          "Solange das auszahlbare Guthaben den Mindestbetrag nicht erreicht, erfolgt keine Auszahlung. Das Guthaben wird auf spätere Zeiträume übertragen.",
+          "Im Partnerportal in anderen Währungen als türkischer Lira angezeigte Beträge sind unverbindliche Schätzungen. Der genaue Betrag, der dem Konto des Partners gutgeschrieben wird, richtet sich nach dem Kurs, den die Bank am Tag der Überweisung anwendet.",
+          "Bei Auslandsüberweisungen trägt der Partner die SWIFT-, Korrespondenz- und Zwischenbankgebühren, die nicht bei der Auftraggeberbank anfallen, sowie die von seiner eigenen Bank einbehaltenen Gebühren.",
+          "An einen Partner, dessen Profil- oder Bankdaten unvollständig oder fehlerhaft sind, erfolgt keine Auszahlung. Sobald die Angaben vervollständigt sind, wird das ausstehende auszahlbare Guthaben ausgezahlt."
+        ] },
+        { "p": "Das Unternehmen nimmt die Auszahlung innerhalb einer angemessenen Frist vor. Für Verzögerungen, die auf Banken, internationale Zahlungssysteme oder fehlerhafte Angaben des Partners zurückgehen, haftet das Unternehmen nicht. Provisionsbeträge werden nicht verzinst." }
+      ]
+    },
+    {
+      "id": "taxes",
+      "heading": "10. Steuern und Belege",
+      "blocks": [
+        { "ul": [
+          "Für Partner, die natürliche Personen sind, stellt das Unternehmen bei der Auszahlung einen Ausgabenbeleg (gider pusulası) aus und nimmt die gesetzlich vorgeschriebenen Steuerabzüge (einschließlich Quellensteuer) vor. Dem Partner wird der Nettobetrag nach Abzug ausgezahlt.",
+          "Partner, die juristische Personen sind, stellen dem Unternehmen für die auszuzahlende Provision eine Rechnung. Die Auszahlung erfolgt nach Eingang der Rechnung beim Unternehmen.",
+          "Für die Steuer-, Erklärungs- und Registrierungspflichten in seinem eigenen Land ist der Partner selbst verantwortlich. Das Unternehmen zahlt keine Steuern, die im Land des Partners anfallen.",
+          "Das Unternehmen nimmt die gesetzlich vorgeschriebenen Meldungen an die zuständigen Behörden vor."
+        ] }
+      ]
+    },
+    {
+      "id": "suspension",
+      "heading": "11. Aussetzung von Auszahlungen und Sperrung des Kontos",
+      "blocks": [
+        { "p": "Liegt ein berechtigter Grund vor, etwa ein Vertragsverstoß, der Verdacht auf vorgetäuschte Transaktionen, unvollständige oder widersprüchliche Identitäts- und Bankdaten oder das Ersuchen einer Behörde, kann das Unternehmen folgende Maßnahmen ergreifen:" },
+        { "ul": [
+          "**Aussetzung der Auszahlungen:** Die ausstehenden und auszahlbaren Provisionen des Partners werden nicht ausgezahlt. In diesem Zeitraum mit dem Partnercode getätigte neue Verkäufe werden dem Partner zugeordnet, begründen jedoch keine Provision.",
+          "**Sperrung:** Der Partnercode funktioniert bei neuen Verkäufen nicht.",
+          "**Schließung des Kontos:** Der Partner kann sich nicht mehr im Partnerportal anmelden, und der Vertrag endet gemäß Ziffer 18."
+        ] },
+        { "p": "Das Unternehmen teilt dem Partner den Grund der Maßnahme, soweit rechtlich zulässig, per E-Mail mit. Ergibt die Prüfung, dass kein berechtigter Grund vorliegt, hebt das Unternehmen die Maßnahme auf und zahlt die ausstehenden Provisionen nach diesem Vertrag aus." }
+      ]
+    },
+    {
+      "id": "fraud",
+      "heading": "12. Vorgetäuschte Transaktionen",
+      "blocks": [
+        { "p": "Als vorgetäuschte Transaktionen gelten Registrierungen, denen keine echte Geschäftsbeziehung mit einem Betrieb zugrunde liegt, Transaktionen mit gefälschten oder fremden Identitäts- und Zahlungsdaten, Abonnements, die nur zur Erzielung einer Provision abgeschlossen und anschließend erstattet oder gekündigt werden, sowie jede Manipulation des Systems." },
+        { "p": "Wird eine vorgetäuschte Transaktion festgestellt, so:" },
+        { "ul": [
+          "behandelt das Unternehmen die betreffenden Provisionen als ungültig,",
+          "verrechnet es bereits ausgezahlte Beträge mit späteren Auszahlungen oder fordert sie vom Partner zurück,",
+          "kann es den Vertrag fristlos kündigen,",
+          "kann es Ersatz des ihm entstandenen Schadens verlangen und bei Verdacht auf eine Straftat die zuständigen Behörden einschalten."
+        ] }
+      ]
+    },
+    {
+      "id": "prohibited",
+      "heading": "13. Unzulässige Vertriebs- und Werbemethoden",
+      "blocks": [
+        { "p": "Der Partner darf folgende Methoden nicht anwenden:" },
+        { "ul": [
+          "kommerzielle Nachrichten per E-Mail, SMS, Instant Messaging oder automatisierten Anrufen ohne vorherige Einwilligung des Empfängers zu versenden. In der Türkei gelten das Gesetz Nr. 6563 über die Regelung des elektronischen Geschäftsverkehrs, die Verordnung über kommerzielle Kommunikation und kommerzielle elektronische Nachrichten sowie die Regeln des Nachrichtenverwaltungssystems (İleti Yönetim Sistemi, İYS), in anderen Ländern die dort jeweils einschlägigen Vorschriften;",
+          "falsche, unvollständige oder irreführende Angaben über Art of Menu, die Pakete, Preise, Funktionen oder das Unternehmen zu machen; Garantien, Einnahmen oder Ergebnisse zu versprechen;",
+          "sich als Arbeitnehmer, Bevollmächtigter, Vertreter oder offizieller Händler des Unternehmens auszugeben oder Erklärungen abzugeben, die den Eindruck erwecken, sie stammten vom Unternehmen;",
+          "ohne schriftliche Erlaubnis des Unternehmens den Namen Art of Menu oder ähnliche Bezeichnungen in Domainnamen, Benutzernamen in sozialen Medien, App-Namen oder Werbe-Keywords zu verwenden;",
+          "in Suchmaschinen und auf Werbeplattformen bezahlte Anzeigen auf die Marke Art of Menu oder ähnliche Bezeichnungen zu schalten oder darauf zu bieten;",
+          "Cookie-Stuffing, Klickbetrug, automatisierte Registrierungen oder andere technische Methoden einzusetzen, die Vermittlungen ohne Wissen des Nutzers herbeiführen;",
+          "Betriebe durch vom Unternehmen nicht genehmigte Rabatte, Erstattungen, Geschenke, Barzahlungen oder sonstige Vorteile zur Verwendung des Partnercodes zu bewegen oder einen Teil der eigenen Provision an den Betrieb weiterzugeben;",
+          "Druck, Drohungen, Täuschung oder andere Methoden einzusetzen, die die Entscheidungsfreiheit des Betriebs einschränken;",
+          "in Umgebungen und mit Inhalten zu werben, die rechtswidrig sind, gegen die Unternehmensrichtlinie verstoßen oder dem Ansehen der Marke Art of Menu schaden."
+        ] },
+        { "p": "Verkäufe, die durch Methoden erzielt werden, die gegen diese Verbote verstoßen, begründen keine Provision. Für Bußgelder und Ansprüche Dritter, die aus dem Verstoß entstehen, haftet der Partner." }
+      ]
+    },
+    {
+      "id": "brand",
+      "heading": "14. Markennutzung",
+      "blocks": [
+        { "p": "Der Name Art of Menu, das Logo und die übrigen Markenelemente gehören dem Unternehmen. Das Unternehmen räumt dem Partner für die Dauer dieses Vertrags und ausschließlich zur Bewerbung von Art of Menu ein nicht übertragbares, nicht unterlizenzierbares und nicht ausschließliches Nutzungsrecht ein." },
+        { "ul": [
+          "Der Partner verwendet ausschließlich Werbematerialien, die das Unternehmen bereitstellt oder genehmigt.",
+          "Der Partner darf die Markenelemente nicht verändern, nicht mit seiner eigenen Marke kombinieren und nicht den Eindruck erwecken, zwischen ihm und dem Unternehmen bestehe ein anderes als das in diesem Vertrag beschriebene Verhältnis.",
+          "Der Partner darf die Marke Art of Menu oder ein ähnliches Zeichen weder auf seinen Namen eintragen lassen noch eine Eintragung beantragen.",
+          "Das Nutzungsrecht erlischt mit Beendigung des Vertrags automatisch. Ab der Beendigung stellt der Partner die Nutzung der Markenelemente und Werbematerialien ein und entfernt sie aus den Veröffentlichungen, die seiner Kontrolle unterliegen."
+        ] }
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "heading": "15. Vertraulichkeit",
+      "blocks": [
+        { "p": "Der Partner behandelt nicht öffentlich zugängliche Informationen, die er aufgrund dieses Vertrags erfährt, vertraulich. Hierzu gehören die geschäftlichen Konditionen des Unternehmens, partnerspezifische Informationen, die Daten im Partnerportal und Informationen über Betriebe. Der Partner verwendet diese Informationen ausschließlich für die Zwecke des Vertrags und gibt sie nicht an Dritte weiter." },
+        { "p": "Nicht von dieser Pflicht erfasst sind Informationen, die öffentlich zugänglich sind, die dem Partner bereits rechtmäßig bekannt sind oder deren Offenlegung auf Verlangen einer zuständigen Behörde zwingend ist. Die Vertraulichkeitspflicht besteht auch nach Beendigung des Vertrags fort." }
+      ]
+    },
+    {
+      "id": "personal-data",
+      "heading": "16. Personenbezogene Daten",
+      "blocks": [
+        { "p": "Das Unternehmen verarbeitet die personenbezogenen Daten des Partners nach Maßgabe der [Datenschutzinformation nach KVKK für Vertriebspartner](doc:privacy-partner)." },
+        { "p": "Für Informationen über Betriebe und Personen, die der Partner im Rahmen seiner Werbetätigkeit selbst erhebt (z. B. Listen potenzieller Kunden), ist der Partner eigenständiger Verantwortlicher. Der Partner verarbeitet diese Daten im Einklang mit dem türkischen Gesetz Nr. 6698 zum Schutz personenbezogener Daten (KVKK), gegebenenfalls mit der Datenschutz-Grundverordnung der Europäischen Union (DSGVO) sowie mit den Datenschutzvorschriften seines Landes. Der Partner übermittelt diese Daten nicht an das Unternehmen, und das Unternehmen ist für diese Daten nicht verantwortlich." },
+        { "p": "Die dem Partner im Partnerportal angezeigten Informationen über Betriebe dürfen ausschließlich zur Nachverfolgung der Provisionen verwendet werden. Der Partner darf diese Informationen nicht für andere Zwecke verwenden und nicht an Dritte weitergeben." }
+      ]
+    },
+    {
+      "id": "corporate-policy",
+      "heading": "17. Unternehmensrichtlinie",
+      "blocks": [
+        { "p": "Die [Richtlinie zu Unternehmenswerten, akzeptabler Nutzung und Markenreputation](doc:corporate-policy) ist verbindliche Anlage dieses Vertrags. Mit der Annahme dieses Vertrags nimmt der Partner auch die Richtlinie an." },
+        { "p": "Die Richtlinie erfasst das Verhalten des Partners auf Art of Menu ebenso wie sein Verhalten außerhalb der Plattform. Weder die Staatsbürgerschaft oder Staatsangehörigkeit des Partners noch das Land, in dem er wohnt oder tätig ist, begründen eine Ausnahme von der Richtlinie. Bei einem Verstoß gegen die Richtlinie kann das Unternehmen den Vertrag gemäß Ziffer 18 fristlos kündigen." }
+      ]
+    },
+    {
+      "id": "termination",
+      "heading": "18. Laufzeit und Kündigung",
+      "blocks": [
+        { "p": "Der Vertrag tritt mit der Annahme durch den Partner bei der Registrierung in Kraft und läuft auf unbestimmte Zeit." },
+        { "ul": [
+          "Jede Partei kann den Vertrag jederzeit durch Mitteilung per E-Mail an die andere Partei kündigen. Die Kündigung wird 7 Tage nach Zugang der Mitteilung bei der anderen Partei wirksam.",
+          "Das Unternehmen kann den Vertrag durch Mitteilung fristlos kündigen, wenn der Partner gegen diesen Vertrag oder die Unternehmensrichtlinie verstößt, vorgetäuschte Transaktionen vornimmt, falsche Identitäts- oder Bankdaten angibt oder ein Verhalten an den Tag legt, das dem Ansehen des Unternehmens ernsthaft schadet."
+        ] },
+        { "p": "Die Beendigung hat folgende Folgen:" },
+        { "ul": [
+          "Der Partnercode funktioniert bei neuen Verkäufen nicht mehr. Verkäufe nach dem Beendigungsdatum begründen keine Provision.",
+          "Für Erstverkäufe vor dem Beendigungsdatum verdiente Provisionen werden, vorbehaltlich der Ungültigkeitsgründe in Ziffer 8, nach den Bedingungen dieses Vertrags ausgezahlt.",
+          "Wird der Vertrag wegen eines Verstoßes gegen die Unternehmensrichtlinie oder wegen vorgetäuschter Transaktionen gekündigt, kann das Unternehmen, soweit rechtlich zulässig, die Auszahlung ausstehender und auszahlbarer Provisionen verweigern und diese mit seinen Schäden verrechnen.",
+          "Der Partner stellt die Nutzung der Markenelemente ein und hält seine Vertraulichkeitspflicht weiterhin ein.",
+          "Der Zugang zum Partnerportal kann für einen vom Unternehmen festgelegten Zeitraum ausschließlich zur Einsicht in die Aufzeichnungen offengehalten werden."
+        ] }
+      ]
+    },
+    {
+      "id": "programme-changes",
+      "heading": "19. Änderung oder Einstellung des Programms",
+      "blocks": [
+        { "p": "Das Unternehmen kann neue Partnerregistrierungen schließen, Provisionssätze und -beträge, Auszahlungsbedingungen und Programmregeln mit Wirkung für die Zukunft ändern oder das Programm vollständig einstellen. Das Unternehmen teilt diese Änderungen dem Partner mindestens 30 Tage vor ihrem Inkrafttreten per E-Mail und im Partnerportal mit." },
+        { "p": "Änderungen berühren keine Provisionen, die für Erstverkäufe vor dem Datum des Inkrafttretens verdient wurden. Bei Einstellung des Programms werden diese Provisionen nach den Bedingungen des Vertrags ausgezahlt." }
+      ]
+    },
+    {
+      "id": "amendments",
+      "heading": "20. Vertragsänderungen",
+      "blocks": [
+        { "p": "Das Unternehmen kann diesen Vertrag ändern. Die neue Fassung wird mit Datum des Inkrafttretens und Versionsnummer veröffentlicht. Frühere Fassungen werden aufbewahrt, und es wird festgehalten, welche Fassung der Partner angenommen hat." },
+        { "ul": [
+          "Redaktionelle Korrekturen, klarstellende Änderungen und Änderungen, die die Rechte des Partners nicht einschränken, treten nach Mitteilung an den Partner in Kraft. Setzt der Partner das Programm nach diesem Zeitpunkt fort, gilt dies als Annahme dieser Änderungen.",
+          "Bei Änderungen, die die Rechte oder Pflichten des Partners wesentlich berühren, muss der Partner die neue Fassung im Partnerportal gesondert annehmen. Nimmt der Partner sie nicht an, kann er den Vertrag gemäß Ziffer 18 kündigen. Solange die Annahme nicht erfolgt ist, kann das Unternehmen die Verwendung des Partnercodes für neue Verkäufe aussetzen."
+        ] }
+      ]
+    },
+    {
+      "id": "liability",
+      "heading": "21. Haftung",
+      "blocks": [
+        { "p": "Der Partner haftet für Schäden, die aus seinem Verhalten unter Verstoß gegen diesen Vertrag, die Unternehmensrichtlinie oder das Gesetz entstehen, sowie für Ansprüche, die Dritte aus diesem Grund gegen das Unternehmen geltend machen. Der Partner erstattet dem Unternehmen die Beträge, die das Unternehmen deshalb zahlen muss, sowie angemessene Kosten der Rechtsverteidigung." },
+        { "p": "Die Haftung des Unternehmens aus diesem Vertrag ist, außer bei Vorsatz und grober Fahrlässigkeit sowie in Fällen, in denen zwingendes Recht eine Beschränkung nicht zulässt, auf die Summe der Provisionen begrenzt, die dem Partner in den 12 Monaten vor dem schadensbegründenden Ereignis ausgezahlt wurden. Für mittelbare Schäden und entgangenen Gewinn haftet das Unternehmen nicht." },
+        { "p": "Das Unternehmen sichert weder zu, dass der Dienst Art of Menu unterbrechungsfrei funktioniert, noch dass ein Betrieb ein Abonnement abschließt." }
+      ]
+    },
+    {
+      "id": "law",
+      "heading": "22. Anwendbares Recht und Gerichtsstand",
+      "blocks": [
+        { "p": "Auf diesen Vertrag ist das Recht der Republik Türkei anzuwenden. Für Streitigkeiten aus dem Vertrag sind die Gerichte und Vollstreckungsämter in Antalya zuständig." },
+        { "p": "Zwingende Schutzvorschriften des Landes, in dem sich der Partner befindet und die vertraglich nicht ausgeschlossen werden können, bleiben unberührt." }
+      ]
+    },
+    {
+      "id": "notices",
+      "heading": "23. Mitteilungen",
+      "blocks": [
+        { "p": "Mitteilungen an den Partner richtet das Unternehmen an die hinterlegte E-Mail-Adresse des Partners oder über das Partnerportal. Eine Mitteilung per E-Mail gilt dem Partner im Zeitpunkt ihrer Versendung als zugegangen. Der Partner ist verpflichtet, seine E-Mail-Adresse aktuell zu halten." },
+        { "p": "Mitteilungen an das Unternehmen sendet der Partner von seiner hinterlegten E-Mail-Adresse an [hello@goktigin.com](mailto:hello@goktigin.com) oder schriftlich an die Anschrift des Unternehmens." }
+      ]
+    },
+    {
+      "id": "general",
+      "heading": "24. Sonstige Bestimmungen",
+      "blocks": [
+        { "ul": [
+          "Dieser Vertrag und seine Anlagen bilden die gesamte Vereinbarung der Parteien über seinen Gegenstand.",
+          "Die Unwirksamkeit einer Bestimmung des Vertrags berührt die Wirksamkeit der übrigen Bestimmungen nicht.",
+          "Der Partner darf seine Rechte und Pflichten aus diesem Vertrag ohne schriftliche Zustimmung des Unternehmens nicht auf Dritte übertragen.",
+          "Die Aufzeichnungen des Unternehmens (Aufzeichnungen im Partnerportal, Zahlungs- und Bankunterlagen, Aufzeichnungen über die Vertragsannahme) können bis zum Beweis des Gegenteils in Streitigkeiten als Beweismittel verwendet werden.",
+          "Der Vertrag wird in mehreren Sprachen, darunter Türkisch, veröffentlicht. Bei Abweichungen zwischen den Fassungen ist der türkische Text maßgeblich."
+        ] }
+      ]
+    }
+  ],
+  "annexes": ["corporate-policy"]
+}

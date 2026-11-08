@@ -1,0 +1,215 @@
+{
+  "key": "business-terms",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Art of Menu Dienstleistungsvertrag für Betriebe",
+  "effective": "2026-11-08",
+  "summary": "Dieser Vertrag gilt für Betriebe, die die von der Göktigin Bilişim Teknoloji Ltd. Şti. unter dem Namen Art of Menu angebotene Software für digitale Speisekarten und Bestellverwaltung nutzen. Er regelt den Umfang des Dienstes, die Verantwortlichkeiten der Parteien sowie die Bedingungen für Abonnement, Zahlung, automatische Verlängerung und Kündigung. Der Auftragsverarbeitungsvertrag und die Richtlinie zu Unternehmenswerten, akzeptabler Nutzung und Markenreputation sind verbindliche Anlagen dieses Vertrags.",
+  "sections": [
+    { "id": "parties", "heading": "1. Vertragsparteien", "blocks": [
+      { "p": "Dieser Vertrag (der „Vertrag“) wird zwischen der **Göktigin Bilişim Teknoloji Limited Şirketi** (das „Unternehmen“) mit Sitz in Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkei, beim Körperschaftsteueramt Antalya (Antalya Kurumlar Vergi Dairesi) unter der Steuernummer 4060725346 registriert, und dem Betrieb geschlossen, der ein Art of Menu-Konto anlegt (der „Kunde“)." },
+      { "p": "Art of Menu ist der Handelsname des dem Unternehmen gehörenden Softwareprodukts und besitzt keine eigene Rechtspersönlichkeit. Anbieter des Dienstes und Verkäufer der Abonnements ist das Unternehmen. Weitere Angaben zum Unternehmen finden Sie auf der Seite [Unternehmen und rechtliche Angaben](doc:company)." },
+      { "p": "Die Person, die den Vertrag bei der Registrierung elektronisch annimmt, erklärt, dass sie im Namen des Kunden handelt und befugt ist, den Kunden durch diesen Vertrag zu verpflichten. Handelt die annehmende Person ohne Vertretungsmacht, gelten die Bestimmungen des türkischen Obligationengesetzes über die Vertretung ohne Vertretungsmacht." }
+    ]},
+    { "id": "definitions", "heading": "2. Begriffsbestimmungen", "blocks": [
+      { "ul": [
+        "**Dienst:** Das unter dem Namen Art of Menu angebotene Betriebspanel, die Gästespeisekarte, die Kellneransicht und die damit verbundenen Softwarefunktionen.",
+        "**Panel:** Die Online-Verwaltungsoberfläche, über die der Kunde den Dienst verwaltet.",
+        "**Filiale:** Jede vom Kunden im Panel angelegte Verkaufsstelle.",
+        "**Nutzer:** Der Kontoinhaber und die Mitarbeiter, denen der Kunde Zugang zum Panel gewährt.",
+        "**Kellner:** Ein vom Kunden im Panel angelegter Mitarbeiter, der die Kellneransicht über einen persönlichen Link oder QR-Code nutzt.",
+        "**Gast:** Eine Person, die im Betrieb des Kunden die Speisekarte ansieht oder bestellt. Gäste registrieren sich nicht bei Art of Menu und treten in kein Vertragsverhältnis mit dem Unternehmen.",
+        "**Inhalte:** Die Menütexte, Produktangaben, Preise, Fotos, Logos und sonstigen Daten, die der Kunde in den Dienst hochlädt oder über den Dienst erstellt.",
+        "**Abonnementzeitraum:** Der für eine Filiale monatlich oder jährlich gewählte und im Voraus berechnete Leistungszeitraum."
+      ]}
+    ]},
+    { "id": "subject", "heading": "3. Vertragsgegenstand und Verantwortung des Kunden gegenüber seinen Gästen", "blocks": [
+      { "p": "Gegenstand des Vertrags ist die Überlassung der Software für digitale Speisekarten und Bestellverwaltung durch das Unternehmen an den Kunden im Rahmen eines Abonnements sowie die diesbezüglichen Rechte und Pflichten der Parteien." },
+      { "p": "Das Unternehmen ist ein Softwareanbieter. Es ist nicht Verkäufer der Speisen, Getränke und sonstigen Produkte, die der Kunde seinen Gästen anbietet, und wird nicht Partei des Kaufverhältnisses zwischen dem Kunden und seinen Gästen. Gäste leisten über den Dienst keine Zahlungen. Die Funktion „Rechnung anfordern“ sendet lediglich eine Benachrichtigung an den Kellner; das Kassieren obliegt dem Kunden." },
+      { "p": "Der Kunde ist gegenüber seinen Gästen allein verantwortlich für:" },
+      { "ul": [
+        "die Richtigkeit der Produkte, Portionen, Zutaten und Preise in der Speisekarte;",
+        "die Richtigkeit und Vollständigkeit der Angaben zu Allergenen, Zutaten, vegan, halal und Ähnlichem;",
+        "die Einhaltung der gesetzlichen Vorschriften beim Verkauf altersbeschränkter Produkte wie alkoholischer Getränke und Tabakwaren;",
+        "die Einhaltung des Preisrechts, einschließlich der Vorschriften über die Preisangabe und Preisauszeichnung;",
+        "die Einhaltung der Vorschriften über Verbraucherschutz, Lebensmittelsicherheit und Hygiene;",
+        "die Ausstellung von Belegen oder Rechnungen an Gäste und die Erfüllung steuerlicher Pflichten;",
+        "die Zubereitung, Lieferung und Stornierung von Bestellungen sowie die Bearbeitung von Beschwerden der Gäste."
+      ]}
+    ]},
+    { "id": "account", "heading": "4. Konto, Nutzer und Kellner", "blocks": [
+      { "p": "Der Kunde hält seine Registrierungs- und Rechnungsdaten richtig und aktuell. Der Nutzer, der das Konto eröffnet, ist Kontoinhaber und verfügt über sämtliche Berechtigungen. Über die Rollen- und Berechtigungseinstellungen des Panels legt der Kunde fest, welche Handlungen die übrigen Nutzer vornehmen dürfen. Handlungen von Nutzern und Kellnern im Dienst werden dem Kunden zugerechnet." },
+      { "p": "Kellner melden sich ohne E-Mail-Adresse oder Passwort über einen persönlichen Link oder QR-Code an, den der Kunde im Panel erzeugt. Jeder, der im Besitz dieses Links ist, kann auf die betreffende Kellneransicht zugreifen. Der Kunde gibt den Link nur an den betreffenden Mitarbeiter weiter und entzieht einem Kellner, der ausscheidet oder seinen Link verliert, den Zugang im Panel unverzüglich." },
+      { "p": "Der Kunde ist für die Geheimhaltung der Nutzerpasswörter und für die Sicherheit der Geräte verantwortlich, mit denen auf den Dienst zugegriffen wird. Den Verdacht einer unbefugten Nutzung meldet er unverzüglich an [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "plans", "heading": "5. Pakete", "blocks": [
+      { "p": "Der Dienst wird in den Paketen Menu, Order und Smart angeboten. Das Paket wird für jede Filiale gesondert gewählt, und die Paketfunktionen können nur in dieser Filiale genutzt werden." },
+      { "p": "Das Paket **Menu** umfasst:" },
+      { "ul": [
+        "eine digitale QR-Speisekarte mit einem QR-Code und einem Speisekartenlink pro Filiale;",
+        "eine mehrsprachige Speisekarte mit Unterstützung durch automatische Übersetzung;",
+        "die Veröffentlichung der Speisekarte unter einer Domain des Kunden;",
+        "die Gestaltung der PDF-Speisekarte und des QR-Code-Erscheinungsbilds;",
+        "die Anlage von Kategorien, Produkten, Menüs und Portionen;",
+        "Kennzeichnungen für Allergene, vegan, halal und Altersbeschränkungen;",
+        "die Kennzeichnung von Produkten als ausverkauft und die Anzeige der Öffnungszeiten."
+      ]},
+      { "p": "Das Paket **Order** umfasst zusätzlich zum Paket Menu:" },
+      { "ul": [
+        "Tischverwaltung und Tischsitzungen: Der Gast wählt seinen Tisch; an einem freien Tisch wird eine neue Sitzung eröffnet, der Sitzung eines besetzten Tisches tritt man mit einem 6-stelligen Sitzungscode oder einem Einladungslink bei;",
+        "einen gemeinsamen Warenkorb der Gäste am selben Tisch und die Übermittlung der Bestellungen an die Kellner;",
+        "Benachrichtigungen zum Rufen des Kellners, zur Bitte um Wasser und zur Anforderung der Rechnung;",
+        "die Kellneransicht: Kellner werden mit Vorname, Nachname, Geschlecht und Filiale angelegt;",
+        "Lieferprotokolle und die Stornierung bestellter Produkte."
+      ]},
+      { "p": "Das Paket **Smart** umfasst zusätzlich zum Paket Order:" },
+      { "ul": [
+        "die in Abschnitt 6 beschriebene dynamische Preisgestaltung;",
+        "die intelligente Sortierung der Speisekarte und Empfehlungen für Produkte, die gern zusammen gewählt werden;",
+        "Einstellungen zur Produktausrichtung nach Wetter, Temperatur und Zielaltersgruppe;",
+        "Lager- und Rezepturverwaltung sowie die automatische Abbuchung verkaufter Produkte vom Lagerbestand;",
+        "Verkaufsberichte."
+      ]},
+      { "p": "Das Unternehmen kann den Paketen neue Funktionen hinzufügen und bestehende Funktionen weiterentwickeln. Die Entfernung oder Einschränkung einer wesentlichen Funktion eines Pakets unterliegt dem Mitteilungsverfahren im Abschnitt [Vertragsänderungen](doc:business-terms#changes)." }
+    ]},
+    { "id": "smart-pricing", "heading": "6. Dynamische Preisgestaltung (Smart)", "blocks": [
+      { "p": "Die dynamische Preisgestaltung berechnet die Produktpreise täglich innerhalb der Spanne zwischen dem niedrigsten und dem höchsten Preis, die der Kunde für jedes Produkt festlegt. Der Kunde wählt einen der folgenden Modi:" },
+      { "ul": [
+        "**Automatisch:** Der berechnete Preis wird innerhalb der festgelegten Spanne ohne gesonderte Zustimmung des Kunden angewendet.",
+        "**Mit Freigabe:** Der berechnete Preis wird als Vorschlag angezeigt und erst nach Freigabe durch den Kunden angewendet.",
+        "**Aus:** Die Preise bleiben so, wie der Kunde sie eingegeben hat."
+      ]},
+      { "p": "Der Preis eines bestellten Produkts wird im Zeitpunkt der Bestellung festgeschrieben; spätere Preisänderungen berühren bereits aufgegebene Bestellungen nicht." },
+      { "p": "Die dynamische Preisgestaltung ist ein Instrument zur Entscheidungsunterstützung; sie garantiert keine Steigerung von Umsatz, Gewinn oder Nachfrage. Der Kunde wählt die Preisspanne und den Modus und ist für die den Gästen angezeigten Preise verantwortlich. Der Kunde stellt sicher, dass die Preise den Gästen vor der Bestellung deutlich angezeigt werden, dass im Betrieb vorzuhaltende Preisverzeichnisse aktuell sind und dass die übrigen gesetzlichen Vorschriften zu Preisänderungen eingehalten werden. Schränken diese Vorschriften die Nutzung der dynamischen Preisgestaltung ein, passt der Kunde die Funktion entsprechend an oder schaltet sie ab." }
+    ]},
+    { "id": "content", "heading": "7. Inhalte", "blocks": [
+      { "p": "Der Kunde ist für die Richtigkeit und Rechtmäßigkeit der Inhalte verantwortlich sowie dafür, dass er an den in den Inhalten verwendeten Fotos, Logos, Marken und Texten die erforderlichen Rechte besitzt. Die Rechte an den Inhalten verbleiben beim Kunden." },
+      { "p": "Der Kunde räumt dem Unternehmen ausschließlich zur Bereitstellung des Dienstes und für die Dauer des Vertrags ein unentgeltliches, nicht übertragbares und nicht ausschließliches Recht ein, die Inhalte zu hosten, zu vervielfältigen, zu übersetzen, zu formatieren und in der Gästespeisekarte oder in vom Kunden eingerichteten Integrationen zu veröffentlichen. Ohne gesonderte Erlaubnis des Kunden verwendet das Unternehmen die Inhalte nicht für seine eigene Werbung." },
+      { "p": "Menütexte können mit der auf den Servern des Unternehmens laufenden Übersetzungs-Engine oder mit dem im Panel über den Browser genutzten Dienst Google Translate automatisch übersetzt werden. Automatische Übersetzungen können fehlerhaft oder unvollständig sein. Der Kunde prüft die Übersetzungen, insbesondere Angaben zu Allergenen und Zutaten, vor der Veröffentlichung und berichtigt sie bei Bedarf." },
+      { "p": "Der Hintergrund von Produktfotos kann mit einem auf den Servern des Unternehmens laufenden Modell automatisch entfernt werden. Ob das Ergebnis geeignet ist, prüft der Kunde." },
+      { "p": "Erhält das Unternehmen konkrete Kenntnis davon, dass ein Inhalt gegen das Gesetz oder die [Unternehmensrichtlinie](doc:corporate-policy) verstößt, kann es diesen Inhalt entfernen oder den Zugang dazu sperren und informiert den Kunden. Meldungen rechtswidriger Inhalte können an [hello@goktigin.com](mailto:hello@goktigin.com) gerichtet werden." }
+    ]},
+    { "id": "usage-rules", "heading": "8. Nutzungsregeln", "blocks": [
+      { "p": "Der Kunde und die Nutzer nutzen den Dienst im Einklang mit dem Gesetz und diesem Vertrag. Insbesondere ist Folgendes untersagt:" },
+      { "ul": [
+        "zu versuchen, die Sicherheit des Dienstes zu umgehen oder zu beeinträchtigen oder auf andere Konten zuzugreifen;",
+        "die Software zu kopieren, zurückzuentwickeln (Reverse Engineering) oder zu versuchen, den Quellcode zu erlangen;",
+        "den Dienst mit automatisierten Werkzeugen über die übliche Nutzung hinaus zu belasten oder Daten abzugreifen;",
+        "den Dienst ohne schriftliche Erlaubnis des Unternehmens an Dritte zu vermieten oder weiterzuverkaufen;",
+        "Schadsoftware oder rechtswidrige Inhalte zu verbreiten."
+      ]},
+      { "p": "Hinsichtlich seines Betriebs und seiner Geschäftsleitung hält der Kunde zudem die [Richtlinie zu Unternehmenswerten, akzeptabler Nutzung und Markenreputation](doc:corporate-policy) ein, die Anlage dieses Vertrags ist." }
+    ]},
+    { "id": "integrations", "heading": "9. ChatGPT-Integration", "blocks": [
+      { "p": "Der Kunde kann sein Konto optional mit ChatGPT verbinden. Die Verbindung richtet ein bevollmächtigter Nutzer des Kunden ein und kann sie jederzeit im Panel entfernen. Nach Einrichtung der Verbindung kann ChatGPT den Produktkatalog, die Speisekartenangaben und die Mitarbeiternamen des Kunden lesen. Über ChatGPT angeforderte Änderungen werden erst angewendet, wenn der Kunde sie im Panel freigibt." },
+      { "p": "Der Dienst ChatGPT wird von OpenAI bereitgestellt; für seine Nutzung gelten die Bedingungen von OpenAI. Das Unternehmen haftet nicht für die Richtigkeit der von ChatGPT erzeugten Antworten." }
+    ]},
+    { "id": "availability", "heading": "10. Bereitstellung des Dienstes, Wartung und Unterbrechungen", "blocks": [
+      { "p": "Das Unternehmen erbringt den Dienst auf der von ihm selbst verwalteten Serverinfrastruktur mit angemessener Sorgfalt und beruflicher Gewissenhaftigkeit. Es wird weder zugesichert, dass der Dienst unterbrechungs- oder fehlerfrei funktioniert, noch eine bestimmte Verfügbarkeitsquote." },
+      { "p": "Geplante Wartungen führt das Unternehmen nach Möglichkeit zu Zeiten durch, in denen die Betriebe wenig ausgelastet sind, und bemüht sich, sie im Voraus anzukündigen. Bei Sicherheitslücken oder schwerwiegenden Störungen kann es ohne vorherige Mitteilung eingreifen." },
+      { "p": "Der Dienst ist abhängig von der Internetverbindung, dem Domain Name System (DNS), den Einstellungen der eigenen Domain des Kunden, den Browsern sowie von Diensten Dritter wie Karten, Wetter, Wechselkursen, E-Mail-Versand und Zahlungsabwicklung. Für Störungen dieser Dienste haftet das Unternehmen nicht." },
+      { "p": "Für die Dauer von Ereignissen außerhalb der Kontrolle des Unternehmens, etwa Naturkatastrophen, Epidemien, Krieg, Terror, Brand, großflächigen Strom- oder Internetausfällen, trotz angemessener Vorkehrungen nicht abwendbaren Cyberangriffen und behördlichen Entscheidungen, ruhen die betroffenen Pflichten des Unternehmens. Dauert ein solcher Zustand länger als 60 Tage, kann jede Partei den Vertrag kündigen." },
+      { "p": "Damit sein Betrieb auch dann weiterlaufen kann, wenn der Dienst nicht erreichbar ist, hält der Kunde alternative Mittel bereit, etwa ein gedrucktes Preisverzeichnis, das auch gesetzlich vorgeschrieben sein kann." }
+    ]},
+    { "id": "security", "heading": "11. Sicherheit und Supportzugriff", "blocks": [
+      { "p": "Das Unternehmen trifft angemessene technische und organisatorische Maßnahmen zur Sicherheit des Dienstes und der Daten. Diese Maßnahmen sind im [Auftragsverarbeitungsvertrag](doc:dpa#security) beschrieben." },
+      { "p": "Mitarbeiter des Unternehmens greifen zu Supportzwecken nur zeitlich befristet und für den Kunden im Panel sichtbar auf das Kundenkonto zu. Diese Zugriffe werden protokolliert." }
+    ]},
+    { "id": "data-protection", "heading": "12. Schutz personenbezogener Daten", "blocks": [
+      { "p": "Für die Konto-, Sitzungs- und Rechnungsdaten der Nutzer ist das Unternehmen Verantwortlicher. Die Verarbeitung dieser Daten ist in der [Datenschutzinformation nach KVKK und Datenschutzerklärung für Betriebsnutzer](doc:privacy-business) beschrieben." },
+      { "p": "Für die Tischsitzungs-, Bestell-, Ruf- und Menünutzungsdaten der Gäste sowie für die Daten der Kellner und sonstigen Mitarbeiter, die der Kunde in den Dienst eingibt, ist der Kunde Verantwortlicher und das Unternehmen Auftragsverarbeiter. Diese Verarbeitung unterliegt dem [Auftragsverarbeitungsvertrag](doc:dpa), der Anlage dieses Vertrags ist." },
+      { "p": "Die Informationspflichten gegenüber seinen Gästen und Mitarbeitern erfüllt der Kunde. Durch Ausfüllen des Feldes für Gästeinformationen im Panel kann der Kunde dafür sorgen, dass seine Identitäts- und Kontaktdaten auf der Datenschutzseite für Gäste angezeigt werden. Die in der Gästespeisekarte verwendeten Technologien sind in der [Richtlinie zu Cookies und ähnlichen Technologien](doc:cookies) beschrieben." }
+    ]},
+    { "id": "subscription", "heading": "13. Abonnement, Entgelte und Zahlung", "blocks": [
+      { "p": "**Entgelt pro Filiale.** Die Entgelte werden für jede Filiale gesondert nach dem gewählten Paket und Zeitraum berechnet. Alle Filialen derselben juristischen Person werden in einem Rechnungskonto und einem gemeinsamen Rechnungszeitraum zusammengefasst. Für jeden Zeitraum wird eine einzige Rechnung mit gesonderten Positionen pro Filiale ausgestellt." },
+      { "p": "**Preise.** Das Jahresentgelt beträgt das 10-Fache des Monatsentgelts. Die Listenpreise pro Filiale zum Zeitpunkt des Inkrafttretens dieses Vertrags lauten:" },
+      { "table": {
+        "head": ["Paket", "Zeitraum", "Türkei (TRY, inkl. USt.)", "Europa (EUR, zzgl. Steuern)", "Übrige Länder (USD, zzgl. Steuern)"],
+        "rows": [
+          ["Menu", "Monatlich", "399 TRY", "9 €", "12 $"],
+          ["Menu", "Jährlich", "3.990 TRY", "90 €", "120 $"],
+          ["Order", "Monatlich", "999 TRY", "29 €", "35 $"],
+          ["Order", "Jährlich", "9.990 TRY", "290 €", "350 $"],
+          ["Smart", "Monatlich", "1.999 TRY", "59 €", "69 $"],
+          ["Smart", "Jährlich", "19.990 TRY", "590 €", "690 $"]
+        ]
+      }},
+      { "p": "**Währung und Steuern.** Die Währung richtet sich nach dem Land, in dem sich der Kunde befindet, und wird im Zahlungsbildschirm angezeigt. Die Preise für die Türkei enthalten 20 % Umsatzsteuer (KDV). Die Preise für Europa sind Nettopreise; die anwendbare Umsatzsteuer wird im Zahlungsbildschirm gesondert ausgewiesen. Bei Kunden, die eine gültige USt-IdNr. angeben, wird die Steuer in den gesetzlich vorgesehenen Fällen vom Kunden selbst angemeldet (Reverse-Charge-Verfahren). Die Preise für die übrigen Länder sind Nettopreise; fallen im Land des Kunden Umsatz- oder vergleichbare Steuern an, werden diese im Zahlungsbildschirm ausgewiesen oder vom Kunden getragen. Von der kartenausgebenden Bank berechnete Wechselkursdifferenzen und Gebühren trägt der Kunde." },
+      { "p": "**Keine kostenlose Testphase.** Das Entgelt für den ersten Abonnementzeitraum wird bei Abschluss des Abonnements eingezogen. Schlägt der erste Einzug fehl, beginnt das Abonnement nicht." },
+      { "p": "**Automatische Verlängerung und Einzugsermächtigung.** Das Abonnement verlängert sich bis zur Kündigung automatisch um denselben Zeitraum. Mit einer gesonderten Zustimmung bei Abschluss des Abonnements ermächtigt der Kunde das Unternehmen, zu Beginn jedes neuen Abonnementzeitraums das Entgelt und die Steuern für diesen Zeitraum über den lizenzierten Zahlungsdienstleister, mit dem das Unternehmen zusammenarbeitet, von der hinterlegten Karte einzuziehen, ohne jedes Mal eine gesonderte Zustimmung einzuholen. Diese Ermächtigung erlischt für künftige Zeiträume mit der Kündigung des Abonnements oder der Schließung des Kontos." },
+      { "p": "**Paketwechsel und neue Filiale.** Ein Wechsel in ein höheres Paket oder das Hinzufügen einer neuen Filiale innerhalb des Zeitraums wird sofort wirksam; der nach den verbleibenden Tagen anteilig berechnete Differenzbetrag wird der nächsten Rechnung hinzugefügt. Ein Wechsel in ein niedrigeres Paket wird zum Ende des laufenden Zeitraums wirksam; daher erfolgt keine Erstattung." },
+      { "p": "**Fehlgeschlagener Einzug.** Kann das Verlängerungsentgelt nicht eingezogen werden, gilt das folgende Verfahren. Die Tage werden ab dem Verlängerungsdatum gezählt:" },
+      { "ul": [
+        "Tag 0–6 (Verzug): Der Dienst funktioniert weiterhin vollständig, und der Kunde wird informiert.",
+        "Der Einzug wird an den Tagen 1, 3, 5 und 7 und danach alle drei Tage erneut versucht.",
+        "Ab Tag 7 (eingeschränkte Nutzung): Nur die Basisspeisekarte bleibt zu Grundpreisen veröffentlicht; kostenpflichtige Paketfunktionen sind nicht nutzbar.",
+        "Ab Tag 30 (Sperrung): In der Gästespeisekarte wird angezeigt, dass die Speisekarte vorübergehend nicht verfügbar ist.",
+        "Nach erfolgter Zahlung wird der Dienst entsprechend dem bezahlten Paket wieder freigeschaltet. Während dieses Verfahrens werden keine Daten gelöscht."
+      ]},
+      { "p": "Dauert die Sperrung an, kann das Unternehmen den Vertrag durch Mitteilung per E-Mail kündigen. In diesem Fall gelten die Bestimmungen zur Kontoschließung im Abschnitt [Sperrung und Kündigung](doc:business-terms#termination)." },
+      { "p": "**Kündigung des Abonnements.** Der Kunde kann sein Abonnement jederzeit im Panel kündigen. Die Kündigung wird zum Ende des bezahlten Zeitraums wirksam; bis dahin kann der Dienst genutzt und die Kündigung zurückgenommen werden. Bei der Kündigung wird kurz nach dem Kündigungsgrund gefragt." },
+      { "p": "**Erstattung.** Das Entgelt für einen begonnenen Abonnementzeitraum wird auch für die verbleibende Zeit nicht erstattet. Fälle, in denen zwingendes Recht eine Erstattung vorschreibt, und Fälle, in denen das Unternehmen sich zu einer Erstattung entschließt, bleiben unberührt. Beendet das Unternehmen den Vertrag ohne Verschulden des Kunden, erstattet es das Entgelt für den bezahlten und nicht genutzten Zeitraum." },
+      { "p": "**Preisänderung.** Das Unternehmen kann die Listenpreise ändern. Der neue Preis wird dem Kunden mindestens 30 Tage im Voraus per E-Mail und über das Panel mitgeteilt und gilt ab der ersten Verlängerung nach der Mitteilung. Ein Kunde, der den neuen Preis nicht annimmt, kann sein Abonnement vor dem Verlängerungsdatum kündigen. Das Entgelt für einen begonnenen Zeitraum wird während des Zeitraums nicht geändert. Änderungen der Steuersätze gelten ab ihrem Inkrafttreten." },
+      { "p": "**Rechnung.** Rechnungen werden vom Unternehmen anhand der vom Kunden im Panel angegebenen Rechnungsdaten ausgestellt und elektronisch bereitgestellt. Für die Richtigkeit der Rechnungsdaten ist der Kunde verantwortlich." },
+      { "p": "**Zahlungsinfrastruktur und Kartendaten.** Zahlungen werden über die Infrastruktur des lizenzierten Zahlungsdienstleisters entgegengenommen, mit dem das Unternehmen zusammenarbeitet; Zahlungsempfänger ist das Unternehmen. Kartennummer und Sicherheitscode (CVV) werden nicht in den Systemen des Unternehmens gespeichert. Das Unternehmen speichert lediglich die vom Zahlungsdienstleister vergebene Kartenreferenz sowie zur Erkennung der Karte die Kartenmarke, die letzten vier Ziffern und das Ablaufdatum." },
+      { "p": "**Geschenkzeiträume.** Das Unternehmen kann einer Filiale nach eigenem Ermessen für einen bestimmten Zeitraum die kostenlose Nutzung eines Pakets einräumen. Für Geschenkzeiträume wird kein Entgelt erhoben; sie begründen keinen Anspruch auf Erstattung oder Barauszahlung. Ein Geschenkzeitraum geht nicht automatisch in ein kostenpflichtiges Abonnement über." },
+      { "p": "Von Konten, die vom Unternehmen gesperrt oder geschlossen wurden, werden keine Verlängerungsentgelte eingezogen." }
+    ]},
+    { "id": "termination", "heading": "14. Sperrung und Kündigung", "blocks": [
+      { "p": "Der Vertrag läuft auf unbestimmte Zeit. Der Kunde kann den Vertrag jederzeit beenden, indem er sein Abonnement im Panel kündigt oder sein Konto über den Kontoinhaber schließt. Mit der Schließung des Kontos endet der Dienst; das Entgelt für den begonnenen Zeitraum wird nicht erstattet." },
+      { "p": "Das Unternehmen kann den Dienst in folgenden Fällen sperren oder den Vertrag kündigen:" },
+      { "ul": [
+        "bei einem Verstoß gegen die [Unternehmensrichtlinie](doc:corporate-policy): sofort und durch Mitteilung;",
+        "bei Nichtzahlung: nach dem Verfahren im Abschnitt [Abonnement](doc:business-terms#subscription);",
+        "bei sonstigen wesentlichen Verstößen: Das Unternehmen teilt den Verstoß schriftlich mit und kann kündigen, wenn er nicht innerhalb von 7 Tagen behoben wird; bei Verstößen, die die Sicherheit des Dienstes, Gäste oder Dritte gefährden, kann der Dienst sofort gesperrt werden;",
+        "wenn eine behördliche Entscheidung oder Rechtsvorschriften die Erbringung des Dienstes verhindern."
+      ]},
+      { "p": "Das Unternehmen kann den Vertrag auch ohne Angabe von Gründen kündigen, sofern es dies mindestens 90 Tage im Voraus mitteilt und das Entgelt für den bezahlten, nicht genutzten Zeitraum erstattet." },
+      { "p": "**Folgen der Kontoschließung.** Ein geschlossenes Konto kann innerhalb von 30 Tagen wieder geöffnet werden. Nach Ablauf dieser Frist werden Menü- und Produktangaben, Bilder, Analysedaten, Bestellungen, Tischsitzungen und sonstige Betriebsdaten gelöscht; Nutzerdaten werden anonymisiert. Rechnungen, Daten des Rechnungskontos, Abonnementverlauf, Transaktionsaufzeichnungen und Aufzeichnungen über Vertragsannahmen werden für die im türkischen Steuerverfahrensgesetz und im türkischen Handelsgesetzbuch vorgesehenen Fristen gespeichert. Der Kunde sichert die von ihm benötigten Informationen vor der Schließung seines Kontos selbst." },
+      { "p": "Die Zahlungspflichten sowie die Bestimmungen über Haftung, Beweismittel, anwendbares Recht und Gerichtsstand gelten auch nach Beendigung des Vertrags fort." }
+    ]},
+    { "id": "commercial-nature", "heading": "15. Gewerblicher Charakter", "blocks": [
+      { "p": "Der Kunde erwirbt den Dienst für seine gewerbliche oder berufliche Tätigkeit und handelt bei diesem Vertrag nicht als Verbraucher. Daher finden das Widerrufsrecht nach dem türkischen Gesetz Nr. 6502 über den Verbraucherschutz und der Verordnung über Fernabsatzverträge sowie die Widerrufsrechte, die andere Länder Verbrauchern einräumen, auf diesen Vertrag keine Anwendung. Zwingende Vorschriften des Landes des Kunden, die für Handelsgeschäfte gelten, bleiben unberührt." }
+    ]},
+    { "id": "liability", "heading": "16. Haftung", "blocks": [
+      { "p": "Das Unternehmen haftet für unmittelbare Schäden, die aus einer Verletzung dieses Vertrags entstehen. Es haftet nicht für entgangenen Gewinn, Umsatzeinbußen, Rufschäden und sonstige mittelbare Schäden sowie nicht für Ansprüche aus dem Verhältnis zwischen dem Kunden und seinen Gästen." },
+      { "p": "Die Gesamthaftung des Unternehmens ist auf die Summe der Abonnemententgelte begrenzt, die der Kunde in den 12 Monaten vor dem schadensbegründenden Ereignis an das Unternehmen gezahlt hat." },
+      { "p": "Die Beschränkungen in diesem Abschnitt gelten nicht bei Vorsatz und grober Fahrlässigkeit (Art. 115 des türkischen Obligationengesetzes). Weitere Fälle, in denen zwingendes Recht eine Haftungsbeschränkung untersagt, bleiben unberührt." },
+      { "p": "Der Kunde ersetzt dem Unternehmen den Schaden, der ihm durch Ansprüche Dritter oder gegen das Unternehmen verhängte Bußgelder entsteht, die auf die Inhalte, die vom Kunden verkauften Produkte, seine Preise, sein Verhältnis zu seinen Gästen oder seine Verletzung dieses Vertrags zurückgehen." }
+    ]},
+    { "id": "intellectual-property", "heading": "17. Geistiges Eigentum", "blocks": [
+      { "p": "Alle Rechte an der Software, dem Design und den Vorlagen des Dienstes sowie an der Marke Art of Menu stehen dem Unternehmen zu. Dem Kunden wird für die Dauer des Vertrags ein nicht ausschließliches und nicht übertragbares Recht zur Nutzung des Dienstes eingeräumt. Vorschläge des Kunden zum Dienst kann das Unternehmen verwenden, ohne dass dadurch eine Verpflichtung gegenüber dem Kunden entsteht." }
+    ]},
+    { "id": "changes", "heading": "18. Vertragsänderungen", "blocks": [
+      { "p": "Das Unternehmen kann diesen Vertrag und seine Anlagen ändern. Änderungen werden mindestens 30 Tage vor ihrem Inkrafttreten per E-Mail und über das Panel mitgeteilt. Aufgrund einer gesetzlichen Verpflichtung oder aus Sicherheitsgründen kann eine kürzere Frist gelten." },
+      { "p": "Änderungen, die die Rechte und Pflichten des Kunden wesentlich berühren, gelten, sobald der Kunde den neuen Text im Panel annimmt. Sonstige Änderungen gelten ab ihrem Inkrafttreten. Ein Kunde, der eine Änderung nicht annimmt, kann sein Abonnement vor dem Inkrafttreten kündigen oder sein Konto schließen." }
+    ]},
+    { "id": "notices", "heading": "19. Mitteilungen", "blocks": [
+      { "p": "Mitteilungen an den Kunden richtet das Unternehmen an die hinterlegte E-Mail-Adresse des Kontoinhabers oder über das Panel. Eine Mitteilung per E-Mail gilt am Tag ihrer Versendung als erfolgt. Der Kunde hält seine E-Mail-Adresse aktuell." },
+      { "p": "Mitteilungen an das Unternehmen richtet der Kunde an [hello@goktigin.com](mailto:hello@goktigin.com) oder an die in Abschnitt 1 genannte Anschrift des Unternehmens." }
+    ]},
+    { "id": "evidence", "heading": "20. Beweismittel", "blocks": [
+      { "p": "Die Parteien erkennen an, dass in Streitigkeiten aus diesem Vertrag die elektronischen Aufzeichnungen, Server- und Systemprotokolle sowie die Aufzeichnungen über Vertragsannahmen des Unternehmens gemäß Art. 193 der türkischen Zivilprozessordnung Nr. 6100 als Beweismittel verwendet werden können. Diese Bestimmung lässt das Recht des Kunden, Gegenbeweise vorzulegen, unberührt." }
+    ]},
+    { "id": "governing-law", "heading": "21. Anwendbares Recht und Gerichtsstand", "blocks": [
+      { "p": "Dieser Vertrag unterliegt dem Recht der Republik Türkei. Für Streitigkeiten aus dem Vertrag sind die Gerichte und Vollstreckungsämter in Antalya zuständig. Zwingende Vorschriften des Landes des Kunden hierzu bleiben unberührt." }
+    ]},
+    { "id": "final", "heading": "22. Schlussbestimmungen", "blocks": [
+      { "ul": [
+        "Der Kunde darf seine Rechte und Pflichten aus diesem Vertrag ohne schriftliche Zustimmung des Unternehmens nicht auf Dritte übertragen. Im Falle einer Verschmelzung, Spaltung oder Betriebsübertragung kann das Unternehmen den Vertrag durch Mitteilung an den Kunden auf seinen Rechtsnachfolger übertragen.",
+        "Die Unwirksamkeit einer Bestimmung des Vertrags berührt die Wirksamkeit der übrigen Bestimmungen nicht.",
+        "Der Vertrag und seine Anlagen bilden die gesamte Vereinbarung zwischen den Parteien.",
+        "Maßgeblich ist der türkische Text des Vertrags. Fassungen in anderen Sprachen dienen der Information; bei Widersprüchen gilt der türkische Text.",
+        "Der Vertrag tritt mit der elektronischen Annahme durch den Kunden bei der Registrierung in Kraft."
+      ]}
+    ]},
+    { "id": "annexes", "heading": "23. Anlagen", "blocks": [
+      { "p": "Die folgenden Dokumente sind verbindliche Anlagen dieses Vertrags und gelten mit dem Vertrag als angenommen:" },
+      { "ol": [
+        "Anlage 1: [Auftragsverarbeitungsvertrag](doc:dpa)",
+        "Anlage 2: [Richtlinie zu Unternehmenswerten, akzeptabler Nutzung und Markenreputation](doc:corporate-policy)"
+      ]}
+    ]}
+  ],
+  "annexes": ["dpa", "corporate-policy"]
+}

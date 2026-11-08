@@ -1,16 +1,16 @@
 # ArtOfMenu
 
-> ArtOfMenu is a QR menu, table ordering and smart daily pricing service for cafés, restaurants, bars and bakeries, made by Göktigin. It is launching soon; businesses can join the launch list on the site.
+> ArtOfMenu is a QR menu, table ordering and smart daily pricing service for cafés, restaurants, bars and bakeries, made by Göktigin. It is available now; businesses sign up in the panel at https://app.artofmenu.com.
 
-Status: not launched yet (as of 2026-11-03). No customers, reviews or ratings yet. Last updated: 2026-11-03.
+Status: available; sign-up at https://app.artofmenu.com. Last updated: 2026-11-08.
 
 ## Facts
 
 - Guests scan the QR code on the table and the menu opens automatically in their phone's language, with photos and allergen information. The QR code never changes; the owner updates the menu.
-- An existing PDF menu can be uploaded and go live the same day (every plan). The menu can run on the business's own domain.
+- An existing PDF menu can be put online the same day: the branch's QR code then opens the PDF (one per language; ordering and smart features pause while it is on). The live menu is built in the panel. The menu can run on the business's own domain (every plan).
 - Currency, tax display and price rounding are set up for 216 countries.
-- Order plan: guests order from the table and waiters see each order instantly on their phones (live waiter screen and notifications); simple stock and order reports.
-- Smart plan: the menu reorders itself with the weather (hot drinks up when it is cold), suggests the item most often ordered with the one a guest picks, and sets the next day's prices every evening within the minimum and maximum the owner chooses, from the weather forecast, holidays and expected demand. Prices change at most once a day and can be approved one by one, applied automatically, or switched off. Guests can also call a waiter, ask for water or the bill from the table. Recipe-based stock marks items sold out when an ingredient runs out; counter screens show the menu on monitors.
+- Order plan: guests order from the table and waiters see each order instantly on their phones (waiter portal, sign-in by personal link); guests can call the waiter or ask for water or the bill; unlimited tables at no extra cost.
+- Smart plan: the menu reorders itself with the weather (hot drinks up when it is cold), suggests the item most often ordered with the one a guest picks, and sets the next day's prices every evening within the minimum and maximum the owner chooses, from the weather forecast, holidays and expected demand. Prices change at most once a day and can be approved one by one, applied automatically, or switched off. Recipe-based stock marks items sold out when an ingredient runs out, and sales reports show what sold.
 - Privacy: no cookies, persistent IDs or stored IPs for guests; prices are never shared between businesses. Cancel in one step.
 - What it is not: not a POS or payment terminal (it takes no payments), no free plan or trial, no ready-made themes or design service.
 
@@ -47,11 +47,11 @@ Pricing pages: [tr](https://artofmenu.com/tr/qr-menu-fiyatlari/) · [en](https:/
 - [Kafe Ciro Artırma Yolları: Pratik Rehber](https://artofmenu.com/tr/kafe-ciro-artirma/): Kafe cirosu nasıl artırılır? Sabah yoğunluğunda hız, ekstra shot ve süt seçenekleri, tatlı eşleştirme, havaya göre menü, sadakat ve israf.
 - [Menü Mühendisliği Nedir? Adım Adım Rehber](https://artofmenu.com/tr/menu-muhendisligi/): Menü mühendisliği nedir, matris nasıl kurulur? Katkı payı ve popülerlikle yıldız, at, bilmece ve köpek ürünleri bulun, menünüzü buna göre düzenleyin.
 - [Restoran Stok Takibi Nasıl Yapılır?](https://artofmenu.com/tr/restoran-stok-takibi/): Restoran stok takibi nasıl yapılır? Sayım düzeni, reçete maliyeti, minimum stok seviyesi, FIFO ve israf kaydı. Mutfağınızda bu hafta başlayın.
-- [QR Menü Nasıl Yapılır? Hızlı QR Menü Rehberi](https://artofmenu.com/tr/qr-menu-nasil-yapilir/): Hızlı QR menü: PDF menünüzü yükleyin, aynı gün yayına alın. QR kodu bastırma, masa standı seçimi ve fiyat değiştirme adım adım anlatılıyor.
+- [QR Menü Nasıl Yapılır? Hızlı QR Menü Rehberi](https://artofmenu.com/tr/qr-menu-nasil-yapilir/): Hızlı QR menü: menünüzü panelde kurun ya da PDF'inizi aynı gün yayına alın. QR kodu bastırma, masa standı seçimi ve fiyat değiştirme adım adım anlatılıyor.
 
 ## English
 
-- [QR Code Menu for Cafés, Restaurants & Bars](https://artofmenu.com/en/qr-code-menu/): A QR code menu that opens in each guest's language, with photos and allergens. Start from your PDF menu. Plans from $12 per branch a month.
+- [QR Code Menu for Cafés, Restaurants & Bars](https://artofmenu.com/en/qr-code-menu/): A QR code menu that opens in each guest's language, with photos and allergens. Or put your PDF online the same day. Plans from $12 per branch a month.
 - [QR Menu Pricing: Plans from $12 a Month](https://artofmenu.com/en/qr-menu-pricing/): What a QR menu costs and why. Menu $12, Order $35, Smart $69 per branch per month, and yearly billing costs 10 months. Compared with reprinting.
 - [QR Menu for Restaurants with Table Ordering](https://artofmenu.com/en/qr-menu-for-restaurants/): A QR menu for restaurants with courses, photos, allergens and automatic language. Add table ordering for the lunch rush. From $12 per branch.
 - [QR Menu for Cafés and Coffee Shops](https://artofmenu.com/en/qr-menu-for-cafes/): A café QR menu for the morning rush, seasonal drinks and cold, rainy days, with photos, allergens and automatic language. Plans from $12.
@@ -65,7 +65,7 @@ Pricing pages: [tr](https://artofmenu.com/tr/qr-menu-fiyatlari/) · [en](https:/
 - [How to Increase Cafe Sales and Profit | ArtOfMenu Guide](https://artofmenu.com/en/how-to-increase-cafe-sales/): How to increase café revenue: a faster morning rush, add-ons, food pairing, weather-ready menus, loyalty and less waste. Practical steps for owners.
 - [Menu Engineering: Matrix, Formula and Steps](https://artofmenu.com/en/menu-engineering/): Menu engineering explained: contribution margin, popularity, the stars, plowhorses, puzzles and dogs matrix, plus a worked step-by-step method.
 - [Restaurant Inventory Management: Step by Step](https://artofmenu.com/en/restaurant-inventory-management/): A practical guide to restaurant inventory: counting, recipe costing, par levels, FIFO and waste tracking, plus recipe stock that marks items sold out.
-- [How to Make a QR Menu Fast, from Your PDF](https://artofmenu.com/en/how-to-make-a-qr-menu/): Make a QR code menu step by step: upload your PDF, check prices and allergens, print the code, place table stands and update prices any time.
+- [How to Make a QR Menu Fast, Step by Step](https://artofmenu.com/en/how-to-make-a-qr-menu/): Make a QR code menu step by step: add your items or put your PDF online, check prices and allergens, print the code, place table stands and update prices any time.
 
 ## Deutsch
 
@@ -83,7 +83,7 @@ Pricing pages: [tr](https://artofmenu.com/tr/qr-menu-fiyatlari/) · [en](https:/
 - [Café Umsatz steigern: ein Praxisleitfaden](https://artofmenu.com/de/cafe-umsatz-steigern/): Schneller durch den Morgen, mehr Extras pro Kaffee, Kuchen zur richtigen Zeit, Wetter und Saison nutzen, weniger wegwerfen: Praxistipps fürs Café.
 - [Menu Engineering in der Gastronomie erklärt](https://artofmenu.com/de/menu-engineering/): Menu Engineering Schritt für Schritt: Deckungsbeitrag, Beliebtheit, die Matrix mit Stars, Plowhorses, Puzzles und Dogs und was Sie bei jedem Feld tun.
 - [Warenwirtschaft Gastronomie: ein Leitfaden](https://artofmenu.com/de/warenwirtschaft-gastronomie/): Inventur, Wareneinsatz, Rezepturen, Meldebestand und FIFO: So behalten Sie den Bestand in Restaurant, Café oder Bar im Griff, mit oder ohne Software.
-- [Digitale Speisekarte erstellen in 6 Schritten](https://artofmenu.com/de/digitale-speisekarte-erstellen/): Von der PDF zur QR-Code-Speisekarte am selben Tag: hochladen, ergänzen, QR-Code drucken, Tischaufsteller aufstellen und Preise jederzeit ändern.
+- [Digitale Speisekarte erstellen in 6 Schritten](https://artofmenu.com/de/digitale-speisekarte-erstellen/): Zur QR-Code-Speisekarte am selben Tag: Gerichte anlegen oder PDF online stellen, ergänzen, QR-Code drucken, Tischaufsteller aufstellen und Preise jederzeit ändern.
 
 ## Español
 
@@ -101,14 +101,14 @@ Pricing pages: [tr](https://artofmenu.com/tr/qr-menu-fiyatlari/) · [en](https:/
 - [Cómo aumentar las ventas de una cafetería](https://artofmenu.com/es/aumentar-ventas-cafeteria/): Guía para cafeterías: rapidez en la hora punta, extras, el dulce con el café, carta según el tiempo, clientes que vuelven y menos merma de bollería.
 - [Ingeniería de menú: guía paso a paso](https://artofmenu.com/es/ingenieria-de-menu/): Qué es la ingeniería de menú, cómo calcular margen y popularidad, la matriz de estrellas, vacas, puzzles y perros, y un ejemplo con números.
 - [Control de inventario en un restaurante](https://artofmenu.com/es/control-inventario-restaurante/): Cómo llevar el control de inventario de un restaurante: escandallos, recuentos, stock mínimo, FIFO, merma y qué columnas poner en tu hoja de Excel.
-- [Cómo crear un menú QR paso a paso](https://artofmenu.com/es/crear-menu-qr/): Cómo hacer un menú QR para tu restaurante o bar: de tu carta en PDF a la mesa el mismo día, cómo imprimir el código y cómo cambiar precios después.
+- [Cómo crear un menú QR paso a paso](https://artofmenu.com/es/crear-menu-qr/): Cómo hacer un menú QR para tu restaurante o bar: monta la carta en el panel o pon tu PDF online el mismo día, imprime el código y cambia precios después.
 
 ## Italiano
 
 - [Menu QR code per bar e ristoranti](https://artofmenu.com/it/menu-qr-code/): Il menu QR code di ArtOfMenu si apre nella lingua dell'ospite, con foto e allergeni. Cambi piatti e prezzi, il QR sul tavolo resta lo stesso.
 - [Menu QR code prezzi: quanto costa](https://artofmenu.com/it/menu-qr-code-prezzi/): Quanto costa un menu QR code? Con ArtOfMenu da 9 € al mese per locale. Cosa include ogni piano, il risparmio annuale e il confronto con la stampa.
 - [Menu QR code per ristorante e trattoria](https://artofmenu.com/it/menu-qr-code-ristorante/): Menu QR code per ristoranti: portate in ordine, allergeni per ogni piatto, lingua dell'ospite e ordinazioni al tavolo per la pausa pranzo.
-- [Menu digitale per bar e caffetteria](https://artofmenu.com/it/menu-digitale-bar-caffetteria/): Menu digitale per bar, caffetterie e pasticcerie: colazione più veloce, bevande calde in cima quando fa freddo, listino sugli schermi del banco.
+- [Menu digitale per bar e caffetteria](https://artofmenu.com/it/menu-digitale-bar-caffetteria/): Menu digitale per bar, caffetterie e pasticcerie: colazione più veloce, bevande calde in cima quando fa freddo, abbinamenti come cappuccino e cornetto.
 - [Menu QR per cocktail bar, pub e wine bar](https://artofmenu.com/it/menu-qr-cocktail-bar-pub/): Menu QR per cocktail bar, pub e wine bar: carta drink sempre aggiornata, il giro successivo ordinato dal tavolo, drink esauriti in automatico.
 - [Menu QR code design: elegante e leggibile](https://artofmenu.com/it/menu-qr-code-design/): Come rendere bello un menu QR code: foto, testi e nome del locale su un'impaginazione pulita. Cosa offre ArtOfMenu e cosa no, detto chiaro.
 - [Menu digitale intelligente: cosa fa davvero](https://artofmenu.com/it/menu-digitale-intelligente/): Menu che segue il meteo, suggerimenti «si abbina bene con» e prezzi del giorno entro i tuoi limiti. Cosa fa in concreto il menu smart di ArtOfMenu.
@@ -119,7 +119,7 @@ Pricing pages: [tr](https://artofmenu.com/tr/qr-menu-fiyatlari/) · [en](https:/
 - [Come aumentare gli incassi di un bar](https://artofmenu.com/it/aumentare-incassi-bar/): Come aumentare gli incassi di un bar o di una caffetteria: colazione più veloce, scontrino medio, fasce morte, meteo, prezzo del caffè e invenduto.
 - [Menu engineering: guida pratica con esempi](https://artofmenu.com/it/menu-engineering/): Menu engineering passo per passo: margine di contribuzione, popolarità, matrice con stelle, cavalli da tiro, enigmi e cani, e cosa fare con ognuno.
 - [Gestione magazzino ristorante: guida pratica](https://artofmenu.com/it/gestione-magazzino-ristorante/): Gestione del magazzino di un ristorante: inventario, schede tecniche, scorte minime, FIFO, sprechi e food cost. Una guida passo per passo.
-- [Come creare un menu QR code per il locale](https://artofmenu.com/it/creare-menu-qr-code/): Come creare un menu QR code passo per passo: dal PDF che hai già al QR sul tavolo, con misure, supporti e aggiornamento dei prezzi.
+- [Come creare un menu QR code per il locale](https://artofmenu.com/it/creare-menu-qr-code/): Come creare un menu QR code passo per passo: dal menu che hai già al QR sul tavolo, con misure, supporti e aggiornamento dei prezzi.
 
 ## Français
 
@@ -137,4 +137,4 @@ Pricing pages: [tr](https://artofmenu.com/tr/qr-menu-fiyatlari/) · [en](https:/
 - [Augmenter le chiffre d'affaires d'un café](https://artofmenu.com/fr/augmenter-chiffre-affaires-cafe/): Rush du matin, ventes additionnelles, duos boisson-pâtisserie, météo, fidélité et invendus : un guide pratique pour faire progresser votre café.
 - [Ingénierie de menu : la méthode pas à pas](https://artofmenu.com/fr/ingenierie-de-menu/): L'ingénierie de menu expliquée : marge, popularité, matrice étoiles, chevaux de labour, énigmes et poids morts, méthode Omnes et mise en page.
 - [Gestion des stocks en restaurant : la méthode](https://artofmenu.com/fr/gestion-des-stocks-restaurant/): Inventaire, fiches techniques, stock minimum et cible, premier entré premier sorti, pertes : un guide concret pour tenir les stocks de votre restaurant.
-- [Créer un menu QR code pour son restaurant](https://artofmenu.com/fr/creer-menu-qr-code/): Comment créer un menu QR code : importer votre carte PDF, ajouter photos et allergènes, imprimer le QR, choisir les supports et mettre à jour les prix.
+- [Créer un menu QR code pour son restaurant](https://artofmenu.com/fr/creer-menu-qr-code/): Comment créer un menu QR code : saisir votre carte ou mettre votre PDF en ligne, ajouter photos et allergènes, imprimer le QR, choisir les supports et mettre à jour les prix.

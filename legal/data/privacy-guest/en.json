@@ -1,0 +1,89 @@
+{
+  "key": "privacy-guest",
+  "version": "1.0",
+  "locale": "en",
+  "title": "Privacy Information for Guests",
+  "effective": "2026-11-08",
+  "summary": "This notice explains what information is processed when you use a restaurant's QR menu. You do not need to create an account or give your name, e-mail address or telephone number to use the menu. The menu software is Art of Menu; the menu and orders are managed by the restaurant.",
+  "sections": [
+    {
+      "id": "restaurant",
+      "heading": "1. Data Controller: the Restaurant",
+      "blocks": [
+        { "p": "The data controller for the information processed while you use the menu is the restaurant whose details are shown at the top of this page. The restaurant manages its own menu, orders and table layout, and itself prepares and sells your orders." },
+        { "p": "If the restaurant's contact details are not shown or are incomplete, you can ask the restaurant's staff for them." }
+      ]
+    },
+    {
+      "id": "provider",
+      "heading": "2. The Role of Art of Menu",
+      "blocks": [
+        { "p": "Art of Menu is a digital menu and order management software provided to restaurants by Göktigin Bilişim Teknoloji Ltd. Şti. (the Company). The Company processes information relating to menu use on behalf of the restaurant and on its instructions, as a processor. The Company does not use this information for its own purposes and does not sell it." },
+        { "p": "The Company is a separate data controller only for the technical records it keeps to ensure the security of the menu service. The Company's details are on the [Company and Legal Information](doc:company) page." }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "3. Information Processed",
+      "blocks": [
+        { "ul": [
+          "**Table session:** the table you selected, the basket shared at the table and the 6-digit session code used to join the table. Devices that join the table are recognised by a random key, of which only a hash is stored.",
+          "**Orders and calls:** the orders you send and calls for a waiter, water or the bill. These are linked only to the table, not to a person.",
+          "**Menu usage statistics:** a randomly generated identifier for each page view, the device type (phone, tablet, computer) and browser family derived from browser information, the menu language, the country code determined from network information, the products opened and the time spent on the page. These statistics are collected without cookies and are not used to identify you.",
+          "**IP address:** processed only briefly, for security and to limit excessive requests, and not stored in the database."
+        ] },
+        { "p": "No name, e-mail address, telephone number or payment information is requested. No payments are taken through the menu; when you ask for the bill, only a notification is sent to the waiter." }
+      ]
+    },
+    {
+      "id": "device",
+      "heading": "4. Information Stored on Your Device",
+      "blocks": [
+        { "p": "The menu does not use cookies. Only the following information is kept in your browser:" },
+        { "ul": [
+          "A key in session storage (sessionStorage) to remember that you have joined the table. It is deleted when the browser tab is closed.",
+          "Small markers in local storage (localStorage) to remember that you have seen the tips in the menu."
+        ] },
+        { "p": "No advertising, tracking or analytics cookies are used. Details are set out in the [Cookie and Similar Technologies Policy](doc:cookies)." }
+      ]
+    },
+    {
+      "id": "purposes",
+      "heading": "5. Purposes and Legal Grounds",
+      "blocks": [
+        { "ul": [
+          "Displaying the menu, opening the table session and passing orders and calls to the restaurant: establishing and performing the relationship between you and the restaurant (Article 5(2)(c) KVKK; Article 6(1)(b) GDPR).",
+          "Aggregated usage statistics to help the restaurant improve its menu: the restaurant's legitimate interest (Article 5(2)(f) KVKK; Article 6(1)(f) GDPR).",
+          "Security of the service and prevention of abuse: the legitimate interest of the restaurant and of the Company (Article 5(2)(f) KVKK; Article 6(1)(f) GDPR)."
+        ] },
+        { "p": "This processing is not based on explicit consent. You do not need to give consent to use the menu or place an order." }
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "6. Retention Period",
+      "blocks": [
+        { "ul": [
+          "Information relating to the table session (shared basket, session code, joining keys) is deleted when the session ends.",
+          "Orders and calls are kept in the restaurant's account for the restaurant's own records.",
+          "Raw usage statistics are deleted after 120 days. Aggregated results that do not identify individuals are retained."
+        ] }
+      ]
+    },
+    {
+      "id": "recipients",
+      "heading": "7. Sharing of Information",
+      "blocks": [
+        { "p": "The information is passed to the restaurant and its waiters. The Company processes this information on servers it manages and does not share it with anyone for advertising or marketing purposes. Lawful requests from competent authorities remain unaffected." }
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "8. Your Rights",
+      "blocks": [
+        { "p": "To exercise your rights under Article 11 of the Turkish Personal Data Protection Law No. 6698 (KVKK) and, where applicable, Articles 15 to 22 of the GDPR (information, access, rectification, erasure, objection and others), you can contact the restaurant, which is the data controller. Requests received by the Company are forwarded to the restaurant concerned without delay." },
+        { "p": "You can lodge a complaint with the Personal Data Protection Board in Türkiye or, in the European Union, the European Economic Area or the United Kingdom, with the data protection supervisory authority of your country." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "key": "dpa",
+  "version": "1.0",
+  "locale": "es",
+  "title": "Contrato de Encargo del Tratamiento (Anexo 1)",
+  "effective": "2026-11-08",
+  "summary": "Este contrato es un anexo vinculante del Contrato de Servicio de Art of Menu para Establecimientos. Regula las normas relativas al tratamiento de los datos de comensales y empleados respecto de los cuales el establecimiento es responsable del tratamiento y Göktigin Bilişim Teknoloji Ltd. Şti. es encargado del tratamiento.",
+  "sections": [
+    { "id": "subject", "heading": "1. Objeto y funciones", "blocks": [
+      { "p": "Este Contrato de Encargo del Tratamiento (el «Anexo») es un anexo vinculante del [Contrato de Servicio de Art of Menu para Establecimientos](doc:business-terms) (el «Contrato de Servicio»). Los términos no definidos en el Anexo tienen el significado que se les atribuye en el Contrato de Servicio." },
+      { "p": "El Cliente es el responsable del tratamiento (el «Responsable del Tratamiento») respecto de los datos personales enumerados en la sección 3. Göktigin Bilişim Teknoloji Ltd. Şti. (la «Sociedad») es el encargado del tratamiento que trata estos datos por cuenta del Responsable del Tratamiento y siguiendo sus instrucciones. Este Anexo se establece conforme al artículo 12 de la Ley n.º 6698 de Protección de Datos Personales de Turquía (la «KVKK») y, cuando sea aplicable, al artículo 28 del Reglamento General de Protección de Datos de la Unión Europea (el «RGPD»)." },
+      { "p": "No están comprendidos en este Anexo los tratamientos que la Sociedad realiza como responsable del tratamiento en relación con las cuentas de los Usuarios, la facturación y la seguridad de su propio servicio; estos se describen en el [Aviso informativo KVKK y Aviso de privacidad para usuarios de establecimientos](doc:privacy-business)." }
+    ]},
+    { "id": "duration-purpose", "heading": "2. Duración, naturaleza y finalidad", "blocks": [
+      { "p": "El Anexo está vigente durante la vigencia del Contrato de Servicio y hasta que finalicen las operaciones de supresión de la sección 9." },
+      { "p": "La Sociedad trata los datos personales únicamente para prestar el Servicio: publicar el menú para comensales, gestionar las sesiones de mesa y los pedidos, transmitir los avisos al camarero, hacer funcionar la pantalla de camareros, elaborar los informes de ventas y de uso del menú y garantizar la seguridad del Servicio. El tratamiento consiste en operaciones de registro, conservación, organización, visualización, transmisión, elaboración de informes y supresión." }
+    ]},
+    { "id": "data-categories", "heading": "3. Interesados y categorías de datos", "blocks": [
+      { "p": "**Comensales.** No se recaban de los comensales ni el nombre, ni la dirección de correo electrónico, ni el número de teléfono. Los datos tratados son los siguientes:" },
+      { "ul": [
+        "datos de la sesión de mesa: mesa, carrito compartido, claves utilizadas para la pertenencia a la sesión, que se almacenan en forma de valor resumen (hash), y código de sesión de 6 dígitos;",
+        "registros de pedidos y de avisos para llamar al camarero, pedir agua o pedir la cuenta, asociados únicamente a la mesa;",
+        "datos de uso del menú recogidos sin utilizar cookies: identificador aleatorio de visualización de página, clase de dispositivo y tipo de navegador deducidos de la información del navegador, idioma del menú, código de país obtenido de la cabecera de red, productos abiertos y tiempo de permanencia en la página;",
+        "dirección IP, utilizada temporalmente por motivos de seguridad y para limitar el uso excesivo; la dirección IP no se registra en la base de datos."
+      ]},
+      { "p": "**Camareros.** El nombre, los apellidos, el sexo y el local introducidos por el Responsable del Tratamiento; los pedidos entregados y los registros de ventas del camarero; los datos de sesión de la pantalla de camareros." },
+      { "p": "**Otros empleados del Responsable del Tratamiento.** Los nombres de los empleados que el Responsable del Tratamiento introduce en el Servicio y los registros de operaciones asociados a ellos." },
+      { "p": "El Anexo no tiene por objeto el tratamiento de categorías especiales de datos personales. El Responsable del Tratamiento no introduce este tipo de datos en el Servicio." }
+    ]},
+    { "id": "instructions", "heading": "4. Instrucciones y confidencialidad", "blocks": [
+      { "p": "La Sociedad trata los datos personales únicamente siguiendo las instrucciones documentadas del Responsable del Tratamiento. El Contrato de Servicio, este Anexo y los ajustes y operaciones del Responsable del Tratamiento en el panel constituyen dichas instrucciones. Si la Sociedad considera que una instrucción infringe la normativa, informará al Responsable del Tratamiento. Quedan a salvo los casos en que la normativa imponga a la Sociedad una obligación de tratamiento." },
+      { "p": "La Sociedad garantiza que sus empleados que acceden a los datos personales estén sujetos a una obligación de confidencialidad y limita el acceso a quienes lo necesiten para el desempeño de sus funciones." },
+      { "p": "El Responsable del Tratamiento responde de la licitud del tratamiento de los datos, de la obligación de información frente a sus comensales y empleados y de la licitud de las instrucciones que imparta." }
+    ]},
+    { "id": "security", "heading": "5. Medidas de seguridad", "blocks": [
+      { "p": "La Sociedad aplica las siguientes medidas para la seguridad de los datos:" },
+      { "ul": [
+        "los datos se alojan en la infraestructura de servidores gestionada por la Sociedad;",
+        "la transmisión de datos se cifra mediante TLS;",
+        "los campos sensibles se almacenan cifrados en la base de datos; las claves de sesión y de acceso se almacenan en forma de valor resumen (hash);",
+        "en el panel se aplica un control de acceso basado en funciones y permisos;",
+        "se utiliza autenticación multifactor para los empleados que acceden a la pantalla de administración de la plataforma de la Sociedad;",
+        "las operaciones de administración se conservan en un registro de auditoría inalterable;",
+        "se aplica una limitación de solicitudes frente a las solicitudes excesivas y los intentos de abuso;",
+        "los empleados de la Sociedad solo acceden a una cuenta con fines de soporte mediante un acceso temporal y visible para el Responsable del Tratamiento en el panel."
+      ]},
+      { "p": "La Sociedad podrá actualizar estas medidas en función de la evolución técnica; las actualizaciones no reducirán el nivel de protección." }
+    ]},
+    { "id": "sub-processors", "heading": "6. Subencargados y servicios de terceros", "blocks": [
+      { "p": "Las funciones esenciales del Servicio funcionan en los propios servidores de la Sociedad. La traducción automática de los textos del menú y la eliminación del fondo de las fotografías también se realizan en los servidores de la Sociedad. Para tratar los datos comprendidos en este Anexo, la Sociedad se sirve de los siguientes servicios:" },
+      { "ul": [
+        "**Servicio de envío de correo electrónico:** cuando se utiliza, solo recibe la dirección de correo electrónico del destinatario y el contenido del correo. Este servicio puede estar ubicado en el extranjero.",
+        "**Proveedor de servicios de pago autorizado:** solo se utiliza para los pagos de suscripción del Cliente; no recibe datos de comensales ni de camareros."
+      ]},
+      { "p": "En el panel puede utilizarse Google Translate a través del navegador para traducir los textos del menú. A este servicio se transmiten el texto del menú y la dirección IP del usuario. En circunstancias normales, los textos del menú no contienen datos personales; el Responsable del Tratamiento no incluye datos personales en los textos del menú." },
+      { "p": "Si el Responsable del Tratamiento conecta su cuenta a ChatGPT, el catálogo de productos, la información del menú y los nombres de los empleados se transmiten a OpenAI siguiendo las instrucciones del Responsable del Tratamiento. La decisión de configurar y eliminar esta conexión, así como la relación con OpenAI, corresponden al Responsable del Tratamiento." },
+      { "p": "Antes de recurrir a un nuevo subencargado, la Sociedad informará al Responsable del Tratamiento por correo electrónico o a través del panel. Si el Responsable del Tratamiento se opone por un motivo justificado y las partes no encuentran una solución, el Responsable del Tratamiento podrá resolver el Contrato de Servicio. La Sociedad impone a sus subencargados obligaciones de protección de datos del mismo nivel que las de este Anexo. La lista actualizada de subencargados se facilita previa solicitud a [hello@goktigin.com](mailto:hello@goktigin.com)." }
+    ]},
+    { "id": "transfers", "heading": "7. Transferencias al extranjero", "blocks": [
+      { "p": "Los datos personales solo se transfieren al extranjero sobre las bases jurídicas previstas en la normativa. A las transferencias desde Turquía se aplica el art. 9 de la KVKK; cuando la transferencia se base en cláusulas contractuales tipo, se notificará a la Autoridad de Protección de Datos Personales dentro del plazo previsto en la Ley." },
+      { "p": "Cuando el Responsable del Tratamiento esté sujeto al RGPD, las partes completarán por separado los instrumentos necesarios para la transferencia a la Sociedad en Turquía, en particular las cláusulas contractuales tipo de la Comisión Europea. No se presumirá que se realiza una transferencia de este tipo mientras dichos instrumentos no se hayan completado." }
+    ]},
+    { "id": "assistance", "heading": "8. Solicitudes de los interesados y notificación de violaciones", "blocks": [
+      { "p": "Si la Sociedad recibe directamente una solicitud de un interesado, la remitirá sin demora al Responsable del Tratamiento y no la responderá por sí misma. La Sociedad presta, en una medida razonable, la información y la asistencia técnica que el Responsable del Tratamiento necesite para responder a las solicitudes." },
+      { "p": "Cuando la Sociedad tenga conocimiento de una violación de la seguridad que afecte a los datos comprendidos en este Anexo, informará al Responsable del Tratamiento sin dilación y de forma que este pueda cumplir el plazo de notificación de 72 horas establecido por el Consejo de Protección de Datos Personales. La notificación incluirá, en la medida en que se conozcan en ese momento, la naturaleza de la violación, las categorías de datos afectadas, sus posibles consecuencias y las medidas adoptadas. La obligación de notificar al Consejo y a los interesados corresponde al Responsable del Tratamiento." }
+    ]},
+    { "id": "deletion", "heading": "9. Supresión y conservación", "blocks": [
+      { "p": "Los datos brutos de uso del menú se suprimen a los 120 días; solo se conservan las estadísticas agregadas que no pueden asociarse a una persona." },
+      { "p": "Cuando finaliza el Contrato de Servicio y se cierra la cuenta, al término del plazo de 30 días durante el cual puede reabrirse la cuenta, los datos comprendidos en este Anexo se suprimen o se anonimizan. El Responsable del Tratamiento guarda por sí mismo los datos que necesite antes de que venza dicho plazo. Los registros cuya conservación sea obligatoria conforme a la normativa se conservan durante el plazo correspondiente." }
+    ]},
+    { "id": "audits", "heading": "10. Auditoría", "blocks": [
+      { "p": "La Sociedad facilita, previa solicitud escrita del Responsable del Tratamiento, la información y la documentación necesarias para demostrar que cumple este Anexo. Si dicha información resulta insuficiente, el Responsable del Tratamiento podrá realizar una auditoría, o encargarla a un auditor independiente, como máximo una vez al año, siempre que la notifique con al menos 30 días de antelación, la realice en horario laboral, asuma sus costes y respete la obligación de confidencialidad. Este límite de frecuencia no se aplica en caso de violación de la seguridad o de requerimiento de una autoridad competente. La auditoría se realiza de forma que no perjudique los datos de otros clientes ni la seguridad de los sistemas de la Sociedad." }
+    ]},
+    { "id": "liability", "heading": "11. Responsabilidad", "blocks": [
+      { "p": "Cada parte responde del incumplimiento de sus propias obligaciones derivadas de este Anexo y de la normativa de protección de datos. A la responsabilidad de la Sociedad se aplican las limitaciones de la sección [Responsabilidad](doc:business-terms#liability) del Contrato de Servicio, sin perjuicio de los casos en que las normas imperativas no lo permitan." },
+      { "p": "En caso de contradicción entre este Anexo y el Contrato de Servicio en materia de protección de datos personales, prevalecerá este Anexo." }
+    ]}
+  ]
+}
