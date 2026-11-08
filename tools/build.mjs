@@ -164,7 +164,7 @@ function topicPage(l, key) {
       "@type": guide ? "Article" : "WebPage", "@id": `${SITE}${url}#page`, url: `${SITE}${url}`, name: pg.title,
       ...(guide ? { headline: pg.h1, author: { "@type": "Organization", name: TEAM[l], url: `${SITE}${home(l)}` }, publisher: { "@id": ORG["@id"] }, datePublished: TODAY, dateModified: TODAY } : {}),
       description: pg.description, inLanguage: l, isPartOf: { "@id": `${SITE}/#site` }, about: { "@id": `${SITE}/#app` },
-      breadcrumb: { "@id": `${SITE}${url}#crumbs` }, image: [`${SITE}/assets/web/og.jpg`, `${SITE}/assets/web/${heroFile}`],
+      breadcrumb: { "@id": `${SITE}${url}#crumbs` }, image: [`${SITE}/assets/web/og-share.jpg`, `${SITE}/assets/web/${heroFile}`],
     },
     { "@type": "BreadcrumbList", "@id": `${SITE}${url}#crumbs`, itemListElement: crumbs.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c.name, item: `${SITE}${c.url}` })) },
   ];
@@ -187,7 +187,11 @@ function topicPage(l, key) {
   <meta property="og:title" content="${esc(pg.title)}">
   <meta property="og:description" content="${esc(pg.description)}">
   <meta property="og:url" content="${SITE}${url}">
-  <meta property="og:image" content="${SITE}/assets/web/og.jpg">
+  <meta property="og:image" content="${SITE}/assets/web/og-share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675">
+  <meta property="og:image:alt" content="ArtOfMenu">
+  <meta name="twitter:image" content="${SITE}/assets/web/og-share.jpg">
   <meta property="og:locale" content="${LOCALE[l]}">
   ${otherLangs.filter((o) => o !== l).map((o) => `<meta property="og:locale:alternate" content="${LOCALE[o]}">`).join("\n  ")}
   <meta name="twitter:card" content="summary_large_image">
