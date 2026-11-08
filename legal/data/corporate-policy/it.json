@@ -1,99 +1,221 @@
 {
   "key": "corporate-policy",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "it",
   "title": "Politica sui Valori Aziendali, sull'Uso Accettabile e sulla Reputazione del Marchio",
   "effective": "2026-11-08",
   "summary": "La presente politica stabilisce le regole aziendali che devono essere rispettate dalle attività che utilizzano i servizi Art of Menu e dai partner commerciali di Art of Menu. Costituisce allegato vincolante del Contratto di Servizio Art of Menu per le Attività e del Contratto di Partnership Commerciale.",
   "sections": [
-    { "id": "scope", "heading": "1. Finalità, destinatari e carattere vincolante", "blocks": [
-      { "p": "La presente politica definisce i valori aziendali e le regole di condotta applicati da Göktigin Bilişim Teknoloji Ltd. Şti. (la «Società») in relazione ai servizi offerti con il nome Art of Menu." },
-      { "p": "La politica costituisce allegato vincolante del [Contratto di Servizio Art of Menu per le Attività](doc:business-terms) e del [Contratto di Partnership Commerciale](doc:partner-terms) ed è accettata unitamente a tali contratti. La politica si applica esclusivamente alle attività e ai partner commerciali. I clienti che utilizzano i menu delle attività non sono parti della presente politica." },
-      { "p": "La politica si applica alle seguenti persone (i «Soggetti Interessati»):" },
-      { "ul": [
-        "le attività che utilizzano i servizi Art of Menu;",
-        "i titolari, i soci, gli amministratori e i rappresentanti autorizzati delle attività;",
-        "i partner commerciali e i titolari, i soci, gli amministratori e i rappresentanti autorizzati dei partner commerciali persone giuridiche."
-      ]}
-    ]},
-    { "id": "universal-application", "heading": "2. Applicazione indipendente dal paese", "blocks": [
-      { "p": "La politica si applica in modo identico in tutti i paesi in cui Art of Menu presta i propri servizi. Ai fini dell'applicazione della politica non è necessario che il Soggetto Interessato sia turco, sia cittadino della Repubblica di Turchia, viva in Turchia, abbia costituito una società in Turchia o svolga un'attività commerciale in Turchia. La cittadinanza, la nazionalità, il paese di residenza o il paese in cui si opera non comportano alcuna esenzione dalla politica." },
-      { "p": "Il fatto che un comportamento sia lecito nel paese in cui ci si trova non esclude che sia contrario alla presente politica. Le sanzioni contrattuali applicate dalla Società rispettano tuttavia i limiti imperativi del diritto del paese interessato." }
-    ]},
-    { "id": "conduct-scope", "heading": "3. Comportamenti sulla piattaforma e al di fuori di essa", "blocks": [
-      { "p": "La politica non riguarda soltanto i contenuti pubblicati su Art of Menu. Rientrano nel suo ambito anche i comportamenti dei Soggetti Interessati nei seguenti contesti:" },
-      { "ul": [
-        "il locale fisico dell'attività;",
-        "account sui social media e siti internet;",
-        "pubblicità, promozioni ed eventi;",
-        "dichiarazioni pubbliche;",
-        "altre attività direttamente riconducibili all'attività o al partner commerciale."
-      ]},
-      { "p": "Non è necessario che la violazione avvenga tramite Art of Menu, che riguardi direttamente gli utenti di Art of Menu o che si verifichi in Turchia." }
-    ]},
-    { "id": "ataturk", "heading": "4. Mustafa Kemal Atatürk", "blocks": [
-      { "p": "È vietato qualsiasi comportamento che contenga scherno, insulto, umiliazione, disprezzo o mancanza di rispetto nei confronti della persona, della memoria, dell'eredità o della figura morale di Mustafa Kemal Atatürk, insignito del titolo di Gazi (condottiero vittorioso in guerra)." },
-      { "p": "Il divieto non si limita alle espressioni dirette. Sono vietate anche le allusioni nascoste, implicite, indirette, velate, simboliche, allusive o celate dietro altri significati. Nell'esame si tiene conto degli indizi concreti e ragionevoli che indicano che un comportamento ha tali significati. Per accertare la violazione non è necessario che la persona interessata confessi la propria intenzione né che utilizzi direttamente il nome." }
-    ]},
-    { "id": "national-values", "heading": "5. La Repubblica di Turchia e i valori nazionali", "blocks": [
-      { "p": "Sono vietati i comportamenti che contengono scherno, insulto, umiliazione, disprezzo o mancanza di rispetto nei confronti della Repubblica di Turchia e dei valori nazionali e sensibili della gloriosa nazione turca, o che vi alludono direttamente o indirettamente. Rientrano nell'ambito del divieto anche i comportamenti nascosti, velati, simbolici o allusivi, nonché quelli da cui tali significati possono essere desunti in base al contesto." }
-    ]},
-    { "id": "corporate-language", "heading": "6. Regola sul linguaggio aziendale", "blocks": [
-      { "p": "Nei testi in lingua turca, per indicare i cittadini della Repubblica di Turchia si utilizza la parola turca «Türk» con l'iniziale maiuscola. È vietato utilizzare i termini turchi «Türkiyeli», «Turki» o espressioni alternative analoghe per indicare i cittadini della Repubblica di Turchia." },
-      { "p": "Sono vietati anche le espressioni e i comportamenti utilizzati allo scopo di umiliare, sminuire o schernire l'identità turca, o di alludervi." },
-      { "p": "Nei testi in altre lingue, la cittadinanza turca è espressa con il termine corretto e naturale di quella lingua (in italiano, ad esempio, «turco» o «cittadino turco»). Una parola standard di una lingua straniera non è considerata contraria a questa regola per il solo fatto di somigliare alle espressioni vietate in turco." }
-    ]},
-    { "id": "terrorism", "heading": "7. Organizzazioni terroristiche", "blocks": [
-      { "p": "È vietato fare propaganda, sostenere, elogiare o esaltare organizzazioni, gruppi e strutture che sono o sono stati riconosciuti come organizzazioni terroristiche dalla Repubblica di Turchia." },
-      { "p": "Ai fini dell'applicazione del divieto non è necessario che l'attività sia svolta apertamente. Sono vietate anche le espressioni di propaganda e di sostegno nascoste, velate, indirette, simboliche, allusive o celate dietro altri significati. È inoltre vietato l'uso di simboli, segni, slogan o altri elementi di tali organizzazioni a scopo di propaganda o di sostegno. Il significato dei contenuti e dei simboli è valutato insieme al contesto in cui sono utilizzati." }
-    ]},
-    { "id": "serious-crimes", "heading": "8. Gravi violazioni dei diritti e reati gravi", "blocks": [
-      { "p": "Sono vietati i seguenti atti:" },
-      { "ul": [
-        "abuso sui minori, abuso sessuale su minori e sfruttamento sessuale di minori;",
-        "violenza sessuale, stupro e altri atti di violenza sessuale;",
-        "tratta di esseri umani, lavoro forzato e analoghe gravi violazioni dei diritti;",
-        "produzione, uso, vendita, distribuzione, procacciamento o traffico di sostanze stupefacenti o psicotrope illegali;",
-        "truffa, peculato e corruzione;",
-        "rapina ed estorsione;",
-        "traffico di migranti;",
-        "omicidio volontario, lesioni personali gravi e analoghi reati violenti gravi."
-      ]},
-      { "p": "Poiché può essere definita diversamente da un paese all'altro, nella presente politica l'espressione «reato grave o infamante» indica le categorie di reati sopra elencate e gli atti di pari gravità." },
-      { "p": "Sono vietati anche la commissione, l'organizzazione, il finanziamento, l'istigazione o l'agevolazione consapevole di tali reati, nonché il concorso nella loro commissione." }
-    ]},
-    { "id": "brand-reputation", "heading": "9. Reputazione del marchio", "blocks": [
-      { "p": "La Società non intende che il proprio marchio sia associato a reati gravi o a persone e attività note al pubblico come autori di tali reati. L'associazione pubblica di un'attività, del suo titolare, amministratore o rappresentante autorizzato o di un partner commerciale ai reati elencati nella sezione 8, in qualità di autore, indagato o concorrente nel reato, può costituire motivo di cessazione del rapporto commerciale." },
-      { "p": "Se, a seguito di notizie di stampa attendibili, indagini ufficiali, informazioni concrete di pubblico dominio o altri sviluppi verificabili, si determina un grave rischio reputazionale per il marchio, il relativo account può essere sospeso immediatamente o il contratto può essere risolto nei limiti del diritto applicabile. Per tale decisione non si attende che una sentenza di condanna passi in giudicato né che il procedimento penale si concluda." },
-      { "p": "Tale decisione è una decisione commerciale e non significa che la persona interessata sia colpevole. Voci prive di fondamento non sono di per sé sufficienti per l'applicazione della presente sezione." },
-      { "note": "La presente sezione non riguarda in alcun modo le vittime di reato, i denuncianti e i testimoni. Il fatto che una persona sia nota al pubblico come vittima di un reato o si sia rivolta alle autorità competenti non può costituire motivo di sospensione dell'account o di risoluzione del contratto." }
-    ]},
-    { "id": "review", "heading": "10. Procedura di esame", "blocks": [
-      { "p": "La Società esamina un'eventuale violazione sulla base di fonti concrete. Possono essere valutati post pubblici sui social media, fotografie, video, notizie di stampa attendibili, dichiarazioni ufficiali, atti giudiziari e d'indagine e segnalazioni documentate pervenute alla Società." },
-      { "p": "Nei casi che non richiedono una tutela urgente, prima di decidere la Società può offrire all'attività o al partner commerciale interessato la possibilità di fornire chiarimenti per iscritto. Nei casi urgenti l'account viene prima sospeso e i chiarimenti possono essere acquisiti successivamente. La Società registra la propria decisione e le fonti su cui si basa. La persona interessata può opporsi alla decisione per iscritto all'indirizzo [hello@goktigin.com](mailto:hello@goktigin.com)." }
-    ]},
-    { "id": "enforcement", "heading": "11. Sanzioni", "blocks": [
-      { "p": "Per le attività di cui sia accertata la violazione dei divieti previsti dalla presente politica, l'utilizzo dei servizi Art of Menu cessa immediatamente, i relativi account vengono chiusi e i contratti vengono risolti nei limiti del diritto applicabile. Gli account dei partner commerciali che violano le stesse regole vengono chiusi immediatamente e i loro contratti di partnership vengono risolti." },
-      { "p": "La violazione della presente politica da parte dei titolari, degli amministratori o dei rappresentanti autorizzati dell'attività, o mediante attività direttamente riconducibili all'attività, può costituire motivo di cessazione del contratto di servizio dell'attività." },
-      { "p": "Per accertare la violazione contrattuale non è necessaria una sentenza passata in giudicato. La risoluzione del contratto da parte della Società non significa che essa dichiari una persona colpevole ai sensi del diritto penale." }
-    ]},
-    { "id": "reporting", "heading": "12. Segnalazione alle autorità competenti", "blocks": [
-      { "p": "Gli atti per i quali esistono informazioni concrete che avvalorano il sospetto di un reato ai sensi del diritto della Repubblica di Turchia o del diritto del paese interessato sono segnalati alle forze dell'ordine o alle autorità giudiziarie competenti. In tale valutazione si tiene conto in particolare delle seguenti disposizioni:" },
-      { "ul": [
-        "Legge n. 5816 sui reati commessi contro Atatürk;",
-        "Legge n. 3713 sulla lotta al terrorismo, in particolare l'articolo 7 relativo alla propaganda a favore di organizzazioni terroristiche;",
-        "articoli 300 e 301 del Codice penale turco (Legge n. 5237, TCK), relativi al vilipendio dei simboli della sovranità dello Stato e della Nazione turca;",
-        "artt. 314 TCK (organizzazione armata) e 220 TCK (costituzione di un'organizzazione allo scopo di commettere reati);",
-        "artt. 103 TCK (abuso sessuale su minori), 102 (violenza sessuale), 80 (tratta di esseri umani), 79 (traffico di migranti);",
-        "art. 188 TCK (produzione e traffico di sostanze stupefacenti o psicotrope);",
-        "artt. 157–158 TCK (truffa), 247 (peculato), 252 (corruzione), 148–149 (rapina), 107 (estorsione);",
-        "artt. 81–82 TCK (omicidio volontario) e 86–87 (lesioni personali dolose)."
-      ]},
-      { "p": "Le ordinarie violazioni contrattuali per le quali non sussiste alcun sospetto di reato non sono segnalate né qualificate come reati." },
-      { "p": "La Società conserva le informazioni e i documenti acquisiti nell'ambito dell'esame e della segnalazione solo nella misura consentita dalla legge e li comunica esclusivamente alle autorità competenti o negli altri casi consentiti dalla legge." }
-    ]},
-    { "id": "mandatory-law", "heading": "13. Diritto imperativo", "blocks": [
-      { "p": "Nell'applicazione della presente politica si tiene conto delle norme imperative del diritto della Repubblica di Turchia e del paese interessato. Se una sanzione è limitata dal diritto applicabile, la Società la applica nella misura giuridicamente consentita." }
-    ]}
+    {
+      "id": "scope",
+      "heading": "1. Finalità, destinatari e carattere vincolante",
+      "blocks": [
+        {
+          "p": "La presente politica definisce i valori aziendali e le regole di condotta applicati da Göktigin Bilişim Teknoloji Ltd. Şti. (la «Società») in relazione ai servizi offerti con il nome Art of Menu."
+        },
+        {
+          "p": "La politica costituisce allegato vincolante del [Contratto di Servizio Art of Menu per le Attività](doc:business-terms) e del [Contratto di Partnership Commerciale](doc:partner-terms) ed è accettata unitamente a tali contratti. La politica si applica esclusivamente alle attività e ai partner commerciali. I clienti che utilizzano i menu delle attività non sono parti della presente politica."
+        },
+        {
+          "p": "La politica si applica alle seguenti persone (i «Soggetti Interessati»):"
+        },
+        {
+          "ul": [
+            "le attività che utilizzano i servizi Art of Menu;",
+            "i titolari, i soci, gli amministratori e i rappresentanti autorizzati delle attività;",
+            "i partner commerciali e i titolari, i soci, gli amministratori e i rappresentanti autorizzati dei partner commerciali persone giuridiche."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "universal-application",
+      "heading": "2. Applicazione indipendente dal paese",
+      "blocks": [
+        {
+          "p": "La politica si applica in modo identico in tutti i paesi in cui Art of Menu presta i propri servizi. Ai fini dell'applicazione della politica non è necessario che il Soggetto Interessato sia turco, sia cittadino della Repubblica di Turchia, viva in Turchia, abbia costituito una società in Turchia o svolga un'attività commerciale in Turchia. La cittadinanza, la nazionalità, il paese di residenza o il paese in cui si opera non comportano alcuna esenzione dalla politica."
+        },
+        {
+          "p": "Il fatto che un comportamento sia lecito nel paese in cui ci si trova non esclude che sia contrario alla presente politica. Le sanzioni contrattuali applicate dalla Società rispettano tuttavia i limiti imperativi del diritto del paese interessato."
+        }
+      ]
+    },
+    {
+      "id": "conduct-scope",
+      "heading": "3. Comportamenti sulla piattaforma e al di fuori di essa",
+      "blocks": [
+        {
+          "p": "La politica non riguarda soltanto i contenuti pubblicati su Art of Menu. Rientrano nel suo ambito anche i comportamenti dei Soggetti Interessati nei seguenti contesti:"
+        },
+        {
+          "ul": [
+            "il locale fisico dell'attività;",
+            "account sui social media e siti internet;",
+            "pubblicità, promozioni ed eventi;",
+            "dichiarazioni pubbliche;",
+            "altre attività direttamente riconducibili all'attività o al partner commerciale."
+          ]
+        },
+        {
+          "p": "Non è necessario che la violazione avvenga tramite Art of Menu, che riguardi direttamente gli utenti di Art of Menu o che si verifichi in Turchia."
+        }
+      ]
+    },
+    {
+      "id": "ataturk",
+      "heading": "4. Mustafa Kemal Atatürk",
+      "blocks": [
+        {
+          "p": "È vietato qualsiasi comportamento che contenga scherno, insulto, umiliazione, disprezzo o mancanza di rispetto nei confronti della persona, della memoria, dell'eredità o della figura morale di Mustafa Kemal Atatürk, insignito del titolo di Gazi (condottiero vittorioso in guerra)."
+        },
+        {
+          "p": "Il divieto non si limita alle espressioni dirette. Sono vietate anche le allusioni nascoste, implicite, indirette, velate, simboliche, allusive o celate dietro altri significati. Nell'esame si tiene conto degli indizi concreti e ragionevoli che indicano che un comportamento ha tali significati. Per accertare la violazione non è necessario che la persona interessata confessi la propria intenzione né che utilizzi direttamente il nome."
+        }
+      ]
+    },
+    {
+      "id": "national-values",
+      "heading": "5. La Repubblica di Turchia e i valori nazionali",
+      "blocks": [
+        {
+          "p": "Sono vietati i comportamenti che contengono scherno, insulto, umiliazione, disprezzo o mancanza di rispetto nei confronti della Repubblica di Turchia e dei valori nazionali e sensibili della gloriosa nazione turca, o che vi alludono direttamente o indirettamente. Rientrano nell'ambito del divieto anche i comportamenti nascosti, velati, simbolici o allusivi, nonché quelli da cui tali significati possono essere desunti in base al contesto."
+        }
+      ]
+    },
+    {
+      "id": "corporate-language",
+      "heading": "6. Regola sul linguaggio aziendale",
+      "blocks": [
+        {
+          "p": "Nei testi in lingua turca, per indicare i cittadini della Repubblica di Turchia si utilizza la parola turca «Türk» con l'iniziale maiuscola. È vietato utilizzare i termini turchi «Türkiyeli», «Turki» o espressioni alternative analoghe per indicare i cittadini della Repubblica di Turchia."
+        },
+        {
+          "p": "Sono vietati anche le espressioni e i comportamenti utilizzati allo scopo di umiliare, sminuire o schernire l'identità turca, o di alludervi."
+        },
+        {
+          "p": "Nei testi in altre lingue, la cittadinanza turca è espressa con il termine corretto e naturale di quella lingua (in italiano, ad esempio, «turco» o «cittadino turco»)."
+        }
+      ]
+    },
+    {
+      "id": "terrorism",
+      "heading": "7. Organizzazioni terroristiche",
+      "blocks": [
+        {
+          "p": "È vietato fare propaganda, sostenere, elogiare o esaltare organizzazioni, gruppi e strutture che sono o sono stati riconosciuti come organizzazioni terroristiche dalla Repubblica di Turchia."
+        },
+        {
+          "p": "Ai fini dell'applicazione del divieto non è necessario che l'attività sia svolta apertamente. Sono vietate anche le espressioni di propaganda e di sostegno nascoste, velate, indirette, simboliche, allusive o celate dietro altri significati. È inoltre vietato l'uso di simboli, segni, slogan o altri elementi di tali organizzazioni a scopo di propaganda o di sostegno. Il significato dei contenuti e dei simboli è valutato insieme al contesto in cui sono utilizzati."
+        }
+      ]
+    },
+    {
+      "id": "serious-crimes",
+      "heading": "8. Gravi violazioni dei diritti e reati gravi",
+      "blocks": [
+        {
+          "p": "La Società può interrompere immediatamente il servizio fornito a un'Attività, o la collaborazione con un partner commerciale, associati a uno dei seguenti reati:"
+        },
+        {
+          "ul": [
+            "abuso sui minori, abuso sessuale su minori e sfruttamento sessuale di minori;",
+            "violenza sessuale, stupro e altri atti di violenza sessuale;",
+            "tratta di esseri umani, lavoro forzato e analoghe gravi violazioni dei diritti;",
+            "produzione, uso, vendita, distribuzione, procacciamento o traffico di sostanze stupefacenti o psicotrope illegali;",
+            "truffa, peculato e corruzione;",
+            "rapina ed estorsione;",
+            "traffico di migranti;",
+            "omicidio volontario, lesioni personali gravi e analoghi reati violenti gravi."
+          ]
+        },
+        {
+          "p": "Poiché può essere definita diversamente da un paese all'altro, nella presente politica l'espressione «reato grave o infamante» indica le categorie di reati sopra elencate e gli atti di pari gravità."
+        },
+        {
+          "p": "Lo stesso vale per il collegamento con la commissione, l'organizzazione, il finanziamento, l'istigazione o l'agevolazione consapevole di tali reati, o con la partecipazione agli stessi."
+        }
+      ]
+    },
+    {
+      "id": "brand-reputation",
+      "heading": "9. Reputazione del marchio",
+      "blocks": [
+        {
+          "p": "La Società non intende che il proprio marchio sia associato a reati gravi o a persone e attività note al pubblico come autori di tali reati. L'associazione pubblica di un'attività, del suo titolare, amministratore o rappresentante autorizzato o di un partner commerciale ai reati elencati nella sezione 8, in qualità di autore, indagato o concorrente nel reato, può costituire motivo di cessazione del rapporto commerciale."
+        },
+        {
+          "p": "Se, a seguito di notizie di stampa attendibili, indagini ufficiali, informazioni concrete di pubblico dominio o altri sviluppi verificabili, si determina un grave rischio reputazionale per il marchio, il relativo account può essere sospeso immediatamente o il contratto può essere risolto nei limiti del diritto applicabile. Per tale decisione non si attende che una sentenza di condanna passi in giudicato né che il procedimento penale si concluda."
+        },
+        {
+          "p": "Tale decisione è una decisione commerciale e non significa che la persona interessata sia colpevole. Voci prive di fondamento non sono di per sé sufficienti per l'applicazione della presente sezione."
+        },
+        {
+          "note": "La presente sezione non riguarda in alcun modo le vittime di reato, i denuncianti e i testimoni. Il fatto che una persona sia nota al pubblico come vittima di un reato o si sia rivolta alle autorità competenti non può costituire motivo di sospensione dell'account o di risoluzione del contratto."
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "heading": "10. Procedura di esame",
+      "blocks": [
+        {
+          "p": "La Società esamina un'eventuale violazione sulla base di fonti concrete. Possono essere valutati post pubblici sui social media, fotografie, video, notizie di stampa attendibili, dichiarazioni ufficiali, atti giudiziari e d'indagine e segnalazioni documentate pervenute alla Società."
+        },
+        {
+          "p": "Nei casi che non richiedono una tutela urgente, prima di decidere la Società può offrire all'attività o al partner commerciale interessato la possibilità di fornire chiarimenti per iscritto. Nei casi urgenti l'account viene prima sospeso e i chiarimenti possono essere acquisiti successivamente. La Società registra la propria decisione e le fonti su cui si basa. La persona interessata può opporsi alla decisione per iscritto all'indirizzo [hello@goktigin.com](mailto:hello@goktigin.com)."
+        }
+      ]
+    },
+    {
+      "id": "enforcement",
+      "heading": "11. Sanzioni",
+      "blocks": [
+        {
+          "p": "Per le attività di cui sia accertata la violazione dei divieti previsti dalla presente politica, l'utilizzo dei servizi Art of Menu cessa immediatamente, i relativi account vengono chiusi e i contratti vengono risolti nei limiti del diritto applicabile. Gli account dei partner commerciali che violano le stesse regole vengono chiusi immediatamente e i loro contratti di partnership vengono risolti."
+        },
+        {
+          "p": "La violazione della presente politica da parte dei titolari, degli amministratori o dei rappresentanti autorizzati dell'attività, o mediante attività direttamente riconducibili all'attività, può costituire motivo di cessazione del contratto di servizio dell'attività."
+        },
+        {
+          "p": "Per accertare la violazione contrattuale non è necessaria una sentenza passata in giudicato. La risoluzione del contratto da parte della Società non significa che essa dichiari una persona colpevole ai sensi del diritto penale."
+        }
+      ]
+    },
+    {
+      "id": "reporting",
+      "heading": "12. Segnalazione alle autorità competenti",
+      "blocks": [
+        {
+          "p": "Gli atti per i quali esistono informazioni concrete che avvalorano il sospetto di un reato ai sensi del diritto della Repubblica di Turchia o del diritto del paese interessato sono segnalati alle forze dell'ordine o alle autorità giudiziarie competenti. In tale valutazione si tiene conto in particolare delle seguenti disposizioni:"
+        },
+        {
+          "ul": [
+            "Legge n. 5816 sui reati commessi contro Atatürk;",
+            "Legge n. 3713 sulla lotta al terrorismo, in particolare l'articolo 7 relativo alla propaganda a favore di organizzazioni terroristiche;",
+            "articoli 300 e 301 del Codice penale turco (Legge n. 5237, TCK), relativi al vilipendio dei simboli della sovranità dello Stato e della Nazione turca;",
+            "artt. 314 TCK (organizzazione armata) e 220 TCK (costituzione di un'organizzazione allo scopo di commettere reati);",
+            "artt. 103 TCK (abuso sessuale su minori), 102 (violenza sessuale), 80 (tratta di esseri umani), 79 (traffico di migranti);",
+            "art. 188 TCK (produzione e traffico di sostanze stupefacenti o psicotrope);",
+            "artt. 157–158 TCK (truffa), 247 (peculato), 252 (corruzione), 148–149 (rapina), 107 (estorsione);",
+            "artt. 81–82 TCK (omicidio volontario) e 86–87 (lesioni personali dolose)."
+          ]
+        },
+        {
+          "p": "Le ordinarie violazioni contrattuali per le quali non sussiste alcun sospetto di reato non sono segnalate né qualificate come reati."
+        },
+        {
+          "p": "La Società conserva le informazioni e i documenti acquisiti nell'ambito dell'esame e della segnalazione solo nella misura consentita dalla legge e li comunica esclusivamente alle autorità competenti o negli altri casi consentiti dalla legge."
+        }
+      ]
+    },
+    {
+      "id": "mandatory-law",
+      "heading": "13. Diritto imperativo",
+      "blocks": [
+        {
+          "p": "Nell'applicazione della presente politica si tiene conto delle norme imperative del diritto della Repubblica di Turchia e del paese interessato. Se una sanzione è limitata dal diritto applicabile, la Società la applica nella misura giuridicamente consentita."
+        }
+      ]
+    }
   ]
 }
