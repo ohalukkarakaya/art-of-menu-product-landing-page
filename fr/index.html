@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="/assets/web/diorama/planet.webp" type="image/webp">
-  <link rel="stylesheet" href="/gun.css?v=1673a935">
+  <link rel="stylesheet" href="/gun.css?v=d0d5548b">
   <script>document.documentElement.classList.add("js");</script>
   <!-- filled by tools/build.mjs: canonical, hreflang and structured data -->
   <!--seo:head-->
@@ -122,15 +122,25 @@
       <div class="hand" aria-hidden="true">
         <div class="hand-zoom" id="hand-zoom">
         <div class="screen" id="screen"><div class="sc-in">
-          <div class="sc-top"><span class="sc-venue">Lale Kahve</span><span class="sc-table" data-t="ph.table">Table 4</span></div>
-          <div class="sc-langs" id="sc-langs"><span data-l="tr">Türkçe</span><span data-l="en">English</span><span data-l="de">Deutsch</span></div>
+          <!-- the real guest menu, small: cover, emblem, name, calls, then the rows -->
+          <div class="sc-cover">
+            <span class="sc-fab l"><svg viewBox="0 0 24 24"><path d="M12 15V4M8 8l4-4 4 4M5 12v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <div class="sc-langs" id="sc-langs"><span data-l="tr">Türkçe</span><span data-l="en">English</span><span data-l="de">Deutsch</span></div>
+            <span class="sc-fab r"><svg viewBox="0 0 24 24"><path d="M6 8h12l-1 12H7L6 8zM9 8V7a3 3 0 0 1 6 0v1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><i class="sc-badge">2</i></span>
+          </div>
+          <div class="sc-head">
+            <span class="sc-emblem"><img src="/assets/brand/logo-a.webp" alt="" width="64" height="64"></span>
+            <div class="sc-top"><span class="sc-venue">Lale Kahve</span></div>
+            <div class="sc-meta"><span class="sc-pill"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7.5V12l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span data-t="ph.open">Ouvert</span> · 08:00–23:00</span><span class="sc-pill sc-table" data-t="ph.table">Table 4</span></div>
+            <div class="sc-calls"><span><i>🙋</i><b data-t="ph.waiter">Serveur</b></span><span><i>💧</i><b data-t="ph.water">Eau</b></span><span><i>🧾</i><b data-t="ph.bill">Addition</b></span></div>
+          </div>
           <div class="sc-weather" id="sc-weather"><span id="sc-wicon"></span><span id="sc-wtext"></span></div>
           <ol class="sc-list" id="sc-list"></ol>
-          <div class="sc-cart"><span id="sc-items">2 ürün</span><span class="sc-send" data-t="ph.send">Envoyer la commande</span></div>
+          <div class="sc-cart"><span id="sc-items">2 items</span><span class="sc-send" data-t="ph.send">Envoyer au serveur</span></div>
           <div class="sc-sheet">
             <span class="sc-grab"></span>
             <p class="sc-sheet-k" data-t="ph.pair">Se marie bien avec</p>
-            <div class="sc-pair"><img src="/assets/web/p-cheesecake.webp" alt="" width="458" height="344"><span><b data-t="ph.pair.item">Cheesecake San Sebastián</b><small data-t="ph.pair.why">Souvent commandés ensemble</small></span><span class="sc-add" data-t="ph.add">Ajouter</span></div>
+            <div class="sc-pair"><span class="sc-thumb" style="--g:var(--g3)"><img src="/assets/web/p-cheesecake.webp" alt="" width="458" height="344"></span><span><b data-t="ph.pair.item">Cheesecake San Sebastián</b><small data-t="ph.pair.why">Souvent commandés ensemble</small></span><span class="sc-add" data-t="ph.add">Ajouter</span></div>
           </div>
         </div></div>
         <img class="hand-img" src="/assets/web/diorama/hand-phone.webp" alt="" width="631" height="1000">
@@ -254,8 +264,8 @@
 
 
 <script src="/i18n.js?v=00a72fa7"></script>
-<script src="/gun-i18n.js?v=87e38dd1"></script>
+<script src="/gun-i18n.js?v=2cb91779"></script>
 <script src="/pricing.js?v=c1342e40"></script>
-<script src="/gun.js?v=f2400743"></script>
+<script src="/gun.js?v=8396d4ca"></script>
 </body>
 </html>

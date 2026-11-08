@@ -27,11 +27,19 @@ window.GUN_I18N = {
     "s6.btn": "Hemen başla",
 
     "ph.table": "Masa 4",
+
+    "ph.open": "Açık",
+
+    "ph.waiter": "Garson",
+
+    "ph.water": "Su",
+
+    "ph.bill": "Hesap",
     "ph.items": "{n} ürün",
-    "ph.send": "Siparişi gönder",
+    "ph.send": "Garsona gönder",
     "ph.ping.t": "Masa 4 · Yeni sipariş",
     "ph.ping.d": "Yeni sipariş alındı",
-    "ph.pair": "Bununla iyi gider",
+    "ph.pair": "Yanında iyi gider",
     "ph.pair.item": "San Sebastian Cheesecake",
     "ph.pair.why": "Bu ürünle birlikte sıkça sipariş ediliyor",
     "ph.add": "Ekle",
@@ -70,11 +78,19 @@ window.GUN_I18N = {
     "s6.btn": "Get started",
 
     "ph.table": "Table 4",
+
+    "ph.open": "Open",
+
+    "ph.waiter": "Waiter",
+
+    "ph.water": "Water",
+
+    "ph.bill": "Bill",
     "ph.items": "{n} items",
-    "ph.send": "Send order",
+    "ph.send": "Send to waiter",
     "ph.ping.t": "Table 4 · New order",
     "ph.ping.d": "New order received",
-    "ph.pair": "Pairs well with",
+    "ph.pair": "Goes well with",
     "ph.pair.item": "San Sebastian Cheesecake",
     "ph.pair.why": "Often ordered together",
     "ph.add": "Add",
@@ -113,8 +129,16 @@ window.GUN_I18N = {
     "s6.btn": "Jetzt starten",
 
     "ph.table": "Tisch 4",
+
+    "ph.open": "Geöffnet",
+
+    "ph.waiter": "Bedienung",
+
+    "ph.water": "Wasser",
+
+    "ph.bill": "Rechnung",
     "ph.items": "{n} Artikel",
-    "ph.send": "Bestellung senden",
+    "ph.send": "An die Bedienung",
     "ph.ping.t": "Tisch 4 · Neue Bestellung",
     "ph.ping.d": "Neue Bestellung erhalten",
     "ph.pair": "Passt gut dazu",
@@ -156,11 +180,19 @@ window.GUN_I18N = {
     "s6.btn": "Empieza ahora",
 
     "ph.table": "Mesa 4",
+
+    "ph.open": "Abierto",
+
+    "ph.waiter": "Camarero",
+
+    "ph.water": "Agua",
+
+    "ph.bill": "Cuenta",
     "ph.items": "{n} productos",
-    "ph.send": "Enviar pedido",
+    "ph.send": "Enviar al camarero",
     "ph.ping.t": "Mesa 4 · Nuevo pedido",
     "ph.ping.d": "Nuevo pedido recibido",
-    "ph.pair": "Combina bien con",
+    "ph.pair": "Va bien con",
     "ph.pair.item": "Tarta de queso San Sebastián",
     "ph.pair.why": "Se suelen pedir juntos",
     "ph.add": "Añadir",
@@ -199,8 +231,16 @@ window.GUN_I18N = {
     "s6.btn": "Inizia ora",
 
     "ph.table": "Tavolo 4",
+
+    "ph.open": "Aperto",
+
+    "ph.waiter": "Cameriere",
+
+    "ph.water": "Acqua",
+
+    "ph.bill": "Conto",
     "ph.items": "{n} prodotti",
-    "ph.send": "Invia ordine",
+    "ph.send": "Invia al cameriere",
     "ph.ping.t": "Tavolo 4 · Nuovo ordine",
     "ph.ping.d": "Nuovo ordine ricevuto",
     "ph.pair": "Si abbina bene con",
@@ -242,8 +282,16 @@ window.GUN_I18N = {
     "s6.btn": "Commencer",
 
     "ph.table": "Table 4",
+
+    "ph.open": "Ouvert",
+
+    "ph.waiter": "Serveur",
+
+    "ph.water": "Eau",
+
+    "ph.bill": "Addition",
     "ph.items": "{n} articles",
-    "ph.send": "Envoyer la commande",
+    "ph.send": "Envoyer au serveur",
     "ph.ping.t": "Table 4 · Nouvelle commande",
     "ph.ping.d": "Nouvelle commande reçue",
     "ph.pair": "Se marie bien avec",

@@ -87,7 +87,7 @@
   var LANG_NAMES = { tr: "Türkçe", en: "English", de: "Deutsch", es: "Español", it: "Italiano", fr: "Français" };
   var chips = [lang].concat(["en", "tr", "de", "es", "fr", "it"].filter(function (l) { return l !== lang; })).slice(0, 3);
   document.querySelectorAll("#sc-langs [data-l]").forEach(function (el, i) {
-    el.dataset.l = chips[i]; el.textContent = LANG_NAMES[chips[i]]; el.classList.toggle("on", i === 0);
+    el.dataset.l = chips[i]; el.textContent = chips[i].toUpperCase(); el.title = LANG_NAMES[chips[i]]; el.classList.toggle("on", i === 0);
   });
   document.querySelectorAll(".tags .tag").forEach(function (el, i) {
     el.querySelector("span").textContent = T.tags[i][0];
@@ -95,6 +95,7 @@
   });
 
   var IMG = { salep: "p-latte", latte: "p-latte", croissant: "p-croissant", lemonade: "p-lemonade", cheesecake: "p-cheesecake" };
+  var TILE = { salep: "--g1", latte: "--g2", croissant: "--g5", lemonade: "--g4", cheesecake: "--g3" };
   var ITEMS = {};
   Object.keys(IMG).forEach(function (id) { ITEMS[id] = { name: T.items[id][0], img: IMG[id], price: T.items[id][1] }; });
   var STATES = {
@@ -112,9 +113,10 @@
   Object.keys(ITEMS).forEach(function (id) {
     var li = document.createElement("li");
     li.className = "sc-item";
-    li.innerHTML = '<img src="/assets/web/' + ITEMS[id].img + '.webp" alt="" width="60" height="60">' +
-      '<span><span class="sc-name">' + ITEMS[id].name + '</span><span class="sc-flag"></span></span>' +
-      '<span class="sc-price">' + ITEMS[id].price + "</span>";
+    // the real menu's row: name, a tag and the price on the left, the photo on a pastel tile on the right
+    li.innerHTML = '<span class="sc-text"><span class="sc-name">' + ITEMS[id].name + '</span><span class="sc-flag"></span>' +
+      '<span class="sc-price">' + ITEMS[id].price + '</span></span>' +
+      '<span class="sc-thumb" style="--g:var(' + TILE[id] + ')"><img src="/assets/web/' + ITEMS[id].img + '.webp" alt="" width="60" height="60"></span>';
     rows[id] = li;
   });
   function paintWeather() {
