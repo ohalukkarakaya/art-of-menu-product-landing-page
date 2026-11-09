@@ -1,0 +1,135 @@
+{
+  "key": "delivery-returns",
+  "version": "1.0",
+  "locale": "es",
+  "title": "Condiciones de Entrega y Reembolso",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu es un servicio digital de suscripción. No se realiza ningún envío físico; el servicio se activa en su cuenta en cuanto se confirma el pago.",
+  "sections": [
+    {
+      "id": "nature",
+      "heading": "1. Naturaleza del servicio",
+      "blocks": [
+        {
+          "p": "Art of Menu es un software en la nube que Göktigin Bilişim Teknoloji Ltd. Şti. (la «Sociedad») presta mediante suscripción a restaurantes, cafeterías, bares y establecimientos similares. Lo que usted adquiere es el derecho a utilizar el plan seleccionado para el local seleccionado durante un período (mensual o anual). No se venden bienes físicos."
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "2. Entrega",
+      "blocks": [
+        {
+          "ul": [
+            "**Forma:** el servicio se entrega por vía electrónica a través del panel en [app.artofmenu.com](https://app.artofmenu.com). No hay envío ni mensajería, ni gastos de entrega.",
+            "**Plazo:** el plan se activa para el local en cuanto se confirma el pago. La confirmación del pago y la factura se envían a la dirección de correo electrónico de la cuenta.",
+            "**Destinatario:** el servicio queda vinculado a la cuenta de Art of Menu del establecimiento que realizó el pago.",
+            "**Incidencias:** si el plan no se activa tras el pago, puede dirigirse a [hello@goktigin.com](mailto:hello@goktigin.com) o al +90 554 238 70 07. La incidencia se resuelve en un plazo máximo de 1 día hábil; de lo contrario, se reembolsa el pago."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "3. Derecho de desistimiento",
+      "blocks": [
+        {
+          "p": "Art of Menu se vende únicamente a establecimientos para su actividad comercial o profesional. Los compradores no actúan como consumidores, por lo que no es aplicable el derecho de desistimiento del consumidor previsto en la Ley turca n.º 6502 y en el Reglamento de Contratos a Distancia."
+        },
+        {
+          "p": "Aun en el caso de que un comprador tenga la consideración de consumidor, el artículo 15, letra (ğ), del Reglamento de Contratos a Distancia excluye el derecho de desistimiento en los servicios ejecutados de forma instantánea por medios electrónicos. El comprador lo acepta al consentir, en el paso de pago, que el servicio comience de inmediato."
+        }
+      ]
+    },
+    {
+      "id": "cancel",
+      "heading": "4. Cancelación de la suscripción",
+      "blocks": [
+        {
+          "ul": [
+            "La suscripción puede cancelarse en cualquier momento desde la pantalla **Suscripción** del panel.",
+            "La cancelación surte efecto al final del período pagado; hasta entonces el servicio sigue pudiendo utilizarse y no se cobra el período siguiente.",
+            "La cancelación puede revertirse antes de que finalice el período.",
+            "Los cambios a un plan inferior también surten efecto al final del período."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refund",
+      "heading": "5. Reembolsos",
+      "blocks": [
+        {
+          "p": "Como norma general, no se reembolsa la cuota de un período ya iniciado, tampoco por el tiempo restante. Se efectúan reembolsos en los siguientes casos:"
+        },
+        {
+          "ul": [
+            "cobros duplicados o por un importe erróneo para el mismo período: la totalidad del importe cobrado en exceso;",
+            "imposibilidad de activar el servicio tras el pago dentro del plazo indicado en el apartado 2: la totalidad del importe pagado;",
+            "resolución del contrato por parte de la Sociedad sin culpa del comprador: la cuota correspondiente al período pagado y no utilizado;",
+            "otros casos en los que la legislación imperativa exija un reembolso."
+          ]
+        },
+        {
+          "p": "Envíe las solicitudes de reembolso desde la dirección de correo electrónico de la cuenta a [hello@goktigin.com](mailto:hello@goktigin.com), indicando el nombre del establecimiento, la fecha del pago y el importe. Las solicitudes se resuelven en un plazo máximo de 5 días hábiles."
+        }
+      ]
+    },
+    {
+      "id": "refund-method",
+      "heading": "6. Forma de pago de los reembolsos",
+      "blocks": [
+        {
+          "p": "Los reembolsos aprobados se abonan en la tarjeta utilizada para el pago a través de la infraestructura de pago de iyzico. Según el banco, suelen tardar entre 2 y 10 días hábiles en reflejarse. En los pagos a plazos, el banco puede reflejar el reembolso en plazos. Los reembolsos no se abonan en efectivo."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "7. Contacto",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Dato",
+              "Valor"
+            ],
+            "rows": [
+              [
+                "Denominación social",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Domicilio",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Oficina tributaria / NIF",
+                "Oficina Tributaria de Sociedades de Antalya / 4060725346"
+              ],
+              [
+                "Número MERSIS",
+                "0406072534600001"
+              ],
+              [
+                "Registro Mercantil",
+                "Registro Mercantil de Antalya — 137005"
+              ],
+              [
+                "Teléfono",
+                "+90 554 238 70 07"
+              ],
+              [
+                "Correo electrónico",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Las demás condiciones de venta figuran en el [Contrato de Venta a Distancia](doc:distance-sales) y en el [Contrato de Servicio para Establecimientos](doc:business-terms)."
+        }
+      ]
+    }
+  ]
+}

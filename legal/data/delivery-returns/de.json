@@ -1,0 +1,135 @@
+{
+  "key": "delivery-returns",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Liefer- und Erstattungsbedingungen",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu ist ein digitaler Abonnementdienst. Es gibt keine physische Lieferung und keinen Versand; der Dienst wird in Ihrem Konto freigeschaltet, sobald die Zahlung bestätigt ist.",
+  "sections": [
+    {
+      "id": "nature",
+      "heading": "1. Art des Dienstes",
+      "blocks": [
+        {
+          "p": "Art of Menu ist eine Cloud-Software, die die Göktigin Bilişim Teknoloji Ltd. Şti. (das „Unternehmen“) Restaurants, Cafés, Bars und ähnlichen Betrieben im Abonnement zur Verfügung stellt. Erworben wird das Recht, das gewählte Paket für die gewählte Filiale während einer bestimmten Laufzeit (monatlich oder jährlich) zu nutzen. Physische Waren werden nicht verkauft."
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "2. Lieferung",
+      "blocks": [
+        {
+          "ul": [
+            "**Lieferweg:** Der Dienst wird elektronisch über das Panel unter [app.artofmenu.com](https://app.artofmenu.com) bereitgestellt. Es gibt keinen Versand, keinen Kurier und keine physische Zustellung; Liefergebühren fallen nicht an.",
+            "**Lieferzeit:** Sobald die Zahlung bestätigt ist, wird das gewählte Paket für die betreffende Filiale freigeschaltet. Die Zahlungsbestätigung und die Rechnung werden an die im Konto hinterlegte E-Mail-Adresse gesendet.",
+            "**Empfänger:** Der Dienst wird dem Art of Menu-Konto des Betriebs zugeordnet, der die Zahlung geleistet hat.",
+            "**Störungen:** Wird das Paket trotz erfolgter Zahlung nicht freigeschaltet, wenden Sie sich bitte an [hello@goktigin.com](mailto:hello@goktigin.com) oder +90 554 238 70 07. Das Problem wird spätestens innerhalb von 1 Werktag behoben; andernfalls wird die Zahlung erstattet."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "3. Widerrufsrecht",
+      "blocks": [
+        {
+          "p": "Art of Menu wird ausschließlich an Betriebe für deren gewerbliche oder berufliche Tätigkeit verkauft. Da der Käufer nicht als Verbraucher handelt, findet das Widerrufsrecht nach dem türkischen Gesetz Nr. 6502 über den Verbraucherschutz und der Verordnung über Fernabsatzverträge keine Anwendung."
+        },
+        {
+          "p": "Auch in Fällen, in denen der Käufer als Verbraucher gilt, besteht gemäß Art. 15 Abs. 1 Buchst. ğ der Verordnung über Fernabsatzverträge kein Widerrufsrecht bei Dienstleistungen, die sofort elektronisch erbracht werden. Der Käufer akzeptiert dies, indem er im Zahlungsschritt dem sofortigen Beginn des Dienstes zustimmt."
+        }
+      ]
+    },
+    {
+      "id": "cancel",
+      "heading": "4. Kündigung des Abonnements",
+      "blocks": [
+        {
+          "ul": [
+            "Das Abonnement kann jederzeit im Panel über die Ansicht **Abonnement** gekündigt werden.",
+            "Die Kündigung wird zum Ende der bezahlten Laufzeit wirksam; bis dahin kann der Dienst weiter genutzt werden, und für die nächste Laufzeit wird kein Entgelt berechnet.",
+            "Eine Kündigung kann vor Ablauf der Laufzeit zurückgenommen werden.",
+            "Ein Wechsel in ein niedrigeres Paket wird ebenfalls zum Ende der Laufzeit wirksam."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refund",
+      "heading": "5. Erstattungsbedingungen",
+      "blocks": [
+        {
+          "p": "Das Entgelt für eine bereits begonnene Abonnementlaufzeit wird grundsätzlich nicht erstattet, auch nicht für die verbleibende Zeit. In folgenden Fällen wird das Entgelt erstattet:"
+        },
+        {
+          "ul": [
+            "bei mehrfacher Abbuchung oder Abbuchung eines falschen Betrags für dieselbe Laufzeit: der gesamte zu viel abgebuchte Betrag;",
+            "wenn der Dienst trotz erfolgter Zahlung nicht innerhalb der in Abschnitt 2 genannten Frist freigeschaltet werden konnte: der gesamte gezahlte Betrag;",
+            "wenn das Unternehmen den Vertrag ohne Verschulden des Käufers beendet: das Entgelt für die bezahlte, nicht genutzte Zeit;",
+            "sonstige Fälle, in denen zwingende Rechtsvorschriften eine Erstattung vorschreiben."
+          ]
+        },
+        {
+          "p": "Erstattungsanträge sind von der im Konto hinterlegten E-Mail-Adresse an [hello@goktigin.com](mailto:hello@goktigin.com) unter Angabe des Betriebsnamens, des Zahlungsdatums und des Betrags zu richten. Der Antrag wird spätestens innerhalb von 5 Werktagen abschließend bearbeitet."
+        }
+      ]
+    },
+    {
+      "id": "refund-method",
+      "heading": "6. Durchführung der Erstattung",
+      "blocks": [
+        {
+          "p": "Genehmigte Erstattungen erfolgen über die Zahlungsinfrastruktur von iyzico auf die für die Zahlung verwendete Karte. Je nach Bank dauert es in der Regel 2–10 Werktage, bis der Betrag auf dem Kartenkonto erscheint. Bei Ratenzahlungen kann die Bank die Erstattung je nach ihrer Praxis in Raten gutschreiben. Barerstattungen erfolgen nicht."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "7. Kontakt",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Angabe",
+              "Wert"
+            ],
+            "rows": [
+              [
+                "Firma",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Anschrift",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Finanzamt / Steuernummer",
+                "Körperschaftsteueramt Antalya / 4060725346"
+              ],
+              [
+                "MERSİS-Nummer",
+                "0406072534600001"
+              ],
+              [
+                "Handelsregister",
+                "Handelsregisteramt Antalya — 137005"
+              ],
+              [
+                "Telefon",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-Mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Die übrigen Verkaufsbedingungen sind im [Fernabsatzvertrag](doc:distance-sales) und im [Dienstleistungsvertrag für Betriebe](doc:business-terms) geregelt."
+        }
+      ]
+    }
+  ]
+}

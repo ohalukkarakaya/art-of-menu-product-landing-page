@@ -1,0 +1,135 @@
+{
+  "key": "delivery-returns",
+  "version": "1.0",
+  "locale": "fr",
+  "title": "Conditions de livraison et de remboursement",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu est un service d'abonnement numérique. Il n'y a ni livraison physique ni expédition ; le service est activé dans votre compte dès la confirmation du paiement.",
+  "sections": [
+    {
+      "id": "nature",
+      "heading": "1. Nature du service",
+      "blocks": [
+        {
+          "p": "Art of Menu est un logiciel en nuage que Göktigin Bilişim Teknoloji Ltd. Şti. (la « Société ») fournit sur abonnement aux restaurants, cafés, bars et établissements similaires. Ce qui est acheté est le droit d'utiliser la formule choisie pour l'établissement choisi pendant une période déterminée (mensuelle ou annuelle). Aucun produit physique n'est vendu."
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "2. Livraison",
+      "blocks": [
+        {
+          "ul": [
+            "**Mode de livraison :** le service est fourni par voie électronique via le panneau accessible sur [app.artofmenu.com](https://app.artofmenu.com). Il n'y a ni transporteur, ni coursier, ni envoi physique, et aucuns frais de livraison ne sont facturés.",
+            "**Délai de livraison :** la formule choisie est activée pour l'établissement concerné dès la confirmation du paiement. La confirmation de paiement et la facture sont envoyées à l'adresse e-mail enregistrée sur le compte.",
+            "**Destinataire :** le service est rattaché au compte Art of Menu de l'établissement qui a effectué le paiement.",
+            "**Incident :** si la formule n'est pas activée alors que le paiement a été reçu, vous pouvez contacter [hello@goktigin.com](mailto:hello@goktigin.com) ou le +90 554 238 70 07. Le problème est résolu dans un délai maximal de 1 jour ouvrable ; à défaut, le paiement est remboursé."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "3. Droit de rétractation",
+      "blocks": [
+        {
+          "p": "Art of Menu est vendu uniquement à des établissements pour leur activité commerciale ou professionnelle. L'acheteur n'agissant pas en qualité de consommateur, le droit de rétractation prévu par la loi turque n° 6502 relative à la protection des consommateurs et le Règlement sur les contrats à distance ne s'applique pas."
+        },
+        {
+          "p": "Même lorsque l'acheteur est considéré comme un consommateur, conformément à l'article 15, point (ğ) du Règlement sur les contrats à distance, il n'existe pas de droit de rétractation pour les services exécutés instantanément par voie électronique. L'acheteur l'accepte en consentant, lors de l'étape de paiement, à ce que le service commence immédiatement."
+        }
+      ]
+    },
+    {
+      "id": "cancel",
+      "heading": "4. Résiliation de l'abonnement",
+      "blocks": [
+        {
+          "ul": [
+            "L'abonnement peut être résilié à tout moment depuis l'écran **Abonnement** du panneau.",
+            "La résiliation prend effet à la fin de la période payée ; le service reste utilisable jusqu'à cette date et aucun prix n'est prélevé pour la période suivante.",
+            "Une résiliation peut être annulée avant la fin de la période.",
+            "Le passage à une formule inférieure prend également effet à la fin de la période."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refund",
+      "heading": "5. Conditions de remboursement",
+      "blocks": [
+        {
+          "p": "En règle générale, le prix d'une période d'abonnement déjà commencée n'est pas remboursé, y compris pour la durée restante. Un remboursement est effectué dans les cas suivants :"
+        },
+        {
+          "ul": [
+            "prélèvements multiples ou d'un montant erroné pour la même période : la totalité du montant perçu en trop ;",
+            "service non activé dans le délai indiqué à la section 2 alors que le paiement a été reçu : la totalité du montant payé ;",
+            "résiliation du contrat par la Société sans faute de l'acheteur : le prix correspondant à la période payée et non utilisée ;",
+            "autres cas dans lesquels la législation impérative impose un remboursement."
+          ]
+        },
+        {
+          "p": "Les demandes de remboursement sont à adresser depuis l'adresse e-mail enregistrée sur le compte à [hello@goktigin.com](mailto:hello@goktigin.com), en indiquant le nom de l'établissement, la date et le montant du paiement. Les demandes sont traitées dans un délai maximal de 5 jours ouvrables."
+        }
+      ]
+    },
+    {
+      "id": "refund-method",
+      "heading": "6. Modalités de remboursement",
+      "blocks": [
+        {
+          "p": "Les remboursements approuvés sont effectués sur la carte utilisée pour le paiement, via l'infrastructure de paiement iyzico. Selon la banque, le montant apparaît généralement sur le compte de la carte sous 2 à 10 jours ouvrables. Pour les paiements échelonnés, la banque peut répercuter le remboursement en plusieurs échéances. Aucun remboursement n'est effectué en espèces."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "7. Contact",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Information",
+              "Valeur"
+            ],
+            "rows": [
+              [
+                "Raison sociale",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Adresse",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Centre des impôts / N° d'identification fiscale",
+                "Centre des impôts des sociétés d'Antalya / 4060725346"
+              ],
+              [
+                "Numéro MERSIS",
+                "0406072534600001"
+              ],
+              [
+                "Registre du commerce",
+                "Registre du commerce d'Antalya — 137005"
+              ],
+              [
+                "Téléphone",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Les autres conditions de vente figurent dans le [Contrat de vente à distance](doc:distance-sales) et le [Contrat de service pour les établissements](doc:business-terms)."
+        }
+      ]
+    }
+  ]
+}

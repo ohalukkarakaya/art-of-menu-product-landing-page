@@ -1,0 +1,195 @@
+{
+  "key": "distance-sales",
+  "version": "1.0",
+  "locale": "es",
+  "title": "Contrato de Venta a Distancia",
+  "effective": "2026-11-09",
+  "summary": "Este contrato establece las condiciones de compra en línea de las suscripciones de Art of Menu en app.artofmenu.com. Entra en vigor cuando se acepta electrónicamente en el paso de pago.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Partes",
+      "blocks": [
+        {
+          "p": "**VENDEDOR**"
+        },
+        {
+          "table": {
+            "head": [
+              "Dato",
+              "Valor"
+            ],
+            "rows": [
+              [
+                "Denominación social",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Domicilio",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Oficina tributaria / NIF",
+                "Oficina Tributaria de Sociedades de Antalya / 4060725346"
+              ],
+              [
+                "Número MERSIS",
+                "0406072534600001"
+              ],
+              [
+                "Registro Mercantil",
+                "Registro Mercantil de Antalya — 137005"
+              ],
+              [
+                "Teléfono",
+                "+90 554 238 70 07"
+              ],
+              [
+                "Correo electrónico",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "**COMPRADOR:** el establecimiento que crea una cuenta en Art of Menu y acepta este contrato en el paso de pago. La denominación social o el nombre completo, el domicilio, los datos fiscales, el teléfono y el correo electrónico del comprador son los datos de facturación que introduce en el panel y se muestran en el paso de pago."
+        }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Objeto",
+      "blocks": [
+        {
+          "p": "Este contrato regula los derechos y obligaciones de las partes cuando el comprador adquiere en línea un plan del software Art of Menu del Vendedor para un local y un período seleccionados. Las condiciones de uso detalladas figuran en el [Contrato de Servicio para Establecimientos](doc:business-terms), que forma parte integrante de este contrato."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "3. Servicio, precio y pago",
+      "blocks": [
+        {
+          "p": "El plan, el número de locales, el período, el precio total con impuestos incluidos y la forma de pago se muestran en el paso de pago y en el correo electrónico de confirmación. Los precios de tarifa por local en la fecha de entrada en vigor son:"
+        },
+        {
+          "table": {
+            "head": [
+              "Plan",
+              "Mensual (por local)",
+              "Anual (por local)"
+            ],
+            "rows": [
+              [
+                "Menu",
+                "399 TRY / 9 € / 12 $",
+                "3.990 TRY / 90 € / 120 $"
+              ],
+              [
+                "Order",
+                "999 TRY / 29 € / 35 $",
+                "9.990 TRY / 290 € / 350 $"
+              ],
+              [
+                "Smart",
+                "1.999 TRY / 59 € / 69 $",
+                "19.990 TRY / 590 € / 690 $"
+              ]
+            ]
+          }
+        },
+        {
+          "ul": [
+            "El pago se realiza con tarjeta de crédito o débito a través de la entidad de pago autorizada iyzico. Los datos de la tarjeta no se almacenan en los sistemas del Vendedor.",
+            "La suscripción se renueva automáticamente por el mismo período hasta su cancelación, y cada nuevo período se cobra en la tarjeta guardada.",
+            "Las facturas se emiten electrónicamente con los datos de facturación indicados en el panel.",
+            "Los cambios de precio se comunican con al menos 30 días de antelación y se aplican a partir de la primera renovación posterior a la comunicación."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "4. Ejecución (entrega)",
+      "blocks": [
+        {
+          "p": "El servicio se presta por vía electrónica; no se realiza ningún envío físico. En cuanto se confirma el pago, el plan se activa para el local en la cuenta del comprador en [app.artofmenu.com](https://app.artofmenu.com). Consulte las [Condiciones de Entrega y Reembolso](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "5. Derecho de desistimiento",
+      "blocks": [
+        {
+          "p": "El comprador adquiere el servicio para su actividad comercial o profesional y no actúa como consumidor, por lo que no es aplicable el derecho de desistimiento previsto en la Ley turca n.º 6502 y en el Reglamento de Contratos a Distancia."
+        },
+        {
+          "p": "Aun en el caso de que el comprador tenga la consideración de consumidor, conforme al artículo 15, apartado 1, letra (ğ), del Reglamento de Contratos a Distancia no existe derecho de desistimiento en los servicios ejecutados de forma instantánea por medios electrónicos. En el paso de pago, el comprador solicita que el servicio comience de inmediato y reconoce esta consecuencia."
+        }
+      ]
+    },
+    {
+      "id": "cancel-refund",
+      "heading": "6. Cancelación y reembolsos",
+      "blocks": [
+        {
+          "p": "El comprador puede cancelar en cualquier momento desde el panel; la cancelación surte efecto al final del período pagado. Como norma general, no se reembolsan las cuotas de un período ya iniciado. En caso de cobros duplicados o erróneos, de imposibilidad de activar el servicio o de resolución por parte del Vendedor sin culpa del comprador, el reembolso se abona en la tarjeta utilizada. Consulte las [Condiciones de Entrega y Reembolso](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "obligations",
+      "heading": "7. Obligaciones",
+      "blocks": [
+        {
+          "ul": [
+            "El Vendedor presta el servicio conforme a lo descrito en el Contrato de Servicio para Establecimientos, con la diligencia y la competencia razonables.",
+            "El comprador es responsable de la exactitud de sus datos de facturación y de contacto y de la seguridad de su cuenta.",
+            "El comprador declara que la tarjeta utilizada le pertenece o que está autorizado para utilizarla.",
+            "Si el emisor de la tarjeta revierte un pago, el Vendedor podrá suspender el servicio correspondiente a ese período."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-info",
+      "heading": "8. Información precontractual y aceptación",
+      "blocks": [
+        {
+          "p": "Antes de aceptar, el comprador confirma haber leído en línea la identidad y los datos de contacto del Vendedor, las características principales del servicio, el precio total con impuestos incluidos, las condiciones de pago y ejecución, la información sobre el desistimiento, las condiciones de cancelación y reembolso y el procedimiento para presentar reclamaciones. Este texto está siempre disponible en esta página y puede imprimirse."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "9. Datos personales",
+      "blocks": [
+        {
+          "p": "Los datos personales del comprador se tratan conforme al [Aviso informativo KVKK y Aviso de privacidad para usuarios de establecimientos](doc:privacy-business)."
+        }
+      ]
+    },
+    {
+      "id": "disputes",
+      "heading": "10. Controversias",
+      "blocks": [
+        {
+          "p": "Este contrato se rige por las leyes de la República de Türkiye. Son competentes los tribunales y las oficinas de ejecución de Antalya. Cuando el comprador sea consumidor, son competentes los Comités Arbitrales de Consumo dentro de los límites cuantitativos fijados por el Ministerio de Comercio y, por encima de ellos, los Tribunales de Consumo. Las reclamaciones pueden dirigirse en primer lugar a [hello@goktigin.com](mailto:hello@goktigin.com). Quedan a salvo las normas imperativas del país del comprador."
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "heading": "11. Entrada en vigor",
+      "blocks": [
+        {
+          "p": "Este contrato entra en vigor cuando el comprador lo acepta electrónicamente en el paso de pago y se completa el pago. Los registros electrónicos del Vendedor constituyen prueba en caso de controversia."
+        }
+      ]
+    }
+  ],
+  "annexes": [
+    "delivery-returns"
+  ]
+}

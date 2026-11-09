@@ -1,0 +1,100 @@
+{
+  "key": "about",
+  "version": "1.0",
+  "locale": "it",
+  "title": "Chi siamo",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu è un software di menu QR, ordinazione al tavolo, gestione delle scorte e prezzi intelligenti per ristoranti, caffè e bar. È sviluppato e venduto ad Antalya, in Turchia, da Göktigin Bilişim Teknoloji Ltd. Şti.",
+  "sections": [
+    {
+      "id": "who",
+      "heading": "1. Chi siamo",
+      "blocks": [
+        {
+          "p": "Art of Menu è un prodotto software di **Göktigin Bilişim Teknoloji Limited Şirketi**, che opera nell'edificio di ricerca e sviluppo Uluğbey dell'Università Akdeniz ad Antalya. Il nostro obiettivo è consentire alle attività di ristorazione di digitalizzare facilmente i propri menu, servire gli ospiti nella loro lingua e prendere le decisioni quotidiane sulla base dei dati."
+        },
+        {
+          "p": "Art of Menu non è una persona giuridica distinta; il fornitore del servizio e venditore degli abbonamenti è Göktigin Bilişim Teknoloji Ltd. Şti."
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "heading": "2. Che cosa offriamo",
+      "blocks": [
+        {
+          "p": "Art of Menu è un software in cloud (SaaS) offerto alle attività in abbonamento. Per ciascuna sede sono disponibili tre piani:"
+        },
+        {
+          "ul": [
+            "**Menu:** menu QR multilingue, foto dei prodotti, informazioni sugli allergeni, menu in PDF, dominio proprio dell'attività.",
+            "**Order:** tutto quanto previsto dal piano Menu, più ordinazione al tavolo, schermata per i camerieri e chiamata del cameriere, dell'acqua o del conto.",
+            "**Smart:** tutto quanto previsto dal piano Order, più prezzi intelligenti giornalieri, ordinamento del menu in base al meteo, suggerimenti di prodotti, gestione delle scorte basata sulle ricette e report sulle vendite."
+          ]
+        },
+        {
+          "p": "I prezzi aggiornati sono riportati nella sezione [Prezzi](https://artofmenu.com/#plans) della pagina principale."
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "heading": "3. Come acquistare",
+      "blocks": [
+        {
+          "p": "L'abbonamento si attiva creando un account su [app.artofmenu.com](https://app.artofmenu.com). I pagamenti sono effettuati con carta di credito o di debito tramite l'istituto di pagamento autorizzato **iyzico**; i dati della carta non sono conservati sui server di Art of Menu."
+        },
+        {
+          "p": "Il servizio è interamente digitale e non viene spedito alcun prodotto fisico. Le condizioni di consegna, disdetta e rimborso sono indicate nella pagina [Condizioni di consegna e rimborso](doc:delivery-returns); le condizioni di vendita sono indicate nel [Contratto di vendita a distanza](doc:distance-sales) e nel [Contratto di Servizio per le Attività](doc:business-terms)."
+        }
+      ]
+    },
+    {
+      "id": "company",
+      "heading": "4. Dati della Società e contatti",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Dato",
+              "Valore"
+            ],
+            "rows": [
+              [
+                "Ragione sociale",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Indirizzo",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Ufficio delle imposte / Codice fiscale",
+                "Antalya Kurumlar Vergi Dairesi (Ufficio delle imposte per le società di Antalya) / 4060725346"
+              ],
+              [
+                "Numero MERSİS",
+                "0406072534600001"
+              ],
+              [
+                "Registro delle imprese",
+                "Registro delle imprese di Antalya — 137005"
+              ],
+              [
+                "Telefono",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Per ulteriori informazioni legali può consultare la pagina [Società e informazioni legali](doc:company)."
+        }
+      ]
+    }
+  ]
+}

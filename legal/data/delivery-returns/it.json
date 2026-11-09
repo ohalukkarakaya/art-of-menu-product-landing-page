@@ -1,0 +1,135 @@
+{
+  "key": "delivery-returns",
+  "version": "1.0",
+  "locale": "it",
+  "title": "Condizioni di consegna e rimborso",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu è un servizio digitale in abbonamento. Non sono previste consegne fisiche né spedizioni; il servizio viene attivato nel Suo account non appena il pagamento è confermato.",
+  "sections": [
+    {
+      "id": "nature",
+      "heading": "1. Natura del servizio",
+      "blocks": [
+        {
+          "p": "Art of Menu è un software in cloud che Göktigin Bilişim Teknoloji Ltd. Şti. (la “Società”) offre in abbonamento ad attività quali ristoranti, caffè e bar. Ciò che viene acquistato è il diritto di utilizzare il piano scelto per la sede selezionata per un determinato periodo (mensile o annuale). Non vengono venduti prodotti fisici."
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "2. Consegna",
+      "blocks": [
+        {
+          "ul": [
+            "**Modalità di consegna:** il servizio è fornito in formato elettronico tramite il pannello su [app.artofmenu.com](https://app.artofmenu.com). Non sono previsti spedizioni, corrieri o invii fisici e non è addebitato alcun costo di consegna.",
+            "**Tempi di consegna:** il piano scelto viene attivato per la relativa sede nel momento in cui il pagamento è confermato. La conferma del pagamento e la fattura sono inviate all'indirizzo e-mail registrato nell'account.",
+            "**Destinatario:** il servizio è associato all'account Art of Menu dell'attività che ha effettuato il pagamento.",
+            "**Disservizi:** se, nonostante il pagamento, il piano non viene attivato, può contattare [hello@goktigin.com](mailto:hello@goktigin.com) o il numero +90 554 238 70 07. Il problema viene risolto entro 1 giorno lavorativo; in caso contrario, il pagamento viene rimborsato."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "3. Diritto di recesso",
+      "blocks": [
+        {
+          "p": "Art of Menu è venduto esclusivamente ad attività che acquistano il servizio per la propria attività commerciale o professionale. Poiché l'acquirente non agisce in qualità di consumatore, non si applica il diritto di recesso previsto dalla Legge turca n. 6502 sulla tutela dei consumatori e dal Regolamento sui contratti a distanza."
+        },
+        {
+          "p": "Anche nei casi in cui l'acquirente sia considerato consumatore, ai sensi dell'art. 15, lettera (ğ) del Regolamento sui contratti a distanza, il diritto di recesso non sussiste per i servizi eseguiti istantaneamente in formato elettronico. L'acquirente accetta tale circostanza acconsentendo, nella fase di pagamento, all'avvio immediato del servizio."
+        }
+      ]
+    },
+    {
+      "id": "cancel",
+      "heading": "4. Disdetta dell'abbonamento",
+      "blocks": [
+        {
+          "ul": [
+            "L'abbonamento può essere disdetto in qualsiasi momento dalla schermata **Abbonamento** del pannello.",
+            "La disdetta ha effetto alla fine del periodo già pagato; fino a tale data il servizio resta utilizzabile e per il periodo successivo non viene addebitato alcun corrispettivo.",
+            "La disdetta può essere revocata prima della fine del periodo.",
+            "Anche il passaggio a un piano inferiore ha effetto alla fine del periodo."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refund",
+      "heading": "5. Condizioni di rimborso",
+      "blocks": [
+        {
+          "p": "Di regola, il corrispettivo di un periodo di abbonamento già iniziato non è rimborsato, nemmeno per il tempo residuo. Il rimborso è effettuato nei seguenti casi:"
+        },
+        {
+          "ul": [
+            "addebiti multipli o di importo errato per lo stesso periodo: l'intero importo addebitato in eccesso;",
+            "mancata attivazione del servizio, nonostante il pagamento, entro il termine indicato alla sezione 2: l'intero importo pagato;",
+            "risoluzione del contratto da parte della Società senza colpa dell'acquirente: il corrispettivo relativo al periodo pagato e non utilizzato;",
+            "altri casi in cui il rimborso sia imposto da norme imperative."
+          ]
+        },
+        {
+          "p": "La richiesta di rimborso va inviata per iscritto dall'indirizzo e-mail registrato nell'account a [hello@goktigin.com](mailto:hello@goktigin.com), indicando il nome dell'attività, la data e l'importo del pagamento. La richiesta viene evasa entro 5 giorni lavorativi."
+        }
+      ]
+    },
+    {
+      "id": "refund-method",
+      "heading": "6. Modalità di rimborso",
+      "blocks": [
+        {
+          "p": "Il rimborso approvato è effettuato sulla carta utilizzata per il pagamento, tramite l'infrastruttura di pagamento iyzico. A seconda della banca, l'accredito sul conto della carta richiede generalmente da 2 a 10 giorni lavorativi. Per i pagamenti rateali, il rimborso può essere accreditato a rate secondo la prassi della banca. Non sono effettuati rimborsi in contanti."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "7. Contatti",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Dato",
+              "Valore"
+            ],
+            "rows": [
+              [
+                "Ragione sociale",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Indirizzo",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Ufficio delle imposte / Codice fiscale",
+                "Antalya Kurumlar Vergi Dairesi (Ufficio delle imposte per le società di Antalya) / 4060725346"
+              ],
+              [
+                "Numero MERSİS",
+                "0406072534600001"
+              ],
+              [
+                "Registro delle imprese",
+                "Registro delle imprese di Antalya — 137005"
+              ],
+              [
+                "Telefono",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Le altre condizioni di vendita sono contenute nel [Contratto di vendita a distanza](doc:distance-sales) e nel [Contratto di Servizio per le Attività](doc:business-terms)."
+        }
+      ]
+    }
+  ]
+}

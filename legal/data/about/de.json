@@ -1,0 +1,100 @@
+{
+  "key": "about",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Über uns",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu ist eine Software für QR-Speisekarten, Bestellungen am Tisch, Lagerverwaltung und intelligente Preisgestaltung für Restaurants, Cafés und Bars. Sie wird von der Göktigin Bilişim Teknoloji Ltd. Şti. in Antalya, Türkei, entwickelt und vertrieben.",
+  "sections": [
+    {
+      "id": "who",
+      "heading": "1. Wer wir sind",
+      "blocks": [
+        {
+          "p": "Art of Menu ist ein Softwareprodukt der **Göktigin Bilişim Teknoloji Limited Şirketi** mit Sitz im F&E-Gebäude Uluğbey der Akdeniz-Universität in Antalya. Wir unterstützen Gastronomiebetriebe dabei, ihre Speisekarten einfach zu digitalisieren, ihre Gäste in deren eigener Sprache zu bedienen und tägliche Entscheidungen auf Grundlage von Daten zu treffen."
+        },
+        {
+          "p": "Art of Menu ist keine eigene juristische Person; Anbieter des Dienstes und Verkäufer der Abonnements ist die Göktigin Bilişim Teknoloji Ltd. Şti."
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "heading": "2. Was wir anbieten",
+      "blocks": [
+        {
+          "p": "Art of Menu ist eine Cloud-Software (SaaS), die Betrieben im Abonnement angeboten wird. Je Filiale stehen drei Pakete zur Verfügung:"
+        },
+        {
+          "ul": [
+            "**Menu:** mehrsprachige QR-Speisekarte, Produktfotos, Allergeninformationen, PDF-Speisekarte, eigene Domain des Betriebs.",
+            "**Order:** alle Leistungen von Menu sowie Bestellung am Tisch, Kellneransicht und Ruf nach Kellner, Wasser oder Rechnung.",
+            "**Smart:** alle Leistungen von Order sowie tägliche intelligente Preisgestaltung, wetterabhängige Sortierung der Speisekarte, Produktempfehlungen, rezeptbasierte Lagerverwaltung und Verkaufsberichte."
+          ]
+        },
+        {
+          "p": "Die aktuellen Preise finden Sie im Abschnitt [Preise](https://artofmenu.com/#plans) auf der Startseite."
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "heading": "3. So kaufen Sie",
+      "blocks": [
+        {
+          "p": "Ein Abonnement beginnt mit der Erstellung eines Kontos unter [app.artofmenu.com](https://app.artofmenu.com). Zahlungen werden per Kredit- oder Debitkarte über das lizenzierte Zahlungsinstitut **iyzico** abgewickelt; Kartendaten werden nicht auf den Servern von Art of Menu gespeichert."
+        },
+        {
+          "p": "Der Dienst ist vollständig digital; es werden keine physischen Waren versandt. Die Bedingungen für Lieferung, Kündigung und Erstattung finden Sie in den [Liefer- und Erstattungsbedingungen](doc:delivery-returns); die Verkaufsbedingungen sind im [Fernabsatzvertrag](doc:distance-sales) und im [Dienstleistungsvertrag für Betriebe](doc:business-terms) geregelt."
+        }
+      ]
+    },
+    {
+      "id": "company",
+      "heading": "4. Unternehmens- und Kontaktangaben",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Angabe",
+              "Wert"
+            ],
+            "rows": [
+              [
+                "Firma",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Anschrift",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Finanzamt / Steuernummer",
+                "Körperschaftsteueramt Antalya / 4060725346"
+              ],
+              [
+                "MERSİS-Nummer",
+                "0406072534600001"
+              ],
+              [
+                "Handelsregister",
+                "Handelsregisteramt Antalya — 137005"
+              ],
+              [
+                "Telefon",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-Mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Weitere rechtliche Angaben finden Sie unter [Unternehmen und rechtliche Angaben](doc:company)."
+        }
+      ]
+    }
+  ]
+}

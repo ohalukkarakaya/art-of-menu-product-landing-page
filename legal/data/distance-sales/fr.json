@@ -1,0 +1,195 @@
+{
+  "key": "distance-sales",
+  "version": "1.0",
+  "locale": "fr",
+  "title": "Contrat de vente à distance",
+  "effective": "2026-11-09",
+  "summary": "Le présent contrat régit les conditions d'achat en ligne des abonnements Art of Menu sur app.artofmenu.com. Il entre en vigueur lorsqu'il est accepté électroniquement lors de l'étape de paiement.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Parties",
+      "blocks": [
+        {
+          "p": "**VENDEUR**"
+        },
+        {
+          "table": {
+            "head": [
+              "Information",
+              "Valeur"
+            ],
+            "rows": [
+              [
+                "Raison sociale",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Adresse",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Centre des impôts / N° d'identification fiscale",
+                "Centre des impôts des sociétés d'Antalya / 4060725346"
+              ],
+              [
+                "Numéro MERSIS",
+                "0406072534600001"
+              ],
+              [
+                "Registre du commerce",
+                "Registre du commerce d'Antalya — 137005"
+              ],
+              [
+                "Téléphone",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "**ACHETEUR :** l'établissement qui crée un compte Art of Menu et accepte le présent contrat lors de l'étape de paiement. La raison sociale ou les nom et prénom, l'adresse, les informations fiscales, le téléphone et l'adresse e-mail de l'Acheteur sont les informations de facturation qu'il a renseignées dans le panneau ; ils sont affichés lors du paiement."
+        }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Objet du contrat",
+      "blocks": [
+        {
+          "p": "Le présent contrat a pour objet les droits et obligations des parties relatifs à l'achat en ligne par l'Acheteur de la formule de son choix du logiciel Art of Menu appartenant au Vendeur, pour l'établissement et la période qu'il a choisis. Les conditions d'utilisation détaillées du service figurent dans le [Contrat de service pour les établissements](doc:business-terms), qui fait partie intégrante du présent contrat."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "3. Service, prix et paiement",
+      "blocks": [
+        {
+          "p": "La formule, le nombre d'établissements, la période, le prix total toutes taxes comprises et le mode de paiement du service acheté sont indiqués sur l'écran de paiement et dans l'e-mail de confirmation envoyé à l'Acheteur. Les prix catalogue par établissement à la date d'entrée en vigueur du présent contrat sont les suivants :"
+        },
+        {
+          "table": {
+            "head": [
+              "Formule",
+              "Mensuel (par établissement)",
+              "Annuel (par établissement)"
+            ],
+            "rows": [
+              [
+                "Menu",
+                "399 TRY / 9 € / 12 $",
+                "3 990 TRY / 90 € / 120 $"
+              ],
+              [
+                "Order",
+                "999 TRY / 29 € / 35 $",
+                "9 990 TRY / 290 € / 350 $"
+              ],
+              [
+                "Smart",
+                "1 999 TRY / 59 € / 69 $",
+                "19 990 TRY / 590 € / 690 $"
+              ]
+            ]
+          }
+        },
+        {
+          "ul": [
+            "Le paiement est effectué par carte de crédit ou de débit via l'infrastructure de l'établissement de paiement agréé iyzico. Les données de carte ne sont pas conservées dans les systèmes du Vendeur.",
+            "L'abonnement est renouvelé automatiquement pour la même durée jusqu'à sa résiliation, et le prix de chaque nouvelle période est prélevé sur la carte enregistrée.",
+            "La facture est émise par voie électronique avec les informations de facturation renseignées par l'Acheteur dans le panneau.",
+            "Les modifications de prix sont notifiées au moins 30 jours à l'avance et s'appliquent à compter du premier renouvellement suivant la notification."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "4. Exécution du service (livraison)",
+      "blocks": [
+        {
+          "p": "Le service est exécuté par voie électronique ; aucune livraison physique n'a lieu. Dès la confirmation du paiement, la formule choisie est activée pour l'établissement concerné dans le compte de l'Acheteur sur [app.artofmenu.com](https://app.artofmenu.com). Les détails figurent dans les [Conditions de livraison et de remboursement](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "5. Droit de rétractation",
+      "blocks": [
+        {
+          "p": "L'Acheteur achète le service dans le cadre de son activité commerciale ou professionnelle et n'agit pas en qualité de consommateur ; par conséquent, le droit de rétractation prévu par la loi turque n° 6502 et le Règlement sur les contrats à distance ne s'applique pas."
+        },
+        {
+          "p": "Même lorsque l'Acheteur est considéré comme un consommateur, conformément à l'article 15, paragraphe 1, point (ğ) du Règlement sur les contrats à distance, le droit de rétractation ne peut être exercé pour les services exécutés instantanément par voie électronique. Lors de l'étape de paiement, l'Acheteur reconnaît avoir demandé que le service commence immédiatement et avoir connaissance de cette conséquence."
+        }
+      ]
+    },
+    {
+      "id": "cancel-refund",
+      "heading": "6. Résiliation et remboursement",
+      "blocks": [
+        {
+          "p": "L'Acheteur peut résilier son abonnement à tout moment depuis le panneau ; la résiliation prend effet à la fin de la période payée. En règle générale, le prix d'une période commencée n'est pas remboursé. En cas de prélèvement erroné ou en double, d'impossibilité d'activer le service ou de résiliation du contrat par le Vendeur sans faute de l'Acheteur, le remboursement est effectué sur la carte utilisée pour le paiement. Les détails figurent dans les [Conditions de livraison et de remboursement](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "obligations",
+      "heading": "7. Obligations des parties",
+      "blocks": [
+        {
+          "ul": [
+            "Le Vendeur fournit le service tel que décrit dans le Contrat de service pour les établissements, avec un soin raisonnable et une diligence professionnelle.",
+            "L'Acheteur est responsable de l'exactitude des informations de facturation et de contact qu'il renseigne dans le panneau, ainsi que de la sécurité de son compte.",
+            "L'Acheteur déclare que la carte utilisée pour le paiement lui appartient ou qu'il est autorisé à l'utiliser.",
+            "Si la banque émettrice de la carte annule ultérieurement le paiement, le Vendeur peut suspendre le service pour la période concernée."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-info",
+      "heading": "8. Information précontractuelle et acceptation",
+      "blocks": [
+        {
+          "p": "Avant d'accepter le contrat, l'Acheteur reconnaît avoir lu en ligne et avoir pris connaissance de l'identité et des coordonnées du Vendeur, des caractéristiques essentielles du service, du prix total toutes taxes comprises, des modalités de paiement et d'exécution, des informations relatives au droit de rétractation, des conditions de résiliation et de remboursement ainsi que des voies de réclamation. Le texte du contrat est accessible en permanence sur cette page et peut être imprimé."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "9. Données personnelles",
+      "blocks": [
+        {
+          "p": "Les données personnelles de l'Acheteur sont traitées conformément à la [Notice d'information KVKK et déclaration de confidentialité à l'intention des utilisateurs des établissements](doc:privacy-business)."
+        }
+      ]
+    },
+    {
+      "id": "disputes",
+      "heading": "10. Règlement des litiges",
+      "blocks": [
+        {
+          "p": "Le présent contrat est régi par le droit de la République de Türkiye. Les tribunaux et les bureaux d'exécution d'Antalya sont compétents pour les litiges. Lorsque l'Acheteur est considéré comme un consommateur, sont compétents les Commissions d'arbitrage des consommateurs du lieu de domicile de l'Acheteur ou du Vendeur, dans les limites pécuniaires fixées par le ministère du Commerce, et les Tribunaux de la consommation au-delà de ces limites. Les réclamations peuvent d'abord être adressées à [hello@goktigin.com](mailto:hello@goktigin.com). Les dispositions impératives du pays de l'Acheteur demeurent réservées."
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "heading": "11. Entrée en vigueur",
+      "blocks": [
+        {
+          "p": "Le présent contrat entre en vigueur lorsque l'Acheteur l'accepte électroniquement lors de l'étape de paiement et que le paiement est effectué. Les enregistrements électroniques du Vendeur font foi en cas de litige."
+        }
+      ]
+    }
+  ],
+  "annexes": [
+    "delivery-returns"
+  ]
+}

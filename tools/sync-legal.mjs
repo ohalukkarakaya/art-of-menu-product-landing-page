@@ -12,7 +12,7 @@ const target = path.join(site, 'legal')
 const langs = ['tr', 'en', 'de', 'es', 'fr', 'it']
 const current = JSON.parse(fs.readFileSync(path.join(legalRoot, 'current.json'), 'utf8'))
 const keys = Object.keys(current)
-const names = new Set(['company', 'business-terms', 'dpa', 'corporate-policy', 'partner-terms', 'privacy-business', 'privacy-partner', 'privacy-guest', 'cookies'])
+const names = new Set(['company', 'business-terms', 'dpa', 'corporate-policy', 'partner-terms', 'privacy-business', 'privacy-partner', 'privacy-guest', 'cookies', 'distance-sales', 'delivery-returns'])
 if (keys.length !== names.size || keys.some(k => !names.has(k))) throw Error('Unexpected legal document inventory')
 
 fs.mkdirSync(path.join(target, 'data'), { recursive: true })
@@ -30,9 +30,9 @@ for (const key of keys) {
     fs.writeFileSync(path.join(target, 'data', key, lang + '.json'), raw)
   }
 }
-// Documents that live only on this site (iyzico merchant requirements), not in the backend: keep them.
+// Pages that live only on this site, not in the backend (the About page iyzico asks for): keep them.
 const previous = JSON.parse(fs.readFileSync(path.join(target, 'data', 'manifest.json'), 'utf8'))
-const siteOnly = ['about', 'delivery-returns', 'distance-sales']
+const siteOnly = ['about']
 for (const key of siteOnly) if (previous[key]) manifest[key] = previous[key]
 fs.writeFileSync(path.join(target, 'data', 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n')
 const page = (key = '') => `<!doctype html>

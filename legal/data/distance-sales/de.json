@@ -1,0 +1,195 @@
+{
+  "key": "distance-sales",
+  "version": "1.0",
+  "locale": "de",
+  "title": "Fernabsatzvertrag",
+  "effective": "2026-11-09",
+  "summary": "Dieser Vertrag regelt die Bedingungen für den elektronischen Kauf von Art of Menu-Abonnements über app.artofmenu.com. Er tritt in Kraft, wenn er im Zahlungsschritt elektronisch angenommen wird.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Vertragsparteien",
+      "blocks": [
+        {
+          "p": "**VERKÄUFER**"
+        },
+        {
+          "table": {
+            "head": [
+              "Angabe",
+              "Wert"
+            ],
+            "rows": [
+              [
+                "Firma",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Anschrift",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Finanzamt / Steuernummer",
+                "Körperschaftsteueramt Antalya / 4060725346"
+              ],
+              [
+                "MERSİS-Nummer",
+                "0406072534600001"
+              ],
+              [
+                "Handelsregister",
+                "Handelsregisteramt Antalya — 137005"
+              ],
+              [
+                "Telefon",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-Mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "**KÄUFER:** der Betrieb, der ein Art of Menu-Konto erstellt und diesen Vertrag im Zahlungsschritt annimmt. Firma bzw. Vor- und Nachname, Anschrift, Steuerangaben, Telefonnummer und E-Mail-Adresse des Käufers sind die Rechnungsangaben, die er im Panel hinterlegt, und werden beim Bezahlvorgang angezeigt."
+        }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Vertragsgegenstand",
+      "blocks": [
+        {
+          "p": "Gegenstand dieses Vertrags sind die Rechte und Pflichten der Parteien beim elektronischen Erwerb eines Pakets der Art of Menu-Software des Verkäufers durch den Käufer für eine von ihm gewählte Filiale und Laufzeit. Die ausführlichen Nutzungsbedingungen des Dienstes sind im [Dienstleistungsvertrag für Betriebe](doc:business-terms) geregelt, der Bestandteil dieses Vertrags ist."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "3. Leistung, Preis und Zahlung",
+      "blocks": [
+        {
+          "p": "Paket, Anzahl der Filialen, Laufzeit, Gesamtpreis einschließlich Steuern und Zahlungsart des erworbenen Dienstes werden auf der Zahlungsseite und in der an den Käufer gesendeten Bestätigungs-E-Mail angezeigt. Die Listenpreise je Filiale zum Zeitpunkt des Inkrafttretens dieses Vertrags lauten:"
+        },
+        {
+          "table": {
+            "head": [
+              "Paket",
+              "Monatlich (je Filiale)",
+              "Jährlich (je Filiale)"
+            ],
+            "rows": [
+              [
+                "Menu",
+                "399 TRY / 9 € / 12 $",
+                "3.990 TRY / 90 € / 120 $"
+              ],
+              [
+                "Order",
+                "999 TRY / 29 € / 35 $",
+                "9.990 TRY / 290 € / 350 $"
+              ],
+              [
+                "Smart",
+                "1.999 TRY / 59 € / 69 $",
+                "19.990 TRY / 590 € / 690 $"
+              ]
+            ]
+          }
+        },
+        {
+          "ul": [
+            "Die Zahlung erfolgt per Kredit- oder Debitkarte über das lizenzierte Zahlungsinstitut iyzico. Kartendaten werden nicht in den Systemen des Verkäufers gespeichert.",
+            "Das Abonnement verlängert sich bis zur Kündigung automatisch um dieselbe Laufzeit, und das Entgelt für jede neue Laufzeit wird von der hinterlegten Karte eingezogen.",
+            "Rechnungen werden elektronisch mit den vom Käufer im Panel angegebenen Rechnungsangaben ausgestellt.",
+            "Preisänderungen werden mindestens 30 Tage im Voraus mitgeteilt und gelten ab der ersten Verlängerung nach der Mitteilung."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "4. Leistungserbringung (Lieferung)",
+      "blocks": [
+        {
+          "p": "Der Dienst wird elektronisch erbracht; eine physische Lieferung erfolgt nicht. Sobald die Zahlung bestätigt ist, wird das gewählte Paket für die betreffende Filiale im Konto des Käufers unter [app.artofmenu.com](https://app.artofmenu.com) freigeschaltet. Einzelheiten finden Sie in den [Liefer- und Erstattungsbedingungen](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "5. Widerrufsrecht",
+      "blocks": [
+        {
+          "p": "Der Käufer erwirbt den Dienst für seine gewerbliche oder berufliche Tätigkeit und handelt nicht als Verbraucher; daher findet das Widerrufsrecht nach dem türkischen Gesetz Nr. 6502 über den Verbraucherschutz und der Verordnung über Fernabsatzverträge keine Anwendung."
+        },
+        {
+          "p": "Auch in Fällen, in denen der Käufer als Verbraucher gilt, besteht gemäß Art. 15 Abs. 1 Buchst. ğ der Verordnung über Fernabsatzverträge kein Widerrufsrecht bei Dienstleistungen, die sofort elektronisch erbracht werden. Der Käufer erklärt im Zahlungsschritt, dass er den sofortigen Beginn des Dienstes verlangt und sich dieser Folge bewusst ist."
+        }
+      ]
+    },
+    {
+      "id": "cancel-refund",
+      "heading": "6. Kündigung und Erstattung",
+      "blocks": [
+        {
+          "p": "Der Käufer kann sein Abonnement jederzeit im Panel kündigen; die Kündigung wird zum Ende der bezahlten Laufzeit wirksam. Das Entgelt für eine bereits begonnene Laufzeit wird grundsätzlich nicht erstattet. Bei fehlerhaften oder doppelten Abbuchungen, wenn der Dienst nicht freigeschaltet werden kann, sowie bei Beendigung des Vertrags durch den Verkäufer ohne Verschulden des Käufers erfolgt die Erstattung auf die für die Zahlung verwendete Karte. Einzelheiten finden Sie in den [Liefer- und Erstattungsbedingungen](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "obligations",
+      "heading": "7. Pflichten der Parteien",
+      "blocks": [
+        {
+          "ul": [
+            "Der Verkäufer erbringt den Dienst in der im Dienstleistungsvertrag für Betriebe beschriebenen Beschaffenheit mit angemessener Sorgfalt und fachlicher Gewissenhaftigkeit.",
+            "Der Käufer ist für die Richtigkeit der im Panel angegebenen Rechnungs- und Kontaktangaben sowie für die Sicherheit seines Kontos verantwortlich.",
+            "Der Käufer erklärt, dass die für die Zahlung verwendete Karte ihm gehört oder er zu ihrer Verwendung berechtigt ist.",
+            "Macht die kartenausgebende Bank eine Zahlung nachträglich rückgängig, kann der Verkäufer den Dienst für die betreffende Laufzeit aussetzen."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-info",
+      "heading": "8. Vorvertragliche Informationen und Annahme",
+      "blocks": [
+        {
+          "p": "Der Käufer bestätigt, dass er vor der Annahme des Vertrags die Identitäts- und Kontaktangaben des Verkäufers, die wesentlichen Merkmale des Dienstes, den Gesamtpreis einschließlich Steuern, die Art der Zahlung und Leistungserbringung, die Informationen zum Widerrufsrecht, die Kündigungs- und Erstattungsbedingungen sowie die Beschwerdemöglichkeiten elektronisch gelesen und zur Kenntnis genommen hat. Der Vertragstext ist auf dieser Seite jederzeit abrufbar und kann ausgedruckt werden."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "9. Personenbezogene Daten",
+      "blocks": [
+        {
+          "p": "Die personenbezogenen Daten des Käufers werden gemäß der [Datenschutzinformation nach KVKK und Datenschutzerklärung für Betriebsnutzer](doc:privacy-business) verarbeitet."
+        }
+      ]
+    },
+    {
+      "id": "disputes",
+      "heading": "10. Streitbeilegung",
+      "blocks": [
+        {
+          "p": "Dieser Vertrag unterliegt dem Recht der Republik Türkei. Für Streitigkeiten sind die Gerichte und Vollstreckungsbehörden in Antalya zuständig. Gilt der Käufer als Verbraucher, sind innerhalb der vom Handelsministerium festgelegten Wertgrenzen die Verbraucherschiedskommissionen am Wohnsitz des Käufers oder des Verkäufers und oberhalb dieser Grenzen die Verbrauchergerichte zuständig. Beschwerden können zunächst an [hello@goktigin.com](mailto:hello@goktigin.com) gerichtet werden. Zwingende Vorschriften des Landes des Käufers bleiben unberührt."
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "heading": "11. Inkrafttreten",
+      "blocks": [
+        {
+          "p": "Dieser Vertrag tritt in Kraft, wenn der Käufer ihn im Zahlungsschritt elektronisch annimmt und die Zahlung abgeschlossen ist. Die elektronischen Aufzeichnungen des Verkäufers dienen bei Streitigkeiten als Beweismittel."
+        }
+      ]
+    }
+  ],
+  "annexes": [
+    "delivery-returns"
+  ]
+}

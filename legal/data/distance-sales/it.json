@@ -1,0 +1,195 @@
+{
+  "key": "distance-sales",
+  "version": "1.0",
+  "locale": "it",
+  "title": "Contratto di vendita a distanza",
+  "effective": "2026-11-09",
+  "summary": "Il presente contratto disciplina le condizioni di acquisto online degli abbonamenti Art of Menu su app.artofmenu.com. Entra in vigore con l'accettazione elettronica nella fase di pagamento.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Parti",
+      "blocks": [
+        {
+          "p": "**VENDITORE**"
+        },
+        {
+          "table": {
+            "head": [
+              "Dato",
+              "Valore"
+            ],
+            "rows": [
+              [
+                "Ragione sociale",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Indirizzo",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Ufficio delle imposte / Codice fiscale",
+                "Antalya Kurumlar Vergi Dairesi (Ufficio delle imposte per le società di Antalya) / 4060725346"
+              ],
+              [
+                "Numero MERSİS",
+                "0406072534600001"
+              ],
+              [
+                "Registro delle imprese",
+                "Registro delle imprese di Antalya — 137005"
+              ],
+              [
+                "Telefono",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "**ACQUIRENTE:** l'attività che crea un account Art of Menu e accetta il presente contratto nella fase di pagamento. La ragione sociale o il nome e cognome, l'indirizzo, i dati fiscali, il telefono e l'indirizzo e-mail dell'Acquirente sono i dati di fatturazione da esso indicati nel pannello e vengono mostrati al momento del pagamento."
+        }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Oggetto del contratto",
+      "blocks": [
+        {
+          "p": "Oggetto del presente contratto sono i diritti e gli obblighi delle parti relativi all'acquisto online, da parte dell'Acquirente, del piano da esso scelto del software Art of Menu del Venditore, per la sede e il periodo selezionati. Le condizioni d'uso dettagliate del servizio sono contenute nel [Contratto di Servizio per le Attività](doc:business-terms), che costituisce parte integrante del presente contratto."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "3. Servizio, prezzo e pagamento",
+      "blocks": [
+        {
+          "p": "Il piano, il numero di sedi, il periodo, il prezzo totale comprensivo di imposte e la modalità di pagamento del servizio acquistato sono indicati nella schermata di pagamento e nell'e-mail di conferma inviata all'Acquirente. I prezzi di listino per sede alla data di entrata in vigore del presente contratto sono i seguenti:"
+        },
+        {
+          "table": {
+            "head": [
+              "Piano",
+              "Mensile (per sede)",
+              "Annuale (per sede)"
+            ],
+            "rows": [
+              [
+                "Menu",
+                "399 TRY / 9 € / 12 $",
+                "3.990 TRY / 90 € / 120 $"
+              ],
+              [
+                "Order",
+                "999 TRY / 29 € / 35 $",
+                "9.990 TRY / 290 € / 350 $"
+              ],
+              [
+                "Smart",
+                "1.999 TRY / 59 € / 69 $",
+                "19.990 TRY / 590 € / 690 $"
+              ]
+            ]
+          }
+        },
+        {
+          "ul": [
+            "Il pagamento è effettuato con carta di credito o di debito tramite l'infrastruttura dell'istituto di pagamento autorizzato iyzico. I dati della carta non sono conservati nei sistemi del Venditore.",
+            "L'abbonamento si rinnova automaticamente per la stessa durata fino alla disdetta e il corrispettivo di ogni nuovo periodo è addebitato sulla carta registrata.",
+            "La fattura è emessa in formato elettronico con i dati indicati dall'Acquirente nel pannello.",
+            "Le variazioni di prezzo sono comunicate con almeno 30 giorni di preavviso e si applicano a partire dal primo rinnovo successivo alla comunicazione."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "4. Esecuzione del servizio (consegna)",
+      "blocks": [
+        {
+          "p": "Il servizio è eseguito in formato elettronico; non è prevista alcuna consegna fisica. Nel momento in cui il pagamento è confermato, il piano scelto viene attivato per la relativa sede nell'account dell'Acquirente su [app.artofmenu.com](https://app.artofmenu.com). I dettagli sono riportati nella pagina [Condizioni di consegna e rimborso](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "5. Diritto di recesso",
+      "blocks": [
+        {
+          "p": "L'Acquirente acquista il servizio per la propria attività commerciale o professionale e non agisce in qualità di consumatore; pertanto non si applica il diritto di recesso previsto dalla Legge turca n. 6502 e dal Regolamento sui contratti a distanza."
+        },
+        {
+          "p": "Anche nei casi in cui l'Acquirente sia considerato consumatore, ai sensi dell'art. 15, comma 1, lettera (ğ) del Regolamento sui contratti a distanza il diritto di recesso non può essere esercitato per i servizi eseguiti istantaneamente in formato elettronico. Nella fase di pagamento l'Acquirente richiede che il servizio inizi immediatamente e dichiara di essere consapevole di tale conseguenza."
+        }
+      ]
+    },
+    {
+      "id": "cancel-refund",
+      "heading": "6. Disdetta e rimborso",
+      "blocks": [
+        {
+          "p": "L'Acquirente può disdire l'abbonamento in qualsiasi momento dal pannello; la disdetta ha effetto alla fine del periodo già pagato. Di regola, il corrispettivo di un periodo già iniziato non è rimborsato. In caso di addebito errato o duplicato, di mancata attivazione del servizio o di risoluzione del contratto da parte del Venditore senza colpa dell'Acquirente, il rimborso è effettuato sulla carta utilizzata per il pagamento. I dettagli sono riportati nella pagina [Condizioni di consegna e rimborso](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "obligations",
+      "heading": "7. Obblighi delle parti",
+      "blocks": [
+        {
+          "ul": [
+            "Il Venditore fornisce il servizio con le caratteristiche descritte nel Contratto di Servizio per le Attività, con ragionevole cura e diligenza professionale.",
+            "L'Acquirente è responsabile dell'esattezza dei dati di fatturazione e di contatto indicati nel pannello e della sicurezza del proprio account.",
+            "L'Acquirente dichiara che la carta utilizzata per il pagamento è di sua titolarità o che è autorizzato a utilizzarla.",
+            "Qualora la banca emittente della carta storni successivamente il pagamento, il Venditore può sospendere il servizio per il periodo interessato."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-info",
+      "heading": "8. Informazioni precontrattuali e accettazione",
+      "blocks": [
+        {
+          "p": "L'Acquirente dichiara di aver letto online, prima di accettare il contratto, e di conoscere i dati identificativi e di contatto del Venditore, le caratteristiche essenziali del servizio, il prezzo totale comprensivo di imposte, le modalità di pagamento e di esecuzione, le informazioni sul diritto di recesso, le condizioni di disdetta e rimborso e le modalità di presentazione dei reclami. Il testo del contratto è sempre accessibile su questa pagina e può essere stampato."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "9. Dati personali",
+      "blocks": [
+        {
+          "p": "I dati personali dell'Acquirente sono trattati ai sensi dell'[Informativa KVKK e Informativa sulla privacy per gli utenti delle Attività](doc:privacy-business)."
+        }
+      ]
+    },
+    {
+      "id": "disputes",
+      "heading": "10. Risoluzione delle controversie",
+      "blocks": [
+        {
+          "p": "Il presente contratto è regolato dalla legge della Repubblica di Turchia. Per le controversie sono competenti i tribunali e gli uffici esecutivi di Antalya. Nei casi in cui l'Acquirente sia considerato consumatore, sono competenti le Commissioni arbitrali per i consumatori del luogo di residenza dell'Acquirente o del Venditore entro i limiti di valore stabiliti dal Ministero del Commercio e, oltre tali limiti, i Tribunali dei consumatori. I reclami possono essere inviati in primo luogo all'indirizzo [hello@goktigin.com](mailto:hello@goktigin.com). Restano salve le norme imperative del paese dell'Acquirente."
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "heading": "11. Entrata in vigore",
+      "blocks": [
+        {
+          "p": "Il presente contratto entra in vigore con l'accettazione elettronica da parte dell'Acquirente nella fase di pagamento e con il completamento del pagamento. Le registrazioni elettroniche del Venditore costituiscono prova in caso di controversia."
+        }
+      ]
+    }
+  ],
+  "annexes": [
+    "delivery-returns"
+  ]
+}

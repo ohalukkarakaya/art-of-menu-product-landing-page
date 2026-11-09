@@ -1,0 +1,100 @@
+{
+  "key": "about",
+  "version": "1.0",
+  "locale": "fr",
+  "title": "À propos",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu est un logiciel de menu QR, de commande à table, de gestion des stocks et de tarification intelligente destiné aux restaurants, cafés et bars. Il est développé et commercialisé à Antalya (Türkiye) par Göktigin Bilişim Teknoloji Ltd. Şti.",
+  "sections": [
+    {
+      "id": "who",
+      "heading": "1. Qui sommes-nous ?",
+      "blocks": [
+        {
+          "p": "Art of Menu est un produit logiciel de **Göktigin Bilişim Teknoloji Limited Şirketi**, établie dans le bâtiment de R&D Uluğbey de l'Université Akdeniz à Antalya. Notre objectif est de permettre aux établissements de restauration et de boissons de mettre facilement leurs menus en ligne, de servir leurs clients dans leur propre langue et de prendre leurs décisions quotidiennes sur la base de données."
+        },
+        {
+          "p": "Art of Menu n'est pas une personne morale distincte ; le prestataire du service et le vendeur des abonnements est Göktigin Bilişim Teknoloji Ltd. Şti."
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "heading": "2. Ce que nous proposons",
+      "blocks": [
+        {
+          "p": "Art of Menu est un logiciel en nuage (SaaS) proposé aux établissements sur abonnement. Il existe trois formules par établissement (succursale) :"
+        },
+        {
+          "ul": [
+            "**Menu :** menu QR multilingue, photos des produits, informations sur les allergènes, menu PDF, nom de domaine propre à l'établissement.",
+            "**Order :** l'ensemble de la formule Menu, plus la commande à table, l'écran serveur et les appels serveur/eau/addition.",
+            "**Smart :** l'ensemble de la formule Order, plus la tarification intelligente quotidienne, l'ordre du menu selon la météo, les suggestions de produits, ainsi que les rapports de stock liés aux recettes et de ventes."
+          ]
+        },
+        {
+          "p": "Les prix en vigueur figurent dans la rubrique [Tarifs](https://artofmenu.com/#plans) de la page d'accueil."
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "heading": "3. Comment acheter ?",
+      "blocks": [
+        {
+          "p": "L'abonnement débute par la création d'un compte sur [app.artofmenu.com](https://app.artofmenu.com). Les paiements sont effectués par carte de crédit ou de débit via l'infrastructure de l'établissement de paiement agréé **iyzico** ; les données de carte ne sont pas conservées sur les serveurs d'Art of Menu."
+        },
+        {
+          "p": "Le service est entièrement numérique et aucun produit physique n'est expédié. Les conditions de livraison, de résiliation et de remboursement figurent dans les [Conditions de livraison et de remboursement](doc:delivery-returns) ; les conditions de vente figurent dans le [Contrat de vente à distance](doc:distance-sales) et le [Contrat de service pour les établissements](doc:business-terms)."
+        }
+      ]
+    },
+    {
+      "id": "company",
+      "heading": "4. Informations sur la société et coordonnées",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Information",
+              "Valeur"
+            ],
+            "rows": [
+              [
+                "Raison sociale",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Adresse",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Centre des impôts / N° d'identification fiscale",
+                "Centre des impôts des sociétés d'Antalya / 4060725346"
+              ],
+              [
+                "Numéro MERSIS",
+                "0406072534600001"
+              ],
+              [
+                "Registre du commerce",
+                "Registre du commerce d'Antalya — 137005"
+              ],
+              [
+                "Téléphone",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-mail",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Pour les autres informations légales, veuillez consulter la page [Société et informations légales](doc:company)."
+        }
+      ]
+    }
+  ]
+}
