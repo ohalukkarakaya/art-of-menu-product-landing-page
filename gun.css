@@ -83,6 +83,9 @@ ol { margin: 0; padding: 0; list-style: none; }
 }
 .w-planet { left: 69%; width: min(66vw, 124svh, 1080px); transform: translate(-50%, 53%); transform-origin: 50% 47%; }
 .island { width: 100%; }
+/* a later world that arrives while it is on screen fades in instead of popping */
+.lazy { opacity: 0; transition: opacity .6s ease; }
+.lazy.in { opacity: 1; }
 /* Planets only rock gently, never turn upside down */
 .rock { animation: rock 14s ease-in-out infinite alternate; }
 @keyframes rock { from { rotate: -3deg; } to { rotate: 3deg; } }
@@ -167,9 +170,9 @@ ol { margin: 0; padding: 0; list-style: none; }
 }
 /* The phone shows the real Art of Menu guest menu, scaled down: its font, cover, emblem, pills,
    call buttons, rows with pastel thumbnails on the right, black order button and product sheet. */
-@font-face { font-family: Qanelas; src: url(/assets/fonts/QanelasRegular.otf) format("opentype"); font-weight: 400; font-display: swap; }
-@font-face { font-family: Qanelas; src: url(/assets/fonts/QanelasMedium.otf) format("opentype"); font-weight: 500; font-display: swap; }
-@font-face { font-family: Qanelas; src: url(/assets/fonts/QanelasBold.otf) format("opentype"); font-weight: 700; font-display: swap; }
+@font-face { font-family: Qanelas; src: url(/assets/fonts/QanelasRegular.woff2) format("woff2"), url(/assets/fonts/QanelasRegular.otf) format("opentype"); font-weight: 400; font-display: swap; }
+@font-face { font-family: Qanelas; src: url(/assets/fonts/QanelasMedium.woff2) format("woff2"), url(/assets/fonts/QanelasMedium.otf) format("opentype"); font-weight: 500; font-display: swap; }
+@font-face { font-family: Qanelas; src: url(/assets/fonts/QanelasBold.woff2) format("woff2"), url(/assets/fonts/QanelasBold.otf) format("opentype"); font-weight: 700; font-display: swap; }
 .screen { background: #fff; color: #141414; }
 .sc-in {
   position: absolute; inset: 0; font-size: 5.4cqw; line-height: 1.3; font-family: Qanelas, var(--font, system-ui), sans-serif;

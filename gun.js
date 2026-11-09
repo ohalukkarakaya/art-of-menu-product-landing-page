@@ -21,6 +21,41 @@
   var LAST = worlds.length - 1;
   var finalAda = document.getElementById("ada-final");
 
+  /* The first planet loads first, alone. The later worlds wait for it: then the next two hours
+     load, and the rest follow one world at a time in the background; scrolling ahead asks for
+     the worlds two hours away at once. On a slow connection the hero and the story's script
+     are no longer queued behind five megabytes of later hours. */
+  var asked = [true], heroReady = false;
+  function ask(i) {
+    if (i > LAST || asked[i]) return Promise.resolve();
+    asked[i] = true;
+    return Promise.all(Array.prototype.map.call(worlds[i].querySelectorAll("img[data-src]"), function (img) {
+      return new Promise(function (done) {
+        img.onload = function () {
+          img.classList.add("in");
+          if (img.decode) img.decode().catch(function () {});
+          done();
+        };
+        img.onerror = done;
+        var source = img.parentNode.querySelector("source[data-srcset]");
+        if (source) { source.srcset = source.getAttribute("data-srcset"); source.removeAttribute("data-srcset"); }
+        img.src = img.getAttribute("data-src");
+        img.removeAttribute("data-src");
+      });
+    }));
+  }
+  function askNear(p) { if (heroReady) { var i = Math.floor(p); ask(i); ask(i + 1); ask(i + 2); } }
+  function heroLoaded() {
+    if (heroReady) return;
+    heroReady = true;
+    var next = 1;
+    (function more() { while (next <= LAST && asked[next]) next++; if (next <= LAST) ask(next).then(more); })();
+    askNear(0);
+  }
+  var hero = worlds[0].querySelector("img");
+  if (!hero || hero.complete) heroLoaded();
+  else { hero.addEventListener("load", heroLoaded); hero.addEventListener("error", heroLoaded); }
+
   /* Light for each hour: sky top, sky bottom, orb (sun or moon), whether text turns white */
   var SCENES = [
     { top: "#DCE6FF", bottom: "#F7F8FF", orb: [72, 16, "#FFF2C2", 1], dark: 0, cloud: [1.5, .9] },
@@ -390,6 +425,7 @@
     var rm = reduceMQ.matches;
     var runway = day.offsetHeight - stage.offsetHeight;   // the stage stays pinned for exactly this distance
     var p = target = clamp(-day.getBoundingClientRect().top / runway) * LAST;
+    askNear(p);
     var now = performance.now(), frames = Math.min(4, (now - lastFrame) / 16.7 || 1);
     lastFrame = now;
     mx = rm || lite ? 0 : lerp(mx, tmx, 1 - Math.pow(0.9, frames));
@@ -529,8 +565,9 @@
   dock();
   update();
 
-  // Decode every world up front, so a new hour never stalls the scroll while its image unpacks
+  // Decode the worlds that are in, so a new hour never stalls the scroll while its image
+  // unpacks (the later worlds decode as they arrive)
   window.addEventListener("load", function () {
-    stage.querySelectorAll("img").forEach(function (img) { if (img.decode) img.decode().catch(function () {}); });
+    stage.querySelectorAll("img[src]").forEach(function (img) { if (img.decode) img.decode().catch(function () {}); });
   });
 })();
