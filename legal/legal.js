@@ -1,7 +1,7 @@
 /* Public legal pages on static artofmenu.com. No cookies or tracking. */
 const root = document.querySelector('#legal-root')
 const languages = { tr: 'Türkçe', en: 'English', de: 'Deutsch', es: 'Español', fr: 'Français', it: 'Italiano' }
-const keys = ['business-terms', 'dpa', 'partner-terms', 'privacy-business', 'privacy-partner', 'privacy-guest', 'cookies', 'company']
+const keys = ['about', 'distance-sales', 'delivery-returns', 'business-terms', 'dpa', 'partner-terms', 'privacy-business', 'privacy-partner', 'privacy-guest', 'cookies', 'company']
 const guests = new Set(['privacy-guest', 'cookies', 'company'])
 const ui = {
   tr: { legal: 'Yasal bilgiler', home: 'Ana sayfa', versions: 'Sürüm', effective: 'Yürürlük', back: 'Belgelere dön', intro: 'Art of Menu yasal belgeleri', missing: 'Bu belge bulunamadı.', failed: 'Belgeler yüklenemedi. Sayfayı yeniden deneyin.', annex: 'Bağlayıcı ekler', guest: 'Misafir bilgilendirmesi', print: 'Yazdır', controller: 'Misafir verilerinin veri sorumlusu menüyü sunan işletmedir.' },
@@ -139,7 +139,10 @@ async function show() {
     } else if (!manifest[requested] || (fromMenu && !guests.has(requested))) {
       main.append(el('h1', '', l.missing))
     } else {
-      const doc = await getJson('/legal/data/' + requested + '/' + lang + '.json')
+      // site-only documents (about, sales, refunds) exist in tr and en only; other languages read the English text
+      const langs = manifest[requested].langs
+      const docLang = !langs || langs.includes(lang) ? lang : 'en'
+      const doc = await getJson('/legal/data/' + requested + '/' + docLang + '.json')
       document.title = doc.title + ' · Art of Menu'
       main.append(el('p', 'eyebrow', 'ART OF MENU'), el('h1', '', doc.title))
       main.append(el('p', 'legal-meta', l.versions + ' ' + doc.version + ' · ' + l.effective + ' ' + doc.effective))

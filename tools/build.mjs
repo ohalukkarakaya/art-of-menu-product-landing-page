@@ -324,6 +324,14 @@ function priceText(l, p) {
   return new Intl.NumberFormat(loc, { style: "currency", currency: cur, maximumFractionDigits: 0 }).format(v);
 }
 
+// payment-provider (iyzico) requirements: these pages must be one click from every page
+const LEGAL_LINKS = [
+  ["about", { tr: "Hakkımızda", en: "About us", de: "Über uns", es: "Sobre nosotros", fr: "À propos", it: "Chi siamo" }],
+  ["privacy-business", { tr: "Gizlilik politikası", en: "Privacy policy", de: "Datenschutz", es: "Política de privacidad", fr: "Confidentialité", it: "Privacy" }],
+  ["distance-sales", { tr: "Mesafeli satış sözleşmesi", en: "Distance sales agreement", de: "Fernabsatzvertrag", es: "Contrato de venta a distancia", fr: "Contrat de vente à distance", it: "Contratto di vendita a distanza" }],
+  ["delivery-returns", { tr: "Teslimat ve iade şartları", en: "Delivery and refunds", de: "Lieferung und Rückerstattung", es: "Entrega y reembolsos", fr: "Livraison et remboursements", it: "Consegna e rimborsi" }],
+];
+
 function footer(l, sameIn) {
   const C = CONTENT[l], ui = C.ui;
   const pages = INTENTS.filter((k) => has(l, k)).map((k) => `<li><a href="${pageUrl(l, k)}">${esc(short(C.pages[k].title))}</a></li>`).join("");
@@ -335,6 +343,8 @@ function footer(l, sameIn) {
       <nav class="foot-pages" aria-label="${esc(ui.allPages)}"><h2>${esc(ui.allPages)}</h2><ul>${pages}</ul></nav>
       <nav aria-label="${esc(ui.languages)}"><h2>${esc(ui.languages)}</h2><ul>${langs}</ul></nav>
     </div>
+    <nav class="foot-legal" aria-label="${({ tr: "Yasal bilgiler", en: "Legal information", de: "Rechtliche Angaben", es: "Información legal", fr: "Informations légales", it: "Informazioni legali" })[l]}">${LEGAL_LINKS.map(([key, names]) => `<a href="/legal/${key}/?lang=${l}">${esc(names[l])}</a>`).join("")}</nav>
+    <div class="foot-pay"><img src="/assets/payments/iyzico-logo-band-white.svg" alt="iyzico ile Öde · Mastercard · Visa · American Express · Troy" width="456" height="32" loading="lazy" decoding="async"></div>
     <p class="foot-copy">© 2026 <a href="https://goktigin.com" target="_blank" rel="noopener">Göktigin</a> · <a href="/legal/?lang=${l}">${({ tr: "Yasal bilgiler", en: "Legal information", de: "Rechtliche Angaben", es: "Información legal", fr: "Informations légales", it: "Informazioni legali" })[l]}</a></p>
   </div>
 </footer>`;
@@ -388,6 +398,8 @@ function langHome(src, l, root = false) {
   html = html.replace(/(<meta property="og:description" content=")[^"]*"/, `$1${esc(t("meta.desc"))}"`);
   // assets from the site root, since the page lives one folder down
   html = html.replace(/(\s(?:src|href|srcset)=")(?!https?:|#|\/|data:|mailto:)/g, "$1/");
+  // legal links open in the page's language (the root keeps the visitor's browser language)
+  if (!root) html = html.replace(/href="\/legal\/([a-z-]+\/)?"/g, (m, k) => `href="/legal/${k || ""}?lang=${l}"`);
   html = fill(html, "head", homeHead(l, root ? "/" : home(l)));
   html = fill(html, "links", homeLinks(root ? null : l));
   return stamp(html);

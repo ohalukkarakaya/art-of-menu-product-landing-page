@@ -1,0 +1,195 @@
+{
+  "key": "distance-sales",
+  "version": "1.0",
+  "locale": "en",
+  "title": "Distance Sales Agreement",
+  "effective": "2026-11-09",
+  "summary": "This agreement sets out the terms for buying Art of Menu subscriptions online at app.artofmenu.com. It takes effect when it is accepted electronically at checkout.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Parties",
+      "blocks": [
+        {
+          "p": "**SELLER**"
+        },
+        {
+          "table": {
+            "head": [
+              "Item",
+              "Value"
+            ],
+            "rows": [
+              [
+                "Legal name",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Address",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Tax office / Tax ID",
+                "Antalya Corporate Tax Office / 4060725346"
+              ],
+              [
+                "MERSIS number",
+                "0406072534600001"
+              ],
+              [
+                "Trade registry",
+                "Antalya Trade Registry — 137005"
+              ],
+              [
+                "Phone",
+                "+90 554 238 70 07"
+              ],
+              [
+                "Email",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "**BUYER:** the business that creates an Art of Menu account and accepts this agreement at checkout. The buyer's legal name or full name, address, tax details, phone and email are the billing details it enters in the panel and are shown at checkout."
+        }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Subject",
+      "blocks": [
+        {
+          "p": "This agreement covers the rights and obligations of the parties when the buyer purchases a plan of the Seller's Art of Menu software online for a selected branch and period. The detailed terms of use are in the [Business Service Agreement](doc:business-terms), which forms an integral part of this agreement."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "3. Service, Price and Payment",
+      "blocks": [
+        {
+          "p": "The plan, number of branches, period, total price including taxes and payment method are shown at checkout and in the confirmation email. List prices per branch on the effective date are:"
+        },
+        {
+          "table": {
+            "head": [
+              "Plan",
+              "Monthly (per branch)",
+              "Yearly (per branch)"
+            ],
+            "rows": [
+              [
+                "Menu",
+                "399 TRY / 9 € / 12 $",
+                "3,990 TRY / 90 € / 120 $"
+              ],
+              [
+                "Order",
+                "999 TRY / 29 € / 35 $",
+                "9,990 TRY / 290 € / 350 $"
+              ],
+              [
+                "Smart",
+                "1,999 TRY / 59 € / 69 $",
+                "19,990 TRY / 590 € / 690 $"
+              ]
+            ]
+          }
+        },
+        {
+          "ul": [
+            "Payment is made by credit or debit card through the licensed payment institution iyzico. Card details are not stored on the Seller's systems.",
+            "The subscription renews automatically for the same period until cancelled, and each new period is charged to the saved card.",
+            "Invoices are issued electronically with the billing details given in the panel.",
+            "Price changes are announced at least 30 days in advance and apply from the first renewal after the notice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "4. Performance (Delivery)",
+      "blocks": [
+        {
+          "p": "The service is performed electronically; nothing is shipped. As soon as payment is confirmed, the plan is activated for the branch in the buyer's account at [app.artofmenu.com](https://app.artofmenu.com). See [Delivery and Refund Terms](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "5. Right of Withdrawal",
+      "blocks": [
+        {
+          "p": "The buyer purchases the service for its commercial or professional activity and does not act as a consumer, so the right of withdrawal under Turkish Law No. 6502 and the Distance Contracts Regulation does not apply."
+        },
+        {
+          "p": "Even where the buyer is considered a consumer, under Article 15(1)(ğ) of the Distance Contracts Regulation there is no right of withdrawal for services performed instantly in electronic form. At checkout the buyer requests that the service start immediately and acknowledges this consequence."
+        }
+      ]
+    },
+    {
+      "id": "cancel-refund",
+      "heading": "6. Cancellation and Refunds",
+      "blocks": [
+        {
+          "p": "The buyer may cancel at any time in the panel; cancellation takes effect at the end of the paid period. As a rule, fees for a period that has started are not refunded. In case of duplicate or wrong charges, failure to activate the service, or termination by the Seller without fault of the buyer, refunds are paid to the card used. See [Delivery and Refund Terms](doc:delivery-returns)."
+        }
+      ]
+    },
+    {
+      "id": "obligations",
+      "heading": "7. Obligations",
+      "blocks": [
+        {
+          "ul": [
+            "The Seller provides the service as described in the Business Service Agreement with reasonable care and skill.",
+            "The buyer is responsible for the accuracy of its billing and contact details and the security of its account.",
+            "The buyer declares that the card used belongs to it or that it is authorised to use it.",
+            "If the card issuer reverses a payment, the Seller may suspend the service for that period."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-info",
+      "heading": "8. Pre-contractual Information and Acceptance",
+      "blocks": [
+        {
+          "p": "Before accepting, the buyer confirms it has read online the Seller's identity and contact details, the main features of the service, the total price including taxes, payment and performance, withdrawal information, cancellation and refund terms and how to make complaints. This text is always available on this page and can be printed."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "9. Personal Data",
+      "blocks": [
+        {
+          "p": "The buyer's personal data is processed under the [KVKK Privacy Notice and Privacy Statement for Business Users](doc:privacy-business)."
+        }
+      ]
+    },
+    {
+      "id": "disputes",
+      "heading": "10. Disputes",
+      "blocks": [
+        {
+          "p": "This agreement is governed by the laws of the Republic of Türkiye. The courts and enforcement offices of Antalya have jurisdiction. Where the buyer is a consumer, Consumer Arbitration Committees within the monetary limits set by the Ministry of Trade, and Consumer Courts above them, have jurisdiction. Complaints can first be sent to [hello@goktigin.com](mailto:hello@goktigin.com). Mandatory rules of the buyer's country remain reserved."
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "heading": "11. Entry into Force",
+      "blocks": [
+        {
+          "p": "This agreement takes effect when the buyer accepts it electronically at checkout and the payment is completed. The Seller's electronic records are evidence in disputes."
+        }
+      ]
+    }
+  ],
+  "annexes": [
+    "delivery-returns"
+  ]
+}

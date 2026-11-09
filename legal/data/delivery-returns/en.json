@@ -1,0 +1,135 @@
+{
+  "key": "delivery-returns",
+  "version": "1.0",
+  "locale": "en",
+  "title": "Delivery and Refund Terms",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu is a digital subscription service. Nothing is shipped; the service is activated in your account as soon as payment is confirmed.",
+  "sections": [
+    {
+      "id": "nature",
+      "heading": "1. Nature of the Service",
+      "blocks": [
+        {
+          "p": "Art of Menu is cloud software that Göktigin Bilişim Teknoloji Ltd. Şti. (the “Company”) provides to restaurants, cafés, bars and similar businesses on a subscription basis. What you buy is the right to use the selected plan for the selected branch for a period (monthly or yearly). No physical goods are sold."
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "2. Delivery",
+      "blocks": [
+        {
+          "ul": [
+            "**Method:** The service is delivered electronically through the panel at [app.artofmenu.com](https://app.artofmenu.com). There is no shipping or courier and no delivery fee.",
+            "**Time:** The plan is activated for the branch as soon as the payment is confirmed. The payment confirmation and invoice are sent to the account's email address.",
+            "**Recipient:** The service is attached to the Art of Menu account of the business that paid.",
+            "**Problems:** If the plan is not activated after payment, contact [hello@goktigin.com](mailto:hello@goktigin.com) or +90 554 238 70 07. The issue is fixed within 1 business day; otherwise the payment is refunded."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "3. Right of Withdrawal",
+      "blocks": [
+        {
+          "p": "Art of Menu is sold only to businesses for their commercial or professional activity. Buyers do not act as consumers, so the consumer right of withdrawal under Turkish Law No. 6502 and the Distance Contracts Regulation does not apply."
+        },
+        {
+          "p": "Even where a buyer is considered a consumer, Article 15(ğ) of the Distance Contracts Regulation excludes the right of withdrawal for services performed instantly in electronic form. The buyer accepts this by agreeing at checkout that the service starts immediately."
+        }
+      ]
+    },
+    {
+      "id": "cancel",
+      "heading": "4. Cancelling a Subscription",
+      "blocks": [
+        {
+          "ul": [
+            "A subscription can be cancelled at any time from the **Subscription** screen in the panel.",
+            "Cancellation takes effect at the end of the paid period; the service remains usable until then and the next period is not charged.",
+            "A cancellation can be undone before the period ends.",
+            "Downgrades also take effect at the end of the period."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refund",
+      "heading": "5. Refunds",
+      "blocks": [
+        {
+          "p": "As a rule, the fee for a period that has already started is not refunded, including for the remaining time. Refunds are made in these cases:"
+        },
+        {
+          "ul": [
+            "duplicate charges or charges of a wrong amount for the same period: the full overcharged amount;",
+            "the service could not be activated within the time in section 2 after payment: the full amount paid;",
+            "the Company terminates the agreement without fault of the buyer: the fee for the paid, unused period;",
+            "other cases where mandatory law requires a refund."
+          ]
+        },
+        {
+          "p": "Send refund requests from the account's email address to [hello@goktigin.com](mailto:hello@goktigin.com) with the business name, payment date and amount. Requests are resolved within 5 business days."
+        }
+      ]
+    },
+    {
+      "id": "refund-method",
+      "heading": "6. How Refunds Are Paid",
+      "blocks": [
+        {
+          "p": "Approved refunds are paid back to the card used for the payment through the iyzico payment infrastructure. Depending on the bank it usually takes 2–10 business days to appear. For instalment payments the bank may reflect the refund in instalments. Refunds are not paid in cash."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "7. Contact",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Item",
+              "Value"
+            ],
+            "rows": [
+              [
+                "Legal name",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Address",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Tax office / Tax ID",
+                "Antalya Corporate Tax Office / 4060725346"
+              ],
+              [
+                "MERSIS number",
+                "0406072534600001"
+              ],
+              [
+                "Trade registry",
+                "Antalya Trade Registry — 137005"
+              ],
+              [
+                "Phone",
+                "+90 554 238 70 07"
+              ],
+              [
+                "Email",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Other sales terms are in the [Distance Sales Agreement](doc:distance-sales) and the [Business Service Agreement](doc:business-terms)."
+        }
+      ]
+    }
+  ]
+}

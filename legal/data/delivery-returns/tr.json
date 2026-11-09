@@ -1,0 +1,135 @@
+{
+  "key": "delivery-returns",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Teslimat ve İade Şartları",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu dijital bir abonelik hizmetidir. Fiziksel teslimat ve kargo yoktur; hizmet ödeme onaylandığı anda hesabınızda kullanıma açılır.",
+  "sections": [
+    {
+      "id": "nature",
+      "heading": "1. Hizmetin Niteliği",
+      "blocks": [
+        {
+          "p": "Art of Menu, Göktigin Bilişim Teknoloji Ltd. Şti. (“Şirket”) tarafından restoran, kafe ve bar gibi işletmelere abonelik esasıyla sunulan bir bulut yazılımıdır. Satın alınan şey, seçilen paketin seçilen şube için belirli bir dönem (aylık veya yıllık) boyunca kullanım hakkıdır. Fiziksel ürün satışı yapılmaz."
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "2. Teslimat",
+      "blocks": [
+        {
+          "ul": [
+            "**Teslimat yöntemi:** Hizmet elektronik ortamda, [app.artofmenu.com](https://app.artofmenu.com) adresindeki panel üzerinden sunulur. Kargo, kurye veya fiziksel gönderim yoktur ve teslimat ücreti alınmaz.",
+            "**Teslimat süresi:** Ödeme onaylandığı anda seçilen paket ilgili şube için kullanıma açılır. Ödeme onayı ve fatura, hesapta kayıtlı e-posta adresine gönderilir.",
+            "**Teslimat adresi:** Hizmet, ödemeyi yapan işletmenin Art of Menu hesabına tanımlanır.",
+            "**Aksaklık:** Ödeme alındığı halde paket açılmazsa [hello@goktigin.com](mailto:hello@goktigin.com) adresine veya +90 554 238 70 07 numarasına başvurabilirsiniz. Sorun en geç 1 iş günü içinde giderilir; giderilemezse ödeme iade edilir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "3. Cayma Hakkı",
+      "blocks": [
+        {
+          "p": "Art of Menu yalnızca ticari veya mesleki faaliyeti için hizmet alan işletmelere satılır. Alıcı tüketici sıfatıyla hareket etmediğinden 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği'ndeki cayma hakkı uygulanmaz."
+        },
+        {
+          "p": "Alıcının tüketici sayıldığı durumlarda da, Mesafeli Sözleşmeler Yönetmeliği'nin 15. maddesinin (ğ) bendi uyarınca elektronik ortamda anında ifa edilen hizmetlerde cayma hakkı bulunmaz. Alıcı, ödeme adımında hizmetin hemen başlamasına onay vererek bu durumu kabul eder."
+        }
+      ]
+    },
+    {
+      "id": "cancel",
+      "heading": "4. Abonelik İptali",
+      "blocks": [
+        {
+          "ul": [
+            "Abonelik, panelde **Abonelik** ekranından istenildiği zaman iptal edilebilir.",
+            "İptal, ödenmiş dönemin sonunda geçerli olur; o tarihe kadar hizmet kullanılmaya devam eder ve sonraki dönem için ücret alınmaz.",
+            "İptal edilen abonelik, dönem bitmeden geri alınabilir.",
+            "Alt pakete geçiş de dönem sonunda geçerli olur."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refund",
+      "heading": "5. İade Koşulları",
+      "blocks": [
+        {
+          "p": "Başlamış bir abonelik döneminin ücreti, kalan süre için de kural olarak iade edilmez. Aşağıdaki hallerde ücret iade edilir:"
+        },
+        {
+          "ul": [
+            "aynı dönem için birden fazla veya hatalı tutarda tahsilat yapılmışsa: fazla tahsil edilen tutarın tamamı;",
+            "ödeme alındığı halde hizmet 2. bölümde belirtilen sürede kullanıma açılamamışsa: ödenen tutarın tamamı;",
+            "Şirket, alıcının kusuru olmaksızın sözleşmeyi sona erdirirse: ödenmiş ve kullanılmamış süreye ait ücret;",
+            "emredici mevzuatın iadeyi zorunlu kıldığı diğer haller."
+          ]
+        },
+        {
+          "p": "İade talebi, hesapta kayıtlı e-posta adresinden [hello@goktigin.com](mailto:hello@goktigin.com) adresine işletme adı, ödeme tarihi ve tutarıyla birlikte yazılarak yapılır. Talep en geç 5 iş günü içinde sonuçlandırılır."
+        }
+      ]
+    },
+    {
+      "id": "refund-method",
+      "heading": "6. İadenin Yapılması",
+      "blocks": [
+        {
+          "p": "Onaylanan iade, ödemenin yapıldığı karta, iyzico ödeme altyapısı üzerinden yapılır. Tutarın kart hesabına yansıması bankaya göre genellikle 2–10 iş günü sürer. Taksitli ödemelerde iade, bankanın uygulamasına göre taksitler halinde yansıyabilir. Nakit iade yapılmaz."
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "heading": "7. İletişim",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Bilgi",
+              "Değer"
+            ],
+            "rows": [
+              [
+                "Ticaret unvanı",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Adres",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Vergi dairesi / VKN",
+                "Antalya Kurumlar Vergi Dairesi / 4060725346"
+              ],
+              [
+                "MERSİS numarası",
+                "0406072534600001"
+              ],
+              [
+                "Ticaret sicili",
+                "Antalya Ticaret Sicili Müdürlüğü — 137005"
+              ],
+              [
+                "Telefon",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-posta",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Satışa ilişkin diğer koşullar [Mesafeli Satış Sözleşmesi](doc:distance-sales) ve [İşletme Hizmet Sözleşmesi](doc:business-terms)'nde yer alır."
+        }
+      ]
+    }
+  ]
+}

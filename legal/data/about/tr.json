@@ -1,0 +1,100 @@
+{
+  "key": "about",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Hakkımızda",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu; restoran, kafe ve barlar için QR menü, masadan sipariş, stok ve akıllı fiyatlandırma yazılımıdır. Antalya'da, Göktigin Bilişim Teknoloji Ltd. Şti. tarafından geliştirilir ve satılır.",
+  "sections": [
+    {
+      "id": "who",
+      "heading": "1. Biz Kimiz?",
+      "blocks": [
+        {
+          "p": "Art of Menu, Akdeniz Üniversitesi Uluğbey Ar-Ge binasında faaliyet gösteren **Göktigin Bilişim Teknoloji Limited Şirketi**'nin yazılım ürünüdür. Amacımız, yeme-içme işletmelerinin menülerini kolayca dijitale taşıması, misafirlerine kendi dillerinde hizmet vermesi ve günlük kararlarını verilerle alabilmesidir."
+        },
+        {
+          "p": "Art of Menu ayrı bir tüzel kişi değildir; hizmetin sağlayıcısı ve aboneliklerin satıcısı Göktigin Bilişim Teknoloji Ltd. Şti.'dir."
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "heading": "2. Ne Sunuyoruz?",
+      "blocks": [
+        {
+          "p": "Art of Menu, işletmelere abonelik esasıyla sunulan bir bulut yazılımıdır (SaaS). Şube başına üç paket vardır:"
+        },
+        {
+          "ul": [
+            "**Menu:** çok dilli QR menü, ürün fotoğrafları, alerjen bilgileri, PDF menü, işletmeye ait alan adı.",
+            "**Order:** Menu paketine ek olarak masadan sipariş, garson ekranı, garson/su/hesap çağırma.",
+            "**Smart:** Order paketine ek olarak günlük akıllı fiyatlandırma, hava durumuna göre menü sıralaması, ürün önerileri, reçeteye bağlı stok ve satış raporları."
+          ]
+        },
+        {
+          "p": "Güncel fiyatlar ana sayfadaki [Fiyatlar](https://artofmenu.com/#plans) bölümünde yer alır."
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "heading": "3. Nasıl Satın Alınır?",
+      "blocks": [
+        {
+          "p": "Abonelik [app.artofmenu.com](https://app.artofmenu.com) adresinden hesap oluşturularak başlatılır. Ödemeler kredi kartı veya banka kartıyla, lisanslı ödeme kuruluşu **iyzico** altyapısı üzerinden alınır; kart bilgileri Art of Menu sunucularında saklanmaz."
+        },
+        {
+          "p": "Hizmet tamamen dijitaldir, fiziksel ürün gönderimi yapılmaz. Teslimat, iptal ve iade koşulları [Teslimat ve İade Şartları](doc:delivery-returns) sayfasında; satış koşulları [Mesafeli Satış Sözleşmesi](doc:distance-sales) ve [İşletme Hizmet Sözleşmesi](doc:business-terms)'nde açıklanır."
+        }
+      ]
+    },
+    {
+      "id": "company",
+      "heading": "4. Şirket ve İletişim Bilgileri",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Bilgi",
+              "Değer"
+            ],
+            "rows": [
+              [
+                "Ticaret unvanı",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Adres",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Vergi dairesi / VKN",
+                "Antalya Kurumlar Vergi Dairesi / 4060725346"
+              ],
+              [
+                "MERSİS numarası",
+                "0406072534600001"
+              ],
+              [
+                "Ticaret sicili",
+                "Antalya Ticaret Sicili Müdürlüğü — 137005"
+              ],
+              [
+                "Telefon",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-posta",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Diğer yasal bilgiler için [Şirket ve Yasal Bilgiler](doc:company) sayfasına bakabilirsiniz."
+        }
+      ]
+    }
+  ]
+}

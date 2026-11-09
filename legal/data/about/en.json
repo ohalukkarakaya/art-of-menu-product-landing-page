@@ -1,0 +1,100 @@
+{
+  "key": "about",
+  "version": "1.0",
+  "locale": "en",
+  "title": "About Us",
+  "effective": "2026-11-09",
+  "summary": "Art of Menu is QR menu, table ordering, inventory and smart pricing software for restaurants, cafés and bars. It is developed and sold by Göktigin Bilişim Teknoloji Ltd. Şti. in Antalya, Türkiye.",
+  "sections": [
+    {
+      "id": "who",
+      "heading": "1. Who We Are",
+      "blocks": [
+        {
+          "p": "Art of Menu is a software product of **Göktigin Bilişim Teknoloji Limited Şirketi**, based at the Akdeniz University Uluğbey R&D building in Antalya. We help food and beverage businesses move their menus online, serve guests in their own language and make daily decisions with data."
+        },
+        {
+          "p": "Art of Menu is not a separate legal entity; the provider of the service and the seller of subscriptions is Göktigin Bilişim Teknoloji Ltd. Şti."
+        }
+      ]
+    },
+    {
+      "id": "what",
+      "heading": "2. What We Offer",
+      "blocks": [
+        {
+          "p": "Art of Menu is cloud software (SaaS) sold to businesses on a subscription basis, with three plans per branch:"
+        },
+        {
+          "ul": [
+            "**Menu:** multilingual QR menu, product photos, allergen information, PDF menu, the business's own domain.",
+            "**Order:** everything in Menu plus table ordering, the waiter screen and waiter/water/bill calls.",
+            "**Smart:** everything in Order plus daily smart pricing, weather-based menu ordering, product suggestions, recipe-based stock and sales reports."
+          ]
+        },
+        {
+          "p": "Current prices are listed in the [Pricing](https://artofmenu.com/#plans) section of the home page."
+        }
+      ]
+    },
+    {
+      "id": "how",
+      "heading": "3. How to Buy",
+      "blocks": [
+        {
+          "p": "Subscriptions start by creating an account at [app.artofmenu.com](https://app.artofmenu.com). Payments are taken by credit or debit card through the licensed payment institution **iyzico**; card details are never stored on Art of Menu servers."
+        },
+        {
+          "p": "The service is fully digital and nothing is shipped. Delivery, cancellation and refund terms are in [Delivery and Refund Terms](doc:delivery-returns); sales terms are in the [Distance Sales Agreement](doc:distance-sales) and the [Business Service Agreement](doc:business-terms)."
+        }
+      ]
+    },
+    {
+      "id": "company",
+      "heading": "4. Company and Contact Details",
+      "blocks": [
+        {
+          "table": {
+            "head": [
+              "Item",
+              "Value"
+            ],
+            "rows": [
+              [
+                "Legal name",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Address",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Tax office / Tax ID",
+                "Antalya Corporate Tax Office / 4060725346"
+              ],
+              [
+                "MERSIS number",
+                "0406072534600001"
+              ],
+              [
+                "Trade registry",
+                "Antalya Trade Registry — 137005"
+              ],
+              [
+                "Phone",
+                "+90 554 238 70 07"
+              ],
+              [
+                "Email",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "See [Company and Legal Information](doc:company) for further legal details."
+        }
+      ]
+    }
+  ]
+}

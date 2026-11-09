@@ -1,0 +1,195 @@
+{
+  "key": "distance-sales",
+  "version": "1.0",
+  "locale": "tr",
+  "title": "Mesafeli Satış Sözleşmesi",
+  "effective": "2026-11-09",
+  "summary": "Bu sözleşme, Art of Menu aboneliklerinin app.artofmenu.com üzerinden elektronik ortamda satın alınmasına ilişkin koşulları düzenler. Ödeme adımında elektronik olarak onaylandığında yürürlüğe girer.",
+  "sections": [
+    {
+      "id": "parties",
+      "heading": "1. Taraflar",
+      "blocks": [
+        {
+          "p": "**SATICI**"
+        },
+        {
+          "table": {
+            "head": [
+              "Bilgi",
+              "Değer"
+            ],
+            "rows": [
+              [
+                "Ticaret unvanı",
+                "Göktigin Bilişim Teknoloji Limited Şirketi"
+              ],
+              [
+                "Adres",
+                "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Uluğbey Ar-Ge 2 No: 3 A İç Kapı No: B103 Konyaaltı / Antalya, Türkiye"
+              ],
+              [
+                "Vergi dairesi / VKN",
+                "Antalya Kurumlar Vergi Dairesi / 4060725346"
+              ],
+              [
+                "MERSİS numarası",
+                "0406072534600001"
+              ],
+              [
+                "Ticaret sicili",
+                "Antalya Ticaret Sicili Müdürlüğü — 137005"
+              ],
+              [
+                "Telefon",
+                "+90 554 238 70 07"
+              ],
+              [
+                "E-posta",
+                "[hello@goktigin.com](mailto:hello@goktigin.com)"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "**ALICI:** Art of Menu hesabı oluşturan ve ödeme adımında bu sözleşmeyi onaylayan işletmedir. Alıcı'nın ticaret unvanı veya adı soyadı, adresi, vergi bilgileri, telefonu ve e-posta adresi, panelde bildirdiği fatura bilgileridir ve ödeme sırasında gösterilir."
+        }
+      ]
+    },
+    {
+      "id": "subject",
+      "heading": "2. Sözleşmenin Konusu",
+      "blocks": [
+        {
+          "p": "Bu sözleşmenin konusu, Alıcı'nın Satıcı'ya ait Art of Menu yazılımının seçtiği paketini, seçtiği şube ve dönem için elektronik ortamda satın almasına ilişkin tarafların hak ve yükümlülükleridir. Hizmetin ayrıntılı kullanım koşulları [İşletme Hizmet Sözleşmesi](doc:business-terms)'nde yer alır ve bu sözleşmenin ayrılmaz parçasıdır."
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "3. Hizmet, Fiyat ve Ödeme",
+      "blocks": [
+        {
+          "p": "Satın alınan hizmetin paketi, şube sayısı, dönemi, vergiler dahil toplam bedeli ve ödeme şekli, ödeme ekranında ve Alıcı'ya gönderilen onay e-postasında gösterilir. Bu sözleşmenin yürürlük tarihindeki Türkiye liste fiyatları (KDV dahil) şunlardır:"
+        },
+        {
+          "table": {
+            "head": [
+              "Paket",
+              "Aylık (şube başına)",
+              "Yıllık (şube başına)"
+            ],
+            "rows": [
+              [
+                "Menu",
+                "399 TL",
+                "3.990 TL"
+              ],
+              [
+                "Order",
+                "999 TL",
+                "9.990 TL"
+              ],
+              [
+                "Smart",
+                "1.999 TL",
+                "19.990 TL"
+              ]
+            ]
+          }
+        },
+        {
+          "ul": [
+            "Ödeme, kredi kartı veya banka kartı ile lisanslı ödeme kuruluşu iyzico altyapısı üzerinden yapılır. Kart bilgileri Satıcı'nın sistemlerinde saklanmaz.",
+            "Abonelik, iptal edilinceye kadar aynı süreyle kendiliğinden yenilenir ve her yeni dönemin ücreti kayıtlı karttan tahsil edilir.",
+            "Fatura, Alıcı'nın panelde bildirdiği bilgilerle elektronik ortamda düzenlenir.",
+            "Fiyat değişiklikleri en az 30 gün önce bildirilir ve bildirimden sonraki ilk yenilemeden itibaren uygulanır."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "delivery",
+      "heading": "4. Hizmetin İfası (Teslimat)",
+      "blocks": [
+        {
+          "p": "Hizmet elektronik ortamda ifa edilir; fiziksel teslimat yapılmaz. Ödeme onaylandığı anda seçilen paket, Alıcı'nın hesabındaki ilgili şube için [app.artofmenu.com](https://app.artofmenu.com) adresinde kullanıma açılır. Ayrıntılar [Teslimat ve İade Şartları](doc:delivery-returns) sayfasındadır."
+        }
+      ]
+    },
+    {
+      "id": "withdrawal",
+      "heading": "5. Cayma Hakkı",
+      "blocks": [
+        {
+          "p": "Alıcı, hizmeti ticari veya mesleki faaliyeti için satın alır ve tüketici sıfatıyla hareket etmez; bu nedenle 6502 sayılı Kanun ve Mesafeli Sözleşmeler Yönetmeliği'ndeki cayma hakkı uygulanmaz."
+        },
+        {
+          "p": "Alıcı'nın tüketici sayıldığı durumlarda da Mesafeli Sözleşmeler Yönetmeliği md. 15/1-(ğ) uyarınca elektronik ortamda anında ifa edilen hizmetlerde cayma hakkı kullanılamaz. Alıcı, ödeme adımında hizmetin hemen başlatılmasını talep ettiğini ve bu sonucu bildiğini kabul eder."
+        }
+      ]
+    },
+    {
+      "id": "cancel-refund",
+      "heading": "6. İptal ve İade",
+      "blocks": [
+        {
+          "p": "Alıcı aboneliğini panelden istediği zaman iptal edebilir; iptal, ödenmiş dönemin sonunda geçerli olur. Başlamış dönemin ücreti kural olarak iade edilmez. Hatalı veya mükerrer tahsilat, hizmetin açılamaması ve Satıcı'nın Alıcı'nın kusuru olmaksızın sözleşmeyi sona erdirmesi hallerinde iade, ödemenin yapıldığı karta yapılır. Ayrıntılar [Teslimat ve İade Şartları](doc:delivery-returns) sayfasındadır."
+        }
+      ]
+    },
+    {
+      "id": "obligations",
+      "heading": "7. Tarafların Yükümlülükleri",
+      "blocks": [
+        {
+          "ul": [
+            "Satıcı, hizmeti İşletme Hizmet Sözleşmesi'nde açıklanan niteliklerde, makul özen ve mesleki dikkatle sunar.",
+            "Alıcı, panelde verdiği fatura ve iletişim bilgilerinin doğru olmasından ve hesabının güvenliğinden sorumludur.",
+            "Alıcı, ödemede kullandığı kartın kendisine ait veya kullanmaya yetkili olduğu bir kart olduğunu beyan eder.",
+            "Kartı çıkaran bankanın ödemeyi sonradan geri alması halinde Satıcı, ilgili dönemin hizmetini askıya alabilir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pre-info",
+      "heading": "8. Ön Bilgilendirme ve Onay",
+      "blocks": [
+        {
+          "p": "Alıcı; Satıcı'nın kimlik ve iletişim bilgilerini, hizmetin temel niteliklerini, vergiler dahil toplam fiyatı, ödeme ve ifa şeklini, cayma hakkına ilişkin bilgileri, iptal ve iade koşullarını ve şikâyet başvuru yollarını sözleşmeyi onaylamadan önce elektronik ortamda okuduğunu ve bilgi sahibi olduğunu kabul eder. Sözleşme metni bu sayfada her zaman erişilebilir durumdadır ve yazdırılabilir."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "9. Kişisel Veriler",
+      "blocks": [
+        {
+          "p": "Alıcı'ya ait kişisel veriler, [İşletme Kullanıcıları için KVKK Aydınlatma Metni ve Gizlilik Bildirimi](doc:privacy-business) kapsamında işlenir."
+        }
+      ]
+    },
+    {
+      "id": "disputes",
+      "heading": "10. Uyuşmazlıkların Çözümü",
+      "blocks": [
+        {
+          "p": "Bu sözleşme Türkiye Cumhuriyeti hukukuna tabidir. Uyuşmazlıklarda Antalya Mahkemeleri ve İcra Daireleri yetkilidir. Alıcı'nın tüketici sayıldığı hallerde, Ticaret Bakanlığı'nca ilan edilen parasal sınırlar içinde Alıcı'nın veya Satıcı'nın yerleşim yerindeki Tüketici Hakem Heyetleri, bu sınırların üzerinde Tüketici Mahkemeleri yetkilidir. Şikâyetler önce [hello@goktigin.com](mailto:hello@goktigin.com) adresine iletilebilir."
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "heading": "11. Yürürlük",
+      "blocks": [
+        {
+          "p": "Bu sözleşme, Alıcı'nın ödeme adımında sözleşmeyi elektronik olarak onaylaması ve ödemenin gerçekleşmesiyle yürürlüğe girer. Satıcı'nın elektronik kayıtları uyuşmazlıklarda delil teşkil eder."
+        }
+      ]
+    }
+  ],
+  "annexes": [
+    "delivery-returns"
+  ]
+}

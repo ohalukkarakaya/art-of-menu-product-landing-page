@@ -2,7 +2,7 @@
 
 > ArtOfMenu is a QR menu, table ordering and smart daily pricing service for cafés, restaurants, bars and bakeries, made by Göktigin. It is available now; businesses sign up in the panel at https://app.artofmenu.com.
 
-Status: available; sign-up at https://app.artofmenu.com. Last updated: 2026-11-08.
+Status: available; sign-up at https://app.artofmenu.com. Last updated: 2026-11-09.
 
 ## Facts
 

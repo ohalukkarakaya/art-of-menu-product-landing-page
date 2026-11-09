@@ -30,6 +30,10 @@ for (const key of keys) {
     fs.writeFileSync(path.join(target, 'data', key, lang + '.json'), raw)
   }
 }
+// Documents that live only on this site (iyzico merchant requirements), not in the backend: keep them.
+const previous = JSON.parse(fs.readFileSync(path.join(target, 'data', 'manifest.json'), 'utf8'))
+const siteOnly = ['about', 'delivery-returns', 'distance-sales']
+for (const key of siteOnly) if (previous[key]) manifest[key] = previous[key]
 fs.writeFileSync(path.join(target, 'data', 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n')
 const page = (key = '') => `<!doctype html>
 <html lang="tr">
@@ -50,7 +54,7 @@ const page = (key = '') => `<!doctype html>
 </html>
 `
 fs.writeFileSync(path.join(target, 'index.html'), page())
-for (const key of keys) {
+for (const key of [...keys, ...siteOnly]) {
   fs.mkdirSync(path.join(target, key), { recursive: true })
   fs.writeFileSync(path.join(target, key, 'index.html'), page(key))
 }

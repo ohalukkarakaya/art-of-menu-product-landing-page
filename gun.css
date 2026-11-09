@@ -395,6 +395,8 @@ main { background: #1C1F55; }
 .footer-seo { width: 100%; display: flex; flex-wrap: wrap; gap: 10px 22px; font-size: 13.5px; }
 .footer-seo a { color: rgba(245,245,247,.72); text-decoration: none; }
 .footer-seo a:hover { color: #F5F5F7; text-decoration: underline; text-underline-offset: 3px; }
+.footer-pay { width: 100%; }
+.footer-pay img { display: block; width: auto; height: 28px; max-width: 100%; }
 .footer-copy { width: 100%; padding-top: 22px; border-top: 1px solid rgba(255,255,255,.08); font-size: 13px; }
 
 /* A small glass tab that jumps to the plans */
@@ -472,6 +474,8 @@ main { background: #1C1F55; }
   .footer-seo a { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 2px; border-bottom: 1px solid rgba(255,255,255,.08); line-height: 1.35; }
   .footer-seo a::after { content: "›"; flex: none; font-size: 20px; line-height: 1; color: rgba(245,245,247,.35); }
   .footer-seo a:hover { text-decoration: none; color: #F5F5F7; }
+  .footer-pay { margin-bottom: 22px; }
+  .footer-pay img { height: auto; width: 100%; max-width: 360px; margin: 0 auto; }
   .footer-copy { padding-top: 0; border-top: 0; text-align: center; }
 }
 

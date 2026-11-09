@@ -1,4 +1,49 @@
 {
+  "about": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Hakkımızda",
+      "en": "About Us",
+      "de": "Über uns",
+      "es": "Sobre nosotros",
+      "fr": "À propos",
+      "it": "Chi siamo"
+    },
+    "langs": [
+      "tr",
+      "en"
+    ]
+  },
+  "delivery-returns": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Teslimat ve İade Şartları",
+      "en": "Delivery and Refund Terms",
+      "de": "Lieferung und Rückerstattung",
+      "es": "Condiciones de entrega y reembolso",
+      "fr": "Conditions de livraison et de remboursement",
+      "it": "Condizioni di consegna e rimborso"
+    },
+    "langs": [
+      "tr",
+      "en"
+    ]
+  },
+  "distance-sales": {
+    "version": "1.0",
+    "titles": {
+      "tr": "Mesafeli Satış Sözleşmesi",
+      "en": "Distance Sales Agreement",
+      "de": "Fernabsatzvertrag",
+      "es": "Contrato de venta a distancia",
+      "fr": "Contrat de vente à distance",
+      "it": "Contratto di vendita a distanza"
+    },
+    "langs": [
+      "tr",
+      "en"
+    ]
+  },
   "company": {
     "version": "1.1",
     "titles": {
