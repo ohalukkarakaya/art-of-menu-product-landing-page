@@ -56,8 +56,8 @@ node tools/sync-legal.mjs
 Bu komut `../art-of-menu-backend/legal/<key>/<version>/<lang>.json`
 dosyalarını `legal/data/` altına kopyalar ve statik URL sayfalarını
 oluşturur. Ardından bu **landing-page** deposunu yayınlamak gerekir;
-komut kendi başına commit, push veya deploy yapmaz. KEP adresi bilinmediği
-için henüz boş alan korunuyor.
+komut kendi başına commit, push veya deploy yapmaz. Şirketin KEP adresi
+`goktiginbilisim@hs01.kep.tr` olarak 12 Kasım 2026 tarihinde eklendi.
 
 Misafir menüsüne ait işletme bazlı veri sorumlusu iletişim bilgileri, üretimde
 panel/backend API adresi netleştirilip herkese açık ve güvenli veri erişimi
