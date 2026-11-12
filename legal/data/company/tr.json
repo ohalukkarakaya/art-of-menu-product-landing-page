@@ -1,9 +1,9 @@
 {
   "key": "company",
-  "version": "1.1",
+  "version": "1.2",
   "locale": "tr",
   "title": "Şirket ve Yasal Bilgiler",
-  "effective": "2026-11-08",
+  "effective": "2026-11-12",
   "summary": "Art of Menu, Göktigin Bilişim Teknoloji Ltd. Şti.'ye ait bir yazılım ürünüdür. Bu sayfada Şirket'in kimlik, iletişim ve vergi bilgileri ile Art of Menu'ye ilişkin yasal belgeler yer alır.",
   "sections": [
     {
