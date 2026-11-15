@@ -202,6 +202,7 @@ function topicPage(l, key) {
   <link rel="preload" as="image" href="/assets/web/${heroFile}" fetchpriority="high">
   <link rel="stylesheet" href="${asset("assets/seo/seo.css")}">
   <script>document.documentElement.classList.add("js");</script>
+  <script defer src="/ads-consent.js"></script>
   <script type="application/ld+json">${json({ "@context": "https://schema.org", "@graph": graph })}</script>
 </head>
 <body>
