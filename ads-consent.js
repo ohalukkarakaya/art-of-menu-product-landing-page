@@ -51,7 +51,8 @@
     document.cookie = name + '=' + value + '; Max-Age=15552000; Path=/; SameSite=Lax' + domain + secure;
   }
   function load() {
-    if (window.gtag) return;
+    if (window.aomAdsTagLoaded) return;
+    window.aomAdsTagLoaded = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () { window.dataLayer.push(arguments); };
     window.gtag('js', new Date());
@@ -60,6 +61,12 @@
     script.async = true;
     script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
     document.head.appendChild(script);
+    // Google Ads setup now expects this separately configured GTM container.
+    // Both scripts are gated behind the same user-approved measurement choice.
+    var manager = document.createElement('script');
+    manager.async = true;
+    manager.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-MVXKJN6B';
+    document.head.appendChild(manager);
   }
   function banner() {
     if (document.getElementById('aom-ad-consent')) return;
@@ -88,5 +95,5 @@
     document.body.appendChild(bar);
   }
   // Marketing site: only an actual ad click can start attribution or prompt.
-  if (fromAdClick()) activateForAd();
+  if (fromAdClick() || get() === 'yes' || get() === 'outside') activateForAd();
 }());
