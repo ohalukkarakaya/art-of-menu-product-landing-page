@@ -50,23 +50,39 @@
     var secure = location.protocol === 'https:' ? '; Secure' : '';
     document.cookie = name + '=' + value + '; Max-Age=15552000; Path=/; SameSite=Lax' + domain + secure;
   }
-  function load() {
+  // Consent Mode v2: the tag is discoverable without permission to store
+  // advertising cookies or use personal data. No purchase event is sent here.
+  function initializeTag() {
     if (window.aomAdsTagLoaded) return;
     window.aomAdsTagLoaded = true;
     window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', {
+      ad_storage: 'denied',
+      analytics_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
+    });
     window.gtag('js', new Date());
     window.gtag('config', id);
-    var script = document.createElement('script');
-    script.async = true;
-    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
-    document.head.appendChild(script);
-    // Google Ads setup now expects this separately configured GTM container.
-    // Both scripts are gated behind the same user-approved measurement choice.
+    var googleTag = document.createElement('script');
+    googleTag.async = true;
+    googleTag.src = 'https://www.googletagmanager.com/gtag/js?id=' + id;
+    document.head.appendChild(googleTag);
     var manager = document.createElement('script');
     manager.async = true;
     manager.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-MVXKJN6B';
     document.head.appendChild(manager);
+  }
+  function load() {
+    initializeTag();
+    window.gtag('consent', 'update', {
+      ad_storage: 'granted',
+      analytics_storage: 'granted',
+      ad_user_data: 'granted',
+      ad_personalization: 'granted'
+    });
   }
   function banner() {
     if (document.getElementById('aom-ad-consent')) return;
@@ -95,5 +111,6 @@
     document.body.appendChild(bar);
   }
   // Marketing site: only an actual ad click can start attribution or prompt.
+  initializeTag();
   if (fromAdClick() || get() === 'yes' || get() === 'outside') activateForAd();
 }());
