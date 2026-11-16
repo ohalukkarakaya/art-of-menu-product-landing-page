@@ -39,7 +39,7 @@
   // Google Ads adds one of these click identifiers to actual ad landing URLs.
   function fromAdClick() {
     var q = new URLSearchParams(window.location.search);
-    return ['gclid', 'gbraid', 'wbraid', 'gad_source'].some(function (key) { return q.has(key); });
+    return ['gclid', 'gbraid', 'wbraid', 'gad_source', 'oppref'].some(function (key) { return q.has(key); });
   }
   function get() {
     var match = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'));
@@ -83,14 +83,31 @@
       ad_user_data: 'granted',
       ad_personalization: 'granted'
     });
+    // Only persist an ad-click reference after consent, across landing and app.
+    var ref = new URLSearchParams(location.search).get('oppref');
+    if (ref && /^[A-Za-z0-9._~-]{1,512}$/.test(ref)) {
+      var domain = /(?:^|\.)artofmenu\.com$/.test(location.hostname) ? '; Domain=artofmenu.com' : '';
+      document.cookie = 'aom_openai_oppref=' + ref + '; Max-Age=2592000; Path=/; SameSite=Lax' +
+        domain + (location.protocol === 'https:' ? '; Secure' : '');
+    }
+    if (!window.aomOpenAiPixelLoaded) {
+      window.aomOpenAiPixelLoaded = true;
+      (function (w,d,s,u) {
+        if (w.oaiq) return;
+        var q = function () { q.q.push(arguments); }; q.q = []; w.oaiq = q;
+        var j = d.createElement(s); j.async = true; j.src = u;
+        var f = d.getElementsByTagName(s)[0]; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'https://bzrcdn.openai.com/sdk/oaiq.min.js');
+      window.oaiq('init', { pixelId: '4xRcQJ5LMEyLucP6C7SMai', debug: false });
+    }
   }
   function banner() {
     if (document.getElementById('aom-ad-consent')) return;
     var tr = (document.documentElement.lang || navigator.language || '').toLowerCase().startsWith('tr');
     var de = (document.documentElement.lang || navigator.language || '').toLowerCase().startsWith('de');
-    var message = tr ? 'Reklamların işe yarayıp yaramadığını ölçmek için Google Ads çerezlerine izin verir misin?'
-      : de ? 'Dürfen wir Google Ads-Cookies verwenden, um die Wirksamkeit unserer Werbung zu messen?'
-      : 'May we use Google Ads cookies to measure the effectiveness of our advertising?';
+    var message = tr ? 'Reklam performansını ölçmek için Google Ads ve ChatGPT reklam çerezlerine izin verir misin?'
+      : de ? 'Dürfen wir Google Ads- und ChatGPT-Werbe-Cookies nutzen, um die Wirksamkeit unserer Werbung zu messen?'
+      : 'May we use Google Ads and ChatGPT advertising cookies to measure ad effectiveness?';
     var yes = tr ? 'İzin ver' : de ? 'Zustimmen' : 'Allow';
     var no = tr ? 'Reddet' : de ? 'Ablehnen' : 'Decline';
     var bar = document.createElement('div');
