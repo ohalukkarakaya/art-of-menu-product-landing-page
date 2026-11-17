@@ -202,7 +202,22 @@ function topicPage(l, key) {
   <link rel="preload" as="image" href="/assets/web/${heroFile}" fetchpriority="high">
   <link rel="stylesheet" href="${asset("assets/seo/seo.css")}">
   <script>document.documentElement.classList.add("js");</script>
-  <script defer src="/ads-consent.js"></script>
+<!-- Google Ads: load on every page with Consent Mode v2 denied by default. -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      analytics_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      wait_for_update: 500
+    });
+    gtag('js', new Date());
+    gtag('config', 'AW-18575145707');
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18575145707"></script>
+    <script defer src="/ads-consent.js"></script>
   <script type="application/ld+json">${json({ "@context": "https://schema.org", "@graph": graph })}</script>
 </head>
 <body>
