@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#FBFBFD">
+  <title>Art of Menu · Sales Partner</title>
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <script>
+    /* Match the main landing page: first supported navigator language, otherwise English. */
+    (function () {
+      var routes = {
+        tr: "/tr/satis-ortakligi/",
+        en: "/en/sales-partner/",
+        de: "/de/vertriebspartner/",
+        es: "/es/socios-comerciales/",
+        it: "/it/partner-commerciali/",
+        fr: "/fr/partenaires-commerciaux/"
+      };
+      var languages = navigator.languages && navigator.languages.length
+        ? navigator.languages : [navigator.language || "en"];
+      var lang = "en";
+      for (var i = 0; i < languages.length; i++) {
+        var candidate = String(languages[i]).slice(0, 2).toLowerCase();
+        if (routes[candidate]) { lang = candidate; break; }
+      }
+      location.replace(routes[lang] + location.search + location.hash);
+    })();
+  </script>
+  <link rel="stylesheet" href="/assets/seo/seo.css?v=d5bd5d23">
+</head>
+<body>
+  <main class="read" style="min-height:70vh;display:grid;place-content:center;gap:14px;text-align:center">
+    <h1>Art of Menu Sales Partner</h1>
+    <p><a href="/en/sales-partner/">View the partner programme</a></p>
+  </main>
+</body>
+</html>
