@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{meta.title}}</title>
+  <meta name="description" content="{{meta.desc}}">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#FBFBFD">
+  <link rel="canonical" href="{{url}}">
+{{hreflang}}
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{og.locale}}">
+  <meta property="og:site_name" content="Art of Menu">
+  <meta property="og:url" content="{{url}}">
+  <meta property="og:title" content="{{meta.ogtitle}}">
+  <meta property="og:description" content="{{meta.ogdesc}}">
+  <meta property="og:image" content="https://artofmenu.com/assets/web/og-share.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/brand/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="/assets/seo/seo.css?v=d5bd5d23">
+  <link rel="stylesheet" href="/assets/seo/partner.css?v={{v.css}}">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body class="sp" data-cur="{{cur}}">
+<a class="skip" href="#main">{{a11y.skip}}</a>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="top-logo" href="/{{lang}}/" aria-label="{{a11y.home}}"><img src="/assets/brand/logo-aom.webp" alt="Art of Menu" width="900" height="391"></a>
+    <nav class="top-nav" aria-label="{{a11y.nav}}">
+      <a class="hide-s" href="#urun">{{nav.product}}</a>
+      <a class="hide-s" href="#kazanc">{{nav.earn}}</a>
+      <a class="hide-s" href="#sss">{{nav.faq}}</a>
+      <details class="langs">
+        <summary aria-label="{{a11y.langs}}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c2.6 2.8 2.6 15.2 0 18M12 3c-2.6 2.8-2.6 15.2 0 18" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>{{lang.upper}}</span></summary>
+        <ul>{{langlinks}}</ul>
+      </details>
+      <a class="cta small" href="https://sales-partner.artofmenu.com/partner/signup"><span class="l">{{nav.cta}}</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <!-- Hero: one dark panel, the offer in three numbers, the guest menu rising out of its floor -->
+  <section class="sp-hero">
+    <div class="wrap">
+      <div class="sp-stage">
+        <div class="sp-hero-copy">
+          <span class="sp-kicker">{{hero.kicker}}</span>
+          <h1>{{hero.h1}}</h1>
+          <p class="sp-lead">{{hero.lead}}</p>
+          <div class="sp-actions">
+            <a class="cta" href="https://sales-partner.artofmenu.com/partner/signup"><span class="l">{{cta.signup}}</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            <a class="sp-ghost" href="#kazanc">{{hero.cta2}}</a>
+          </div>
+        </div>
+
+        <div class="sp-hero-play">
+          <div class="figure sp-figure"><span class="figure-read" data-hl-read data-word="" aria-hidden="true"></span><div data-hl-stage data-label="{{earn.fig}}"></div></div>
+          <div class="sp-pick" data-p100="{{t.p100}}" data-p50="{{t.p50}}">
+            <div class="sp-seg sp-pick-tabs" role="radiogroup" aria-label="{{calc.plan}}">
+              <button type="button" role="radio" data-v="menu" aria-checked="false">Menu</button>
+              <button type="button" role="radio" data-v="order" aria-checked="false">Order</button>
+              <button type="button" role="radio" data-v="smart" aria-checked="true">Smart</button>
+            </div>
+            <div class="sp-pick-row sp-pick-y"><span>{{hero.cy}}</span><b id="hp-cy" data-amt="smart.cy"></b></div>
+            <div class="sp-pick-row"><span>{{hero.cm}} <i id="hp-pct">{{t.p50}}</i></span><b>≈ <span id="hp-cm" data-amt="smart.cm"></span></b></div>
+            <small class="sp-pick-hint">{{hero.hint}}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What you put in front of the owner -->
+  <section class="sp-sec" id="urun">
+    <div class="wrap">
+      <div class="sp-prod-head">
+        <div>
+          <span class="sp-label">{{prod.label}}</span>
+          <h2>{{prod.h2}}</h2>
+          <p class="sp-intro">{{prod.intro}}</p>
+        </div>
+        <figure class="sp-prod-art" aria-label="{{hero.art}}">
+          <div class="sp-note sp-note-order" aria-hidden="true"><span class="sp-dot"></span><span><b>{{note.order.t}}</b><small>{{note.order.d}}</small></span></div>
+          <div class="pm" aria-hidden="true">
+            <div class="pm-screen">
+              <div class="pm-cover">
+                <span class="pm-fab"><svg viewBox="0 0 24 24"><path d="M12 15V4M8 8l4-4 4 4M5 12v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <span class="pm-lang"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 12h18M12 3c2.6 2.8 2.6 15.2 0 18M12 3c-2.6 2.8-2.6 15.2 0 18" fill="none" stroke="currentColor" stroke-width="2"/></svg>{{pm.lang}}</span>
+                <span class="pm-fab"><svg viewBox="0 0 24 24"><path d="M6 8h12l-1 12H7L6 8zM9 8V7a3 3 0 0 1 6 0v1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><i>2</i></span>
+              </div>
+              <div class="pm-head">
+                <span class="pm-emblem"><img src="/assets/brand/logo-a.webp" alt="" width="64" height="64"></span>
+                <b class="pm-venue">Kuzey Mutfak · Moda</b>
+                <span class="pm-pill"><i></i>{{pm.open}}</span>
+                <div class="pm-calls"><span>🙋 {{pm.waiter}}</span><span>💧 {{pm.water}}</span><span>🧾 {{pm.bill}}</span></div>
+              </div>
+              <p class="pm-sec">{{pm.section}}</p>
+              <ol class="pm-list">
+                <li><span><b>{{pm.i1}}</b><em>{{pm.p1}}</em></span><span class="pm-thumb t1"><img src="/assets/web/p-latte.webp" alt="" width="60" height="60"></span></li>
+                <li><span><b>{{pm.i2}}</b><small>{{pm.pair}}</small><em>{{pm.p2}}</em></span><span class="pm-thumb t2"><img src="/assets/web/p-croissant.webp" alt="" width="60" height="60"></span></li>
+                <li><span><b>{{pm.i3}}</b><em>{{pm.p3}}</em></span><span class="pm-thumb t3"><img src="/assets/web/p-cheesecake.webp" alt="" width="60" height="60"></span></li>
+              </ol>
+            </div>
+          </div>
+        </figure>
+      </div>
+      <div class="sp-plans">
+        <article class="sp-plan" data-reveal>
+          <div class="sp-vig vig-menu" aria-hidden="true">
+            <div class="vm-langs"><span class="on">Türkçe</span><span>English</span><span>Deutsch</span><span>العربية</span></div>
+            <div class="vm-row">
+              <span class="pm-thumb t3"><img src="/assets/web/p-cheesecake.webp" alt="" width="60" height="60"></span>
+              <span><b>{{pm.i3}}</b><small>{{vig.menu.desc}}</small><span class="vm-tags"><i>{{vig.menu.a1}}</i><i>{{vig.menu.a2}}</i></span></span>
+            </div>
+          </div>
+          <div class="sp-plan-body">
+            <h3>Menu <span>{{plan.menu.tag}}</span></h3>
+            <p>{{plan.menu.text}}</p>
+            <p class="sp-price"><span data-amt="menu.pm"></span>{{per.month}}</p>
+          </div>
+        </article>
+        <article class="sp-plan" data-reveal>
+          <div class="sp-vig vig-order" aria-hidden="true">
+            <div class="vo-ping"><span class="sp-dot"></span><span><b>{{note.order.t}}</b><small>{{note.order.d}}</small></span></div>
+            <div class="vo-ping vo-call"><span class="sp-dot"></span><span><b>{{vig.order.call}}</b><small>{{vig.order.callsub}}</small></span></div>
+          </div>
+          <div class="sp-plan-body">
+            <h3>Order <span>{{plan.order.tag}}</span></h3>
+            <p>{{plan.order.text}}</p>
+            <p class="sp-price"><span data-amt="order.pm"></span>{{per.month}}</p>
+          </div>
+        </article>
+        <article class="sp-plan sp-plan-smart" data-reveal>
+          <div class="sp-vig vig-smart" aria-hidden="true">
+            <div class="vs-row"><b>{{vig.smart.i1}}</b><span class="vs-p">{{vig.smart.p1}}</span><span class="vs-t up">▲ {{vig.smart.t1}}</span></div>
+            <div class="vs-row"><b>{{vig.smart.i2}}</b><span class="vs-p">{{vig.smart.p2}}</span><span class="vs-t down">▼ {{vig.smart.t2}}</span></div>
+            <div class="vs-row"><b>{{vig.smart.i3}}</b><span class="vs-p">{{vig.smart.p3}}</span><span class="vs-t up">▲ {{vig.smart.t3}}</span></div>
+            <small class="vs-why">{{vig.smart.why}}</small>
+          </div>
+          <div class="sp-plan-body">
+            <h3>Smart <span>{{plan.smart.tag}}</span></h3>
+            <p>{{plan.smart.text}}</p>
+            <p class="sp-price"><span data-amt="smart.pm"></span>{{per.month}}</p>
+          </div>
+        </article>
+      </div>
+      <p class="sp-fine">{{prod.fine}} <a href="/{{lang}}/">{{prod.more}}</a></p>
+    </div>
+  </section>
+
+  <!-- Commission: the real table, a figure, then a calculator -->
+  <section class="sp-sec sp-alt" id="kazanc">
+    <div class="wrap">
+      <div class="sp-earn-head">
+        <div>
+          <span class="sp-label">{{earn.label}}</span>
+          <h2>{{earn.h2}}</h2>
+          <p class="sp-intro">{{earn.intro}}</p>
+          <div class="sp-cur" role="radiogroup" aria-label="{{earn.cur}}">
+            <button type="button" role="radio" data-cur="TRY" aria-checked="false">₺ TRY</button>
+            <button type="button" role="radio" data-cur="EUR" aria-checked="false">€ EUR</button>
+            <button type="button" role="radio" data-cur="USD" aria-checked="false">$ USD</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="sp-table" role="table" aria-label="{{earn.label}}">
+        <div class="sp-tr sp-th" role="row">
+          <span role="columnheader">{{t.plan}}</span>
+          <span role="columnheader">{{t.mprice}}</span>
+          <span role="columnheader">{{t.mcut}}</span>
+          <span role="columnheader">{{t.yprice}}</span>
+          <span role="columnheader">{{t.ycut}}</span>
+        </div>
+        <div class="sp-tr" role="row">
+          <b role="cell">Menu</b>
+          <span role="cell" data-l="{{t.mprice}}"><span data-amt="menu.pm"></span></span>
+          <span role="cell" data-l="{{t.mcut}}"><strong>{{t.p100}}</strong> ≈ <span data-amt="menu.cm"></span></span>
+          <span role="cell" data-l="{{t.yprice}}"><span data-amt="menu.py"></span></span>
+          <span role="cell" data-l="{{t.ycut}}"><strong data-amt="menu.cy"></strong></span>
+        </div>
+        <div class="sp-tr" role="row">
+          <b role="cell">Order</b>
+          <span role="cell" data-l="{{t.mprice}}"><span data-amt="order.pm"></span></span>
+          <span role="cell" data-l="{{t.mcut}}"><strong>{{t.p50}}</strong> ≈ <span data-amt="order.cm"></span></span>
+          <span role="cell" data-l="{{t.yprice}}"><span data-amt="order.py"></span></span>
+          <span role="cell" data-l="{{t.ycut}}"><strong data-amt="order.cy"></strong></span>
+        </div>
+        <div class="sp-tr sp-tr-smart" role="row">
+          <b role="cell">Smart</b>
+          <span role="cell" data-l="{{t.mprice}}"><span data-amt="smart.pm"></span></span>
+          <span role="cell" data-l="{{t.mcut}}"><strong>{{t.p50}}</strong> ≈ <span data-amt="smart.cm"></span></span>
+          <span role="cell" data-l="{{t.yprice}}"><span data-amt="smart.py"></span></span>
+          <span role="cell" data-l="{{t.ycut}}"><strong data-amt="smart.cy"></strong></span>
+        </div>
+      </div>
+      <p class="sp-fine">{{earn.fine}}</p>
+
+      <div class="sp-tip">
+        <b>{{tip.t}}</b>
+        <p>{{tip.d}}</p>
+      </div>
+
+      <div class="sp-calc" id="hesap">
+        <div class="sp-calc-in">
+          <h3>{{calc.h3}}</h3>
+          <div class="sp-field">
+            <span>{{calc.plan}}</span>
+            <div class="sp-seg" data-group="plan" role="radiogroup" aria-label="{{calc.plan}}">
+              <button type="button" role="radio" data-v="menu" aria-checked="false">Menu</button>
+              <button type="button" role="radio" data-v="order" aria-checked="false">Order</button>
+              <button type="button" role="radio" data-v="smart" aria-checked="true">Smart</button>
+            </div>
+          </div>
+          <div class="sp-field">
+            <span>{{calc.bill}}</span>
+            <div class="sp-seg" data-group="bill" role="radiogroup" aria-label="{{calc.bill}}">
+              <button type="button" role="radio" data-v="m" aria-checked="false">{{calc.monthly}}</button>
+              <button type="button" role="radio" data-v="y" aria-checked="true">{{calc.yearly}}</button>
+            </div>
+          </div>
+          <label class="sp-field">
+            <span>{{calc.count}} <output id="sp-n">3</output></span>
+            <input type="range" id="sp-count" min="1" max="20" step="1" value="3">
+          </label>
+        </div>
+        <div class="sp-calc-out" aria-live="polite">
+          <small>{{calc.per}}</small>
+          <b class="sp-big"><span id="sp-approx">≈ </span><span id="sp-month"></span></b>
+          <p>{{calc.year}} <strong id="sp-year"></strong></p>
+          <p class="sp-calc-note">{{calc.note}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works, with the real rules -->
+  <section class="sp-sec" id="nasil">
+    <div class="wrap">
+      <span class="sp-label">{{how.label}}</span>
+      <h2>{{how.h2}}</h2>
+      <ol class="sp-steps">
+        <li data-reveal><b>01</b><h3>{{how.s1.t}}</h3><p>{{how.s1.d}}</p></li>
+        <li data-reveal><b>02</b><h3>{{how.s2.t}}</h3><p>{{how.s2.d}}</p></li>
+        <li data-reveal><b>03</b><h3>{{how.s3.t}}</h3><p>{{how.s3.d}}</p></li>
+        <li data-reveal><b>04</b><h3>{{how.s4.t}}</h3><p>{{how.s4.d}}</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sp-sec sp-alt" id="kimler">
+    <div class="wrap">
+      <span class="sp-label">{{who.label}}</span>
+      <h2>{{who.h2}}</h2>
+      <div class="sp-who">
+        <div data-reveal><h3>{{who.1.t}}</h3><p>{{who.1.d}}</p></div>
+        <div data-reveal><h3>{{who.2.t}}</h3><p>{{who.2.d}}</p></div>
+        <div data-reveal><h3>{{who.3.t}}</h3><p>{{who.3.d}}</p></div>
+        <div data-reveal><h3>{{who.4.t}}</h3><p>{{who.4.d}}</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sp-sec faq" id="sss">
+    <div class="wrap sp-faq-in">
+      <div>
+        <span class="sp-label">{{faq.label}}</span>
+        <h2>{{faq.h2}}</h2>
+        <p class="sp-intro">{{faq.intro}}</p>
+        <a class="sp-doc" href="/legal/partner-terms/?lang={{lang}}">
+          <span class="sp-doc-ico" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M14 3v5h5M9 13h6M9 17h4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span class="sp-doc-t"><b>{{faq.terms}}</b><small>{{faq.termsub}}</small></span>
+          <span class="sp-doc-go" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </a>
+      </div>
+      <div class="sp-faq-list">
+        <details><summary>{{faq.1.q}}</summary><p>{{faq.1.a}}</p></details>
+        <details><summary>{{faq.2.q}}</summary><p>{{faq.2.a}}</p></details>
+        <details><summary>{{faq.3.q}}</summary><p>{{faq.3.a}}</p></details>
+        <details><summary>{{faq.4.q}}</summary><p>{{faq.4.a}}</p></details>
+        <details><summary>{{faq.5.q}}</summary><p>{{faq.5.a}}</p></details>
+        <details><summary>{{faq.6.q}}</summary><p>{{faq.6.a}}</p></details>
+        <details><summary>{{faq.7.q}}</summary><p>{{faq.7.a}}</p></details>
+        <details><summary>{{faq.8.q}}</summary><p>{{faq.8.a}}</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="sp-end">
+    <div class="wrap">
+      <div class="sp-end-in">
+        <h2>{{end.h2}}</h2>
+        <p>{{end.p}}</p>
+        <div class="sp-actions">
+          <a class="cta" href="https://sales-partner.artofmenu.com/partner/signup" data-hl-play><span class="l">{{cta.signup}}</span><span class="cta-arrow"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+          <a class="sp-ghost" href="https://sales-partner.artofmenu.com/partner/">{{end.login}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="sp-footer">
+  <div class="wrap">
+    <span>© Art of Menu · Göktigin Bilişim Teknoloji Ltd. Şti.</span>
+    <div class="sp-footer-links">
+      <a href="/{{lang}}/">{{foot.product}}</a>
+      <a href="https://sales-partner.artofmenu.com/partner/">{{end.login}}</a>
+      <a href="/legal/partner-terms/?lang={{lang}}">{{foot.terms}}</a>
+      <a href="/legal/privacy-partner/?lang={{lang}}">{{foot.privacy}}</a>
+    </div>
+  </div>
+</footer>
+<script src="/assets/seo/partner.js?v={{v.js}}"></script>
+<script src="/assets/seo/seo.js?v=b3754054"></script>
+<script src="/assets/hairline/kernel.js?v=534c7fdd"></script>
+<script type="module" src="/assets/hairline/coins.js?v={{v.fig}}"></script>
+</body>
+</html>
