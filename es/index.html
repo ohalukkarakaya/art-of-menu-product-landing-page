@@ -21,10 +21,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="/assets/web/diorama/planet.avif" type="image/avif" fetchpriority="high">
-  <link rel="stylesheet" href="/gun.css?v=30f32a58">
+  <link rel="stylesheet" href="/gun.css?v=003cc103">
   <script>document.documentElement.classList.add("js");</script>
   <script defer src="/i18n.js?v=00a72fa7"></script>
-  <script defer src="/gun-i18n.js?v=06960dc0"></script>
+  <script defer src="/gun-i18n.js?v=1ba564a7"></script>
   <script defer src="/pricing.js?v=c1342e40"></script>
   <script defer src="/gun.js?v=bdc28bfa"></script>
   <!-- filled by tools/build.mjs: canonical, hreflang and structured data -->
@@ -227,6 +227,20 @@
   <!-- Plans: prices are written in by tools/build.mjs, then pricing.js shows the visitor's currency -->
   <div class="finale">
   <span class="footer-mark" aria-hidden="true"></span>
+  <!-- Sample menu: the live Kuzey Mutfak Moda menu as a scannable QR -->
+  <section class="sample" id="sample" aria-labelledby="sample-title">
+    <div class="sample-in">
+      <div class="sample-copy">
+        <p class="sample-eyebrow" data-t="sample.eyebrow">Menú de ejemplo</p>
+        <h2 id="sample-title" data-t="sample.t">Abre una carta real en tu móvil</h2>
+        <p class="sample-lead" data-t="sample.d">La carta en vivo de Kuzey Mutfak Moda. Escanéala con la cámara y se abre en el idioma de tu móvil.</p>
+        <a class="sample-btn" href="https://app.artofmenu.com/m/Ezr1MsY6PjeUaV4fGonbbg" target="_blank" rel="noopener"><span data-t="sample.btn">Abrir la carta</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+      </div>
+      <div class="sample-card" role="img" aria-label="Código QR de la carta de Kuzey Mutfak Moda" data-t-aria="sample.alt">
+        <img src="/assets/web/sample/kuzey-mutfak-qr.svg" alt="" width="1200" height="1200" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </section>
   <section class="plans" id="plans" aria-labelledby="plans-title">
     <div class="plans-in">
       <h2 id="plans-title" data-t="plans.title">Elige el plan que mejor encaja con tu negocio.</h2>
