@@ -243,7 +243,7 @@ function topicPage(l, key) {
   <section class="hero">
     <div class="wrap hero-grid">
       <div>
-        <p class="eyebrow"><span class="soon">${esc(ui.soon)}</span>${esc(pg.eyebrow)}</p>
+        <p class="eyebrow">${esc(pg.eyebrow)}</p>
         <h1>${esc(pg.h1)}</h1>
         <p class="lead">${esc(pg.lead)}</p>
         <div class="hero-actions">
