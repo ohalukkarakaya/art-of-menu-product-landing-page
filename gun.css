@@ -312,6 +312,10 @@ ol { margin: 0; padding: 0; list-style: none; }
 .btn-arrow { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: rgba(255,255,255,.16); transition: transform .35s var(--spring), background-color .2s; }
 .btn-primary:hover .btn-arrow { transform: translateX(3px); background: rgba(255,255,255,.24); }
 .btn-primary:active { transform: scale(.98); }
+/* hero: sign up, or walk through the sample business first */
+.hero-actions { margin-top: 30px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px; pointer-events: auto; }
+.hero-actions .btn { margin-top: 0; }
+.btn-ghost { background: rgba(255, 255, 255, .55); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .7); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
 .chapter-logo { width: auto; height: clamp(76px, 7.4vw, 112px); margin-bottom: 26px; }
 
 /* ---------- Clock ---------- */
@@ -395,9 +399,11 @@ main { background: #1C1F55; }
 .sample h2 { margin: 0; font-size: clamp(32px, 4vw, 52px); line-height: 1.05; letter-spacing: -.04em; text-wrap: balance; }
 .sample-lead { margin: 18px 0 0; max-width: 30rem; font-size: 18px; line-height: 1.5; color: rgba(245,245,247,.82); text-wrap: pretty; }
 .sample h2, .sample-lead { text-shadow: 0 2px 18px rgba(8, 10, 40, .85), 0 1px 3px rgba(8, 10, 40, .6); }
-.sample-btn { margin-top: 30px; display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; border-radius: 99px; background: #F5F5F7; color: var(--ink); text-decoration: none; font-weight: 600; font-size: 15px; transition: transform .35s var(--spring); }
+.sample-actions { margin-top: 30px; display: flex; flex-wrap: wrap; gap: 12px; }
+.sample-btn { display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; border-radius: 99px; background: #F5F5F7; color: var(--ink); text-decoration: none; font-weight: 600; font-size: 15px; transition: transform .35s var(--spring); }
 .sample-btn:hover { transform: translateY(-2px); }
 .sample-btn:focus-visible { outline: 3px solid #8EA2FF; outline-offset: 3px; }
+.sample-btn-ghost { background: transparent; color: #F5F5F7; box-shadow: inset 0 0 0 1.5px rgba(245,245,247,.5); }
 
 /* white rounded card; a thin light runs around its edge and a soft glow sits behind it */
 /* the white fill sits on the img: the card's own background would paint under its glow layers */
@@ -483,6 +489,7 @@ main { background: #1C1F55; }
   .chart { inset: 34% 8% 40% 0; }
   .copy::before { background: linear-gradient(180deg, rgba(220, 230, 255, .85) 0, rgba(220, 230, 255, .6) 38%, transparent 56%); }
   .btn { margin-top: 20px; min-height: 50px; }
+  .hero-actions { margin-top: 20px; }
   :root { --edge: 20px; }
   .tab, .brand { top: 14px; }
   .chapter-logo { height: 64px; margin-bottom: 16px; }
@@ -492,6 +499,7 @@ main { background: #1C1F55; }
   .sample { padding: 110px 18px 0; }
   .sample-in { grid-template-columns: 1fr; justify-items: center; text-align: center; gap: 44px; }
   .sample-lead { margin-inline: auto; }
+  .sample-actions { justify-content: center; }
   .clock ol { font-size: 11px; }
 }
 

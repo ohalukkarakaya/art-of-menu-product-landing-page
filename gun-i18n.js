@@ -16,6 +16,7 @@ window.GUN_I18N = {
     "sample.t": "Gerçek bir menüyü telefonunda aç",
     "sample.d": "Kuzey Mutfak Moda'nın canlı menüsü. Kameranla okut; menü telefonunun dilinde açılır.",
     "sample.btn": "Menüyü aç",
+    "sample.panel": "Demoyu dene",
     "sample.alt": "Kuzey Mutfak Moda menüsünün QR kodu",
 
     "s0.t": "QR menüden çok daha fazlası",
@@ -76,6 +77,7 @@ window.GUN_I18N = {
     "sample.t": "Open a real menu on your phone",
     "sample.d": "The live menu of Kuzey Mutfak Moda. Scan it with your camera and it opens in your phone's language.",
     "sample.btn": "Open the menu",
+    "sample.panel": "Try the demo",
     "sample.alt": "QR code for the Kuzey Mutfak Moda menu",
 
     "s0.t": "More than a QR menu",
@@ -136,6 +138,7 @@ window.GUN_I18N = {
     "sample.t": "Öffnen Sie ein echtes Menü auf Ihrem Handy",
     "sample.d": "Die Live-Speisekarte von Kuzey Mutfak Moda. Mit der Kamera scannen, sie öffnet sich in der Sprache Ihres Handys.",
     "sample.btn": "Menü öffnen",
+    "sample.panel": "Demo ausprobieren",
     "sample.alt": "QR-Code der Speisekarte von Kuzey Mutfak Moda",
 
     "s0.t": "Mehr als eine QR-Speisekarte",
@@ -196,6 +199,7 @@ window.GUN_I18N = {
     "sample.t": "Abre una carta real en tu móvil",
     "sample.d": "La carta en vivo de Kuzey Mutfak Moda. Escanéala con la cámara y se abre en el idioma de tu móvil.",
     "sample.btn": "Abrir la carta",
+    "sample.panel": "Probar la demo",
     "sample.alt": "Código QR de la carta de Kuzey Mutfak Moda",
 
     "s0.t": "Mucho más que una carta QR",
@@ -256,6 +260,7 @@ window.GUN_I18N = {
     "sample.t": "Apri un menu vero sul tuo telefono",
     "sample.d": "Il menu dal vivo di Kuzey Mutfak Moda. Inquadralo con la fotocamera e si apre nella lingua del tuo telefono.",
     "sample.btn": "Apri il menu",
+    "sample.panel": "Prova la demo",
     "sample.alt": "Codice QR del menu di Kuzey Mutfak Moda",
 
     "s0.t": "Molto più di un menù QR",
@@ -316,6 +321,7 @@ window.GUN_I18N = {
     "sample.t": "Ouvrez un vrai menu sur votre téléphone",
     "sample.d": "Le menu en ligne de Kuzey Mutfak Moda. Scannez-le avec l'appareil photo, il s'ouvre dans la langue de votre téléphone.",
     "sample.btn": "Ouvrir le menu",
+    "sample.panel": "Essayer la démo",
     "sample.alt": "QR code du menu de Kuzey Mutfak Moda",
 
     "s0.t": "Bien plus qu'un menu QR",

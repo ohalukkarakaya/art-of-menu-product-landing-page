@@ -21,12 +21,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="/assets/web/diorama/planet.avif" type="image/avif" fetchpriority="high">
-  <link rel="stylesheet" href="/gun.css?v=003cc103">
+  <link rel="stylesheet" href="/gun.css?v=fe9d8c40">
   <script>document.documentElement.classList.add("js");</script>
   <script defer src="/i18n.js?v=00a72fa7"></script>
-  <script defer src="/gun-i18n.js?v=1ba564a7"></script>
+  <script defer src="/gun-i18n.js?v=c804b359"></script>
   <script defer src="/pricing.js?v=c1342e40"></script>
-  <script defer src="/gun.js?v=bdc28bfa"></script>
+  <script defer src="/gun.js?v=c48c4a43"></script>
   <!-- filled by tools/build.mjs: canonical, hreflang and structured data -->
   <!--seo:head-->
   <link rel="canonical" href="https://artofmenu.com/it/">
@@ -178,7 +178,10 @@
           <img class="chapter-logo" src="/assets/brand/logo.webp" alt="ArtOfMenu" width="900" height="682">
           <h1 data-t="s0.t">Molto più di un menù QR</h1>
           <p data-t="s0.d">ArtOfMenu riunisce menù QR, ordini, magazzino e prezzi intelligenti. Scorri verso il basso per vedere come funziona durante la giornata.</p>
-          <a class="btn btn-primary" href="https://app.artofmenu.com/#/signup"><span data-t="s6.btn">Inizia ora</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://app.artofmenu.com/#/signup"><span data-t="s6.btn">Inizia ora</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+            <a class="btn btn-ghost" href="https://app.artofmenu.com/demo/?from=landing" data-t="sample.panel">Prova la demo</a>
+          </div>
         </article>
         <article class="chapter" data-i="1">
           <span class="time">08:00</span>
@@ -234,7 +237,11 @@
         <p class="sample-eyebrow" data-t="sample.eyebrow">Menu di esempio</p>
         <h2 id="sample-title" data-t="sample.t">Apri un menu vero sul tuo telefono</h2>
         <p class="sample-lead" data-t="sample.d">Il menu dal vivo di Kuzey Mutfak Moda. Inquadralo con la fotocamera e si apre nella lingua del tuo telefono.</p>
-        <a class="sample-btn" href="https://app.artofmenu.com/m/Ezr1MsY6PjeUaV4fGonbbg" target="_blank" rel="noopener"><span data-t="sample.btn">Apri il menu</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        <div class="sample-actions">
+          <a class="sample-btn" href="https://app.artofmenu.com/m/Ezr1MsY6PjeUaV4fGonbbg" target="_blank" rel="noopener"><span data-t="sample.btn">Apri il menu</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+          <!-- the sample business panel; its way out leads to registration -->
+          <a class="sample-btn sample-btn-ghost" href="https://app.artofmenu.com/demo/?from=landing"><span data-t="sample.panel">Prova la demo</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 16 16" width="14" height="14"><path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span></a>
+        </div>
       </div>
       <div class="sample-card" role="img" aria-label="Codice QR del menu di Kuzey Mutfak Moda" data-t-aria="sample.alt">
         <img src="/assets/web/sample/kuzey-mutfak-qr.svg" alt="" width="1200" height="1200" loading="lazy" decoding="async">

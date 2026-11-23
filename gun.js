@@ -571,3 +571,12 @@
     stage.querySelectorAll("img[src]").forEach(function (img) { if (img.decode) img.decode().catch(function () {}); });
   });
 })();
+
+// Local preview only: the sample-panel links open the local panel (port 5180)
+// instead of the live app, so unreleased panel changes can be tried end to end.
+(function () {
+  if (!/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return;
+  document.querySelectorAll('a[href^="https://app.artofmenu.com/demo/"]').forEach(function (a) {
+    a.href = a.href.replace("https://app.artofmenu.com", "http://localhost:5180");
+  });
+})();
