@@ -1,9 +1,9 @@
 {
   "key": "partner-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "tr",
   "title": "Satış Partnerliği Sözleşmesi",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "Bu sözleşme, Art of Menu aboneliklerine yeni işletmeler yönlendiren satış partnerleri ile Göktigin Bilişim Teknoloji Ltd. Şti. arasındaki ilişkiyi düzenler. Partnerin bağımsız çalışma düzenini, yönlendirme kurallarını, yetki sınırlarını, komisyonun nasıl kazanıldığını ve ödendiğini, yasak satış yöntemlerini ve sözleşmenin sona ermesini açıklar. Kurumsal Değerler, Kabul Edilebilir Kullanım ve Marka İtibarı Politikası bu sözleşmenin bağlayıcı ekidir.",
   "sections": [
     {
@@ -111,7 +111,7 @@
       "id": "payable",
       "heading": "8. Komisyonun Kesinleşmesi, İadeler ve Ters İbrazlar",
       "blocks": [
-        { "p": "Komisyon, işletmenin ödemesinin Şirket'e ulaştığı tarihte bekleyen komisyon olarak kaydedilir ve bu tarihten 30 gün sonra ödenebilir hâle gelir. Bu 30 günlük süre, iade, ters ibraz ve iptal risklerinin netleşmesi için uygulanır." },
+        { "p": "Komisyon, işletmenin ödemesinin Şirket'e ulaştığı tarihte bekleyen komisyon olarak kaydedilir ve bu tarihten 37 gün sonra ödenebilir hâle gelir. Bu 37 günlük süre, iade, ters ibraz ve iptal risklerinin netleşmesi için uygulanır." },
         { "p": "Şirket aşağıdaki durumlarda komisyonu geçersiz sayar:" },
         { "ul": [
           "İşletmeye ödemenin tamamı veya bir kısmı iade edilirse,",

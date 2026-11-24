@@ -1,9 +1,9 @@
 {
   "key": "business-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "en",
   "title": "Art of Menu Business Service Agreement",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "This agreement applies to businesses that use the digital menu and order management software provided by Göktigin Bilişim Teknoloji Ltd. Şti. under the name Art of Menu. It sets out the scope of the service, the parties' responsibilities and the terms for subscription, payment, automatic renewal and cancellation. The Data Processing Agreement and the Corporate Values, Acceptable Use and Brand Reputation Policy are binding annexes to this agreement.",
   "sections": [
     { "id": "parties", "heading": "1. Parties", "blocks": [
@@ -148,7 +148,7 @@
       ]},
       { "p": "If the suspension continues, the Company may terminate the Agreement by notice sent by e-mail. In that case, the account closure provisions in the [Suspension and Termination](doc:business-terms#termination) section apply." },
       { "p": "**Cancellation.** The Customer may cancel its subscription from the Panel at any time. Cancellation takes effect at the end of the paid period; the Service can be used until that date, and the cancellation can be reversed. A short reason for cancellation is requested at the time of cancellation." },
-      { "p": "**Refunds.** The fee for a Subscription Period that has started is not refunded, including for the remaining time. Cases in which mandatory law requires a refund and cases in which the Company decides to make a refund remain unaffected. If the Company ends the Agreement without fault on the part of the Customer, it refunds the fee for the paid and unused period." },
+      { "p": "**Refunds.** The fee for a Subscription Period that has started is not refunded, including for the remaining time. Cases in which mandatory law requires a refund and cases in which the Company decides to make a refund remain unaffected. If the Company ends the Agreement without fault on the part of the Customer, it refunds the fee for the paid and unused period. **30-day satisfaction guarantee:** On a business's first paid subscription, if a refund is requested from the support team or at hello@goktigin.com within 30 days of the first payment, the first payment is refunded in full and the subscription ends. The guarantee applies once per business and only to the first payment; it does not cover renewals, additional branches or plan upgrades." },
       { "p": "**Price changes.** The Company may change its list prices. The new price is notified to the Customer by e-mail and through the Panel at least 30 days in advance and applies from the first renewal after the notice. A Customer that does not accept the new price may cancel its subscription before the renewal date. The fee for a period that has started is not changed during that period. Changes in tax rates apply from their effective dates." },
       { "p": "**Invoices.** Invoices are issued by the Company on the basis of the billing details provided by the Customer in the Panel and are made available electronically. The Customer is responsible for the accuracy of its billing details." },
       { "p": "**Payment infrastructure and card details.** Payments are taken through the infrastructure of the licensed payment service provider used by the Company, and the Company is the party receiving the payment. The card number and security code (CVV) are not stored in the Company's systems. The Company stores only the card reference provided by the payment service provider and the card brand, last four digits and expiry date used to identify the card." },

@@ -1,9 +1,9 @@
 {
   "key": "business-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "de",
   "title": "Art of Menu Dienstleistungsvertrag für Betriebe",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "Dieser Vertrag gilt für Betriebe, die die von der Göktigin Bilişim Teknoloji Ltd. Şti. unter dem Namen Art of Menu angebotene Software für digitale Speisekarten und Bestellverwaltung nutzen. Er regelt den Umfang des Dienstes, die Verantwortlichkeiten der Parteien sowie die Bedingungen für Abonnement, Zahlung, automatische Verlängerung und Kündigung. Der Auftragsverarbeitungsvertrag und die Richtlinie zu Unternehmenswerten, akzeptabler Nutzung und Markenreputation sind verbindliche Anlagen dieses Vertrags.",
   "sections": [
     { "id": "parties", "heading": "1. Vertragsparteien", "blocks": [
@@ -148,7 +148,7 @@
       ]},
       { "p": "Dauert die Sperrung an, kann das Unternehmen den Vertrag durch Mitteilung per E-Mail kündigen. In diesem Fall gelten die Bestimmungen zur Kontoschließung im Abschnitt [Sperrung und Kündigung](doc:business-terms#termination)." },
       { "p": "**Kündigung des Abonnements.** Der Kunde kann sein Abonnement jederzeit im Panel kündigen. Die Kündigung wird zum Ende des bezahlten Zeitraums wirksam; bis dahin kann der Dienst genutzt und die Kündigung zurückgenommen werden. Bei der Kündigung wird kurz nach dem Kündigungsgrund gefragt." },
-      { "p": "**Erstattung.** Das Entgelt für einen begonnenen Abonnementzeitraum wird auch für die verbleibende Zeit nicht erstattet. Fälle, in denen zwingendes Recht eine Erstattung vorschreibt, und Fälle, in denen das Unternehmen sich zu einer Erstattung entschließt, bleiben unberührt. Beendet das Unternehmen den Vertrag ohne Verschulden des Kunden, erstattet es das Entgelt für den bezahlten und nicht genutzten Zeitraum." },
+      { "p": "**Erstattung.** Das Entgelt für einen begonnenen Abonnementzeitraum wird auch für die verbleibende Zeit nicht erstattet. Fälle, in denen zwingendes Recht eine Erstattung vorschreibt, und Fälle, in denen das Unternehmen sich zu einer Erstattung entschließt, bleiben unberührt. Beendet das Unternehmen den Vertrag ohne Verschulden des Kunden, erstattet es das Entgelt für den bezahlten und nicht genutzten Zeitraum. **30-Tage-Zufriedenheitsgarantie:** Beim ersten kostenpflichtigen Abonnement eines Betriebs wird die erste Zahlung vollständig erstattet und das Abonnement beendet, wenn die Erstattung innerhalb von 30 Tagen nach der ersten Zahlung beim Supportteam oder unter hello@goktigin.com verlangt wird. Die Garantie gilt einmal pro Betrieb und nur für die erste Zahlung; Verlängerungen, zusätzliche Filialen und Paket-Upgrades sind nicht erfasst." },
       { "p": "**Preisänderung.** Das Unternehmen kann die Listenpreise ändern. Der neue Preis wird dem Kunden mindestens 30 Tage im Voraus per E-Mail und über das Panel mitgeteilt und gilt ab der ersten Verlängerung nach der Mitteilung. Ein Kunde, der den neuen Preis nicht annimmt, kann sein Abonnement vor dem Verlängerungsdatum kündigen. Das Entgelt für einen begonnenen Zeitraum wird während des Zeitraums nicht geändert. Änderungen der Steuersätze gelten ab ihrem Inkrafttreten." },
       { "p": "**Rechnung.** Rechnungen werden vom Unternehmen anhand der vom Kunden im Panel angegebenen Rechnungsdaten ausgestellt und elektronisch bereitgestellt. Für die Richtigkeit der Rechnungsdaten ist der Kunde verantwortlich." },
       { "p": "**Zahlungsinfrastruktur und Kartendaten.** Zahlungen werden über die Infrastruktur des lizenzierten Zahlungsdienstleisters entgegengenommen, mit dem das Unternehmen zusammenarbeitet; Zahlungsempfänger ist das Unternehmen. Kartennummer und Sicherheitscode (CVV) werden nicht in den Systemen des Unternehmens gespeichert. Das Unternehmen speichert lediglich die vom Zahlungsdienstleister vergebene Kartenreferenz sowie zur Erkennung der Karte die Kartenmarke, die letzten vier Ziffern und das Ablaufdatum." },

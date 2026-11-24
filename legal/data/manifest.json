@@ -11,7 +11,7 @@
     }
   },
   "business-terms": {
-    "version": "1.0",
+    "version": "1.1",
     "titles": {
       "tr": "Art of Menu İşletme Hizmet Sözleşmesi",
       "en": "Art of Menu Business Service Agreement",
@@ -44,7 +44,7 @@
     }
   },
   "partner-terms": {
-    "version": "1.0",
+    "version": "1.1",
     "titles": {
       "tr": "Satış Partnerliği Sözleşmesi",
       "en": "Sales Partner Agreement",
@@ -99,7 +99,7 @@
     }
   },
   "distance-sales": {
-    "version": "1.0",
+    "version": "1.1",
     "titles": {
       "tr": "Mesafeli Satış Sözleşmesi",
       "en": "Distance Sales Agreement",
@@ -110,7 +110,7 @@
     }
   },
   "delivery-returns": {
-    "version": "1.0",
+    "version": "1.1",
     "titles": {
       "tr": "Teslimat ve İade Şartları",
       "en": "Delivery and Refund Terms",

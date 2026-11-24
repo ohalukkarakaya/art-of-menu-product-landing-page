@@ -1,9 +1,9 @@
 {
   "key": "delivery-returns",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "es",
   "title": "Condiciones de Entrega y Reembolso",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Art of Menu es un servicio digital de suscripción. No se realiza ningún envío físico; el servicio se activa en su cuenta en cuanto se confirma el pago.",
   "sections": [
     {
@@ -67,6 +67,7 @@
             "cobros duplicados o por un importe erróneo para el mismo período: la totalidad del importe cobrado en exceso;",
             "imposibilidad de activar el servicio tras el pago dentro del plazo indicado en el apartado 2: la totalidad del importe pagado;",
             "resolución del contrato por parte de la Sociedad sin culpa del comprador: la cuota correspondiente al período pagado y no utilizado;",
+            "se solicita el reembolso dentro de los 30 días siguientes al primer pago de la primera suscripción de pago del establecimiento (garantía de satisfacción de 30 días): la totalidad del primer pago, y la suscripción finaliza. La garantía se aplica una sola vez por establecimiento y solo al primer pago; no cubre renovaciones, sucursales adicionales ni cambios a un plan superior;",
             "otros casos en los que la legislación imperativa exija un reembolso."
           ]
         },

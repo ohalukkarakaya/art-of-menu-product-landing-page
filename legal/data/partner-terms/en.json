@@ -1,9 +1,9 @@
 {
   "key": "partner-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "en",
   "title": "Sales Partner Agreement",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "This agreement governs the relationship between Göktigin Bilişim Teknoloji Ltd. Şti. and the sales partners who refer new businesses to Art of Menu subscriptions. It explains the partner's independent status, the referral rules, the limits of the partner's authority, how commission is earned and paid, prohibited sales methods and how the agreement ends. The Corporate Values, Acceptable Use and Brand Reputation Policy is a binding annex to this agreement.",
   "sections": [
     {
@@ -111,7 +111,7 @@
       "id": "payable",
       "heading": "8. Commission Becoming Payable, Refunds and Chargebacks",
       "blocks": [
-        { "p": "Commission is recorded as pending commission on the date the business's payment reaches the Company and becomes payable 30 days after that date. This 30-day period allows refund, chargeback and cancellation risks to become clear." },
+        { "p": "Commission is recorded as pending commission on the date the business's payment reaches the Company and becomes payable 37 days after that date. This 37-day period allows refund, chargeback and cancellation risks to become clear." },
         { "p": "The Company treats commission as void in the following cases:" },
         { "ul": [
           "if all or part of the payment is refunded to the business;",

@@ -1,9 +1,9 @@
 {
   "key": "delivery-returns",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "tr",
   "title": "Teslimat ve İade Şartları",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Art of Menu dijital bir abonelik hizmetidir. Fiziksel teslimat ve kargo yoktur; hizmet ödeme onaylandığı anda hesabınızda kullanıma açılır.",
   "sections": [
     {
@@ -67,6 +67,7 @@
             "aynı dönem için birden fazla veya hatalı tutarda tahsilat yapılmışsa: fazla tahsil edilen tutarın tamamı;",
             "ödeme alındığı halde hizmet 2. bölümde belirtilen sürede kullanıma açılamamışsa: ödenen tutarın tamamı;",
             "Şirket, alıcının kusuru olmaksızın sözleşmeyi sona erdirirse: ödenmiş ve kullanılmamış süreye ait ücret;",
+            "işletmenin ilk ücretli aboneliğinde, ilk ödemenin yapıldığı tarihten itibaren 30 gün içinde iade talep edilirse (30 gün memnuniyet garantisi): ilk ödemenin tamamı; abonelik sona erer. Garanti her işletme için bir kez ve yalnızca ilk ödeme için geçerlidir; yenileme, ek şube ve paket yükseltme ödemelerini kapsamaz;",
             "emredici mevzuatın iadeyi zorunlu kıldığı diğer haller."
           ]
         },

@@ -1,9 +1,9 @@
 {
   "key": "business-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "it",
   "title": "Contratto di Servizio Art of Menu per le Attività",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "Il presente contratto si applica alle attività che utilizzano il software per menu digitali e gestione degli ordini offerto da Göktigin Bilişim Teknoloji Ltd. Şti. con il nome Art of Menu. Disciplina l'ambito del servizio, le responsabilità delle parti e le condizioni di abbonamento, pagamento, rinnovo automatico e disdetta. L'Accordo sul trattamento dei dati e la Politica sui Valori Aziendali, sull'Uso Accettabile e sulla Reputazione del Marchio costituiscono allegati vincolanti del presente contratto.",
   "sections": [
     { "id": "parties", "heading": "1. Parti", "blocks": [
@@ -148,7 +148,7 @@
       ]},
       { "p": "Se la sospensione si protrae, la Società può risolvere il Contratto dandone comunicazione via e-mail. In tal caso si applicano le disposizioni sulla chiusura dell'account della sezione [Sospensione e risoluzione](doc:business-terms#termination)." },
       { "p": "**Disdetta.** Il Cliente può disdire l'abbonamento dal pannello in qualsiasi momento. La disdetta ha effetto alla fine del periodo già pagato; fino a tale data il Servizio può essere utilizzato e la disdetta può essere revocata. Al momento della disdetta viene chiesto un breve motivo." },
-      { "p": "**Rimborso.** Il corrispettivo di un Periodo di Abbonamento già iniziato non è rimborsato, neppure per la parte residua. Restano salvi i casi in cui il diritto imperativo impone il rimborso e i casi in cui la Società decide di effettuare un rimborso. Se la Società pone fine al Contratto senza colpa del Cliente, rimborsa il corrispettivo relativo al periodo pagato e non utilizzato." },
+      { "p": "**Rimborso.** Il corrispettivo di un Periodo di Abbonamento già iniziato non è rimborsato, neppure per la parte residua. Restano salvi i casi in cui il diritto imperativo impone il rimborso e i casi in cui la Società decide di effettuare un rimborso. Se la Società pone fine al Contratto senza colpa del Cliente, rimborsa il corrispettivo relativo al periodo pagato e non utilizzato. **Garanzia di soddisfazione di 30 giorni:** per il primo abbonamento a pagamento di un'attività, se il rimborso viene richiesto al team di assistenza o a hello@goktigin.com entro 30 giorni dal primo pagamento, il primo pagamento viene rimborsato per intero e l'abbonamento termina. La garanzia vale una sola volta per attività e solo per il primo pagamento; non copre rinnovi, sedi aggiuntive né passaggi a un piano superiore." },
       { "p": "**Variazione dei prezzi.** La Società può modificare i prezzi di listino. Il nuovo prezzo è comunicato al Cliente via e-mail e tramite il pannello almeno 30 giorni prima e si applica a partire dal primo rinnovo successivo alla comunicazione. Il Cliente che non accetta il nuovo prezzo può disdire l'abbonamento prima della data di rinnovo. Il corrispettivo di un periodo già iniziato non viene modificato nel corso del periodo. Le variazioni delle aliquote fiscali si applicano dalla loro data di entrata in vigore." },
       { "p": "**Fattura.** Le fatture sono emesse dalla Società sulla base dei dati di fatturazione comunicati dal Cliente nel pannello e sono rese disponibili in formato elettronico. Il Cliente è responsabile della correttezza dei dati di fatturazione." },
       { "p": "**Infrastruttura di pagamento e dati della carta.** I pagamenti sono riscossi tramite l'infrastruttura del prestatore di servizi di pagamento autorizzato con cui opera la Società e il beneficiario del pagamento è la Società. Il numero della carta e il codice di sicurezza (CVV) non sono conservati nei sistemi della Società. La Società conserva soltanto il riferimento della carta fornito dal prestatore di servizi di pagamento e i dati utili a riconoscere la carta, ossia il circuito, le ultime quattro cifre e la data di scadenza." },

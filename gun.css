@@ -317,6 +317,19 @@ ol { margin: 0; padding: 0; list-style: none; }
 .hero-actions .btn { margin-top: 0; }
 .btn-ghost { background: rgba(255, 255, 255, .55); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .7); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
 .chapter-logo { width: auto; height: clamp(76px, 7.4vw, 112px); margin-bottom: 26px; }
+/* ---------- Hero: what it is, how much work it is, and what signing up risks ---------- */
+/* same width as the other chapters: a wider column reaches the planet and gun.js would push it down */
+.chapter-hero { width: min(400px, 30vw); }
+.chapter-hero h1 { font-size: clamp(34px, 3vw, 46px); line-height: 1.05; letter-spacing: -.04em; }
+.chapter .hero-kicker {
+  display: inline-block; margin: 0 0 14px; padding: 6px 12px; max-width: none;
+  border-radius: 99px; font-size: 13px; line-height: 1.3; font-weight: 600; color: var(--brand);
+  background: rgba(255, 255, 255, .62); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .85); text-shadow: none;
+}
+.chapter .hero-lead { max-width: 31rem; }
+.hero-trust { list-style: none; margin: 20px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; line-height: 1.35; font-weight: 500; color: var(--fg); pointer-events: auto; }
+.hero-trust li { display: inline-flex; align-items: center; gap: 7px; }
+.hero-trust svg { flex: none; color: #1E7A4C; }
 
 /* ---------- Clock ---------- */
 .clock { position: absolute; z-index: 4; left: 50%; bottom: 26px; translate: -50% 0; width: min(560px, 80vw); opacity: var(--clock-o, 0); transition: opacity .4s; }
@@ -390,6 +403,10 @@ main { background: #1C1F55; }
 .price-per { font-size: 15px; color: rgba(245,245,247,.6); }
 .plan-smart .price-per { color: #6E6E73; }
 .plans-note { margin-top: 36px; text-align: center; font-size: 14px; color: rgba(245,245,247,.55); }
+/* the 30-day guarantee, under the prices */
+.plans-guarantee { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px 8px; margin: 14px auto 0; max-width: 40rem; text-align: center; font-size: 15px; line-height: 1.45; color: rgba(245,245,247,.9); }
+.plans-guarantee svg { flex: none; color: #6FE0A4; }
+.plans-guarantee a { color: rgba(245,245,247,.7); text-underline-offset: 3px; }
 
 /* ---------- Sample menu QR (before the plans) ---------- */
 @property --sample-a { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
@@ -501,6 +518,30 @@ main { background: #1C1F55; }
   .sample-lead { margin-inline: auto; }
   .sample-actions { justify-content: center; }
   .clock ol { font-size: 11px; }
+}
+
+/* Phones: the hero is one tidy column. The header is there from the start (gun.js), so the big
+   logo goes; the two buttons share one width, and the trust row sits right under them. The
+   mouse-shaped scroll hint is for desktops only. */
+@media (max-width: 860px) {
+  /* one heading, one sentence, one button: the kicker goes, the demo becomes a quiet link */
+  .chapter-hero { top: 92px; width: auto; }
+  .chapter-hero .chapter-logo, .chapter .hero-kicker { display: none; }
+  .chapter-hero h1 { font-size: clamp(31px, 8.6vw, 40px); line-height: 1.08; letter-spacing: -.035em; }
+  .chapter-hero .hero-lead { margin-top: 14px; font-size: 15.5px; line-height: 1.5; }
+  .hero-actions { display: grid; grid-template-columns: 1fr; justify-items: center; gap: 4px; margin-top: 24px; }
+  .hero-actions .btn { width: 100%; min-height: 54px; justify-content: center; }
+  .hero-actions .btn-primary { position: relative; padding: 0 52px; }
+  .hero-actions .btn-primary .btn-arrow { position: absolute; right: 7px; top: 50%; translate: 0 -50%; }
+  .hero-actions .btn-ghost { width: auto; min-height: 44px; padding: 0 12px; background: none; box-shadow: none; -webkit-backdrop-filter: none; backdrop-filter: none; color: var(--brand); font-size: 15px; }
+  .hero-actions .btn-ghost::after { content: "→"; margin-left: 6px; }
+  /* a short checklist, one item per line, centred as a block but aligned on its ticks */
+  .hero-trust { flex-direction: column; align-items: flex-start; flex-wrap: nowrap; gap: 8px; width: fit-content; max-width: 100%; margin: 16px auto 0; font-size: 13.5px; color: var(--fg); }
+  .hero-trust li { align-items: flex-start; }
+  .hero-trust svg { margin-top: 1px; }
+  .hint { display: none; }
+  .copy::before { background: linear-gradient(180deg, rgba(220, 230, 255, .9) 0, rgba(220, 230, 255, .78) 68%, transparent 90%); }
+  .plans-guarantee { font-size: 14px; }
 }
 
 /* Phones only: the footer becomes a calm stack. The three main links stay a row of words as on

@@ -1,9 +1,9 @@
 {
   "key": "delivery-returns",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "en",
   "title": "Delivery and Refund Terms",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Art of Menu is a digital subscription service. Nothing is shipped; the service is activated in your account as soon as payment is confirmed.",
   "sections": [
     {
@@ -67,6 +67,7 @@
             "duplicate charges or charges of a wrong amount for the same period: the full overcharged amount;",
             "the service could not be activated within the time in section 2 after payment: the full amount paid;",
             "the Company terminates the agreement without fault of the buyer: the fee for the paid, unused period;",
+            "a refund is requested within 30 days of the first payment of the business's first paid subscription (30-day satisfaction guarantee): the full first payment, and the subscription ends. The guarantee applies once per business and only to the first payment; it does not cover renewals, additional branches or plan upgrades;",
             "other cases where mandatory law requires a refund."
           ]
         },

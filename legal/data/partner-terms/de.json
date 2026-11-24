@@ -1,9 +1,9 @@
 {
   "key": "partner-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "de",
   "title": "Vertriebspartnervertrag",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "Dieser Vertrag regelt das Verhältnis zwischen der Göktigin Bilişim Teknoloji Ltd. Şti. und den Vertriebspartnern, die neue Betriebe an Art of Menu-Abonnements vermitteln. Er beschreibt die unabhängige Tätigkeit des Partners, die Regeln für Vermittlungen, die Grenzen seiner Befugnisse, wie Provisionen verdient und ausgezahlt werden, unzulässige Vertriebsmethoden sowie die Beendigung des Vertrags. Die Richtlinie zu Unternehmenswerten, akzeptabler Nutzung und Markenreputation ist verbindliche Anlage dieses Vertrags.",
   "sections": [
     {
@@ -111,7 +111,7 @@
       "id": "payable",
       "heading": "8. Fälligkeit der Provision, Erstattungen und Rückbuchungen",
       "blocks": [
-        { "p": "Die Provision wird an dem Tag, an dem die Zahlung des Betriebs beim Unternehmen eingeht, als ausstehende Provision erfasst und 30 Tage nach diesem Tag auszahlbar. Diese Frist von 30 Tagen dient dazu, die Risiken von Erstattungen, Rückbuchungen und Kündigungen zu klären." },
+        { "p": "Die Provision wird an dem Tag, an dem die Zahlung des Betriebs beim Unternehmen eingeht, als ausstehende Provision erfasst und 37 Tage nach diesem Tag auszahlbar. Diese Frist von 37 Tagen dient dazu, die Risiken von Erstattungen, Rückbuchungen und Kündigungen zu klären." },
         { "p": "In folgenden Fällen behandelt das Unternehmen die Provision als ungültig:" },
         { "ul": [
           "wenn die Zahlung dem Betrieb ganz oder teilweise erstattet wird,",

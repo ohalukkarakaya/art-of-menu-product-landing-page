@@ -1,9 +1,9 @@
 {
   "key": "distance-sales",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "it",
   "title": "Contratto di vendita a distanza",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Il presente contratto disciplina le condizioni di acquisto online degli abbonamenti Art of Menu su app.artofmenu.com. Entra in vigore con l'accettazione elettronica nella fase di pagamento.",
   "sections": [
     {
@@ -134,7 +134,7 @@
       "heading": "6. Disdetta e rimborso",
       "blocks": [
         {
-          "p": "L'Acquirente può disdire l'abbonamento in qualsiasi momento dal pannello; la disdetta ha effetto alla fine del periodo già pagato. Di regola, il corrispettivo di un periodo già iniziato non è rimborsato. In caso di addebito errato o duplicato, di mancata attivazione del servizio o di risoluzione del contratto da parte del Venditore senza colpa dell'Acquirente, il rimborso è effettuato sulla carta utilizzata per il pagamento. I dettagli sono riportati nella pagina [Condizioni di consegna e rimborso](doc:delivery-returns)."
+          "p": "L'Acquirente può disdire l'abbonamento in qualsiasi momento dal pannello; la disdetta ha effetto alla fine del periodo già pagato. Di regola, il corrispettivo di un periodo già iniziato non è rimborsato. In caso di addebito errato o duplicato, di mancata attivazione del servizio o di risoluzione del contratto da parte del Venditore senza colpa dell'Acquirente, il rimborso è effettuato sulla carta utilizzata per il pagamento. I dettagli sono riportati nella pagina [Condizioni di consegna e rimborso](doc:delivery-returns). **Garanzia di soddisfazione di 30 giorni:** per il primo abbonamento a pagamento di un'attività, se il rimborso viene richiesto al team di assistenza o a hello@goktigin.com entro 30 giorni dal primo pagamento, il primo pagamento viene rimborsato per intero e l'abbonamento termina. La garanzia vale una sola volta per attività e solo per il primo pagamento; non copre rinnovi, sedi aggiuntive né passaggi a un piano superiore."
         }
       ]
     },

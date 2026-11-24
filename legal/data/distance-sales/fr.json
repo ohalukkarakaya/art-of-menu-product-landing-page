@@ -1,9 +1,9 @@
 {
   "key": "distance-sales",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "fr",
   "title": "Contrat de vente à distance",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Le présent contrat régit les conditions d'achat en ligne des abonnements Art of Menu sur app.artofmenu.com. Il entre en vigueur lorsqu'il est accepté électroniquement lors de l'étape de paiement.",
   "sections": [
     {
@@ -134,7 +134,7 @@
       "heading": "6. Résiliation et remboursement",
       "blocks": [
         {
-          "p": "L'Acheteur peut résilier son abonnement à tout moment depuis le panneau ; la résiliation prend effet à la fin de la période payée. En règle générale, le prix d'une période commencée n'est pas remboursé. En cas de prélèvement erroné ou en double, d'impossibilité d'activer le service ou de résiliation du contrat par le Vendeur sans faute de l'Acheteur, le remboursement est effectué sur la carte utilisée pour le paiement. Les détails figurent dans les [Conditions de livraison et de remboursement](doc:delivery-returns)."
+          "p": "L'Acheteur peut résilier son abonnement à tout moment depuis le panneau ; la résiliation prend effet à la fin de la période payée. En règle générale, le prix d'une période commencée n'est pas remboursé. En cas de prélèvement erroné ou en double, d'impossibilité d'activer le service ou de résiliation du contrat par le Vendeur sans faute de l'Acheteur, le remboursement est effectué sur la carte utilisée pour le paiement. Les détails figurent dans les [Conditions de livraison et de remboursement](doc:delivery-returns). **Garantie de satisfaction de 30 jours :** pour le premier abonnement payant d'un établissement, si le remboursement est demandé à l'équipe d'assistance ou à hello@goktigin.com dans les 30 jours suivant le premier paiement, le premier paiement est intégralement remboursé et l'abonnement prend fin. La garantie s'applique une seule fois par établissement et uniquement au premier paiement ; elle ne couvre ni les renouvellements, ni les succursales supplémentaires, ni les passages à une formule supérieure."
         }
       ]
     },

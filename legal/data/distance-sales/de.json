@@ -1,9 +1,9 @@
 {
   "key": "distance-sales",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "de",
   "title": "Fernabsatzvertrag",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Dieser Vertrag regelt die Bedingungen für den elektronischen Kauf von Art of Menu-Abonnements über app.artofmenu.com. Er tritt in Kraft, wenn er im Zahlungsschritt elektronisch angenommen wird.",
   "sections": [
     {
@@ -134,7 +134,7 @@
       "heading": "6. Kündigung und Erstattung",
       "blocks": [
         {
-          "p": "Der Käufer kann sein Abonnement jederzeit im Panel kündigen; die Kündigung wird zum Ende der bezahlten Laufzeit wirksam. Das Entgelt für eine bereits begonnene Laufzeit wird grundsätzlich nicht erstattet. Bei fehlerhaften oder doppelten Abbuchungen, wenn der Dienst nicht freigeschaltet werden kann, sowie bei Beendigung des Vertrags durch den Verkäufer ohne Verschulden des Käufers erfolgt die Erstattung auf die für die Zahlung verwendete Karte. Einzelheiten finden Sie in den [Liefer- und Erstattungsbedingungen](doc:delivery-returns)."
+          "p": "Der Käufer kann sein Abonnement jederzeit im Panel kündigen; die Kündigung wird zum Ende der bezahlten Laufzeit wirksam. Das Entgelt für eine bereits begonnene Laufzeit wird grundsätzlich nicht erstattet. Bei fehlerhaften oder doppelten Abbuchungen, wenn der Dienst nicht freigeschaltet werden kann, sowie bei Beendigung des Vertrags durch den Verkäufer ohne Verschulden des Käufers erfolgt die Erstattung auf die für die Zahlung verwendete Karte. Einzelheiten finden Sie in den [Liefer- und Erstattungsbedingungen](doc:delivery-returns). **30-Tage-Zufriedenheitsgarantie:** Beim ersten kostenpflichtigen Abonnement eines Betriebs wird die erste Zahlung vollständig erstattet und das Abonnement beendet, wenn die Erstattung innerhalb von 30 Tagen nach der ersten Zahlung beim Supportteam oder unter hello@goktigin.com verlangt wird. Die Garantie gilt einmal pro Betrieb und nur für die erste Zahlung; Verlängerungen, zusätzliche Filialen und Paket-Upgrades sind nicht erfasst."
         }
       ]
     },

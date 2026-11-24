@@ -1,9 +1,9 @@
 {
   "key": "distance-sales",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "es",
   "title": "Contrato de Venta a Distancia",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Este contrato establece las condiciones de compra en línea de las suscripciones de Art of Menu en app.artofmenu.com. Entra en vigor cuando se acepta electrónicamente en el paso de pago.",
   "sections": [
     {
@@ -134,7 +134,7 @@
       "heading": "6. Cancelación y reembolsos",
       "blocks": [
         {
-          "p": "El comprador puede cancelar en cualquier momento desde el panel; la cancelación surte efecto al final del período pagado. Como norma general, no se reembolsan las cuotas de un período ya iniciado. En caso de cobros duplicados o erróneos, de imposibilidad de activar el servicio o de resolución por parte del Vendedor sin culpa del comprador, el reembolso se abona en la tarjeta utilizada. Consulte las [Condiciones de Entrega y Reembolso](doc:delivery-returns)."
+          "p": "El comprador puede cancelar en cualquier momento desde el panel; la cancelación surte efecto al final del período pagado. Como norma general, no se reembolsan las cuotas de un período ya iniciado. En caso de cobros duplicados o erróneos, de imposibilidad de activar el servicio o de resolución por parte del Vendedor sin culpa del comprador, el reembolso se abona en la tarjeta utilizada. Consulte las [Condiciones de Entrega y Reembolso](doc:delivery-returns). **Garantía de satisfacción de 30 días:** en la primera suscripción de pago de un establecimiento, si se solicita el reembolso al equipo de soporte o en hello@goktigin.com dentro de los 30 días siguientes al primer pago, se reembolsa íntegramente el primer pago y la suscripción finaliza. La garantía se aplica una sola vez por establecimiento y solo al primer pago; no cubre renovaciones, sucursales adicionales ni cambios a un plan superior."
         }
       ]
     },

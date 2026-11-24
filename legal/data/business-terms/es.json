@@ -1,9 +1,9 @@
 {
   "key": "business-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "es",
   "title": "Contrato de Servicio de Art of Menu para Establecimientos",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "Este contrato se aplica a los establecimientos que utilizan el software de menú digital y gestión de pedidos que Göktigin Bilişim Teknoloji Ltd. Şti. ofrece con el nombre Art of Menu. Regula el alcance del servicio, las responsabilidades de las partes y las condiciones de suscripción, pago, renovación automática y cancelación. El Contrato de Encargo del Tratamiento y la Política de Valores Corporativos, Uso Aceptable y Reputación de Marca constituyen anexos vinculantes de este contrato.",
   "sections": [
     { "id": "parties", "heading": "1. Partes", "blocks": [
@@ -148,7 +148,7 @@
       ]},
       { "p": "Si la suspensión persiste, la Sociedad podrá resolver el Contrato mediante notificación por correo electrónico. En tal caso se aplicarán las disposiciones sobre el cierre de la cuenta de la sección [Suspensión y resolución](doc:business-terms#termination)." },
       { "p": "**Cancelación.** El Cliente puede cancelar su suscripción en cualquier momento desde el Panel. La cancelación surte efecto al final del periodo pagado; hasta esa fecha puede utilizarse el Servicio y la cancelación puede revocarse. Al cancelar se pregunta brevemente el motivo de la cancelación." },
-      { "p": "**Reembolso.** El precio de un Periodo de Suscripción ya iniciado no se reembolsa, tampoco por el tiempo restante. Quedan a salvo los casos en que las normas imperativas obliguen al reembolso y aquellos en que la Sociedad decida efectuarlo. Si la Sociedad pone fin al Contrato sin culpa del Cliente, reembolsará el precio correspondiente al periodo pagado y no utilizado." },
+      { "p": "**Reembolso.** El precio de un Periodo de Suscripción ya iniciado no se reembolsa, tampoco por el tiempo restante. Quedan a salvo los casos en que las normas imperativas obliguen al reembolso y aquellos en que la Sociedad decida efectuarlo. Si la Sociedad pone fin al Contrato sin culpa del Cliente, reembolsará el precio correspondiente al periodo pagado y no utilizado. **Garantía de satisfacción de 30 días:** en la primera suscripción de pago de un establecimiento, si se solicita el reembolso al equipo de soporte o en hello@goktigin.com dentro de los 30 días siguientes al primer pago, se reembolsa íntegramente el primer pago y la suscripción finaliza. La garantía se aplica una sola vez por establecimiento y solo al primer pago; no cubre renovaciones, sucursales adicionales ni cambios a un plan superior." },
       { "p": "**Cambio de precios.** La Sociedad puede modificar los precios de tarifa. El nuevo precio se notifica al Cliente por correo electrónico y a través del Panel con al menos 30 días de antelación y se aplica a partir de la primera renovación posterior a la notificación. El Cliente que no acepte el nuevo precio podrá cancelar su suscripción antes de la fecha de renovación. El precio de un periodo ya iniciado no se modifica durante dicho periodo. Los cambios en los tipos impositivos se aplican desde su fecha de entrada en vigor." },
       { "p": "**Factura.** La Sociedad emite las facturas conforme a los datos de facturación que el Cliente indique en el Panel y las pone a su disposición en formato electrónico. El Cliente responde de la exactitud de los datos de facturación." },
       { "p": "**Infraestructura de pago y datos de la tarjeta.** Los pagos se cobran a través de la infraestructura del proveedor de servicios de pago autorizado con el que trabaja la Sociedad, y quien recibe el pago es la Sociedad. El número de la tarjeta y el código de seguridad (CVV) no se almacenan en los sistemas de la Sociedad. La Sociedad solo almacena la referencia de la tarjeta facilitada por el proveedor de servicios de pago y los datos que permiten reconocer la tarjeta: la marca, los cuatro últimos dígitos y la fecha de caducidad." },

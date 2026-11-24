@@ -1,9 +1,9 @@
 {
   "key": "partner-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "it",
   "title": "Contratto di Partnership Commerciale",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "Il presente contratto disciplina il rapporto tra Göktigin Bilişim Teknoloji Ltd. Şti. e i partner commerciali che segnalano nuove attività per gli abbonamenti Art of Menu. Illustra l'attività indipendente del partner, le regole sulle segnalazioni, i limiti dei poteri, le modalità di maturazione e pagamento delle provvigioni, i metodi di vendita vietati e la cessazione del contratto. La Politica sui Valori Aziendali, sull'Uso Accettabile e sulla Reputazione del Marchio costituisce allegato vincolante del presente contratto.",
   "sections": [
     {
@@ -111,7 +111,7 @@
       "id": "payable",
       "heading": "8. Maturazione definitiva della provvigione, rimborsi e storni",
       "blocks": [
-        { "p": "La provvigione è registrata come provvigione in attesa alla data in cui il pagamento dell'Attività perviene alla Società e diventa pagabile 30 giorni dopo tale data. Il periodo di 30 giorni serve a consentire che i rischi di rimborso, storno e annullamento si definiscano." },
+        { "p": "La provvigione è registrata come provvigione in attesa alla data in cui il pagamento dell'Attività perviene alla Società e diventa pagabile 37 giorni dopo tale data. Il periodo di 37 giorni serve a consentire che i rischi di rimborso, storno e annullamento si definiscano." },
         { "p": "La Società considera nulla la provvigione nei seguenti casi:" },
         { "ul": [
           "se all'Attività viene rimborsato in tutto o in parte il pagamento,",

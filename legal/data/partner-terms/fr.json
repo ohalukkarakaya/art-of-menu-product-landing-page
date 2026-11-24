@@ -1,9 +1,9 @@
 {
   "key": "partner-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "fr",
   "title": "Contrat de partenariat commercial",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "Le présent contrat régit la relation entre Göktigin Bilişim Teknoloji Ltd. Şti. et les partenaires commerciaux qui recommandent de nouveaux établissements pour les abonnements Art of Menu. Il décrit le mode de travail indépendant du partenaire, les règles de recommandation, les limites de ses pouvoirs, la manière dont la commission est acquise et versée, les méthodes de vente interdites et la fin du contrat. La Politique relative aux valeurs de l'entreprise, à l'utilisation acceptable et à la réputation de la marque constitue une annexe contraignante du présent contrat.",
   "sections": [
     {
@@ -111,7 +111,7 @@
       "id": "payable",
       "heading": "8. Acquisition définitive de la commission, remboursements et rétrofacturations",
       "blocks": [
-        { "p": "La commission est enregistrée comme commission en attente à la date à laquelle le paiement de l'établissement parvient à la Société, et devient exigible 30 jours après cette date. Ce délai de 30 jours permet de clarifier les risques de remboursement, de rétrofacturation et d'annulation." },
+        { "p": "La commission est enregistrée comme commission en attente à la date à laquelle le paiement de l'établissement parvient à la Société, et devient exigible 37 jours après cette date. Ce délai de 37 jours permet de clarifier les risques de remboursement, de rétrofacturation et d'annulation." },
         { "p": "La Société considère la commission comme invalide dans les cas suivants :" },
         { "ul": [
           "si tout ou partie du paiement est remboursé à l'établissement,",

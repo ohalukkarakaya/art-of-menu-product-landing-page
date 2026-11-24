@@ -1,9 +1,9 @@
 {
   "key": "distance-sales",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "en",
   "title": "Distance Sales Agreement",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "This agreement sets out the terms for buying Art of Menu subscriptions online at app.artofmenu.com. It takes effect when it is accepted electronically at checkout.",
   "sections": [
     {
@@ -134,7 +134,7 @@
       "heading": "6. Cancellation and Refunds",
       "blocks": [
         {
-          "p": "The buyer may cancel at any time in the panel; cancellation takes effect at the end of the paid period. As a rule, fees for a period that has started are not refunded. In case of duplicate or wrong charges, failure to activate the service, or termination by the Seller without fault of the buyer, refunds are paid to the card used. See [Delivery and Refund Terms](doc:delivery-returns)."
+          "p": "The buyer may cancel at any time in the panel; cancellation takes effect at the end of the paid period. As a rule, fees for a period that has started are not refunded. In case of duplicate or wrong charges, failure to activate the service, or termination by the Seller without fault of the buyer, refunds are paid to the card used. See [Delivery and Refund Terms](doc:delivery-returns). **30-day satisfaction guarantee:** On a business's first paid subscription, if a refund is requested from the support team or at hello@goktigin.com within 30 days of the first payment, the first payment is refunded in full and the subscription ends. The guarantee applies once per business and only to the first payment; it does not cover renewals, additional branches or plan upgrades."
         }
       ]
     },

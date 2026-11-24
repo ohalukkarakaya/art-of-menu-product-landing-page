@@ -1,9 +1,9 @@
 {
   "key": "partner-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "es",
   "title": "Contrato de Partner Comercial",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "Este contrato regula la relación entre los partners comerciales que remiten nuevos establecimientos a las suscripciones de Art of Menu y Göktigin Bilişim Teknoloji Ltd. Şti. Explica el régimen de actuación independiente del Partner, las reglas de remisión, los límites de sus facultades, cómo se devenga y se paga la comisión, los métodos de venta prohibidos y la terminación del contrato. La Política de Valores Corporativos, Uso Aceptable y Reputación de Marca constituye un anexo vinculante de este contrato.",
   "sections": [
     {
@@ -111,7 +111,7 @@
       "id": "payable",
       "heading": "8. Firmeza de la comisión, reembolsos y retrocesiones",
       "blocks": [
-        { "p": "La comisión se registra como comisión pendiente en la fecha en que el pago del establecimiento llega a la Sociedad y pasa a ser pagadera 30 días después de dicha fecha. Este plazo de 30 días se aplica para que se despejen los riesgos de reembolso, retrocesión y cancelación." },
+        { "p": "La comisión se registra como comisión pendiente en la fecha en que el pago del establecimiento llega a la Sociedad y pasa a ser pagadera 37 días después de dicha fecha. Este plazo de 37 días se aplica para que se despejen los riesgos de reembolso, retrocesión y cancelación." },
         { "p": "La Sociedad considerará anulada la comisión en los siguientes casos:" },
         { "ul": [
           "si se reembolsa al establecimiento la totalidad o parte del pago;",

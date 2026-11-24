@@ -1,9 +1,9 @@
 {
   "key": "delivery-returns",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "fr",
   "title": "Conditions de livraison et de remboursement",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Art of Menu est un service d'abonnement numérique. Il n'y a ni livraison physique ni expédition ; le service est activé dans votre compte dès la confirmation du paiement.",
   "sections": [
     {
@@ -67,6 +67,7 @@
             "prélèvements multiples ou d'un montant erroné pour la même période : la totalité du montant perçu en trop ;",
             "service non activé dans le délai indiqué à la section 2 alors que le paiement a été reçu : la totalité du montant payé ;",
             "résiliation du contrat par la Société sans faute de l'acheteur : le prix correspondant à la période payée et non utilisée ;",
+            "le remboursement est demandé dans les 30 jours suivant le premier paiement du premier abonnement payant de l'établissement (garantie de satisfaction de 30 jours) : l'intégralité du premier paiement, et l'abonnement prend fin. La garantie s'applique une seule fois par établissement et uniquement au premier paiement ; elle ne couvre ni les renouvellements, ni les succursales supplémentaires, ni les passages à une formule supérieure ;",
             "autres cas dans lesquels la législation impérative impose un remboursement."
           ]
         },

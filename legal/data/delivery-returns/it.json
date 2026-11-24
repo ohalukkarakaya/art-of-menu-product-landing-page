@@ -1,9 +1,9 @@
 {
   "key": "delivery-returns",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "it",
   "title": "Condizioni di consegna e rimborso",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Art of Menu è un servizio digitale in abbonamento. Non sono previste consegne fisiche né spedizioni; il servizio viene attivato nel Suo account non appena il pagamento è confermato.",
   "sections": [
     {
@@ -67,6 +67,7 @@
             "addebiti multipli o di importo errato per lo stesso periodo: l'intero importo addebitato in eccesso;",
             "mancata attivazione del servizio, nonostante il pagamento, entro il termine indicato alla sezione 2: l'intero importo pagato;",
             "risoluzione del contratto da parte della Società senza colpa dell'acquirente: il corrispettivo relativo al periodo pagato e non utilizzato;",
+            "il rimborso viene richiesto entro 30 giorni dal primo pagamento del primo abbonamento a pagamento dell'attività (garanzia di soddisfazione di 30 giorni): l'intero primo pagamento, e l'abbonamento termina. La garanzia vale una sola volta per attività e solo per il primo pagamento; non copre rinnovi, sedi aggiuntive né passaggi a un piano superiore;",
             "altri casi in cui il rimborso sia imposto da norme imperative."
           ]
         },

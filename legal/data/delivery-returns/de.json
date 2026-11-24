@@ -1,9 +1,9 @@
 {
   "key": "delivery-returns",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "de",
   "title": "Liefer- und Erstattungsbedingungen",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Art of Menu ist ein digitaler Abonnementdienst. Es gibt keine physische Lieferung und keinen Versand; der Dienst wird in Ihrem Konto freigeschaltet, sobald die Zahlung bestätigt ist.",
   "sections": [
     {
@@ -67,6 +67,7 @@
             "bei mehrfacher Abbuchung oder Abbuchung eines falschen Betrags für dieselbe Laufzeit: der gesamte zu viel abgebuchte Betrag;",
             "wenn der Dienst trotz erfolgter Zahlung nicht innerhalb der in Abschnitt 2 genannten Frist freigeschaltet werden konnte: der gesamte gezahlte Betrag;",
             "wenn das Unternehmen den Vertrag ohne Verschulden des Käufers beendet: das Entgelt für die bezahlte, nicht genutzte Zeit;",
+            "die Erstattung wird innerhalb von 30 Tagen nach der ersten Zahlung des ersten kostenpflichtigen Abonnements des Betriebs verlangt (30-Tage-Zufriedenheitsgarantie): die gesamte erste Zahlung; das Abonnement endet. Die Garantie gilt einmal pro Betrieb und nur für die erste Zahlung; Verlängerungen, zusätzliche Filialen und Paket-Upgrades sind nicht erfasst;",
             "sonstige Fälle, in denen zwingende Rechtsvorschriften eine Erstattung vorschreiben."
           ]
         },

@@ -1,9 +1,9 @@
 {
   "key": "distance-sales",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "tr",
   "title": "Mesafeli Satış Sözleşmesi",
-  "effective": "2026-11-09",
+  "effective": "2026-11-24",
   "summary": "Bu sözleşme, Art of Menu aboneliklerinin app.artofmenu.com üzerinden elektronik ortamda satın alınmasına ilişkin koşulları düzenler. Ödeme adımında elektronik olarak onaylandığında yürürlüğe girer.",
   "sections": [
     {
@@ -134,7 +134,7 @@
       "heading": "6. İptal ve İade",
       "blocks": [
         {
-          "p": "Alıcı aboneliğini panelden istediği zaman iptal edebilir; iptal, ödenmiş dönemin sonunda geçerli olur. Başlamış dönemin ücreti kural olarak iade edilmez. Hatalı veya mükerrer tahsilat, hizmetin açılamaması ve Satıcı'nın Alıcı'nın kusuru olmaksızın sözleşmeyi sona erdirmesi hallerinde iade, ödemenin yapıldığı karta yapılır. Ayrıntılar [Teslimat ve İade Şartları](doc:delivery-returns) sayfasındadır."
+          "p": "Alıcı aboneliğini panelden istediği zaman iptal edebilir; iptal, ödenmiş dönemin sonunda geçerli olur. Başlamış dönemin ücreti kural olarak iade edilmez. Hatalı veya mükerrer tahsilat, hizmetin açılamaması ve Satıcı'nın Alıcı'nın kusuru olmaksızın sözleşmeyi sona erdirmesi hallerinde iade, ödemenin yapıldığı karta yapılır. Ayrıntılar [Teslimat ve İade Şartları](doc:delivery-returns) sayfasındadır. **30 gün memnuniyet garantisi:** İşletmenin ilk ücretli aboneliğinde, ilk ödemenin yapıldığı tarihten itibaren 30 gün içinde destek ekibinden veya hello@goktigin.com adresinden iade talep edilirse ilk ödemenin tamamı iade edilir ve abonelik sona erer. Garanti her işletme için bir kez ve yalnızca ilk ödeme için geçerlidir; yenileme, ek şube ve paket yükseltme ödemelerini kapsamaz."
         }
       ]
     },

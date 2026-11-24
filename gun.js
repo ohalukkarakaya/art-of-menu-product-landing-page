@@ -313,7 +313,7 @@
         var s = (t < 0 ? 1 + t * 0.15 : 1 + t * 0.32) * (1 + d * 0.05);
         var o = t < 0 ? 1 + t * 1.4 : 1 - t * 1.6;
         // the first planet waits below the hero copy and rises into place as the copy leaves
-        var sink = i === 0 ? heroSink * (1 - smoothstep(0, 0.6, p)) : 0;
+        var sink = i === 0 ? (heroSink > 0 ? heroSink * (1 - smoothstep(0, 0.6, p)) : heroSink) : 0;
         return { opacity: n(clamp(o)), visibility: "visible", transform: anchor + "translate3d(0, calc(" + n(y, 2) + "svh + " + n(sink, 1) + "px), 0) scale(" + n(s) + ")" };
       });
       // Ada stands a little in front of her island and drifts a bit on her own; the jumping Ada
@@ -346,7 +346,9 @@
       // on phones the copy sits on top, so the sun and moon move down between text and world
       var x = (mobile ? 80 : lerp(s.A.orb[0], s.B.orb[0], s.f)) * W / 100;
       var y = (mobile ? 44 : lerp(s.A.orb[1], s.B.orb[1], s.f)) * H / 100 + dl * 60;
-      return { opacity: n(lerp(s.A.orb[3], s.B.orb[3], s.f)), transform: "translate(calc(" + n(x, 1) + "px - 50%), calc(" + n(y, 1) + "px - 50%))" };
+      // phones: the hero copy fills the top of the screen, so the sun waits until it has left
+      var hide = mobile ? smoothstep(0.3, 0.8, p) : 1;
+      return { opacity: n(lerp(s.A.orb[3], s.B.orb[3], s.f) * hide), transform: "translate(calc(" + n(x, 1) + "px - 50%), calc(" + n(y, 1) + "px - 50%))" };
     });
 
     // Clouds slide back as the day goes on
@@ -358,8 +360,9 @@
     fadeTrack(clockEl, 0, LAST, function (p) { return smoothstep(0.5, 0.9, p) * (1 - smoothstep(5.3, 5.7, p)); });
     track(clockFill, 1, 5, function (p) { return { transform: "scaleX(" + n(clamp((p - 1) / 4), 4) + ")" }; });
     fadeTrack(hintEl, 0, 0.3, function (p) { return 1 - smoothstep(0.05, 0.3, p); });
-    fadeTrack(brandEl, 0, 0.7, function (p) { return smoothstep(0.35, 0.7, p); });
-    fadeTrack(tabEl, 0, 0.7, function (p) { return smoothstep(0.35, 0.7, p); });
+    // phones have no big logo in the hero, so the header is there from the first screen
+    fadeTrack(brandEl, 0, 0.7, function (p) { return mobile ? 1 : smoothstep(0.35, 0.7, p); });
+    fadeTrack(tabEl, 0, 0.7, function (p) { return mobile ? 1 : smoothstep(0.35, 0.7, p); });
     // the sky wash behind the hero copy
     track(copyEl, 0, 0.8, function (p) { return { opacity: n(1 - smoothstep(0.3, 0.8, p)) }; }, "::before");
 
@@ -489,7 +492,14 @@
     var planetTop = w.offsetTop + h * 0.53;
     var planetLeft = w.offsetLeft - ww / 2, planetRight = planetLeft + ww;
     var overlapX = Math.min(c.offsetLeft + c.offsetWidth, planetRight) - Math.max(c.offsetLeft, planetLeft);
-    heroSink = overlapX > 0 ? Math.min(Math.max(0, copyBottom - planetTop), h * 0.3) : 0;
+    // phones: the hero copy (with its buttons and trust row) is long, so the planet may wait lower;
+    // on a tall phone the copy ends far above it, so it rises to sit just under the copy instead of
+    // leaving an empty band of sky (a negative sink, which stays while the planet is on screen)
+    var phone = window.innerWidth <= 860;
+    var gap = copyBottom - planetTop;
+    heroSink = overlapX <= 0 ? 0
+      : gap >= 0 ? Math.min(gap, h * (phone ? 0.6 : 0.3))
+      : phone ? Math.max(gap, -0.45 * window.innerHeight) : 0;
   }
   function measureHand() { var w = handEl.offsetWidth; handMaxX = parseFloat(getComputedStyle(handEl).right) + w * 0.135 - 12; }
 

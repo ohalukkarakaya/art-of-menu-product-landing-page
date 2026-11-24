@@ -1,9 +1,9 @@
 {
   "key": "business-terms",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "tr",
   "title": "Art of Menu İşletme Hizmet Sözleşmesi",
-  "effective": "2026-11-08",
+  "effective": "2026-11-24",
   "summary": "Bu sözleşme, Göktigin Bilişim Teknoloji Ltd. Şti.'nin Art of Menu adıyla sunduğu dijital menü ve sipariş yönetim yazılımını kullanan işletmeler için geçerlidir. Hizmetin kapsamını, tarafların sorumluluklarını, abonelik, ödeme, otomatik yenileme ve iptal koşullarını düzenler. Veri İşleme Sözleşmesi ve Kurumsal Değerler, Kabul Edilebilir Kullanım ve Marka İtibarı Politikası bu sözleşmenin bağlayıcı ekleridir.",
   "sections": [
     { "id": "parties", "heading": "1. Taraflar", "blocks": [
@@ -148,7 +148,7 @@
       ]},
       { "p": "Askı durumu devam ederse Şirket, e-posta ile bildirerek Sözleşme'yi feshedebilir. Bu durumda [Askıya Alma ve Fesih](doc:business-terms#termination) bölümündeki hesap kapatma hükümleri uygulanır." },
       { "p": "**İptal.** Müşteri aboneliğini istediği zaman panelden iptal edebilir. İptal, ödenmiş dönemin sonunda geçerli olur; o tarihe kadar Hizmet kullanılabilir ve iptal geri alınabilir. İptal sırasında kısa bir iptal nedeni sorulur." },
-      { "p": "**İade.** Başlamış bir Abonelik Dönemi'nin ücreti, kalan süre için de iade edilmez. Emredici hukukun iadeyi zorunlu kıldığı haller ve Şirket'in iade yapmaya karar verdiği haller saklıdır. Şirket, Müşteri'nin kusuru olmaksızın Sözleşme'yi sona erdirirse ödenmiş ve kullanılmamış süreye ait ücreti iade eder." },
+      { "p": "**İade.** Başlamış bir Abonelik Dönemi'nin ücreti, kalan süre için de iade edilmez. Emredici hukukun iadeyi zorunlu kıldığı haller ve Şirket'in iade yapmaya karar verdiği haller saklıdır. Şirket, Müşteri'nin kusuru olmaksızın Sözleşme'yi sona erdirirse ödenmiş ve kullanılmamış süreye ait ücreti iade eder. **30 gün memnuniyet garantisi:** İşletmenin ilk ücretli aboneliğinde, ilk ödemenin yapıldığı tarihten itibaren 30 gün içinde destek ekibinden veya hello@goktigin.com adresinden iade talep edilirse ilk ödemenin tamamı iade edilir ve abonelik sona erer. Garanti her işletme için bir kez ve yalnızca ilk ödeme için geçerlidir; yenileme, ek şube ve paket yükseltme ödemelerini kapsamaz." },
       { "p": "**Fiyat değişikliği.** Şirket liste fiyatlarını değiştirebilir. Yeni fiyat, Müşteri'ye e-posta ve panel üzerinden en az 30 gün önce bildirilir ve bildirimden sonraki ilk yenilemeden itibaren uygulanır. Yeni fiyatı kabul etmeyen Müşteri, yenileme tarihinden önce aboneliğini iptal edebilir. Başlamış bir dönemin ücreti dönem içinde değiştirilmez. Vergi oranlarındaki değişiklikler yürürlük tarihlerinden itibaren uygulanır." },
       { "p": "**Fatura.** Faturalar Şirket tarafından, Müşteri'nin panelde bildirdiği fatura bilgilerine göre düzenlenir ve elektronik ortamda sunulur. Fatura bilgilerinin doğruluğundan Müşteri sorumludur." },
       { "p": "**Ödeme altyapısı ve kart bilgileri.** Ödemeler, Şirket'in çalıştığı lisanslı ödeme hizmet sağlayıcısının altyapısı üzerinden alınır ve ödemeyi alan taraf Şirket'tir. Kart numarası ve güvenlik kodu (CVV) Şirket'in sistemlerinde saklanmaz. Şirket yalnızca ödeme hizmet sağlayıcısının verdiği kart referansını ve kartı tanımaya yarayan kart markası, son dört hane ve son kullanma tarihi bilgisini saklar." },
