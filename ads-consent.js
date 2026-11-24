@@ -116,3 +116,31 @@
   initializeTag();
   if (fromAdClick() || get() === 'yes' || get() === 'outside') activateForAd();
 }());
+
+/* Meta ad clicks: carry fbclid from the landing to the panel.
+ * Meta adds ?fbclid=… only to the landing URL. The panel reads it from its own
+ * address (src/lib/metaPixel.ts) and turns it into _fbc only after consent, so
+ * here it is only passed along: no cookie, kept in this tab while the visitor
+ * moves between landing pages. */
+(function () {
+  var KEY = 'aom_fbclid';
+  var VALID = /^[A-Za-z0-9_-]{8,500}$/;
+  var fbclid = null;
+  try {
+    var fromUrl = new URLSearchParams(location.search).get('fbclid');
+    if (fromUrl && VALID.test(fromUrl)) sessionStorage.setItem(KEY, fromUrl);
+    fbclid = sessionStorage.getItem(KEY);
+  } catch (e) {
+    var direct = new URLSearchParams(location.search).get('fbclid');
+    fbclid = direct && VALID.test(direct) ? direct : null;
+  }
+  if (!fbclid || !VALID.test(fbclid)) return;
+  // Signup and the sample panel; a guest menu (/m/…) has nothing to attribute.
+  document.querySelectorAll('a[href^="https://app.artofmenu.com/"]').forEach(function (a) {
+    var url;
+    try { url = new URL(a.href); } catch (e) { return; }
+    if (url.pathname.indexOf('/m/') === 0) return;
+    url.searchParams.set('fbclid', fbclid);
+    a.href = url.toString();
+  });
+}());
