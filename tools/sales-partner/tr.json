@@ -132,5 +132,13 @@
   "faq.termsub": "Komisyon, ödeme ve kuralların tamamı",
   "hero.cy": "Yıllık satıştan, sabit",
   "hero.cm": "Aylık satıştan",
-  "hero.hint": "Bir desteye gel ya da paketi seç."
+  "hero.hint": "Bir desteye gel ya da paketi seç.",
+  "inv.label": "Partner getir",
+  "inv.t": "Satış ortağı getir, onun satışlarından da kazan.",
+  "inv.d": "Tanıdığın birini satış ortağı yap. Senin davetinle kaydolan partner 12 ay boyunca her satış yaptığında, o satıştan bize kalan tutarın %10'unu sen kazanırsın. Onun kazancından hiçbir şey kesilmez; bu payı biz ayrıca öderiz.",
+  "inv.1": "Yıllık Smart satışında yaklaşık 1.600 ₺, yıllık Order satışında yaklaşık 870 ₺ kazanırsın. Aylık Menu satışında komisyonun tamamı satan partnere gittiği için pay çıkmaz.",
+  "inv.2": "Tek kademe: davet ettiğin partnerin davet ettiklerinden pay alınmaz. Sadece davet etmek para kazandırmaz; pay yalnızca gerçek satıştan doğar.",
+  "inv.3": "Davet kodu yalnızca kayıt sırasında girilir. Satış iade edilirse pay da iptal olur; diğer komisyonlar gibi 37 gün sonra ödenebilir hâle gelir.",
+  "faq.9.q": "Başka satış ortağı getirirsem ne kazanırım?",
+  "faq.9.a": "Senin davet bağlantınla ya da kodunla kaydolan partnerin, kayıt tarihinden itibaren 12 ay içinde yaptığı her satışta, o satıştan bize kalan tutarın (net ödeme eksi onun komisyonu) %10'unu kazanırsın. Onun komisyonundan bir şey kesilmez. Aylık Menu satışından pay çıkmaz; yıllık paketlerde pay belirgin şekilde yüksektir. Tek kademedir ve iade edilen satışın payı iptal olur."
 }

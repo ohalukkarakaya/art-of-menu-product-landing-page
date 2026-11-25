@@ -132,5 +132,13 @@
   "faq.termsub": "Commissioni, pagamenti e tutte le regole",
   "hero.cy": "Da una vendita annuale, fisso",
   "hero.cm": "Da una vendita mensile",
-  "hero.hint": "Passa su una pila o scegli un piano."
+  "hero.hint": "Passa su una pila o scegli un piano.",
+  "inv.label": "Porta partner",
+  "inv.t": "Porta un partner commerciale e guadagna anche sulle sue vendite.",
+  "inv.d": "Fai diventare partner commerciale qualcuno che conosci. Per 12 mesi, ogni volta che un partner registrato tramite te effettua una vendita, guadagni il 10% di quanto ci resta da quella vendita. Nulla viene tolto ai suoi guadagni: la tua quota la paghiamo in più.",
+  "inv.1": "Circa 1.600 ₺ su una vendita annuale Smart e circa 870 ₺ su una annuale Order. Una vendita mensile Menu non dà alcuna quota, perché l’intera provvigione va al partner che vende.",
+  "inv.2": "Un solo livello: nulla sui partner che lui invita. Invitare da solo non fa guadagnare; la quota nasce solo da vendite reali.",
+  "inv.3": "Il codice di invito si inserisce solo alla registrazione. Se una vendita viene rimborsata, la quota si annulla; come le altre provvigioni diventa pagabile dopo 37 giorni.",
+  "faq.9.q": "Cosa guadagno se porto altri partner commerciali?",
+  "faq.9.a": "Per 12 mesi dalla registrazione di un partner arrivato con il tuo link o codice, guadagni il 10% di quanto ci resta da ciascuna delle sue vendite (pagamento netto meno la sua provvigione). Nulla viene tolto alla sua provvigione. Una vendita mensile Menu non dà quota; sui piani annuali è nettamente più alta. Un solo livello, e una vendita rimborsata annulla la quota."
 }
