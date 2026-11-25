@@ -1,98 +1,311 @@
 {
   "key": "cookies",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "tr",
   "title": "Çerez ve Benzeri Teknolojiler Politikası",
-  "effective": "2026-11-08",
-  "summary": "Bu politika, Art of Menu'nün işletme paneli, satış partneri portalı, garson portalı ve misafir menüsünde kullanılan çerezleri ve tarayıcı depolama teknolojilerini açıklar. Art of Menu yalnızca hizmetin çalışması için zorunlu çerezleri ve işlevsel tarayıcı depolamasını kullanır. Analitik, reklam veya pazarlama çerezi kullanılmaz.",
+  "effective": "2026-11-25",
+  "summary": "Bu politika, Art of Menu'nün tanıtım sitesi (artofmenu.com), işletme paneli, satış partneri portalı, garson portalı ve misafir menüsünde kullanılan çerezleri ve tarayıcı depolama teknolojilerini açıklar. Hizmetin çalışması için zorunlu çerezler her zaman kullanılır. Reklamlarımızın etkisini ölçmek için kullanılan pazarlama çerezleri ve pikseller ise yalnızca ilgili platformdaki bir reklamımıza tıklayarak gelen ziyaretçilere sorulur ve yalnızca açık izinle çalışır.",
   "sections": [
     {
       "id": "operator",
       "heading": "1. Sorumlu Şirket",
       "blocks": [
-        { "p": "Art of Menu, Göktigin Bilişim Teknoloji Ltd. Şti. (Şirket) tarafından işletilir. Şirket'in bilgileri [Şirket ve Yasal Bilgiler](doc:company) sayfasında yer alır. Sorularınız için [hello@goktigin.com](mailto:hello@goktigin.com) adresine yazabilirsiniz." }
+        {
+          "p": "Art of Menu, Göktigin Bilişim Teknoloji Ltd. Şti. (Şirket) tarafından işletilir. Şirket'in bilgileri [Şirket ve Yasal Bilgiler](doc:company) sayfasında yer alır. Sorularınız için [hello@goktigin.com](mailto:hello@goktigin.com) adresine yazabilirsiniz."
+        }
       ]
     },
     {
       "id": "what",
       "heading": "2. Çerez ve Tarayıcı Depolaması Nedir?",
       "blocks": [
-        { "p": "Çerez, bir internet sitesinin tarayıcınıza kaydettiği ve sonraki isteklerde siteye geri gönderilen küçük bir metin dosyasıdır. Yerel depolama (localStorage) ve oturum depolaması (sessionStorage) ise sitenin tarayıcınızda bilgi tutmasını sağlayan benzer teknolojilerdir; bu bilgiler sunucuya kendiliğinden gönderilmez. Oturum depolamasındaki bilgiler sekme kapandığında silinir." }
+        {
+          "p": "Çerez, bir internet sitesinin tarayıcınıza kaydettiği ve sonraki isteklerde siteye geri gönderilen küçük bir metin dosyasıdır. Yerel depolama (localStorage) ve oturum depolaması (sessionStorage) ise sitenin tarayıcınızda bilgi tutmasını sağlayan benzer teknolojilerdir; bu bilgiler sunucuya kendiliğinden gönderilmez. Oturum depolamasındaki bilgiler sekme kapandığında silinir."
+        }
       ]
     },
     {
       "id": "principles",
       "heading": "3. Kullanım İlkeleri",
       "blocks": [
-        { "ul": [
-          "Yalnızca oturum açma, güvenlik ve tercihlerinizin hatırlanması gibi, istediğiniz hizmetin sunulması için zorunlu veya işlevsel teknolojiler kullanılır.",
-          "Analitik, reklam, pazarlama veya sosyal medya çerezi kullanılmaz. Takip pikseli ve üçüncü taraf izleme kodu yoktur.",
-          "Misafir menüsü hiç çerez kullanmaz. Menü kullanım istatistikleri çerezsiz olarak toplanır.",
-          "Bu nedenle çerez izin penceresi gösterilmez. Kullanılan teknolojiler hizmetin çalışması için zorunlu olduğundan kapatılmaları hâlinde ilgili özellikler çalışmaz."
-        ] }
+        {
+          "ul": [
+            "Oturum açma, güvenlik ve tercihlerinizin hatırlanması gibi, istediğiniz hizmetin sunulması için zorunlu veya işlevsel teknolojiler izin gerektirmeden kullanılır.",
+            "Reklam ölçümü için kullanılan pazarlama çerezleri ve pikseller (Google Ads, ChatGPT reklamları ve Meta) yalnızca açık izninizle çalışır. İzin, yalnızca o platformdaki bir reklamımıza tıklayarak geldiyseniz sorulur. İzin vermemeniz siteyi, kaydı ve ödemeyi etkilemez.",
+            "Misafir menüsü hiç çerez kullanmaz ve reklam veya ölçüm kodu yüklemez. Menü kullanım istatistikleri çerezsiz olarak toplanır.",
+            "Satış partneri portalı ve garson portalında pazarlama çerezi kullanılmaz ve izin penceresi gösterilmez."
+          ]
+        }
       ]
     },
     {
       "id": "cookies-list",
       "heading": "4. Kullanılan Çerezler",
       "blocks": [
-        { "p": "Aşağıdaki çerezlerin tamamı birinci taraf, zorunlu oturum çerezidir. Yalnızca güvenli bağlantı (HTTPS) üzerinden gönderilir ve tarayıcıdaki betiklerle okunamaz (HttpOnly). Çerez yalnızca rastgele bir oturum anahtarı içerir; sunucuda bu anahtarın yalnızca özet değeri saklanır." },
-        { "table": {
-          "head": ["Çerez", "Nerede", "Amaç", "Süre"],
-          "rows": [
-            ["aom_session", "İşletme paneli", "İşletme kullanıcısının oturumunu açık tutmak. Şirket destek personelinin işletmenin bilgisi dahilindeki salt okunur destek erişimi de bu çerezle yürütülür.", "En fazla 30 gün; 7 gün kullanılmazsa sona erer. Destek erişiminde en fazla 2 saat."],
-            ["aom_partner_session", "Satış partneri portalı", "Partnerin oturumunu açık tutmak.", "En fazla 30 gün; 7 gün kullanılmazsa sona erer."],
-            ["aom_waiter_session", "Garson portalı", "Garsonun kişisel bağlantı veya QR kodla açtığı oturumu açık tutmak.", "En fazla 180 gün; 30 gün kullanılmazsa sona erer."],
-            ["aom_admin_session", "Şirket yönetim paneli (yalnızca Şirket personeli)", "Şirket personelinin oturumunu açık tutmak.", "En fazla 12 saat; 1 saat kullanılmazsa sona erer."]
-          ]
-        } },
-        { "p": "Çıkış yaptığınızda oturum sona erer ve çerez silinir." }
+        {
+          "p": "Aşağıdaki çerezlerin tamamı birinci taraf, zorunlu oturum çerezidir. Yalnızca güvenli bağlantı (HTTPS) üzerinden gönderilir ve tarayıcıdaki betiklerle okunamaz (HttpOnly). Çerez yalnızca rastgele bir oturum anahtarı içerir; sunucuda bu anahtarın yalnızca özet değeri saklanır."
+        },
+        {
+          "table": {
+            "head": [
+              "Çerez",
+              "Nerede",
+              "Amaç",
+              "Süre"
+            ],
+            "rows": [
+              [
+                "aom_session",
+                "İşletme paneli",
+                "İşletme kullanıcısının oturumunu açık tutmak. Şirket destek personelinin işletmenin bilgisi dahilindeki salt okunur destek erişimi de bu çerezle yürütülür.",
+                "En fazla 30 gün; 7 gün kullanılmazsa sona erer. Destek erişiminde en fazla 2 saat."
+              ],
+              [
+                "aom_partner_session",
+                "Satış partneri portalı",
+                "Partnerin oturumunu açık tutmak.",
+                "En fazla 30 gün; 7 gün kullanılmazsa sona erer."
+              ],
+              [
+                "aom_waiter_session",
+                "Garson portalı",
+                "Garsonun kişisel bağlantı veya QR kodla açtığı oturumu açık tutmak.",
+                "En fazla 180 gün; 30 gün kullanılmazsa sona erer."
+              ],
+              [
+                "aom_admin_session",
+                "Şirket yönetim paneli (yalnızca Şirket personeli)",
+                "Şirket personelinin oturumunu açık tutmak.",
+                "En fazla 12 saat; 1 saat kullanılmazsa sona erer."
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Çıkış yaptığınızda oturum sona erer ve çerez silinir."
+        },
+        {
+          "p": "Aşağıdaki iki çerez yalnızca izin kararınızı tutar ve izin penceresi gösterildiyse yazılır. HttpOnly değildir, çünkü sayfadaki betikler kararınızı okuyarak buna göre davranır."
+        },
+        {
+          "table": {
+            "head": [
+              "Çerez",
+              "Nerede",
+              "Amaç",
+              "Süre"
+            ],
+            "rows": [
+              [
+                "aom_ads_consent",
+                "Tanıtım sitesi ve işletme paneli",
+                "Google Ads ve ChatGPT reklamları için verdiğiniz izin veya ret kararını hatırlamak",
+                "180 gün"
+              ],
+              [
+                "aom_marketing_consent",
+                "Tanıtım sitesi ve işletme paneli",
+                "Meta için verdiğiniz izin veya ret kararını hatırlamak",
+                "180 gün"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "heading": "5. İzne Bağlı Reklam Ölçümü",
+      "blocks": [
+        {
+          "p": "Reklamlarımızın kayıt ve abonelik getirip getirmediğini ölçmek için aşağıdaki teknolojiler kullanılır. Hiçbiri izniniz olmadan çerez yazmaz veya pikseli yüklemez. İzin penceresi yalnızca ilgili platformdaki bir reklamımıza tıklayarak tanıtım sitesine veya yeni bir işletme hesabı açarken panele geldiyseniz gösterilir. Google Ads ve ChatGPT reklamları için tek, Meta için ayrı bir izin sorulur."
+        },
+        {
+          "table": {
+            "head": [
+              "Teknoloji",
+              "Ne zaman",
+              "Ne yapar",
+              "Süre"
+            ],
+            "rows": [
+              [
+                "Google etiketi ve Google Etiket Yöneticisi (Google Ads)",
+                "Tanıtım sitesinin her sayfasında ve yeni işletmenin kaydı ile ilk ödemesi sırasında, izin verilmemiş (reddedilmiş) varsayılan ayarla yüklenir",
+                "İzin yokken reklam çerezi yazmaz; Google'a yalnızca çerez içermeyen ölçüm sinyalleri (ör. sayfa adresi, tarayıcı bilgisi ve izin durumu) gider. İzin verirseniz Google Ads çerezleri (_gcl_ ile başlayanlar) reklam tıklamasını kaydınızla eşleştirmek için kullanılır.",
+                "Google'ın belirlediği süre; çoğunlukla 90 gün"
+              ],
+              [
+                "ChatGPT reklam pikseli (OpenAI)",
+                "Yalnızca Google Ads veya ChatGPT reklamı izni verildiğinde",
+                "ChatGPT'deki bir reklamımızdan gelen ziyareti kayıtla eşleştirir. Bu amaçla birinci taraf aom_openai_oppref çerezi yazılır.",
+                "aom_openai_oppref: 30 gün; OpenAI'nin kendi tanımlayıcıları için OpenAI'nin belirlediği süre"
+              ],
+              [
+                "Meta pikseli ve Dönüşüm API'si",
+                "Yalnızca Meta izni verildiğinde",
+                "Meta'daki bir reklamımızdan gelen ziyaretin sayfa görüntülemesini, kaydını, ödeme başlatmasını ve satın almasını ölçer. Aynı olaylar sunucumuzdan Meta'ya da gönderilir; bu sunucu bildirimi de yalnızca izin verdiyseniz yapılır. Bu amaçla _fbp ve _fbc çerezleri kullanılır.",
+                "_fbp ve _fbc: 90 gün"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Bu hizmetler Google LLC, OpenAI ve Meta Platforms tarafından sağlanır ve veriler bu şirketlerin yurt dışındaki sunucularında, kendi politikalarına göre işlenebilir."
+        }
       ]
     },
     {
       "id": "storage",
-      "heading": "5. Tarayıcı Depolaması",
+      "heading": "6. Tarayıcı Depolaması",
       "blocks": [
-        { "p": "Aşağıdaki bilgiler yalnızca tarayıcınızda tutulur ve işlevsel amaçlarla kullanılır. Anahtarın sonundaki {...} kısmı işletmeye, şubeye veya menüye göre değişen tanımlayıcıyı gösterir." },
-        { "table": {
-          "head": ["Uygulama", "Anahtar", "Tür", "Amaç", "Süre"],
-          "rows": [
-            ["İşletme paneli", "aom.panel.v4:{işletme}", "localStorage", "Panelin hızlı açılması için işletme verilerinin önbelleği", "Tarayıcı verileri silinene kadar; her girişte güncellenir"],
-            ["İşletme paneli", "aom.ui", "localStorage", "Seçtiğiniz arayüz dili", "Tarayıcı verileri silinene kadar"],
-            ["İşletme paneli", "aom.intro.referral.{işletme}, aom.setup.strip.{işletme}", "localStorage", "Tanıtım ve kurulum bilgilendirmelerinin gösterilip gösterilmediği", "Tarayıcı verileri silinene kadar"],
-            ["İşletme paneli", "aom.preview.invite-tip.v2:{işletme}, aom.preview.order-tip.v2:{işletme}", "localStorage", "Menü önizlemesindeki ipuçlarının görülüp görülmediği", "Tarayıcı verileri silinene kadar"],
-            ["İşletme paneli", "aom.ptab", "sessionStorage", "Ürünler sayfasında açık olan sekme", "Sekme kapanana kadar"],
-            ["İşletme paneli ve partner portalı", "aom.partner.prefill", "localStorage", "Panelden partner kaydına geçerken ad, soyad ve e-posta adresinin kayıt formuna aktarılması", "Kayıt formu açıldığında okunur ve hemen silinir; en fazla 10 dakika geçerlidir"],
-            ["Satış partneri portalı", "aom.partner.ui", "localStorage", "Seçtiğiniz arayüz dili", "Tarayıcı verileri silinene kadar"],
-            ["Garson portalı", "aom.waiter.ui", "localStorage", "Seçtiğiniz arayüz dili", "Tarayıcı verileri silinene kadar"],
-            ["Garson portalı", "aom.waiter.branch", "localStorage", "Seçili şube", "Tarayıcı verileri silinene kadar"],
-            ["Garson portalı", "aom.waiter.sound", "localStorage", "Bildirim sesi tercihi", "Tarayıcı verileri silinene kadar"],
-            ["Misafir menüsü", "aom.guest.access.v1:{menü}", "sessionStorage", "Masa oturumuna katıldığınızı hatırlamak", "Sekme kapanana kadar"],
-            ["Misafir menüsü", "aom.guest.invite-tip.v1:{şube}, aom.guest.order-tip.v1:{şube}", "localStorage", "Menüdeki ipuçlarını gördüğünüzü hatırlamak", "Tarayıcı verileri silinene kadar"]
-          ]
-        } }
+        {
+          "p": "Aşağıdaki bilgiler yalnızca tarayıcınızda tutulur ve işlevsel amaçlarla kullanılır. Anahtarın sonundaki {...} kısmı işletmeye, şubeye veya menüye göre değişen tanımlayıcıyı gösterir."
+        },
+        {
+          "table": {
+            "head": [
+              "Uygulama",
+              "Anahtar",
+              "Tür",
+              "Amaç",
+              "Süre"
+            ],
+            "rows": [
+              [
+                "İşletme paneli",
+                "aom.panel.v4:{işletme}",
+                "localStorage",
+                "Panelin hızlı açılması için işletme verilerinin önbelleği",
+                "Tarayıcı verileri silinene kadar; her girişte güncellenir"
+              ],
+              [
+                "İşletme paneli",
+                "aom.ui",
+                "localStorage",
+                "Seçtiğiniz arayüz dili",
+                "Tarayıcı verileri silinene kadar"
+              ],
+              [
+                "İşletme paneli",
+                "aom.intro.referral.{işletme}, aom.setup.strip.{işletme}",
+                "localStorage",
+                "Tanıtım ve kurulum bilgilendirmelerinin gösterilip gösterilmediği",
+                "Tarayıcı verileri silinene kadar"
+              ],
+              [
+                "İşletme paneli",
+                "aom.preview.invite-tip.v2:{işletme}, aom.preview.order-tip.v2:{işletme}",
+                "localStorage",
+                "Menü önizlemesindeki ipuçlarının görülüp görülmediği",
+                "Tarayıcı verileri silinene kadar"
+              ],
+              [
+                "İşletme paneli",
+                "aom.ptab",
+                "sessionStorage",
+                "Ürünler sayfasında açık olan sekme",
+                "Sekme kapanana kadar"
+              ],
+              [
+                "İşletme paneli ve partner portalı",
+                "aom.partner.prefill",
+                "localStorage",
+                "Panelden partner kaydına geçerken ad, soyad ve e-posta adresinin kayıt formuna aktarılması",
+                "Kayıt formu açıldığında okunur ve hemen silinir; en fazla 10 dakika geçerlidir"
+              ],
+              [
+                "Satış partneri portalı",
+                "aom.partner.ui",
+                "localStorage",
+                "Seçtiğiniz arayüz dili",
+                "Tarayıcı verileri silinene kadar"
+              ],
+              [
+                "Garson portalı",
+                "aom.waiter.ui",
+                "localStorage",
+                "Seçtiğiniz arayüz dili",
+                "Tarayıcı verileri silinene kadar"
+              ],
+              [
+                "Garson portalı",
+                "aom.waiter.branch",
+                "localStorage",
+                "Seçili şube",
+                "Tarayıcı verileri silinene kadar"
+              ],
+              [
+                "Garson portalı",
+                "aom.waiter.sound",
+                "localStorage",
+                "Bildirim sesi tercihi",
+                "Tarayıcı verileri silinene kadar"
+              ],
+              [
+                "Misafir menüsü",
+                "aom.guest.access.v1:{menü}",
+                "sessionStorage",
+                "Masa oturumuna katıldığınızı hatırlamak",
+                "Sekme kapanana kadar"
+              ],
+              [
+                "Misafir menüsü",
+                "aom.guest.invite-tip.v1:{şube}, aom.guest.order-tip.v1:{şube}",
+                "localStorage",
+                "Menüdeki ipuçlarını gördüğünüzü hatırlamak",
+                "Tarayıcı verileri silinene kadar"
+              ],
+              [
+                "Tanıtım sitesi",
+                "aom_fbclid",
+                "sessionStorage",
+                "Meta reklamından gelen ziyaretin tıklama kimliğini, kayıt sayfasına geçerken bağlantıya eklemek",
+                "Sekme kapanana kadar"
+              ],
+              [
+                "İşletme paneli",
+                "aom_fbclid_pending",
+                "sessionStorage",
+                "Meta reklamından gelen ziyaretin tıklama kimliğini, izin kararınızı verene kadar tutmak; izin verirseniz _fbc çerezine dönüşür",
+                "Sekme kapanana veya karar verilene kadar"
+              ]
+            ]
+          }
+        }
       ]
     },
     {
       "id": "third-party",
-      "heading": "6. Üçüncü Taraf İçerikler",
+      "heading": "7. Üçüncü Taraf İçerikler",
       "blocks": [
-        { "p": "İşletme panelindeki konum seçicide gösterilen harita, OpenStreetMap sunucularından (openstreetmap.org) yüklenir. Harita görüntülendiğinde tarayıcınız bu sunuculara bağlanır ve OpenStreetMap IP adresinizi ve tarayıcı bilgilerinizi kendi politikasına göre işler. Art of Menu bu bağlantı üzerinden çerez yerleştirmez." },
-        { "p": "Panelin tarayıcınızdan doğrudan bağlandığı diğer hizmetler (ör. otomatik çeviri, adres arama, hava durumu, döviz kurları) [İşletme Kullanıcıları için KVKK Aydınlatma Metni](doc:privacy-business#recipients) içinde açıklanmıştır. Misafir menüsü üçüncü taraf içerik yüklemez." }
+        {
+          "p": "İşletme panelindeki konum seçicide gösterilen harita, OpenStreetMap sunucularından (openstreetmap.org) yüklenir. Harita görüntülendiğinde tarayıcınız bu sunuculara bağlanır ve OpenStreetMap IP adresinizi ve tarayıcı bilgilerinizi kendi politikasına göre işler. Art of Menu bu bağlantı üzerinden çerez yerleştirmez."
+        },
+        {
+          "p": "Panelin tarayıcınızdan doğrudan bağlandığı diğer hizmetler (ör. otomatik çeviri, adres arama, hava durumu, döviz kurları) [İşletme Kullanıcıları için KVKK Aydınlatma Metni](doc:privacy-business#recipients) içinde açıklanmıştır. Misafir menüsü üçüncü taraf içerik yüklemez."
+        }
       ]
     },
     {
       "id": "manage",
-      "heading": "7. Çerezleri ve Depolanan Bilgileri Silme",
+      "heading": "8. Çerezleri ve Depolanan Bilgileri Silme",
       "blocks": [
-        { "p": "Çerezleri ve tarayıcı depolamasını tarayıcınızın ayarlarındaki site verilerini silme seçeneğiyle silebilir veya engelleyebilirsiniz. Oturum çerezleri silinirse oturumunuz kapanır ve yeniden giriş yapmanız gerekir. Çerezler engellenirse panel, partner portalı ve garson portalı çalışmaz. Misafir menüsü çerez olmadan çalışır; tarayıcı depolaması engellenirse masa katılımı sekme yenilendiğinde hatırlanmayabilir." }
+        {
+          "p": "Çerezleri ve tarayıcı depolamasını tarayıcınızın ayarlarındaki site verilerini silme seçeneğiyle silebilir veya engelleyebilirsiniz. Oturum çerezleri silinirse oturumunuz kapanır ve yeniden giriş yapmanız gerekir. Çerezler engellenirse panel, partner portalı ve garson portalı çalışmaz. Misafir menüsü çerez olmadan çalışır; tarayıcı depolaması engellenirse masa katılımı sekme yenilendiğinde hatırlanmayabilir."
+        },
+        {
+          "p": "İzninizi dilediğiniz zaman geri alabilirsiniz. Meta iznini işletme panelinin giriş ve kayıt sayfasındaki \"Çerezler\" bağlantısından veya Hesap sayfasındaki \"Çerez tercihleri\" bölümünden değiştirebilirsiniz; geri aldığınızda _fbp ve _fbc çerezleri silinir. Google Ads ve ChatGPT reklamı iznini geri almak için tarayıcınızda artofmenu.com site verilerini silebilir veya [hello@goktigin.com](mailto:hello@goktigin.com) adresine yazabilirsiniz. Geri alma, o zamana kadar yapılmış işlemleri etkilemez."
+        }
       ]
     },
     {
       "id": "changes",
-      "heading": "8. Değişiklikler",
+      "heading": "9. Değişiklikler",
       "blocks": [
-        { "p": "Şirket ileride zorunlu olmayan bir çerez veya benzeri teknoloji (ör. analitik veya pazarlama amaçlı) kullanmak isterse, bunu kullanmaya başlamadan önce bu politikayı günceller ve gerektiğinde izninizi alır. Bu teknolojiler izin vermeden çalıştırılmaz ve verdiğiniz izni dilediğiniz zaman geri alabilirsiniz." }
+        {
+          "p": "Şirket ileride zorunlu olmayan bir çerez veya benzeri teknoloji (ör. analitik veya pazarlama amaçlı) kullanmak isterse, bunu kullanmaya başlamadan önce bu politikayı günceller ve gerektiğinde izninizi alır. Bu teknolojiler izin vermeden çalıştırılmaz ve verdiğiniz izni dilediğiniz zaman geri alabilirsiniz."
+        }
       ]
     }
   ]

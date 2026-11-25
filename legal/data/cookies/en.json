@@ -1,98 +1,311 @@
 {
   "key": "cookies",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "en",
   "title": "Cookie and Similar Technologies Policy",
-  "effective": "2026-11-08",
-  "summary": "This policy explains the cookies and browser storage technologies used in Art of Menu's business panel, sales partner portal, waiter portal and guest menu. Art of Menu uses only cookies that are strictly necessary for the service to work and functional browser storage. No analytics, advertising or marketing cookies are used.",
+  "effective": "2026-11-25",
+  "summary": "This policy explains the cookies and browser storage technologies used on Art of Menu's marketing website (artofmenu.com), business panel, sales partner portal, waiter portal and guest menu. Cookies that are strictly necessary for the service are always used. Marketing cookies and pixels used to measure our ads are offered only to visitors who arrive by clicking one of our ads on that platform, and they work only with explicit consent.",
   "sections": [
     {
       "id": "operator",
       "heading": "1. Responsible Company",
       "blocks": [
-        { "p": "Art of Menu is operated by Göktigin Bilişim Teknoloji Ltd. Şti. (the Company). The Company's details are set out on the [Company and Legal Information](doc:company) page. If you have any questions, you can write to [hello@goktigin.com](mailto:hello@goktigin.com)." }
+        {
+          "p": "Art of Menu is operated by Göktigin Bilişim Teknoloji Ltd. Şti. (the Company). The Company's details are set out on the [Company and Legal Information](doc:company) page. If you have any questions, you can write to [hello@goktigin.com](mailto:hello@goktigin.com)."
+        }
       ]
     },
     {
       "id": "what",
       "heading": "2. What Are Cookies and Browser Storage?",
       "blocks": [
-        { "p": "A cookie is a small text file that a website saves in your browser and that is sent back to the site with subsequent requests. Local storage (localStorage) and session storage (sessionStorage) are similar technologies that allow a site to keep information in your browser; this information is not sent to the server automatically. Information in session storage is deleted when the tab is closed." }
+        {
+          "p": "A cookie is a small text file that a website saves in your browser and that is sent back to the site with subsequent requests. Local storage (localStorage) and session storage (sessionStorage) are similar technologies that allow a site to keep information in your browser; this information is not sent to the server automatically. Information in session storage is deleted when the tab is closed."
+        }
       ]
     },
     {
       "id": "principles",
       "heading": "3. Principles of Use",
       "blocks": [
-        { "ul": [
-          "Only technologies that are necessary or functional for providing the service you request, such as logging in, security and remembering your preferences, are used.",
-          "No analytics, advertising, marketing or social media cookies are used. There are no tracking pixels and no third-party tracking code.",
-          "The guest menu uses no cookies at all. Menu usage statistics are collected without cookies.",
-          "For this reason, no cookie consent banner is shown. Because the technologies used are necessary for the service to work, the related features will not work if they are disabled."
-        ] }
+        {
+          "ul": [
+            "Technologies that are necessary or functional for providing the service you request, such as logging in, security and remembering your preferences, are used without consent.",
+            "Marketing cookies and pixels used to measure our ads (Google Ads, ChatGPT ads and Meta) work only with your explicit consent. Consent is asked only if you arrived by clicking one of our ads on that platform. Declining does not affect the site, sign-up or payment.",
+            "The guest menu uses no cookies at all and loads no advertising or measurement code. Menu usage statistics are collected without cookies.",
+            "The sales partner portal and the waiter portal use no marketing cookies and show no consent prompt."
+          ]
+        }
       ]
     },
     {
       "id": "cookies-list",
       "heading": "4. Cookies Used",
       "blocks": [
-        { "p": "All of the cookies below are first-party, strictly necessary session cookies. They are sent only over secure connections (HTTPS) and cannot be read by scripts in the browser (HttpOnly). Each cookie contains only a random session key; only a hash of this key is stored on the server." },
-        { "table": {
-          "head": ["Cookie", "Where", "Purpose", "Duration"],
-          "rows": [
-            ["aom_session", "Business panel", "Keeping the business user logged in. Read-only support access by Company support staff, carried out with the business's knowledge, also runs on this cookie.", "Up to 30 days; expires after 7 days of inactivity. Up to 2 hours for support access."],
-            ["aom_partner_session", "Sales partner portal", "Keeping the partner logged in.", "Up to 30 days; expires after 7 days of inactivity."],
-            ["aom_waiter_session", "Waiter portal", "Keeping open the session the waiter started with a personal link or QR code.", "Up to 180 days; expires after 30 days of inactivity."],
-            ["aom_admin_session", "Company administration panel (Company staff only)", "Keeping Company staff logged in.", "Up to 12 hours; expires after 1 hour of inactivity."]
-          ]
-        } },
-        { "p": "When you log out, the session ends and the cookie is deleted." }
+        {
+          "p": "All of the cookies below are first-party, strictly necessary session cookies. They are sent only over secure connections (HTTPS) and cannot be read by scripts in the browser (HttpOnly). Each cookie contains only a random session key; only a hash of this key is stored on the server."
+        },
+        {
+          "table": {
+            "head": [
+              "Cookie",
+              "Where",
+              "Purpose",
+              "Duration"
+            ],
+            "rows": [
+              [
+                "aom_session",
+                "Business panel",
+                "Keeping the business user logged in. Read-only support access by Company support staff, carried out with the business's knowledge, also runs on this cookie.",
+                "Up to 30 days; expires after 7 days of inactivity. Up to 2 hours for support access."
+              ],
+              [
+                "aom_partner_session",
+                "Sales partner portal",
+                "Keeping the partner logged in.",
+                "Up to 30 days; expires after 7 days of inactivity."
+              ],
+              [
+                "aom_waiter_session",
+                "Waiter portal",
+                "Keeping open the session the waiter started with a personal link or QR code.",
+                "Up to 180 days; expires after 30 days of inactivity."
+              ],
+              [
+                "aom_admin_session",
+                "Company administration panel (Company staff only)",
+                "Keeping Company staff logged in.",
+                "Up to 12 hours; expires after 1 hour of inactivity."
+              ]
+            ]
+          }
+        },
+        {
+          "p": "When you log out, the session ends and the cookie is deleted."
+        },
+        {
+          "p": "The two cookies below only hold your consent decision and are written only if the consent prompt was shown. They are not HttpOnly, because scripts on the page read your decision and act on it."
+        },
+        {
+          "table": {
+            "head": [
+              "Cookie",
+              "Where",
+              "Purpose",
+              "Duration"
+            ],
+            "rows": [
+              [
+                "aom_ads_consent",
+                "Marketing website and business panel",
+                "Remembers your consent or refusal for Google Ads and ChatGPT ads",
+                "180 days"
+              ],
+              [
+                "aom_marketing_consent",
+                "Marketing website and business panel",
+                "Remembers your consent or refusal for Meta",
+                "180 days"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "heading": "5. Consent-Based Ad Measurement",
+      "blocks": [
+        {
+          "p": "The technologies below are used to measure whether our ads bring sign-ups and subscriptions. None of them writes a cookie or loads a pixel without your consent. The consent prompt is shown only if you came to the marketing website, or to the panel while opening a new business account, by clicking one of our ads on that platform. One consent covers Google Ads and ChatGPT ads; Meta is asked separately."
+        },
+        {
+          "table": {
+            "head": [
+              "Technology",
+              "When",
+              "What it does",
+              "Duration"
+            ],
+            "rows": [
+              [
+                "Google tag and Google Tag Manager (Google Ads)",
+                "On every page of the marketing website and during a new business's sign-up and first payment, loaded with consent denied by default",
+                "Without consent it writes no advertising cookies; only cookieless measurement signals (such as the page address, browser details and consent status) reach Google. If you consent, Google Ads cookies (starting with _gcl_) are used to match the ad click to your sign-up.",
+                "As set by Google; usually 90 days"
+              ],
+              [
+                "ChatGPT ad pixel (OpenAI)",
+                "Only after consent for Google Ads and ChatGPT ads",
+                "Matches a visit from one of our ads in ChatGPT to a sign-up. For this, the first-party cookie aom_openai_oppref is written.",
+                "aom_openai_oppref: 30 days; OpenAI's own identifiers as set by OpenAI"
+              ],
+              [
+                "Meta pixel and Conversions API",
+                "Only after Meta consent",
+                "Measures page views, sign-ups, checkout starts and purchases of visits from one of our ads on Meta. The same events are also sent to Meta from our server, and this server notice is also sent only if you consented. The _fbp and _fbc cookies are used for this.",
+                "_fbp and _fbc: 90 days"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "These services are provided by Google LLC, OpenAI and Meta Platforms, and the data may be processed on these companies' servers abroad under their own policies."
+        }
       ]
     },
     {
       "id": "storage",
-      "heading": "5. Browser Storage",
+      "heading": "6. Browser Storage",
       "blocks": [
-        { "p": "The following information is kept only in your browser and is used for functional purposes. The {...} part at the end of a key stands for an identifier that varies by business, branch or menu." },
-        { "table": {
-          "head": ["Application", "Key", "Type", "Purpose", "Duration"],
-          "rows": [
-            ["Business panel", "aom.panel.v4:{business}", "localStorage", "Cache of business data so the panel opens quickly", "Until browser data is cleared; refreshed at each login"],
-            ["Business panel", "aom.ui", "localStorage", "Your chosen interface language", "Until browser data is cleared"],
-            ["Business panel", "aom.intro.referral.{business}, aom.setup.strip.{business}", "localStorage", "Whether the introduction and setup notices have been shown", "Until browser data is cleared"],
-            ["Business panel", "aom.preview.invite-tip.v2:{business}, aom.preview.order-tip.v2:{business}", "localStorage", "Whether the tips in the menu preview have been seen", "Until browser data is cleared"],
-            ["Business panel", "aom.ptab", "sessionStorage", "The tab open on the Products page", "Until the tab is closed"],
-            ["Business panel and partner portal", "aom.partner.prefill", "localStorage", "Carrying the first name, last name and e-mail address over to the registration form when moving from the panel to partner registration", "Read and deleted immediately when the registration form opens; valid for no more than 10 minutes"],
-            ["Sales partner portal", "aom.partner.ui", "localStorage", "Your chosen interface language", "Until browser data is cleared"],
-            ["Waiter portal", "aom.waiter.ui", "localStorage", "Your chosen interface language", "Until browser data is cleared"],
-            ["Waiter portal", "aom.waiter.branch", "localStorage", "Selected branch", "Until browser data is cleared"],
-            ["Waiter portal", "aom.waiter.sound", "localStorage", "Notification sound preference", "Until browser data is cleared"],
-            ["Guest menu", "aom.guest.access.v1:{menu}", "sessionStorage", "Remembering that you have joined the table session", "Until the tab is closed"],
-            ["Guest menu", "aom.guest.invite-tip.v1:{branch}, aom.guest.order-tip.v1:{branch}", "localStorage", "Remembering that you have seen the tips in the menu", "Until browser data is cleared"]
-          ]
-        } }
+        {
+          "p": "The following information is kept only in your browser and is used for functional purposes. The {...} part at the end of a key stands for an identifier that varies by business, branch or menu."
+        },
+        {
+          "table": {
+            "head": [
+              "Application",
+              "Key",
+              "Type",
+              "Purpose",
+              "Duration"
+            ],
+            "rows": [
+              [
+                "Business panel",
+                "aom.panel.v4:{business}",
+                "localStorage",
+                "Cache of business data so the panel opens quickly",
+                "Until browser data is cleared; refreshed at each login"
+              ],
+              [
+                "Business panel",
+                "aom.ui",
+                "localStorage",
+                "Your chosen interface language",
+                "Until browser data is cleared"
+              ],
+              [
+                "Business panel",
+                "aom.intro.referral.{business}, aom.setup.strip.{business}",
+                "localStorage",
+                "Whether the introduction and setup notices have been shown",
+                "Until browser data is cleared"
+              ],
+              [
+                "Business panel",
+                "aom.preview.invite-tip.v2:{business}, aom.preview.order-tip.v2:{business}",
+                "localStorage",
+                "Whether the tips in the menu preview have been seen",
+                "Until browser data is cleared"
+              ],
+              [
+                "Business panel",
+                "aom.ptab",
+                "sessionStorage",
+                "The tab open on the Products page",
+                "Until the tab is closed"
+              ],
+              [
+                "Business panel and partner portal",
+                "aom.partner.prefill",
+                "localStorage",
+                "Carrying the first name, last name and e-mail address over to the registration form when moving from the panel to partner registration",
+                "Read and deleted immediately when the registration form opens; valid for no more than 10 minutes"
+              ],
+              [
+                "Sales partner portal",
+                "aom.partner.ui",
+                "localStorage",
+                "Your chosen interface language",
+                "Until browser data is cleared"
+              ],
+              [
+                "Waiter portal",
+                "aom.waiter.ui",
+                "localStorage",
+                "Your chosen interface language",
+                "Until browser data is cleared"
+              ],
+              [
+                "Waiter portal",
+                "aom.waiter.branch",
+                "localStorage",
+                "Selected branch",
+                "Until browser data is cleared"
+              ],
+              [
+                "Waiter portal",
+                "aom.waiter.sound",
+                "localStorage",
+                "Notification sound preference",
+                "Until browser data is cleared"
+              ],
+              [
+                "Guest menu",
+                "aom.guest.access.v1:{menu}",
+                "sessionStorage",
+                "Remembering that you have joined the table session",
+                "Until the tab is closed"
+              ],
+              [
+                "Guest menu",
+                "aom.guest.invite-tip.v1:{branch}, aom.guest.order-tip.v1:{branch}",
+                "localStorage",
+                "Remembering that you have seen the tips in the menu",
+                "Until browser data is cleared"
+              ],
+              [
+                "Marketing website",
+                "aom_fbclid",
+                "sessionStorage",
+                "Adds the click ID of a visit from a Meta ad to the link when you go on to sign up",
+                "Until the tab is closed"
+              ],
+              [
+                "Business panel",
+                "aom_fbclid_pending",
+                "sessionStorage",
+                "Holds the click ID of a visit from a Meta ad until you decide on consent; with consent it becomes the _fbc cookie",
+                "Until the tab is closed or you decide"
+              ]
+            ]
+          }
+        }
       ]
     },
     {
       "id": "third-party",
-      "heading": "6. Third-Party Content",
+      "heading": "7. Third-Party Content",
       "blocks": [
-        { "p": "The map shown in the location picker in the business panel is loaded from OpenStreetMap servers (openstreetmap.org). When the map is displayed, your browser connects to these servers and OpenStreetMap processes your IP address and browser information under its own policy. Art of Menu does not place any cookies through this connection." },
-        { "p": "Other services that the panel connects to directly from your browser (for example automatic translation, address search, weather and exchange rates) are described in the [KVKK Privacy Notice for Business Users](doc:privacy-business#recipients). The guest menu does not load any third-party content." }
+        {
+          "p": "The map shown in the location picker in the business panel is loaded from OpenStreetMap servers (openstreetmap.org). When the map is displayed, your browser connects to these servers and OpenStreetMap processes your IP address and browser information under its own policy. Art of Menu does not place any cookies through this connection."
+        },
+        {
+          "p": "Other services that the panel connects to directly from your browser (for example automatic translation, address search, weather and exchange rates) are described in the [KVKK Privacy Notice for Business Users](doc:privacy-business#recipients). The guest menu does not load any third-party content."
+        }
       ]
     },
     {
       "id": "manage",
-      "heading": "7. Deleting Cookies and Stored Information",
+      "heading": "8. Deleting Cookies and Stored Information",
       "blocks": [
-        { "p": "You can delete or block cookies and browser storage using the option to clear site data in your browser settings. If session cookies are deleted, you will be logged out and will need to log in again. If cookies are blocked, the panel, the partner portal and the waiter portal will not work. The guest menu works without cookies; if browser storage is blocked, joining a table may not be remembered when the tab is refreshed." }
+        {
+          "p": "You can delete or block cookies and browser storage using the option to clear site data in your browser settings. If session cookies are deleted, you will be logged out and will need to log in again. If cookies are blocked, the panel, the partner portal and the waiter portal will not work. The guest menu works without cookies; if browser storage is blocked, joining a table may not be remembered when the tab is refreshed."
+        },
+        {
+          "p": "You can withdraw your consent at any time. You can change Meta consent through the \"Cookies\" link on the business panel's login and sign-up page or under \"Cookie preferences\" on the Account page; when withdrawn, the _fbp and _fbc cookies are deleted. To withdraw consent for Google Ads and ChatGPT ads, clear the site data for artofmenu.com in your browser or write to [hello@goktigin.com](mailto:hello@goktigin.com). Withdrawal does not affect processing carried out before it."
+        }
       ]
     },
     {
       "id": "changes",
-      "heading": "8. Changes",
+      "heading": "9. Changes",
       "blocks": [
-        { "p": "If the Company decides in future to use a cookie or similar technology that is not strictly necessary (for example for analytics or marketing), it will update this policy before starting to use it and obtain your consent where required. Such technologies will not run without your consent, and you can withdraw your consent at any time." }
+        {
+          "p": "If the Company decides in future to use a cookie or similar technology that is not strictly necessary (for example for analytics or marketing), it will update this policy before starting to use it and obtain your consent where required. Such technologies will not run without your consent, and you can withdraw your consent at any time."
+        }
       ]
     }
   ]

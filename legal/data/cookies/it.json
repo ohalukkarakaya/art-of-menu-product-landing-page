@@ -1,98 +1,311 @@
 {
   "key": "cookies",
-  "version": "1.0",
+  "version": "1.1",
   "locale": "it",
   "title": "Politica sui cookie e tecnologie simili",
-  "effective": "2026-11-08",
-  "summary": "La presente politica descrive i cookie e le tecnologie di memorizzazione del browser utilizzati nel pannello delle attività, nel portale dei partner commerciali, nel portale dei camerieri e nel menu per gli ospiti di Art of Menu. Art of Menu utilizza esclusivamente i cookie necessari al funzionamento del servizio e la memorizzazione funzionale del browser. Non sono utilizzati cookie analitici, pubblicitari o di marketing.",
+  "effective": "2026-11-25",
+  "summary": "La presente politica descrive i cookie e le tecnologie di memorizzazione del browser utilizzati sul sito web di Art of Menu (artofmenu.com), nel pannello delle attività, nel portale dei partner commerciali, nel portale dei camerieri e nel menu per gli ospiti. I cookie strettamente necessari al servizio sono sempre utilizzati. I cookie di marketing e i pixel che misurano i nostri annunci sono proposti solo a chi arriva facendo clic su uno dei nostri annunci sulla relativa piattaforma e funzionano solo con consenso esplicito.",
   "sections": [
     {
       "id": "operator",
       "heading": "1. Società responsabile",
       "blocks": [
-        { "p": "Art of Menu è gestito da Göktigin Bilişim Teknoloji Ltd. Şti. (la Società). I dati della Società sono riportati nella pagina [Società e informazioni legali](doc:company). Per qualsiasi domanda puoi scrivere a [hello@goktigin.com](mailto:hello@goktigin.com)." }
+        {
+          "p": "Art of Menu è gestito da Göktigin Bilişim Teknoloji Ltd. Şti. (la Società). I dati della Società sono riportati nella pagina [Società e informazioni legali](doc:company). Per qualsiasi domanda puoi scrivere a [hello@goktigin.com](mailto:hello@goktigin.com)."
+        }
       ]
     },
     {
       "id": "what",
       "heading": "2. Che cosa sono i cookie e la memorizzazione del browser?",
       "blocks": [
-        { "p": "Un cookie è un piccolo file di testo che un sito web salva nel tuo browser e che viene rinviato al sito con le richieste successive. La memoria locale (localStorage) e la memoria di sessione (sessionStorage) sono tecnologie simili che consentono al sito di conservare informazioni nel tuo browser; tali informazioni non vengono inviate automaticamente al server. Le informazioni nella memoria di sessione vengono cancellate alla chiusura della scheda." }
+        {
+          "p": "Un cookie è un piccolo file di testo che un sito web salva nel tuo browser e che viene rinviato al sito con le richieste successive. La memoria locale (localStorage) e la memoria di sessione (sessionStorage) sono tecnologie simili che consentono al sito di conservare informazioni nel tuo browser; tali informazioni non vengono inviate automaticamente al server. Le informazioni nella memoria di sessione vengono cancellate alla chiusura della scheda."
+        }
       ]
     },
     {
       "id": "principles",
       "heading": "3. Principi di utilizzo",
       "blocks": [
-        { "ul": [
-          "Sono utilizzate soltanto tecnologie necessarie o funzionali alla fornitura del servizio da te richiesto, come l'accesso, la sicurezza e la memorizzazione delle tue preferenze.",
-          "Non sono utilizzati cookie analitici, pubblicitari, di marketing o dei social media. Non sono presenti pixel di tracciamento né codici di monitoraggio di terze parti.",
-          "Il menu per gli ospiti non utilizza alcun cookie. Le statistiche di utilizzo del menu sono raccolte senza cookie.",
-          "Per questo motivo non viene mostrato alcun banner per il consenso ai cookie. Poiché le tecnologie utilizzate sono necessarie al funzionamento del servizio, se vengono disattivate le relative funzionalità non funzionano."
-        ] }
+        {
+          "ul": [
+            "Le tecnologie necessarie o funzionali alla fornitura del servizio richiesto, come l'accesso, la sicurezza e la memorizzazione delle preferenze, sono utilizzate senza consenso.",
+            "I cookie di marketing e i pixel che misurano i nostri annunci (Google Ads, annunci ChatGPT e Meta) funzionano solo con il tuo consenso esplicito. Il consenso viene chiesto solo se sei arrivato facendo clic su uno dei nostri annunci su quella piattaforma. Rifiutare non influisce sul sito, sulla registrazione né sul pagamento.",
+            "Il menu per gli ospiti non utilizza alcun cookie e non carica codice pubblicitario o di misurazione. Le statistiche di utilizzo del menu sono raccolte senza cookie.",
+            "Il portale dei partner commerciali e il portale dei camerieri non utilizzano cookie di marketing e non mostrano richieste di consenso."
+          ]
+        }
       ]
     },
     {
       "id": "cookies-list",
       "heading": "4. Cookie utilizzati",
       "blocks": [
-        { "p": "Tutti i cookie elencati di seguito sono cookie di sessione di prima parte strettamente necessari. Sono inviati solo tramite connessione sicura (HTTPS) e non possono essere letti dagli script del browser (HttpOnly). Il cookie contiene soltanto una chiave di sessione casuale; sul server viene conservato solo il valore di hash di tale chiave." },
-        { "table": {
-          "head": ["Cookie", "Dove", "Finalità", "Durata"],
-          "rows": [
-            ["aom_session", "Pannello delle attività", "Mantenere attiva la sessione dell'utente dell'attività. Tramite questo cookie si svolge anche l'accesso di assistenza in sola lettura del personale di assistenza della Società, con la consapevolezza dell'attività.", "Al massimo 30 giorni; scade se non utilizzato per 7 giorni. Per l'accesso di assistenza, al massimo 2 ore."],
-            ["aom_partner_session", "Portale dei partner commerciali", "Mantenere attiva la sessione del partner.", "Al massimo 30 giorni; scade se non utilizzato per 7 giorni."],
-            ["aom_waiter_session", "Portale dei camerieri", "Mantenere attiva la sessione aperta dal cameriere tramite link personale o codice QR.", "Al massimo 180 giorni; scade se non utilizzato per 30 giorni."],
-            ["aom_admin_session", "Pannello di amministrazione della Società (solo per il personale della Società)", "Mantenere attiva la sessione del personale della Società.", "Al massimo 12 ore; scade se non utilizzato per 1 ora."]
-          ]
-        } },
-        { "p": "Quando esci, la sessione termina e il cookie viene cancellato." }
+        {
+          "p": "Tutti i cookie elencati di seguito sono cookie di sessione di prima parte strettamente necessari. Sono inviati solo tramite connessione sicura (HTTPS) e non possono essere letti dagli script del browser (HttpOnly). Il cookie contiene soltanto una chiave di sessione casuale; sul server viene conservato solo il valore di hash di tale chiave."
+        },
+        {
+          "table": {
+            "head": [
+              "Cookie",
+              "Dove",
+              "Finalità",
+              "Durata"
+            ],
+            "rows": [
+              [
+                "aom_session",
+                "Pannello delle attività",
+                "Mantenere attiva la sessione dell'utente dell'attività. Tramite questo cookie si svolge anche l'accesso di assistenza in sola lettura del personale di assistenza della Società, con la consapevolezza dell'attività.",
+                "Al massimo 30 giorni; scade se non utilizzato per 7 giorni. Per l'accesso di assistenza, al massimo 2 ore."
+              ],
+              [
+                "aom_partner_session",
+                "Portale dei partner commerciali",
+                "Mantenere attiva la sessione del partner.",
+                "Al massimo 30 giorni; scade se non utilizzato per 7 giorni."
+              ],
+              [
+                "aom_waiter_session",
+                "Portale dei camerieri",
+                "Mantenere attiva la sessione aperta dal cameriere tramite link personale o codice QR.",
+                "Al massimo 180 giorni; scade se non utilizzato per 30 giorni."
+              ],
+              [
+                "aom_admin_session",
+                "Pannello di amministrazione della Società (solo per il personale della Società)",
+                "Mantenere attiva la sessione del personale della Società.",
+                "Al massimo 12 ore; scade se non utilizzato per 1 ora."
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Quando esci, la sessione termina e il cookie viene cancellato."
+        },
+        {
+          "p": "I due cookie seguenti contengono solo la tua decisione sul consenso e vengono scritti solo se la richiesta è stata mostrata. Non sono HttpOnly, perché gli script della pagina leggono la tua decisione e agiscono di conseguenza."
+        },
+        {
+          "table": {
+            "head": [
+              "Cookie",
+              "Dove",
+              "Finalità",
+              "Durata"
+            ],
+            "rows": [
+              [
+                "aom_ads_consent",
+                "Sito web e pannello delle attività",
+                "Ricorda il tuo consenso o rifiuto per Google Ads e gli annunci ChatGPT",
+                "180 giorni"
+              ],
+              [
+                "aom_marketing_consent",
+                "Sito web e pannello delle attività",
+                "Ricorda il tuo consenso o rifiuto per Meta",
+                "180 giorni"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "ads",
+      "heading": "5. Misurazione pubblicitaria basata sul consenso",
+      "blocks": [
+        {
+          "p": "Le tecnologie seguenti servono a misurare se i nostri annunci generano registrazioni e abbonamenti. Nessuna scrive cookie o carica pixel senza il tuo consenso. La richiesta di consenso compare solo se sei arrivato sul sito web, o sul pannello aprendo un nuovo account di attività, facendo clic su uno dei nostri annunci sulla relativa piattaforma. Un unico consenso copre Google Ads e gli annunci ChatGPT; per Meta viene chiesto separatamente."
+        },
+        {
+          "table": {
+            "head": [
+              "Tecnologia",
+              "Quando",
+              "Cosa fa",
+              "Durata"
+            ],
+            "rows": [
+              [
+                "Tag Google e Google Tag Manager (Google Ads)",
+                "Su ogni pagina del sito web e durante la registrazione e il primo pagamento di una nuova attività, caricati con consenso negato per impostazione predefinita",
+                "Senza consenso non scrive cookie pubblicitari; a Google arrivano solo segnali di misurazione senza cookie (come l'indirizzo della pagina, i dati del browser e lo stato del consenso). Se acconsenti, i cookie di Google Ads (che iniziano con _gcl_) servono a collegare il clic sull'annuncio alla tua registrazione.",
+                "Secondo Google; di solito 90 giorni"
+              ],
+              [
+                "Pixel pubblicitario di ChatGPT (OpenAI)",
+                "Solo dopo il consenso per Google Ads e gli annunci ChatGPT",
+                "Collega una visita proveniente da uno dei nostri annunci in ChatGPT a una registrazione. A tal fine viene scritto il cookie proprietario aom_openai_oppref.",
+                "aom_openai_oppref: 30 giorni; identificatori propri di OpenAI secondo OpenAI"
+              ],
+              [
+                "Pixel di Meta e API Conversioni",
+                "Solo dopo il consenso per Meta",
+                "Misura le visualizzazioni di pagina, le registrazioni, i pagamenti avviati e gli acquisti delle visite provenienti da uno dei nostri annunci su Meta. Gli stessi eventi sono inviati a Meta anche dal nostro server, sempre solo con il tuo consenso. A tal fine si usano i cookie _fbp e _fbc.",
+                "_fbp e _fbc: 90 giorni"
+              ]
+            ]
+          }
+        },
+        {
+          "p": "Questi servizi sono forniti da Google LLC, OpenAI e Meta Platforms e i dati possono essere trattati sui server di queste società all'estero secondo le loro politiche."
+        }
       ]
     },
     {
       "id": "storage",
-      "heading": "5. Memorizzazione del browser",
+      "heading": "6. Memorizzazione del browser",
       "blocks": [
-        { "p": "Le informazioni elencate di seguito sono conservate solo nel tuo browser e utilizzate per finalità funzionali. La parte {...} alla fine della chiave indica l'identificativo che varia in base all'attività, alla sede o al menu." },
-        { "table": {
-          "head": ["Applicazione", "Chiave", "Tipo", "Finalità", "Durata"],
-          "rows": [
-            ["Pannello delle attività", "aom.panel.v4:{attività}", "localStorage", "Cache dei dati dell'attività per un'apertura più rapida del pannello", "Fino alla cancellazione dei dati del browser; aggiornata a ogni accesso"],
-            ["Pannello delle attività", "aom.ui", "localStorage", "Lingua dell'interfaccia da te scelta", "Fino alla cancellazione dei dati del browser"],
-            ["Pannello delle attività", "aom.intro.referral.{attività}, aom.setup.strip.{attività}", "localStorage", "Se le informazioni introduttive e di configurazione sono state mostrate", "Fino alla cancellazione dei dati del browser"],
-            ["Pannello delle attività", "aom.preview.invite-tip.v2:{attività}, aom.preview.order-tip.v2:{attività}", "localStorage", "Se i suggerimenti nell'anteprima del menu sono stati visti", "Fino alla cancellazione dei dati del browser"],
-            ["Pannello delle attività", "aom.ptab", "sessionStorage", "Scheda aperta nella pagina dei prodotti", "Fino alla chiusura della scheda"],
-            ["Pannello delle attività e portale dei partner", "aom.partner.prefill", "localStorage", "Trasferimento di nome, cognome e indirizzo e-mail nel modulo di registrazione quando si passa dal pannello alla registrazione come partner", "Letta e cancellata immediatamente all'apertura del modulo di registrazione; valida al massimo 10 minuti"],
-            ["Portale dei partner commerciali", "aom.partner.ui", "localStorage", "Lingua dell'interfaccia da te scelta", "Fino alla cancellazione dei dati del browser"],
-            ["Portale dei camerieri", "aom.waiter.ui", "localStorage", "Lingua dell'interfaccia da te scelta", "Fino alla cancellazione dei dati del browser"],
-            ["Portale dei camerieri", "aom.waiter.branch", "localStorage", "Sede selezionata", "Fino alla cancellazione dei dati del browser"],
-            ["Portale dei camerieri", "aom.waiter.sound", "localStorage", "Preferenza per il suono delle notifiche", "Fino alla cancellazione dei dati del browser"],
-            ["Menu per gli ospiti", "aom.guest.access.v1:{menu}", "sessionStorage", "Ricordare che ti sei unito alla sessione al tavolo", "Fino alla chiusura della scheda"],
-            ["Menu per gli ospiti", "aom.guest.invite-tip.v1:{sede}, aom.guest.order-tip.v1:{sede}", "localStorage", "Ricordare che hai già visto i suggerimenti del menu", "Fino alla cancellazione dei dati del browser"]
-          ]
-        } }
+        {
+          "p": "Le informazioni elencate di seguito sono conservate solo nel tuo browser e utilizzate per finalità funzionali. La parte {...} alla fine della chiave indica l'identificativo che varia in base all'attività, alla sede o al menu."
+        },
+        {
+          "table": {
+            "head": [
+              "Applicazione",
+              "Chiave",
+              "Tipo",
+              "Finalità",
+              "Durata"
+            ],
+            "rows": [
+              [
+                "Pannello delle attività",
+                "aom.panel.v4:{attività}",
+                "localStorage",
+                "Cache dei dati dell'attività per un'apertura più rapida del pannello",
+                "Fino alla cancellazione dei dati del browser; aggiornata a ogni accesso"
+              ],
+              [
+                "Pannello delle attività",
+                "aom.ui",
+                "localStorage",
+                "Lingua dell'interfaccia da te scelta",
+                "Fino alla cancellazione dei dati del browser"
+              ],
+              [
+                "Pannello delle attività",
+                "aom.intro.referral.{attività}, aom.setup.strip.{attività}",
+                "localStorage",
+                "Se le informazioni introduttive e di configurazione sono state mostrate",
+                "Fino alla cancellazione dei dati del browser"
+              ],
+              [
+                "Pannello delle attività",
+                "aom.preview.invite-tip.v2:{attività}, aom.preview.order-tip.v2:{attività}",
+                "localStorage",
+                "Se i suggerimenti nell'anteprima del menu sono stati visti",
+                "Fino alla cancellazione dei dati del browser"
+              ],
+              [
+                "Pannello delle attività",
+                "aom.ptab",
+                "sessionStorage",
+                "Scheda aperta nella pagina dei prodotti",
+                "Fino alla chiusura della scheda"
+              ],
+              [
+                "Pannello delle attività e portale dei partner",
+                "aom.partner.prefill",
+                "localStorage",
+                "Trasferimento di nome, cognome e indirizzo e-mail nel modulo di registrazione quando si passa dal pannello alla registrazione come partner",
+                "Letta e cancellata immediatamente all'apertura del modulo di registrazione; valida al massimo 10 minuti"
+              ],
+              [
+                "Portale dei partner commerciali",
+                "aom.partner.ui",
+                "localStorage",
+                "Lingua dell'interfaccia da te scelta",
+                "Fino alla cancellazione dei dati del browser"
+              ],
+              [
+                "Portale dei camerieri",
+                "aom.waiter.ui",
+                "localStorage",
+                "Lingua dell'interfaccia da te scelta",
+                "Fino alla cancellazione dei dati del browser"
+              ],
+              [
+                "Portale dei camerieri",
+                "aom.waiter.branch",
+                "localStorage",
+                "Sede selezionata",
+                "Fino alla cancellazione dei dati del browser"
+              ],
+              [
+                "Portale dei camerieri",
+                "aom.waiter.sound",
+                "localStorage",
+                "Preferenza per il suono delle notifiche",
+                "Fino alla cancellazione dei dati del browser"
+              ],
+              [
+                "Menu per gli ospiti",
+                "aom.guest.access.v1:{menu}",
+                "sessionStorage",
+                "Ricordare che ti sei unito alla sessione al tavolo",
+                "Fino alla chiusura della scheda"
+              ],
+              [
+                "Menu per gli ospiti",
+                "aom.guest.invite-tip.v1:{sede}, aom.guest.order-tip.v1:{sede}",
+                "localStorage",
+                "Ricordare che hai già visto i suggerimenti del menu",
+                "Fino alla cancellazione dei dati del browser"
+              ],
+              [
+                "Sito web",
+                "aom_fbclid",
+                "sessionStorage",
+                "Aggiunge l'identificativo di clic di una visita da un annuncio Meta al link di registrazione",
+                "Fino alla chiusura della scheda"
+              ],
+              [
+                "Pannello delle attività",
+                "aom_fbclid_pending",
+                "sessionStorage",
+                "Conserva l'identificativo di clic di una visita da un annuncio Meta finché non decidi sul consenso; con il consenso diventa il cookie _fbc",
+                "Fino alla chiusura della scheda o alla tua decisione"
+              ]
+            ]
+          }
+        }
       ]
     },
     {
       "id": "third-party",
-      "heading": "6. Contenuti di terze parti",
+      "heading": "7. Contenuti di terze parti",
       "blocks": [
-        { "p": "La mappa mostrata nel selettore di posizione del pannello delle attività viene caricata dai server di OpenStreetMap (openstreetmap.org). Quando la mappa viene visualizzata, il tuo browser si collega a tali server e OpenStreetMap tratta il tuo indirizzo IP e i dati del tuo browser secondo la propria politica. Art of Menu non installa cookie tramite tale collegamento." },
-        { "p": "Gli altri servizi a cui il pannello si collega direttamente dal tuo browser (ad es. traduzione automatica, ricerca di indirizzi, meteo, tassi di cambio) sono descritti nell'[Informativa KVKK per gli utenti delle Attività](doc:privacy-business#recipients). Il menu per gli ospiti non carica contenuti di terze parti." }
+        {
+          "p": "La mappa mostrata nel selettore di posizione del pannello delle attività viene caricata dai server di OpenStreetMap (openstreetmap.org). Quando la mappa viene visualizzata, il tuo browser si collega a tali server e OpenStreetMap tratta il tuo indirizzo IP e i dati del tuo browser secondo la propria politica. Art of Menu non installa cookie tramite tale collegamento."
+        },
+        {
+          "p": "Gli altri servizi a cui il pannello si collega direttamente dal tuo browser (ad es. traduzione automatica, ricerca di indirizzi, meteo, tassi di cambio) sono descritti nell'[Informativa KVKK per gli utenti delle Attività](doc:privacy-business#recipients). Il menu per gli ospiti non carica contenuti di terze parti."
+        }
       ]
     },
     {
       "id": "manage",
-      "heading": "7. Cancellare i cookie e le informazioni memorizzate",
+      "heading": "8. Cancellare i cookie e le informazioni memorizzate",
       "blocks": [
-        { "p": "Puoi cancellare o bloccare i cookie e la memorizzazione del browser tramite l'opzione di cancellazione dei dati dei siti nelle impostazioni del browser. Se i cookie di sessione vengono cancellati, la sessione si chiude e dovrai accedere di nuovo. Se i cookie vengono bloccati, il pannello, il portale dei partner e il portale dei camerieri non funzionano. Il menu per gli ospiti funziona senza cookie; se la memorizzazione del browser viene bloccata, la partecipazione al tavolo potrebbe non essere ricordata quando la scheda viene ricaricata." }
+        {
+          "p": "Puoi cancellare o bloccare i cookie e la memorizzazione del browser tramite l'opzione di cancellazione dei dati dei siti nelle impostazioni del browser. Se i cookie di sessione vengono cancellati, la sessione si chiude e dovrai accedere di nuovo. Se i cookie vengono bloccati, il pannello, il portale dei partner e il portale dei camerieri non funzionano. Il menu per gli ospiti funziona senza cookie; se la memorizzazione del browser viene bloccata, la partecipazione al tavolo potrebbe non essere ricordata quando la scheda viene ricaricata."
+        },
+        {
+          "p": "Puoi revocare il consenso in qualsiasi momento. Il consenso per Meta si modifica dal link «Cookie» nella pagina di accesso e registrazione del pannello o in «Preferenze cookie» nella pagina Account; alla revoca i cookie _fbp e _fbc vengono eliminati. Per revocare il consenso per Google Ads e gli annunci ChatGPT, cancella i dati del sito artofmenu.com nel browser o scrivi a [hello@goktigin.com](mailto:hello@goktigin.com). La revoca non pregiudica il trattamento effettuato prima."
+        }
       ]
     },
     {
       "id": "changes",
-      "heading": "8. Modifiche",
+      "heading": "9. Modifiche",
       "blocks": [
-        { "p": "Qualora in futuro la Società intenda utilizzare un cookie non necessario o una tecnologia simile (ad es. per finalità analitiche o di marketing), aggiornerà la presente politica prima di iniziare a utilizzarlo e, ove necessario, chiederà il tuo consenso. Tali tecnologie non vengono attivate senza il tuo consenso e puoi revocare il consenso prestato in qualsiasi momento." }
+        {
+          "p": "Qualora in futuro la Società intenda utilizzare un cookie non necessario o una tecnologia simile (ad es. per finalità analitiche o di marketing), aggiornerà la presente politica prima di iniziare a utilizzarlo e, ove necessario, chiederà il tuo consenso. Tali tecnologie non vengono attivate senza il tuo consenso e puoi revocare il consenso prestato in qualsiasi momento."
+        }
       ]
     }
   ]
