@@ -136,7 +136,7 @@
   "inv.label": "Parrainez des partenaires",
   "inv.t": "Faites venir un partenaire commercial et gagnez aussi sur ses ventes.",
   "inv.d": "Faites de quelqu’un que vous connaissez un partenaire commercial. Pendant 12 mois, chaque fois qu’un partenaire inscrit grâce à vous réalise une vente, vous touchez 10 % de ce que nous conservons sur cette vente. Rien n’est retiré de ses gains : votre part est versée en plus.",
-  "inv.1": "Environ 1 600 ₺ pour une vente annuelle Smart et environ 870 ₺ pour une vente annuelle Order. Une vente mensuelle Menu ne donne aucune part, car toute la commission revient au partenaire vendeur.",
+  "inv.1": "Environ {smart.ry} pour une vente annuelle Smart et environ {order.ry} pour une vente annuelle Order. Une vente mensuelle Menu ne donne aucune part, car toute la commission revient au partenaire vendeur.",
   "inv.2": "Un seul niveau : rien sur les partenaires qu’il invite. Inviter seul ne rapporte rien ; une part naît uniquement de ventes réelles.",
   "inv.3": "Le code d’invitation ne peut être saisi qu’à l’inscription. Si une vente est remboursée, la part est annulée ; comme les autres commissions, elle devient payable après 37 jours.",
   "faq.9.q": "Que gagné-je si je fais venir d’autres partenaires commerciaux ?",

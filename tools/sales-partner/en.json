@@ -136,7 +136,7 @@
   "inv.label": "Bring partners",
   "inv.t": "Bring a sales partner and earn from their sales too.",
   "inv.d": "Make someone you know a sales partner. For 12 months, every time a partner who signed up through you makes a sale, you earn 10% of what we keep from it. Nothing is taken from their earnings; we pay your share on top.",
-  "inv.1": "About ₺1,600 on a yearly Smart sale and about ₺870 on a yearly Order sale. A monthly Menu sale gives no share, as its whole commission goes to the selling partner.",
+  "inv.1": "About {smart.ry} on a yearly Smart sale and about {order.ry} on a yearly Order sale. A monthly Menu sale gives no share, as its whole commission goes to the selling partner.",
   "inv.2": "One level only: nothing from the partners they invite. Inviting alone earns nothing; a share only comes from real sales.",
   "inv.3": "The invitation code can only be entered at sign-up. If a sale is refunded, the share is cancelled; like other commissions it becomes payable after 37 days.",
   "faq.9.q": "What do I earn if I bring other sales partners?",

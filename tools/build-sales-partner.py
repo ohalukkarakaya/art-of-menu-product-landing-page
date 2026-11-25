@@ -4,7 +4,7 @@
 Only writes the partner landing pages, not the main site or sitemap. The /sales-partner/
 entry point is a separate, language-detecting static file.
 
-In the strings, {plan.kind} (menu|order|smart . pm|py|cm|cy) becomes an amount that
+In the strings, {plan.kind} (menu|order|smart . pm|py|cm|cy|ry) becomes an amount that
 assets/seo/partner.js keeps in the visitor's currency; the page's own currency is written
 in statically so the page reads right without script.
 """
@@ -38,6 +38,8 @@ YEARLY = {"TRY": {"menu": 665, "order": 1033.45, "smart": 3388.14},
           "USD": {"menu": 20, "order": 36.21, "smart": 116.95}}
 SHARE = {"menu": 1, "order": 0.5, "smart": 0.5}
 NET, STEP = 0.97 / 1.2, {"TRY": 5, "EUR": 1, "USD": 1}
+# Partner-brings-partner: 10% of what we keep from a yearly sale (net price minus the fixed commission).
+REFERRAL, REF_STEP = 0.10, {"TRY": 10, "EUR": 1, "USD": 1}
 
 
 def amount(key, cur):
@@ -49,6 +51,9 @@ def amount(key, cur):
     if kind == "cm":
         s = STEP[cur]
         return round(PRICES[cur][plan][0] * NET * SHARE[plan] / s) * s
+    if kind == "ry":
+        s = REF_STEP[cur]
+        return round((PRICES[cur][plan][1] * NET - YEARLY[cur][plan]) * REFERRAL / s) * s
     return YEARLY[cur][plan]
 
 
@@ -67,7 +72,7 @@ def money(v, cur, lang):
 
 def fill(text, lang):
     cur = PAGE_CUR[lang]
-    return re.sub(r"\{(menu|order|smart)\.(pm|py|cm|cy)\}",
+    return re.sub(r"\{(menu|order|smart)\.(pm|py|cm|cy|ry)\}",
                   lambda m: f'<span data-amt="{m[1]}.{m[2]}">{money(amount(m[1] + "." + m[2], cur), cur, lang)}</span>', text)
 
 

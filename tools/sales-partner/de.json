@@ -136,7 +136,7 @@
   "inv.label": "Partner einladen",
   "inv.t": "Lade Vertriebspartner ein und verdiene an ihren Verkäufen mit.",
   "inv.d": "Mach jemanden zum Vertriebspartner. 12 Monate lang erhältst du bei jedem Verkauf eines über dich registrierten Partners 10 % dessen, was uns davon bleibt. Von seinem Verdienst wird nichts abgezogen; deinen Anteil zahlen wir zusätzlich.",
-  "inv.1": "Etwa 1.600 ₺ bei einem jährlichen Smart-Verkauf, etwa 870 ₺ bei Order jährlich. Ein monatlicher Menu-Verkauf bringt keinen Anteil, da die ganze Provision an den verkaufenden Partner geht.",
+  "inv.1": "Etwa {smart.ry} bei einem jährlichen Smart-Verkauf, etwa {order.ry} bei Order jährlich. Ein monatlicher Menu-Verkauf bringt keinen Anteil, da die ganze Provision an den verkaufenden Partner geht.",
   "inv.2": "Nur eine Stufe: nichts von den Partnern, die er einlädt. Einladen allein bringt nichts; ein Anteil entsteht nur aus echten Verkäufen.",
   "inv.3": "Der Einladungscode kann nur bei der Anmeldung eingegeben werden. Bei Erstattung entfällt der Anteil; wie andere Provisionen ist er nach 37 Tagen zahlbar.",
   "faq.9.q": "Was verdiene ich, wenn ich weitere Vertriebspartner einlade?",

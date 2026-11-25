@@ -136,7 +136,7 @@
   "inv.label": "Trae socios",
   "inv.t": "Trae a un socio comercial y gana también con sus ventas.",
   "inv.d": "Convierte a alguien que conoces en socio comercial. Durante 12 meses, cada vez que un socio registrado por tu invitación haga una venta, ganas el 10 % de lo que nosotros conservamos de ella. No se descuenta nada de sus ganancias; tu parte la pagamos aparte.",
-  "inv.1": "Unos 1.600 ₺ por una venta anual de Smart y unos 870 ₺ por una anual de Order. Una venta mensual de Menu no genera participación, porque toda la comisión va al socio que vende.",
+  "inv.1": "Unos {smart.ry} por una venta anual de Smart y unos {order.ry} por una anual de Order. Una venta mensual de Menu no genera participación, porque toda la comisión va al socio que vende.",
   "inv.2": "Un solo nivel: nada por los socios que él invite. Invitar por sí solo no genera ingresos; la participación nace solo de ventas reales.",
   "inv.3": "El código de invitación solo se introduce al registrarse. Si una venta se reembolsa, la participación se anula; como las demás comisiones, es pagadera a los 37 días.",
   "faq.9.q": "¿Qué gano si traigo a otros socios comerciales?",

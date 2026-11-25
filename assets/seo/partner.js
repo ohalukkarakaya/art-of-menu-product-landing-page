@@ -21,6 +21,8 @@
   // A monthly commission is an estimate: the price less 20% tax and about 3% card fee.
   var NET = 0.97 / 1.2;
   var STEP = { TRY: 5, EUR: 1, USD: 1 };
+  // Partner-brings-partner: 10% of what we keep from a yearly sale (net price minus the fixed commission).
+  var REFERRAL = 0.10, REF_STEP = { TRY: 10, EUR: 1, USD: 1 };
 
   var EUROPE = ("AD AL AT BA BE BG BY CH CY CZ DE DK EE ES FI FO FR GB GI GR HR HU IE IS IT LI LT LU LV " +
     "MC MD ME MK MT NL NO PL PT RO RS SE SI SK SM UA VA XK").split(" ");
@@ -62,6 +64,7 @@
     if (kind === "pm") return PRICES[cur][plan][0];
     if (kind === "py") return PRICES[cur][plan][1];
     if (kind === "cm") return monthlyCut(plan, cur);
+    if (kind === "ry") return Math.round((PRICES[cur][plan][1] * NET - YEARLY[cur][plan]) * REFERRAL / REF_STEP[cur]) * REF_STEP[cur];
     return YEARLY[cur][plan];
   }
 
