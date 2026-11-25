@@ -116,6 +116,7 @@
   document.getElementById("meta-desc").setAttribute("content", T["meta.desc"]);
   document.querySelectorAll("[data-t]").forEach(function (el) { el.textContent = T[el.dataset.t]; });
   document.querySelectorAll("[data-t-aria]").forEach(function (el) { el.setAttribute("aria-label", T[el.dataset.tAria]); });
+  document.querySelectorAll("[data-t-href]").forEach(function (el) { if (T[el.dataset.tHref]) el.setAttribute("href", T[el.dataset.tHref]); });
   if (window.AOM_PRICING) window.AOM_PRICING.init(document.getElementById("plans"), lang, function (k) { return T[k]; });
   document.getElementById("sc-items").textContent = T["ph.items"].replace("{n}", "2");
   // the phone's language chips: the guest's own language first, then the two most common others

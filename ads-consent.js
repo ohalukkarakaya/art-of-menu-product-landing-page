@@ -214,3 +214,25 @@
   if (consent() === 'yes') load();
   else if (consent() === null && fbclid) banner();
 }());
+
+/* Visitor count for the Super Admin's funnel: one anonymous "landing" visit.
+ * No cookie, no storage, no identifier: the server counts one visit per person
+ * per day from a daily-changing keyed hash and keeps no IP. Only the ad
+ * platform the click came from is sent, read from this page's own address. */
+(function () {
+  try {
+    var q = new URLSearchParams(location.search);
+    var source = q.has('fbclid') ? 'meta'
+      : (q.has('gclid') || q.has('gbraid') || q.has('wbraid') || q.has('gad_source')) ? 'google'
+      : q.has('oppref') ? 'chatgpt'
+      : (q.has('utm_source') || (document.referrer && new URL(document.referrer).hostname.indexOf('artofmenu.com') === -1)) ? 'other'
+      : 'direct';
+    var url = /^localhost$|^127\.0\.0\.1$/.test(location.hostname)
+      ? 'http://127.0.0.1:8080/api/v1/visits'
+      : 'https://app.artofmenu.com/api/v1/visits';
+    var body = JSON.stringify({ stage: 'landing', source: source });
+    // text/plain keeps it a simple request: no preflight, nothing to wait for.
+    if (!(navigator.sendBeacon && navigator.sendBeacon(url, new Blob([body], { type: 'text/plain' }))))
+      fetch(url, { method: 'POST', body: body, mode: 'no-cors', keepalive: true, credentials: 'omit' }).catch(function () {});
+  } catch (e) { /* counting must never break the page */ }
+}());

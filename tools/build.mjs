@@ -403,6 +403,8 @@ function langHome(src, l, root = false) {
     return typeof v === "string" ? open + esc(v) + close : m;
   });
   html = html.replace(/(\saria-label=")[^"]*("[^>]*?\sdata-t-aria="([^"]+)")/g, (m, a, b, key) => (typeof t(key) === "string" ? a + esc(t(key)) + b : m));
+  // links whose target depends on the language (the sales partner page)
+  html = html.replace(/(\shref=")[^"]*("[^>]*?\sdata-t-href="([^"]+)")/g, (m, a, b, key) => (typeof t(key) === "string" ? a + esc(t(key)) + b : m));
   // the root, the language-neutral entry, gets a title of its own so it never duplicates /en/
   const title = root ? "ArtOfMenu · " + t("meta.title").replace(/\s*\|\s*ArtOfMenu$/, "") : t("meta.title");
   html = html.replace(/<title>[\s\S]*?<\/title>/, `<title>${esc(title)}</title>`);
